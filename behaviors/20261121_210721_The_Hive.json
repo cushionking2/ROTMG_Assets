@@ -1,0 +1,216 @@
+{
+ "file": "20261121_210721_The_Hive.events.jsonl",
+ "ticks": 270,
+ "enemies": {
+  "Fat Bee": {
+   "count": 4,
+   "max_hp": 250.0,
+   "speed_tiles_per_s": 6.24,
+   "moving_fraction": 0.97,
+   "shots": {}
+  },
+  "Small Bee": {
+   "count": 53,
+   "max_hp": 125,
+   "speed_tiles_per_s": 6.66,
+   "moving_fraction": 0.87,
+   "shots": {
+    "0": {
+     "count": 249,
+     "num_shots": {
+      "255": 249
+     },
+     "angle_inc": {
+      "0.0": 249
+     },
+     "damage": 30,
+     "interval_s": 1.01,
+     "interval_min_s": 0.8,
+     "hp_fraction_range": [
+      1.0,
+      1.0
+     ]
+    }
+   }
+  },
+  "Larva": {
+   "count": 43,
+   "max_hp": 200,
+   "speed_tiles_per_s": 4.85,
+   "moving_fraction": 0.9,
+   "shots": {
+    "0": {
+     "count": 38,
+     "num_shots": {
+      "255": 38
+     },
+     "angle_inc": {
+      "0.0": 38
+     },
+     "damage": 30.0,
+     "interval_s": 1.02,
+     "interval_min_s": 1.0,
+     "hp_fraction_range": [
+      1.0,
+      1.0
+     ]
+    }
+   }
+  },
+  "Fat Angry Bee": {
+   "count": 16,
+   "max_hp": 250.0,
+   "speed_tiles_per_s": 4.1,
+   "moving_fraction": 0.92,
+   "shots": {
+    "0": {
+     "count": 8,
+     "num_shots": {
+      "255": 8
+     },
+     "angle_inc": {
+      "0.0": 8
+     },
+     "damage": 35.0,
+     "interval_s": null,
+     "interval_min_s": null,
+     "hp_fraction_range": [
+      1.0,
+      1.0
+     ]
+    }
+   }
+  },
+  "TH Maggot Egg3": {
+   "count": 12,
+   "max_hp": 120.0,
+   "speed_tiles_per_s": null,
+   "moving_fraction": null,
+   "shots": {}
+  },
+  "TH Maggot Egg1": {
+   "count": 9,
+   "max_hp": 120,
+   "speed_tiles_per_s": null,
+   "moving_fraction": null,
+   "shots": {}
+  },
+  "TH Maggot Egg2": {
+   "count": 4,
+   "max_hp": 120.0,
+   "speed_tiles_per_s": null,
+   "moving_fraction": null,
+   "shots": {}
+  },
+  "TH Mini Hive": {
+   "count": 3,
+   "max_hp": 120,
+   "speed_tiles_per_s": null,
+   "moving_fraction": null,
+   "shots": {}
+  },
+  "Queen Bee": {
+   "count": 1,
+   "max_hp": 2625,
+   "speed_tiles_per_s": 4.93,
+   "moving_fraction": 0.94,
+   "shots": {
+    "0": {
+     "count": 2,
+     "num_shots": {
+      "8": 2
+     },
+     "angle_inc": {
+      "0.785": 2
+     },
+     "damage": 50.0,
+     "interval_s": 3.02,
+     "interval_min_s": 3.02,
+     "hp_fraction_range": [
+      0.86,
+      1.0
+     ]
+    },
+    "1": {
+     "count": 6,
+     "num_shots": {
+      "3": 6
+     },
+     "angle_inc": {
+      "0.611": 6
+     },
+     "damage": 70.0,
+     "interval_s": 0.6,
+     "interval_min_s": 0.6,
+     "hp_fraction_range": [
+      0.28,
+      0.42
+     ]
+    }
+   }
+  }
+ },
+ "text": {},
+ "notifications": {
+  "{\"k\":\"s.plus_symbol\",\"t\":{\"amount\":\"29\",}}": 15,
+  "{\"k\":\"s.plus_symbol\",\"t\":{\"amount\":\"4\",}}": 2,
+  "null": 2,
+  "giftChestOccupied": 1,
+  "{\"k\":\"s.plus_symbol\",\"t\":{\"amount\":\"15\",}}": 1,
+  "{\"k\":\"s.plus_symbol\",\"t\":{\"amount\":\"48\",}}": 1,
+  "{\"k\":\"s.quest_complete\"}": 1,
+  "{\"k\":\"s.plus_symbol\",\"t\":{\"amount\":\"17\",}}": 1
+ },
+ "teleports": {},
+ "loot_bags": [
+  [
+   "Loot Bag: [2769, 3145]",
+   4
+  ],
+  [
+   "Loot Bag: [284, 6142]",
+   4
+  ],
+  [
+   "Loot Bag: [284]",
+   2
+  ],
+  [
+   "Loot Bag: [2715]",
+   1
+  ],
+  [
+   "Loot Bag: [2576]",
+   1
+  ],
+  [
+   "Loot Bag: [3144]",
+   1
+  ]
+ ],
+ "portals": [
+  [
+   "Portal of Cowardice",
+   []
+  ],
+  [
+   "Realm Portal",
+   []
+  ],
+  [
+   "Portal of Cowardice",
+   []
+  ],
+  [
+   "Realm Portal",
+   []
+  ],
+  [
+   "Realm Portal",
+   []
+  ]
+ ],
+ "quest_targets": [
+  "Queen Bee"
+ ]
+}

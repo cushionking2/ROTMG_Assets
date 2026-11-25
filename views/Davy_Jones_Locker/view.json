@@ -1,0 +1,468 @@
+{
+"dungeon": "Davy_Jones_Locker",
+"sources": [
+"ghostShip"
+],
+"counts": {
+"enemies": 14,
+"props": 8,
+"helpers": 6,
+"projectiles": 14,
+"loot": 5
+},
+"why": {
+"src": 27,
+"spec": 1,
+"proj": 14,
+"loot": 5
+},
+"tile_hints_used": {},
+"names_in_own_files": [
+"Davy Jones",
+"Ghost of Roger",
+"Lost Soul",
+"Lil' Ghost Pirate",
+"Ghost Pirate Sr",
+"Zombie Pirate Sr",
+"Zombie Pirate Jr",
+"School of Ghostfish",
+"Ghost Ship Rat",
+"Violent Spirit",
+"Ghost Lantern"
+],
+"names_in_other_files": [
+[
+"Sunken Treasure",
+[
+"ghostShip",
+"heroes_2"
+]
+]
+],
+"names_not_found": [],
+"entries": [
+{
+"id": "Davy Jones",
+"type": "0x0e32",
+"src": "ghostShip",
+"category": "enemy",
+"sub": "boss",
+"why": "src",
+"file": "enemies/boss/Davy Jones__0e32.png"
+},
+{
+"id": "Captain Summoner",
+"type": "0x0e2d",
+"src": "ghostShip",
+"category": "prop",
+"sub": "ghostShip",
+"why": "src",
+"file": "props/all/Captain Summoner__0e2d.png"
+},
+{
+"id": "Ghost Pirate Sr",
+"type": "0x0e50",
+"src": "ghostShip",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Ghost Pirate Sr__0e50.png"
+},
+{
+"id": "Ghost Lanturn On",
+"type": "0x0e36",
+"src": "ghostShip",
+"category": "helper",
+"sub": "other",
+"why": "src",
+"file": "helpers/other/Ghost Lanturn On__0e36.png"
+},
+{
+"id": "Ghost Lanturn Off",
+"type": "0x0e35",
+"src": "ghostShip",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Ghost Lanturn Off__0e35.png"
+},
+{
+"id": "Yellow Key",
+"type": "0x0e41",
+"src": "ghostShip",
+"category": "helper",
+"sub": "other",
+"why": "src",
+"file": "helpers/other/Yellow Key__0e41.png"
+},
+{
+"id": "Red Key",
+"type": "0x0e40",
+"src": "ghostShip",
+"category": "helper",
+"sub": "other",
+"why": "src",
+"file": "helpers/other/Red Key__0e40.png"
+},
+{
+"id": "Green Key",
+"type": "0x0e3f",
+"src": "ghostShip",
+"category": "helper",
+"sub": "other",
+"why": "src",
+"file": "helpers/other/Green Key__0e3f.png"
+},
+{
+"id": "Purple Key",
+"type": "0x0e3e",
+"src": "ghostShip",
+"category": "helper",
+"sub": "other",
+"why": "src",
+"file": "helpers/other/Purple Key__0e3e.png"
+},
+{
+"id": "Yellow Opener",
+"type": "0x0e2e",
+"src": "ghostShip",
+"category": "prop",
+"sub": "ghostShip",
+"why": "src",
+"file": "props/all/Yellow Opener__0e2e.png"
+},
+{
+"id": "Red Opener",
+"type": "0x0e30",
+"src": "ghostShip",
+"category": "prop",
+"sub": "ghostShip",
+"why": "src",
+"file": "props/all/Red Opener__0e30.png"
+},
+{
+"id": "Green Opener",
+"type": "0x0e33",
+"src": "ghostShip",
+"category": "prop",
+"sub": "ghostShip",
+"why": "src",
+"file": "props/all/Green Opener__0e33.png"
+},
+{
+"id": "Purple Opener",
+"type": "0x0e34",
+"src": "ghostShip",
+"category": "prop",
+"sub": "ghostShip",
+"why": "src",
+"file": "props/all/Purple Opener__0e34.png"
+},
+{
+"id": "VDoor",
+"type": "0x0e4a",
+"src": "ghostShip",
+"category": "prop",
+"sub": "ghostShip",
+"why": "src",
+"file": "props/all/VDoor__0e4a.png"
+},
+{
+"id": "HDoor",
+"type": "0x0e49",
+"src": "ghostShip",
+"category": "prop",
+"sub": "ghostShip",
+"why": "src",
+"file": "props/all/HDoor__0e49.png"
+},
+{
+"id": "Violent Spirit",
+"type": "0x0e3a",
+"src": "ghostShip",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Violent Spirit__0e3a.png"
+},
+{
+"id": "Lost Soul",
+"type": "0x0e48",
+"src": "ghostShip",
+"category": "helper",
+"sub": "other",
+"why": "src",
+"file": "helpers/other/Lost Soul__0e48.png"
+},
+{
+"id": "Ghost of Roger",
+"type": "0x0e45",
+"src": "ghostShip",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Ghost of Roger__0e45.png"
+},
+{
+"id": "Maggot Sack",
+"type": "0x0e47",
+"src": "ghostShip",
+"category": "prop",
+"sub": "ghostShip",
+"why": "src",
+"file": "props/all/Maggot Sack__0e47.png"
+},
+{
+"id": "Maggot",
+"type": "0x0e46",
+"src": "ghostShip",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Maggot__0e46.png"
+},
+{
+"id": "School of Ghostfish",
+"type": "0x0e44",
+"src": "ghostShip",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/School of Ghostfish__0e44.png"
+},
+{
+"id": "Zombie Pirate Sr",
+"type": "0x0e43",
+"src": "ghostShip",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Zombie Pirate Sr__0e43.png"
+},
+{
+"id": "HZombie Pirate Sr",
+"type": "0x7308",
+"src": "ghostShip",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/HZombie Pirate Sr__7308.png"
+},
+{
+"id": "Zombie Pirate Jr",
+"type": "0x0e42",
+"src": "ghostShip",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Zombie Pirate Jr__0e42.png"
+},
+{
+"id": "Lil' Ghost Pirate",
+"type": "0x0e31",
+"src": "ghostShip",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Lil_ Ghost Pirate__0e31.png"
+},
+{
+"id": "GhostShip Rat",
+"type": "0x0e2f",
+"src": "ghostShip",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/GhostShip Rat__0e2f.png"
+},
+{
+"id": "Sunken Treasure",
+"type": "0x6da1",
+"src": "ghostShip",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Sunken Treasure__6da1.png"
+},
+{
+"id": "Shipwreck Sunken Treasure",
+"type": "0x86d7",
+"src": "heroes_2",
+"category": "enemy",
+"sub": "event_boss",
+"why": "spec",
+"file": "enemies/event_boss/Shipwreck Sunken Treasure__86d7.png"
+},
+{
+"id": "Ghost Boss Slash",
+"type": "0x00dc",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Ghost Boss Slash__00dc.png"
+},
+{
+"id": "Ghost Boss Spinner",
+"type": "0x00de",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Ghost Boss Spinner__00de.png"
+},
+{
+"id": "Ghost Sr Slash",
+"type": "0x00dd",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Ghost Sr Slash__00dd.png"
+},
+{
+"id": "Lanturn Blast",
+"type": "0x00d2",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Lanturn Blast__00d2.png"
+},
+{
+"id": "Ghostly Arrow",
+"type": "0x00e0",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Ghostly Arrow__00e0.png"
+},
+{
+"id": "Spirit Bolt",
+"type": "0x00db",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Spirit Bolt__00db.png"
+},
+{
+"id": "Roger Blast",
+"type": "0x00d9",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Roger Blast__00d9.png"
+},
+{
+"id": "Skull Bolt",
+"type": "0x00e4",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Skull Bolt__00e4.png"
+},
+{
+"id": "Invisible",
+"type": "0x0096",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Invisible__0096.png"
+},
+{
+"id": "Fish Shot",
+"type": "0x00d8",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Fish Shot__00d8.png"
+},
+{
+"id": "Zombie Shot",
+"type": "0x00d7",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Zombie Shot__00d7.png"
+},
+{
+"id": "Ghost Swipe",
+"type": "0x00d1",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Ghost Swipe__00d1.png"
+},
+{
+"id": "Rat Tail",
+"type": "0x00d0",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Rat Tail__00d0.png"
+},
+{
+"id": "Bilgewater Coin Gold",
+"type": "0xb5d3",
+"src": "deadwaterDocksObjects",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Bilgewater Coin Gold__b5d3.png"
+},
+{
+"id": "Captain's Ring",
+"type": "0xc27",
+"src": "equip",
+"category": "ring",
+"sub": "all",
+"why": "loot",
+"file": "loot/ring/Captain_s Ring__c27.png"
+},
+{
+"id": "Spectral Cloth Armor",
+"type": "0xc28",
+"src": "equip",
+"category": "armor",
+"sub": "leather",
+"why": "loot",
+"file": "loot/armor/Spectral Cloth Armor__c28.png"
+},
+{
+"id": "Spirit Dagger",
+"type": "0xc29",
+"src": "equip",
+"category": "weapon",
+"sub": "dagger",
+"why": "loot",
+"file": "loot/weapon_dagger/Spirit Dagger__c29.png"
+},
+{
+"id": "Ghostly Prism",
+"type": "0xc2a",
+"src": "equip",
+"category": "ability",
+"sub": "all",
+"why": "loot",
+"file": "loot/ability/Ghostly Prism__c2a.png"
+},
+{
+"id": "Quartermaster Scabbard",
+"type": "0x39e4",
+"src": "equip",
+"category": "ability",
+"sub": "all",
+"why": "loot",
+"file": "loot/ability/Quartermaster Scabbard__39e4.png"
+}
+]
+}

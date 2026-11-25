@@ -1,0 +1,1012 @@
+{
+"dungeon": "Crawling_Depths",
+"sources": [
+"epicspiderDen"
+],
+"counts": {
+"projectiles": 29,
+"npcs": 6,
+"enemies": 24,
+"helpers": 18,
+"props": 13,
+"walls": 4,
+"tiles": 1,
+"loot": 7
+},
+"why": {
+"src": 66,
+"spec": 15,
+"proj": 13,
+"loot": 7,
+"wall": 1
+},
+"tile_hints_used": {
+"cave walls": 1
+},
+"names_in_own_files": [
+"Crawling Depths Egg Sac",
+"Crawling Spider Hatchling",
+"Crawling Hunter Spider",
+"Crawling Green Spider",
+"Crawling Weaver Spider",
+"Crawling Red Spotted Spider",
+"Crawling Creeper Spider",
+"Crawling Grey Spider",
+"Crawling Stalker Spider",
+"Crawling Grey Spotted Spider",
+"Crawling Goliath Spider",
+"Blue Son of Arachna Giant Egg Sac",
+"Green Son of Arachna Giant Egg Sac",
+"Red Son of Arachna Giant Egg Sac",
+"Silver Son of Arachna Giant Egg Sac",
+"Son of Arachna",
+"Glowing Egg"
+],
+"names_in_other_files": [
+[
+"Arachna Element",
+[
+"epicspiderDen",
+"spiderDenObjects"
+]
+],
+[
+"Spider Dirt Web",
+[
+"spiderDenGround"
+]
+],
+[
+"Sting Spider",
+[
+"mountains",
+"veteran"
+]
+],
+[
+"Blood Hound",
+[
+"veteran"
+]
+],
+[
+"Spore Spreader",
+[
+"veteran"
+]
+],
+[
+"Critter Brood",
+[
+"heroes_2"
+]
+]
+],
+"names_not_found": [
+{
+"name": "Legion Lead Strategist",
+"suggestions": [],
+"suggestion_in_own_files": false
+}
+],
+"entries": [
+{
+"id": "Doku Slash",
+"type": "0x25df",
+"src": "epicspiderDen",
+"category": "projectile",
+"sub": "all",
+"why": "src",
+"file": "projectiles/all/Doku Slash__25df.png"
+},
+{
+"id": "Venom Spike",
+"type": "0x25f3",
+"src": "epicspiderDen",
+"category": "projectile",
+"sub": "all",
+"why": "src",
+"file": "projectiles/all/Venom Spike__25f3.png"
+},
+{
+"id": "Venom Blob",
+"type": "0x25f4",
+"src": "epicspiderDen",
+"category": "projectile",
+"sub": "all",
+"why": "src",
+"file": "projectiles/all/Venom Blob__25f4.png"
+},
+{
+"id": "Venom Bolt",
+"type": "0x25f5",
+"src": "epicspiderDen",
+"category": "projectile",
+"sub": "all",
+"why": "src",
+"file": "projectiles/all/Venom Bolt__25f5.png"
+},
+{
+"id": "Web Sling",
+"type": "0x25f6",
+"src": "epicspiderDen",
+"category": "projectile",
+"sub": "all",
+"why": "src",
+"file": "projectiles/all/Web Sling__25f6.png"
+},
+{
+"id": "White Spider Spike",
+"type": "0x25f7",
+"src": "epicspiderDen",
+"category": "projectile",
+"sub": "all",
+"why": "src",
+"file": "projectiles/all/White Spider Spike__25f7.png"
+},
+{
+"id": "Yellow Spider Bolt",
+"type": "0x25f8",
+"src": "epicspiderDen",
+"category": "projectile",
+"sub": "all",
+"why": "src",
+"file": "projectiles/all/Yellow Spider Bolt__25f8.png"
+},
+{
+"id": "Blue Spider Blob",
+"type": "0x25f9",
+"src": "epicspiderDen",
+"category": "projectile",
+"sub": "all",
+"why": "src",
+"file": "projectiles/all/Blue Spider Blob__25f9.png"
+},
+{
+"id": "Red Spider Star",
+"type": "0x25fa",
+"src": "epicspiderDen",
+"category": "projectile",
+"sub": "all",
+"why": "src",
+"file": "projectiles/all/Red Spider Star__25fa.png"
+},
+{
+"id": "White Spider Blast",
+"type": "0x25fb",
+"src": "epicspiderDen",
+"category": "projectile",
+"sub": "all",
+"why": "src",
+"file": "projectiles/all/White Spider Blast__25fb.png"
+},
+{
+"id": "Red Spider Bite",
+"type": "0xc038",
+"src": "epicspiderDen",
+"category": "projectile",
+"sub": "all",
+"why": "src",
+"file": "projectiles/all/Red Spider Bite__c038.png"
+},
+{
+"id": "Yellow Spider Bite",
+"type": "0xc039",
+"src": "epicspiderDen",
+"category": "projectile",
+"sub": "all",
+"why": "src",
+"file": "projectiles/all/Yellow Spider Bite__c039.png"
+},
+{
+"id": "Blue Spider Bite",
+"type": "0xc03a",
+"src": "epicspiderDen",
+"category": "projectile",
+"sub": "all",
+"why": "src",
+"file": "projectiles/all/Blue Spider Bite__c03a.png"
+},
+{
+"id": "Green Spider Bite",
+"type": "0xc03b",
+"src": "epicspiderDen",
+"category": "projectile",
+"sub": "all",
+"why": "src",
+"file": "projectiles/all/Green Spider Bite__c03b.png"
+},
+{
+"id": "Pink Spider Bite",
+"type": "0xc03c",
+"src": "epicspiderDen",
+"category": "projectile",
+"sub": "all",
+"why": "src",
+"file": "projectiles/all/Pink Spider Bite__c03c.png"
+},
+{
+"id": "Arachna Star",
+"type": "0x2702",
+"src": "epicspiderDen",
+"category": "projectile",
+"sub": "all",
+"why": "src",
+"file": "projectiles/all/Arachna Star__2702.png"
+},
+{
+"id": "Epic Spider Summoner",
+"type": "0x189b",
+"src": "epicspiderDen",
+"category": "npc",
+"sub": "all",
+"why": "src",
+"file": "npcs/all/Epic Spider Summoner__189b.png"
+},
+{
+"id": "Blue Egg Summoner",
+"type": "0x708f",
+"src": "epicspiderDen",
+"category": "npc",
+"sub": "all",
+"why": "src",
+"file": "npcs/all/Blue Egg Summoner__708f.png"
+},
+{
+"id": "Red Egg Summoner",
+"type": "0x709a",
+"src": "epicspiderDen",
+"category": "npc",
+"sub": "all",
+"why": "src",
+"file": "npcs/all/Red Egg Summoner__709a.png"
+},
+{
+"id": "Silver Egg Summoner",
+"type": "0x709b",
+"src": "epicspiderDen",
+"category": "npc",
+"sub": "all",
+"why": "src",
+"file": "npcs/all/Silver Egg Summoner__709b.png"
+},
+{
+"id": "Green Egg Summoner",
+"type": "0x709c",
+"src": "epicspiderDen",
+"category": "npc",
+"sub": "all",
+"why": "src",
+"file": "npcs/all/Green Egg Summoner__709c.png"
+},
+{
+"id": "Crawling Depths Egg Sac",
+"type": "0x701a",
+"src": "epicspiderDen",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Crawling Depths Egg Sac__701a.png"
+},
+{
+"id": "Crawling Spider Hatchling",
+"type": "0x701b",
+"src": "epicspiderDen",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Crawling Spider Hatchling__701b.png"
+},
+{
+"id": "Crawling Grey Spider",
+"type": "0x701c",
+"src": "epicspiderDen",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Crawling Grey Spider__701c.png"
+},
+{
+"id": "Crawling Red Spotted Spider",
+"type": "0x701d",
+"src": "epicspiderDen",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Crawling Red Spotted Spider__701d.png"
+},
+{
+"id": "Crawling Grey Spotted Spider",
+"type": "0x701e",
+"src": "epicspiderDen",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Crawling Grey Spotted Spider__701e.png"
+},
+{
+"id": "Crawling Green Spider",
+"type": "0x701f",
+"src": "epicspiderDen",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Crawling Green Spider__701f.png"
+},
+{
+"id": "Crawling Hunter Spider",
+"type": "0x25ee",
+"src": "epicspiderDen",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Crawling Hunter Spider__25ee.png"
+},
+{
+"id": "Crawling Weaver Spider",
+"type": "0x25ef",
+"src": "epicspiderDen",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Crawling Weaver Spider__25ef.png"
+},
+{
+"id": "Crawling Creeper Spider",
+"type": "0x25f0",
+"src": "epicspiderDen",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Crawling Creeper Spider__25f0.png"
+},
+{
+"id": "Crawling Stalker Spider",
+"type": "0x25f1",
+"src": "epicspiderDen",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Crawling Stalker Spider__25f1.png"
+},
+{
+"id": "Crawling Goliath Spider",
+"type": "0x25f2",
+"src": "epicspiderDen",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Crawling Goliath Spider__25f2.png"
+},
+{
+"id": "Glowing Egg",
+"type": "0x272",
+"src": "epicspiderDen",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Glowing Egg__272.png"
+},
+{
+"id": "Glowing Egg 2",
+"type": "0xc03d",
+"src": "epicspiderDen",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Glowing Egg 2__c03d.png"
+},
+{
+"id": "Glowing Egg 3",
+"type": "0xc03e",
+"src": "epicspiderDen",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Glowing Egg 3__c03e.png"
+},
+{
+"id": "Son of Arachna",
+"type": "0x702a",
+"src": "epicspiderDen",
+"category": "enemy",
+"sub": "boss",
+"why": "src",
+"file": "enemies/boss/Son of Arachna__702a.png"
+},
+{
+"id": "Silver Son of Arachna Giant Egg Sac",
+"type": "0x707d",
+"src": "epicspiderDen",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Silver Son of Arachna Giant Egg Sac__707d.png"
+},
+{
+"id": "Red Son of Arachna Giant Egg Sac",
+"type": "0x707e",
+"src": "epicspiderDen",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Red Son of Arachna Giant Egg Sac__707e.png"
+},
+{
+"id": "Blue Son of Arachna Giant Egg Sac",
+"type": "0x707f",
+"src": "epicspiderDen",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Blue Son of Arachna Giant Egg Sac__707f.png"
+},
+{
+"id": "Green Son of Arachna Giant Egg Sac",
+"type": "0x708a",
+"src": "epicspiderDen",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Green Son of Arachna Giant Egg Sac__708a.png"
+},
+{
+"id": "Epic Arachna Web Spoke 1",
+"type": "0x702b",
+"src": "epicspiderDen",
+"category": "helper",
+"sub": "other",
+"why": "src",
+"file": "helpers/other/Epic Arachna Web Spoke 1__702b.png"
+},
+{
+"id": "Epic Arachna Web Spoke 2",
+"type": "0x702c",
+"src": "epicspiderDen",
+"category": "helper",
+"sub": "other",
+"why": "src",
+"file": "helpers/other/Epic Arachna Web Spoke 2__702c.png"
+},
+{
+"id": "Epic Arachna Web Spoke 3",
+"type": "0x702d",
+"src": "epicspiderDen",
+"category": "helper",
+"sub": "other",
+"why": "src",
+"file": "helpers/other/Epic Arachna Web Spoke 3__702d.png"
+},
+{
+"id": "Epic Arachna Web Spoke 4",
+"type": "0x702e",
+"src": "epicspiderDen",
+"category": "helper",
+"sub": "other",
+"why": "src",
+"file": "helpers/other/Epic Arachna Web Spoke 4__702e.png"
+},
+{
+"id": "Epic Arachna Web Spoke 5",
+"type": "0x702f",
+"src": "epicspiderDen",
+"category": "helper",
+"sub": "other",
+"why": "src",
+"file": "helpers/other/Epic Arachna Web Spoke 5__702f.png"
+},
+{
+"id": "Epic Arachna Web Spoke 6",
+"type": "0x703a",
+"src": "epicspiderDen",
+"category": "helper",
+"sub": "other",
+"why": "src",
+"file": "helpers/other/Epic Arachna Web Spoke 6__703a.png"
+},
+{
+"id": "Epic Arachna Web Spoke 7",
+"type": "0x703b",
+"src": "epicspiderDen",
+"category": "helper",
+"sub": "other",
+"why": "src",
+"file": "helpers/other/Epic Arachna Web Spoke 7__703b.png"
+},
+{
+"id": "Epic Arachna Web Spoke 8",
+"type": "0x703c",
+"src": "epicspiderDen",
+"category": "helper",
+"sub": "other",
+"why": "src",
+"file": "helpers/other/Epic Arachna Web Spoke 8__703c.png"
+},
+{
+"id": "Epic Arachna Web Spoke 9",
+"type": "0x703d",
+"src": "epicspiderDen",
+"category": "helper",
+"sub": "other",
+"why": "src",
+"file": "helpers/other/Epic Arachna Web Spoke 9__703d.png"
+},
+{
+"id": "Crawling Skitter Spider",
+"type": "0x25ed",
+"src": "epicspiderDen",
+"category": "npc",
+"sub": "all",
+"why": "src",
+"file": "npcs/all/Crawling Skitter Spider__25ed.png"
+},
+{
+"id": "Crawling Spider Remnants",
+"type": "0x25e0",
+"src": "epicspiderDen",
+"category": "prop",
+"sub": "epicspiderDen",
+"why": "src",
+"file": "props/all/Crawling Spider Remnants__25e0.png"
+},
+{
+"id": "Crawling Spider Foliage",
+"type": "0x25e1",
+"src": "epicspiderDen",
+"category": "prop",
+"sub": "epicspiderDen",
+"why": "src",
+"file": "props/all/Crawling Spider Foliage__25e1.png"
+},
+{
+"id": "Crawling Spider Ground Web",
+"type": "0x25e2",
+"src": "epicspiderDen",
+"category": "prop",
+"sub": "epicspiderDen",
+"why": "src",
+"file": "props/all/Crawling Spider Ground Web__25e2.png"
+},
+{
+"id": "Crawling Spider Fungi",
+"type": "0x25e3",
+"src": "epicspiderDen",
+"category": "prop",
+"sub": "epicspiderDen",
+"why": "src",
+"file": "props/all/Crawling Spider Fungi__25e3.png"
+},
+{
+"id": "Crawling Spider Stone",
+"type": "0x25ec",
+"src": "epicspiderDen",
+"category": "prop",
+"sub": "epicspiderDen",
+"why": "src",
+"file": "props/all/Crawling Spider Stone__25ec.png"
+},
+{
+"id": "Crawling Spider Broken Sac Blue",
+"type": "0x25e4",
+"src": "epicspiderDen",
+"category": "prop",
+"sub": "epicspiderDen",
+"why": "src",
+"file": "props/all/Crawling Spider Broken Sac Blue__25e4.png"
+},
+{
+"id": "Crawling Spider Broken Sac Grey",
+"type": "0x25e5",
+"src": "epicspiderDen",
+"category": "prop",
+"sub": "epicspiderDen",
+"why": "src",
+"file": "props/all/Crawling Spider Broken Sac Grey__25e5.png"
+},
+{
+"id": "Crawling Spider Broken Sac Spotted",
+"type": "0x25e6",
+"src": "epicspiderDen",
+"category": "prop",
+"sub": "epicspiderDen",
+"why": "src",
+"file": "props/all/Crawling Spider Broken Sac Spotted__25e6.png"
+},
+{
+"id": "Crawling Spider Broken Sac Green",
+"type": "0x25e7",
+"src": "epicspiderDen",
+"category": "prop",
+"sub": "epicspiderDen",
+"why": "src",
+"file": "props/all/Crawling Spider Broken Sac Green__25e7.png"
+},
+{
+"id": "Crawling Spider Broken Sac Red",
+"type": "0x25e8",
+"src": "epicspiderDen",
+"category": "prop",
+"sub": "epicspiderDen",
+"why": "src",
+"file": "props/all/Crawling Spider Broken Sac Red__25e8.png"
+},
+{
+"id": "Crawling Spider Broken Sac Yellow",
+"type": "0xc03f",
+"src": "epicspiderDen",
+"category": "prop",
+"sub": "epicspiderDen",
+"why": "src",
+"file": "props/all/Crawling Spider Broken Sac Yellow__c03f.png"
+},
+{
+"id": "Crawling Spider Broken Sac Yellow 2",
+"type": "0xc040",
+"src": "epicspiderDen",
+"category": "prop",
+"sub": "epicspiderDen",
+"why": "src",
+"file": "props/all/Crawling Spider Broken Sac Yellow 2__c040.png"
+},
+{
+"id": "Crawling Spider Broken Sac Yellow 3",
+"type": "0xc041",
+"src": "epicspiderDen",
+"category": "prop",
+"sub": "epicspiderDen",
+"why": "src",
+"file": "props/all/Crawling Spider Broken Sac Yellow 3__c041.png"
+},
+{
+"id": "Crawling Spider Wall",
+"type": "0x25e9",
+"src": "epicspiderDen",
+"category": "wall",
+"sub": "epicspiderDen",
+"why": "src",
+"file": "walls/all/Crawling Spider Wall__25e9.png"
+},
+{
+"id": "Crawling Spider Wall Decor",
+"type": "0x25ea",
+"src": "epicspiderDen",
+"category": "wall",
+"sub": "epicspiderDen",
+"why": "src",
+"file": "walls/all/Crawling Spider Wall Decor__25ea.png"
+},
+{
+"id": "Crawling Spider Wall Eyes",
+"type": "0x25eb",
+"src": "epicspiderDen",
+"category": "wall",
+"sub": "epicspiderDen",
+"why": "src",
+"file": "walls/all/Crawling Spider Wall Eyes__25eb.png"
+},
+{
+"id": "Arachna Web Spoke 1",
+"type": "0x0937",
+"src": "spiderDenObjects",
+"category": "helper",
+"sub": "other",
+"why": "spec",
+"file": "helpers/other/Arachna Web Spoke 1__0937.png"
+},
+{
+"id": "Arachna Web Spoke 2",
+"type": "0x0938",
+"src": "spiderDenObjects",
+"category": "helper",
+"sub": "other",
+"why": "spec",
+"file": "helpers/other/Arachna Web Spoke 2__0938.png"
+},
+{
+"id": "Arachna Web Spoke 3",
+"type": "0x0939",
+"src": "spiderDenObjects",
+"category": "helper",
+"sub": "other",
+"why": "spec",
+"file": "helpers/other/Arachna Web Spoke 3__0939.png"
+},
+{
+"id": "Arachna Web Spoke 4",
+"type": "0x093a",
+"src": "spiderDenObjects",
+"category": "helper",
+"sub": "other",
+"why": "spec",
+"file": "helpers/other/Arachna Web Spoke 4__093a.png"
+},
+{
+"id": "Arachna Web Spoke 5",
+"type": "0x093b",
+"src": "spiderDenObjects",
+"category": "helper",
+"sub": "other",
+"why": "spec",
+"file": "helpers/other/Arachna Web Spoke 5__093b.png"
+},
+{
+"id": "Arachna Web Spoke 6",
+"type": "0x093c",
+"src": "spiderDenObjects",
+"category": "helper",
+"sub": "other",
+"why": "spec",
+"file": "helpers/other/Arachna Web Spoke 6__093c.png"
+},
+{
+"id": "Arachna Web Spoke 7",
+"type": "0x093d",
+"src": "spiderDenObjects",
+"category": "helper",
+"sub": "other",
+"why": "spec",
+"file": "helpers/other/Arachna Web Spoke 7__093d.png"
+},
+{
+"id": "Arachna Web Spoke 8",
+"type": "0x093e",
+"src": "spiderDenObjects",
+"category": "helper",
+"sub": "other",
+"why": "spec",
+"file": "helpers/other/Arachna Web Spoke 8__093e.png"
+},
+{
+"id": "Arachna Web Spoke 9",
+"type": "0x093f",
+"src": "spiderDenObjects",
+"category": "helper",
+"sub": "other",
+"why": "spec",
+"file": "helpers/other/Arachna Web Spoke 9__093f.png"
+},
+{
+"id": "Spider Dirt Web",
+"type": "0x2230",
+"src": "spiderDenGround",
+"category": "tile",
+"sub": "spiderDenGround",
+"why": "spec",
+"file": "tiles/all/Spider Dirt Web__2230.png"
+},
+{
+"id": "Sting Spider",
+"type": "0xc4d9",
+"src": "mountains",
+"category": "enemy",
+"sub": "regular",
+"why": "spec",
+"file": "enemies/regular/Sting Spider__c4d9.png"
+},
+{
+"id": "New Sting Spider",
+"type": "0x55C5",
+"src": "veteran",
+"category": "enemy",
+"sub": "regular",
+"why": "spec",
+"file": "enemies/regular/New Sting Spider__55C5.png"
+},
+{
+"id": "Sanguine Hound",
+"type": "0x7b91",
+"src": "veteran",
+"category": "enemy",
+"sub": "regular",
+"why": "spec",
+"file": "enemies/regular/Sanguine Hound__7b91.png"
+},
+{
+"id": "Floral Rafflesia",
+"type": "0x7312",
+"src": "veteran",
+"category": "enemy",
+"sub": "regular",
+"why": "spec",
+"file": "enemies/regular/Floral Rafflesia__7312.png"
+},
+{
+"id": "Giant Critter Brood",
+"type": "0x86b1",
+"src": "heroes_2",
+"category": "enemy",
+"sub": "event_boss",
+"why": "spec",
+"file": "enemies/event_boss/Giant Critter Brood__86b1.png"
+},
+{
+"id": "Blue Spider Venom",
+"type": "0x374a",
+"src": "spiderDenObjects",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Blue Spider Venom__374a.png"
+},
+{
+"id": "Yellow Spider Venom",
+"type": "0x3748",
+"src": "spiderDenObjects",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Yellow Spider Venom__3748.png"
+},
+{
+"id": "Red Spider Venom",
+"type": "0x3747",
+"src": "spiderDenObjects",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Red Spider Venom__3747.png"
+},
+{
+"id": "Purple Spider Venom",
+"type": "0x3746",
+"src": "spiderDenObjects",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Purple Spider Venom__3746.png"
+},
+{
+"id": "Green Spider Venom",
+"type": "0x3749",
+"src": "spiderDenObjects",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Green Spider Venom__3749.png"
+},
+{
+"id": "Web Thread",
+"type": "0x0041",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Web Thread__0041.png"
+},
+{
+"id": "Web Star",
+"type": "0x3743",
+"src": "spiderDenObjects",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Web Star__3743.png"
+},
+{
+"id": "Web Thread 2",
+"type": "0x0050",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Web Thread 2__0050.png"
+},
+{
+"id": "Sting Spider Bite",
+"type": "0xc022",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Sting Spider Bite__c022.png"
+},
+{
+"id": "Sting Spider Tail",
+"type": "0xc023",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Sting Spider Tail__c023.png"
+},
+{
+"id": "Accursed Stone Spear",
+"type": "0x82c7",
+"src": "theShattersObjects",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Accursed Stone Spear__82c7.png"
+},
+{
+"id": "Shatters Sentinel Missile",
+"type": "0xb669",
+"src": "theShattersObjects",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Shatters Sentinel Missile__b669.png"
+},
+{
+"id": "Large Yellow Sprite Tree Summon Projectile",
+"type": "0x37e8",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Large Yellow Sprite Tree Summon Projectile__37e8.png"
+},
+{
+"id": "Potion of Defense",
+"type": "0xa20",
+"src": "equip",
+"category": "consumable",
+"sub": "all",
+"why": "loot",
+"file": "loot/consumable/Potion of Defense__a20.png"
+},
+{
+"id": "Potion of Wisdom",
+"type": "0xa35",
+"src": "equip",
+"category": "consumable",
+"sub": "all",
+"why": "loot",
+"file": "loot/consumable/Potion of Wisdom__a35.png"
+},
+{
+"id": "Potion of Mana",
+"type": "0xaea",
+"src": "equip",
+"category": "consumable",
+"sub": "all",
+"why": "loot",
+"file": "loot/consumable/Potion of Mana__aea.png"
+},
+{
+"id": "Doku No Ken",
+"type": "0xcdc",
+"src": "equip",
+"category": "weapon",
+"sub": "katana",
+"why": "loot",
+"file": "loot/weapon_katana/Doku No Ken__cdc.png"
+},
+{
+"id": "Greater Potion of Defense",
+"type": "0x2369",
+"src": "equip",
+"category": "consumable",
+"sub": "all",
+"why": "loot",
+"file": "loot/consumable/Greater Potion of Defense__2369.png"
+},
+{
+"id": "Greater Potion of Wisdom",
+"type": "0x236C",
+"src": "equip",
+"category": "consumable",
+"sub": "all",
+"why": "loot",
+"file": "loot/consumable/Greater Potion of Wisdom__236C.png"
+},
+{
+"id": "Mace of the Depths",
+"type": "0x3784",
+"src": "equip",
+"category": "ability",
+"sub": "all",
+"why": "loot",
+"file": "loot/ability/Mace of the Depths__3784.png"
+},
+{
+"id": "Cave Wall",
+"type": "0x01ce",
+"src": "staticobjects",
+"category": "wall",
+"sub": "staticobjects",
+"why": "wall",
+"file": "walls/all/Cave Wall__01ce.png"
+}
+]
+}

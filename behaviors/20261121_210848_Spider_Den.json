@@ -1,0 +1,356 @@
+{
+ "file": "20261121_210848_Spider_Den.events.jsonl",
+ "ticks": 236,
+ "enemies": {
+  "Green Den Spider Hatchling": {
+   "count": 79,
+   "max_hp": 50,
+   "speed_tiles_per_s": 2.05,
+   "moving_fraction": 0.85,
+   "shots": {
+    "0": {
+     "count": 33,
+     "num_shots": {
+      "255": 33
+     },
+     "angle_inc": {
+      "0.0": 33
+     },
+     "damage": 15,
+     "interval_s": 0.96,
+     "interval_min_s": 0.91,
+     "hp_fraction_range": [
+      1.0,
+      1.0
+     ]
+    }
+   }
+  },
+  "Spider Egg Sac": {
+   "count": 42,
+   "max_hp": 1.0,
+   "speed_tiles_per_s": null,
+   "moving_fraction": null,
+   "shots": {}
+  },
+  "Brown Den Spider": {
+   "count": 12,
+   "max_hp": 100.0,
+   "speed_tiles_per_s": 3.5,
+   "moving_fraction": 0.83,
+   "shots": {
+    "0": {
+     "count": 11,
+     "num_shots": {
+      "3": 11
+     },
+     "angle_inc": {
+      "0.157": 11
+     },
+     "damage": 20,
+     "interval_s": 0.4,
+     "interval_min_s": 0.4,
+     "hp_fraction_range": [
+      1.0,
+      1.0
+     ]
+    }
+   }
+  },
+  "Black Spotted Den Spider": {
+   "count": 12,
+   "max_hp": 200.0,
+   "speed_tiles_per_s": 5.57,
+   "moving_fraction": 0.89,
+   "shots": {
+    "0": {
+     "count": 6,
+     "num_shots": {
+      "255": 6
+     },
+     "angle_inc": {
+      "0.0": 6
+     },
+     "damage": 40.0,
+     "interval_s": null,
+     "interval_min_s": null,
+     "hp_fraction_range": [
+      0.32,
+      1.0
+     ]
+    }
+   }
+  },
+  "Black Den Spider": {
+   "count": 11,
+   "max_hp": 350,
+   "speed_tiles_per_s": 5.55,
+   "moving_fraction": 0.94,
+   "shots": {
+    "0": {
+     "count": 6,
+     "num_shots": {
+      "255": 6
+     },
+     "angle_inc": {
+      "0.0": 6
+     },
+     "damage": 50.0,
+     "interval_s": 0.41,
+     "interval_min_s": 0.41,
+     "hp_fraction_range": [
+      0.53,
+      1.0
+     ]
+    }
+   }
+  },
+  "Red Spotted Den Spider": {
+   "count": 4,
+   "max_hp": 200.0,
+   "speed_tiles_per_s": 2.79,
+   "moving_fraction": 0.88,
+   "shots": {
+    "0": {
+     "count": 2,
+     "num_shots": {
+      "6": 2
+     },
+     "angle_inc": {
+      "1.047": 2
+     },
+     "damage": 60.0,
+     "interval_s": null,
+     "interval_min_s": null,
+     "hp_fraction_range": [
+      1.0,
+      1.0
+     ]
+    },
+    "2": {
+     "count": 1,
+     "num_shots": {
+      "6": 1
+     },
+     "angle_inc": {
+      "1.047": 1
+     },
+     "damage": 60,
+     "interval_s": null,
+     "interval_min_s": null,
+     "hp_fraction_range": [
+      1.0,
+      1.0
+     ]
+    },
+    "1": {
+     "count": 2,
+     "num_shots": {
+      "6": 2
+     },
+     "angle_inc": {
+      "1.047": 2
+     },
+     "damage": 60.0,
+     "interval_s": 0.41,
+     "interval_min_s": 0.41,
+     "hp_fraction_range": [
+      1.0,
+      1.0
+     ]
+    }
+   }
+  },
+  "Spider Webbed Chest": {
+   "count": 3,
+   "max_hp": 750,
+   "speed_tiles_per_s": null,
+   "moving_fraction": 0.0,
+   "shots": {}
+  },
+  "Arachna the Spider Queen": {
+   "count": 1,
+   "max_hp": 3200,
+   "speed_tiles_per_s": 4.44,
+   "moving_fraction": 0.85,
+   "shots": {
+    "0": {
+     "count": 13,
+     "num_shots": {
+      "255": 10,
+      "12": 3
+     },
+     "angle_inc": {
+      "0.0": 10,
+      "0.524": 3
+     },
+     "damage": 37,
+     "interval_s": 0.86,
+     "interval_min_s": 0.2,
+     "hp_fraction_range": [
+      1.0,
+      1.0
+     ]
+    },
+    "1": {
+     "count": 5,
+     "num_shots": {
+      "255": 5
+     },
+     "angle_inc": {
+      "0.0": 5
+     },
+     "damage": 69,
+     "interval_s": 1.87,
+     "interval_min_s": 1.81,
+     "hp_fraction_range": [
+      0.81,
+      1.0
+     ]
+    },
+    "2": {
+     "count": 2,
+     "num_shots": {
+      "255": 2
+     },
+     "angle_inc": {
+      "0.0": 2
+     },
+     "damage": 46.0,
+     "interval_s": 0.21,
+     "interval_min_s": 0.21,
+     "hp_fraction_range": [
+      0.35,
+      0.53
+     ]
+    }
+   }
+  },
+  "Arachna Element": {
+   "count": 1,
+   "max_hp": 100,
+   "speed_tiles_per_s": null,
+   "moving_fraction": null,
+   "shots": {
+    "0": {
+     "count": 58,
+     "num_shots": {
+      "255": 58
+     },
+     "angle_inc": {
+      "0.0": 58
+     },
+     "damage": 1.0,
+     "interval_s": 0.2,
+     "interval_min_s": 0.09,
+     "hp_fraction_range": [
+      1.0,
+      1.0
+     ]
+    }
+   }
+  }
+ },
+ "text": {
+  "LarryDuck": [
+   "RP6(dot)RIP  - 24/7 Fast Delivery, Maxing, UTs, STs, FP, Buffs, Eggs & More! 92"
+  ]
+ },
+ "notifications": {
+  "null": 2,
+  "giftChestOccupied": 1,
+  "{\"k\":\"s.plus_symbol\",\"t\":{\"amount\":\"5\",}}": 1,
+  "{\"k\":\"s.plus_symbol\",\"t\":{\"amount\":\"48\",}}": 1,
+  "{\"k\":\"s.plus_symbol\",\"t\":{\"amount\":\"27\",}}": 1,
+  "{\"k\":\"s.plus_symbol\",\"t\":{\"amount\":\"1\",}}": 1,
+  "{\"k\":\"s.quest_complete\"}": 1
+ },
+ "teleports": {},
+ "loot_bags": [
+  [
+   "Loot Bag: [2670]",
+   1
+  ],
+  [
+   "Loot Bag: [2676]",
+   1
+  ],
+  [
+   "Loot Bag: [2576]",
+   1
+  ],
+  [
+   "Loot Bag: [2601]",
+   1
+  ],
+  [
+   "Loot Bag: [2605, 2768]",
+   1
+  ],
+  [
+   "Loot Bag: [2648]",
+   1
+  ],
+  [
+   "Loot Bag: [2715]",
+   1
+  ],
+  [
+   "Loot Bag: [14405]",
+   1
+  ],
+  [
+   "Loot Bag: [2602, 2768]",
+   1
+  ],
+  [
+   "Loot Bag: [2576, 2715, 31596]",
+   1
+  ],
+  [
+   "Loot Bag: [2679, 14610]",
+   1
+  ],
+  [
+   "Loot Bag: [2607, 2673]",
+   1
+  ],
+  [
+   "Loot Bag: [2638, 2670, 2685, 14610]",
+   1
+  ],
+  [
+   "Loot Bag: [1799, 1799, 1799, 2746]",
+   1
+  ],
+  [
+   "Loot Bag: [1799]",
+   1
+  ],
+  [
+   "Loot Bag: [2576, 2679]",
+   1
+  ],
+  [
+   "Loot Bag: [2769]",
+   1
+  ],
+  [
+   "Loot Bag: [1799, 1799, 1800, 2748, 3158, 6141, 32017]",
+   1
+  ]
+ ],
+ "portals": [
+  [
+   "Portal of Cowardice",
+   []
+  ],
+  [
+   "Realm Portal",
+   []
+  ]
+ ],
+ "quest_targets": [
+  "Arachna the Spider Queen"
+ ]
+}

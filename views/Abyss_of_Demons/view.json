@@ -1,0 +1,1164 @@
+{
+"dungeon": "Abyss_of_Demons",
+"sources": [
+"abyssOfDemons",
+"abyssOfDemonsObjects",
+"abyssOfDemonsGround"
+],
+"counts": {
+"enemies": 24,
+"props": 44,
+"tiles": 21,
+"projectiles": 25,
+"helpers": 2,
+"walls": 4,
+"loot": 4
+},
+"why": {
+"src": 100,
+"proj": 16,
+"loot": 4,
+"tile": 3,
+"wall": 1
+},
+"tile_hints_used": {
+"bridge": 2,
+"lava": 1,
+"red wall": 1
+},
+"names_in_own_files": [
+"Archdemon Malphas",
+"Abyss Idol",
+"White Demon of the Abyss",
+"Blacksmith of the Abyss",
+"Brute of the Abyss",
+"Brute Warrior of the Abyss",
+"Demon Mage of the Abyss",
+"Demon of the Abyss",
+"Demon Warrior of the Abyss",
+"Imp of the Abyss",
+"Malphas Hound",
+"Malphas Missile",
+"Malphas Protector"
+],
+"names_in_other_files": [],
+"names_not_found": [],
+"entries": [
+{
+"id": "Heroic Abyss Chest",
+"type": "0xf44",
+"src": "abyssOfDemons",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Heroic Abyss Chest__f44.png"
+},
+{
+"id": "Heroic Malphas Protector",
+"type": "0x209f",
+"src": "abyssOfDemons",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Heroic Malphas Protector__209f.png"
+},
+{
+"id": "Heroic Malphas Missile",
+"type": "0x20a0",
+"src": "abyssOfDemons",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Heroic Malphas Missile__20a0.png"
+},
+{
+"id": "Heroic Archdemon Malphas",
+"type": "0x20a1",
+"src": "abyssOfDemons",
+"category": "enemy",
+"sub": "boss",
+"why": "src",
+"file": "enemies/boss/Heroic Archdemon Malphas__20a1.png"
+},
+{
+"id": "Heroic Malphas Flamer",
+"type": "0x20a2",
+"src": "abyssOfDemons",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Heroic Malphas Flamer__20a2.png"
+},
+{
+"id": "Heroic Archdemon Summoner",
+"type": "0x20a3",
+"src": "abyssOfDemons",
+"category": "prop",
+"sub": "abyssOfDemons",
+"why": "src",
+"file": "props/all/Heroic Archdemon Summoner__20a3.png"
+},
+{
+"id": "Heroic White Demon of the Abyss",
+"type": "0x20a4",
+"src": "abyssOfDemons",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Heroic White Demon of the Abyss__20a4.png"
+},
+{
+"id": "Heroic Imp of the Abyss",
+"type": "0x20a5",
+"src": "abyssOfDemons",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Heroic Imp of the Abyss__20a5.png"
+},
+{
+"id": "Heroic Demon of the Abyss",
+"type": "0x20a6",
+"src": "abyssOfDemons",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Heroic Demon of the Abyss__20a6.png"
+},
+{
+"id": "Heroic Demon Warrior of the Abyss",
+"type": "0x20a7",
+"src": "abyssOfDemons",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Heroic Demon Warrior of the Abyss__20a7.png"
+},
+{
+"id": "Heroic Demon Mage of the Abyss",
+"type": "0x20a8",
+"src": "abyssOfDemons",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Heroic Demon Mage of the Abyss__20a8.png"
+},
+{
+"id": "Heroic Brute of the Abyss",
+"type": "0x20a9",
+"src": "abyssOfDemons",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Heroic Brute of the Abyss__20a9.png"
+},
+{
+"id": "Heroic Brute Warrior of the Abyss",
+"type": "0x20aa",
+"src": "abyssOfDemons",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Heroic Brute Warrior of the Abyss__20aa.png"
+},
+{
+"id": "Heroic AbyssIdolDead",
+"type": "0x20ab",
+"src": "abyssOfDemons",
+"category": "prop",
+"sub": "abyssOfDemons",
+"why": "src",
+"file": "props/all/Heroic AbyssIdolDead__20ab.png"
+},
+{
+"id": "Heroic Abyss Idol",
+"type": "0x20ac",
+"src": "abyssOfDemons",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Heroic Abyss Idol__20ac.png"
+},
+{
+"id": "Heroic AbyssExitGuarder",
+"type": "0x20ad",
+"src": "abyssOfDemons",
+"category": "prop",
+"sub": "abyssOfDemons",
+"why": "src",
+"file": "props/all/Heroic AbyssExitGuarder__20ad.png"
+},
+{
+"id": "Heroic AbyssTreasureLavaBomb",
+"type": "0x20ae",
+"src": "abyssOfDemons",
+"category": "prop",
+"sub": "abyssOfDemons",
+"why": "src",
+"file": "props/all/Heroic AbyssTreasureLavaBomb__20ae.png"
+},
+{
+"id": "Abyss Lava",
+"type": "0xb005",
+"src": "abyssOfDemonsGround",
+"category": "tile",
+"sub": "abyssOfDemonsGround",
+"why": "src",
+"file": "tiles/all/Abyss Lava__b005.png"
+},
+{
+"id": "Abyss Volcanic Tile",
+"type": "0xb004",
+"src": "abyssOfDemonsGround",
+"category": "tile",
+"sub": "abyssOfDemonsGround",
+"why": "src",
+"file": "tiles/all/Abyss Volcanic Tile__b004.png"
+},
+{
+"id": "Abyss Fort Tile",
+"type": "0xb003",
+"src": "abyssOfDemonsGround",
+"category": "tile",
+"sub": "abyssOfDemonsGround",
+"why": "src",
+"file": "tiles/all/Abyss Fort Tile__b003.png"
+},
+{
+"id": "Abyss Fort Tile Clean",
+"type": "0xb002",
+"src": "abyssOfDemonsGround",
+"category": "tile",
+"sub": "abyssOfDemonsGround",
+"why": "src",
+"file": "tiles/all/Abyss Fort Tile Clean__b002.png"
+},
+{
+"id": "Abyss Fort Tile Checkboard",
+"type": "0xb001",
+"src": "abyssOfDemonsGround",
+"category": "tile",
+"sub": "abyssOfDemonsGround",
+"why": "src",
+"file": "tiles/all/Abyss Fort Tile Checkboard__b001.png"
+},
+{
+"id": "Abyss Fort Tile Dual",
+"type": "0xb00d",
+"src": "abyssOfDemonsGround",
+"category": "tile",
+"sub": "abyssOfDemonsGround",
+"why": "src",
+"file": "tiles/all/Abyss Fort Tile Dual__b00d.png"
+},
+{
+"id": "Abyss Fort Tile Symbol",
+"type": "0xb00e",
+"src": "abyssOfDemonsGround",
+"category": "tile",
+"sub": "abyssOfDemonsGround",
+"why": "src",
+"file": "tiles/all/Abyss Fort Tile Symbol__b00e.png"
+},
+{
+"id": "Abyss Fort Tile Dark",
+"type": "0xb00f",
+"src": "abyssOfDemonsGround",
+"category": "tile",
+"sub": "abyssOfDemonsGround",
+"why": "src",
+"file": "tiles/all/Abyss Fort Tile Dark__b00f.png"
+},
+{
+"id": "Abyss Lava Clean",
+"type": "0xb087",
+"src": "abyssOfDemonsGround",
+"category": "tile",
+"sub": "abyssOfDemonsGround",
+"why": "src",
+"file": "tiles/all/Abyss Lava Clean__b087.png"
+},
+{
+"id": "Abyss Lava Path",
+"type": "0xb08a",
+"src": "abyssOfDemonsGround",
+"category": "tile",
+"sub": "abyssOfDemonsGround",
+"why": "src",
+"file": "tiles/all/Abyss Lava Path__b08a.png"
+},
+{
+"id": "Abyss Lava Blend",
+"type": "0xb088",
+"src": "abyssOfDemonsGround",
+"category": "tile",
+"sub": "abyssOfDemonsGround",
+"why": "src",
+"file": "tiles/all/Abyss Lava Blend__b088.png"
+},
+{
+"id": "Abyss Fort Tile Lava",
+"type": "0xb089",
+"src": "abyssOfDemonsGround",
+"category": "tile",
+"sub": "abyssOfDemonsGround",
+"why": "src",
+"file": "tiles/all/Abyss Fort Tile Lava__b089.png"
+},
+{
+"id": "Abyss Fort Tile Glyph O",
+"type": "0xb08b",
+"src": "abyssOfDemonsGround",
+"category": "tile",
+"sub": "abyssOfDemonsGround",
+"why": "src",
+"file": "tiles/all/Abyss Fort Tile Glyph O__b08b.png"
+},
+{
+"id": "Abyss Fort Tile Glyph Z",
+"type": "0xb08c",
+"src": "abyssOfDemonsGround",
+"category": "tile",
+"sub": "abyssOfDemonsGround",
+"why": "src",
+"file": "tiles/all/Abyss Fort Tile Glyph Z__b08c.png"
+},
+{
+"id": "Abyss Fort Tile Glyph S",
+"type": "0xb08d",
+"src": "abyssOfDemonsGround",
+"category": "tile",
+"sub": "abyssOfDemonsGround",
+"why": "src",
+"file": "tiles/all/Abyss Fort Tile Glyph S__b08d.png"
+},
+{
+"id": "Abyss Fort Tile Glyph N",
+"type": "0xb08e",
+"src": "abyssOfDemonsGround",
+"category": "tile",
+"sub": "abyssOfDemonsGround",
+"why": "src",
+"file": "tiles/all/Abyss Fort Tile Glyph N__b08e.png"
+},
+{
+"id": "Abyss Fort Tile Glyph D",
+"type": "0xb08f",
+"src": "abyssOfDemonsGround",
+"category": "tile",
+"sub": "abyssOfDemonsGround",
+"why": "src",
+"file": "tiles/all/Abyss Fort Tile Glyph D__b08f.png"
+},
+{
+"id": "Abyss Fort Tile Glyph X",
+"type": "0xb090",
+"src": "abyssOfDemonsGround",
+"category": "tile",
+"sub": "abyssOfDemonsGround",
+"why": "src",
+"file": "tiles/all/Abyss Fort Tile Glyph X__b090.png"
+},
+{
+"id": "Abyss Imp Projectile",
+"type": "0x2bc",
+"src": "abyssOfDemonsObjects",
+"category": "projectile",
+"sub": "all",
+"why": "src",
+"file": "projectiles/all/Abyss Imp Projectile__2bc.png"
+},
+{
+"id": "Abyss Fire Projectile",
+"type": "0x2bd",
+"src": "abyssOfDemonsObjects",
+"category": "projectile",
+"sub": "all",
+"why": "src",
+"file": "projectiles/all/Abyss Fire Projectile__2bd.png"
+},
+{
+"id": "Abyss Blast Projectile",
+"type": "0x2be",
+"src": "abyssOfDemonsObjects",
+"category": "projectile",
+"sub": "all",
+"why": "src",
+"file": "projectiles/all/Abyss Blast Projectile__2be.png"
+},
+{
+"id": "Abyss Sword Projectile",
+"type": "0x2bf",
+"src": "abyssOfDemonsObjects",
+"category": "projectile",
+"sub": "all",
+"why": "src",
+"file": "projectiles/all/Abyss Sword Projectile__2bf.png"
+},
+{
+"id": "Abyss Soul Shot Projectile",
+"type": "0x2c0",
+"src": "abyssOfDemonsObjects",
+"category": "projectile",
+"sub": "all",
+"why": "src",
+"file": "projectiles/all/Abyss Soul Shot Projectile__2c0.png"
+},
+{
+"id": "Abyss Soul Bash Projectile",
+"type": "0x2c1",
+"src": "abyssOfDemonsObjects",
+"category": "projectile",
+"sub": "all",
+"why": "src",
+"file": "projectiles/all/Abyss Soul Bash Projectile__2c1.png"
+},
+{
+"id": "Abyss Soul Spear Projectile",
+"type": "0x2d8",
+"src": "abyssOfDemonsObjects",
+"category": "projectile",
+"sub": "all",
+"why": "src",
+"file": "projectiles/all/Abyss Soul Spear Projectile__2d8.png"
+},
+{
+"id": "Abyss Soul Spiral Projectile",
+"type": "0xb4e5",
+"src": "abyssOfDemonsObjects",
+"category": "projectile",
+"sub": "all",
+"why": "src",
+"file": "projectiles/all/Abyss Soul Spiral Projectile__b4e5.png"
+},
+{
+"id": "Abyss Hammer Projectile",
+"type": "0xb4e3",
+"src": "abyssOfDemonsObjects",
+"category": "projectile",
+"sub": "all",
+"why": "src",
+"file": "projectiles/all/Abyss Hammer Projectile__b4e3.png"
+},
+{
+"id": "Malphas Protector",
+"type": "0x0908",
+"src": "abyssOfDemonsObjects",
+"category": "helper",
+"sub": "other",
+"why": "src",
+"file": "helpers/other/Malphas Protector__0908.png"
+},
+{
+"id": "Malphas Missile",
+"type": "0x0909",
+"src": "abyssOfDemonsObjects",
+"category": "helper",
+"sub": "effect",
+"why": "src",
+"file": "helpers/effect/Malphas Missile__0909.png"
+},
+{
+"id": "Archdemon Malphas",
+"type": "0x090a",
+"src": "abyssOfDemonsObjects",
+"category": "enemy",
+"sub": "boss",
+"why": "src",
+"file": "enemies/boss/Archdemon Malphas__090a.png"
+},
+{
+"id": "Malphas Hound",
+"type": "0x090b",
+"src": "abyssOfDemonsObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Malphas Hound__090b.png"
+},
+{
+"id": "Archdemon Summoner",
+"type": "0x1733",
+"src": "abyssOfDemonsObjects",
+"category": "prop",
+"sub": "abyssOfDemonsObjects",
+"why": "src",
+"file": "props/all/Archdemon Summoner__1733.png"
+},
+{
+"id": "Archdemon GroundShot",
+"type": "0x1734",
+"src": "abyssOfDemonsObjects",
+"category": "prop",
+"sub": "abyssOfDemonsObjects",
+"why": "src",
+"file": "props/all/Archdemon GroundShot__1734.png"
+},
+{
+"id": "Archdemon SafeGround",
+"type": "0x1735",
+"src": "abyssOfDemonsObjects",
+"category": "prop",
+"sub": "abyssOfDemonsObjects",
+"why": "src",
+"file": "props/all/Archdemon SafeGround__1735.png"
+},
+{
+"id": "White Demon of the Abyss",
+"type": "0x673",
+"src": "abyssOfDemonsObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/White Demon of the Abyss__673.png"
+},
+{
+"id": "Imp of the Abyss",
+"type": "0x66d",
+"src": "abyssOfDemonsObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Imp of the Abyss__66d.png"
+},
+{
+"id": "Demon of the Abyss",
+"type": "0x66e",
+"src": "abyssOfDemonsObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Demon of the Abyss__66e.png"
+},
+{
+"id": "Demon Warrior of the Abyss",
+"type": "0x66f",
+"src": "abyssOfDemonsObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Demon Warrior of the Abyss__66f.png"
+},
+{
+"id": "Demon Mage of the Abyss",
+"type": "0x670",
+"src": "abyssOfDemonsObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Demon Mage of the Abyss__670.png"
+},
+{
+"id": "Brute of the Abyss",
+"type": "0x671",
+"src": "abyssOfDemonsObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Brute of the Abyss__671.png"
+},
+{
+"id": "Brute Warrior of the Abyss",
+"type": "0x672",
+"src": "abyssOfDemonsObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Brute Warrior of the Abyss__672.png"
+},
+{
+"id": "Blacksmith of the Abyss",
+"type": "0xb4e4",
+"src": "abyssOfDemonsObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Blacksmith of the Abyss__b4e4.png"
+},
+{
+"id": "AbyssIdolDead",
+"type": "0x0e1e",
+"src": "abyssOfDemonsObjects",
+"category": "prop",
+"sub": "abyssOfDemonsObjects",
+"why": "src",
+"file": "props/all/AbyssIdolDead__0e1e.png"
+},
+{
+"id": "Abyss Idol",
+"type": "0x0e1d",
+"src": "abyssOfDemonsObjects",
+"category": "enemy",
+"sub": "miniboss",
+"why": "src",
+"file": "enemies/miniboss/Abyss Idol__0e1d.png"
+},
+{
+"id": "AbyssExitGuarder",
+"type": "0x0e1c",
+"src": "abyssOfDemonsObjects",
+"category": "prop",
+"sub": "abyssOfDemonsObjects",
+"why": "src",
+"file": "props/all/AbyssExitGuarder__0e1c.png"
+},
+{
+"id": "LavaTrigger",
+"type": "0x0e1b",
+"src": "abyssOfDemonsObjects",
+"category": "prop",
+"sub": "abyssOfDemonsObjects",
+"why": "src",
+"file": "props/all/LavaTrigger__0e1b.png"
+},
+{
+"id": "LavaTriggerClear",
+"type": "0xb509",
+"src": "abyssOfDemonsObjects",
+"category": "prop",
+"sub": "abyssOfDemonsObjects",
+"why": "src",
+"file": "props/all/LavaTriggerClear__b509.png"
+},
+{
+"id": "AbyssTreasureLavaBomb",
+"type": "0x0e1a",
+"src": "abyssOfDemonsObjects",
+"category": "prop",
+"sub": "abyssOfDemonsObjects",
+"why": "src",
+"file": "props/all/AbyssTreasureLavaBomb__0e1a.png"
+},
+{
+"id": "Abyss Volcanic Wall",
+"type": "0xb4e7",
+"src": "abyssOfDemonsObjects",
+"category": "wall",
+"sub": "abyssOfDemonsObjects",
+"why": "src",
+"file": "walls/all/Abyss Volcanic Wall__b4e7.png"
+},
+{
+"id": "Abyss Fort Wall",
+"type": "0xb4e8",
+"src": "abyssOfDemonsObjects",
+"category": "wall",
+"sub": "abyssOfDemonsObjects",
+"why": "src",
+"file": "walls/all/Abyss Fort Wall__b4e8.png"
+},
+{
+"id": "Abyss Column Wall",
+"type": "0xb4e9",
+"src": "abyssOfDemonsObjects",
+"category": "wall",
+"sub": "abyssOfDemonsObjects",
+"why": "src",
+"file": "walls/all/Abyss Column Wall__b4e9.png"
+},
+{
+"id": "Abyss Partial Volcanic Floor",
+"type": "0xb4ea",
+"src": "abyssOfDemonsObjects",
+"category": "prop",
+"sub": "abyssOfDemonsObjects",
+"why": "src",
+"file": "props/all/Abyss Partial Volcanic Floor__b4ea.png"
+},
+{
+"id": "Abyss Rock",
+"type": "0xb4eb",
+"src": "abyssOfDemonsObjects",
+"category": "prop",
+"sub": "abyssOfDemonsObjects",
+"why": "src",
+"file": "props/all/Abyss Rock__b4eb.png"
+},
+{
+"id": "Abyss Skull",
+"type": "0xb4ec",
+"src": "abyssOfDemonsObjects",
+"category": "prop",
+"sub": "abyssOfDemonsObjects",
+"why": "src",
+"file": "props/all/Abyss Skull__b4ec.png"
+},
+{
+"id": "Abyss Hammer",
+"type": "0xb4ed",
+"src": "abyssOfDemonsObjects",
+"category": "prop",
+"sub": "abyssOfDemonsObjects",
+"why": "src",
+"file": "props/all/Abyss Hammer__b4ed.png"
+},
+{
+"id": "Abyss Props",
+"type": "0xb4fb",
+"src": "abyssOfDemonsObjects",
+"category": "prop",
+"sub": "abyssOfDemonsObjects",
+"why": "src",
+"file": "props/all/Abyss Props__b4fb.png"
+},
+{
+"id": "Abyss Vase",
+"type": "0xb4fc",
+"src": "abyssOfDemonsObjects",
+"category": "prop",
+"sub": "abyssOfDemonsObjects",
+"why": "src",
+"file": "props/all/Abyss Vase__b4fc.png"
+},
+{
+"id": "Abyss Bricks",
+"type": "0xb4fd",
+"src": "abyssOfDemonsObjects",
+"category": "prop",
+"sub": "abyssOfDemonsObjects",
+"why": "src",
+"file": "props/all/Abyss Bricks__b4fd.png"
+},
+{
+"id": "Abyss Partial Fort Floor TL",
+"type": "0xb4ee",
+"src": "abyssOfDemonsObjects",
+"category": "prop",
+"sub": "abyssOfDemonsObjects",
+"why": "src",
+"file": "props/all/Abyss Partial Fort Floor TL__b4ee.png"
+},
+{
+"id": "Abyss Partial Fort Floor TR",
+"type": "0xb4ef",
+"src": "abyssOfDemonsObjects",
+"category": "prop",
+"sub": "abyssOfDemonsObjects",
+"why": "src",
+"file": "props/all/Abyss Partial Fort Floor TR__b4ef.png"
+},
+{
+"id": "Abyss Partial Fort Floor BL",
+"type": "0xb4f0",
+"src": "abyssOfDemonsObjects",
+"category": "prop",
+"sub": "abyssOfDemonsObjects",
+"why": "src",
+"file": "props/all/Abyss Partial Fort Floor BL__b4f0.png"
+},
+{
+"id": "Abyss Partial Fort Floor BR",
+"type": "0xb4f1",
+"src": "abyssOfDemonsObjects",
+"category": "prop",
+"sub": "abyssOfDemonsObjects",
+"why": "src",
+"file": "props/all/Abyss Partial Fort Floor BR__b4f1.png"
+},
+{
+"id": "Abyss Partial Fort Floor R",
+"type": "0xb4f2",
+"src": "abyssOfDemonsObjects",
+"category": "prop",
+"sub": "abyssOfDemonsObjects",
+"why": "src",
+"file": "props/all/Abyss Partial Fort Floor R__b4f2.png"
+},
+{
+"id": "Abyss Partial Fort Floor L",
+"type": "0xb4f3",
+"src": "abyssOfDemonsObjects",
+"category": "prop",
+"sub": "abyssOfDemonsObjects",
+"why": "src",
+"file": "props/all/Abyss Partial Fort Floor L__b4f3.png"
+},
+{
+"id": "Abyss Partial Fort Floor D",
+"type": "0xb4f4",
+"src": "abyssOfDemonsObjects",
+"category": "prop",
+"sub": "abyssOfDemonsObjects",
+"why": "src",
+"file": "props/all/Abyss Partial Fort Floor D__b4f4.png"
+},
+{
+"id": "Abyss Partial Fort Floor U",
+"type": "0xb4f5",
+"src": "abyssOfDemonsObjects",
+"category": "prop",
+"sub": "abyssOfDemonsObjects",
+"why": "src",
+"file": "props/all/Abyss Partial Fort Floor U__b4f5.png"
+},
+{
+"id": "Abyss Statue Spawner",
+"type": "0xb4f6",
+"src": "abyssOfDemonsObjects",
+"category": "prop",
+"sub": "abyssOfDemonsObjects",
+"why": "src",
+"file": "props/all/Abyss Statue Spawner__b4f6.png"
+},
+{
+"id": "Abyss Common Statue",
+"type": "0x2d9",
+"src": "abyssOfDemonsObjects",
+"category": "prop",
+"sub": "abyssOfDemonsObjects",
+"why": "src",
+"file": "props/all/Abyss Common Statue__2d9.png"
+},
+{
+"id": "Abyss Rare Statue",
+"type": "0x2da",
+"src": "abyssOfDemonsObjects",
+"category": "prop",
+"sub": "abyssOfDemonsObjects",
+"why": "src",
+"file": "props/all/Abyss Rare Statue__2da.png"
+},
+{
+"id": "Abyss Legendary Statue",
+"type": "0x2db",
+"src": "abyssOfDemonsObjects",
+"category": "prop",
+"sub": "abyssOfDemonsObjects",
+"why": "src",
+"file": "props/all/Abyss Legendary Statue__2db.png"
+},
+{
+"id": "Abyss Fire Spawner",
+"type": "0xb4f7",
+"src": "abyssOfDemonsObjects",
+"category": "prop",
+"sub": "abyssOfDemonsObjects",
+"why": "src",
+"file": "props/all/Abyss Fire Spawner__b4f7.png"
+},
+{
+"id": "Abyss Fire",
+"type": "0x2dc",
+"src": "abyssOfDemonsObjects",
+"category": "prop",
+"sub": "abyssOfDemonsObjects",
+"why": "src",
+"file": "props/all/Abyss Fire__2dc.png"
+},
+{
+"id": "Abyss Fire Off",
+"type": "0x2dd",
+"src": "abyssOfDemonsObjects",
+"category": "prop",
+"sub": "abyssOfDemonsObjects",
+"why": "src",
+"file": "props/all/Abyss Fire Off__2dd.png"
+},
+{
+"id": "Abyss Sunken Statue",
+"type": "0x2de",
+"src": "abyssOfDemonsObjects",
+"category": "prop",
+"sub": "abyssOfDemonsObjects",
+"why": "src",
+"file": "props/all/Abyss Sunken Statue__2de.png"
+},
+{
+"id": "Abyss Hot Rock",
+"type": "0x2df",
+"src": "abyssOfDemonsObjects",
+"category": "prop",
+"sub": "abyssOfDemonsObjects",
+"why": "src",
+"file": "props/all/Abyss Hot Rock__2df.png"
+},
+{
+"id": "Abyss Anvil",
+"type": "0x2e0",
+"src": "abyssOfDemonsObjects",
+"category": "prop",
+"sub": "abyssOfDemonsObjects",
+"why": "src",
+"file": "props/all/Abyss Anvil__2e0.png"
+},
+{
+"id": "Abyss Fireball",
+"type": "0xb4f8",
+"src": "abyssOfDemonsObjects",
+"category": "prop",
+"sub": "abyssOfDemonsObjects",
+"why": "src",
+"file": "props/all/Abyss Fireball__b4f8.png"
+},
+{
+"id": "Abyss Flame 1",
+"type": "0xb4f9",
+"src": "abyssOfDemonsObjects",
+"category": "prop",
+"sub": "abyssOfDemonsObjects",
+"why": "src",
+"file": "props/all/Abyss Flame 1__b4f9.png"
+},
+{
+"id": "Abyss Flame 2",
+"type": "0xb4fa",
+"src": "abyssOfDemonsObjects",
+"category": "prop",
+"sub": "abyssOfDemonsObjects",
+"why": "src",
+"file": "props/all/Abyss Flame 2__b4fa.png"
+},
+{
+"id": "Abyss Forge Lit",
+"type": "0xb4fe",
+"src": "abyssOfDemonsObjects",
+"category": "prop",
+"sub": "abyssOfDemonsObjects",
+"why": "src",
+"file": "props/all/Abyss Forge Lit__b4fe.png"
+},
+{
+"id": "Abyss Forge Unlit",
+"type": "0xb4ff",
+"src": "abyssOfDemonsObjects",
+"category": "prop",
+"sub": "abyssOfDemonsObjects",
+"why": "src",
+"file": "props/all/Abyss Forge Unlit__b4ff.png"
+},
+{
+"id": "Abyss Column",
+"type": "0xb500",
+"src": "abyssOfDemonsObjects",
+"category": "prop",
+"sub": "abyssOfDemonsObjects",
+"why": "src",
+"file": "props/all/Abyss Column__b500.png"
+},
+{
+"id": "Abyss Guill Doll",
+"type": "0xb51e",
+"src": "abyssOfDemonsObjects",
+"category": "prop",
+"sub": "abyssOfDemonsObjects",
+"why": "src",
+"file": "props/all/Abyss Guill Doll__b51e.png"
+},
+{
+"id": "Red Fire",
+"type": "0x0002",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Red Fire__0002.png"
+},
+{
+"id": "Red Star",
+"type": "0x0015",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Red Star__0015.png"
+},
+{
+"id": "White Bullet",
+"type": "0x003b",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/White Bullet__003b.png"
+},
+{
+"id": "Silver Shield",
+"type": "0x001b",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Silver Shield__001b.png"
+},
+{
+"id": "Orange Fairy Breath",
+"type": "0x820",
+"src": "magicWoodsObjects",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Orange Fairy Breath__820.png"
+},
+{
+"id": "Cultist Fire Shot",
+"type": "0xb0eb",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Cultist Fire Shot__b0eb.png"
+},
+{
+"id": "Fire Storm",
+"type": "0x2154",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Fire Storm__2154.png"
+},
+{
+"id": "White Flame",
+"type": "0x003c",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/White Flame__003c.png"
+},
+{
+"id": "White Demon Shot",
+"type": "0x00a6",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/White Demon Shot__00a6.png"
+},
+{
+"id": "White Ball Blast",
+"type": "0x00c5",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/White Ball Blast__00c5.png"
+},
+{
+"id": "Seafoam Green Fairy Shockwave",
+"type": "0x845",
+"src": "magicWoodsObjects",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Seafoam Green Fairy Shockwave__845.png"
+},
+{
+"id": "Fire Bolt",
+"type": "0x000f",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Fire Bolt__000f.png"
+},
+{
+"id": "Fire Claw",
+"type": "0x004e",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Fire Claw__004e.png"
+},
+{
+"id": "Blade",
+"type": "0x0006",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Blade__0006.png"
+},
+{
+"id": "Idol Wave",
+"type": "0x00d4",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Idol Wave__00d4.png"
+},
+{
+"id": "Idol Blast",
+"type": "0x00d3",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Idol Blast__00d3.png"
+},
+{
+"id": "Demon Blade",
+"type": "0xc01",
+"src": "equip",
+"category": "weapon",
+"sub": "sword",
+"why": "loot",
+"file": "loot/weapon_sword/Demon Blade__c01.png"
+},
+{
+"id": "Potion of Defense",
+"type": "0xa20",
+"src": "equip",
+"category": "consumable",
+"sub": "all",
+"why": "loot",
+"file": "loot/consumable/Potion of Defense__a20.png"
+},
+{
+"id": "Potion of Vitality",
+"type": "0xa34",
+"src": "equip",
+"category": "consumable",
+"sub": "all",
+"why": "loot",
+"file": "loot/consumable/Potion of Vitality__a34.png"
+},
+{
+"id": "Volcanic Sheath",
+"type": "0x39e2",
+"src": "equip",
+"category": "ability",
+"sub": "all",
+"why": "loot",
+"file": "loot/ability/Volcanic Sheath__39e2.png"
+},
+{
+"id": "Bridge",
+"type": "0xcb",
+"src": "ground",
+"category": "tile",
+"sub": "ground",
+"why": "tile",
+"file": "tiles/all/Bridge__cb.png"
+},
+{
+"id": "Lava",
+"type": "0x70",
+"src": "ground",
+"category": "tile",
+"sub": "ground",
+"why": "tile",
+"file": "tiles/all/Lava__70.png"
+},
+{
+"id": "Bridge Light",
+"type": "0xb6",
+"src": "ground",
+"category": "tile",
+"sub": "ground",
+"why": "tile",
+"file": "tiles/all/Bridge Light__b6.png"
+},
+{
+"id": "Red Wall",
+"type": "0x0150",
+"src": "staticobjects",
+"category": "wall",
+"sub": "staticobjects",
+"why": "wall",
+"file": "walls/all/Red Wall__0150.png"
+}
+]
+}

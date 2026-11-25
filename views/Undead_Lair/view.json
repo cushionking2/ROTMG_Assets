@@ -1,0 +1,1836 @@
+{
+"dungeon": "Undead_Lair",
+"sources": [
+"undeadLair",
+"undeadLairObjects",
+"undeadLairGround"
+],
+"counts": {
+"enemies": 78,
+"npcs": 10,
+"tiles": 6,
+"helpers": 7,
+"walls": 6,
+"props": 28,
+"projectiles": 55,
+"loot": 2
+},
+"why": {
+"src": 129,
+"spec": 5,
+"alias": 1,
+"proj": 55,
+"loot": 2
+},
+"tile_hints_used": {},
+"names_in_own_files": [
+"Lair Skeleton",
+"Lair Skeleton Swordsman",
+"Lair Skeleton Veteran",
+"Lair Skeleton Mage",
+"Lair Skeleton King",
+"Living Skeleton",
+"Lair Mummy",
+"Lair Mummy King",
+"Lair Mummy Pharaoh",
+"Lair Construct Giant",
+"Lair Construct Titan",
+"Lair Blue Spectre",
+"Lair Grey Spectre",
+"Lair White Spectre",
+"Lair Vampire",
+"Lair Vampire King",
+"Lair Little Black Slime",
+"Lair Medium Black Slime",
+"Lair Big Black Slime",
+"Lair Little Brown Slime",
+"Lair Big Brown Slime",
+"Lair Reaper",
+"Lair Brown Bat",
+"Lair Ghost Bat",
+"Lair Ghost Archer",
+"Lair Ghost Knight",
+"Lair Ghost Mage",
+"Lair Ghost Paladin",
+"Lair Ghost Rogue",
+"Lair Ghost Warrior",
+"Ghost Mage of Septavius",
+"Ghost Rogue of Septavius",
+"Ghost Warrior of Septavius",
+"Lair Blast Trap",
+"Lair Boomerang Trap",
+"Lair Burst Trap",
+"Lair Silence Trap",
+"Lair Spectral Skeleton",
+"Septavius the Ghost God"
+],
+"names_in_other_files": [
+[
+"Skeleton Worshipper",
+[
+"adept"
+]
+],
+[
+"Skeleton of the Damned",
+[
+"adept"
+]
+],
+[
+"Undead Pirate",
+[
+"adept"
+]
+],
+[
+"Burning Bones",
+[
+"adept"
+]
+],
+[
+"Flesh Golem",
+[
+"heroes_2"
+]
+],
+[
+"Ghost God",
+[
+"mountains"
+]
+]
+],
+"names_not_found": [],
+"entries": [
+{
+"id": "Heroic Undead Chest",
+"type": "0xf45",
+"src": "undeadLair",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Heroic Undead Chest__f45.png"
+},
+{
+"id": "Orb of Life",
+"type": "0xf41",
+"src": "undeadLair",
+"category": "npc",
+"sub": "all",
+"why": "src",
+"file": "npcs/all/Orb of Life__f41.png"
+},
+{
+"id": "Orb of Mana",
+"type": "0xf42",
+"src": "undeadLair",
+"category": "npc",
+"sub": "all",
+"why": "src",
+"file": "npcs/all/Orb of Mana__f42.png"
+},
+{
+"id": "Orb of Defense",
+"type": "0xff3f",
+"src": "undeadLair",
+"category": "npc",
+"sub": "all",
+"why": "src",
+"file": "npcs/all/Orb of Defense__ff3f.png"
+},
+{
+"id": "Orb of Frenzy",
+"type": "0xff40",
+"src": "undeadLair",
+"category": "npc",
+"sub": "all",
+"why": "src",
+"file": "npcs/all/Orb of Frenzy__ff40.png"
+},
+{
+"id": "Orb of Damage",
+"type": "0xff41",
+"src": "undeadLair",
+"category": "npc",
+"sub": "all",
+"why": "src",
+"file": "npcs/all/Orb of Damage__ff41.png"
+},
+{
+"id": "Orb of Range",
+"type": "0xff42",
+"src": "undeadLair",
+"category": "npc",
+"sub": "all",
+"why": "src",
+"file": "npcs/all/Orb of Range__ff42.png"
+},
+{
+"id": "Orb of Speed",
+"type": "0xff43",
+"src": "undeadLair",
+"category": "npc",
+"sub": "all",
+"why": "src",
+"file": "npcs/all/Orb of Speed__ff43.png"
+},
+{
+"id": "Craig Heroic",
+"type": "0xf43",
+"src": "undeadLair",
+"category": "npc",
+"sub": "all",
+"why": "src",
+"file": "npcs/all/Craig Heroic__f43.png"
+},
+{
+"id": "Heroic Septavius Summoner",
+"type": "0x4882",
+"src": "undeadLair",
+"category": "npc",
+"sub": "all",
+"why": "src",
+"file": "npcs/all/Heroic Septavius Summoner__4882.png"
+},
+{
+"id": "Heroic Septavius the Ghost God",
+"type": "0x485f",
+"src": "undeadLair",
+"category": "enemy",
+"sub": "boss",
+"why": "src",
+"file": "enemies/boss/Heroic Septavius the Ghost God__485f.png"
+},
+{
+"id": "Heroic Lair Skeleton",
+"type": "0x4860",
+"src": "undeadLair",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Heroic Lair Skeleton__4860.png"
+},
+{
+"id": "Heroic Lair Skeleton Swordsman",
+"type": "0x4861",
+"src": "undeadLair",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Heroic Lair Skeleton Swordsman__4861.png"
+},
+{
+"id": "Heroic Lair Skeleton Veteran",
+"type": "0x4862",
+"src": "undeadLair",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Heroic Lair Skeleton Veteran__4862.png"
+},
+{
+"id": "Heroic Lair Skeleton Mage",
+"type": "0x4863",
+"src": "undeadLair",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Heroic Lair Skeleton Mage__4863.png"
+},
+{
+"id": "Heroic Lair Skeleton King",
+"type": "0x4864",
+"src": "undeadLair",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Heroic Lair Skeleton King__4864.png"
+},
+{
+"id": "Heroic Lair Mummy",
+"type": "0x4865",
+"src": "undeadLair",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Heroic Lair Mummy__4865.png"
+},
+{
+"id": "Heroic Lair Mummy King",
+"type": "0x4866",
+"src": "undeadLair",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Heroic Lair Mummy King__4866.png"
+},
+{
+"id": "Heroic Lair Mummy Pharaoh",
+"type": "0x4867",
+"src": "undeadLair",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Heroic Lair Mummy Pharaoh__4867.png"
+},
+{
+"id": "Heroic Lair Construct Giant",
+"type": "0x4868",
+"src": "undeadLair",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Heroic Lair Construct Giant__4868.png"
+},
+{
+"id": "Heroic Lair Construct Titan",
+"type": "0x4869",
+"src": "undeadLair",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Heroic Lair Construct Titan__4869.png"
+},
+{
+"id": "Heroic Lair Big Black Slime",
+"type": "0x486a",
+"src": "undeadLair",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Heroic Lair Big Black Slime__486a.png"
+},
+{
+"id": "Heroic Lair Medium Black Slime",
+"type": "0x486b",
+"src": "undeadLair",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Heroic Lair Medium Black Slime__486b.png"
+},
+{
+"id": "Heroic Lair Little Black Slime",
+"type": "0x486c",
+"src": "undeadLair",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Heroic Lair Little Black Slime__486c.png"
+},
+{
+"id": "Heroic Lair Big Brown Slime",
+"type": "0x486d",
+"src": "undeadLair",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Heroic Lair Big Brown Slime__486d.png"
+},
+{
+"id": "Heroic Lair Little Brown Slime",
+"type": "0x486e",
+"src": "undeadLair",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Heroic Lair Little Brown Slime__486e.png"
+},
+{
+"id": "Heroic Lair Brown Bat",
+"type": "0x486f",
+"src": "undeadLair",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Heroic Lair Brown Bat__486f.png"
+},
+{
+"id": "Heroic Lair Ghost Bat",
+"type": "0x4870",
+"src": "undeadLair",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Heroic Lair Ghost Bat__4870.png"
+},
+{
+"id": "Heroic Lair Burst Trap",
+"type": "0x4871",
+"src": "undeadLair",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Heroic Lair Burst Trap__4871.png"
+},
+{
+"id": "Heroic Lair Blast Trap",
+"type": "0x4872",
+"src": "undeadLair",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Heroic Lair Blast Trap__4872.png"
+},
+{
+"id": "Heroic Lair Reaper",
+"type": "0x4873",
+"src": "undeadLair",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Heroic Lair Reaper__4873.png"
+},
+{
+"id": "Heroic Lair Vampire",
+"type": "0x4874",
+"src": "undeadLair",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Heroic Lair Vampire__4874.png"
+},
+{
+"id": "Heroic Lair Vampire King",
+"type": "0x4875",
+"src": "undeadLair",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Heroic Lair Vampire King__4875.png"
+},
+{
+"id": "Heroic Lair Grey Spectre",
+"type": "0x4876",
+"src": "undeadLair",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Heroic Lair Grey Spectre__4876.png"
+},
+{
+"id": "Heroic Lair Blue Spectre",
+"type": "0x4877",
+"src": "undeadLair",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Heroic Lair Blue Spectre__4877.png"
+},
+{
+"id": "Heroic Lair White Spectre",
+"type": "0x4878",
+"src": "undeadLair",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Heroic Lair White Spectre__4878.png"
+},
+{
+"id": "Heroic Lair Ghost Archer",
+"type": "0x4879",
+"src": "undeadLair",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Heroic Lair Ghost Archer__4879.png"
+},
+{
+"id": "Heroic Lair Ghost Warrior",
+"type": "0x487a",
+"src": "undeadLair",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Heroic Lair Ghost Warrior__487a.png"
+},
+{
+"id": "Heroic Lair Ghost Mage",
+"type": "0x487b",
+"src": "undeadLair",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Heroic Lair Ghost Mage__487b.png"
+},
+{
+"id": "Heroic Lair Ghost Rogue",
+"type": "0x487c",
+"src": "undeadLair",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Heroic Lair Ghost Rogue__487c.png"
+},
+{
+"id": "Heroic Lair Ghost Paladin",
+"type": "0x487d",
+"src": "undeadLair",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Heroic Lair Ghost Paladin__487d.png"
+},
+{
+"id": "Heroic Lair Ghost Knight",
+"type": "0x487e",
+"src": "undeadLair",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Heroic Lair Ghost Knight__487e.png"
+},
+{
+"id": "Heroic Ghost Warrior of Septavius",
+"type": "0x487f",
+"src": "undeadLair",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Heroic Ghost Warrior of Septavius__487f.png"
+},
+{
+"id": "Heroic Ghost Mage of Septavius",
+"type": "0x4880",
+"src": "undeadLair",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Heroic Ghost Mage of Septavius__4880.png"
+},
+{
+"id": "Heroic Ghost Rogue of Septavius",
+"type": "0x4881",
+"src": "undeadLair",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Heroic Ghost Rogue of Septavius__4881.png"
+},
+{
+"id": "UDL Normal Tile",
+"type": "0x3ce1",
+"src": "undeadLairGround",
+"category": "tile",
+"sub": "undeadLairGround",
+"why": "src",
+"file": "tiles/all/UDL Normal Tile__3ce1.png"
+},
+{
+"id": "UDL Outside Hallway Tile",
+"type": "0x3ce2",
+"src": "undeadLairGround",
+"category": "tile",
+"sub": "undeadLairGround",
+"why": "src",
+"file": "tiles/all/UDL Outside Hallway Tile__3ce2.png"
+},
+{
+"id": "UDL Inside Hallway Tile",
+"type": "0x3ce3",
+"src": "undeadLairGround",
+"category": "tile",
+"sub": "undeadLairGround",
+"why": "src",
+"file": "tiles/all/UDL Inside Hallway Tile__3ce3.png"
+},
+{
+"id": "UDL Broken Tile",
+"type": "0x3ce4",
+"src": "undeadLairGround",
+"category": "tile",
+"sub": "undeadLairGround",
+"why": "src",
+"file": "tiles/all/UDL Broken Tile__3ce4.png"
+},
+{
+"id": "UDL Blood Tile",
+"type": "0x3ce5",
+"src": "undeadLairGround",
+"category": "tile",
+"sub": "undeadLairGround",
+"why": "src",
+"file": "tiles/all/UDL Blood Tile__3ce5.png"
+},
+{
+"id": "UDL Faces Tile",
+"type": "0x3ce6",
+"src": "undeadLairGround",
+"category": "tile",
+"sub": "undeadLairGround",
+"why": "src",
+"file": "tiles/all/UDL Faces Tile__3ce6.png"
+},
+{
+"id": "Septavius Summoner",
+"type": "0x1730",
+"src": "undeadLairObjects",
+"category": "npc",
+"sub": "all",
+"why": "src",
+"file": "npcs/all/Septavius Summoner__1730.png"
+},
+{
+"id": "Septavius the Ghost God",
+"type": "0x0d90",
+"src": "undeadLairObjects",
+"category": "enemy",
+"sub": "boss",
+"why": "src",
+"file": "enemies/boss/Septavius the Ghost God__0d90.png"
+},
+{
+"id": "Lair Spectral Skeleton",
+"type": "0x15c3",
+"src": "undeadLairObjects",
+"category": "enemy",
+"sub": "miniboss",
+"why": "src",
+"file": "enemies/miniboss/Lair Spectral Skeleton__15c3.png"
+},
+{
+"id": "Lair Skeleton",
+"type": "0x0d91",
+"src": "undeadLairObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Lair Skeleton__0d91.png"
+},
+{
+"id": "HLair Skeleton",
+"type": "0x7304",
+"src": "undeadLairObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/HLair Skeleton__7304.png"
+},
+{
+"id": "Lair Skeleton Swordsman",
+"type": "0x0d92",
+"src": "undeadLairObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Lair Skeleton Swordsman__0d92.png"
+},
+{
+"id": "Lair Skeleton Veteran",
+"type": "0x0d93",
+"src": "undeadLairObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Lair Skeleton Veteran__0d93.png"
+},
+{
+"id": "Lair Skeleton Mage",
+"type": "0x0d94",
+"src": "undeadLairObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Lair Skeleton Mage__0d94.png"
+},
+{
+"id": "Lair Skeleton King",
+"type": "0x0d95",
+"src": "undeadLairObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Lair Skeleton King__0d95.png"
+},
+{
+"id": "Lair Mummy",
+"type": "0x0d96",
+"src": "undeadLairObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Lair Mummy__0d96.png"
+},
+{
+"id": "Lair Mummy King",
+"type": "0x0d97",
+"src": "undeadLairObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Lair Mummy King__0d97.png"
+},
+{
+"id": "Lair Mummy Pharaoh",
+"type": "0x0d98",
+"src": "undeadLairObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Lair Mummy Pharaoh__0d98.png"
+},
+{
+"id": "Lair Construct Giant",
+"type": "0x0d99",
+"src": "undeadLairObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Lair Construct Giant__0d99.png"
+},
+{
+"id": "Lair Construct Titan",
+"type": "0x0d9a",
+"src": "undeadLairObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Lair Construct Titan__0d9a.png"
+},
+{
+"id": "Lair Big Black Slime",
+"type": "0x0d9b",
+"src": "undeadLairObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Lair Big Black Slime__0d9b.png"
+},
+{
+"id": "Lair Medium Black Slime",
+"type": "0x0d9c",
+"src": "undeadLairObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Lair Medium Black Slime__0d9c.png"
+},
+{
+"id": "Lair Little Black Slime",
+"type": "0x0d9d",
+"src": "undeadLairObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Lair Little Black Slime__0d9d.png"
+},
+{
+"id": "Lair Big Brown Slime",
+"type": "0x0d9e",
+"src": "undeadLairObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Lair Big Brown Slime__0d9e.png"
+},
+{
+"id": "Lair Little Brown Slime",
+"type": "0x0d9f",
+"src": "undeadLairObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Lair Little Brown Slime__0d9f.png"
+},
+{
+"id": "Lair Brown Bat",
+"type": "0x0da0",
+"src": "undeadLairObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Lair Brown Bat__0da0.png"
+},
+{
+"id": "Lair Ghost Bat",
+"type": "0x0da1",
+"src": "undeadLairObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Lair Ghost Bat__0da1.png"
+},
+{
+"id": "Lair Burst Trap",
+"type": "0x0da2",
+"src": "undeadLairObjects",
+"category": "helper",
+"sub": "effect",
+"why": "src",
+"file": "helpers/effect/Lair Burst Trap__0da2.png"
+},
+{
+"id": "Lair Blast Trap",
+"type": "0x0da3",
+"src": "undeadLairObjects",
+"category": "helper",
+"sub": "effect",
+"why": "src",
+"file": "helpers/effect/Lair Blast Trap__0da3.png"
+},
+{
+"id": "Lair Boomerang Trap",
+"type": "0x77a5",
+"src": "undeadLairObjects",
+"category": "helper",
+"sub": "other",
+"why": "src",
+"file": "helpers/other/Lair Boomerang Trap__77a5.png"
+},
+{
+"id": "Lair Silence Trap",
+"type": "0x77a6",
+"src": "undeadLairObjects",
+"category": "helper",
+"sub": "other",
+"why": "src",
+"file": "helpers/other/Lair Silence Trap__77a6.png"
+},
+{
+"id": "Lair Reaper",
+"type": "0x0da4",
+"src": "undeadLairObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Lair Reaper__0da4.png"
+},
+{
+"id": "Lair Vampire",
+"type": "0x0da5",
+"src": "undeadLairObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Lair Vampire__0da5.png"
+},
+{
+"id": "Lair Vampire King",
+"type": "0x0da6",
+"src": "undeadLairObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Lair Vampire King__0da6.png"
+},
+{
+"id": "Lair Grey Spectre",
+"type": "0x0da7",
+"src": "undeadLairObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Lair Grey Spectre__0da7.png"
+},
+{
+"id": "Lair Blue Spectre",
+"type": "0x0da8",
+"src": "undeadLairObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Lair Blue Spectre__0da8.png"
+},
+{
+"id": "Lair White Spectre",
+"type": "0x0da9",
+"src": "undeadLairObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Lair White Spectre__0da9.png"
+},
+{
+"id": "Lair Ghost Archer",
+"type": "0x0daa",
+"src": "undeadLairObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Lair Ghost Archer__0daa.png"
+},
+{
+"id": "Lair Ghost Warrior",
+"type": "0x0dab",
+"src": "undeadLairObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Lair Ghost Warrior__0dab.png"
+},
+{
+"id": "Lair Ghost Mage",
+"type": "0x0dac",
+"src": "undeadLairObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Lair Ghost Mage__0dac.png"
+},
+{
+"id": "Lair Ghost Rogue",
+"type": "0x0dad",
+"src": "undeadLairObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Lair Ghost Rogue__0dad.png"
+},
+{
+"id": "Lair Ghost Paladin",
+"type": "0x0dae",
+"src": "undeadLairObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Lair Ghost Paladin__0dae.png"
+},
+{
+"id": "Lair Ghost Knight",
+"type": "0x0daf",
+"src": "undeadLairObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Lair Ghost Knight__0daf.png"
+},
+{
+"id": "Ghost Warrior of Septavius",
+"type": "0x0db0",
+"src": "undeadLairObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Ghost Warrior of Septavius__0db0.png"
+},
+{
+"id": "Ghost Mage of Septavius",
+"type": "0x0db1",
+"src": "undeadLairObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Ghost Mage of Septavius__0db1.png"
+},
+{
+"id": "Ghost Rogue of Septavius",
+"type": "0x0db2",
+"src": "undeadLairObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Ghost Rogue of Septavius__0db2.png"
+},
+{
+"id": "UDL Skeleton Wall",
+"type": "0x777f",
+"src": "undeadLairObjects",
+"category": "wall",
+"sub": "undeadLairObjects",
+"why": "src",
+"file": "walls/all/UDL Skeleton Wall__777f.png"
+},
+{
+"id": "UDL Banner Wall",
+"type": "0x7780",
+"src": "undeadLairObjects",
+"category": "wall",
+"sub": "undeadLairObjects",
+"why": "src",
+"file": "walls/all/UDL Banner Wall__7780.png"
+},
+{
+"id": "UDL Normal Wall",
+"type": "0x7781",
+"src": "undeadLairObjects",
+"category": "wall",
+"sub": "undeadLairObjects",
+"why": "src",
+"file": "walls/all/UDL Normal Wall__7781.png"
+},
+{
+"id": "UDL Hallway Corner Wall",
+"type": "0x7782",
+"src": "undeadLairObjects",
+"category": "wall",
+"sub": "undeadLairObjects",
+"why": "src",
+"file": "walls/all/UDL Hallway Corner Wall__7782.png"
+},
+{
+"id": "UDL Hallway Wall",
+"type": "0x7783",
+"src": "undeadLairObjects",
+"category": "wall",
+"sub": "undeadLairObjects",
+"why": "src",
+"file": "walls/all/UDL Hallway Wall__7783.png"
+},
+{
+"id": "UDL Hallway Candle Wall",
+"type": "0x7784",
+"src": "undeadLairObjects",
+"category": "wall",
+"sub": "undeadLairObjects",
+"why": "src",
+"file": "walls/all/UDL Hallway Candle Wall__7784.png"
+},
+{
+"id": "UDL Boss Candle",
+"type": "0x77ac",
+"src": "undeadLairObjects",
+"category": "prop",
+"sub": "undeadLairObjects",
+"why": "src",
+"file": "props/all/UDL Boss Candle__77ac.png"
+},
+{
+"id": "UDL Candle",
+"type": "0x7785",
+"src": "undeadLairObjects",
+"category": "prop",
+"sub": "undeadLairObjects",
+"why": "src",
+"file": "props/all/UDL Candle__7785.png"
+},
+{
+"id": "UDL Skull",
+"type": "0x7786",
+"src": "undeadLairObjects",
+"category": "prop",
+"sub": "undeadLairObjects",
+"why": "src",
+"file": "props/all/UDL Skull__7786.png"
+},
+{
+"id": "UDL Target",
+"type": "0x7787",
+"src": "undeadLairObjects",
+"category": "prop",
+"sub": "undeadLairObjects",
+"why": "src",
+"file": "props/all/UDL Target__7787.png"
+},
+{
+"id": "UDL Skeleton Dummy",
+"type": "0x7788",
+"src": "undeadLairObjects",
+"category": "prop",
+"sub": "undeadLairObjects",
+"why": "src",
+"file": "props/all/UDL Skeleton Dummy__7788.png"
+},
+{
+"id": "UDL Bow",
+"type": "0x7789",
+"src": "undeadLairObjects",
+"category": "prop",
+"sub": "undeadLairObjects",
+"why": "src",
+"file": "props/all/UDL Bow__7789.png"
+},
+{
+"id": "UDL CrossBow",
+"type": "0x778a",
+"src": "undeadLairObjects",
+"category": "prop",
+"sub": "undeadLairObjects",
+"why": "src",
+"file": "props/all/UDL CrossBow__778a.png"
+},
+{
+"id": "UDL Weapon Rack",
+"type": "0x778b",
+"src": "undeadLairObjects",
+"category": "prop",
+"sub": "undeadLairObjects",
+"why": "src",
+"file": "props/all/UDL Weapon Rack__778b.png"
+},
+{
+"id": "UDL Sword",
+"type": "0x778c",
+"src": "undeadLairObjects",
+"category": "prop",
+"sub": "undeadLairObjects",
+"why": "src",
+"file": "props/all/UDL Sword__778c.png"
+},
+{
+"id": "UDL Arrow",
+"type": "0x778d",
+"src": "undeadLairObjects",
+"category": "prop",
+"sub": "undeadLairObjects",
+"why": "src",
+"file": "props/all/UDL Arrow__778d.png"
+},
+{
+"id": "UDL Pot",
+"type": "0x778e",
+"src": "undeadLairObjects",
+"category": "prop",
+"sub": "undeadLairObjects",
+"why": "src",
+"file": "props/all/UDL Pot__778e.png"
+},
+{
+"id": "UDL Candle 2",
+"type": "0x778f",
+"src": "undeadLairObjects",
+"category": "prop",
+"sub": "undeadLairObjects",
+"why": "src",
+"file": "props/all/UDL Candle 2__778f.png"
+},
+{
+"id": "UDL Double Candle",
+"type": "0x7790",
+"src": "undeadLairObjects",
+"category": "prop",
+"sub": "undeadLairObjects",
+"why": "src",
+"file": "props/all/UDL Double Candle__7790.png"
+},
+{
+"id": "UDL Big Candle",
+"type": "0x7791",
+"src": "undeadLairObjects",
+"category": "prop",
+"sub": "undeadLairObjects",
+"why": "src",
+"file": "props/all/UDL Big Candle__7791.png"
+},
+{
+"id": "UDL Big Candle 2",
+"type": "0x779a",
+"src": "undeadLairObjects",
+"category": "prop",
+"sub": "undeadLairObjects",
+"why": "src",
+"file": "props/all/UDL Big Candle 2__779a.png"
+},
+{
+"id": "UDL Big Candle 3",
+"type": "0x77ab",
+"src": "undeadLairObjects",
+"category": "prop",
+"sub": "undeadLairObjects",
+"why": "src",
+"file": "props/all/UDL Big Candle 3__77ab.png"
+},
+{
+"id": "UDL Big Pot",
+"type": "0x779b",
+"src": "undeadLairObjects",
+"category": "prop",
+"sub": "undeadLairObjects",
+"why": "src",
+"file": "props/all/UDL Big Pot__779b.png"
+},
+{
+"id": "UDL Big Skull Pile",
+"type": "0x779c",
+"src": "undeadLairObjects",
+"category": "prop",
+"sub": "undeadLairObjects",
+"why": "src",
+"file": "props/all/UDL Big Skull Pile__779c.png"
+},
+{
+"id": "UDL Big Skull",
+"type": "0x779d",
+"src": "undeadLairObjects",
+"category": "prop",
+"sub": "undeadLairObjects",
+"why": "src",
+"file": "props/all/UDL Big Skull__779d.png"
+},
+{
+"id": "UDL Monument",
+"type": "0x779e",
+"src": "undeadLairObjects",
+"category": "prop",
+"sub": "undeadLairObjects",
+"why": "src",
+"file": "props/all/UDL Monument__779e.png"
+},
+{
+"id": "UDL Column",
+"type": "0x779f",
+"src": "undeadLairObjects",
+"category": "prop",
+"sub": "undeadLairObjects",
+"why": "src",
+"file": "props/all/UDL Column__779f.png"
+},
+{
+"id": "UDL Skuld Statue",
+"type": "0x77a0",
+"src": "undeadLairObjects",
+"category": "prop",
+"sub": "undeadLairObjects",
+"why": "src",
+"file": "props/all/UDL Skuld Statue__77a0.png"
+},
+{
+"id": "UDL Table",
+"type": "0x77aa",
+"src": "undeadLairObjects",
+"category": "prop",
+"sub": "undeadLairObjects",
+"why": "src",
+"file": "props/all/UDL Table__77aa.png"
+},
+{
+"id": "UDL Living Skeleton Trigger",
+"type": "0x77a1",
+"src": "undeadLairObjects",
+"category": "prop",
+"sub": "undeadLairObjects",
+"why": "src",
+"file": "props/all/UDL Living Skeleton Trigger__77a1.png"
+},
+{
+"id": "UDL Living Skeleton Prop",
+"type": "0x77a2",
+"src": "undeadLairObjects",
+"category": "prop",
+"sub": "undeadLairObjects",
+"why": "src",
+"file": "props/all/UDL Living Skeleton Prop__77a2.png"
+},
+{
+"id": "UDL Living Skeleton Animation",
+"type": "0x77a3",
+"src": "undeadLairObjects",
+"category": "prop",
+"sub": "undeadLairObjects",
+"why": "src",
+"file": "props/all/UDL Living Skeleton Animation__77a3.png"
+},
+{
+"id": "UDL Living Skeleton",
+"type": "0x77a4",
+"src": "undeadLairObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/UDL Living Skeleton__77a4.png"
+},
+{
+"id": "Lair Grey Spectre Bomb",
+"type": "0x77a7",
+"src": "undeadLairObjects",
+"category": "helper",
+"sub": "invisible",
+"why": "src",
+"file": "helpers/invisible/Lair Grey Spectre Bomb__77a7.png"
+},
+{
+"id": "Lair Blue Spectre Bomb",
+"type": "0x77a8",
+"src": "undeadLairObjects",
+"category": "helper",
+"sub": "invisible",
+"why": "src",
+"file": "helpers/invisible/Lair Blue Spectre Bomb__77a8.png"
+},
+{
+"id": "Lair White Spectre Bomb",
+"type": "0x77a9",
+"src": "undeadLairObjects",
+"category": "helper",
+"sub": "invisible",
+"why": "src",
+"file": "helpers/invisible/Lair White Spectre Bomb__77a9.png"
+},
+{
+"id": "UDL Pillar",
+"type": "0x80f1",
+"src": "undeadLairObjects",
+"category": "prop",
+"sub": "undeadLairObjects",
+"why": "src",
+"file": "props/all/UDL Pillar__80f1.png"
+},
+{
+"id": "UDL Broken Pillar",
+"type": "0x80f2",
+"src": "undeadLairObjects",
+"category": "prop",
+"sub": "undeadLairObjects",
+"why": "src",
+"file": "props/all/UDL Broken Pillar__80f2.png"
+},
+{
+"id": "Dead Church Necromancer",
+"type": "0xc1db",
+"src": "adept",
+"category": "enemy",
+"sub": "regular",
+"why": "spec",
+"file": "enemies/regular/Dead Church Necromancer__c1db.png"
+},
+{
+"id": "Hallows Skeleton",
+"type": "0x45ec",
+"src": "adept",
+"category": "enemy",
+"sub": "regular",
+"why": "spec",
+"file": "enemies/regular/Hallows Skeleton__45ec.png"
+},
+{
+"id": "Undead Pirate",
+"type": "0xc2ee",
+"src": "adept",
+"category": "enemy",
+"sub": "regular",
+"why": "spec",
+"file": "enemies/regular/Undead Pirate__c2ee.png"
+},
+{
+"id": "Flaming Skeleton",
+"type": "0xc2e8",
+"src": "adept",
+"category": "enemy",
+"sub": "regular",
+"why": "alias",
+"file": "enemies/regular/Flaming Skeleton__c2e8.png"
+},
+{
+"id": "Flesh Golem",
+"type": "0x86d3",
+"src": "heroes_2",
+"category": "enemy",
+"sub": "event_boss",
+"why": "spec",
+"file": "enemies/event_boss/Flesh Golem__86d3.png"
+},
+{
+"id": "Ghost God",
+"type": "0x659",
+"src": "mountains",
+"category": "enemy",
+"sub": "regular",
+"why": "spec",
+"file": "enemies/regular/Ghost God__659.png"
+},
+{
+"id": "White Bullet",
+"type": "0x003b",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/White Bullet__003b.png"
+},
+{
+"id": "Oryx Spirit proj",
+"type": "0x202b",
+"src": "oryxHordeObjects",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Oryx Spirit proj__202b.png"
+},
+{
+"id": "Yellow Star",
+"type": "0x001a",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Yellow Star__001a.png"
+},
+{
+"id": "Large White Bullet",
+"type": "0x219e",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Large White Bullet__219e.png"
+},
+{
+"id": "White Orb",
+"type": "0x00c1",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/White Orb__00c1.png"
+},
+{
+"id": "Etheral Missile",
+"type": "0x6feb",
+"src": "mountainTempleObject",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Etheral Missile__6feb.png"
+},
+{
+"id": "Bright Purple Fairy Blast",
+"type": "0x84a",
+"src": "magicWoodsObjects",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Bright Purple Fairy Blast__84a.png"
+},
+{
+"id": "Invisible",
+"type": "0x0096",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Invisible__0096.png"
+},
+{
+"id": "Blade",
+"type": "0x0006",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Blade__0006.png"
+},
+{
+"id": "Blue Magic",
+"type": "0x0004",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Blue Magic__0004.png"
+},
+{
+"id": "Blue Bolt",
+"type": "0x0011",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Blue Bolt__0011.png"
+},
+{
+"id": "Green Magic",
+"type": "0x0003",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Green Magic__0003.png"
+},
+{
+"id": "White Bolt",
+"type": "0x000e",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/White Bolt__000e.png"
+},
+{
+"id": "Blue Star",
+"type": "0x0016",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Blue Star__0016.png"
+},
+{
+"id": "Black Magic",
+"type": "0x0035",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Black Magic__0035.png"
+},
+{
+"id": "Brown Magic",
+"type": "0x0034",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Brown Magic__0034.png"
+},
+{
+"id": "Red Fire",
+"type": "0x0002",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Red Fire__0002.png"
+},
+{
+"id": "Fire Bolt",
+"type": "0x000f",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Fire Bolt__000f.png"
+},
+{
+"id": "Green Star",
+"type": "0x0019",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Green Star__0019.png"
+},
+{
+"id": "Green Bolt",
+"type": "0x0010",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Green Bolt__0010.png"
+},
+{
+"id": "Grey Star",
+"type": "0x0017",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Grey Star__0017.png"
+},
+{
+"id": "Pink Bolt",
+"type": "0x0012",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Pink Bolt__0012.png"
+},
+{
+"id": "Spectral Slash Blue",
+"type": "0xb102",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Spectral Slash Blue__b102.png"
+},
+{
+"id": "Purple Bolt",
+"type": "0x0036",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Purple Bolt__0036.png"
+},
+{
+"id": "Septavius Projectile",
+"type": "0x70ee",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Septavius Projectile__70ee.png"
+},
+{
+"id": "UDL Brown Magic",
+"type": "0x80db",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/UDL Brown Magic__80db.png"
+},
+{
+"id": "UDL Blue Magic Big",
+"type": "0x80e3",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/UDL Blue Magic Big__80e3.png"
+},
+{
+"id": "Doom Arrow",
+"type": "0x80ec",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Doom Arrow__80ec.png"
+},
+{
+"id": "HArcher ST Quiver Proj",
+"type": "0x648f",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/HArcher ST Quiver Proj__648f.png"
+},
+{
+"id": "UDL Bone",
+"type": "0x80df",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/UDL Bone__80df.png"
+},
+{
+"id": "UDL White Slash",
+"type": "0x80e0",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/UDL White Slash__80e0.png"
+},
+{
+"id": "UDL Orange Slash",
+"type": "0x80e1",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/UDL Orange Slash__80e1.png"
+},
+{
+"id": "UDL Blue Magic",
+"type": "0x80e2",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/UDL Blue Magic__80e2.png"
+},
+{
+"id": "UDL White Magic",
+"type": "0x80dc",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/UDL White Magic__80dc.png"
+},
+{
+"id": "UDL Orange Magic",
+"type": "0x80dd",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/UDL Orange Magic__80dd.png"
+},
+{
+"id": "UDL Pink Magic",
+"type": "0x80de",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/UDL Pink Magic__80de.png"
+},
+{
+"id": "UDL Blue Shot",
+"type": "0x80f0",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/UDL Blue Shot__80f0.png"
+},
+{
+"id": "UDL Blue Star",
+"type": "0x80ef",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/UDL Blue Star__80ef.png"
+},
+{
+"id": "UDL Brown Shot",
+"type": "0x80ee",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/UDL Brown Shot__80ee.png"
+},
+{
+"id": "UDL Grey Star",
+"type": "0x80d6",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/UDL Grey Star__80d6.png"
+},
+{
+"id": "UDL Black Magic",
+"type": "0x80da",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/UDL Black Magic__80da.png"
+},
+{
+"id": "UDL Purple Bolt",
+"type": "0x80e5",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/UDL Purple Bolt__80e5.png"
+},
+{
+"id": "UDL Green Star",
+"type": "0x80d5",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/UDL Green Star__80d5.png"
+},
+{
+"id": "UDL Green Bolt",
+"type": "0x80e4",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/UDL Green Bolt__80e4.png"
+},
+{
+"id": "UDL Orange Bolt",
+"type": "0x80d7",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/UDL Orange Bolt__80d7.png"
+},
+{
+"id": "UDL Blue Bolt",
+"type": "0x80d8",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/UDL Blue Bolt__80d8.png"
+},
+{
+"id": "Blue Arrow",
+"type": "0x000b",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Blue Arrow__000b.png"
+},
+{
+"id": "Gold Flail Ball",
+"type": "0x4478",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Gold Flail Ball__4478.png"
+},
+{
+"id": "Steel Flail Chain",
+"type": "0x4480",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Steel Flail Chain__4480.png"
+},
+{
+"id": "Sharp Green Star",
+"type": "0xc027",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Sharp Green Star__c027.png"
+},
+{
+"id": "Ghost Sr Slash",
+"type": "0x00dd",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Ghost Sr Slash__00dd.png"
+},
+{
+"id": "Big Fireball",
+"type": "0x214a",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Big Fireball__214a.png"
+},
+{
+"id": "Corruption Bolt",
+"type": "0xabad",
+"src": "cursedLibraryObjects",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Corruption Bolt__abad.png"
+},
+{
+"id": "Corruption Spinner",
+"type": "0xabb3",
+"src": "cursedLibraryObjects",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Corruption Spinner__abb3.png"
+},
+{
+"id": "Ghost God Spike",
+"type": "0xc015",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Ghost God Spike__c015.png"
+},
+{
+"id": "Doom Bow",
+"type": "0xc02",
+"src": "equip",
+"category": "weapon",
+"sub": "bow",
+"why": "loot",
+"file": "loot/weapon_bow/Doom Bow__c02.png"
+},
+{
+"id": "Potion of Wisdom",
+"type": "0xa35",
+"src": "equip",
+"category": "consumable",
+"sub": "all",
+"why": "loot",
+"file": "loot/consumable/Potion of Wisdom__a35.png"
+}
+]
+}

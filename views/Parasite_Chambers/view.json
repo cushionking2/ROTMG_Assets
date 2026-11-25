@@ -1,0 +1,1290 @@
+{
+"dungeon": "Parasite_Chambers",
+"sources": [
+"parasiteDenObjects",
+"parasiteDenGround"
+],
+"counts": {
+"tiles": 12,
+"projectiles": 23,
+"portals": 1,
+"enemies": 51,
+"props": 26,
+"npcs": 2,
+"helpers": 6,
+"walls": 8
+},
+"why": {
+"src": 107,
+"spec": 18,
+"proj": 4
+},
+"tile_hints_used": {},
+"names_in_own_files": [
+"Sword Wielding Host",
+"Bow Wielding Host",
+"Wand Wielding Host",
+"Dagger Wielding Host",
+"Staff Wielding Host",
+"Katana Wielding Host",
+"Pulsating Obstacle",
+"Parasitic Blob",
+"Parasitic Blob Guardian",
+"Parasitic Blob Scout",
+"Pterasite",
+"Pterasite Bomb",
+"Blood Slurp",
+"Uninfected Chest (~pD Infested Chest)",
+"Infested Chest"
+],
+"names_in_other_files": [
+[
+"Painling",
+[
+"oryxCastle",
+"oryxWineCellar",
+"parasiteDenObjects"
+]
+],
+[
+"Parasitic Stalker",
+[
+"oryxCastle",
+"oryxChamber",
+"parasiteDenObjects"
+]
+],
+[
+"Furious Lasher",
+[
+"oryxCastle",
+"oryxWineCellar",
+"parasiteDenObjects"
+]
+],
+[
+"Walking Horror",
+[
+"oryxCastle",
+"oryxChamber",
+"oryxWineCellar",
+"parasiteDenObjects"
+]
+],
+[
+"Horror Maw",
+[
+"oryxCastle",
+"oryxWineCellar",
+"parasiteDenObjects"
+]
+],
+[
+"Blob Colony",
+[
+"oryxCastle",
+"parasiteDenObjects"
+]
+],
+[
+"Pterasite Colony",
+[
+"oryxCastle",
+"parasiteDenObjects"
+]
+],
+[
+"Swarm Colony",
+[
+"oryxCastle",
+"parasiteDenObjects"
+]
+],
+[
+"Painling",
+[
+"oryxCastle",
+"oryxWineCellar",
+"parasiteDenObjects"
+]
+],
+[
+"Nightmare Colony",
+[
+"battleOryxObjects",
+"oryxCastle",
+"parasiteDenObjects"
+]
+]
+],
+"names_not_found": [
+{
+"name": "Ghost Slurp",
+"suggestions": [],
+"suggestion_in_own_files": false
+}
+],
+"entries": [
+{
+"id": "pD Colony Slot",
+"type": "0x123",
+"src": "parasiteDenGround",
+"category": "tile",
+"sub": "parasiteDenGround",
+"why": "src",
+"file": "tiles/all/pD Colony Slot__123.png"
+},
+{
+"id": "pD Creepasite",
+"type": "0x124",
+"src": "parasiteDenGround",
+"category": "tile",
+"sub": "parasiteDenGround",
+"why": "src",
+"file": "tiles/all/pD Creepasite__124.png"
+},
+{
+"id": "pD Creepasite 2",
+"type": "0x125",
+"src": "parasiteDenGround",
+"category": "tile",
+"sub": "parasiteDenGround",
+"why": "src",
+"file": "tiles/all/pD Creepasite 2__125.png"
+},
+{
+"id": "pD Creepasite Light",
+"type": "0x126",
+"src": "parasiteDenGround",
+"category": "tile",
+"sub": "parasiteDenGround",
+"why": "src",
+"file": "tiles/all/pD Creepasite Light__126.png"
+},
+{
+"id": "pD Creepasite Light Top",
+"type": "0x133",
+"src": "parasiteDenGround",
+"category": "tile",
+"sub": "parasiteDenGround",
+"why": "src",
+"file": "tiles/all/pD Creepasite Light Top__133.png"
+},
+{
+"id": "pD Barrel Slot",
+"type": "0x128",
+"src": "parasiteDenGround",
+"category": "tile",
+"sub": "parasiteDenGround",
+"why": "src",
+"file": "tiles/all/pD Barrel Slot__128.png"
+},
+{
+"id": "pD Cobble",
+"type": "0x129",
+"src": "parasiteDenGround",
+"category": "tile",
+"sub": "parasiteDenGround",
+"why": "src",
+"file": "tiles/all/pD Cobble__129.png"
+},
+{
+"id": "pD Cobble Pebble",
+"type": "0x130",
+"src": "parasiteDenGround",
+"category": "tile",
+"sub": "parasiteDenGround",
+"why": "src",
+"file": "tiles/all/pD Cobble Pebble__130.png"
+},
+{
+"id": "pD Wall Blend",
+"type": "0x131",
+"src": "parasiteDenGround",
+"category": "tile",
+"sub": "parasiteDenGround",
+"why": "src",
+"file": "tiles/all/pD Wall Blend__131.png"
+},
+{
+"id": "pD Boss Floor",
+"type": "0x132",
+"src": "parasiteDenGround",
+"category": "tile",
+"sub": "parasiteDenGround",
+"why": "src",
+"file": "tiles/all/pD Boss Floor__132.png"
+},
+{
+"id": "Infested Water",
+"type": "0xb3bb",
+"src": "parasiteDenGround",
+"category": "tile",
+"sub": "parasiteDenGround",
+"why": "src",
+"file": "tiles/all/Infested Water__b3bb.png"
+},
+{
+"id": "Infested Water Dark",
+"type": "0xb3bc",
+"src": "parasiteDenGround",
+"category": "tile",
+"sub": "parasiteDenGround",
+"why": "src",
+"file": "tiles/all/Infested Water Dark__b3bc.png"
+},
+{
+"id": "pD Blob Shot",
+"type": "0x78e",
+"src": "parasiteDenObjects",
+"category": "projectile",
+"sub": "all",
+"why": "src",
+"file": "projectiles/all/pD Blob Shot__78e.png"
+},
+{
+"id": "pD Maw Shot",
+"type": "0x78f",
+"src": "parasiteDenObjects",
+"category": "projectile",
+"sub": "all",
+"why": "src",
+"file": "projectiles/all/pD Maw Shot__78f.png"
+},
+{
+"id": "pD Maw Shot 2",
+"type": "0x79a",
+"src": "parasiteDenObjects",
+"category": "projectile",
+"sub": "all",
+"why": "src",
+"file": "projectiles/all/pD Maw Shot 2__79a.png"
+},
+{
+"id": "pD Maw Shot 3",
+"type": "0x7a0",
+"src": "parasiteDenObjects",
+"category": "projectile",
+"sub": "all",
+"why": "src",
+"file": "projectiles/all/pD Maw Shot 3__7a0.png"
+},
+{
+"id": "pD Walker Shot",
+"type": "0x79f",
+"src": "parasiteDenObjects",
+"category": "projectile",
+"sub": "all",
+"why": "src",
+"file": "projectiles/all/pD Walker Shot__79f.png"
+},
+{
+"id": "pD Stalker Shot",
+"type": "0x7ab",
+"src": "parasiteDenObjects",
+"category": "projectile",
+"sub": "all",
+"why": "src",
+"file": "projectiles/all/pD Stalker Shot__7ab.png"
+},
+{
+"id": "pD Tongue Shot",
+"type": "0x799",
+"src": "parasiteDenObjects",
+"category": "projectile",
+"sub": "all",
+"why": "src",
+"file": "projectiles/all/pD Tongue Shot__799.png"
+},
+{
+"id": "pD Sword Shot",
+"type": "0x7ac",
+"src": "parasiteDenObjects",
+"category": "projectile",
+"sub": "all",
+"why": "src",
+"file": "projectiles/all/pD Sword Shot__7ac.png"
+},
+{
+"id": "pD Wand Shot",
+"type": "0x7ad",
+"src": "parasiteDenObjects",
+"category": "projectile",
+"sub": "all",
+"why": "src",
+"file": "projectiles/all/pD Wand Shot__7ad.png"
+},
+{
+"id": "pD Bow Shot",
+"type": "0x7ae",
+"src": "parasiteDenObjects",
+"category": "projectile",
+"sub": "all",
+"why": "src",
+"file": "projectiles/all/pD Bow Shot__7ae.png"
+},
+{
+"id": "pD Dagger Shot",
+"type": "0x7af",
+"src": "parasiteDenObjects",
+"category": "projectile",
+"sub": "all",
+"why": "src",
+"file": "projectiles/all/pD Dagger Shot__7af.png"
+},
+{
+"id": "pD Staff Shot",
+"type": "0x7b0",
+"src": "parasiteDenObjects",
+"category": "projectile",
+"sub": "all",
+"why": "src",
+"file": "projectiles/all/pD Staff Shot__7b0.png"
+},
+{
+"id": "pD Katana Shot",
+"type": "0x7b1",
+"src": "parasiteDenObjects",
+"category": "projectile",
+"sub": "all",
+"why": "src",
+"file": "projectiles/all/pD Katana Shot__7b1.png"
+},
+{
+"id": "pD Wall Shot",
+"type": "0x7b2",
+"src": "parasiteDenObjects",
+"category": "projectile",
+"sub": "all",
+"why": "src",
+"file": "projectiles/all/pD Wall Shot__7b2.png"
+},
+{
+"id": "pD Quiet Wave",
+"type": "0x7b3",
+"src": "parasiteDenObjects",
+"category": "projectile",
+"sub": "all",
+"why": "src",
+"file": "projectiles/all/pD Quiet Wave__7b3.png"
+},
+{
+"id": "pD Boss Shot",
+"type": "0x7b7",
+"src": "parasiteDenObjects",
+"category": "projectile",
+"sub": "all",
+"why": "src",
+"file": "projectiles/all/pD Boss Shot__7b7.png"
+},
+{
+"id": "pD Pterasite Shot",
+"type": "0x7bd",
+"src": "parasiteDenObjects",
+"category": "projectile",
+"sub": "all",
+"why": "src",
+"file": "projectiles/all/pD Pterasite Shot__7bd.png"
+},
+{
+"id": "pD Swarm Shot",
+"type": "0x7bf",
+"src": "parasiteDenObjects",
+"category": "projectile",
+"sub": "all",
+"why": "src",
+"file": "projectiles/all/pD Swarm Shot__7bf.png"
+},
+{
+"id": "Parasite Chambers Portal",
+"type": "0x798",
+"src": "parasiteDenObjects",
+"category": "portal",
+"sub": "all",
+"why": "src",
+"file": "portals/all/Parasite Chambers Portal__798.png"
+},
+{
+"id": "pD Swords",
+"type": "0x7a6",
+"src": "parasiteDenObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/pD Swords__7a6.png"
+},
+{
+"id": "pD Wands",
+"type": "0x7a8",
+"src": "parasiteDenObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/pD Wands__7a8.png"
+},
+{
+"id": "pD Bows",
+"type": "0x7aa",
+"src": "parasiteDenObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/pD Bows__7aa.png"
+},
+{
+"id": "pD Daggers",
+"type": "0x7a9",
+"src": "parasiteDenObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/pD Daggers__7a9.png"
+},
+{
+"id": "pD Staves",
+"type": "0x7a5",
+"src": "parasiteDenObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/pD Staves__7a5.png"
+},
+{
+"id": "pD Katanas",
+"type": "0x7a7",
+"src": "parasiteDenObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/pD Katanas__7a7.png"
+},
+{
+"id": "pD Swords Scout",
+"type": "0x95a",
+"src": "parasiteDenObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/pD Swords Scout__95a.png"
+},
+{
+"id": "pD Wands Scout",
+"type": "0x95b",
+"src": "parasiteDenObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/pD Wands Scout__95b.png"
+},
+{
+"id": "pD Bows Scout",
+"type": "0x95c",
+"src": "parasiteDenObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/pD Bows Scout__95c.png"
+},
+{
+"id": "pD Daggers Scout",
+"type": "0x95d",
+"src": "parasiteDenObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/pD Daggers Scout__95d.png"
+},
+{
+"id": "pD Staves Scout",
+"type": "0x95e",
+"src": "parasiteDenObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/pD Staves Scout__95e.png"
+},
+{
+"id": "pD Katanas Scout",
+"type": "0x95f",
+"src": "parasiteDenObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/pD Katanas Scout__95f.png"
+},
+{
+"id": "pD Stalker Scout",
+"type": "0x7c9",
+"src": "parasiteDenObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/pD Stalker Scout__7c9.png"
+},
+{
+"id": "pD Stalker",
+"type": "0x791",
+"src": "parasiteDenObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/pD Stalker__791.png"
+},
+{
+"id": "pD Skin Collector",
+"type": "0x792",
+"src": "parasiteDenObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/pD Skin Collector__792.png"
+},
+{
+"id": "pD Walker",
+"type": "0x793",
+"src": "parasiteDenObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/pD Walker__793.png"
+},
+{
+"id": "pD Maw Scout",
+"type": "0x7c7",
+"src": "parasiteDenObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/pD Maw Scout__7c7.png"
+},
+{
+"id": "pD Tongue Scout",
+"type": "0x7c8",
+"src": "parasiteDenObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/pD Tongue Scout__7c8.png"
+},
+{
+"id": "pD Maw",
+"type": "0x794",
+"src": "parasiteDenObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/pD Maw__794.png"
+},
+{
+"id": "pD Tongue",
+"type": "0x795",
+"src": "parasiteDenObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/pD Tongue__795.png"
+},
+{
+"id": "pD EBM",
+"type": "0x785",
+"src": "parasiteDenObjects",
+"category": "prop",
+"sub": "parasiteDenObjects",
+"why": "src",
+"file": "props/all/pD EBM__785.png"
+},
+{
+"id": "pD EBM No PvP",
+"type": "0x49B",
+"src": "parasiteDenObjects",
+"category": "prop",
+"sub": "parasiteDenObjects",
+"why": "src",
+"file": "props/all/pD EBM No PvP__49B.png"
+},
+{
+"id": "EBM",
+"type": "0x7b4",
+"src": "parasiteDenObjects",
+"category": "prop",
+"sub": "parasiteDenObjects",
+"why": "src",
+"file": "props/all/EBM__7b4.png"
+},
+{
+"id": "pD Explo",
+"type": "0x7b5",
+"src": "parasiteDenObjects",
+"category": "prop",
+"sub": "parasiteDenObjects",
+"why": "src",
+"file": "props/all/pD Explo__7b5.png"
+},
+{
+"id": "pD Barrel",
+"type": "0x786",
+"src": "parasiteDenObjects",
+"category": "npc",
+"sub": "all",
+"why": "src",
+"file": "npcs/all/pD Barrel__786.png"
+},
+{
+"id": "pD Barrel Explosion",
+"type": "0x796",
+"src": "parasiteDenObjects",
+"category": "prop",
+"sub": "parasiteDenObjects",
+"why": "src",
+"file": "props/all/pD Barrel Explosion__796.png"
+},
+{
+"id": "pD Barrel No PvP",
+"type": "0x49C",
+"src": "parasiteDenObjects",
+"category": "npc",
+"sub": "all",
+"why": "src",
+"file": "npcs/all/pD Barrel No PvP__49C.png"
+},
+{
+"id": "pD Barrel Explosion No PvP",
+"type": "0x49D",
+"src": "parasiteDenObjects",
+"category": "prop",
+"sub": "parasiteDenObjects",
+"why": "src",
+"file": "props/all/pD Barrel Explosion No PvP__49D.png"
+},
+{
+"id": "pD Scout Squad",
+"type": "0x7c4",
+"src": "parasiteDenObjects",
+"category": "prop",
+"sub": "parasiteDenObjects",
+"why": "src",
+"file": "props/all/pD Scout Squad__7c4.png"
+},
+{
+"id": "ScoutSpawner",
+"type": "0x456c",
+"src": "parasiteDenObjects",
+"category": "helper",
+"sub": "other",
+"why": "src",
+"file": "helpers/other/ScoutSpawner__456c.png"
+},
+{
+"id": "pD Scout Colony",
+"type": "0x7c2",
+"src": "parasiteDenObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/pD Scout Colony__7c2.png"
+},
+{
+"id": "pD Blob Scout",
+"type": "0x7c0",
+"src": "parasiteDenObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/pD Blob Scout__7c0.png"
+},
+{
+"id": "pD Blob",
+"type": "0x789",
+"src": "parasiteDenObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/pD Blob__789.png"
+},
+{
+"id": "HpD Blob",
+"type": "0x7306",
+"src": "parasiteDenObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/HpD Blob__7306.png"
+},
+{
+"id": "pD Blob Guardian",
+"type": "0x7c1",
+"src": "parasiteDenObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/pD Blob Guardian__7c1.png"
+},
+{
+"id": "pD Colony Goop",
+"type": "0x7bb",
+"src": "parasiteDenObjects",
+"category": "prop",
+"sub": "parasiteDenObjects",
+"why": "src",
+"file": "props/all/pD Colony Goop__7bb.png"
+},
+{
+"id": "pD Colony Life",
+"type": "0x7c3",
+"src": "parasiteDenObjects",
+"category": "prop",
+"sub": "parasiteDenObjects",
+"why": "src",
+"file": "props/all/pD Colony Life__7c3.png"
+},
+{
+"id": "pD Colony Death",
+"type": "0x7bc",
+"src": "parasiteDenObjects",
+"category": "prop",
+"sub": "parasiteDenObjects",
+"why": "src",
+"file": "props/all/pD Colony Death__7bc.png"
+},
+{
+"id": "pD Blob Colony",
+"type": "0x790",
+"src": "parasiteDenObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/pD Blob Colony__790.png"
+},
+{
+"id": "pD Creepasite Maker",
+"type": "0x7a2",
+"src": "parasiteDenObjects",
+"category": "prop",
+"sub": "parasiteDenObjects",
+"why": "src",
+"file": "props/all/pD Creepasite Maker__7a2.png"
+},
+{
+"id": "pD Pterasite",
+"type": "0x787",
+"src": "parasiteDenObjects",
+"category": "helper",
+"sub": "other",
+"why": "src",
+"file": "helpers/other/pD Pterasite__787.png"
+},
+{
+"id": "pD Pterasite Bomb",
+"type": "0x7a3",
+"src": "parasiteDenObjects",
+"category": "helper",
+"sub": "effect",
+"why": "src",
+"file": "helpers/effect/pD Pterasite Bomb__7a3.png"
+},
+{
+"id": "pD Pterasite Bomb Proj",
+"type": "0x78b",
+"src": "parasiteDenObjects",
+"category": "projectile",
+"sub": "all",
+"why": "src",
+"file": "projectiles/all/pD Pterasite Bomb Proj__78b.png"
+},
+{
+"id": "pD Pterasite Colony",
+"type": "0x7a4",
+"src": "parasiteDenObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/pD Pterasite Colony__7a4.png"
+},
+{
+"id": "pD Swarm Colony",
+"type": "0x7be",
+"src": "parasiteDenObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/pD Swarm Colony__7be.png"
+},
+{
+"id": "pD Painling",
+"type": "0x788",
+"src": "parasiteDenObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/pD Painling__788.png"
+},
+{
+"id": "pD Painling Explosion",
+"type": "0x78a",
+"src": "parasiteDenObjects",
+"category": "prop",
+"sub": "parasiteDenObjects",
+"why": "src",
+"file": "props/all/pD Painling Explosion__78a.png"
+},
+{
+"id": "pD Boss Target",
+"type": "0x801",
+"src": "parasiteDenObjects",
+"category": "prop",
+"sub": "parasiteDenObjects",
+"why": "src",
+"file": "props/all/pD Boss Target__801.png"
+},
+{
+"id": "pD Boss",
+"type": "0x800",
+"src": "parasiteDenObjects",
+"category": "enemy",
+"sub": "boss",
+"why": "src",
+"file": "enemies/boss/pD Boss__800.png"
+},
+{
+"id": "pD Infested Chest",
+"type": "0x81e",
+"src": "parasiteDenObjects",
+"category": "enemy",
+"sub": "miniboss",
+"why": "src",
+"file": "enemies/miniboss/pD Infested Chest__81e.png"
+},
+{
+"id": "pD Boss Support",
+"type": "0x7b6",
+"src": "parasiteDenObjects",
+"category": "helper",
+"sub": "other",
+"why": "src",
+"file": "helpers/other/pD Boss Support__7b6.png"
+},
+{
+"id": "pD Blood Slurp",
+"type": "0x7c6",
+"src": "parasiteDenObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/pD Blood Slurp__7c6.png"
+},
+{
+"id": "pD Spawn TP",
+"type": "0x79b",
+"src": "parasiteDenObjects",
+"category": "prop",
+"sub": "parasiteDenObjects",
+"why": "src",
+"file": "props/all/pD Spawn TP__79b.png"
+},
+{
+"id": "pD Spawn TP Target",
+"type": "0x79c",
+"src": "parasiteDenObjects",
+"category": "prop",
+"sub": "parasiteDenObjects",
+"why": "src",
+"file": "props/all/pD Spawn TP Target__79c.png"
+},
+{
+"id": "pD Boss TP",
+"type": "0x79d",
+"src": "parasiteDenObjects",
+"category": "prop",
+"sub": "parasiteDenObjects",
+"why": "src",
+"file": "props/all/pD Boss TP__79d.png"
+},
+{
+"id": "pD Boss TP Target",
+"type": "0x79e",
+"src": "parasiteDenObjects",
+"category": "prop",
+"sub": "parasiteDenObjects",
+"why": "src",
+"file": "props/all/pD Boss TP Target__79e.png"
+},
+{
+"id": "pD Wall Maw",
+"type": "0x80c",
+"src": "parasiteDenObjects",
+"category": "wall",
+"sub": "parasiteDenObjects",
+"why": "src",
+"file": "walls/all/pD Wall Maw__80c.png"
+},
+{
+"id": "pD Wall Maw Close",
+"type": "0x819",
+"src": "parasiteDenObjects",
+"category": "wall",
+"sub": "parasiteDenObjects",
+"why": "src",
+"file": "walls/all/pD Wall Maw Close__819.png"
+},
+{
+"id": "pD Wall Vein",
+"type": "0x80d",
+"src": "parasiteDenObjects",
+"category": "wall",
+"sub": "parasiteDenObjects",
+"why": "src",
+"file": "walls/all/pD Wall Vein__80d.png"
+},
+{
+"id": "pD Wall Flesh",
+"type": "0x80e",
+"src": "parasiteDenObjects",
+"category": "wall",
+"sub": "parasiteDenObjects",
+"why": "src",
+"file": "walls/all/pD Wall Flesh__80e.png"
+},
+{
+"id": "pD Wall Bricks",
+"type": "0x813",
+"src": "parasiteDenObjects",
+"category": "wall",
+"sub": "parasiteDenObjects",
+"why": "src",
+"file": "walls/all/pD Wall Bricks__813.png"
+},
+{
+"id": "pD Wall Bricks Small",
+"type": "0x81a",
+"src": "parasiteDenObjects",
+"category": "wall",
+"sub": "parasiteDenObjects",
+"why": "src",
+"file": "walls/all/pD Wall Bricks Small__81a.png"
+},
+{
+"id": "pD Wall Bricks Cracked",
+"type": "0x81b",
+"src": "parasiteDenObjects",
+"category": "wall",
+"sub": "parasiteDenObjects",
+"why": "src",
+"file": "walls/all/pD Wall Bricks Cracked__81b.png"
+},
+{
+"id": "pD Wall Bricks Goop",
+"type": "0x814",
+"src": "parasiteDenObjects",
+"category": "wall",
+"sub": "parasiteDenObjects",
+"why": "src",
+"file": "walls/all/pD Wall Bricks Goop__814.png"
+},
+{
+"id": "pD Obstacle",
+"type": "0x80f",
+"src": "parasiteDenObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/pD Obstacle__80f.png"
+},
+{
+"id": "pD Obstacle Explosion",
+"type": "0x7c5",
+"src": "parasiteDenObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/pD Obstacle Explosion__7c5.png"
+},
+{
+"id": "pD Blockade",
+"type": "0x818",
+"src": "parasiteDenObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/pD Blockade__818.png"
+},
+{
+"id": "pD Pulsing Ground 1",
+"type": "0x810",
+"src": "parasiteDenObjects",
+"category": "prop",
+"sub": "parasiteDenObjects",
+"why": "src",
+"file": "props/all/pD Pulsing Ground 1__810.png"
+},
+{
+"id": "pD Pulsing Ground 2",
+"type": "0x816",
+"src": "parasiteDenObjects",
+"category": "prop",
+"sub": "parasiteDenObjects",
+"why": "src",
+"file": "props/all/pD Pulsing Ground 2__816.png"
+},
+{
+"id": "pD Goop Ground",
+"type": "0x815",
+"src": "parasiteDenObjects",
+"category": "prop",
+"sub": "parasiteDenObjects",
+"why": "src",
+"file": "props/all/pD Goop Ground__815.png"
+},
+{
+"id": "pD Pool of Blood",
+"type": "0x812",
+"src": "parasiteDenObjects",
+"category": "prop",
+"sub": "parasiteDenObjects",
+"why": "src",
+"file": "props/all/pD Pool of Blood__812.png"
+},
+{
+"id": "pD Weapon Rack",
+"type": "0x81c",
+"src": "parasiteDenObjects",
+"category": "prop",
+"sub": "parasiteDenObjects",
+"why": "src",
+"file": "props/all/pD Weapon Rack__81c.png"
+},
+{
+"id": "pD Book",
+"type": "0x81d",
+"src": "parasiteDenObjects",
+"category": "prop",
+"sub": "parasiteDenObjects",
+"why": "src",
+"file": "props/all/pD Book__81d.png"
+},
+{
+"id": "pD Candelabra",
+"type": "0x81f",
+"src": "parasiteDenObjects",
+"category": "prop",
+"sub": "parasiteDenObjects",
+"why": "src",
+"file": "props/all/pD Candelabra__81f.png"
+},
+{
+"id": "Infested pD Blockade",
+"type": "0xb39e",
+"src": "parasiteDenObjects",
+"category": "prop",
+"sub": "parasiteDenObjects",
+"why": "src",
+"file": "props/all/Infested pD Blockade__b39e.png"
+},
+{
+"id": "Infested pD Colony Death",
+"type": "0xb396",
+"src": "parasiteDenObjects",
+"category": "prop",
+"sub": "parasiteDenObjects",
+"why": "src",
+"file": "props/all/Infested pD Colony Death__b396.png"
+},
+{
+"id": "Infested pD Painling C",
+"type": "0xb3ba",
+"src": "oryxCastle",
+"category": "enemy",
+"sub": "regular",
+"why": "spec",
+"file": "enemies/regular/Infested pD Painling C__b3ba.png"
+},
+{
+"id": "Infested pD Painling 2",
+"type": "0xb3b1",
+"src": "oryxWineCellar",
+"category": "enemy",
+"sub": "regular",
+"why": "spec",
+"file": "enemies/regular/Infested pD Painling 2__b3b1.png"
+},
+{
+"id": "Infested pD Stalker C",
+"type": "0xb3bb",
+"src": "oryxCastle",
+"category": "enemy",
+"sub": "regular",
+"why": "spec",
+"file": "enemies/regular/Infested pD Stalker C__b3bb.png"
+},
+{
+"id": "Infested pD Stalker",
+"type": "0xb3a4",
+"src": "oryxChamber",
+"category": "enemy",
+"sub": "regular",
+"why": "spec",
+"file": "enemies/regular/Infested pD Stalker__b3a4.png"
+},
+{
+"id": "Infested pD Tongue C",
+"type": "0xb3b9",
+"src": "oryxCastle",
+"category": "enemy",
+"sub": "regular",
+"why": "spec",
+"file": "enemies/regular/Infested pD Tongue C__b3b9.png"
+},
+{
+"id": "Infested pD Tongue 2",
+"type": "0xb3b0",
+"src": "oryxWineCellar",
+"category": "enemy",
+"sub": "regular",
+"why": "spec",
+"file": "enemies/regular/Infested pD Tongue 2__b3b0.png"
+},
+{
+"id": "Infested pD Walker C",
+"type": "0xb3b7",
+"src": "oryxCastle",
+"category": "enemy",
+"sub": "regular",
+"why": "spec",
+"file": "enemies/regular/Infested pD Walker C__b3b7.png"
+},
+{
+"id": "Infested pD Walker",
+"type": "0xb3a5",
+"src": "oryxChamber",
+"category": "enemy",
+"sub": "regular",
+"why": "spec",
+"file": "enemies/regular/Infested pD Walker__b3a5.png"
+},
+{
+"id": "Infested pD Walker 2",
+"type": "0xb3ae",
+"src": "oryxWineCellar",
+"category": "enemy",
+"sub": "regular",
+"why": "spec",
+"file": "enemies/regular/Infested pD Walker 2__b3ae.png"
+},
+{
+"id": "Infested pD Maw C",
+"type": "0xb3b8",
+"src": "oryxCastle",
+"category": "enemy",
+"sub": "regular",
+"why": "spec",
+"file": "enemies/regular/Infested pD Maw C__b3b8.png"
+},
+{
+"id": "Infested pD Maw 2",
+"type": "0xb3af",
+"src": "oryxWineCellar",
+"category": "enemy",
+"sub": "regular",
+"why": "spec",
+"file": "enemies/regular/Infested pD Maw 2__b3af.png"
+},
+{
+"id": "Infested pD Blob Colony",
+"type": "0xb3b4",
+"src": "oryxCastle",
+"category": "enemy",
+"sub": "regular",
+"why": "spec",
+"file": "enemies/regular/Infested pD Blob Colony__b3b4.png"
+},
+{
+"id": "Infested pD Pterasite Colony",
+"type": "0xb3b5",
+"src": "oryxCastle",
+"category": "enemy",
+"sub": "regular",
+"why": "spec",
+"file": "enemies/regular/Infested pD Pterasite Colony__b3b5.png"
+},
+{
+"id": "Infested pD Swarm Colony",
+"type": "0xb3b6",
+"src": "oryxCastle",
+"category": "enemy",
+"sub": "regular",
+"why": "spec",
+"file": "enemies/regular/Infested pD Swarm Colony__b3b6.png"
+},
+{
+"id": "MotMG pD Boss",
+"type": "0xf1c",
+"src": "battleOryxObjects",
+"category": "enemy",
+"sub": "miniboss",
+"why": "spec",
+"file": "enemies/miniboss/MotMG pD Boss__f1c.png"
+},
+{
+"id": "MotMG pD Boss Support",
+"type": "0xf1d",
+"src": "battleOryxObjects",
+"category": "helper",
+"sub": "other",
+"why": "spec",
+"file": "helpers/other/MotMG pD Boss Support__f1d.png"
+},
+{
+"id": "Infested pD Boss",
+"type": "0xb3b2",
+"src": "oryxCastle",
+"category": "enemy",
+"sub": "boss",
+"why": "spec",
+"file": "enemies/boss/Infested pD Boss__b3b2.png"
+},
+{
+"id": "Infested pD Boss Support",
+"type": "0xb3b3",
+"src": "oryxCastle",
+"category": "helper",
+"sub": "other",
+"why": "spec",
+"file": "helpers/other/Infested pD Boss Support__b3b3.png"
+},
+{
+"id": "Big Fireball",
+"type": "0x214a",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Big Fireball__214a.png"
+},
+{
+"id": "Poison Fireball",
+"type": "0x214b",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Poison Fireball__214b.png"
+},
+{
+"id": "Invisible",
+"type": "0x0096",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Invisible__0096.png"
+},
+{
+"id": "Puppet Green Wheel",
+"type": "0xa22f",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Puppet Green Wheel__a22f.png"
+}
+]
+}

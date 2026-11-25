@@ -1,0 +1,2507 @@
+{
+"dungeon": "Deadwater_Docks",
+"sources": [
+"deadwaterDocksObjects",
+"deadwaterDocksGround"
+],
+"counts": {
+"tiles": 68,
+"projectiles": 37,
+"props": 124,
+"enemies": 31,
+"helpers": 3,
+"walls": 7,
+"loot": 2
+},
+"why": {
+"src": 264,
+"proj": 4,
+"loot": 2,
+"tile": 2
+},
+"tile_hints_used": {
+"sand": 2
+},
+"names_in_own_files": [
+"Deadwater Admiral",
+"Deadwater Captain",
+"Deadwater Lieutenant",
+"Deadwater Commander",
+"Deadwater Cannoneer",
+"Deadwater Shipwright",
+"Deadwater Sharpshooter",
+"Deadwater Cook",
+"Deadwater Navigator",
+"Deadwater Brawler",
+"Deadwater Boatswain",
+"Deadwater Swashbuckler",
+"Deadwater Buccaneer",
+"Deadwater Cutthroat",
+"Deadwater Helmsman",
+"Deadwater Raider",
+"Deadwater Watchman",
+"Deadwater Doctor",
+"Deadwater Veteran",
+"Deadwater Sailor",
+"Kingdom Stowaway",
+"Calamity Crab",
+"Commotion Crab",
+"Jon Bilgewater the Pirate King",
+"Bartholomew the Massive Parrot",
+"Deadwater Macaw",
+"Deadwater Parrot",
+"Bilgewater's Booty"
+],
+"names_in_other_files": [],
+"names_not_found": [],
+"entries": [
+{
+"id": "DWD Sand",
+"type": "0xb091",
+"src": "deadwaterDocksGround",
+"category": "tile",
+"sub": "deadwaterDocksGround",
+"why": "src",
+"file": "tiles/all/DWD Sand__b091.png"
+},
+{
+"id": "DWD Dark Sand",
+"type": "0xb092",
+"src": "deadwaterDocksGround",
+"category": "tile",
+"sub": "deadwaterDocksGround",
+"why": "src",
+"file": "tiles/all/DWD Dark Sand__b092.png"
+},
+{
+"id": "DWD Water",
+"type": "0xb093",
+"src": "deadwaterDocksGround",
+"category": "tile",
+"sub": "deadwaterDocksGround",
+"why": "src",
+"file": "tiles/all/DWD Water__b093.png"
+},
+{
+"id": "DWD Water Clean",
+"type": "0xb0fa",
+"src": "deadwaterDocksGround",
+"category": "tile",
+"sub": "deadwaterDocksGround",
+"why": "src",
+"file": "tiles/all/DWD Water Clean__b0fa.png"
+},
+{
+"id": "DWD Water Safe",
+"type": "0xb0f9",
+"src": "deadwaterDocksGround",
+"category": "tile",
+"sub": "deadwaterDocksGround",
+"why": "src",
+"file": "tiles/all/DWD Water Safe__b0f9.png"
+},
+{
+"id": "DWD Dark Water",
+"type": "0xb094",
+"src": "deadwaterDocksGround",
+"category": "tile",
+"sub": "deadwaterDocksGround",
+"why": "src",
+"file": "tiles/all/DWD Dark Water__b094.png"
+},
+{
+"id": "DWD Vertical Wood Edge L",
+"type": "0xb095",
+"src": "deadwaterDocksGround",
+"category": "tile",
+"sub": "deadwaterDocksGround",
+"why": "src",
+"file": "tiles/all/DWD Vertical Wood Edge L__b095.png"
+},
+{
+"id": "DWD Vertical Wood",
+"type": "0xb096",
+"src": "deadwaterDocksGround",
+"category": "tile",
+"sub": "deadwaterDocksGround",
+"why": "src",
+"file": "tiles/all/DWD Vertical Wood__b096.png"
+},
+{
+"id": "DWD Vertical Wood Edge R",
+"type": "0xb097",
+"src": "deadwaterDocksGround",
+"category": "tile",
+"sub": "deadwaterDocksGround",
+"why": "src",
+"file": "tiles/all/DWD Vertical Wood Edge R__b097.png"
+},
+{
+"id": "DWD Vertical Wood Hallway L",
+"type": "0xb0e5",
+"src": "deadwaterDocksGround",
+"category": "tile",
+"sub": "deadwaterDocksGround",
+"why": "src",
+"file": "tiles/all/DWD Vertical Wood Hallway L__b0e5.png"
+},
+{
+"id": "DWD Vertical Wood Hallway M",
+"type": "0xb0e6",
+"src": "deadwaterDocksGround",
+"category": "tile",
+"sub": "deadwaterDocksGround",
+"why": "src",
+"file": "tiles/all/DWD Vertical Wood Hallway M__b0e6.png"
+},
+{
+"id": "DWD Vertical Wood Hallway R",
+"type": "0xb0e7",
+"src": "deadwaterDocksGround",
+"category": "tile",
+"sub": "deadwaterDocksGround",
+"why": "src",
+"file": "tiles/all/DWD Vertical Wood Hallway R__b0e7.png"
+},
+{
+"id": "DWD Vertical Wood Crystal",
+"type": "0xb0eb",
+"src": "deadwaterDocksGround",
+"category": "tile",
+"sub": "deadwaterDocksGround",
+"why": "src",
+"file": "tiles/all/DWD Vertical Wood Crystal__b0eb.png"
+},
+{
+"id": "DWD Vertical Wood Cracked",
+"type": "0xb0ec",
+"src": "deadwaterDocksGround",
+"category": "tile",
+"sub": "deadwaterDocksGround",
+"why": "src",
+"file": "tiles/all/DWD Vertical Wood Cracked__b0ec.png"
+},
+{
+"id": "DWD Vertical Wood Blood",
+"type": "0xb0ed",
+"src": "deadwaterDocksGround",
+"category": "tile",
+"sub": "deadwaterDocksGround",
+"why": "src",
+"file": "tiles/all/DWD Vertical Wood Blood__b0ed.png"
+},
+{
+"id": "DWD Horizontal Wood Edge L",
+"type": "0xb0c5",
+"src": "deadwaterDocksGround",
+"category": "tile",
+"sub": "deadwaterDocksGround",
+"why": "src",
+"file": "tiles/all/DWD Horizontal Wood Edge L__b0c5.png"
+},
+{
+"id": "DWD Horizontal Wood",
+"type": "0xb0c6",
+"src": "deadwaterDocksGround",
+"category": "tile",
+"sub": "deadwaterDocksGround",
+"why": "src",
+"file": "tiles/all/DWD Horizontal Wood__b0c6.png"
+},
+{
+"id": "DWD Horizontal Wood Edge R",
+"type": "0xb0c7",
+"src": "deadwaterDocksGround",
+"category": "tile",
+"sub": "deadwaterDocksGround",
+"why": "src",
+"file": "tiles/all/DWD Horizontal Wood Edge R__b0c7.png"
+},
+{
+"id": "DWD Horizontal Wood Hallway L",
+"type": "0xb0e8",
+"src": "deadwaterDocksGround",
+"category": "tile",
+"sub": "deadwaterDocksGround",
+"why": "src",
+"file": "tiles/all/DWD Horizontal Wood Hallway L__b0e8.png"
+},
+{
+"id": "DWD Horizontal Wood Hallway M",
+"type": "0xb0e9",
+"src": "deadwaterDocksGround",
+"category": "tile",
+"sub": "deadwaterDocksGround",
+"why": "src",
+"file": "tiles/all/DWD Horizontal Wood Hallway M__b0e9.png"
+},
+{
+"id": "DWD Horizontal Wood Hallway R",
+"type": "0xb0ea",
+"src": "deadwaterDocksGround",
+"category": "tile",
+"sub": "deadwaterDocksGround",
+"why": "src",
+"file": "tiles/all/DWD Horizontal Wood Hallway R__b0ea.png"
+},
+{
+"id": "DWD Stone",
+"type": "0xb0ee",
+"src": "deadwaterDocksGround",
+"category": "tile",
+"sub": "deadwaterDocksGround",
+"why": "src",
+"file": "tiles/all/DWD Stone__b0ee.png"
+},
+{
+"id": "DWD Stone Edge L",
+"type": "0xb0ef",
+"src": "deadwaterDocksGround",
+"category": "tile",
+"sub": "deadwaterDocksGround",
+"why": "src",
+"file": "tiles/all/DWD Stone Edge L__b0ef.png"
+},
+{
+"id": "DWD Stone Edge R",
+"type": "0xb0f0",
+"src": "deadwaterDocksGround",
+"category": "tile",
+"sub": "deadwaterDocksGround",
+"why": "src",
+"file": "tiles/all/DWD Stone Edge R__b0f0.png"
+},
+{
+"id": "DWD Stone Edge Corner",
+"type": "0xb0f1",
+"src": "deadwaterDocksGround",
+"category": "tile",
+"sub": "deadwaterDocksGround",
+"why": "src",
+"file": "tiles/all/DWD Stone Edge Corner__b0f1.png"
+},
+{
+"id": "DWD Stone Edge T",
+"type": "0xb0f2",
+"src": "deadwaterDocksGround",
+"category": "tile",
+"sub": "deadwaterDocksGround",
+"why": "src",
+"file": "tiles/all/DWD Stone Edge T__b0f2.png"
+},
+{
+"id": "DWD Stone Edge B",
+"type": "0xb0f3",
+"src": "deadwaterDocksGround",
+"category": "tile",
+"sub": "deadwaterDocksGround",
+"why": "src",
+"file": "tiles/all/DWD Stone Edge B__b0f3.png"
+},
+{
+"id": "DWD Stone Edge Inner TL",
+"type": "0xb0f4",
+"src": "deadwaterDocksGround",
+"category": "tile",
+"sub": "deadwaterDocksGround",
+"why": "src",
+"file": "tiles/all/DWD Stone Edge Inner TL__b0f4.png"
+},
+{
+"id": "DWD Stone Edge Inner TR",
+"type": "0xb0f5",
+"src": "deadwaterDocksGround",
+"category": "tile",
+"sub": "deadwaterDocksGround",
+"why": "src",
+"file": "tiles/all/DWD Stone Edge Inner TR__b0f5.png"
+},
+{
+"id": "DWD Stone Edge Inner BL",
+"type": "0xb0f6",
+"src": "deadwaterDocksGround",
+"category": "tile",
+"sub": "deadwaterDocksGround",
+"why": "src",
+"file": "tiles/all/DWD Stone Edge Inner BL__b0f6.png"
+},
+{
+"id": "DWD Stone Edge Inner BR",
+"type": "0xb0f7",
+"src": "deadwaterDocksGround",
+"category": "tile",
+"sub": "deadwaterDocksGround",
+"why": "src",
+"file": "tiles/all/DWD Stone Edge Inner BR__b0f7.png"
+},
+{
+"id": "DWD Stone Full",
+"type": "0xb0f8",
+"src": "deadwaterDocksGround",
+"category": "tile",
+"sub": "deadwaterDocksGround",
+"why": "src",
+"file": "tiles/all/DWD Stone Full__b0f8.png"
+},
+{
+"id": "DWD King Carpet M",
+"type": "0xb0c8",
+"src": "deadwaterDocksGround",
+"category": "tile",
+"sub": "deadwaterDocksGround",
+"why": "src",
+"file": "tiles/all/DWD King Carpet M__b0c8.png"
+},
+{
+"id": "DWD King Carpet TL",
+"type": "0xb0c9",
+"src": "deadwaterDocksGround",
+"category": "tile",
+"sub": "deadwaterDocksGround",
+"why": "src",
+"file": "tiles/all/DWD King Carpet TL__b0c9.png"
+},
+{
+"id": "DWD King Carpet T",
+"type": "0xb0ca",
+"src": "deadwaterDocksGround",
+"category": "tile",
+"sub": "deadwaterDocksGround",
+"why": "src",
+"file": "tiles/all/DWD King Carpet T__b0ca.png"
+},
+{
+"id": "DWD King Carpet TR",
+"type": "0xb0cb",
+"src": "deadwaterDocksGround",
+"category": "tile",
+"sub": "deadwaterDocksGround",
+"why": "src",
+"file": "tiles/all/DWD King Carpet TR__b0cb.png"
+},
+{
+"id": "DWD King Carpet L",
+"type": "0xb0cc",
+"src": "deadwaterDocksGround",
+"category": "tile",
+"sub": "deadwaterDocksGround",
+"why": "src",
+"file": "tiles/all/DWD King Carpet L__b0cc.png"
+},
+{
+"id": "DWD King Carpet R",
+"type": "0xb0cd",
+"src": "deadwaterDocksGround",
+"category": "tile",
+"sub": "deadwaterDocksGround",
+"why": "src",
+"file": "tiles/all/DWD King Carpet R__b0cd.png"
+},
+{
+"id": "DWD King Carpet BL",
+"type": "0xb0ce",
+"src": "deadwaterDocksGround",
+"category": "tile",
+"sub": "deadwaterDocksGround",
+"why": "src",
+"file": "tiles/all/DWD King Carpet BL__b0ce.png"
+},
+{
+"id": "DWD King Carpet B",
+"type": "0xb0cf",
+"src": "deadwaterDocksGround",
+"category": "tile",
+"sub": "deadwaterDocksGround",
+"why": "src",
+"file": "tiles/all/DWD King Carpet B__b0cf.png"
+},
+{
+"id": "DWD King Carpet BR",
+"type": "0xb0d0",
+"src": "deadwaterDocksGround",
+"category": "tile",
+"sub": "deadwaterDocksGround",
+"why": "src",
+"file": "tiles/all/DWD King Carpet BR__b0d0.png"
+},
+{
+"id": "DWD King Carpet I BR",
+"type": "0xb0d1",
+"src": "deadwaterDocksGround",
+"category": "tile",
+"sub": "deadwaterDocksGround",
+"why": "src",
+"file": "tiles/all/DWD King Carpet I BR__b0d1.png"
+},
+{
+"id": "DWD King Carpet I BL",
+"type": "0xb0d2",
+"src": "deadwaterDocksGround",
+"category": "tile",
+"sub": "deadwaterDocksGround",
+"why": "src",
+"file": "tiles/all/DWD King Carpet I BL__b0d2.png"
+},
+{
+"id": "DWD King Carpet I TR",
+"type": "0xb0d3",
+"src": "deadwaterDocksGround",
+"category": "tile",
+"sub": "deadwaterDocksGround",
+"why": "src",
+"file": "tiles/all/DWD King Carpet I TR__b0d3.png"
+},
+{
+"id": "DWD King Carpet I TL",
+"type": "0xb0d4",
+"src": "deadwaterDocksGround",
+"category": "tile",
+"sub": "deadwaterDocksGround",
+"why": "src",
+"file": "tiles/all/DWD King Carpet I TL__b0d4.png"
+},
+{
+"id": "DWD King Carpet Stair L",
+"type": "0xb0d7",
+"src": "deadwaterDocksGround",
+"category": "tile",
+"sub": "deadwaterDocksGround",
+"why": "src",
+"file": "tiles/all/DWD King Carpet Stair L__b0d7.png"
+},
+{
+"id": "DWD King Carpet Stair M",
+"type": "0xb0d8",
+"src": "deadwaterDocksGround",
+"category": "tile",
+"sub": "deadwaterDocksGround",
+"why": "src",
+"file": "tiles/all/DWD King Carpet Stair M__b0d8.png"
+},
+{
+"id": "DWD King Carpet Stair R",
+"type": "0xb0d9",
+"src": "deadwaterDocksGround",
+"category": "tile",
+"sub": "deadwaterDocksGround",
+"why": "src",
+"file": "tiles/all/DWD King Carpet Stair R__b0d9.png"
+},
+{
+"id": "DWD King Wood",
+"type": "0xb0da",
+"src": "deadwaterDocksGround",
+"category": "tile",
+"sub": "deadwaterDocksGround",
+"why": "src",
+"file": "tiles/all/DWD King Wood__b0da.png"
+},
+{
+"id": "DWD King Wood Crack",
+"type": "0xb0fd",
+"src": "deadwaterDocksGround",
+"category": "tile",
+"sub": "deadwaterDocksGround",
+"why": "src",
+"file": "tiles/all/DWD King Wood Crack__b0fd.png"
+},
+{
+"id": "DWD King Wood Cracked",
+"type": "0xb0fe",
+"src": "deadwaterDocksGround",
+"category": "tile",
+"sub": "deadwaterDocksGround",
+"why": "src",
+"file": "tiles/all/DWD King Wood Cracked__b0fe.png"
+},
+{
+"id": "DWD King Wood NoWalk",
+"type": "0xb000",
+"src": "deadwaterDocksGround",
+"category": "tile",
+"sub": "deadwaterDocksGround",
+"why": "src",
+"file": "tiles/all/DWD King Wood NoWalk__b000.png"
+},
+{
+"id": "DWD Crystal Wood",
+"type": "0xb0fb",
+"src": "deadwaterDocksGround",
+"category": "tile",
+"sub": "deadwaterDocksGround",
+"why": "src",
+"file": "tiles/all/DWD Crystal Wood__b0fb.png"
+},
+{
+"id": "DWD Vault Tile",
+"type": "0xb0fc",
+"src": "deadwaterDocksGround",
+"category": "tile",
+"sub": "deadwaterDocksGround",
+"why": "src",
+"file": "tiles/all/DWD Vault Tile__b0fc.png"
+},
+{
+"id": "DWD King Wood Stair",
+"type": "0xb0db",
+"src": "deadwaterDocksGround",
+"category": "tile",
+"sub": "deadwaterDocksGround",
+"why": "src",
+"file": "tiles/all/DWD King Wood Stair__b0db.png"
+},
+{
+"id": "DWD House Wood Entrance",
+"type": "0xb0dc",
+"src": "deadwaterDocksGround",
+"category": "tile",
+"sub": "deadwaterDocksGround",
+"why": "src",
+"file": "tiles/all/DWD House Wood Entrance__b0dc.png"
+},
+{
+"id": "DWD House Wood",
+"type": "0xb0dd",
+"src": "deadwaterDocksGround",
+"category": "tile",
+"sub": "deadwaterDocksGround",
+"why": "src",
+"file": "tiles/all/DWD House Wood__b0dd.png"
+},
+{
+"id": "DWD House Stone Entrance",
+"type": "0xb0de",
+"src": "deadwaterDocksGround",
+"category": "tile",
+"sub": "deadwaterDocksGround",
+"why": "src",
+"file": "tiles/all/DWD House Stone Entrance__b0de.png"
+},
+{
+"id": "DWD House Stone",
+"type": "0xb0df",
+"src": "deadwaterDocksGround",
+"category": "tile",
+"sub": "deadwaterDocksGround",
+"why": "src",
+"file": "tiles/all/DWD House Stone__b0df.png"
+},
+{
+"id": "DWD House Stone Bricks",
+"type": "0xb0e0",
+"src": "deadwaterDocksGround",
+"category": "tile",
+"sub": "deadwaterDocksGround",
+"why": "src",
+"file": "tiles/all/DWD House Stone Bricks__b0e0.png"
+},
+{
+"id": "DWD King Wood Reflection BL",
+"type": "0xb0d5",
+"src": "deadwaterDocksGround",
+"category": "tile",
+"sub": "deadwaterDocksGround",
+"why": "src",
+"file": "tiles/all/DWD King Wood Reflection BL__b0d5.png"
+},
+{
+"id": "DWD King Wood Reflection B",
+"type": "0xb0d6",
+"src": "deadwaterDocksGround",
+"category": "tile",
+"sub": "deadwaterDocksGround",
+"why": "src",
+"file": "tiles/all/DWD King Wood Reflection B__b0d6.png"
+},
+{
+"id": "DWD King Wood Reflection BR",
+"type": "0xb0e1",
+"src": "deadwaterDocksGround",
+"category": "tile",
+"sub": "deadwaterDocksGround",
+"why": "src",
+"file": "tiles/all/DWD King Wood Reflection BR__b0e1.png"
+},
+{
+"id": "DWD King Wood Reflection TL",
+"type": "0xb0e2",
+"src": "deadwaterDocksGround",
+"category": "tile",
+"sub": "deadwaterDocksGround",
+"why": "src",
+"file": "tiles/all/DWD King Wood Reflection TL__b0e2.png"
+},
+{
+"id": "DWD King Wood Reflection T",
+"type": "0xb0e3",
+"src": "deadwaterDocksGround",
+"category": "tile",
+"sub": "deadwaterDocksGround",
+"why": "src",
+"file": "tiles/all/DWD King Wood Reflection T__b0e3.png"
+},
+{
+"id": "DWD King Wood Reflection TR",
+"type": "0xb0e4",
+"src": "deadwaterDocksGround",
+"category": "tile",
+"sub": "deadwaterDocksGround",
+"why": "src",
+"file": "tiles/all/DWD King Wood Reflection TR__b0e4.png"
+},
+{
+"id": "Bilgewater Cannonball",
+"type": "0xb5bb",
+"src": "deadwaterDocksObjects",
+"category": "projectile",
+"sub": "all",
+"why": "src",
+"file": "projectiles/all/Bilgewater Cannonball__b5bb.png"
+},
+{
+"id": "Bilgewater Cannonball Spike",
+"type": "0xb5bc",
+"src": "deadwaterDocksObjects",
+"category": "projectile",
+"sub": "all",
+"why": "src",
+"file": "projectiles/all/Bilgewater Cannonball Spike__b5bc.png"
+},
+{
+"id": "Bilgewater Cannonball Skull",
+"type": "0xb5bd",
+"src": "deadwaterDocksObjects",
+"category": "projectile",
+"sub": "all",
+"why": "src",
+"file": "projectiles/all/Bilgewater Cannonball Skull__b5bd.png"
+},
+{
+"id": "Bilgewater Cannonball Skull Red",
+"type": "0xb5be",
+"src": "deadwaterDocksObjects",
+"category": "projectile",
+"sub": "all",
+"why": "src",
+"file": "projectiles/all/Bilgewater Cannonball Skull Red__b5be.png"
+},
+{
+"id": "Bilgewater Cutlass",
+"type": "0xb5bf",
+"src": "deadwaterDocksObjects",
+"category": "projectile",
+"sub": "all",
+"why": "src",
+"file": "projectiles/all/Bilgewater Cutlass__b5bf.png"
+},
+{
+"id": "Bilgewater Cannonball S",
+"type": "0xb5c0",
+"src": "deadwaterDocksObjects",
+"category": "projectile",
+"sub": "all",
+"why": "src",
+"file": "projectiles/all/Bilgewater Cannonball S__b5c0.png"
+},
+{
+"id": "Bilgewater Cannonball Spike S",
+"type": "0xb5c1",
+"src": "deadwaterDocksObjects",
+"category": "projectile",
+"sub": "all",
+"why": "src",
+"file": "projectiles/all/Bilgewater Cannonball Spike S__b5c1.png"
+},
+{
+"id": "Bilgewater Cannonball Skull S",
+"type": "0xb5c2",
+"src": "deadwaterDocksObjects",
+"category": "projectile",
+"sub": "all",
+"why": "src",
+"file": "projectiles/all/Bilgewater Cannonball Skull S__b5c2.png"
+},
+{
+"id": "Bilgewater Cannonball Skull Red S",
+"type": "0xb5c3",
+"src": "deadwaterDocksObjects",
+"category": "projectile",
+"sub": "all",
+"why": "src",
+"file": "projectiles/all/Bilgewater Cannonball Skull Red S__b5c3.png"
+},
+{
+"id": "Deadwater Blade",
+"type": "0xb5c4",
+"src": "deadwaterDocksObjects",
+"category": "projectile",
+"sub": "all",
+"why": "src",
+"file": "projectiles/all/Deadwater Blade__b5c4.png"
+},
+{
+"id": "Deadwater Crab Claw",
+"type": "0xb5c5",
+"src": "deadwaterDocksObjects",
+"category": "projectile",
+"sub": "all",
+"why": "src",
+"file": "projectiles/all/Deadwater Crab Claw__b5c5.png"
+},
+{
+"id": "Deadwater Talon",
+"type": "0xb5c6",
+"src": "deadwaterDocksObjects",
+"category": "projectile",
+"sub": "all",
+"why": "src",
+"file": "projectiles/all/Deadwater Talon__b5c6.png"
+},
+{
+"id": "Deadwater Small Cannonball",
+"type": "0xb5c7",
+"src": "deadwaterDocksObjects",
+"category": "projectile",
+"sub": "all",
+"why": "src",
+"file": "projectiles/all/Deadwater Small Cannonball__b5c7.png"
+},
+{
+"id": "Deadwater Small Cannonball Orange",
+"type": "0xb5c8",
+"src": "deadwaterDocksObjects",
+"category": "projectile",
+"sub": "all",
+"why": "src",
+"file": "projectiles/all/Deadwater Small Cannonball Orange__b5c8.png"
+},
+{
+"id": "Deadwater Small Cannonball Blue",
+"type": "0xb5c9",
+"src": "deadwaterDocksObjects",
+"category": "projectile",
+"sub": "all",
+"why": "src",
+"file": "projectiles/all/Deadwater Small Cannonball Blue__b5c9.png"
+},
+{
+"id": "Deadwater Liquid Bolt",
+"type": "0xb5ca",
+"src": "deadwaterDocksObjects",
+"category": "projectile",
+"sub": "all",
+"why": "src",
+"file": "projectiles/all/Deadwater Liquid Bolt__b5ca.png"
+},
+{
+"id": "Deadwater Liquid Missile",
+"type": "0xb5cb",
+"src": "deadwaterDocksObjects",
+"category": "projectile",
+"sub": "all",
+"why": "src",
+"file": "projectiles/all/Deadwater Liquid Missile__b5cb.png"
+},
+{
+"id": "Deadwater Liquid Magic",
+"type": "0xb5cd",
+"src": "deadwaterDocksObjects",
+"category": "projectile",
+"sub": "all",
+"why": "src",
+"file": "projectiles/all/Deadwater Liquid Magic__b5cd.png"
+},
+{
+"id": "Deadwater Parrot Feather",
+"type": "0xb5ce",
+"src": "deadwaterDocksObjects",
+"category": "projectile",
+"sub": "all",
+"why": "src",
+"file": "projectiles/all/Deadwater Parrot Feather__b5ce.png"
+},
+{
+"id": "Deadwater Macaw Feather",
+"type": "0xb5cf",
+"src": "deadwaterDocksObjects",
+"category": "projectile",
+"sub": "all",
+"why": "src",
+"file": "projectiles/all/Deadwater Macaw Feather__b5cf.png"
+},
+{
+"id": "Deadwater Flintlock Shot",
+"type": "0xb5d0",
+"src": "deadwaterDocksObjects",
+"category": "projectile",
+"sub": "all",
+"why": "src",
+"file": "projectiles/all/Deadwater Flintlock Shot__b5d0.png"
+},
+{
+"id": "Bilgewater Coin Bronze",
+"type": "0xb5d1",
+"src": "deadwaterDocksObjects",
+"category": "projectile",
+"sub": "all",
+"why": "src",
+"file": "projectiles/all/Bilgewater Coin Bronze__b5d1.png"
+},
+{
+"id": "Bilgewater Coin Silver",
+"type": "0xb5d2",
+"src": "deadwaterDocksObjects",
+"category": "projectile",
+"sub": "all",
+"why": "src",
+"file": "projectiles/all/Bilgewater Coin Silver__b5d2.png"
+},
+{
+"id": "Bilgewater Coin Gold",
+"type": "0xb5d3",
+"src": "deadwaterDocksObjects",
+"category": "projectile",
+"sub": "all",
+"why": "src",
+"file": "projectiles/all/Bilgewater Coin Gold__b5d3.png"
+},
+{
+"id": "Deadwater White Wave",
+"type": "0xb5d4",
+"src": "deadwaterDocksObjects",
+"category": "projectile",
+"sub": "all",
+"why": "src",
+"file": "projectiles/all/Deadwater White Wave__b5d4.png"
+},
+{
+"id": "Deadwater White Spike",
+"type": "0xb5d5",
+"src": "deadwaterDocksObjects",
+"category": "projectile",
+"sub": "all",
+"why": "src",
+"file": "projectiles/all/Deadwater White Spike__b5d5.png"
+},
+{
+"id": "Deadwater White Zap",
+"type": "0xb5d6",
+"src": "deadwaterDocksObjects",
+"category": "projectile",
+"sub": "all",
+"why": "src",
+"file": "projectiles/all/Deadwater White Zap__b5d6.png"
+},
+{
+"id": "Deadwater Banana",
+"type": "0xb5d7",
+"src": "deadwaterDocksObjects",
+"category": "projectile",
+"sub": "all",
+"why": "src",
+"file": "projectiles/all/Deadwater Banana__b5d7.png"
+},
+{
+"id": "Deadwater White Banana",
+"type": "0xb5d8",
+"src": "deadwaterDocksObjects",
+"category": "projectile",
+"sub": "all",
+"why": "src",
+"file": "projectiles/all/Deadwater White Banana__b5d8.png"
+},
+{
+"id": "Deadwater Knife",
+"type": "0xb5d9",
+"src": "deadwaterDocksObjects",
+"category": "projectile",
+"sub": "all",
+"why": "src",
+"file": "projectiles/all/Deadwater Knife__b5d9.png"
+},
+{
+"id": "Deadwater Bubble",
+"type": "0xb5da",
+"src": "deadwaterDocksObjects",
+"category": "projectile",
+"sub": "all",
+"why": "src",
+"file": "projectiles/all/Deadwater Bubble__b5da.png"
+},
+{
+"id": "Deadwater Spinner",
+"type": "0xb5db",
+"src": "deadwaterDocksObjects",
+"category": "projectile",
+"sub": "all",
+"why": "src",
+"file": "projectiles/all/Deadwater Spinner__b5db.png"
+},
+{
+"id": "Deadwater Bartholomew Feather",
+"type": "0xb602",
+"src": "deadwaterDocksObjects",
+"category": "projectile",
+"sub": "all",
+"why": "src",
+"file": "projectiles/all/Deadwater Bartholomew Feather__b602.png"
+},
+{
+"id": "DWD Bilgewater Summoner",
+"type": "0x706a",
+"src": "deadwaterDocksObjects",
+"category": "prop",
+"sub": "deadwaterDocksObjects",
+"why": "src",
+"file": "props/all/DWD Bilgewater Summoner__706a.png"
+},
+{
+"id": "DWD Bilgewater Ship Controller",
+"type": "0x707a",
+"src": "deadwaterDocksObjects",
+"category": "prop",
+"sub": "deadwaterDocksObjects",
+"why": "src",
+"file": "props/all/DWD Bilgewater Ship Controller__707a.png"
+},
+{
+"id": "DWD Bilgewater Entrance Controller",
+"type": "0xb5e4",
+"src": "deadwaterDocksObjects",
+"category": "prop",
+"sub": "deadwaterDocksObjects",
+"why": "src",
+"file": "props/all/DWD Bilgewater Entrance Controller__b5e4.png"
+},
+{
+"id": "DWD Jon Bilgewater the Pirate King",
+"type": "0x0930",
+"src": "deadwaterDocksObjects",
+"category": "enemy",
+"sub": "boss",
+"why": "src",
+"file": "enemies/boss/DWD Jon Bilgewater the Pirate King__0930.png"
+},
+{
+"id": "DWD Parrot Cage",
+"type": "0x705d",
+"src": "deadwaterDocksObjects",
+"category": "prop",
+"sub": "deadwaterDocksObjects",
+"why": "src",
+"file": "props/all/DWD Parrot Cage__705d.png"
+},
+{
+"id": "DWD Parrot",
+"type": "0x705b",
+"src": "deadwaterDocksObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/DWD Parrot__705b.png"
+},
+{
+"id": "DWD Macaw",
+"type": "0x705c",
+"src": "deadwaterDocksObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/DWD Macaw__705c.png"
+},
+{
+"id": "DWD Massive Parrot",
+"type": "0x707c",
+"src": "deadwaterDocksObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/DWD Massive Parrot__707c.png"
+},
+{
+"id": "DWD Cannon Controller",
+"type": "0x7109",
+"src": "deadwaterDocksObjects",
+"category": "prop",
+"sub": "deadwaterDocksObjects",
+"why": "src",
+"file": "props/all/DWD Cannon Controller__7109.png"
+},
+{
+"id": "DWD Bilgewater Cannon 1",
+"type": "0xb5b7",
+"src": "deadwaterDocksObjects",
+"category": "helper",
+"sub": "other",
+"why": "src",
+"file": "helpers/other/DWD Bilgewater Cannon 1__b5b7.png"
+},
+{
+"id": "DWD Cannon",
+"type": "0xb5e5",
+"src": "deadwaterDocksObjects",
+"category": "helper",
+"sub": "other",
+"why": "src",
+"file": "helpers/other/DWD Cannon__b5e5.png"
+},
+{
+"id": "DWD Cannon Spawner",
+"type": "0xb5e6",
+"src": "deadwaterDocksObjects",
+"category": "prop",
+"sub": "deadwaterDocksObjects",
+"why": "src",
+"file": "props/all/DWD Cannon Spawner__b5e6.png"
+},
+{
+"id": "DWD Admiral",
+"type": "0x693",
+"src": "deadwaterDocksObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/DWD Admiral__693.png"
+},
+{
+"id": "DWD Captain",
+"type": "0x692",
+"src": "deadwaterDocksObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/DWD Captain__692.png"
+},
+{
+"id": "DWD Lieutenant",
+"type": "0x690",
+"src": "deadwaterDocksObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/DWD Lieutenant__690.png"
+},
+{
+"id": "DWD Commander",
+"type": "0x691",
+"src": "deadwaterDocksObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/DWD Commander__691.png"
+},
+{
+"id": "DWD Cannoneer",
+"type": "0x5f1",
+"src": "deadwaterDocksObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/DWD Cannoneer__5f1.png"
+},
+{
+"id": "DWD Shipwright",
+"type": "0xb59f",
+"src": "deadwaterDocksObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/DWD Shipwright__b59f.png"
+},
+{
+"id": "DWD Sharpshooter",
+"type": "0x5f4",
+"src": "deadwaterDocksObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/DWD Sharpshooter__5f4.png"
+},
+{
+"id": "DWD Cook",
+"type": "0x5f2",
+"src": "deadwaterDocksObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/DWD Cook__5f2.png"
+},
+{
+"id": "DWD Navigator",
+"type": "0xb0c1",
+"src": "deadwaterDocksObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/DWD Navigator__b0c1.png"
+},
+{
+"id": "DWD Brawler",
+"type": "0x694",
+"src": "deadwaterDocksObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/DWD Brawler__694.png"
+},
+{
+"id": "DWD Boatswain",
+"type": "0x5f5",
+"src": "deadwaterDocksObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/DWD Boatswain__5f5.png"
+},
+{
+"id": "DWD Swashbuckler",
+"type": "0x5f6",
+"src": "deadwaterDocksObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/DWD Swashbuckler__5f6.png"
+},
+{
+"id": "DWD Buccaneer",
+"type": "0xb565",
+"src": "deadwaterDocksObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/DWD Buccaneer__b565.png"
+},
+{
+"id": "DWD Cutthroat",
+"type": "0xb566",
+"src": "deadwaterDocksObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/DWD Cutthroat__b566.png"
+},
+{
+"id": "DWD Helmsman",
+"type": "0xb567",
+"src": "deadwaterDocksObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/DWD Helmsman__b567.png"
+},
+{
+"id": "DWD Raider",
+"type": "0x5f3",
+"src": "deadwaterDocksObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/DWD Raider__5f3.png"
+},
+{
+"id": "DWD Watchman",
+"type": "0xb568",
+"src": "deadwaterDocksObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/DWD Watchman__b568.png"
+},
+{
+"id": "DWD Doctor",
+"type": "0xb5a0",
+"src": "deadwaterDocksObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/DWD Doctor__b5a0.png"
+},
+{
+"id": "DWD Veteran",
+"type": "0x696",
+"src": "deadwaterDocksObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/DWD Veteran__696.png"
+},
+{
+"id": "DWD Sailor",
+"type": "0x695",
+"src": "deadwaterDocksObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/DWD Sailor__695.png"
+},
+{
+"id": "Special Chest Picker",
+"type": "0x26f",
+"src": "deadwaterDocksObjects",
+"category": "prop",
+"sub": "deadwaterDocksObjects",
+"why": "src",
+"file": "props/all/Special Chest Picker__26f.png"
+},
+{
+"id": "Special Chest A",
+"type": "0x26c",
+"src": "deadwaterDocksObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Special Chest A__26c.png"
+},
+{
+"id": "Special Chest B",
+"type": "0x26d",
+"src": "deadwaterDocksObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Special Chest B__26d.png"
+},
+{
+"id": "Special Chest C",
+"type": "0x26e",
+"src": "deadwaterDocksObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Special Chest C__26e.png"
+},
+{
+"id": "Group Eye Wall Nondestruct",
+"type": "0x1994",
+"src": "deadwaterDocksObjects",
+"category": "wall",
+"sub": "deadwaterDocksObjects",
+"why": "src",
+"file": "walls/all/Group Eye Wall Nondestruct__1994.png"
+},
+{
+"id": "The Heroic Observer",
+"type": "0x697",
+"src": "deadwaterDocksObjects",
+"category": "wall",
+"sub": "deadwaterDocksObjects",
+"why": "src",
+"file": "walls/all/The Heroic Observer__697.png"
+},
+{
+"id": "DWD Cave Wall",
+"type": "0xb59e",
+"src": "deadwaterDocksObjects",
+"category": "wall",
+"sub": "deadwaterDocksObjects",
+"why": "src",
+"file": "walls/all/DWD Cave Wall__b59e.png"
+},
+{
+"id": "DWD Wood Wall",
+"type": "0xb5a1",
+"src": "deadwaterDocksObjects",
+"category": "wall",
+"sub": "deadwaterDocksObjects",
+"why": "src",
+"file": "walls/all/DWD Wood Wall__b5a1.png"
+},
+{
+"id": "DWD Wood Wall Dark",
+"type": "0xb5a2",
+"src": "deadwaterDocksObjects",
+"category": "wall",
+"sub": "deadwaterDocksObjects",
+"why": "src",
+"file": "walls/all/DWD Wood Wall Dark__b5a2.png"
+},
+{
+"id": "DWD Stone Wall",
+"type": "0xb5a3",
+"src": "deadwaterDocksObjects",
+"category": "wall",
+"sub": "deadwaterDocksObjects",
+"why": "src",
+"file": "walls/all/DWD Stone Wall__b5a3.png"
+},
+{
+"id": "DWD Stone Wall Dark",
+"type": "0xb5a4",
+"src": "deadwaterDocksObjects",
+"category": "wall",
+"sub": "deadwaterDocksObjects",
+"why": "src",
+"file": "walls/all/DWD Stone Wall Dark__b5a4.png"
+},
+{
+"id": "DWD Ship Wall",
+"type": "0xb5a5",
+"src": "deadwaterDocksObjects",
+"category": "prop",
+"sub": "deadwaterDocksObjects",
+"why": "src",
+"file": "props/all/DWD Ship Wall__b5a5.png"
+},
+{
+"id": "DWD Ship Wall Cracked",
+"type": "0xb5e2",
+"src": "deadwaterDocksObjects",
+"category": "prop",
+"sub": "deadwaterDocksObjects",
+"why": "src",
+"file": "props/all/DWD Ship Wall Cracked__b5e2.png"
+},
+{
+"id": "DWD Ship Wall Dark",
+"type": "0xb5a6",
+"src": "deadwaterDocksObjects",
+"category": "prop",
+"sub": "deadwaterDocksObjects",
+"why": "src",
+"file": "props/all/DWD Ship Wall Dark__b5a6.png"
+},
+{
+"id": "DWD Ship Wall Dark Cannon R",
+"type": "0xb5b9",
+"src": "deadwaterDocksObjects",
+"category": "prop",
+"sub": "deadwaterDocksObjects",
+"why": "src",
+"file": "props/all/DWD Ship Wall Dark Cannon R__b5b9.png"
+},
+{
+"id": "DWD Ship Wall Dark Cannon L",
+"type": "0xb5ba",
+"src": "deadwaterDocksObjects",
+"category": "prop",
+"sub": "deadwaterDocksObjects",
+"why": "src",
+"file": "props/all/DWD Ship Wall Dark Cannon L__b5ba.png"
+},
+{
+"id": "DWD Ship Wall Dark Window",
+"type": "0xb5e3",
+"src": "deadwaterDocksObjects",
+"category": "prop",
+"sub": "deadwaterDocksObjects",
+"why": "src",
+"file": "props/all/DWD Ship Wall Dark Window__b5e3.png"
+},
+{
+"id": "DWD Ship Wall Dark Window Edge",
+"type": "0xb601",
+"src": "deadwaterDocksObjects",
+"category": "prop",
+"sub": "deadwaterDocksObjects",
+"why": "src",
+"file": "props/all/DWD Ship Wall Dark Window Edge__b601.png"
+},
+{
+"id": "DWD Ship Window",
+"type": "0xb5a7",
+"src": "deadwaterDocksObjects",
+"category": "prop",
+"sub": "deadwaterDocksObjects",
+"why": "src",
+"file": "props/all/DWD Ship Window__b5a7.png"
+},
+{
+"id": "DWD Ship Window R",
+"type": "0xb5a8",
+"src": "deadwaterDocksObjects",
+"category": "prop",
+"sub": "deadwaterDocksObjects",
+"why": "src",
+"file": "props/all/DWD Ship Window R__b5a8.png"
+},
+{
+"id": "DWD Ship Window L",
+"type": "0xb5a9",
+"src": "deadwaterDocksObjects",
+"category": "prop",
+"sub": "deadwaterDocksObjects",
+"why": "src",
+"file": "props/all/DWD Ship Window L__b5a9.png"
+},
+{
+"id": "DWD Ship Painting 1 R",
+"type": "0xb5aa",
+"src": "deadwaterDocksObjects",
+"category": "prop",
+"sub": "deadwaterDocksObjects",
+"why": "src",
+"file": "props/all/DWD Ship Painting 1 R__b5aa.png"
+},
+{
+"id": "DWD Ship Painting 1 L",
+"type": "0xb5ab",
+"src": "deadwaterDocksObjects",
+"category": "prop",
+"sub": "deadwaterDocksObjects",
+"why": "src",
+"file": "props/all/DWD Ship Painting 1 L__b5ab.png"
+},
+{
+"id": "DWD Ship Painting 2 R",
+"type": "0xb5ac",
+"src": "deadwaterDocksObjects",
+"category": "prop",
+"sub": "deadwaterDocksObjects",
+"why": "src",
+"file": "props/all/DWD Ship Painting 2 R__b5ac.png"
+},
+{
+"id": "DWD Ship Painting 2 L",
+"type": "0xb5ad",
+"src": "deadwaterDocksObjects",
+"category": "prop",
+"sub": "deadwaterDocksObjects",
+"why": "src",
+"file": "props/all/DWD Ship Painting 2 L__b5ad.png"
+},
+{
+"id": "DWD Ship Painting 3 R",
+"type": "0xb5ae",
+"src": "deadwaterDocksObjects",
+"category": "prop",
+"sub": "deadwaterDocksObjects",
+"why": "src",
+"file": "props/all/DWD Ship Painting 3 R__b5ae.png"
+},
+{
+"id": "DWD Ship Painting 3 L",
+"type": "0xb5af",
+"src": "deadwaterDocksObjects",
+"category": "prop",
+"sub": "deadwaterDocksObjects",
+"why": "src",
+"file": "props/all/DWD Ship Painting 3 L__b5af.png"
+},
+{
+"id": "DWD Ship Painting 4 R",
+"type": "0xb5b0",
+"src": "deadwaterDocksObjects",
+"category": "prop",
+"sub": "deadwaterDocksObjects",
+"why": "src",
+"file": "props/all/DWD Ship Painting 4 R__b5b0.png"
+},
+{
+"id": "DWD Ship Painting 4 L",
+"type": "0xb5b1",
+"src": "deadwaterDocksObjects",
+"category": "prop",
+"sub": "deadwaterDocksObjects",
+"why": "src",
+"file": "props/all/DWD Ship Painting 4 L__b5b1.png"
+},
+{
+"id": "DWD Ship Painting 5 R",
+"type": "0xb5b2",
+"src": "deadwaterDocksObjects",
+"category": "prop",
+"sub": "deadwaterDocksObjects",
+"why": "src",
+"file": "props/all/DWD Ship Painting 5 R__b5b2.png"
+},
+{
+"id": "DWD Ship Painting 5 L",
+"type": "0xb57d",
+"src": "deadwaterDocksObjects",
+"category": "prop",
+"sub": "deadwaterDocksObjects",
+"why": "src",
+"file": "props/all/DWD Ship Painting 5 L__b57d.png"
+},
+{
+"id": "DWD Ship Painting 6 R",
+"type": "0xb57e",
+"src": "deadwaterDocksObjects",
+"category": "prop",
+"sub": "deadwaterDocksObjects",
+"why": "src",
+"file": "props/all/DWD Ship Painting 6 R__b57e.png"
+},
+{
+"id": "DWD Ship Painting 6 L",
+"type": "0xb57f",
+"src": "deadwaterDocksObjects",
+"category": "prop",
+"sub": "deadwaterDocksObjects",
+"why": "src",
+"file": "props/all/DWD Ship Painting 6 L__b57f.png"
+},
+{
+"id": "DWD Ship Painting 7 R",
+"type": "0xb5ee",
+"src": "deadwaterDocksObjects",
+"category": "prop",
+"sub": "deadwaterDocksObjects",
+"why": "src",
+"file": "props/all/DWD Ship Painting 7 R__b5ee.png"
+},
+{
+"id": "DWD Ship Painting 7 L",
+"type": "0xb5ef",
+"src": "deadwaterDocksObjects",
+"category": "prop",
+"sub": "deadwaterDocksObjects",
+"why": "src",
+"file": "props/all/DWD Ship Painting 7 L__b5ef.png"
+},
+{
+"id": "DWD Ship Painting 8 R",
+"type": "0xb5f0",
+"src": "deadwaterDocksObjects",
+"category": "prop",
+"sub": "deadwaterDocksObjects",
+"why": "src",
+"file": "props/all/DWD Ship Painting 8 R__b5f0.png"
+},
+{
+"id": "DWD Ship Painting 8 L",
+"type": "0xb5f1",
+"src": "deadwaterDocksObjects",
+"category": "prop",
+"sub": "deadwaterDocksObjects",
+"why": "src",
+"file": "props/all/DWD Ship Painting 8 L__b5f1.png"
+},
+{
+"id": "DWD Ship Painting 9 R",
+"type": "0xb5f2",
+"src": "deadwaterDocksObjects",
+"category": "prop",
+"sub": "deadwaterDocksObjects",
+"why": "src",
+"file": "props/all/DWD Ship Painting 9 R__b5f2.png"
+},
+{
+"id": "DWD Ship Painting 9 L",
+"type": "0xb5f3",
+"src": "deadwaterDocksObjects",
+"category": "prop",
+"sub": "deadwaterDocksObjects",
+"why": "src",
+"file": "props/all/DWD Ship Painting 9 L__b5f3.png"
+},
+{
+"id": "DWD Ship Painting 10 R",
+"type": "0xb5f4",
+"src": "deadwaterDocksObjects",
+"category": "prop",
+"sub": "deadwaterDocksObjects",
+"why": "src",
+"file": "props/all/DWD Ship Painting 10 R__b5f4.png"
+},
+{
+"id": "DWD Ship Painting 10 L",
+"type": "0xb5f5",
+"src": "deadwaterDocksObjects",
+"category": "prop",
+"sub": "deadwaterDocksObjects",
+"why": "src",
+"file": "props/all/DWD Ship Painting 10 L__b5f5.png"
+},
+{
+"id": "DWD Crystal Container",
+"type": "0xb580",
+"src": "deadwaterDocksObjects",
+"category": "prop",
+"sub": "deadwaterDocksObjects",
+"why": "src",
+"file": "props/all/DWD Crystal Container__b580.png"
+},
+{
+"id": "DWD Hat",
+"type": "0xb581",
+"src": "deadwaterDocksObjects",
+"category": "prop",
+"sub": "deadwaterDocksObjects",
+"why": "src",
+"file": "props/all/DWD Hat__b581.png"
+},
+{
+"id": "DWD Treasure",
+"type": "0xb582",
+"src": "deadwaterDocksObjects",
+"category": "prop",
+"sub": "deadwaterDocksObjects",
+"why": "src",
+"file": "props/all/DWD Treasure__b582.png"
+},
+{
+"id": "DWD Gems",
+"type": "0xb5e7",
+"src": "deadwaterDocksObjects",
+"category": "prop",
+"sub": "deadwaterDocksObjects",
+"why": "src",
+"file": "props/all/DWD Gems__b5e7.png"
+},
+{
+"id": "DWD Anvil",
+"type": "0xb583",
+"src": "deadwaterDocksObjects",
+"category": "prop",
+"sub": "deadwaterDocksObjects",
+"why": "src",
+"file": "props/all/DWD Anvil__b583.png"
+},
+{
+"id": "DWD Grindstone",
+"type": "0xb584",
+"src": "deadwaterDocksObjects",
+"category": "prop",
+"sub": "deadwaterDocksObjects",
+"why": "src",
+"file": "props/all/DWD Grindstone__b584.png"
+},
+{
+"id": "DWD Bucket",
+"type": "0xb585",
+"src": "deadwaterDocksObjects",
+"category": "prop",
+"sub": "deadwaterDocksObjects",
+"why": "src",
+"file": "props/all/DWD Bucket__b585.png"
+},
+{
+"id": "DWD Barrel",
+"type": "0xb586",
+"src": "deadwaterDocksObjects",
+"category": "prop",
+"sub": "deadwaterDocksObjects",
+"why": "src",
+"file": "props/all/DWD Barrel__b586.png"
+},
+{
+"id": "DWD Barrel Boss",
+"type": "0xb5f7",
+"src": "deadwaterDocksObjects",
+"category": "prop",
+"sub": "deadwaterDocksObjects",
+"why": "src",
+"file": "props/all/DWD Barrel Boss__b5f7.png"
+},
+{
+"id": "DWD Dummy",
+"type": "0xb587",
+"src": "deadwaterDocksObjects",
+"category": "prop",
+"sub": "deadwaterDocksObjects",
+"why": "src",
+"file": "props/all/DWD Dummy__b587.png"
+},
+{
+"id": "DWD Coal",
+"type": "0xb588",
+"src": "deadwaterDocksObjects",
+"category": "prop",
+"sub": "deadwaterDocksObjects",
+"why": "src",
+"file": "props/all/DWD Coal__b588.png"
+},
+{
+"id": "DWD Grass",
+"type": "0xb589",
+"src": "deadwaterDocksObjects",
+"category": "prop",
+"sub": "deadwaterDocksObjects",
+"why": "src",
+"file": "props/all/DWD Grass__b589.png"
+},
+{
+"id": "DWD Rock",
+"type": "0xb58a",
+"src": "deadwaterDocksObjects",
+"category": "prop",
+"sub": "deadwaterDocksObjects",
+"why": "src",
+"file": "props/all/DWD Rock__b58a.png"
+},
+{
+"id": "DWD Stool",
+"type": "0xb58b",
+"src": "deadwaterDocksObjects",
+"category": "prop",
+"sub": "deadwaterDocksObjects",
+"why": "src",
+"file": "props/all/DWD Stool__b58b.png"
+},
+{
+"id": "DWD Boat",
+"type": "0xb58c",
+"src": "deadwaterDocksObjects",
+"category": "prop",
+"sub": "deadwaterDocksObjects",
+"why": "src",
+"file": "props/all/DWD Boat__b58c.png"
+},
+{
+"id": "DWD Crystal Container Big",
+"type": "0xb58d",
+"src": "deadwaterDocksObjects",
+"category": "prop",
+"sub": "deadwaterDocksObjects",
+"why": "src",
+"file": "props/all/DWD Crystal Container Big__b58d.png"
+},
+{
+"id": "DWD Crystal Container Double",
+"type": "0xb58e",
+"src": "deadwaterDocksObjects",
+"category": "prop",
+"sub": "deadwaterDocksObjects",
+"why": "src",
+"file": "props/all/DWD Crystal Container Double__b58e.png"
+},
+{
+"id": "DWD Crystal Crate",
+"type": "0xb5b4",
+"src": "deadwaterDocksObjects",
+"category": "prop",
+"sub": "deadwaterDocksObjects",
+"why": "src",
+"file": "props/all/DWD Crystal Crate__b5b4.png"
+},
+{
+"id": "DWD Wine Crate",
+"type": "0xb5b6",
+"src": "deadwaterDocksObjects",
+"category": "prop",
+"sub": "deadwaterDocksObjects",
+"why": "src",
+"file": "props/all/DWD Wine Crate__b5b6.png"
+},
+{
+"id": "DWD Barrel Large",
+"type": "0xb58f",
+"src": "deadwaterDocksObjects",
+"category": "prop",
+"sub": "deadwaterDocksObjects",
+"why": "src",
+"file": "props/all/DWD Barrel Large__b58f.png"
+},
+{
+"id": "DWD Barrel Explosive",
+"type": "0xb590",
+"src": "deadwaterDocksObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/DWD Barrel Explosive__b590.png"
+},
+{
+"id": "DWD Barrel Explosion",
+"type": "0xb5b5",
+"src": "deadwaterDocksObjects",
+"category": "helper",
+"sub": "invisible",
+"why": "src",
+"file": "helpers/invisible/DWD Barrel Explosion__b5b5.png"
+},
+{
+"id": "DWD Light Post",
+"type": "0xb591",
+"src": "deadwaterDocksObjects",
+"category": "prop",
+"sub": "deadwaterDocksObjects",
+"why": "src",
+"file": "props/all/DWD Light Post__b591.png"
+},
+{
+"id": "DWD Lamp Post",
+"type": "0xb5b3",
+"src": "deadwaterDocksObjects",
+"category": "prop",
+"sub": "deadwaterDocksObjects",
+"why": "src",
+"file": "props/all/DWD Lamp Post__b5b3.png"
+},
+{
+"id": "DWD Weapon Display",
+"type": "0xb592",
+"src": "deadwaterDocksObjects",
+"category": "prop",
+"sub": "deadwaterDocksObjects",
+"why": "src",
+"file": "props/all/DWD Weapon Display__b592.png"
+},
+{
+"id": "DWD Shop",
+"type": "0xb593",
+"src": "deadwaterDocksObjects",
+"category": "prop",
+"sub": "deadwaterDocksObjects",
+"why": "src",
+"file": "props/all/DWD Shop__b593.png"
+},
+{
+"id": "DWD Furnace",
+"type": "0xb594",
+"src": "deadwaterDocksObjects",
+"category": "prop",
+"sub": "deadwaterDocksObjects",
+"why": "src",
+"file": "props/all/DWD Furnace__b594.png"
+},
+{
+"id": "DWD Buoys",
+"type": "0xb595",
+"src": "deadwaterDocksObjects",
+"category": "prop",
+"sub": "deadwaterDocksObjects",
+"why": "src",
+"file": "props/all/DWD Buoys__b595.png"
+},
+{
+"id": "DWD Rock Large",
+"type": "0xb596",
+"src": "deadwaterDocksObjects",
+"category": "prop",
+"sub": "deadwaterDocksObjects",
+"why": "src",
+"file": "props/all/DWD Rock Large__b596.png"
+},
+{
+"id": "DWD Rock Pirate",
+"type": "0xb603",
+"src": "deadwaterDocksObjects",
+"category": "prop",
+"sub": "deadwaterDocksObjects",
+"why": "src",
+"file": "props/all/DWD Rock Pirate__b603.png"
+},
+{
+"id": "DWD Torch",
+"type": "0xb597",
+"src": "deadwaterDocksObjects",
+"category": "prop",
+"sub": "deadwaterDocksObjects",
+"why": "src",
+"file": "props/all/DWD Torch__b597.png"
+},
+{
+"id": "DWD Torch 2",
+"type": "0xb5b8",
+"src": "deadwaterDocksObjects",
+"category": "prop",
+"sub": "deadwaterDocksObjects",
+"why": "src",
+"file": "props/all/DWD Torch 2__b5b8.png"
+},
+{
+"id": "DWD Torch Skull",
+"type": "0xb5eb",
+"src": "deadwaterDocksObjects",
+"category": "prop",
+"sub": "deadwaterDocksObjects",
+"why": "src",
+"file": "props/all/DWD Torch Skull__b5eb.png"
+},
+{
+"id": "DWD Treasure Chest",
+"type": "0xb5ec",
+"src": "deadwaterDocksObjects",
+"category": "prop",
+"sub": "deadwaterDocksObjects",
+"why": "src",
+"file": "props/all/DWD Treasure Chest__b5ec.png"
+},
+{
+"id": "DWD Candelabra",
+"type": "0xb598",
+"src": "deadwaterDocksObjects",
+"category": "prop",
+"sub": "deadwaterDocksObjects",
+"why": "src",
+"file": "props/all/DWD Candelabra__b598.png"
+},
+{
+"id": "DWD Banner",
+"type": "0xb599",
+"src": "deadwaterDocksObjects",
+"category": "prop",
+"sub": "deadwaterDocksObjects",
+"why": "src",
+"file": "props/all/DWD Banner__b599.png"
+},
+{
+"id": "DWD Cage",
+"type": "0xb59a",
+"src": "deadwaterDocksObjects",
+"category": "prop",
+"sub": "deadwaterDocksObjects",
+"why": "src",
+"file": "props/all/DWD Cage__b59a.png"
+},
+{
+"id": "DWD Barrel Large Light",
+"type": "0xb59b",
+"src": "deadwaterDocksObjects",
+"category": "prop",
+"sub": "deadwaterDocksObjects",
+"why": "src",
+"file": "props/all/DWD Barrel Large Light__b59b.png"
+},
+{
+"id": "DWD Keg",
+"type": "0xb59c",
+"src": "deadwaterDocksObjects",
+"category": "prop",
+"sub": "deadwaterDocksObjects",
+"why": "src",
+"file": "props/all/DWD Keg__b59c.png"
+},
+{
+"id": "DWD Table",
+"type": "0xb59d",
+"src": "deadwaterDocksObjects",
+"category": "prop",
+"sub": "deadwaterDocksObjects",
+"why": "src",
+"file": "props/all/DWD Table__b59d.png"
+},
+{
+"id": "DWD Large Sail",
+"type": "0xb5cc",
+"src": "deadwaterDocksObjects",
+"category": "prop",
+"sub": "deadwaterDocksObjects",
+"why": "src",
+"file": "props/all/DWD Large Sail__b5cc.png"
+},
+{
+"id": "DWD Crystal Chest",
+"type": "0xb5dc",
+"src": "deadwaterDocksObjects",
+"category": "prop",
+"sub": "deadwaterDocksObjects",
+"why": "src",
+"file": "props/all/DWD Crystal Chest__b5dc.png"
+},
+{
+"id": "DWD Crystal Vase",
+"type": "0xb5dd",
+"src": "deadwaterDocksObjects",
+"category": "prop",
+"sub": "deadwaterDocksObjects",
+"why": "src",
+"file": "props/all/DWD Crystal Vase__b5dd.png"
+},
+{
+"id": "DWD Crystal Bed",
+"type": "0xb5de",
+"src": "deadwaterDocksObjects",
+"category": "prop",
+"sub": "deadwaterDocksObjects",
+"why": "src",
+"file": "props/all/DWD Crystal Bed__b5de.png"
+},
+{
+"id": "DWD Crystal Table",
+"type": "0xb5df",
+"src": "deadwaterDocksObjects",
+"category": "prop",
+"sub": "deadwaterDocksObjects",
+"why": "src",
+"file": "props/all/DWD Crystal Table__b5df.png"
+},
+{
+"id": "DWD Crystal Dressing",
+"type": "0xb5e0",
+"src": "deadwaterDocksObjects",
+"category": "prop",
+"sub": "deadwaterDocksObjects",
+"why": "src",
+"file": "props/all/DWD Crystal Dressing__b5e0.png"
+},
+{
+"id": "DWD Crystal Weapon Display",
+"type": "0xb5e1",
+"src": "deadwaterDocksObjects",
+"category": "prop",
+"sub": "deadwaterDocksObjects",
+"why": "src",
+"file": "props/all/DWD Crystal Weapon Display__b5e1.png"
+},
+{
+"id": "DWD King Wood Crack Select",
+"type": "0xb5ff",
+"src": "deadwaterDocksObjects",
+"category": "prop",
+"sub": "deadwaterDocksObjects",
+"why": "src",
+"file": "props/all/DWD King Wood Crack Select__b5ff.png"
+},
+{
+"id": "DWD King Wood Crack 1",
+"type": "0xb600",
+"src": "deadwaterDocksObjects",
+"category": "prop",
+"sub": "deadwaterDocksObjects",
+"why": "src",
+"file": "props/all/DWD King Wood Crack 1__b600.png"
+},
+{
+"id": "DWD King Wood Crack 1 Anim",
+"type": "0xb5f8",
+"src": "deadwaterDocksObjects",
+"category": "prop",
+"sub": "deadwaterDocksObjects",
+"why": "src",
+"file": "props/all/DWD King Wood Crack 1 Anim__b5f8.png"
+},
+{
+"id": "DWD King Wood Crack 2",
+"type": "0xb5f9",
+"src": "deadwaterDocksObjects",
+"category": "prop",
+"sub": "deadwaterDocksObjects",
+"why": "src",
+"file": "props/all/DWD King Wood Crack 2__b5f9.png"
+},
+{
+"id": "DWD King Wood Crack 2 Anim",
+"type": "0xb5fa",
+"src": "deadwaterDocksObjects",
+"category": "prop",
+"sub": "deadwaterDocksObjects",
+"why": "src",
+"file": "props/all/DWD King Wood Crack 2 Anim__b5fa.png"
+},
+{
+"id": "DWD King Wood Crack 3",
+"type": "0xb5fb",
+"src": "deadwaterDocksObjects",
+"category": "prop",
+"sub": "deadwaterDocksObjects",
+"why": "src",
+"file": "props/all/DWD King Wood Crack 3__b5fb.png"
+},
+{
+"id": "DWD King Wood Crack 3 Anim",
+"type": "0xb5fc",
+"src": "deadwaterDocksObjects",
+"category": "prop",
+"sub": "deadwaterDocksObjects",
+"why": "src",
+"file": "props/all/DWD King Wood Crack 3 Anim__b5fc.png"
+},
+{
+"id": "DWD King Wood Crack 4",
+"type": "0xb5fd",
+"src": "deadwaterDocksObjects",
+"category": "prop",
+"sub": "deadwaterDocksObjects",
+"why": "src",
+"file": "props/all/DWD King Wood Crack 4__b5fd.png"
+},
+{
+"id": "DWD King Wood Crack 4 Anim",
+"type": "0xb5fe",
+"src": "deadwaterDocksObjects",
+"category": "prop",
+"sub": "deadwaterDocksObjects",
+"why": "src",
+"file": "props/all/DWD King Wood Crack 4 Anim__b5fe.png"
+},
+{
+"id": "DWD Barrel Spawner",
+"type": "0x505",
+"src": "deadwaterDocksObjects",
+"category": "prop",
+"sub": "deadwaterDocksObjects",
+"why": "src",
+"file": "props/all/DWD Barrel Spawner__505.png"
+},
+{
+"id": "DWD Lamp Spawner",
+"type": "0xbb2",
+"src": "deadwaterDocksObjects",
+"category": "prop",
+"sub": "deadwaterDocksObjects",
+"why": "src",
+"file": "props/all/DWD Lamp Spawner__bb2.png"
+},
+{
+"id": "DWD Crystal Spawner",
+"type": "0x9ce",
+"src": "deadwaterDocksObjects",
+"category": "prop",
+"sub": "deadwaterDocksObjects",
+"why": "src",
+"file": "props/all/DWD Crystal Spawner__9ce.png"
+},
+{
+"id": "DWD Crystal Spawner 2",
+"type": "0x1a50",
+"src": "deadwaterDocksObjects",
+"category": "prop",
+"sub": "deadwaterDocksObjects",
+"why": "src",
+"file": "props/all/DWD Crystal Spawner 2__1a50.png"
+},
+{
+"id": "DWD Prop Cluster Spawner",
+"type": "0x1958",
+"src": "deadwaterDocksObjects",
+"category": "prop",
+"sub": "deadwaterDocksObjects",
+"why": "src",
+"file": "props/all/DWD Prop Cluster Spawner__1958.png"
+},
+{
+"id": "DWD Painting Spawner",
+"type": "0xb5f6",
+"src": "deadwaterDocksObjects",
+"category": "prop",
+"sub": "deadwaterDocksObjects",
+"why": "src",
+"file": "props/all/DWD Painting Spawner__b5f6.png"
+},
+{
+"id": "Kingdom Stowaway",
+"type": "0xb604",
+"src": "deadwaterDocksObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Kingdom Stowaway__b604.png"
+},
+{
+"id": "DWD Crust Anchor",
+"type": "0xb91a",
+"src": "deadwaterDocksObjects",
+"category": "prop",
+"sub": "deadwaterDocksObjects",
+"why": "src",
+"file": "props/all/DWD Crust Anchor__b91a.png"
+},
+{
+"id": "DWD Crust Anchor Cannoneer",
+"type": "0xb91c",
+"src": "deadwaterDocksObjects",
+"category": "prop",
+"sub": "deadwaterDocksObjects",
+"why": "src",
+"file": "props/all/DWD Crust Anchor Cannoneer__b91c.png"
+},
+{
+"id": "DWD Mr Krabs Initializer",
+"type": "0xb91e",
+"src": "deadwaterDocksObjects",
+"category": "prop",
+"sub": "deadwaterDocksObjects",
+"why": "src",
+"file": "props/all/DWD Mr Krabs Initializer__b91e.png"
+},
+{
+"id": "PC Context + Crust",
+"type": "0xb91f",
+"src": "deadwaterDocksObjects",
+"category": "prop",
+"sub": "deadwaterDocksObjects",
+"why": "src",
+"file": "props/all/PC Context _ Crust__b91f.png"
+},
+{
+"id": "DWD Mr Krabs",
+"type": "0xb91b",
+"src": "deadwaterDocksObjects",
+"category": "enemy",
+"sub": "miniboss",
+"why": "src",
+"file": "enemies/miniboss/DWD Mr Krabs__b91b.png"
+},
+{
+"id": "DWD Mini Krabs",
+"type": "0x4402",
+"src": "deadwaterDocksObjects",
+"category": "enemy",
+"sub": "miniboss",
+"why": "src",
+"file": "enemies/miniboss/DWD Mini Krabs__4402.png"
+},
+{
+"id": "DWD SafeGround",
+"type": "0x4533",
+"src": "deadwaterDocksObjects",
+"category": "prop",
+"sub": "deadwaterDocksObjects",
+"why": "src",
+"file": "props/all/DWD SafeGround__4533.png"
+},
+{
+"id": "DWD GroundShot",
+"type": "0x4534",
+"src": "deadwaterDocksObjects",
+"category": "prop",
+"sub": "deadwaterDocksObjects",
+"why": "src",
+"file": "props/all/DWD GroundShot__4534.png"
+},
+{
+"id": "DWD Breaking Sound",
+"type": "0xb91d",
+"src": "deadwaterDocksObjects",
+"category": "prop",
+"sub": "deadwaterDocksObjects",
+"why": "src",
+"file": "props/all/DWD Breaking Sound__b91d.png"
+},
+{
+"id": "DWD Anti Crust Anchor",
+"type": "0xb929",
+"src": "deadwaterDocksObjects",
+"category": "prop",
+"sub": "deadwaterDocksObjects",
+"why": "src",
+"file": "props/all/DWD Anti Crust Anchor__b929.png"
+},
+{
+"id": "DWD Crab 11",
+"type": "0xb92a",
+"src": "deadwaterDocksObjects",
+"category": "prop",
+"sub": "deadwaterDocksObjects",
+"why": "src",
+"file": "props/all/DWD Crab 11__b92a.png"
+},
+{
+"id": "DWD Crab 10",
+"type": "0xb922",
+"src": "deadwaterDocksObjects",
+"category": "prop",
+"sub": "deadwaterDocksObjects",
+"why": "src",
+"file": "props/all/DWD Crab 10__b922.png"
+},
+{
+"id": "DWD Crab 9",
+"type": "0xb923",
+"src": "deadwaterDocksObjects",
+"category": "prop",
+"sub": "deadwaterDocksObjects",
+"why": "src",
+"file": "props/all/DWD Crab 9__b923.png"
+},
+{
+"id": "DWD Crab 8",
+"type": "0xb924",
+"src": "deadwaterDocksObjects",
+"category": "prop",
+"sub": "deadwaterDocksObjects",
+"why": "src",
+"file": "props/all/DWD Crab 8__b924.png"
+},
+{
+"id": "DWD Crab 7",
+"type": "0xb925",
+"src": "deadwaterDocksObjects",
+"category": "prop",
+"sub": "deadwaterDocksObjects",
+"why": "src",
+"file": "props/all/DWD Crab 7__b925.png"
+},
+{
+"id": "DWD Crab 6",
+"type": "0xb926",
+"src": "deadwaterDocksObjects",
+"category": "prop",
+"sub": "deadwaterDocksObjects",
+"why": "src",
+"file": "props/all/DWD Crab 6__b926.png"
+},
+{
+"id": "DWD Crab 5",
+"type": "0xb927",
+"src": "deadwaterDocksObjects",
+"category": "prop",
+"sub": "deadwaterDocksObjects",
+"why": "src",
+"file": "props/all/DWD Crab 5__b927.png"
+},
+{
+"id": "DWD Crab 4",
+"type": "0xb928",
+"src": "deadwaterDocksObjects",
+"category": "prop",
+"sub": "deadwaterDocksObjects",
+"why": "src",
+"file": "props/all/DWD Crab 4__b928.png"
+},
+{
+"id": "DWD C",
+"type": "0xb92b",
+"src": "deadwaterDocksObjects",
+"category": "prop",
+"sub": "deadwaterDocksObjects",
+"why": "src",
+"file": "props/all/DWD C__b92b.png"
+},
+{
+"id": "DWD Super Crab 11",
+"type": "0xb92c",
+"src": "deadwaterDocksObjects",
+"category": "prop",
+"sub": "deadwaterDocksObjects",
+"why": "src",
+"file": "props/all/DWD Super Crab 11__b92c.png"
+},
+{
+"id": "DWD Super Crab 10",
+"type": "0xb92d",
+"src": "deadwaterDocksObjects",
+"category": "prop",
+"sub": "deadwaterDocksObjects",
+"why": "src",
+"file": "props/all/DWD Super Crab 10__b92d.png"
+},
+{
+"id": "DWD Super Crab 9",
+"type": "0xb92e",
+"src": "deadwaterDocksObjects",
+"category": "prop",
+"sub": "deadwaterDocksObjects",
+"why": "src",
+"file": "props/all/DWD Super Crab 9__b92e.png"
+},
+{
+"id": "DWD Super Crab 8",
+"type": "0xb92f",
+"src": "deadwaterDocksObjects",
+"category": "prop",
+"sub": "deadwaterDocksObjects",
+"why": "src",
+"file": "props/all/DWD Super Crab 8__b92f.png"
+},
+{
+"id": "DWD Super Crab 7",
+"type": "0xb930",
+"src": "deadwaterDocksObjects",
+"category": "prop",
+"sub": "deadwaterDocksObjects",
+"why": "src",
+"file": "props/all/DWD Super Crab 7__b930.png"
+},
+{
+"id": "DWD Super Crab 6",
+"type": "0xb931",
+"src": "deadwaterDocksObjects",
+"category": "prop",
+"sub": "deadwaterDocksObjects",
+"why": "src",
+"file": "props/all/DWD Super Crab 6__b931.png"
+},
+{
+"id": "DWD Super Crab 5",
+"type": "0xb932",
+"src": "deadwaterDocksObjects",
+"category": "prop",
+"sub": "deadwaterDocksObjects",
+"why": "src",
+"file": "props/all/DWD Super Crab 5__b932.png"
+},
+{
+"id": "DWD Super Crab 4",
+"type": "0xb933",
+"src": "deadwaterDocksObjects",
+"category": "prop",
+"sub": "deadwaterDocksObjects",
+"why": "src",
+"file": "props/all/DWD Super Crab 4__b933.png"
+},
+{
+"id": "DWD Tavern Barrel Large",
+"type": "0xb934",
+"src": "deadwaterDocksObjects",
+"category": "prop",
+"sub": "deadwaterDocksObjects",
+"why": "src",
+"file": "props/all/DWD Tavern Barrel Large__b934.png"
+},
+{
+"id": "DWD Crust Anchor Late",
+"type": "0xb935",
+"src": "deadwaterDocksObjects",
+"category": "prop",
+"sub": "deadwaterDocksObjects",
+"why": "src",
+"file": "props/all/DWD Crust Anchor Late__b935.png"
+},
+{
+"id": "White Bullet",
+"type": "0x003b",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/White Bullet__003b.png"
+},
+{
+"id": "Corsair Crab Claw",
+"type": "0xb5e8",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Corsair Crab Claw__b5e8.png"
+},
+{
+"id": "Corsair Crab Orb",
+"type": "0xb5e9",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Corsair Crab Orb__b5e9.png"
+},
+{
+"id": "Corsair Crab Wave",
+"type": "0xb5ea",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Corsair Crab Wave__b5ea.png"
+},
+{
+"id": "Pirate King's Cutlass",
+"type": "0xcdb",
+"src": "equip",
+"category": "weapon",
+"sub": "sword",
+"why": "loot",
+"file": "loot/weapon_sword/Pirate King_s Cutlass__cdb.png"
+},
+{
+"id": "Wavecrest Concertina",
+"type": "0x4dec",
+"src": "equip",
+"category": "ability",
+"sub": "all",
+"why": "loot",
+"file": "loot/ability/Wavecrest Concertina__4dec.png"
+},
+{
+"id": "Light Sand",
+"type": "0xbd",
+"src": "ground",
+"category": "tile",
+"sub": "ground",
+"why": "tile",
+"file": "tiles/all/Light Sand__bd.png"
+},
+{
+"id": "Dark Sand",
+"type": "0xbe",
+"src": "ground",
+"category": "tile",
+"sub": "ground",
+"why": "tile",
+"file": "tiles/all/Dark Sand__be.png"
+}
+]
+}

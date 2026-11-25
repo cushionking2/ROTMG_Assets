@@ -1,0 +1,622 @@
+{
+ "file": "20261121_213724_Pirate_Cave.json",
+ "rooms": [
+  {
+   "id": 1,
+   "x": 37,
+   "y": 19,
+   "w": 9,
+   "h": 11,
+   "area": 99,
+   "fill": 1.0,
+   "ground": {
+    "D": 99
+   },
+   "monsters": {
+    "Cave Pirate Brawler": 2,
+    "Pirate Captain": 1,
+    "Cave Pirate Veteran": 2,
+    "Cave Pirate Sailor": 1,
+    "Cave Pirate Cabin Boy": 1
+   },
+   "props": {
+    "PC Vase": 3,
+    "PC Crate S": 2
+   },
+   "kind": "deck"
+  },
+  {
+   "id": 2,
+   "x": 52,
+   "y": 20,
+   "w": 17,
+   "h": 13,
+   "area": 177,
+   "fill": 0.8,
+   "ground": {
+    "D": 119,
+    "B": 30,
+    "T": 15,
+    "W": 13
+   },
+   "monsters": {
+    "Cave Pirate Hunchback": 2,
+    "Cave Pirate Parrot": 1,
+    "Pirate Commander": 1,
+    "Cave Pirate Macaw": 1,
+    "Cave Pirate Brawler": 3,
+    "Cave Pirate Sailor": 1,
+    "Cave Pirate Monkey": 1
+   },
+   "props": {
+    "PC Wood Wall": 30,
+    "PC Torch Wall": 15,
+    "PC Normal Bottle": 7,
+    "PC Stool": 5,
+    "PC Small Painting": 4,
+    "PC Booze Barrel": 3,
+    "PC Swag": 3,
+    "PC Cage": 2
+   },
+   "kind": "cabin"
+  },
+  {
+   "id": 3,
+   "x": 71,
+   "y": 30,
+   "w": 7,
+   "h": 8,
+   "area": 56,
+   "fill": 1.0,
+   "ground": {
+    "D": 56
+   },
+   "monsters": {
+    "Cave Pirate Brawler": 2,
+    "Pirate Captain": 1,
+    "Cave Pirate Sailor": 3,
+    "Cave Pirate Hunchback": 1
+   },
+   "props": {
+    "PC Booze Barrel": 3,
+    "PC Crate S": 1
+   },
+   "kind": "deck"
+  },
+  {
+   "id": 4,
+   "x": 85,
+   "y": 33,
+   "w": 7,
+   "h": 11,
+   "area": 77,
+   "fill": 1.0,
+   "ground": {
+    "D": 77
+   },
+   "monsters": {
+    "Pirate Captain": 1,
+    "Cave Pirate Veteran": 2,
+    "Cave Pirate Brawler": 1,
+    "Cave Pirate Sailor": 1,
+    "Cave Pirate Monkey": 1
+   },
+   "props": {
+    "PC Booze Barrel": 3,
+    "PC Swag": 2
+   },
+   "kind": "deck"
+  },
+  {
+   "id": 5,
+   "x": 20,
+   "y": 34,
+   "w": 20,
+   "h": 20,
+   "area": 327,
+   "fill": 0.82,
+   "ground": {
+    "S": 307,
+    "D": 16,
+    "O": 4
+   },
+   "monsters": {},
+   "props": {
+    "PC Large Palm Tree": 9
+   },
+   "kind": "island"
+  },
+  {
+   "id": 6,
+   "x": 77,
+   "y": 41,
+   "w": 6,
+   "h": 12,
+   "area": 72,
+   "fill": 1.0,
+   "ground": {
+    "D": 72
+   },
+   "monsters": {
+    "Cave Pirate Cabin Boy": 1,
+    "Cave Pirate Veteran": 3,
+    "Pirate Captain": 1,
+    "Cave Pirate Sailor": 1
+   },
+   "props": {
+    "PC Cannon": 2,
+    "PC Crate S": 1
+   },
+   "kind": "deck"
+  },
+  {
+   "id": 7,
+   "x": 44,
+   "y": 43,
+   "w": 17,
+   "h": 13,
+   "area": 177,
+   "fill": 0.8,
+   "ground": {
+    "D": 121,
+    "B": 28,
+    "T": 15,
+    "W": 13
+   },
+   "monsters": {
+    "Cave Pirate Brawler": 2,
+    "Cave Pirate Cabin Boy": 1,
+    "Cave Pirate Sailor": 2,
+    "Pirate Captain": 1,
+    "Cave Pirate Macaw": 1,
+    "Cave Pirate Hunchback": 1
+   },
+   "props": {
+    "PC Wood Wall": 28,
+    "PC Torch Wall": 15,
+    "PC Normal Bottle": 7,
+    "PC Stool": 5,
+    "PC Small Painting": 4,
+    "PC Booze Barrel": 3,
+    "PC Swag": 3,
+    "PC Cage": 2
+   },
+   "kind": "cabin"
+  },
+  {
+   "id": 8,
+   "x": 66,
+   "y": 44,
+   "w": 7,
+   "h": 9,
+   "area": 63,
+   "fill": 1.0,
+   "ground": {
+    "D": 63
+   },
+   "monsters": {
+    "Cave Pirate Brawler": 1,
+    "Cave Pirate Sailor": 1,
+    "Cave Pirate Veteran": 2,
+    "Pirate Commander": 1
+   },
+   "props": {
+    "PC Vase": 3,
+    "PC Swag": 2
+   },
+   "kind": "deck"
+  },
+  {
+   "id": 9,
+   "x": 87,
+   "y": 49,
+   "w": 9,
+   "h": 9,
+   "area": 81,
+   "fill": 1.0,
+   "ground": {
+    "D": 81
+   },
+   "monsters": {
+    "Cave Pirate Veteran": 2,
+    "Pirate Commander": 1,
+    "Cave Pirate Brawler": 1,
+    "Cave Pirate Sailor": 1
+   },
+   "props": {
+    "PC Booze Barrel": 3,
+    "PC Crate S": 2
+   },
+   "kind": "deck"
+  },
+  {
+   "id": 10,
+   "x": 102,
+   "y": 53,
+   "w": 8,
+   "h": 6,
+   "area": 48,
+   "fill": 1.0,
+   "ground": {
+    "D": 48
+   },
+   "monsters": {
+    "Cave Pirate Sailor": 3,
+    "Pirate Lieutenant": 1,
+    "Cave Pirate Brawler": 1,
+    "Cave Pirate Macaw": 1
+   },
+   "props": {
+    "PC Swag": 2,
+    "PC Crate S": 1
+   },
+   "kind": "deck"
+  },
+  {
+   "id": 11,
+   "x": 18,
+   "y": 59,
+   "w": 6,
+   "h": 11,
+   "area": 66,
+   "fill": 1.0,
+   "ground": {
+    "D": 66
+   },
+   "monsters": {
+    "Cave Pirate Brawler": 2,
+    "Pirate Captain": 1,
+    "Cave Pirate Hunchback": 1,
+    "Cave Pirate Sailor": 2,
+    "Cave Pirate Veteran": 1
+   },
+   "props": {
+    "PC Booze Barrel": 3,
+    "PC Crate S": 1
+   },
+   "kind": "deck"
+  },
+  {
+   "id": 12,
+   "x": 25,
+   "y": 60,
+   "w": 8,
+   "h": 10,
+   "area": 80,
+   "fill": 1.0,
+   "ground": {
+    "D": 80
+   },
+   "monsters": {
+    "Cave Pirate Sailor": 1,
+    "Pirate Captain": 1,
+    "Cave Pirate Hunchback": 1,
+    "Cave Pirate Veteran": 2,
+    "Cave Pirate Brawler": 1
+   },
+   "props": {
+    "PC Booze Barrel": 3,
+    "PC Crate S": 2
+   },
+   "kind": "deck"
+  },
+  {
+   "id": 13,
+   "x": 41,
+   "y": 63,
+   "w": 41,
+   "h": 21,
+   "area": 709,
+   "fill": 0.82,
+   "ground": {
+    "D": 387,
+    "C": 155,
+    "B": 151,
+    "T": 16
+   },
+   "monsters": {
+    "PC Dreadstump Cannon": 8,
+    "Cave Pirate Veteran": 6,
+    "Pirate Lieutenant": 2,
+    "Cave Pirate Sailor": 2,
+    "Dreadstump the Pirate King": 1,
+    "Cave Pirate Brawler": 1,
+    "Pirate Captain": 1,
+    "Pirate Admiral": 1
+   },
+   "props": {
+    "PC Wood Wall": 142,
+    "PC Torch Wall": 16,
+    "PC Swag": 14,
+    "PC Fancy Bottle": 12,
+    "PC Booze Barrel": 10,
+    "PC Book Wall": 9,
+    "PC Invis Occupy": 9,
+    "PC Crate": 9
+   },
+   "kind": "boss_ship"
+  },
+  {
+   "id": 14,
+   "x": 20,
+   "y": 74,
+   "w": 12,
+   "h": 11,
+   "area": 132,
+   "fill": 1.0,
+   "ground": {
+    "D": 132
+   },
+   "monsters": {
+    "Cave Pirate Cabin Boy": 1,
+    "Cave Pirate Sailor": 1,
+    "Cave Pirate Brawler": 2,
+    "Cave Pirate Veteran": 1
+   },
+   "props": {
+    "PC Vase": 2,
+    "PC Swag": 1
+   },
+   "kind": "deck"
+  },
+  {
+   "id": 15,
+   "x": 20,
+   "y": 90,
+   "w": 16,
+   "h": 16,
+   "area": 211,
+   "fill": 0.82,
+   "ground": {
+    "S": 207,
+    "D": 4
+   },
+   "monsters": {
+    "Cave Pirate Monkey": 2,
+    "Cave Pirate Sailor": 2,
+    "Pirate Lieutenant": 1,
+    "Cave Pirate Brawler": 3,
+    "Cave Pirate Veteran": 1
+   },
+   "props": {
+    "PC Small Palm": 9,
+    "PC SandCastle": 6,
+    "PC Large Anchor": 1
+   },
+   "kind": "island"
+  },
+  {
+   "id": 16,
+   "x": 41,
+   "y": 90,
+   "w": 18,
+   "h": 18,
+   "area": 265,
+   "fill": 0.82,
+   "ground": {
+    "S": 253,
+    "D": 12
+   },
+   "monsters": {
+    "Cave Pirate Monkey": 2,
+    "Cave Pirate Brawler": 2,
+    "Cave Pirate Veteran": 3,
+    "Cave Pirate Sailor": 2,
+    "Pirate Captain": 1
+   },
+   "props": {
+    "PC Hermit Shell": 14,
+    "PC Small Palm": 12,
+    "PC Small Flag": 2,
+    "PC Large Anchor": 1
+   },
+   "kind": "island"
+  },
+  {
+   "id": 17,
+   "x": 64,
+   "y": 92,
+   "w": 17,
+   "h": 17,
+   "area": 224,
+   "fill": 0.78,
+   "ground": {
+    "S": 220,
+    "D": 4
+   },
+   "monsters": {
+    "Cave Pirate Cabin Boy": 1,
+    "Cave Pirate Brawler": 2,
+    "Cave Pirate Veteran": 2,
+    "Pirate Commander": 1,
+    "Cave Pirate Sailor": 1,
+    "Cave Pirate Monkey": 1
+   },
+   "props": {
+    "PC Hermit Shell": 13,
+    "PC Large Palm Tree": 9,
+    "PC Small Flag": 3,
+    "PC Large Rolled Sail": 2
+   },
+   "kind": "island"
+  }
+ ],
+ "corridors": [
+  {
+   "tiles": 12,
+   "w": 6,
+   "h": 2,
+   "rooms": [
+    1,
+    2
+   ]
+  },
+  {
+   "tiles": 14,
+   "w": 2,
+   "h": 7,
+   "rooms": [
+    1,
+    5
+   ]
+  },
+  {
+   "tiles": 3,
+   "w": 2,
+   "h": 2,
+   "rooms": [
+    2
+   ]
+  },
+  {
+   "tiles": 12,
+   "w": 2,
+   "h": 6,
+   "rooms": [
+    3,
+    8
+   ]
+  },
+  {
+   "tiles": 10,
+   "w": 2,
+   "h": 5,
+   "rooms": [
+    4,
+    9
+   ]
+  },
+  {
+   "tiles": 10,
+   "w": 5,
+   "h": 2,
+   "rooms": [
+    7,
+    8
+   ]
+  },
+  {
+   "tiles": 8,
+   "w": 4,
+   "h": 2,
+   "rooms": [
+    6,
+    8
+   ]
+  },
+  {
+   "tiles": 8,
+   "w": 4,
+   "h": 2,
+   "rooms": [
+    6,
+    9
+   ]
+  },
+  {
+   "tiles": 12,
+   "w": 6,
+   "h": 2,
+   "rooms": [
+    5,
+    7
+   ]
+  },
+  {
+   "tiles": 12,
+   "w": 2,
+   "h": 6,
+   "rooms": [
+    5,
+    12
+   ]
+  },
+  {
+   "tiles": 12,
+   "w": 6,
+   "h": 2,
+   "rooms": [
+    9,
+    10
+   ]
+  },
+  {
+   "tiles": 3,
+   "w": 2,
+   "h": 2,
+   "rooms": [
+    7
+   ]
+  },
+  {
+   "tiles": 8,
+   "w": 2,
+   "h": 4,
+   "rooms": [
+    11,
+    14
+   ]
+  },
+  {
+   "tiles": 8,
+   "w": 2,
+   "h": 4,
+   "rooms": [
+    12,
+    14
+   ]
+  },
+  {
+   "tiles": 8,
+   "w": 4,
+   "h": 3,
+   "rooms": [
+    13
+   ]
+  },
+  {
+   "tiles": 3,
+   "w": 1,
+   "h": 3,
+   "rooms": [
+    13
+   ]
+  },
+  {
+   "tiles": 16,
+   "w": 2,
+   "h": 8,
+   "rooms": [
+    13,
+    16
+   ]
+  },
+  {
+   "tiles": 10,
+   "w": 2,
+   "h": 5,
+   "rooms": [
+    14,
+    15
+   ]
+  },
+  {
+   "tiles": 14,
+   "w": 7,
+   "h": 2,
+   "rooms": [
+    15,
+    16
+   ]
+  },
+  {
+   "tiles": 16,
+   "w": 8,
+   "h": 2,
+   "rooms": [
+    16,
+    17
+   ]
+  }
+ ]
+}

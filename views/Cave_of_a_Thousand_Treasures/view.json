@@ -1,0 +1,445 @@
+{
+"dungeon": "Cave_of_a_Thousand_Treasures",
+"sources": [
+"caveOfAThousandTreasures"
+],
+"counts": {
+"enemies": 18,
+"helpers": 6,
+"props": 5,
+"projectiles": 9,
+"loot": 4,
+"tiles": 1,
+"walls": 1
+},
+"why": {
+"src": 19,
+"spec": 10,
+"proj": 9,
+"loot": 4,
+"tile": 1,
+"wall": 1
+},
+"tile_hints_used": {
+"rock": 1,
+"brown wall": 1
+},
+"names_in_own_files": [
+"Golden Oryx Effigy",
+"Treasure Oryx Defender",
+"Gold Planet",
+"Treasure Plunderer",
+"Treasure Robber",
+"Treasure Rat",
+"Treasure Mimic",
+"Treasure Thief"
+],
+"names_in_other_files": [
+[
+"Treasure Pot",
+[
+"caveOfAThousandTreasures",
+"lostHallsObjects"
+]
+]
+],
+"names_not_found": [],
+"entries": [
+{
+"id": "Treasure Thief",
+"type": "0x1e17",
+"src": "caveOfAThousandTreasures",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Treasure Thief__1e17.png"
+},
+{
+"id": "Treasure Dropper",
+"type": "0x1e18",
+"src": "caveOfAThousandTreasures",
+"category": "helper",
+"sub": "invisible",
+"why": "src",
+"file": "helpers/invisible/Treasure Dropper__1e18.png"
+},
+{
+"id": "Treasure Pile",
+"type": "0x1e40",
+"src": "caveOfAThousandTreasures",
+"category": "prop",
+"sub": "caveOfAThousandTreasures",
+"why": "src",
+"file": "props/all/Treasure Pile__1e40.png"
+},
+{
+"id": "Treasure Chests",
+"type": "0x1e41",
+"src": "caveOfAThousandTreasures",
+"category": "prop",
+"sub": "caveOfAThousandTreasures",
+"why": "src",
+"file": "props/all/Treasure Chests__1e41.png"
+},
+{
+"id": "Treasure Enemy",
+"type": "0x1e42",
+"src": "caveOfAThousandTreasures",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Treasure Enemy__1e42.png"
+},
+{
+"id": "Log Trap Clockwise",
+"type": "0x1e43",
+"src": "caveOfAThousandTreasures",
+"category": "helper",
+"sub": "other",
+"why": "src",
+"file": "helpers/other/Log Trap Clockwise__1e43.png"
+},
+{
+"id": "Treasure Rat",
+"type": "0x5e1d",
+"src": "caveOfAThousandTreasures",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Treasure Rat__5e1d.png"
+},
+{
+"id": "Treasure Flame Trap",
+"type": "0x5e1e",
+"src": "caveOfAThousandTreasures",
+"category": "helper",
+"sub": "invisible",
+"why": "src",
+"file": "helpers/invisible/Treasure Flame Trap__5e1e.png"
+},
+{
+"id": "Treasure Flame Trap Fast",
+"type": "0x5e3b",
+"src": "caveOfAThousandTreasures",
+"category": "helper",
+"sub": "invisible",
+"why": "src",
+"file": "helpers/invisible/Treasure Flame Trap Fast__5e3b.png"
+},
+{
+"id": "Treasure Plunderer",
+"type": "0x5e2a",
+"src": "caveOfAThousandTreasures",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Treasure Plunderer__5e2a.png"
+},
+{
+"id": "Treasure Robber",
+"type": "0x5e2b",
+"src": "caveOfAThousandTreasures",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Treasure Robber__5e2b.png"
+},
+{
+"id": "Golden Oryx Effigy",
+"type": "0x5e2c",
+"src": "caveOfAThousandTreasures",
+"category": "enemy",
+"sub": "boss",
+"why": "src",
+"file": "enemies/boss/Golden Oryx Effigy__5e2c.png"
+},
+{
+"id": "Treasure Oryx Defender",
+"type": "0x5e3a",
+"src": "caveOfAThousandTreasures",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Treasure Oryx Defender__5e3a.png"
+},
+{
+"id": "Treasure Pot",
+"type": "0x5e3c",
+"src": "caveOfAThousandTreasures",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Treasure Pot__5e3c.png"
+},
+{
+"id": "Boulder",
+"type": "0x5e3d",
+"src": "caveOfAThousandTreasures",
+"category": "helper",
+"sub": "other",
+"why": "src",
+"file": "helpers/other/Boulder__5e3d.png"
+},
+{
+"id": "Boulder Spawner",
+"type": "0x5e3f",
+"src": "caveOfAThousandTreasures",
+"category": "prop",
+"sub": "caveOfAThousandTreasures",
+"why": "src",
+"file": "props/all/Boulder Spawner__5e3f.png"
+},
+{
+"id": "Gold Planet",
+"type": "0x5e4a",
+"src": "caveOfAThousandTreasures",
+"category": "helper",
+"sub": "other",
+"why": "src",
+"file": "helpers/other/Gold Planet__5e4a.png"
+},
+{
+"id": "Realm Portal Opener",
+"type": "0x5e4b",
+"src": "caveOfAThousandTreasures",
+"category": "prop",
+"sub": "caveOfAThousandTreasures",
+"why": "src",
+"file": "props/all/Realm Portal Opener__5e4b.png"
+},
+{
+"id": "Treasure Rocks",
+"type": "0x5e4e",
+"src": "caveOfAThousandTreasures",
+"category": "prop",
+"sub": "caveOfAThousandTreasures",
+"why": "src",
+"file": "props/all/Treasure Rocks__5e4e.png"
+},
+{
+"id": "LH Debug Drops",
+"type": "0xb098",
+"src": "lostHallsObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "spec",
+"file": "enemies/regular/LH Debug Drops__b098.png"
+},
+{
+"id": "LH Debug Drops2",
+"type": "0xb02c",
+"src": "lostHallsObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "spec",
+"file": "enemies/regular/LH Debug Drops2__b02c.png"
+},
+{
+"id": "LH Debug Drops3",
+"type": "0xb16a",
+"src": "lostHallsObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "spec",
+"file": "enemies/regular/LH Debug Drops3__b16a.png"
+},
+{
+"id": "LH Pot 1",
+"type": "0xb0b5",
+"src": "lostHallsObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "spec",
+"file": "enemies/regular/LH Pot 1__b0b5.png"
+},
+{
+"id": "LH Pot 2",
+"type": "0xb0b6",
+"src": "lostHallsObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "spec",
+"file": "enemies/regular/LH Pot 2__b0b6.png"
+},
+{
+"id": "LH Pot 3",
+"type": "0xb0b7",
+"src": "lostHallsObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "spec",
+"file": "enemies/regular/LH Pot 3__b0b7.png"
+},
+{
+"id": "LH Pot 4",
+"type": "0xb0b8",
+"src": "lostHallsObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "spec",
+"file": "enemies/regular/LH Pot 4__b0b8.png"
+},
+{
+"id": "LH Pot 5",
+"type": "0xb0b9",
+"src": "lostHallsObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "spec",
+"file": "enemies/regular/LH Pot 5__b0b9.png"
+},
+{
+"id": "LH Pot 6",
+"type": "0xb0ba",
+"src": "lostHallsObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "spec",
+"file": "enemies/regular/LH Pot 6__b0ba.png"
+},
+{
+"id": "LH Pot 7",
+"type": "0xb0bb",
+"src": "lostHallsObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "spec",
+"file": "enemies/regular/LH Pot 7__b0bb.png"
+},
+{
+"id": "Golden Coin",
+"type": "0x2114",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Golden Coin__2114.png"
+},
+{
+"id": "Ruby",
+"type": "0x2115",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Ruby__2115.png"
+},
+{
+"id": "Invisible",
+"type": "0x0096",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Invisible__0096.png"
+},
+{
+"id": "H Baby Blast",
+"type": "0x00f8",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/H Baby Blast__00f8.png"
+},
+{
+"id": "Dagger Throw",
+"type": "0x2112",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Dagger Throw__2112.png"
+},
+{
+"id": "Golden Blast",
+"type": "0x2113",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Golden Blast__2113.png"
+},
+{
+"id": "Gold Fireball",
+"type": "0x2117",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Gold Fireball__2117.png"
+},
+{
+"id": "Grey Spiral",
+"type": "0x2119",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Grey Spiral__2119.png"
+},
+{
+"id": "Black Ball",
+"type": "0x0033",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Black Ball__0033.png"
+},
+{
+"id": "Jewel Eye Katana",
+"type": "0xc4d",
+"src": "equip",
+"category": "weapon",
+"sub": "katana",
+"why": "loot",
+"file": "loot/weapon_katana/Jewel Eye Katana__c4d.png"
+},
+{
+"id": "Loot Tier Potion",
+"type": "0xc68",
+"src": "equip",
+"category": "consumable",
+"sub": "all",
+"why": "loot",
+"file": "loot/consumable/Loot Tier Potion__c68.png"
+},
+{
+"id": "Mark of the Effigy",
+"type": "0x17fa",
+"src": "equip",
+"category": "item_other",
+"sub": "all",
+"why": "loot",
+"file": "loot/item_other/Mark of the Effigy__17fa.png"
+},
+{
+"id": "Jewel Eye Katana Shiny",
+"type": "0x4BF",
+"src": "equip",
+"category": "weapon",
+"sub": "katana",
+"why": "loot",
+"file": "loot/weapon_katana/Jewel Eye Katana Shiny__4BF.png"
+},
+{
+"id": "Rock",
+"type": "0x60",
+"src": "ground",
+"category": "tile",
+"sub": "ground",
+"why": "tile",
+"file": "tiles/all/Rock__60.png"
+},
+{
+"id": "Brown Wall",
+"type": "0x0170",
+"src": "staticobjects",
+"category": "wall",
+"sub": "staticobjects",
+"why": "wall",
+"file": "walls/all/Brown Wall__0170.png"
+}
+]
+}

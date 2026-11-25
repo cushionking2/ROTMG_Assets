@@ -1,0 +1,1273 @@
+{
+"dungeon": "Cursed_Library",
+"sources": [
+"cursedLibraryObjects",
+"cursedLibraryGround"
+],
+"counts": {
+"tiles": 17,
+"projectiles": 25,
+"portals": 1,
+"enemies": 21,
+"props": 56,
+"helpers": 4,
+"npcs": 2,
+"walls": 7,
+"loot": 3
+},
+"why": {
+"src": 130,
+"proj": 3,
+"loot": 3
+},
+"tile_hints_used": {},
+"names_in_own_files": [
+"Avalon the Archivist",
+"Corruption Phantom",
+"Corruption Phantom Wisp Charger",
+"Corruption Phantom Wisp Stalker",
+"Corruption Phantom Wisp Watcher",
+"Corruption Phantom Wisp Ravager",
+"Book Bomb",
+"Bookwyrm",
+"Enlightened Beholder",
+"Deholder",
+"Eye of the Edified",
+"Hand of the Helpless",
+"Headless Specter",
+"Lips of the Lost",
+"Poltergeist",
+"Soulless Scholar",
+"Soulless Scribe",
+"Soulless Student",
+"Vile Maggot"
+],
+"names_in_other_files": [],
+"names_not_found": [],
+"entries": [
+{
+"id": "Library Carpet Red",
+"type": "0xab56",
+"src": "cursedLibraryGround",
+"category": "tile",
+"sub": "cursedLibraryGround",
+"why": "src",
+"file": "tiles/all/Library Carpet Red__ab56.png"
+},
+{
+"id": "Library Carpet Blue",
+"type": "0xab57",
+"src": "cursedLibraryGround",
+"category": "tile",
+"sub": "cursedLibraryGround",
+"why": "src",
+"file": "tiles/all/Library Carpet Blue__ab57.png"
+},
+{
+"id": "Library Slabs Very Light",
+"type": "0xab58",
+"src": "cursedLibraryGround",
+"category": "tile",
+"sub": "cursedLibraryGround",
+"why": "src",
+"file": "tiles/all/Library Slabs Very Light__ab58.png"
+},
+{
+"id": "Library Slabs Light",
+"type": "0xab59",
+"src": "cursedLibraryGround",
+"category": "tile",
+"sub": "cursedLibraryGround",
+"why": "src",
+"file": "tiles/all/Library Slabs Light__ab59.png"
+},
+{
+"id": "Library Slabs Dark",
+"type": "0xab5a",
+"src": "cursedLibraryGround",
+"category": "tile",
+"sub": "cursedLibraryGround",
+"why": "src",
+"file": "tiles/all/Library Slabs Dark__ab5a.png"
+},
+{
+"id": "Library Slabs Very Dark",
+"type": "0xab5b",
+"src": "cursedLibraryGround",
+"category": "tile",
+"sub": "cursedLibraryGround",
+"why": "src",
+"file": "tiles/all/Library Slabs Very Dark__ab5b.png"
+},
+{
+"id": "Library Tile Dark",
+"type": "0xab5c",
+"src": "cursedLibraryGround",
+"category": "tile",
+"sub": "cursedLibraryGround",
+"why": "src",
+"file": "tiles/all/Library Tile Dark__ab5c.png"
+},
+{
+"id": "Library Bookshelf Top",
+"type": "0xab5d",
+"src": "cursedLibraryGround",
+"category": "tile",
+"sub": "cursedLibraryGround",
+"why": "src",
+"file": "tiles/all/Library Bookshelf Top__ab5d.png"
+},
+{
+"id": "Library Bookshelf Top Warning",
+"type": "0xab5e",
+"src": "cursedLibraryGround",
+"category": "tile",
+"sub": "cursedLibraryGround",
+"why": "src",
+"file": "tiles/all/Library Bookshelf Top Warning__ab5e.png"
+},
+{
+"id": "Library Slabs Dark ST",
+"type": "0xab5f",
+"src": "cursedLibraryGround",
+"category": "tile",
+"sub": "cursedLibraryGround",
+"why": "src",
+"file": "tiles/all/Library Slabs Dark ST__ab5f.png"
+},
+{
+"id": "Library Slabs Dark SL",
+"type": "0xab60",
+"src": "cursedLibraryGround",
+"category": "tile",
+"sub": "cursedLibraryGround",
+"why": "src",
+"file": "tiles/all/Library Slabs Dark SL__ab60.png"
+},
+{
+"id": "Library Slabs Dark SB",
+"type": "0xab61",
+"src": "cursedLibraryGround",
+"category": "tile",
+"sub": "cursedLibraryGround",
+"why": "src",
+"file": "tiles/all/Library Slabs Dark SB__ab61.png"
+},
+{
+"id": "Library Slabs Dark SR",
+"type": "0xab62",
+"src": "cursedLibraryGround",
+"category": "tile",
+"sub": "cursedLibraryGround",
+"why": "src",
+"file": "tiles/all/Library Slabs Dark SR__ab62.png"
+},
+{
+"id": "Library Slabs Dark STL",
+"type": "0xab63",
+"src": "cursedLibraryGround",
+"category": "tile",
+"sub": "cursedLibraryGround",
+"why": "src",
+"file": "tiles/all/Library Slabs Dark STL__ab63.png"
+},
+{
+"id": "Library Slabs Dark STR",
+"type": "0xab64",
+"src": "cursedLibraryGround",
+"category": "tile",
+"sub": "cursedLibraryGround",
+"why": "src",
+"file": "tiles/all/Library Slabs Dark STR__ab64.png"
+},
+{
+"id": "Library Slabs Dark SBR",
+"type": "0xab65",
+"src": "cursedLibraryGround",
+"category": "tile",
+"sub": "cursedLibraryGround",
+"why": "src",
+"file": "tiles/all/Library Slabs Dark SBR__ab65.png"
+},
+{
+"id": "Library Slabs Dark SBL",
+"type": "0xab66",
+"src": "cursedLibraryGround",
+"category": "tile",
+"sub": "cursedLibraryGround",
+"why": "src",
+"file": "tiles/all/Library Slabs Dark SBL__ab66.png"
+},
+{
+"id": "Spectral Slash",
+"type": "0xaba5",
+"src": "cursedLibraryObjects",
+"category": "projectile",
+"sub": "all",
+"why": "src",
+"file": "projectiles/all/Spectral Slash__aba5.png"
+},
+{
+"id": "Scribe Spike",
+"type": "0xaba6",
+"src": "cursedLibraryObjects",
+"category": "projectile",
+"sub": "all",
+"why": "src",
+"file": "projectiles/all/Scribe Spike__aba6.png"
+},
+{
+"id": "Scholar Spell",
+"type": "0xaba7",
+"src": "cursedLibraryObjects",
+"category": "projectile",
+"sub": "all",
+"why": "src",
+"file": "projectiles/all/Scholar Spell__aba7.png"
+},
+{
+"id": "Cardgage Curse",
+"type": "0xaba8",
+"src": "cursedLibraryObjects",
+"category": "projectile",
+"sub": "all",
+"why": "src",
+"file": "projectiles/all/Cardgage Curse__aba8.png"
+},
+{
+"id": "Corruption Cut",
+"type": "0xabaa",
+"src": "cursedLibraryObjects",
+"category": "projectile",
+"sub": "all",
+"why": "src",
+"file": "projectiles/all/Corruption Cut__abaa.png"
+},
+{
+"id": "Corruption Star",
+"type": "0xabab",
+"src": "cursedLibraryObjects",
+"category": "projectile",
+"sub": "all",
+"why": "src",
+"file": "projectiles/all/Corruption Star__abab.png"
+},
+{
+"id": "Centrifuge Cyclone",
+"type": "0xabac",
+"src": "cursedLibraryObjects",
+"category": "projectile",
+"sub": "all",
+"why": "src",
+"file": "projectiles/all/Centrifuge Cyclone__abac.png"
+},
+{
+"id": "Corruption Bolt",
+"type": "0xabad",
+"src": "cursedLibraryObjects",
+"category": "projectile",
+"sub": "all",
+"why": "src",
+"file": "projectiles/all/Corruption Bolt__abad.png"
+},
+{
+"id": "Twisted Tongue",
+"type": "0xabae",
+"src": "cursedLibraryObjects",
+"category": "projectile",
+"sub": "all",
+"why": "src",
+"file": "projectiles/all/Twisted Tongue__abae.png"
+},
+{
+"id": "HyPEr rEalIsTIC BLoOd",
+"type": "0xabaf",
+"src": "cursedLibraryObjects",
+"category": "projectile",
+"sub": "all",
+"why": "src",
+"file": "projectiles/all/HyPEr rEalIsTIC BLoOd__abaf.png"
+},
+{
+"id": "Literature Wave",
+"type": "0xabb0",
+"src": "cursedLibraryObjects",
+"category": "projectile",
+"sub": "all",
+"why": "src",
+"file": "projectiles/all/Literature Wave__abb0.png"
+},
+{
+"id": "Candle Fireball",
+"type": "0xabb1",
+"src": "cursedLibraryObjects",
+"category": "projectile",
+"sub": "all",
+"why": "src",
+"file": "projectiles/all/Candle Fireball__abb1.png"
+},
+{
+"id": "Ronin Slash",
+"type": "0xabb2",
+"src": "cursedLibraryObjects",
+"category": "projectile",
+"sub": "all",
+"why": "src",
+"file": "projectiles/all/Ronin Slash__abb2.png"
+},
+{
+"id": "Corruption Spinner",
+"type": "0xabb3",
+"src": "cursedLibraryObjects",
+"category": "projectile",
+"sub": "all",
+"why": "src",
+"file": "projectiles/all/Corruption Spinner__abb3.png"
+},
+{
+"id": "Corruption Gaze",
+"type": "0xabb4",
+"src": "cursedLibraryObjects",
+"category": "projectile",
+"sub": "all",
+"why": "src",
+"file": "projectiles/all/Corruption Gaze__abb4.png"
+},
+{
+"id": "Book Bash",
+"type": "0xabb9",
+"src": "cursedLibraryObjects",
+"category": "projectile",
+"sub": "all",
+"why": "src",
+"file": "projectiles/all/Book Bash__abb9.png"
+},
+{
+"id": "Student Scythe",
+"type": "0xABBA",
+"src": "cursedLibraryObjects",
+"category": "projectile",
+"sub": "all",
+"why": "src",
+"file": "projectiles/all/Student Scythe__ABBA.png"
+},
+{
+"id": "Headless Halberd",
+"type": "0xabbb",
+"src": "cursedLibraryObjects",
+"category": "projectile",
+"sub": "all",
+"why": "src",
+"file": "projectiles/all/Headless Halberd__abbb.png"
+},
+{
+"id": "Headless Harbinger",
+"type": "0xabbc",
+"src": "cursedLibraryObjects",
+"category": "projectile",
+"sub": "all",
+"why": "src",
+"file": "projectiles/all/Headless Harbinger__abbc.png"
+},
+{
+"id": "Corruption Stab",
+"type": "0xabbd",
+"src": "cursedLibraryObjects",
+"category": "projectile",
+"sub": "all",
+"why": "src",
+"file": "projectiles/all/Corruption Stab__abbd.png"
+},
+{
+"id": "Sharpened Fingernail",
+"type": "0xabc5",
+"src": "cursedLibraryObjects",
+"category": "projectile",
+"sub": "all",
+"why": "src",
+"file": "projectiles/all/Sharpened Fingernail__abc5.png"
+},
+{
+"id": "Finger Gun",
+"type": "0xabc6",
+"src": "cursedLibraryObjects",
+"category": "projectile",
+"sub": "all",
+"why": "src",
+"file": "projectiles/all/Finger Gun__abc6.png"
+},
+{
+"id": "Cursed Library Portal",
+"type": "0xab56",
+"src": "cursedLibraryObjects",
+"category": "portal",
+"sub": "all",
+"why": "src",
+"file": "portals/all/Cursed Library Portal__ab56.png"
+},
+{
+"id": "Library Beholder",
+"type": "0xab61",
+"src": "cursedLibraryObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Library Beholder__ab61.png"
+},
+{
+"id": "Library Deholder",
+"type": "0xab7f",
+"src": "cursedLibraryObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Library Deholder__ab7f.png"
+},
+{
+"id": "HLibrary Deholder",
+"type": "0x7310",
+"src": "cursedLibraryObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/HLibrary Deholder__7310.png"
+},
+{
+"id": "Library Eye of the Edified",
+"type": "0xab80",
+"src": "cursedLibraryObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Library Eye of the Edified__ab80.png"
+},
+{
+"id": "Library Lips of the Lost",
+"type": "0xab67",
+"src": "cursedLibraryObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Library Lips of the Lost__ab67.png"
+},
+{
+"id": "Library Hand of the Helpless",
+"type": "0xab82",
+"src": "cursedLibraryObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Library Hand of the Helpless__ab82.png"
+},
+{
+"id": "Library Maggot",
+"type": "0xab64",
+"src": "cursedLibraryObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Library Maggot__ab64.png"
+},
+{
+"id": "Library Poltergeist",
+"type": "0xab63",
+"src": "cursedLibraryObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Library Poltergeist__ab63.png"
+},
+{
+"id": "Library Soulless Scribe",
+"type": "0xab66",
+"src": "cursedLibraryObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Library Soulless Scribe__ab66.png"
+},
+{
+"id": "Library Soulless Scholar",
+"type": "0xab83",
+"src": "cursedLibraryObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Library Soulless Scholar__ab83.png"
+},
+{
+"id": "Library Soulless Student",
+"type": "0xab84",
+"src": "cursedLibraryObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Library Soulless Student__ab84.png"
+},
+{
+"id": "Library Soulless Trio",
+"type": "0xab98",
+"src": "cursedLibraryObjects",
+"category": "prop",
+"sub": "cursedLibraryObjects",
+"why": "src",
+"file": "props/all/Library Soulless Trio__ab98.png"
+},
+{
+"id": "Library Bookwyrm",
+"type": "0xab65",
+"src": "cursedLibraryObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Library Bookwyrm__ab65.png"
+},
+{
+"id": "Library Headless Specter",
+"type": "0xab81",
+"src": "cursedLibraryObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Library Headless Specter__ab81.png"
+},
+{
+"id": "Library Book Bomb",
+"type": "0xaba9",
+"src": "cursedLibraryObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Library Book Bomb__aba9.png"
+},
+{
+"id": "Library Avalon Candle Helper",
+"type": "0xabc7",
+"src": "cursedLibraryObjects",
+"category": "helper",
+"sub": "anchor",
+"why": "src",
+"file": "helpers/anchor/Library Avalon Candle Helper__abc7.png"
+},
+{
+"id": "Library Avalon the Archivist",
+"type": "0xab93",
+"src": "cursedLibraryObjects",
+"category": "enemy",
+"sub": "boss",
+"why": "src",
+"file": "enemies/boss/Library Avalon the Archivist__ab93.png"
+},
+{
+"id": "Library Corruption Phantom",
+"type": "0xab94",
+"src": "cursedLibraryObjects",
+"category": "enemy",
+"sub": "miniboss",
+"why": "src",
+"file": "enemies/miniboss/Library Corruption Phantom__ab94.png"
+},
+{
+"id": "Library Corruption Phantom Wisp Charger",
+"type": "0xab9a",
+"src": "cursedLibraryObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Library Corruption Phantom Wisp Charger__ab9a.png"
+},
+{
+"id": "Library Corruption Phantom Wisp Stalker",
+"type": "0xab9b",
+"src": "cursedLibraryObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Library Corruption Phantom Wisp Stalker__ab9b.png"
+},
+{
+"id": "Library Corruption Phantom Wisp Watcher",
+"type": "0xab9c",
+"src": "cursedLibraryObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Library Corruption Phantom Wisp Watcher__ab9c.png"
+},
+{
+"id": "Library Corruption Phantom Wisp Ravager",
+"type": "0xab9d",
+"src": "cursedLibraryObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Library Corruption Phantom Wisp Ravager__ab9d.png"
+},
+{
+"id": "Library RealmEye Corrupt",
+"type": "0xab95",
+"src": "cursedLibraryObjects",
+"category": "prop",
+"sub": "cursedLibraryObjects",
+"why": "src",
+"file": "props/all/Library RealmEye Corrupt__ab95.png"
+},
+{
+"id": "Library RealmEye",
+"type": "0xab96",
+"src": "cursedLibraryObjects",
+"category": "prop",
+"sub": "cursedLibraryObjects",
+"why": "src",
+"file": "props/all/Library RealmEye__ab96.png"
+},
+{
+"id": "Library Switch Corrupted",
+"type": "0xab9e",
+"src": "cursedLibraryObjects",
+"category": "npc",
+"sub": "all",
+"why": "src",
+"file": "npcs/all/Library Switch Corrupted__ab9e.png"
+},
+{
+"id": "Library Corruption Trigger",
+"type": "0xab9f",
+"src": "cursedLibraryObjects",
+"category": "prop",
+"sub": "cursedLibraryObjects",
+"why": "src",
+"file": "props/all/Library Corruption Trigger__ab9f.png"
+},
+{
+"id": "Library Switch Revealer",
+"type": "0xabb6",
+"src": "cursedLibraryObjects",
+"category": "helper",
+"sub": "spawner",
+"why": "src",
+"file": "helpers/spawner/Library Switch Revealer__abb6.png"
+},
+{
+"id": "Library Switch",
+"type": "0xab60",
+"src": "cursedLibraryObjects",
+"category": "npc",
+"sub": "all",
+"why": "src",
+"file": "npcs/all/Library Switch__ab60.png"
+},
+{
+"id": "Library Bookshelf Anchor Vertical Start Up",
+"type": "0xab86",
+"src": "cursedLibraryObjects",
+"category": "prop",
+"sub": "cursedLibraryObjects",
+"why": "src",
+"file": "props/all/Library Bookshelf Anchor Vertical Start Up__ab86.png"
+},
+{
+"id": "Library Bookshelf Anchor Vertical Start Down",
+"type": "0xab87",
+"src": "cursedLibraryObjects",
+"category": "prop",
+"sub": "cursedLibraryObjects",
+"why": "src",
+"file": "props/all/Library Bookshelf Anchor Vertical Start Down__ab87.png"
+},
+{
+"id": "Library Bookshelf Anchor Horizontal Start Up",
+"type": "0xab88",
+"src": "cursedLibraryObjects",
+"category": "prop",
+"sub": "cursedLibraryObjects",
+"why": "src",
+"file": "props/all/Library Bookshelf Anchor Horizontal Start Up__ab88.png"
+},
+{
+"id": "Library Bookshelf Anchor Horizontal Start Down",
+"type": "0xab89",
+"src": "cursedLibraryObjects",
+"category": "prop",
+"sub": "cursedLibraryObjects",
+"why": "src",
+"file": "props/all/Library Bookshelf Anchor Horizontal Start Down__ab89.png"
+},
+{
+"id": "Library Sky Beam",
+"type": "0xab97",
+"src": "cursedLibraryObjects",
+"category": "prop",
+"sub": "cursedLibraryObjects",
+"why": "src",
+"file": "props/all/Library Sky Beam__ab97.png"
+},
+{
+"id": "Library Purification Circle",
+"type": "0xabb8",
+"src": "cursedLibraryObjects",
+"category": "prop",
+"sub": "cursedLibraryObjects",
+"why": "src",
+"file": "props/all/Library Purification Circle__abb8.png"
+},
+{
+"id": "Library Torch Remover",
+"type": "0xab99",
+"src": "cursedLibraryObjects",
+"category": "prop",
+"sub": "cursedLibraryObjects",
+"why": "src",
+"file": "props/all/Library Torch Remover__ab99.png"
+},
+{
+"id": "Library Tome Toss",
+"type": "0xabc8",
+"src": "cursedLibraryObjects",
+"category": "prop",
+"sub": "cursedLibraryObjects",
+"why": "src",
+"file": "props/all/Library Tome Toss__abc8.png"
+},
+{
+"id": "Library Tome of Knowledge",
+"type": "0xaba0",
+"src": "cursedLibraryObjects",
+"category": "prop",
+"sub": "cursedLibraryObjects",
+"why": "src",
+"file": "props/all/Library Tome of Knowledge__aba0.png"
+},
+{
+"id": "Library Avalon Anchor NW",
+"type": "0xab8a",
+"src": "cursedLibraryObjects",
+"category": "prop",
+"sub": "cursedLibraryObjects",
+"why": "src",
+"file": "props/all/Library Avalon Anchor NW__ab8a.png"
+},
+{
+"id": "Library Avalon Anchor N",
+"type": "0xab8b",
+"src": "cursedLibraryObjects",
+"category": "prop",
+"sub": "cursedLibraryObjects",
+"why": "src",
+"file": "props/all/Library Avalon Anchor N__ab8b.png"
+},
+{
+"id": "Library Avalon Anchor NE",
+"type": "0xab8c",
+"src": "cursedLibraryObjects",
+"category": "prop",
+"sub": "cursedLibraryObjects",
+"why": "src",
+"file": "props/all/Library Avalon Anchor NE__ab8c.png"
+},
+{
+"id": "Library Avalon Anchor W",
+"type": "0xab8d",
+"src": "cursedLibraryObjects",
+"category": "prop",
+"sub": "cursedLibraryObjects",
+"why": "src",
+"file": "props/all/Library Avalon Anchor W__ab8d.png"
+},
+{
+"id": "Library Avalon Anchor C",
+"type": "0xab8e",
+"src": "cursedLibraryObjects",
+"category": "prop",
+"sub": "cursedLibraryObjects",
+"why": "src",
+"file": "props/all/Library Avalon Anchor C__ab8e.png"
+},
+{
+"id": "Library Avalon Anchor E",
+"type": "0xab8f",
+"src": "cursedLibraryObjects",
+"category": "prop",
+"sub": "cursedLibraryObjects",
+"why": "src",
+"file": "props/all/Library Avalon Anchor E__ab8f.png"
+},
+{
+"id": "Library Avalon Anchor SW",
+"type": "0xab90",
+"src": "cursedLibraryObjects",
+"category": "prop",
+"sub": "cursedLibraryObjects",
+"why": "src",
+"file": "props/all/Library Avalon Anchor SW__ab90.png"
+},
+{
+"id": "Library Avalon Anchor S",
+"type": "0xab91",
+"src": "cursedLibraryObjects",
+"category": "prop",
+"sub": "cursedLibraryObjects",
+"why": "src",
+"file": "props/all/Library Avalon Anchor S__ab91.png"
+},
+{
+"id": "Library Avalon Anchor SE",
+"type": "0xab92",
+"src": "cursedLibraryObjects",
+"category": "prop",
+"sub": "cursedLibraryObjects",
+"why": "src",
+"file": "props/all/Library Avalon Anchor SE__ab92.png"
+},
+{
+"id": "Library Corruption NW",
+"type": "0xabc9",
+"src": "cursedLibraryObjects",
+"category": "prop",
+"sub": "cursedLibraryObjects",
+"why": "src",
+"file": "props/all/Library Corruption NW__abc9.png"
+},
+{
+"id": "Library Corruption N",
+"type": "0xabca",
+"src": "cursedLibraryObjects",
+"category": "prop",
+"sub": "cursedLibraryObjects",
+"why": "src",
+"file": "props/all/Library Corruption N__abca.png"
+},
+{
+"id": "Library Corruption NE",
+"type": "0xabcb",
+"src": "cursedLibraryObjects",
+"category": "prop",
+"sub": "cursedLibraryObjects",
+"why": "src",
+"file": "props/all/Library Corruption NE__abcb.png"
+},
+{
+"id": "Library Corruption W",
+"type": "0xabcc",
+"src": "cursedLibraryObjects",
+"category": "prop",
+"sub": "cursedLibraryObjects",
+"why": "src",
+"file": "props/all/Library Corruption W__abcc.png"
+},
+{
+"id": "Library Corruption C",
+"type": "0xabcd",
+"src": "cursedLibraryObjects",
+"category": "prop",
+"sub": "cursedLibraryObjects",
+"why": "src",
+"file": "props/all/Library Corruption C__abcd.png"
+},
+{
+"id": "Library Corruption E",
+"type": "0xabce",
+"src": "cursedLibraryObjects",
+"category": "prop",
+"sub": "cursedLibraryObjects",
+"why": "src",
+"file": "props/all/Library Corruption E__abce.png"
+},
+{
+"id": "Library Corruption SW",
+"type": "0xabcf",
+"src": "cursedLibraryObjects",
+"category": "prop",
+"sub": "cursedLibraryObjects",
+"why": "src",
+"file": "props/all/Library Corruption SW__abcf.png"
+},
+{
+"id": "Library Corruption S",
+"type": "0xabd0",
+"src": "cursedLibraryObjects",
+"category": "prop",
+"sub": "cursedLibraryObjects",
+"why": "src",
+"file": "props/all/Library Corruption S__abd0.png"
+},
+{
+"id": "Library Corruption SE",
+"type": "0xabd1",
+"src": "cursedLibraryObjects",
+"category": "prop",
+"sub": "cursedLibraryObjects",
+"why": "src",
+"file": "props/all/Library Corruption SE__abd1.png"
+},
+{
+"id": "Library Stone Wall",
+"type": "0xab58",
+"src": "cursedLibraryObjects",
+"category": "wall",
+"sub": "cursedLibraryObjects",
+"why": "src",
+"file": "walls/all/Library Stone Wall__ab58.png"
+},
+{
+"id": "Library Flame Wall",
+"type": "0xab59",
+"src": "cursedLibraryObjects",
+"category": "wall",
+"sub": "cursedLibraryObjects",
+"why": "src",
+"file": "walls/all/Library Flame Wall__ab59.png"
+},
+{
+"id": "Library Corrupt Flame Wall",
+"type": "0xabb7",
+"src": "cursedLibraryObjects",
+"category": "wall",
+"sub": "cursedLibraryObjects",
+"why": "src",
+"file": "walls/all/Library Corrupt Flame Wall__abb7.png"
+},
+{
+"id": "Library Bookshelf",
+"type": "0xab5a",
+"src": "cursedLibraryObjects",
+"category": "wall",
+"sub": "cursedLibraryObjects",
+"why": "src",
+"file": "walls/all/Library Bookshelf__ab5a.png"
+},
+{
+"id": "Library Bookshelf Empty",
+"type": "0xab5b",
+"src": "cursedLibraryObjects",
+"category": "wall",
+"sub": "cursedLibraryObjects",
+"why": "src",
+"file": "walls/all/Library Bookshelf Empty__ab5b.png"
+},
+{
+"id": "Library Bookshelf Empty Destructible",
+"type": "0xabbe",
+"src": "cursedLibraryObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Library Bookshelf Empty Destructible__abbe.png"
+},
+{
+"id": "Library Secret Wall",
+"type": "0xab5f",
+"src": "cursedLibraryObjects",
+"category": "wall",
+"sub": "cursedLibraryObjects",
+"why": "src",
+"file": "walls/all/Library Secret Wall__ab5f.png"
+},
+{
+"id": "Library Bookshelf Empty Warning",
+"type": "0xab85",
+"src": "cursedLibraryObjects",
+"category": "wall",
+"sub": "cursedLibraryObjects",
+"why": "src",
+"file": "walls/all/Library Bookshelf Empty Warning__ab85.png"
+},
+{
+"id": "Library Decor Pillar",
+"type": "0xab5c",
+"src": "cursedLibraryObjects",
+"category": "prop",
+"sub": "cursedLibraryObjects",
+"why": "src",
+"file": "props/all/Library Decor Pillar__ab5c.png"
+},
+{
+"id": "Library Stone Pillar",
+"type": "0xab5d",
+"src": "cursedLibraryObjects",
+"category": "prop",
+"sub": "cursedLibraryObjects",
+"why": "src",
+"file": "props/all/Library Stone Pillar__ab5d.png"
+},
+{
+"id": "Library Bookshelf Pillar",
+"type": "0xab5e",
+"src": "cursedLibraryObjects",
+"category": "prop",
+"sub": "cursedLibraryObjects",
+"why": "src",
+"file": "props/all/Library Bookshelf Pillar__ab5e.png"
+},
+{
+"id": "Library Table Outer",
+"type": "0xab68",
+"src": "cursedLibraryObjects",
+"category": "prop",
+"sub": "cursedLibraryObjects",
+"why": "src",
+"file": "props/all/Library Table Outer__ab68.png"
+},
+{
+"id": "Library Table Outer UL",
+"type": "0xab69",
+"src": "cursedLibraryObjects",
+"category": "prop",
+"sub": "cursedLibraryObjects",
+"why": "src",
+"file": "props/all/Library Table Outer UL__ab69.png"
+},
+{
+"id": "Library Table Outer UR",
+"type": "0xab6a",
+"src": "cursedLibraryObjects",
+"category": "prop",
+"sub": "cursedLibraryObjects",
+"why": "src",
+"file": "props/all/Library Table Outer UR__ab6a.png"
+},
+{
+"id": "Library Table Outer LR",
+"type": "0xab6b",
+"src": "cursedLibraryObjects",
+"category": "prop",
+"sub": "cursedLibraryObjects",
+"why": "src",
+"file": "props/all/Library Table Outer LR__ab6b.png"
+},
+{
+"id": "Library Table Outer LL",
+"type": "0xab6c",
+"src": "cursedLibraryObjects",
+"category": "prop",
+"sub": "cursedLibraryObjects",
+"why": "src",
+"file": "props/all/Library Table Outer LL__ab6c.png"
+},
+{
+"id": "Library Table Inner",
+"type": "0xab6d",
+"src": "cursedLibraryObjects",
+"category": "prop",
+"sub": "cursedLibraryObjects",
+"why": "src",
+"file": "props/all/Library Table Inner__ab6d.png"
+},
+{
+"id": "Library Table Inner Paper",
+"type": "0xab6e",
+"src": "cursedLibraryObjects",
+"category": "prop",
+"sub": "cursedLibraryObjects",
+"why": "src",
+"file": "props/all/Library Table Inner Paper__ab6e.png"
+},
+{
+"id": "Library Table Inner Paper Stack",
+"type": "0xab6f",
+"src": "cursedLibraryObjects",
+"category": "prop",
+"sub": "cursedLibraryObjects",
+"why": "src",
+"file": "props/all/Library Table Inner Paper Stack__ab6f.png"
+},
+{
+"id": "Library Table Inner Object",
+"type": "0xab70",
+"src": "cursedLibraryObjects",
+"category": "helper",
+"sub": "other",
+"why": "src",
+"file": "helpers/other/Library Table Inner Object__ab70.png"
+},
+{
+"id": "Library Table Outer Object",
+"type": "0xabbf",
+"src": "cursedLibraryObjects",
+"category": "helper",
+"sub": "other",
+"why": "src",
+"file": "helpers/other/Library Table Outer Object__abbf.png"
+},
+{
+"id": "Library Small Book Hover",
+"type": "0xab71",
+"src": "cursedLibraryObjects",
+"category": "prop",
+"sub": "cursedLibraryObjects",
+"why": "src",
+"file": "props/all/Library Small Book Hover__ab71.png"
+},
+{
+"id": "Library Big Book Hover",
+"type": "0xab72",
+"src": "cursedLibraryObjects",
+"category": "prop",
+"sub": "cursedLibraryObjects",
+"why": "src",
+"file": "props/all/Library Big Book Hover__ab72.png"
+},
+{
+"id": "Library Open Book Hover",
+"type": "0xab73",
+"src": "cursedLibraryObjects",
+"category": "prop",
+"sub": "cursedLibraryObjects",
+"why": "src",
+"file": "props/all/Library Open Book Hover__ab73.png"
+},
+{
+"id": "Library Book Stack Hover",
+"type": "0xab74",
+"src": "cursedLibraryObjects",
+"category": "prop",
+"sub": "cursedLibraryObjects",
+"why": "src",
+"file": "props/all/Library Book Stack Hover__ab74.png"
+},
+{
+"id": "Library Candle Small Hover",
+"type": "0xab75",
+"src": "cursedLibraryObjects",
+"category": "prop",
+"sub": "cursedLibraryObjects",
+"why": "src",
+"file": "props/all/Library Candle Small Hover__ab75.png"
+},
+{
+"id": "Library Candle Medium Hover",
+"type": "0xab76",
+"src": "cursedLibraryObjects",
+"category": "prop",
+"sub": "cursedLibraryObjects",
+"why": "src",
+"file": "props/all/Library Candle Medium Hover__ab76.png"
+},
+{
+"id": "Library Candle Big Hover",
+"type": "0xab77",
+"src": "cursedLibraryObjects",
+"category": "prop",
+"sub": "cursedLibraryObjects",
+"why": "src",
+"file": "props/all/Library Candle Big Hover__ab77.png"
+},
+{
+"id": "Library Small Book",
+"type": "0xab78",
+"src": "cursedLibraryObjects",
+"category": "prop",
+"sub": "cursedLibraryObjects",
+"why": "src",
+"file": "props/all/Library Small Book__ab78.png"
+},
+{
+"id": "Library Big Book",
+"type": "0xab79",
+"src": "cursedLibraryObjects",
+"category": "prop",
+"sub": "cursedLibraryObjects",
+"why": "src",
+"file": "props/all/Library Big Book__ab79.png"
+},
+{
+"id": "Library Open Book",
+"type": "0xab7a",
+"src": "cursedLibraryObjects",
+"category": "prop",
+"sub": "cursedLibraryObjects",
+"why": "src",
+"file": "props/all/Library Open Book__ab7a.png"
+},
+{
+"id": "Library Book Stack",
+"type": "0xab7b",
+"src": "cursedLibraryObjects",
+"category": "prop",
+"sub": "cursedLibraryObjects",
+"why": "src",
+"file": "props/all/Library Book Stack__ab7b.png"
+},
+{
+"id": "Library Candle Small",
+"type": "0xab7c",
+"src": "cursedLibraryObjects",
+"category": "prop",
+"sub": "cursedLibraryObjects",
+"why": "src",
+"file": "props/all/Library Candle Small__ab7c.png"
+},
+{
+"id": "Library Candle Medium",
+"type": "0xab7d",
+"src": "cursedLibraryObjects",
+"category": "prop",
+"sub": "cursedLibraryObjects",
+"why": "src",
+"file": "props/all/Library Candle Medium__ab7d.png"
+},
+{
+"id": "Library Candle Big",
+"type": "0xab7e",
+"src": "cursedLibraryObjects",
+"category": "prop",
+"sub": "cursedLibraryObjects",
+"why": "src",
+"file": "props/all/Library Candle Big__ab7e.png"
+},
+{
+"id": "White Bolt",
+"type": "0x000e",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/White Bolt__000e.png"
+},
+{
+"id": "Purple Star",
+"type": "0x0018",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Purple Star__0018.png"
+},
+{
+"id": "Invisible",
+"type": "0x0096",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Invisible__0096.png"
+},
+{
+"id": "Scholar's Seal",
+"type": "0x57e",
+"src": "equip",
+"category": "ability",
+"sub": "all",
+"why": "loot",
+"file": "loot/ability/Scholar_s Seal__57e.png"
+},
+{
+"id": "Ronin's Wakizashi",
+"type": "0x57f",
+"src": "equip",
+"category": "ability",
+"sub": "all",
+"why": "loot",
+"file": "loot/ability/Ronin_s Wakizashi__57f.png"
+},
+{
+"id": "Corruption Cutter",
+"type": "0x580",
+"src": "equip",
+"category": "weapon",
+"sub": "dagger",
+"why": "loot",
+"file": "loot/weapon_dagger/Corruption Cutter__580.png"
+}
+]
+}

@@ -1,0 +1,1458 @@
+{
+"dungeon": "Spider_Den",
+"sources": [
+"spiderDenObjects",
+"spiderDenGround"
+],
+"counts": {
+"tiles": 102,
+"projectiles": 11,
+"loot": 3,
+"props": 12,
+"enemies": 8,
+"helpers": 18,
+"walls": 3
+},
+"why": {
+"src": 144,
+"spec": 9,
+"proj": 2,
+"loot": 2
+},
+"tile_hints_used": {},
+"names_in_own_files": [
+"Green Den Spider Hatchling",
+"Brown Den Spider",
+"Black Spotted Den Spider",
+"Red Spotted Den Spider",
+"Black Den Spider",
+"Spider Egg Sac",
+"Spider Webbed Chest",
+"Arachna the Spider Queen"
+],
+"names_in_other_files": [
+[
+"Arachna Element",
+[
+"epicspiderDen",
+"spiderDenObjects"
+]
+]
+],
+"names_not_found": [],
+"entries": [
+{
+"id": "Spider Dirt",
+"type": "0x222f",
+"src": "spiderDenGround",
+"category": "tile",
+"sub": "spiderDenGround",
+"why": "src",
+"file": "tiles/all/Spider Dirt__222f.png"
+},
+{
+"id": "Spider Dirt Web",
+"type": "0x2230",
+"src": "spiderDenGround",
+"category": "tile",
+"sub": "spiderDenGround",
+"why": "src",
+"file": "tiles/all/Spider Dirt Web__2230.png"
+},
+{
+"id": "Spider Dirt Clean",
+"type": "0x2231",
+"src": "spiderDenGround",
+"category": "tile",
+"sub": "spiderDenGround",
+"why": "src",
+"file": "tiles/all/Spider Dirt Clean__2231.png"
+},
+{
+"id": "SP Tile",
+"type": "0x2232",
+"src": "spiderDenGround",
+"category": "tile",
+"sub": "spiderDenGround",
+"why": "src",
+"file": "tiles/all/SP Tile__2232.png"
+},
+{
+"id": "SP Hall Tile",
+"type": "0x2233",
+"src": "spiderDenGround",
+"category": "tile",
+"sub": "spiderDenGround",
+"why": "src",
+"file": "tiles/all/SP Hall Tile__2233.png"
+},
+{
+"id": "SP Closed Grate",
+"type": "0x2234",
+"src": "spiderDenGround",
+"category": "tile",
+"sub": "spiderDenGround",
+"why": "src",
+"file": "tiles/all/SP Closed Grate__2234.png"
+},
+{
+"id": "SP Grate",
+"type": "0x223e",
+"src": "spiderDenGround",
+"category": "tile",
+"sub": "spiderDenGround",
+"why": "src",
+"file": "tiles/all/SP Grate__223e.png"
+},
+{
+"id": "SP Guard Grate NW",
+"type": "0x2235",
+"src": "spiderDenGround",
+"category": "tile",
+"sub": "spiderDenGround",
+"why": "src",
+"file": "tiles/all/SP Guard Grate NW__2235.png"
+},
+{
+"id": "SP Guard Grate N",
+"type": "0x2236",
+"src": "spiderDenGround",
+"category": "tile",
+"sub": "spiderDenGround",
+"why": "src",
+"file": "tiles/all/SP Guard Grate N__2236.png"
+},
+{
+"id": "SP Guard Grate NE",
+"type": "0x2237",
+"src": "spiderDenGround",
+"category": "tile",
+"sub": "spiderDenGround",
+"why": "src",
+"file": "tiles/all/SP Guard Grate NE__2237.png"
+},
+{
+"id": "SP Guard Grate W",
+"type": "0x2238",
+"src": "spiderDenGround",
+"category": "tile",
+"sub": "spiderDenGround",
+"why": "src",
+"file": "tiles/all/SP Guard Grate W__2238.png"
+},
+{
+"id": "SP Guard Grate M",
+"type": "0x2239",
+"src": "spiderDenGround",
+"category": "tile",
+"sub": "spiderDenGround",
+"why": "src",
+"file": "tiles/all/SP Guard Grate M__2239.png"
+},
+{
+"id": "SP Guard Grate E",
+"type": "0x223a",
+"src": "spiderDenGround",
+"category": "tile",
+"sub": "spiderDenGround",
+"why": "src",
+"file": "tiles/all/SP Guard Grate E__223a.png"
+},
+{
+"id": "SP Guard Grate SW",
+"type": "0x223b",
+"src": "spiderDenGround",
+"category": "tile",
+"sub": "spiderDenGround",
+"why": "src",
+"file": "tiles/all/SP Guard Grate SW__223b.png"
+},
+{
+"id": "SP Guard Grate S",
+"type": "0x223c",
+"src": "spiderDenGround",
+"category": "tile",
+"sub": "spiderDenGround",
+"why": "src",
+"file": "tiles/all/SP Guard Grate S__223c.png"
+},
+{
+"id": "SP Guard Grate SE",
+"type": "0x223d",
+"src": "spiderDenGround",
+"category": "tile",
+"sub": "spiderDenGround",
+"why": "src",
+"file": "tiles/all/SP Guard Grate SE__223d.png"
+},
+{
+"id": "Crawling Spider Dirt",
+"type": "0x62e7",
+"src": "spiderDenGround",
+"category": "tile",
+"sub": "spiderDenGround",
+"why": "src",
+"file": "tiles/all/Crawling Spider Dirt__62e7.png"
+},
+{
+"id": "Crawling Spider Dirt Web",
+"type": "0x62e8",
+"src": "spiderDenGround",
+"category": "tile",
+"sub": "spiderDenGround",
+"why": "src",
+"file": "tiles/all/Crawling Spider Dirt Web__62e8.png"
+},
+{
+"id": "Crawling Spider Dirt Clean",
+"type": "0x62e9",
+"src": "spiderDenGround",
+"category": "tile",
+"sub": "spiderDenGround",
+"why": "src",
+"file": "tiles/all/Crawling Spider Dirt Clean__62e9.png"
+},
+{
+"id": "Woodland Floor",
+"type": "0x62ea",
+"src": "spiderDenGround",
+"category": "tile",
+"sub": "spiderDenGround",
+"why": "src",
+"file": "tiles/all/Woodland Floor__62ea.png"
+},
+{
+"id": "Woodland Floor Decor",
+"type": "0x6308",
+"src": "spiderDenGround",
+"category": "tile",
+"sub": "spiderDenGround",
+"why": "src",
+"file": "tiles/all/Woodland Floor Decor__6308.png"
+},
+{
+"id": "Woodland Floor Edge Rt",
+"type": "0x62eb",
+"src": "spiderDenGround",
+"category": "tile",
+"sub": "spiderDenGround",
+"why": "src",
+"file": "tiles/all/Woodland Floor Edge Rt__62eb.png"
+},
+{
+"id": "Woodland Floor Edge Lf",
+"type": "0x62ec",
+"src": "spiderDenGround",
+"category": "tile",
+"sub": "spiderDenGround",
+"why": "src",
+"file": "tiles/all/Woodland Floor Edge Lf__62ec.png"
+},
+{
+"id": "Woodland Floor Edge Bot",
+"type": "0x62ed",
+"src": "spiderDenGround",
+"category": "tile",
+"sub": "spiderDenGround",
+"why": "src",
+"file": "tiles/all/Woodland Floor Edge Bot__62ed.png"
+},
+{
+"id": "Woodland Floor Edge Top",
+"type": "0x62ee",
+"src": "spiderDenGround",
+"category": "tile",
+"sub": "spiderDenGround",
+"why": "src",
+"file": "tiles/all/Woodland Floor Edge Top__62ee.png"
+},
+{
+"id": "Woodland Floor Corner TR",
+"type": "0x62ef",
+"src": "spiderDenGround",
+"category": "tile",
+"sub": "spiderDenGround",
+"why": "src",
+"file": "tiles/all/Woodland Floor Corner TR__62ef.png"
+},
+{
+"id": "Woodland Floor Corner TL",
+"type": "0x62f0",
+"src": "spiderDenGround",
+"category": "tile",
+"sub": "spiderDenGround",
+"why": "src",
+"file": "tiles/all/Woodland Floor Corner TL__62f0.png"
+},
+{
+"id": "Woodland Floor Corner BR",
+"type": "0x62f1",
+"src": "spiderDenGround",
+"category": "tile",
+"sub": "spiderDenGround",
+"why": "src",
+"file": "tiles/all/Woodland Floor Corner BR__62f1.png"
+},
+{
+"id": "Woodland Floor Corner BL",
+"type": "0x62f2",
+"src": "spiderDenGround",
+"category": "tile",
+"sub": "spiderDenGround",
+"why": "src",
+"file": "tiles/all/Woodland Floor Corner BL__62f2.png"
+},
+{
+"id": "Woodland Floor Inner TR",
+"type": "0x62f3",
+"src": "spiderDenGround",
+"category": "tile",
+"sub": "spiderDenGround",
+"why": "src",
+"file": "tiles/all/Woodland Floor Inner TR__62f3.png"
+},
+{
+"id": "Woodland Floor Inner TL",
+"type": "0x62f4",
+"src": "spiderDenGround",
+"category": "tile",
+"sub": "spiderDenGround",
+"why": "src",
+"file": "tiles/all/Woodland Floor Inner TL__62f4.png"
+},
+{
+"id": "Woodland Floor Inner BR",
+"type": "0x62f5",
+"src": "spiderDenGround",
+"category": "tile",
+"sub": "spiderDenGround",
+"why": "src",
+"file": "tiles/all/Woodland Floor Inner BR__62f5.png"
+},
+{
+"id": "Woodland Floor Inner BL",
+"type": "0x62f6",
+"src": "spiderDenGround",
+"category": "tile",
+"sub": "spiderDenGround",
+"why": "src",
+"file": "tiles/all/Woodland Floor Inner BL__62f6.png"
+},
+{
+"id": "Woodland Medium Floor Edge Rt",
+"type": "0x6324",
+"src": "spiderDenGround",
+"category": "tile",
+"sub": "spiderDenGround",
+"why": "src",
+"file": "tiles/all/Woodland Medium Floor Edge Rt__6324.png"
+},
+{
+"id": "Woodland Medium Floor Edge Lf",
+"type": "0x6325",
+"src": "spiderDenGround",
+"category": "tile",
+"sub": "spiderDenGround",
+"why": "src",
+"file": "tiles/all/Woodland Medium Floor Edge Lf__6325.png"
+},
+{
+"id": "Woodland Medium Floor Edge Bot",
+"type": "0x6326",
+"src": "spiderDenGround",
+"category": "tile",
+"sub": "spiderDenGround",
+"why": "src",
+"file": "tiles/all/Woodland Medium Floor Edge Bot__6326.png"
+},
+{
+"id": "Woodland Medium Floor Edge Top",
+"type": "0x6327",
+"src": "spiderDenGround",
+"category": "tile",
+"sub": "spiderDenGround",
+"why": "src",
+"file": "tiles/all/Woodland Medium Floor Edge Top__6327.png"
+},
+{
+"id": "Woodland Medium Floor Corner TR",
+"type": "0x6328",
+"src": "spiderDenGround",
+"category": "tile",
+"sub": "spiderDenGround",
+"why": "src",
+"file": "tiles/all/Woodland Medium Floor Corner TR__6328.png"
+},
+{
+"id": "Woodland Medium Floor Corner TL",
+"type": "0x6329",
+"src": "spiderDenGround",
+"category": "tile",
+"sub": "spiderDenGround",
+"why": "src",
+"file": "tiles/all/Woodland Medium Floor Corner TL__6329.png"
+},
+{
+"id": "Woodland Medium Floor Corner BR",
+"type": "0x632a",
+"src": "spiderDenGround",
+"category": "tile",
+"sub": "spiderDenGround",
+"why": "src",
+"file": "tiles/all/Woodland Medium Floor Corner BR__632a.png"
+},
+{
+"id": "Woodland Medium Floor Corner BL",
+"type": "0x632b",
+"src": "spiderDenGround",
+"category": "tile",
+"sub": "spiderDenGround",
+"why": "src",
+"file": "tiles/all/Woodland Medium Floor Corner BL__632b.png"
+},
+{
+"id": "Woodland Medium Floor Inner TR",
+"type": "0x632c",
+"src": "spiderDenGround",
+"category": "tile",
+"sub": "spiderDenGround",
+"why": "src",
+"file": "tiles/all/Woodland Medium Floor Inner TR__632c.png"
+},
+{
+"id": "Woodland Medium Floor Inner TL",
+"type": "0x632d",
+"src": "spiderDenGround",
+"category": "tile",
+"sub": "spiderDenGround",
+"why": "src",
+"file": "tiles/all/Woodland Medium Floor Inner TL__632d.png"
+},
+{
+"id": "Woodland Medium Floor Inner BR",
+"type": "0x632e",
+"src": "spiderDenGround",
+"category": "tile",
+"sub": "spiderDenGround",
+"why": "src",
+"file": "tiles/all/Woodland Medium Floor Inner BR__632e.png"
+},
+{
+"id": "Woodland Medium Floor Inner BL",
+"type": "0x632f",
+"src": "spiderDenGround",
+"category": "tile",
+"sub": "spiderDenGround",
+"why": "src",
+"file": "tiles/all/Woodland Medium Floor Inner BL__632f.png"
+},
+{
+"id": "Woodland Bright Floor Edge Rt",
+"type": "0x6330",
+"src": "spiderDenGround",
+"category": "tile",
+"sub": "spiderDenGround",
+"why": "src",
+"file": "tiles/all/Woodland Bright Floor Edge Rt__6330.png"
+},
+{
+"id": "Woodland Bright Floor Edge Lf",
+"type": "0x6331",
+"src": "spiderDenGround",
+"category": "tile",
+"sub": "spiderDenGround",
+"why": "src",
+"file": "tiles/all/Woodland Bright Floor Edge Lf__6331.png"
+},
+{
+"id": "Woodland Bright Floor Edge Bot",
+"type": "0x6332",
+"src": "spiderDenGround",
+"category": "tile",
+"sub": "spiderDenGround",
+"why": "src",
+"file": "tiles/all/Woodland Bright Floor Edge Bot__6332.png"
+},
+{
+"id": "Woodland Bright Floor Edge Top",
+"type": "0x6333",
+"src": "spiderDenGround",
+"category": "tile",
+"sub": "spiderDenGround",
+"why": "src",
+"file": "tiles/all/Woodland Bright Floor Edge Top__6333.png"
+},
+{
+"id": "Woodland Bright Floor Corner TR",
+"type": "0x6334",
+"src": "spiderDenGround",
+"category": "tile",
+"sub": "spiderDenGround",
+"why": "src",
+"file": "tiles/all/Woodland Bright Floor Corner TR__6334.png"
+},
+{
+"id": "Woodland Bright Floor Corner TL",
+"type": "0x6335",
+"src": "spiderDenGround",
+"category": "tile",
+"sub": "spiderDenGround",
+"why": "src",
+"file": "tiles/all/Woodland Bright Floor Corner TL__6335.png"
+},
+{
+"id": "Woodland Bright Floor Corner BR",
+"type": "0x6336",
+"src": "spiderDenGround",
+"category": "tile",
+"sub": "spiderDenGround",
+"why": "src",
+"file": "tiles/all/Woodland Bright Floor Corner BR__6336.png"
+},
+{
+"id": "Woodland Bright Floor Corner BL",
+"type": "0x6337",
+"src": "spiderDenGround",
+"category": "tile",
+"sub": "spiderDenGround",
+"why": "src",
+"file": "tiles/all/Woodland Bright Floor Corner BL__6337.png"
+},
+{
+"id": "Woodland Bright Floor Inner TR",
+"type": "0x6338",
+"src": "spiderDenGround",
+"category": "tile",
+"sub": "spiderDenGround",
+"why": "src",
+"file": "tiles/all/Woodland Bright Floor Inner TR__6338.png"
+},
+{
+"id": "Woodland Bright Floor Inner TL",
+"type": "0x6339",
+"src": "spiderDenGround",
+"category": "tile",
+"sub": "spiderDenGround",
+"why": "src",
+"file": "tiles/all/Woodland Bright Floor Inner TL__6339.png"
+},
+{
+"id": "Woodland Bright Floor Inner BR",
+"type": "0x633a",
+"src": "spiderDenGround",
+"category": "tile",
+"sub": "spiderDenGround",
+"why": "src",
+"file": "tiles/all/Woodland Bright Floor Inner BR__633a.png"
+},
+{
+"id": "Woodland Bright Floor Inner BL",
+"type": "0x633b",
+"src": "spiderDenGround",
+"category": "tile",
+"sub": "spiderDenGround",
+"why": "src",
+"file": "tiles/all/Woodland Bright Floor Inner BL__633b.png"
+},
+{
+"id": "Woodland Floor BlackTop",
+"type": "0x62f7",
+"src": "spiderDenGround",
+"category": "tile",
+"sub": "spiderDenGround",
+"why": "src",
+"file": "tiles/all/Woodland Floor BlackTop__62f7.png"
+},
+{
+"id": "Woodland Floor FullBlack",
+"type": "0x62f8",
+"src": "spiderDenGround",
+"category": "tile",
+"sub": "spiderDenGround",
+"why": "src",
+"file": "tiles/all/Woodland Floor FullBlack__62f8.png"
+},
+{
+"id": "Woodland Dirt",
+"type": "0x62f9",
+"src": "spiderDenGround",
+"category": "tile",
+"sub": "spiderDenGround",
+"why": "src",
+"file": "tiles/all/Woodland Dirt__62f9.png"
+},
+{
+"id": "Woodland Leaves",
+"type": "0x62fa",
+"src": "spiderDenGround",
+"category": "tile",
+"sub": "spiderDenGround",
+"why": "src",
+"file": "tiles/all/Woodland Leaves__62fa.png"
+},
+{
+"id": "Woodland Dark Leaves",
+"type": "0x6309",
+"src": "spiderDenGround",
+"category": "tile",
+"sub": "spiderDenGround",
+"why": "src",
+"file": "tiles/all/Woodland Dark Leaves__6309.png"
+},
+{
+"id": "Woodland Medium Leaves",
+"type": "0x630a",
+"src": "spiderDenGround",
+"category": "tile",
+"sub": "spiderDenGround",
+"why": "src",
+"file": "tiles/all/Woodland Medium Leaves__630a.png"
+},
+{
+"id": "Woodland Bright Leaves",
+"type": "0x630b",
+"src": "spiderDenGround",
+"category": "tile",
+"sub": "spiderDenGround",
+"why": "src",
+"file": "tiles/all/Woodland Bright Leaves__630b.png"
+},
+{
+"id": "Woodland Leaves Edge Rt",
+"type": "0x62fb",
+"src": "spiderDenGround",
+"category": "tile",
+"sub": "spiderDenGround",
+"why": "src",
+"file": "tiles/all/Woodland Leaves Edge Rt__62fb.png"
+},
+{
+"id": "Woodland Leaves Edge Lf",
+"type": "0x62fc",
+"src": "spiderDenGround",
+"category": "tile",
+"sub": "spiderDenGround",
+"why": "src",
+"file": "tiles/all/Woodland Leaves Edge Lf__62fc.png"
+},
+{
+"id": "Woodland Leaves Edge Bot",
+"type": "0x62fd",
+"src": "spiderDenGround",
+"category": "tile",
+"sub": "spiderDenGround",
+"why": "src",
+"file": "tiles/all/Woodland Leaves Edge Bot__62fd.png"
+},
+{
+"id": "Woodland Leaves Edge Top",
+"type": "0x62fe",
+"src": "spiderDenGround",
+"category": "tile",
+"sub": "spiderDenGround",
+"why": "src",
+"file": "tiles/all/Woodland Leaves Edge Top__62fe.png"
+},
+{
+"id": "Woodland Leaves Corner TR",
+"type": "0x62ff",
+"src": "spiderDenGround",
+"category": "tile",
+"sub": "spiderDenGround",
+"why": "src",
+"file": "tiles/all/Woodland Leaves Corner TR__62ff.png"
+},
+{
+"id": "Woodland Leaves Corner TL",
+"type": "0x6300",
+"src": "spiderDenGround",
+"category": "tile",
+"sub": "spiderDenGround",
+"why": "src",
+"file": "tiles/all/Woodland Leaves Corner TL__6300.png"
+},
+{
+"id": "Woodland Leaves Corner BR",
+"type": "0x6301",
+"src": "spiderDenGround",
+"category": "tile",
+"sub": "spiderDenGround",
+"why": "src",
+"file": "tiles/all/Woodland Leaves Corner BR__6301.png"
+},
+{
+"id": "Woodland Leaves Corner BL",
+"type": "0x6302",
+"src": "spiderDenGround",
+"category": "tile",
+"sub": "spiderDenGround",
+"why": "src",
+"file": "tiles/all/Woodland Leaves Corner BL__6302.png"
+},
+{
+"id": "Woodland Leaves Inner TR",
+"type": "0x6303",
+"src": "spiderDenGround",
+"category": "tile",
+"sub": "spiderDenGround",
+"why": "src",
+"file": "tiles/all/Woodland Leaves Inner TR__6303.png"
+},
+{
+"id": "Woodland Leaves Inner TL",
+"type": "0x6304",
+"src": "spiderDenGround",
+"category": "tile",
+"sub": "spiderDenGround",
+"why": "src",
+"file": "tiles/all/Woodland Leaves Inner TL__6304.png"
+},
+{
+"id": "Woodland Leaves Inner BR",
+"type": "0x6305",
+"src": "spiderDenGround",
+"category": "tile",
+"sub": "spiderDenGround",
+"why": "src",
+"file": "tiles/all/Woodland Leaves Inner BR__6305.png"
+},
+{
+"id": "Woodland Leaves Inner BL",
+"type": "0x6306",
+"src": "spiderDenGround",
+"category": "tile",
+"sub": "spiderDenGround",
+"why": "src",
+"file": "tiles/all/Woodland Leaves Inner BL__6306.png"
+},
+{
+"id": "Woodland Medium Leaves Edge Rt",
+"type": "0x630c",
+"src": "spiderDenGround",
+"category": "tile",
+"sub": "spiderDenGround",
+"why": "src",
+"file": "tiles/all/Woodland Medium Leaves Edge Rt__630c.png"
+},
+{
+"id": "Woodland Medium Leaves Edge Lf",
+"type": "0x630d",
+"src": "spiderDenGround",
+"category": "tile",
+"sub": "spiderDenGround",
+"why": "src",
+"file": "tiles/all/Woodland Medium Leaves Edge Lf__630d.png"
+},
+{
+"id": "Woodland Medium Leaves Edge Bot",
+"type": "0x630e",
+"src": "spiderDenGround",
+"category": "tile",
+"sub": "spiderDenGround",
+"why": "src",
+"file": "tiles/all/Woodland Medium Leaves Edge Bot__630e.png"
+},
+{
+"id": "Woodland Medium Leaves Edge Top",
+"type": "0x630f",
+"src": "spiderDenGround",
+"category": "tile",
+"sub": "spiderDenGround",
+"why": "src",
+"file": "tiles/all/Woodland Medium Leaves Edge Top__630f.png"
+},
+{
+"id": "Woodland Medium Leaves Corner TR",
+"type": "0x6310",
+"src": "spiderDenGround",
+"category": "tile",
+"sub": "spiderDenGround",
+"why": "src",
+"file": "tiles/all/Woodland Medium Leaves Corner TR__6310.png"
+},
+{
+"id": "Woodland Medium Leaves Corner TL",
+"type": "0x6311",
+"src": "spiderDenGround",
+"category": "tile",
+"sub": "spiderDenGround",
+"why": "src",
+"file": "tiles/all/Woodland Medium Leaves Corner TL__6311.png"
+},
+{
+"id": "Woodland Medium Leaves Corner BR",
+"type": "0x6312",
+"src": "spiderDenGround",
+"category": "tile",
+"sub": "spiderDenGround",
+"why": "src",
+"file": "tiles/all/Woodland Medium Leaves Corner BR__6312.png"
+},
+{
+"id": "Woodland Medium Leaves Corner BL",
+"type": "0x6313",
+"src": "spiderDenGround",
+"category": "tile",
+"sub": "spiderDenGround",
+"why": "src",
+"file": "tiles/all/Woodland Medium Leaves Corner BL__6313.png"
+},
+{
+"id": "Woodland Medium Leaves Inner TR",
+"type": "0x6314",
+"src": "spiderDenGround",
+"category": "tile",
+"sub": "spiderDenGround",
+"why": "src",
+"file": "tiles/all/Woodland Medium Leaves Inner TR__6314.png"
+},
+{
+"id": "Woodland Medium Leaves Inner TL",
+"type": "0x6315",
+"src": "spiderDenGround",
+"category": "tile",
+"sub": "spiderDenGround",
+"why": "src",
+"file": "tiles/all/Woodland Medium Leaves Inner TL__6315.png"
+},
+{
+"id": "Woodland Medium Leaves Inner BR",
+"type": "0x6316",
+"src": "spiderDenGround",
+"category": "tile",
+"sub": "spiderDenGround",
+"why": "src",
+"file": "tiles/all/Woodland Medium Leaves Inner BR__6316.png"
+},
+{
+"id": "Woodland Medium Leaves Inner BL",
+"type": "0x6317",
+"src": "spiderDenGround",
+"category": "tile",
+"sub": "spiderDenGround",
+"why": "src",
+"file": "tiles/all/Woodland Medium Leaves Inner BL__6317.png"
+},
+{
+"id": "Woodland Bright Leaves Edge Rt",
+"type": "0x6318",
+"src": "spiderDenGround",
+"category": "tile",
+"sub": "spiderDenGround",
+"why": "src",
+"file": "tiles/all/Woodland Bright Leaves Edge Rt__6318.png"
+},
+{
+"id": "Woodland Bright Leaves Edge Lf",
+"type": "0x6319",
+"src": "spiderDenGround",
+"category": "tile",
+"sub": "spiderDenGround",
+"why": "src",
+"file": "tiles/all/Woodland Bright Leaves Edge Lf__6319.png"
+},
+{
+"id": "Woodland Bright Leaves Edge Bot",
+"type": "0x631a",
+"src": "spiderDenGround",
+"category": "tile",
+"sub": "spiderDenGround",
+"why": "src",
+"file": "tiles/all/Woodland Bright Leaves Edge Bot__631a.png"
+},
+{
+"id": "Woodland Bright Leaves Edge Top",
+"type": "0x631b",
+"src": "spiderDenGround",
+"category": "tile",
+"sub": "spiderDenGround",
+"why": "src",
+"file": "tiles/all/Woodland Bright Leaves Edge Top__631b.png"
+},
+{
+"id": "Woodland Bright Leaves Corner TR",
+"type": "0x631c",
+"src": "spiderDenGround",
+"category": "tile",
+"sub": "spiderDenGround",
+"why": "src",
+"file": "tiles/all/Woodland Bright Leaves Corner TR__631c.png"
+},
+{
+"id": "Woodland Bright Leaves Corner TL",
+"type": "0x631d",
+"src": "spiderDenGround",
+"category": "tile",
+"sub": "spiderDenGround",
+"why": "src",
+"file": "tiles/all/Woodland Bright Leaves Corner TL__631d.png"
+},
+{
+"id": "Woodland Bright Leaves Corner BR",
+"type": "0x631e",
+"src": "spiderDenGround",
+"category": "tile",
+"sub": "spiderDenGround",
+"why": "src",
+"file": "tiles/all/Woodland Bright Leaves Corner BR__631e.png"
+},
+{
+"id": "Woodland Bright Leaves Corner BL",
+"type": "0x631f",
+"src": "spiderDenGround",
+"category": "tile",
+"sub": "spiderDenGround",
+"why": "src",
+"file": "tiles/all/Woodland Bright Leaves Corner BL__631f.png"
+},
+{
+"id": "Woodland Bright Leaves Inner TR",
+"type": "0x6320",
+"src": "spiderDenGround",
+"category": "tile",
+"sub": "spiderDenGround",
+"why": "src",
+"file": "tiles/all/Woodland Bright Leaves Inner TR__6320.png"
+},
+{
+"id": "Woodland Bright Leaves Inner TL",
+"type": "0x6321",
+"src": "spiderDenGround",
+"category": "tile",
+"sub": "spiderDenGround",
+"why": "src",
+"file": "tiles/all/Woodland Bright Leaves Inner TL__6321.png"
+},
+{
+"id": "Woodland Bright Leaves Inner BR",
+"type": "0x6322",
+"src": "spiderDenGround",
+"category": "tile",
+"sub": "spiderDenGround",
+"why": "src",
+"file": "tiles/all/Woodland Bright Leaves Inner BR__6322.png"
+},
+{
+"id": "Woodland Bright Leaves Inner BL",
+"type": "0x6323",
+"src": "spiderDenGround",
+"category": "tile",
+"sub": "spiderDenGround",
+"why": "src",
+"file": "tiles/all/Woodland Bright Leaves Inner BL__6323.png"
+},
+{
+"id": "Woodland Water",
+"type": "0x6307",
+"src": "spiderDenGround",
+"category": "tile",
+"sub": "spiderDenGround",
+"why": "src",
+"file": "tiles/all/Woodland Water__6307.png"
+},
+{
+"id": "Puke Water",
+"type": "0x012b",
+"src": "spiderDenGround",
+"category": "tile",
+"sub": "spiderDenGround",
+"why": "src",
+"file": "tiles/all/Puke Water__012b.png"
+},
+{
+"id": "Spider Star",
+"type": "0x3742",
+"src": "spiderDenObjects",
+"category": "projectile",
+"sub": "all",
+"why": "src",
+"file": "projectiles/all/Spider Star__3742.png"
+},
+{
+"id": "Web Star",
+"type": "0x3743",
+"src": "spiderDenObjects",
+"category": "projectile",
+"sub": "all",
+"why": "src",
+"file": "projectiles/all/Web Star__3743.png"
+},
+{
+"id": "Venom Star",
+"type": "0x3744",
+"src": "spiderDenObjects",
+"category": "projectile",
+"sub": "all",
+"why": "src",
+"file": "projectiles/all/Venom Star__3744.png"
+},
+{
+"id": "Purple Spider Venom",
+"type": "0x3746",
+"src": "spiderDenObjects",
+"category": "projectile",
+"sub": "all",
+"why": "src",
+"file": "projectiles/all/Purple Spider Venom__3746.png"
+},
+{
+"id": "Red Spider Venom",
+"type": "0x3747",
+"src": "spiderDenObjects",
+"category": "projectile",
+"sub": "all",
+"why": "src",
+"file": "projectiles/all/Red Spider Venom__3747.png"
+},
+{
+"id": "Yellow Spider Venom",
+"type": "0x3748",
+"src": "spiderDenObjects",
+"category": "projectile",
+"sub": "all",
+"why": "src",
+"file": "projectiles/all/Yellow Spider Venom__3748.png"
+},
+{
+"id": "Green Spider Venom",
+"type": "0x3749",
+"src": "spiderDenObjects",
+"category": "projectile",
+"sub": "all",
+"why": "src",
+"file": "projectiles/all/Green Spider Venom__3749.png"
+},
+{
+"id": "Blue Spider Venom",
+"type": "0x374a",
+"src": "spiderDenObjects",
+"category": "projectile",
+"sub": "all",
+"why": "src",
+"file": "projectiles/all/Blue Spider Venom__374a.png"
+},
+{
+"id": "Arachna Venom",
+"type": "0x374b",
+"src": "spiderDenObjects",
+"category": "projectile",
+"sub": "all",
+"why": "src",
+"file": "projectiles/all/Arachna Venom__374b.png"
+},
+{
+"id": "Spider Shuriken",
+"type": "0x3745",
+"src": "spiderDenObjects",
+"category": "ability",
+"sub": "all",
+"why": "src",
+"file": "loot/ability/Spider Shuriken__3745.png"
+},
+{
+"id": "Arachna Summoner",
+"type": "0x1732",
+"src": "spiderDenObjects",
+"category": "prop",
+"sub": "spiderDenObjects",
+"why": "src",
+"file": "props/all/Arachna Summoner__1732.png"
+},
+{
+"id": "Arachna the Spider Queen",
+"type": "0x0936",
+"src": "spiderDenObjects",
+"category": "enemy",
+"sub": "boss",
+"why": "src",
+"file": "enemies/boss/Arachna the Spider Queen__0936.png"
+},
+{
+"id": "Arachna Web Spoke 1",
+"type": "0x0937",
+"src": "spiderDenObjects",
+"category": "helper",
+"sub": "other",
+"why": "src",
+"file": "helpers/other/Arachna Web Spoke 1__0937.png"
+},
+{
+"id": "Arachna Web Spoke 2",
+"type": "0x0938",
+"src": "spiderDenObjects",
+"category": "helper",
+"sub": "other",
+"why": "src",
+"file": "helpers/other/Arachna Web Spoke 2__0938.png"
+},
+{
+"id": "Arachna Web Spoke 3",
+"type": "0x0939",
+"src": "spiderDenObjects",
+"category": "helper",
+"sub": "other",
+"why": "src",
+"file": "helpers/other/Arachna Web Spoke 3__0939.png"
+},
+{
+"id": "Arachna Web Spoke 4",
+"type": "0x093a",
+"src": "spiderDenObjects",
+"category": "helper",
+"sub": "other",
+"why": "src",
+"file": "helpers/other/Arachna Web Spoke 4__093a.png"
+},
+{
+"id": "Arachna Web Spoke 5",
+"type": "0x093b",
+"src": "spiderDenObjects",
+"category": "helper",
+"sub": "other",
+"why": "src",
+"file": "helpers/other/Arachna Web Spoke 5__093b.png"
+},
+{
+"id": "Arachna Web Spoke 6",
+"type": "0x093c",
+"src": "spiderDenObjects",
+"category": "helper",
+"sub": "other",
+"why": "src",
+"file": "helpers/other/Arachna Web Spoke 6__093c.png"
+},
+{
+"id": "Arachna Web Spoke 7",
+"type": "0x093d",
+"src": "spiderDenObjects",
+"category": "helper",
+"sub": "other",
+"why": "src",
+"file": "helpers/other/Arachna Web Spoke 7__093d.png"
+},
+{
+"id": "Arachna Web Spoke 8",
+"type": "0x093e",
+"src": "spiderDenObjects",
+"category": "helper",
+"sub": "other",
+"why": "src",
+"file": "helpers/other/Arachna Web Spoke 8__093e.png"
+},
+{
+"id": "Arachna Web Spoke 9",
+"type": "0x093f",
+"src": "spiderDenObjects",
+"category": "helper",
+"sub": "other",
+"why": "src",
+"file": "helpers/other/Arachna Web Spoke 9__093f.png"
+},
+{
+"id": "Spider Egg Sac",
+"type": "0x21b",
+"src": "spiderDenObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Spider Egg Sac__21b.png"
+},
+{
+"id": "Green Den Spider Hatchling",
+"type": "0x021c",
+"src": "spiderDenObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Green Den Spider Hatchling__021c.png"
+},
+{
+"id": "Black Den Spider",
+"type": "0x021d",
+"src": "spiderDenObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Black Den Spider__021d.png"
+},
+{
+"id": "Red Spotted Den Spider",
+"type": "0x021e",
+"src": "spiderDenObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Red Spotted Den Spider__021e.png"
+},
+{
+"id": "Black Spotted Den Spider",
+"type": "0x021f",
+"src": "spiderDenObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Black Spotted Den Spider__021f.png"
+},
+{
+"id": "Brown Den Spider",
+"type": "0x0220",
+"src": "spiderDenObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Brown Den Spider__0220.png"
+},
+{
+"id": "Spider Webbed Chest",
+"type": "0x374c",
+"src": "spiderDenObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Spider Webbed Chest__374c.png"
+},
+{
+"id": "Spider Remnants",
+"type": "0x3738",
+"src": "spiderDenObjects",
+"category": "prop",
+"sub": "spiderDenObjects",
+"why": "src",
+"file": "props/all/Spider Remnants__3738.png"
+},
+{
+"id": "Spider Foliage",
+"type": "0x3739",
+"src": "spiderDenObjects",
+"category": "prop",
+"sub": "spiderDenObjects",
+"why": "src",
+"file": "props/all/Spider Foliage__3739.png"
+},
+{
+"id": "Spider Ground Web",
+"type": "0x373a",
+"src": "spiderDenObjects",
+"category": "prop",
+"sub": "spiderDenObjects",
+"why": "src",
+"file": "props/all/Spider Ground Web__373a.png"
+},
+{
+"id": "Spider Scissors",
+"type": "0x3759",
+"src": "spiderDenObjects",
+"category": "prop",
+"sub": "spiderDenObjects",
+"why": "src",
+"file": "props/all/Spider Scissors__3759.png"
+},
+{
+"id": "Spider Ground Blood",
+"type": "0x373b",
+"src": "spiderDenObjects",
+"category": "prop",
+"sub": "spiderDenObjects",
+"why": "src",
+"file": "props/all/Spider Ground Blood__373b.png"
+},
+{
+"id": "Spider Broken Sac Green",
+"type": "0x373c",
+"src": "spiderDenObjects",
+"category": "prop",
+"sub": "spiderDenObjects",
+"why": "src",
+"file": "props/all/Spider Broken Sac Green__373c.png"
+},
+{
+"id": "Spider Broken Sac Black",
+"type": "0x373d",
+"src": "spiderDenObjects",
+"category": "prop",
+"sub": "spiderDenObjects",
+"why": "src",
+"file": "props/all/Spider Broken Sac Black__373d.png"
+},
+{
+"id": "Spider Broken Sac Spotted",
+"type": "0x373e",
+"src": "spiderDenObjects",
+"category": "prop",
+"sub": "spiderDenObjects",
+"why": "src",
+"file": "props/all/Spider Broken Sac Spotted__373e.png"
+},
+{
+"id": "Spider Broken Sac Brown",
+"type": "0x373f",
+"src": "spiderDenObjects",
+"category": "prop",
+"sub": "spiderDenObjects",
+"why": "src",
+"file": "props/all/Spider Broken Sac Brown__373f.png"
+},
+{
+"id": "Spider Broken Sac Red",
+"type": "0x3740",
+"src": "spiderDenObjects",
+"category": "prop",
+"sub": "spiderDenObjects",
+"why": "src",
+"file": "props/all/Spider Broken Sac Red__3740.png"
+},
+{
+"id": "Spider Wall",
+"type": "0x3735",
+"src": "spiderDenObjects",
+"category": "wall",
+"sub": "spiderDenObjects",
+"why": "src",
+"file": "walls/all/Spider Wall__3735.png"
+},
+{
+"id": "Spider Wall Decor",
+"type": "0x3736",
+"src": "spiderDenObjects",
+"category": "wall",
+"sub": "spiderDenObjects",
+"why": "src",
+"file": "walls/all/Spider Wall Decor__3736.png"
+},
+{
+"id": "Spider Wall Eyes",
+"type": "0x3737",
+"src": "spiderDenObjects",
+"category": "wall",
+"sub": "spiderDenObjects",
+"why": "src",
+"file": "walls/all/Spider Wall Eyes__3737.png"
+},
+{
+"id": "Spider Static Invisible Object",
+"type": "0x3741",
+"src": "spiderDenObjects",
+"category": "prop",
+"sub": "spiderDenObjects",
+"why": "src",
+"file": "props/all/Spider Static Invisible Object__3741.png"
+},
+{
+"id": "Epic Arachna Web Spoke 1",
+"type": "0x702b",
+"src": "epicspiderDen",
+"category": "helper",
+"sub": "other",
+"why": "spec",
+"file": "helpers/other/Epic Arachna Web Spoke 1__702b.png"
+},
+{
+"id": "Epic Arachna Web Spoke 2",
+"type": "0x702c",
+"src": "epicspiderDen",
+"category": "helper",
+"sub": "other",
+"why": "spec",
+"file": "helpers/other/Epic Arachna Web Spoke 2__702c.png"
+},
+{
+"id": "Epic Arachna Web Spoke 3",
+"type": "0x702d",
+"src": "epicspiderDen",
+"category": "helper",
+"sub": "other",
+"why": "spec",
+"file": "helpers/other/Epic Arachna Web Spoke 3__702d.png"
+},
+{
+"id": "Epic Arachna Web Spoke 4",
+"type": "0x702e",
+"src": "epicspiderDen",
+"category": "helper",
+"sub": "other",
+"why": "spec",
+"file": "helpers/other/Epic Arachna Web Spoke 4__702e.png"
+},
+{
+"id": "Epic Arachna Web Spoke 5",
+"type": "0x702f",
+"src": "epicspiderDen",
+"category": "helper",
+"sub": "other",
+"why": "spec",
+"file": "helpers/other/Epic Arachna Web Spoke 5__702f.png"
+},
+{
+"id": "Epic Arachna Web Spoke 6",
+"type": "0x703a",
+"src": "epicspiderDen",
+"category": "helper",
+"sub": "other",
+"why": "spec",
+"file": "helpers/other/Epic Arachna Web Spoke 6__703a.png"
+},
+{
+"id": "Epic Arachna Web Spoke 7",
+"type": "0x703b",
+"src": "epicspiderDen",
+"category": "helper",
+"sub": "other",
+"why": "spec",
+"file": "helpers/other/Epic Arachna Web Spoke 7__703b.png"
+},
+{
+"id": "Epic Arachna Web Spoke 8",
+"type": "0x703c",
+"src": "epicspiderDen",
+"category": "helper",
+"sub": "other",
+"why": "spec",
+"file": "helpers/other/Epic Arachna Web Spoke 8__703c.png"
+},
+{
+"id": "Epic Arachna Web Spoke 9",
+"type": "0x703d",
+"src": "epicspiderDen",
+"category": "helper",
+"sub": "other",
+"why": "spec",
+"file": "helpers/other/Epic Arachna Web Spoke 9__703d.png"
+},
+{
+"id": "Web Thread",
+"type": "0x0041",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Web Thread__0041.png"
+},
+{
+"id": "Web Thread 2",
+"type": "0x0050",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Web Thread 2__0050.png"
+},
+{
+"id": "Poison Fang Dagger",
+"type": "0x709",
+"src": "equip",
+"category": "weapon",
+"sub": "dagger",
+"why": "loot",
+"file": "loot/weapon_dagger/Poison Fang Dagger__709.png"
+},
+{
+"id": "Spider's Eye Ring",
+"type": "0x708",
+"src": "equip",
+"category": "ring",
+"sub": "all",
+"why": "loot",
+"file": "loot/ring/Spider_s Eye Ring__708.png"
+}
+]
+}

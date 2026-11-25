@@ -1,0 +1,434 @@
+{
+"dungeon": "Candyland_Hunting_Grounds",
+"sources": [
+"candyLand"
+],
+"counts": {
+"enemies": 18,
+"props": 3,
+"npcs": 1,
+"projectiles": 16,
+"loot": 4,
+"tiles": 1
+},
+"why": {
+"src": 22,
+"proj": 16,
+"loot": 4,
+"tile": 1
+},
+"tile_hints_used": {
+"candy water": 1
+},
+"names_in_own_files": [
+"Wishing Troll",
+"Big Creampuff",
+"Rototo",
+"Unicorn",
+"Beefy Fairy",
+"Small Creampuff",
+"Tiny Rototo",
+"Fairy",
+"Gumball Machine",
+"Spilled Icecream",
+"Hard Candy",
+"Gigacorn",
+"Desire Troll",
+"Spoiled Creampuff",
+"MegaRototo",
+"Swoll Fairy",
+"Cupcake",
+"Candy Gnome"
+],
+"names_in_other_files": [],
+"names_not_found": [],
+"entries": [
+{
+"id": "Candy Gnome",
+"type": "0x5e49",
+"src": "candyLand",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Candy Gnome__5e49.png"
+},
+{
+"id": "MegaRototo",
+"type": "0x5e48",
+"src": "candyLand",
+"category": "enemy",
+"sub": "miniboss",
+"why": "src",
+"file": "enemies/miniboss/MegaRototo__5e48.png"
+},
+{
+"id": "Spoiled Creampuff",
+"type": "0x5e47",
+"src": "candyLand",
+"category": "enemy",
+"sub": "event_boss",
+"why": "src",
+"file": "enemies/event_boss/Spoiled Creampuff__5e47.png"
+},
+{
+"id": "Desire Troll",
+"type": "0x5e46",
+"src": "candyLand",
+"category": "enemy",
+"sub": "event_boss",
+"why": "src",
+"file": "enemies/event_boss/Desire Troll__5e46.png"
+},
+{
+"id": "Swoll Fairy",
+"type": "0x5e45",
+"src": "candyLand",
+"category": "enemy",
+"sub": "event_boss",
+"why": "src",
+"file": "enemies/event_boss/Swoll Fairy__5e45.png"
+},
+{
+"id": "Gigacorn",
+"type": "0x5e44",
+"src": "candyLand",
+"category": "enemy",
+"sub": "event_boss",
+"why": "src",
+"file": "enemies/event_boss/Gigacorn__5e44.png"
+},
+{
+"id": "Candyland Boss Spawner",
+"type": "0x5e43",
+"src": "candyLand",
+"category": "prop",
+"sub": "candyLand",
+"why": "src",
+"file": "props/all/Candyland Boss Spawner__5e43.png"
+},
+{
+"id": "Gumball Machine",
+"type": "0x5e42",
+"src": "candyLand",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Gumball Machine__5e42.png"
+},
+{
+"id": "Candyland Ender",
+"type": "0x23d0",
+"src": "candyLand",
+"category": "prop",
+"sub": "candyLand",
+"why": "src",
+"file": "props/all/Candyland Ender__23d0.png"
+},
+{
+"id": "Cupcake",
+"type": "0x5e41",
+"src": "candyLand",
+"category": "enemy",
+"sub": "boss",
+"why": "src",
+"file": "enemies/boss/Cupcake__5e41.png"
+},
+{
+"id": "Unicorn",
+"type": "0x5e40",
+"src": "candyLand",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Unicorn__5e40.png"
+},
+{
+"id": "Hard Candy",
+"type": "0x5e3e",
+"src": "candyLand",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Hard Candy__5e3e.png"
+},
+{
+"id": "Beefy Fairy",
+"type": "0x5e39",
+"src": "candyLand",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Beefy Fairy__5e39.png"
+},
+{
+"id": "Fairy",
+"type": "0x5e38",
+"src": "candyLand",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Fairy__5e38.png"
+},
+{
+"id": "Wishing Troll",
+"type": "0x5e37",
+"src": "candyLand",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Wishing Troll__5e37.png"
+},
+{
+"id": "Spilled Icecream",
+"type": "0x5e36",
+"src": "candyLand",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Spilled Icecream__5e36.png"
+},
+{
+"id": "Big Creampuff",
+"type": "0x5e35",
+"src": "candyLand",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Big Creampuff__5e35.png"
+},
+{
+"id": "Small Creampuff",
+"type": "0x5e34",
+"src": "candyLand",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Small Creampuff__5e34.png"
+},
+{
+"id": "Tiny Rototo",
+"type": "0x5e33",
+"src": "candyLand",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Tiny Rototo__5e33.png"
+},
+{
+"id": "Rototo",
+"type": "0x5e32",
+"src": "candyLand",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Rototo__5e32.png"
+},
+{
+"id": "Candyland Spawner",
+"type": "0x5e31",
+"src": "candyLand",
+"category": "prop",
+"sub": "candyLand",
+"why": "src",
+"file": "props/all/Candyland Spawner__5e31.png"
+},
+{
+"id": "Butterfly",
+"type": "0x5e2f",
+"src": "candyLand",
+"category": "npc",
+"sub": "all",
+"why": "src",
+"file": "npcs/all/Butterfly__5e2f.png"
+},
+{
+"id": "Purple Rototo Blast",
+"type": "0x2121",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Purple Rototo Blast__2121.png"
+},
+{
+"id": "Red Rototo Blast",
+"type": "0x2122",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Red Rototo Blast__2122.png"
+},
+{
+"id": "Flame Breath",
+"type": "0x212b",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Flame Breath__212b.png"
+},
+{
+"id": "Cream Shot",
+"type": "0x211e",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Cream Shot__211e.png"
+},
+{
+"id": "Cream Bullet",
+"type": "0x211f",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Cream Bullet__211f.png"
+},
+{
+"id": "Troll Hair Whip",
+"type": "0x2126",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Troll Hair Whip__2126.png"
+},
+{
+"id": "Pink Star",
+"type": "0x2129",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Pink Star__2129.png"
+},
+{
+"id": "Pink Slash",
+"type": "0x212a",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Pink Slash__212a.png"
+},
+{
+"id": "Magic Sparkle",
+"type": "0x2124",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Magic Sparkle__2124.png"
+},
+{
+"id": "Unicorn Horn",
+"type": "0x211d",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Unicorn Horn__211d.png"
+},
+{
+"id": "Rainbow Brick",
+"type": "0x2127",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Rainbow Brick__2127.png"
+},
+{
+"id": "happy magic",
+"type": "0x218e",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/happy magic__218e.png"
+},
+{
+"id": "Hard Candy Stake",
+"type": "0x2123",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Hard Candy Stake__2123.png"
+},
+{
+"id": "Magic Star",
+"type": "0x2125",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Magic Star__2125.png"
+},
+{
+"id": "Icecream Bullet",
+"type": "0x2128",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Icecream Bullet__2128.png"
+},
+{
+"id": "Cream Ball",
+"type": "0x2120",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Cream Ball__2120.png"
+},
+{
+"id": "Wine Cellar Incantation",
+"type": "0x722",
+"src": "equip",
+"category": "consumable",
+"sub": "all",
+"why": "loot",
+"file": "loot/consumable/Wine Cellar Incantation__722.png"
+},
+{
+"id": "Candy Ring",
+"type": "0xc5f",
+"src": "equip",
+"category": "ring",
+"sub": "all",
+"why": "loot",
+"file": "loot/ring/Candy Ring__c5f.png"
+},
+{
+"id": "Rock Candy",
+"type": "0xc60",
+"src": "equip",
+"category": "consumable",
+"sub": "all",
+"why": "loot",
+"file": "loot/consumable/Rock Candy__c60.png"
+},
+{
+"id": "Candy-Coated Armor",
+"type": "0xc61",
+"src": "equip",
+"category": "armor",
+"sub": "heavy",
+"why": "loot",
+"file": "loot/armor/Candy-Coated Armor__c61.png"
+},
+{
+"id": "Candy Water",
+"type": "0x98",
+"src": "ground",
+"category": "tile",
+"sub": "ground",
+"why": "tile",
+"file": "tiles/all/Candy Water__98.png"
+}
+]
+}

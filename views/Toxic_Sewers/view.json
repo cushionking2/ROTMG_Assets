@@ -1,0 +1,1181 @@
+{
+"dungeon": "Toxic_Sewers",
+"sources": [
+"toxicSewersObjects",
+"toxicSewersGround"
+],
+"counts": {
+"tiles": 17,
+"projectiles": 24,
+"enemies": 32,
+"helpers": 2,
+"props": 32,
+"npcs": 2,
+"walls": 8,
+"loot": 5
+},
+"why": {
+"src": 92,
+"spec": 8,
+"proj": 17,
+"loot": 5
+},
+"tile_hints_used": {},
+"names_in_own_files": [
+"Goblin Brute",
+"Goblin Knight",
+"Goblin Peon",
+"Goblin Sorcerer",
+"Goblin Warlock",
+"Natural Slime God",
+"Sewer Alligator",
+"Sewer Bat",
+"Sewer Brown Slime",
+"Sewer Yellow Slime",
+"Sewer Rat",
+"Sewer Dummy (~DS Sewer Dummy)",
+"Golden Rat",
+"Master Rat",
+"Sludge"
+],
+"names_in_other_files": [
+[
+"Gulpord the Slime God",
+[
+"battleOryxObjects",
+"toxicSewersObjects"
+]
+],
+[
+"Noxious Sprite",
+[
+"adept"
+]
+],
+[
+"Smelly Octopus",
+[
+"adept"
+]
+],
+[
+"Brimstone Wyvern",
+[
+"adept"
+]
+],
+[
+"Slime God",
+[
+"mountains"
+]
+],
+[
+"Eternal Tormentor",
+[
+"heroes_2"
+]
+]
+],
+"names_not_found": [],
+"entries": [
+{
+"id": "DS Floor Tile",
+"type": "0x259a",
+"src": "toxicSewersGround",
+"category": "tile",
+"sub": "toxicSewersGround",
+"why": "src",
+"file": "tiles/all/DS Floor Tile__259a.png"
+},
+{
+"id": "DS Floor Tile M",
+"type": "0x25a2",
+"src": "toxicSewersGround",
+"category": "tile",
+"sub": "toxicSewersGround",
+"why": "src",
+"file": "tiles/all/DS Floor Tile M__25a2.png"
+},
+{
+"id": "DS Floor Tile TL",
+"type": "0x25a3",
+"src": "toxicSewersGround",
+"category": "tile",
+"sub": "toxicSewersGround",
+"why": "src",
+"file": "tiles/all/DS Floor Tile TL__25a3.png"
+},
+{
+"id": "DS Floor Tile T",
+"type": "0x25a4",
+"src": "toxicSewersGround",
+"category": "tile",
+"sub": "toxicSewersGround",
+"why": "src",
+"file": "tiles/all/DS Floor Tile T__25a4.png"
+},
+{
+"id": "DS Floor Tile TR",
+"type": "0x25a5",
+"src": "toxicSewersGround",
+"category": "tile",
+"sub": "toxicSewersGround",
+"why": "src",
+"file": "tiles/all/DS Floor Tile TR__25a5.png"
+},
+{
+"id": "DS Floor Tile L",
+"type": "0x25a6",
+"src": "toxicSewersGround",
+"category": "tile",
+"sub": "toxicSewersGround",
+"why": "src",
+"file": "tiles/all/DS Floor Tile L__25a6.png"
+},
+{
+"id": "DS Floor Tile R",
+"type": "0x25a7",
+"src": "toxicSewersGround",
+"category": "tile",
+"sub": "toxicSewersGround",
+"why": "src",
+"file": "tiles/all/DS Floor Tile R__25a7.png"
+},
+{
+"id": "DS Floor Tile BL",
+"type": "0x25a8",
+"src": "toxicSewersGround",
+"category": "tile",
+"sub": "toxicSewersGround",
+"why": "src",
+"file": "tiles/all/DS Floor Tile BL__25a8.png"
+},
+{
+"id": "DS Floor Tile B",
+"type": "0x25a9",
+"src": "toxicSewersGround",
+"category": "tile",
+"sub": "toxicSewersGround",
+"why": "src",
+"file": "tiles/all/DS Floor Tile B__25a9.png"
+},
+{
+"id": "DS Floor Tile BR",
+"type": "0x25aa",
+"src": "toxicSewersGround",
+"category": "tile",
+"sub": "toxicSewersGround",
+"why": "src",
+"file": "tiles/all/DS Floor Tile BR__25aa.png"
+},
+{
+"id": "DS Sludge Tile",
+"type": "0x259b",
+"src": "toxicSewersGround",
+"category": "tile",
+"sub": "toxicSewersGround",
+"why": "src",
+"file": "tiles/all/DS Sludge Tile__259b.png"
+},
+{
+"id": "DS Sludge Tile N",
+"type": "0x259c",
+"src": "toxicSewersGround",
+"category": "tile",
+"sub": "toxicSewersGround",
+"why": "src",
+"file": "tiles/all/DS Sludge Tile N__259c.png"
+},
+{
+"id": "DS Sludge Tile S",
+"type": "0x25a1",
+"src": "toxicSewersGround",
+"category": "tile",
+"sub": "toxicSewersGround",
+"why": "src",
+"file": "tiles/all/DS Sludge Tile S__25a1.png"
+},
+{
+"id": "DS Sludge Tile E",
+"type": "0x259d",
+"src": "toxicSewersGround",
+"category": "tile",
+"sub": "toxicSewersGround",
+"why": "src",
+"file": "tiles/all/DS Sludge Tile E__259d.png"
+},
+{
+"id": "DS Sludge Tile W",
+"type": "0x259e",
+"src": "toxicSewersGround",
+"category": "tile",
+"sub": "toxicSewersGround",
+"why": "src",
+"file": "tiles/all/DS Sludge Tile W__259e.png"
+},
+{
+"id": "DS Sludge Tile M",
+"type": "0x25ab",
+"src": "toxicSewersGround",
+"category": "tile",
+"sub": "toxicSewersGround",
+"why": "src",
+"file": "tiles/all/DS Sludge Tile M__25ab.png"
+},
+{
+"id": "DS Sludge Tile Clean",
+"type": "0x25ac",
+"src": "toxicSewersGround",
+"category": "tile",
+"sub": "toxicSewersGround",
+"why": "src",
+"file": "tiles/all/DS Sludge Tile Clean__25ac.png"
+},
+{
+"id": "DS Brown Slimeball",
+"type": "0xb547",
+"src": "toxicSewersObjects",
+"category": "projectile",
+"sub": "all",
+"why": "src",
+"file": "projectiles/all/DS Brown Slimeball__b547.png"
+},
+{
+"id": "DS Yellow Slimeball",
+"type": "0xb548",
+"src": "toxicSewersObjects",
+"category": "projectile",
+"sub": "all",
+"why": "src",
+"file": "projectiles/all/DS Yellow Slimeball__b548.png"
+},
+{
+"id": "DS Green Slimeball",
+"type": "0xb549",
+"src": "toxicSewersObjects",
+"category": "projectile",
+"sub": "all",
+"why": "src",
+"file": "projectiles/all/DS Green Slimeball__b549.png"
+},
+{
+"id": "DS Green Magic",
+"type": "0xb54a",
+"src": "toxicSewersObjects",
+"category": "projectile",
+"sub": "all",
+"why": "src",
+"file": "projectiles/all/DS Green Magic__b54a.png"
+},
+{
+"id": "DS Blue Magic",
+"type": "0xb54b",
+"src": "toxicSewersObjects",
+"category": "projectile",
+"sub": "all",
+"why": "src",
+"file": "projectiles/all/DS Blue Magic__b54b.png"
+},
+{
+"id": "DS Void Slash",
+"type": "0xb54c",
+"src": "toxicSewersObjects",
+"category": "projectile",
+"sub": "all",
+"why": "src",
+"file": "projectiles/all/DS Void Slash__b54c.png"
+},
+{
+"id": "DS White Shuriken",
+"type": "0xb54d",
+"src": "toxicSewersObjects",
+"category": "projectile",
+"sub": "all",
+"why": "src",
+"file": "projectiles/all/DS White Shuriken__b54d.png"
+},
+{
+"id": "DS Bat",
+"type": "0x714c",
+"src": "toxicSewersObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/DS Bat__714c.png"
+},
+{
+"id": "DS Rat",
+"type": "0x714d",
+"src": "toxicSewersObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/DS Rat__714d.png"
+},
+{
+"id": "DS Natural Slime God",
+"type": "0x714e",
+"src": "toxicSewersObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/DS Natural Slime God__714e.png"
+},
+{
+"id": "DS Goblin Peon",
+"type": "0x714f",
+"src": "toxicSewersObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/DS Goblin Peon__714f.png"
+},
+{
+"id": "DS Goblin Warlock",
+"type": "0x7150",
+"src": "toxicSewersObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/DS Goblin Warlock__7150.png"
+},
+{
+"id": "DS Goblin Sorcerer",
+"type": "0x7163",
+"src": "toxicSewersObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/DS Goblin Sorcerer__7163.png"
+},
+{
+"id": "DS Goblin Brute",
+"type": "0x7151",
+"src": "toxicSewersObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/DS Goblin Brute__7151.png"
+},
+{
+"id": "DS Goblin Knight",
+"type": "0x7152",
+"src": "toxicSewersObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/DS Goblin Knight__7152.png"
+},
+{
+"id": "DS Alligator",
+"type": "0x7168",
+"src": "toxicSewersObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/DS Alligator__7168.png"
+},
+{
+"id": "DS Brown Slime",
+"type": "0x7153",
+"src": "toxicSewersObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/DS Brown Slime__7153.png"
+},
+{
+"id": "DS Brown Slime Trail",
+"type": "0x7167",
+"src": "toxicSewersObjects",
+"category": "helper",
+"sub": "other",
+"why": "src",
+"file": "helpers/other/DS Brown Slime Trail__7167.png"
+},
+{
+"id": "DS Yellow Slime",
+"type": "0x7154",
+"src": "toxicSewersObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/DS Yellow Slime__7154.png"
+},
+{
+"id": "DS Yellow Slime Trail",
+"type": "0x7166",
+"src": "toxicSewersObjects",
+"category": "helper",
+"sub": "other",
+"why": "src",
+"file": "helpers/other/DS Yellow Slime Trail__7166.png"
+},
+{
+"id": "DS Gulpord the Slime God",
+"type": "0x7155",
+"src": "toxicSewersObjects",
+"category": "enemy",
+"sub": "boss",
+"why": "src",
+"file": "enemies/boss/DS Gulpord the Slime God__7155.png"
+},
+{
+"id": "DS Gulpord M1",
+"type": "0x17f",
+"src": "toxicSewersObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/DS Gulpord M1__17f.png"
+},
+{
+"id": "DS Gulpord M2",
+"type": "0xb550",
+"src": "toxicSewersObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/DS Gulpord M2__b550.png"
+},
+{
+"id": "DS Gulpord S1",
+"type": "0x7165",
+"src": "toxicSewersObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/DS Gulpord S1__7165.png"
+},
+{
+"id": "DS Gulpord S2",
+"type": "0xb551",
+"src": "toxicSewersObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/DS Gulpord S2__b551.png"
+},
+{
+"id": "DS Gulpord S3",
+"type": "0xb552",
+"src": "toxicSewersObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/DS Gulpord S3__b552.png"
+},
+{
+"id": "DS Gulpord S4",
+"type": "0xb553",
+"src": "toxicSewersObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/DS Gulpord S4__b553.png"
+},
+{
+"id": "DS Gulpord Anchor LT",
+"type": "0xb554",
+"src": "toxicSewersObjects",
+"category": "prop",
+"sub": "toxicSewersObjects",
+"why": "src",
+"file": "props/all/DS Gulpord Anchor LT__b554.png"
+},
+{
+"id": "DS Gulpord Anchor T",
+"type": "0xb555",
+"src": "toxicSewersObjects",
+"category": "prop",
+"sub": "toxicSewersObjects",
+"why": "src",
+"file": "props/all/DS Gulpord Anchor T__b555.png"
+},
+{
+"id": "DS Gulpord Anchor RT",
+"type": "0xb556",
+"src": "toxicSewersObjects",
+"category": "prop",
+"sub": "toxicSewersObjects",
+"why": "src",
+"file": "props/all/DS Gulpord Anchor RT__b556.png"
+},
+{
+"id": "DS Gulpord Anchor R",
+"type": "0xb557",
+"src": "toxicSewersObjects",
+"category": "prop",
+"sub": "toxicSewersObjects",
+"why": "src",
+"file": "props/all/DS Gulpord Anchor R__b557.png"
+},
+{
+"id": "DS Gulpord Anchor RB",
+"type": "0xb558",
+"src": "toxicSewersObjects",
+"category": "prop",
+"sub": "toxicSewersObjects",
+"why": "src",
+"file": "props/all/DS Gulpord Anchor RB__b558.png"
+},
+{
+"id": "DS Gulpord Anchor B",
+"type": "0xb559",
+"src": "toxicSewersObjects",
+"category": "prop",
+"sub": "toxicSewersObjects",
+"why": "src",
+"file": "props/all/DS Gulpord Anchor B__b559.png"
+},
+{
+"id": "DS Gulpord Anchor LB",
+"type": "0xb55a",
+"src": "toxicSewersObjects",
+"category": "prop",
+"sub": "toxicSewersObjects",
+"why": "src",
+"file": "props/all/DS Gulpord Anchor LB__b55a.png"
+},
+{
+"id": "DS Gulpord Anchor L",
+"type": "0xb55b",
+"src": "toxicSewersObjects",
+"category": "prop",
+"sub": "toxicSewersObjects",
+"why": "src",
+"file": "props/all/DS Gulpord Anchor L__b55b.png"
+},
+{
+"id": "DS Gulpord Anchor TL",
+"type": "0xb55c",
+"src": "toxicSewersObjects",
+"category": "prop",
+"sub": "toxicSewersObjects",
+"why": "src",
+"file": "props/all/DS Gulpord Anchor TL__b55c.png"
+},
+{
+"id": "DS Gulpord Anchor TR",
+"type": "0xb55d",
+"src": "toxicSewersObjects",
+"category": "prop",
+"sub": "toxicSewersObjects",
+"why": "src",
+"file": "props/all/DS Gulpord Anchor TR__b55d.png"
+},
+{
+"id": "DS Gulpord Anchor BL",
+"type": "0xb55e",
+"src": "toxicSewersObjects",
+"category": "prop",
+"sub": "toxicSewersObjects",
+"why": "src",
+"file": "props/all/DS Gulpord Anchor BL__b55e.png"
+},
+{
+"id": "DS Gulpord Anchor BR",
+"type": "0xb55f",
+"src": "toxicSewersObjects",
+"category": "prop",
+"sub": "toxicSewersObjects",
+"why": "src",
+"file": "props/all/DS Gulpord Anchor BR__b55f.png"
+},
+{
+"id": "DS Sick",
+"type": "0x7157",
+"src": "toxicSewersObjects",
+"category": "prop",
+"sub": "toxicSewersObjects",
+"why": "src",
+"file": "props/all/DS Sick__7157.png"
+},
+{
+"id": "DS Master Rat",
+"type": "0x7158",
+"src": "toxicSewersObjects",
+"category": "enemy",
+"sub": "miniboss",
+"why": "src",
+"file": "enemies/miniboss/DS Master Rat__7158.png"
+},
+{
+"id": "DS Master Rat Anchor",
+"type": "0xb54f",
+"src": "toxicSewersObjects",
+"category": "prop",
+"sub": "toxicSewersObjects",
+"why": "src",
+"file": "props/all/DS Master Rat Anchor__b54f.png"
+},
+{
+"id": "DS Master Rat Box",
+"type": "0xb544",
+"src": "toxicSewersObjects",
+"category": "enemy",
+"sub": "miniboss",
+"why": "src",
+"file": "enemies/miniboss/DS Master Rat Box__b544.png"
+},
+{
+"id": "DS Master Rat Box Correct",
+"type": "0xb54e",
+"src": "toxicSewersObjects",
+"category": "enemy",
+"sub": "miniboss",
+"why": "src",
+"file": "enemies/miniboss/DS Master Rat Box Correct__b54e.png"
+},
+{
+"id": "DS Orange Turtle",
+"type": "0x7159",
+"src": "toxicSewersObjects",
+"category": "prop",
+"sub": "toxicSewersObjects",
+"why": "src",
+"file": "props/all/DS Orange Turtle__7159.png"
+},
+{
+"id": "DS Red Turtle",
+"type": "0x715b",
+"src": "toxicSewersObjects",
+"category": "prop",
+"sub": "toxicSewersObjects",
+"why": "src",
+"file": "props/all/DS Red Turtle__715b.png"
+},
+{
+"id": "DS Purple Turtle",
+"type": "0x715c",
+"src": "toxicSewersObjects",
+"category": "prop",
+"sub": "toxicSewersObjects",
+"why": "src",
+"file": "props/all/DS Purple Turtle__715c.png"
+},
+{
+"id": "DS Blue Turtle",
+"type": "0x715e",
+"src": "toxicSewersObjects",
+"category": "prop",
+"sub": "toxicSewersObjects",
+"why": "src",
+"file": "props/all/DS Blue Turtle__715e.png"
+},
+{
+"id": "DS Golden Rat",
+"type": "0x715f",
+"src": "toxicSewersObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/DS Golden Rat__715f.png"
+},
+{
+"id": "DS Golden Rat 2",
+"type": "0x3a44",
+"src": "toxicSewersObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/DS Golden Rat 2__3a44.png"
+},
+{
+"id": "DS Gulpord Summoner",
+"type": "0x7160",
+"src": "toxicSewersObjects",
+"category": "prop",
+"sub": "toxicSewersObjects",
+"why": "src",
+"file": "props/all/DS Gulpord Summoner__7160.png"
+},
+{
+"id": "DS Sewer Dummy",
+"type": "0x7169",
+"src": "toxicSewersObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/DS Sewer Dummy__7169.png"
+},
+{
+"id": "DS Fly",
+"type": "0x7164",
+"src": "toxicSewersObjects",
+"category": "npc",
+"sub": "all",
+"why": "src",
+"file": "npcs/all/DS Fly__7164.png"
+},
+{
+"id": "DS Radioactive Fly",
+"type": "0xb53d",
+"src": "toxicSewersObjects",
+"category": "npc",
+"sub": "all",
+"why": "src",
+"file": "npcs/all/DS Radioactive Fly__b53d.png"
+},
+{
+"id": "DS Wall",
+"type": "0x0056",
+"src": "toxicSewersObjects",
+"category": "wall",
+"sub": "toxicSewersObjects",
+"why": "src",
+"file": "walls/all/DS Wall__0056.png"
+},
+{
+"id": "DS Wall Fake",
+"type": "0xb560",
+"src": "toxicSewersObjects",
+"category": "wall",
+"sub": "toxicSewersObjects",
+"why": "src",
+"file": "walls/all/DS Wall Fake__b560.png"
+},
+{
+"id": "DS Floor Grate V",
+"type": "0x010e",
+"src": "toxicSewersObjects",
+"category": "prop",
+"sub": "toxicSewersObjects",
+"why": "src",
+"file": "props/all/DS Floor Grate V__010e.png"
+},
+{
+"id": "DS Floor Grate H",
+"type": "0x010f",
+"src": "toxicSewersObjects",
+"category": "prop",
+"sub": "toxicSewersObjects",
+"why": "src",
+"file": "props/all/DS Floor Grate H__010f.png"
+},
+{
+"id": "DS Wall Torch",
+"type": "0x0115",
+"src": "toxicSewersObjects",
+"category": "wall",
+"sub": "toxicSewersObjects",
+"why": "src",
+"file": "walls/all/DS Wall Torch__0115.png"
+},
+{
+"id": "DS Wall Lamp",
+"type": "0xb53b",
+"src": "toxicSewersObjects",
+"category": "wall",
+"sub": "toxicSewersObjects",
+"why": "src",
+"file": "walls/all/DS Wall Lamp__b53b.png"
+},
+{
+"id": "DS Wall Pipe",
+"type": "0xb53c",
+"src": "toxicSewersObjects",
+"category": "wall",
+"sub": "toxicSewersObjects",
+"why": "src",
+"file": "walls/all/DS Wall Pipe__b53c.png"
+},
+{
+"id": "DS Wall Gate Right",
+"type": "0x0116",
+"src": "toxicSewersObjects",
+"category": "wall",
+"sub": "toxicSewersObjects",
+"why": "src",
+"file": "walls/all/DS Wall Gate Right__0116.png"
+},
+{
+"id": "DS Wall Gate Middle",
+"type": "0x0117",
+"src": "toxicSewersObjects",
+"category": "wall",
+"sub": "toxicSewersObjects",
+"why": "src",
+"file": "walls/all/DS Wall Gate Middle__0117.png"
+},
+{
+"id": "DS Wall Gate Left",
+"type": "0x0118",
+"src": "toxicSewersObjects",
+"category": "wall",
+"sub": "toxicSewersObjects",
+"why": "src",
+"file": "walls/all/DS Wall Gate Left__0118.png"
+},
+{
+"id": "DS Floor Grate",
+"type": "0x0119",
+"src": "toxicSewersObjects",
+"category": "prop",
+"sub": "toxicSewersObjects",
+"why": "src",
+"file": "props/all/DS Floor Grate__0119.png"
+},
+{
+"id": "DS Poo",
+"type": "0x011a",
+"src": "toxicSewersObjects",
+"category": "prop",
+"sub": "toxicSewersObjects",
+"why": "src",
+"file": "props/all/DS Poo__011a.png"
+},
+{
+"id": "DS Bones",
+"type": "0xb53e",
+"src": "toxicSewersObjects",
+"category": "prop",
+"sub": "toxicSewersObjects",
+"why": "src",
+"file": "props/all/DS Bones__b53e.png"
+},
+{
+"id": "DS Barrel",
+"type": "0xb53f",
+"src": "toxicSewersObjects",
+"category": "prop",
+"sub": "toxicSewersObjects",
+"why": "src",
+"file": "props/all/DS Barrel__b53f.png"
+},
+{
+"id": "DS Barrel Sludge",
+"type": "0xb540",
+"src": "toxicSewersObjects",
+"category": "prop",
+"sub": "toxicSewersObjects",
+"why": "src",
+"file": "props/all/DS Barrel Sludge__b540.png"
+},
+{
+"id": "DS Barrel Lab",
+"type": "0xb541",
+"src": "toxicSewersObjects",
+"category": "prop",
+"sub": "toxicSewersObjects",
+"why": "src",
+"file": "props/all/DS Barrel Lab__b541.png"
+},
+{
+"id": "DS Lamp",
+"type": "0xb542",
+"src": "toxicSewersObjects",
+"category": "prop",
+"sub": "toxicSewersObjects",
+"why": "src",
+"file": "props/all/DS Lamp__b542.png"
+},
+{
+"id": "DS Box",
+"type": "0xb543",
+"src": "toxicSewersObjects",
+"category": "prop",
+"sub": "toxicSewersObjects",
+"why": "src",
+"file": "props/all/DS Box__b543.png"
+},
+{
+"id": "DS Bubble",
+"type": "0xb545",
+"src": "toxicSewersObjects",
+"category": "prop",
+"sub": "toxicSewersObjects",
+"why": "src",
+"file": "props/all/DS Bubble__b545.png"
+},
+{
+"id": "DS Filter Machine",
+"type": "0xb546",
+"src": "toxicSewersObjects",
+"category": "prop",
+"sub": "toxicSewersObjects",
+"why": "src",
+"file": "props/all/DS Filter Machine__b546.png"
+},
+{
+"id": "DS Pillar",
+"type": "0x010d",
+"src": "toxicSewersObjects",
+"category": "prop",
+"sub": "toxicSewersObjects",
+"why": "src",
+"file": "props/all/DS Pillar__010d.png"
+},
+{
+"id": "MotMG Gulpord",
+"type": "0xf17",
+"src": "battleOryxObjects",
+"category": "enemy",
+"sub": "event_boss",
+"why": "spec",
+"file": "enemies/event_boss/MotMG Gulpord__f17.png"
+},
+{
+"id": "MotMG Gulpord M",
+"type": "0xf19",
+"src": "battleOryxObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "spec",
+"file": "enemies/regular/MotMG Gulpord M__f19.png"
+},
+{
+"id": "MotMG Gulpord S",
+"type": "0xf1a",
+"src": "battleOryxObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "spec",
+"file": "enemies/regular/MotMG Gulpord S__f1a.png"
+},
+{
+"id": "Noxious Sprite",
+"type": "0x4547",
+"src": "adept",
+"category": "enemy",
+"sub": "regular",
+"why": "spec",
+"file": "enemies/regular/Noxious Sprite__4547.png"
+},
+{
+"id": "Smelly Octopus",
+"type": "0xc0be",
+"src": "adept",
+"category": "enemy",
+"sub": "regular",
+"why": "spec",
+"file": "enemies/regular/Smelly Octopus__c0be.png"
+},
+{
+"id": "Brimstone Wyvern",
+"type": "0xc2ec",
+"src": "adept",
+"category": "enemy",
+"sub": "regular",
+"why": "spec",
+"file": "enemies/regular/Brimstone Wyvern__c2ec.png"
+},
+{
+"id": "Slime God",
+"type": "0x658",
+"src": "mountains",
+"category": "enemy",
+"sub": "regular",
+"why": "spec",
+"file": "enemies/regular/Slime God__658.png"
+},
+{
+"id": "Eternal Tormentor",
+"type": "0x870d",
+"src": "heroes_2",
+"category": "enemy",
+"sub": "event_boss",
+"why": "spec",
+"file": "enemies/event_boss/Eternal Tormentor__870d.png"
+},
+{
+"id": "UDL Orange Magic",
+"type": "0x80dd",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/UDL Orange Magic__80dd.png"
+},
+{
+"id": "Slime God Sludge",
+"type": "0xc014",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Slime God Sludge__c014.png"
+},
+{
+"id": "Sharp Green Star",
+"type": "0xc027",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Sharp Green Star__c027.png"
+},
+{
+"id": "Green Magic",
+"type": "0x0003",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Green Magic__0003.png"
+},
+{
+"id": "AI Forax Acidus Shot",
+"type": "0xb377",
+"src": "alienInvasionObjects",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/AI Forax Acidus Shot__b377.png"
+},
+{
+"id": "White Bolt",
+"type": "0x000e",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/White Bolt__000e.png"
+},
+{
+"id": "Void Star",
+"type": "0x716e",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Void Star__716e.png"
+},
+{
+"id": "Poison Fireball",
+"type": "0x214b",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Poison Fireball__214b.png"
+},
+{
+"id": "Red Star",
+"type": "0x0015",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Red Star__0015.png"
+},
+{
+"id": "Green Star",
+"type": "0x0019",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Green Star__0019.png"
+},
+{
+"id": "Black Sprite Magic",
+"type": "0xc04b",
+"src": "spriteWorldObjects",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Black Sprite Magic__c04b.png"
+},
+{
+"id": "Black Sprite Twirl",
+"type": "0xc04c",
+"src": "spriteWorldObjects",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Black Sprite Twirl__c04c.png"
+},
+{
+"id": "Ink Blot",
+"type": "0x007c",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Ink Blot__007c.png"
+},
+{
+"id": "Big Fireball",
+"type": "0x214a",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Big Fireball__214a.png"
+},
+{
+"id": "Interregnum Flail 1",
+"type": "0x37ca",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Interregnum Flail 1__37ca.png"
+},
+{
+"id": "Interregnum Flail 2",
+"type": "0x37b7",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Interregnum Flail 2__37b7.png"
+},
+{
+"id": "Accursed Stone Spear",
+"type": "0x82c7",
+"src": "theShattersObjects",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Accursed Stone Spear__82c7.png"
+},
+{
+"id": "Potion of Defense",
+"type": "0xa20",
+"src": "equip",
+"category": "consumable",
+"sub": "all",
+"why": "loot",
+"file": "loot/consumable/Potion of Defense__a20.png"
+},
+{
+"id": "Power Pizza",
+"type": "0xcc5",
+"src": "equip",
+"category": "consumable",
+"sub": "all",
+"why": "loot",
+"file": "loot/consumable/Power Pizza__cc5.png"
+},
+{
+"id": "Void Blade",
+"type": "0x716d",
+"src": "equip",
+"category": "weapon",
+"sub": "katana",
+"why": "loot",
+"file": "loot/weapon_katana/Void Blade__716d.png"
+},
+{
+"id": "Murky Toxin",
+"type": "0x7170",
+"src": "equip",
+"category": "ability",
+"sub": "all",
+"why": "loot",
+"file": "loot/ability/Murky Toxin__7170.png"
+},
+{
+"id": "Slurp Knight Skin",
+"type": "0x2588",
+"src": "equipSkins",
+"category": "item_other",
+"sub": "all",
+"why": "loot",
+"file": "loot/item_other/Slurp Knight Skin__2588.png"
+}
+]
+}

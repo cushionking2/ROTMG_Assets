@@ -1,0 +1,346 @@
+{
+"dungeon": "Hive",
+"sources": [
+"thehive"
+],
+"counts": {
+"props": 2,
+"enemies": 14,
+"npcs": 4,
+"tiles": 1,
+"projectiles": 8,
+"loot": 2
+},
+"why": {
+"src": 17,
+"spec": 3,
+"alias": 1,
+"proj": 8,
+"loot": 2
+},
+"tile_hints_used": {
+"honey": 1
+},
+"names_in_own_files": [
+"Small Bee",
+"Fat Bee",
+"Fat Angry Bee",
+"Mini Hive (~EH Mini Hive)",
+"Maggot Egg (~EH Maggot Egg1)",
+"Queen Bee"
+],
+"names_in_other_files": [
+[
+"Maggot",
+[
+"ghostShip"
+]
+],
+[
+"Honey",
+[
+"ground"
+]
+],
+[
+"Warrior Bee",
+[
+"mid"
+]
+],
+[
+"Wasp Queen",
+[
+"mid"
+]
+]
+],
+"names_not_found": [
+{
+"name": "Legion Surveyor",
+"suggestions": [],
+"suggestion_in_own_files": false
+}
+],
+"entries": [
+{
+"id": "TH honey Heal",
+"type": "0x124",
+"src": "thehive",
+"category": "prop",
+"sub": "thehive",
+"why": "src",
+"file": "props/all/TH honey Heal__124.png"
+},
+{
+"id": "TH Mini Hive",
+"type": "0x125",
+"src": "thehive",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/TH Mini Hive__125.png"
+},
+{
+"id": "TH Small Bees",
+"type": "0x126",
+"src": "thehive",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/TH Small Bees__126.png"
+},
+{
+"id": "TH Fat Bees",
+"type": "0x127",
+"src": "thehive",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/TH Fat Bees__127.png"
+},
+{
+"id": "TH Red Fat Bees",
+"type": "0x128",
+"src": "thehive",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/TH Red Fat Bees__128.png"
+},
+{
+"id": "TH Queen Bee",
+"type": "0x129",
+"src": "thehive",
+"category": "enemy",
+"sub": "boss",
+"why": "src",
+"file": "enemies/boss/TH Queen Bee__129.png"
+},
+{
+"id": "TH Maggot Egg1",
+"type": "0x12a",
+"src": "thehive",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/TH Maggot Egg1__12a.png"
+},
+{
+"id": "TH Maggot Egg2",
+"type": "0x12b",
+"src": "thehive",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/TH Maggot Egg2__12b.png"
+},
+{
+"id": "TH Maggot Egg3",
+"type": "0x12c",
+"src": "thehive",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/TH Maggot Egg3__12c.png"
+},
+{
+"id": "TH Maggots",
+"type": "0x12d",
+"src": "thehive",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/TH Maggots__12d.png"
+},
+{
+"id": "TH Queen Bee Summoner",
+"type": "0x12e",
+"src": "thehive",
+"category": "prop",
+"sub": "thehive",
+"why": "src",
+"file": "props/all/TH Queen Bee Summoner__12e.png"
+},
+{
+"id": "TH Chunk1",
+"type": "0x133",
+"src": "thehive",
+"category": "npc",
+"sub": "all",
+"why": "src",
+"file": "npcs/all/TH Chunk1__133.png"
+},
+{
+"id": "TH Chunk2",
+"type": "0x0d0b",
+"src": "thehive",
+"category": "npc",
+"sub": "all",
+"why": "src",
+"file": "npcs/all/TH Chunk2__0d0b.png"
+},
+{
+"id": "TH Chunk3",
+"type": "0x0d0c",
+"src": "thehive",
+"category": "npc",
+"sub": "all",
+"why": "src",
+"file": "npcs/all/TH Chunk3__0d0c.png"
+},
+{
+"id": "TH Chunk4",
+"type": "0x0d0d",
+"src": "thehive",
+"category": "npc",
+"sub": "all",
+"why": "src",
+"file": "npcs/all/TH Chunk4__0d0d.png"
+},
+{
+"id": "TH Fat Bees 2",
+"type": "0x0d44",
+"src": "thehive",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/TH Fat Bees 2__0d44.png"
+},
+{
+"id": "TH Red Fat Bees 2",
+"type": "0x0d45",
+"src": "thehive",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/TH Red Fat Bees 2__0d45.png"
+},
+{
+"id": "Maggot",
+"type": "0x0e46",
+"src": "ghostShip",
+"category": "enemy",
+"sub": "regular",
+"why": "spec",
+"file": "enemies/regular/Maggot__0e46.png"
+},
+{
+"id": "TH Honey",
+"type": "0x259f",
+"src": "ground",
+"category": "tile",
+"sub": "ground",
+"why": "alias",
+"file": "tiles/all/TH Honey__259f.png"
+},
+{
+"id": "Warrior Bee",
+"type": "0x094a",
+"src": "mid",
+"category": "enemy",
+"sub": "event_boss",
+"why": "spec",
+"file": "enemies/event_boss/Warrior Bee__094a.png"
+},
+{
+"id": "Wasp Queen",
+"type": "0x0947",
+"src": "mid",
+"category": "enemy",
+"sub": "event_boss",
+"why": "spec",
+"file": "enemies/event_boss/Wasp Queen__0947.png"
+},
+{
+"id": "Invisible",
+"type": "0x0096",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Invisible__0096.png"
+},
+{
+"id": "TH Stinger Small",
+"type": "0x11f",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/TH Stinger Small__11f.png"
+},
+{
+"id": "Red Star",
+"type": "0x0015",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Red Star__0015.png"
+},
+{
+"id": "TH Stinger Large",
+"type": "0x11e",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/TH Stinger Large__11e.png"
+},
+{
+"id": "TH Honey Daze",
+"type": "0xa233",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/TH Honey Daze__a233.png"
+},
+{
+"id": "White Bullet",
+"type": "0x003b",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/White Bullet__003b.png"
+},
+{
+"id": "Orange Missile",
+"type": "0x0038",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Orange Missile__0038.png"
+},
+{
+"id": "Yellow Missile",
+"type": "0x0028",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Yellow Missile__0028.png"
+},
+{
+"id": "Potion of Dexterity",
+"type": "0xa4c",
+"src": "equip",
+"category": "consumable",
+"sub": "all",
+"why": "loot",
+"file": "loot/consumable/Potion of Dexterity__a4c.png"
+},
+{
+"id": "Orb of Sweet Demise",
+"type": "0x132",
+"src": "equip",
+"category": "ability",
+"sub": "all",
+"why": "loot",
+"file": "loot/ability/Orb of Sweet Demise__132.png"
+}
+]
+}

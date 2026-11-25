@@ -1,0 +1,394 @@
+{
+ "Abyss_of_Demons": {
+  "names": 13,
+  "found": 13,
+  "top": [
+   [
+    "abyssOfDemonsObjects",
+    13
+   ]
+  ]
+ },
+ "Candyland_Hunting_Grounds": {
+  "names": 18,
+  "found": 18,
+  "top": [
+   [
+    "candyLand",
+    20
+   ]
+  ]
+ },
+ "Cave_of_a_Thousand_Treasures": {
+  "names": 9,
+  "found": 8,
+  "top": [
+   [
+    "lostHallsObjects",
+    10
+   ],
+   [
+    "caveOfAThousandTreasures",
+    8
+   ]
+  ]
+ },
+ "Crawling_Depths": {
+  "names": 17,
+  "found": 14,
+  "top": [
+   [
+    "epicspiderDen",
+    16
+   ],
+   [
+    "spiderDenGround",
+    1
+   ]
+  ]
+ },
+ "Cursed_Library": {
+  "names": 19,
+  "found": 19,
+  "top": [
+   [
+    "cursedLibraryObjects",
+    21
+   ],
+   [
+    "skins",
+    1
+   ]
+  ]
+ },
+ "Davy_Jones_Locker": {
+  "names": 12,
+  "found": 12,
+  "top": [
+   [
+    "ghostShip",
+    13
+   ],
+   [
+    "heroes_2",
+    1
+   ]
+  ]
+ },
+ "Deadwater_Docks": {
+  "names": 28,
+  "found": 28,
+  "top": [
+   [
+    "deadwaterDocksObjects",
+    30
+   ],
+   [
+    "pets",
+    2
+   ]
+  ]
+ },
+ "Forbidden_Jungle": {
+  "names": 10,
+  "found": 10,
+  "top": [
+   [
+    "forbiddenJungle",
+    10
+   ]
+  ]
+ },
+ "Forest_Maze": {
+  "names": 6,
+  "found": 6,
+  "top": [
+   [
+    "forestMaze",
+    6
+   ]
+  ]
+ },
+ "Haunted_Cemetery": {
+  "names": 31,
+  "found": 27,
+  "top": [
+   [
+    "hauntedCemetery",
+    35
+   ],
+   [
+    "pets",
+    2
+   ],
+   [
+    "innerWorkingsObjects",
+    1
+   ],
+   [
+    "adept",
+    1
+   ]
+  ]
+ },
+ "Hive": {
+  "names": 9,
+  "found": 5,
+  "top": [
+   [
+    "thehive",
+    6
+   ],
+   [
+    "ghostShip",
+    1
+   ]
+  ]
+ },
+ "Lost_Halls": {
+  "names": 28,
+  "found": 26,
+  "top": [
+   [
+    "lostHallsObjects",
+    71
+   ],
+   [
+    "pets",
+    2
+   ],
+   [
+    "autumnNexusObjects",
+    1
+   ],
+   [
+    "caveOfAThousandTreasures",
+    1
+   ]
+  ]
+ },
+ "Mad_Lab": {
+  "names": 11,
+  "found": 8,
+  "top": [
+   [
+    "madLab",
+    13
+   ]
+  ]
+ },
+ "Magic_Woods": {
+  "names": 6,
+  "found": 2,
+  "top": [
+   [
+    "heroes",
+    5
+   ],
+   [
+    "heroes_2",
+    2
+   ],
+   [
+    "magicWoodsObjects",
+    1
+   ]
+  ]
+ },
+ "Manor_of_the_Immortals": {
+  "names": 14,
+  "found": 13,
+  "top": [
+   [
+    "manorOfTheImmortals",
+    17
+   ],
+   [
+    "adept",
+    1
+   ],
+   [
+    "innerWorkingsObjects",
+    1
+   ]
+  ]
+ },
+ "Ocean_Trench": {
+  "names": 10,
+  "found": 8,
+  "top": [
+   [
+    "oceanTrench",
+    9
+   ],
+   [
+    "encounters_2",
+    2
+   ],
+   [
+    "heroes_2",
+    1
+   ],
+   [
+    "encounters",
+    1
+   ]
+  ]
+ },
+ "Oryxs_Castle": {
+  "names": 16,
+  "found": 13,
+  "top": [
+   [
+    "oryxCastle",
+    14
+   ],
+   [
+    "miniDungeonHub",
+    5
+   ],
+   [
+    "oryxHordeObjects",
+    1
+   ]
+  ]
+ },
+ "Parasite_Chambers": {
+  "names": 26,
+  "found": 24,
+  "top": [
+   [
+    "parasiteDenObjects",
+    36
+   ],
+   [
+    "oryxCastle",
+    11
+   ],
+   [
+    "oryxWineCellar",
+    5
+   ],
+   [
+    "oryxChamber",
+    2
+   ]
+  ]
+ },
+ "Pirate_Cave": {
+  "names": 15,
+  "found": 15,
+  "top": [
+   [
+    "pirateCaveObjects",
+    14
+   ],
+   [
+    "ground",
+    1
+   ]
+  ]
+ },
+ "Puppet_Masters_Theatre": {
+  "names": 26,
+  "found": 24,
+  "top": [
+   [
+    "puppetMaster",
+    49
+   ],
+   [
+    "oryxChamber",
+    10
+   ],
+   [
+    "puppetMasterEncore",
+    5
+   ],
+   [
+    "battleOryxObjects",
+    1
+   ]
+  ]
+ },
+ "Snake_Pit": {
+  "names": 11,
+  "found": 11,
+  "top": [
+   [
+    "snakePit",
+    11
+   ]
+  ]
+ },
+ "Spider_Den": {
+  "names": 9,
+  "found": 9,
+  "top": [
+   [
+    "spiderDenObjects",
+    17
+   ],
+   [
+    "epicspiderDen",
+    9
+   ]
+  ]
+ },
+ "Sprite_World": {
+  "names": 16,
+  "found": 15,
+  "top": [
+   [
+    "spriteWorldObjects",
+    19
+   ],
+   [
+    "innerWorkingsObjects",
+    2
+   ],
+   [
+    "santaWorkshopObjects",
+    2
+   ],
+   [
+    "xmasNexusObjects",
+    2
+   ]
+  ]
+ },
+ "Toxic_Sewers": {
+  "names": 17,
+  "found": 14,
+  "top": [
+   [
+    "toxicSewersObjects",
+    23
+   ],
+   [
+    "battleOryxObjects",
+    3
+   ]
+  ]
+ },
+ "Undead_Lair": {
+  "names": 29,
+  "found": 23,
+  "top": [
+   [
+    "undeadLairObjects",
+    30
+   ]
+  ]
+ },
+ "Woodland_Labyrinth": {
+  "names": 15,
+  "found": 12,
+  "top": [
+   [
+    "epicforestMaze",
+    12
+   ]
+  ]
+ }
+}

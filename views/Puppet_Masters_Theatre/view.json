@@ -1,0 +1,901 @@
+{
+"dungeon": "Puppet_Masters_Theatre",
+"sources": [
+"puppetMaster"
+],
+"counts": {
+"props": 2,
+"enemies": 46,
+"helpers": 3,
+"projectiles": 36,
+"loot": 4
+},
+"why": {
+"src": 35,
+"spec": 16,
+"proj": 36,
+"loot": 4
+},
+"tile_hints_used": {},
+"names_in_own_files": [
+"Archer Puppet",
+"Bard Puppet",
+"Knight Puppet",
+"Warrior Puppet",
+"Paladin Puppet",
+"Priest Puppet",
+"Sorcerer Puppet",
+"Puppet Bomb",
+"Summoner Puppet",
+"Mystic Puppet",
+"Wizard Puppet",
+"Necromancer Puppet",
+"Rogue Puppet",
+"Assassin Puppet",
+"Trickster Puppet Decoy",
+"Ninja Puppet",
+"Samurai Puppet",
+"Kensei Puppet",
+"False Puppet Master",
+"Oryx Puppet",
+"Minion Puppet"
+],
+"names_in_other_files": [
+[
+"Huntress Puppet",
+[
+"puppetMaster",
+"puppetMasterEncore"
+]
+],
+[
+"Trickster Puppet",
+[
+"puppetMaster",
+"puppetMasterEncore"
+]
+],
+[
+"The Puppet Master",
+[
+"battleOryxObjects",
+"puppetMaster",
+"puppetMasterEncore"
+]
+],
+[
+"Guardian Element",
+[
+"oryxChamber"
+]
+]
+],
+"names_not_found": [
+{
+"name": "Druid Puppet",
+"suggestions": [],
+"suggestion_in_own_files": false
+}
+],
+"entries": [
+{
+"id": "Puppet Theatre Boss Spawn",
+"type": "0x7443",
+"src": "puppetMaster",
+"category": "prop",
+"sub": "puppetMaster",
+"why": "src",
+"file": "props/all/Puppet Theatre Boss Spawn__7443.png"
+},
+{
+"id": "The Puppet Master",
+"type": "0x7433",
+"src": "puppetMaster",
+"category": "enemy",
+"sub": "boss",
+"why": "src",
+"file": "enemies/boss/The Puppet Master__7433.png"
+},
+{
+"id": "Puppet Wizard 2",
+"type": "0x743e",
+"src": "puppetMaster",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Puppet Wizard 2__743e.png"
+},
+{
+"id": "Puppet Knight 2",
+"type": "0x743f",
+"src": "puppetMaster",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Puppet Knight 2__743f.png"
+},
+{
+"id": "Puppet Priest",
+"type": "0x7437",
+"src": "puppetMaster",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Puppet Priest__7437.png"
+},
+{
+"id": "Puppet Priest 2",
+"type": "0x7440",
+"src": "puppetMaster",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Puppet Priest 2__7440.png"
+},
+{
+"id": "False Puppet Master",
+"type": "0x7438",
+"src": "puppetMaster",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/False Puppet Master__7438.png"
+},
+{
+"id": "Oryx Puppet",
+"type": "0x7444",
+"src": "puppetMaster",
+"category": "enemy",
+"sub": "miniboss",
+"why": "src",
+"file": "enemies/miniboss/Oryx Puppet__7444.png"
+},
+{
+"id": "Minion Puppet",
+"type": "0x7445",
+"src": "puppetMaster",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Minion Puppet__7445.png"
+},
+{
+"id": "Mini Guardian Element",
+"type": "0x7446",
+"src": "puppetMaster",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Mini Guardian Element__7446.png"
+},
+{
+"id": "Puppet Wizard",
+"type": "0x7435",
+"src": "puppetMaster",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Puppet Wizard__7435.png"
+},
+{
+"id": "Puppet Knight",
+"type": "0x7436",
+"src": "puppetMaster",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Puppet Knight__7436.png"
+},
+{
+"id": "Assassin Puppet",
+"type": "0x7442",
+"src": "puppetMaster",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Assassin Puppet__7442.png"
+},
+{
+"id": "Healer Puppet",
+"type": "0x7439",
+"src": "puppetMaster",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Healer Puppet__7439.png"
+},
+{
+"id": "Archer Puppet",
+"type": "0x743a",
+"src": "puppetMaster",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Archer Puppet__743a.png"
+},
+{
+"id": "Rogue Puppet",
+"type": "0x743b",
+"src": "puppetMaster",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Rogue Puppet__743b.png"
+},
+{
+"id": "Warrior Puppet",
+"type": "0x744e",
+"src": "puppetMaster",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Warrior Puppet__744e.png"
+},
+{
+"id": "Huntress Puppet",
+"type": "0x7419",
+"src": "puppetMaster",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Huntress Puppet__7419.png"
+},
+{
+"id": "Paladin Puppet",
+"type": "0x7450",
+"src": "puppetMaster",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Paladin Puppet__7450.png"
+},
+{
+"id": "Necromancer Puppet",
+"type": "0x7451",
+"src": "puppetMaster",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Necromancer Puppet__7451.png"
+},
+{
+"id": "Mystic Puppet",
+"type": "0x7452",
+"src": "puppetMaster",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Mystic Puppet__7452.png"
+},
+{
+"id": "Sorcerer Puppet",
+"type": "0x7453",
+"src": "puppetMaster",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Sorcerer Puppet__7453.png"
+},
+{
+"id": "Puppet Bomb",
+"type": "0x7457",
+"src": "puppetMaster",
+"category": "helper",
+"sub": "effect",
+"why": "src",
+"file": "helpers/effect/Puppet Bomb__7457.png"
+},
+{
+"id": "Puppet Bomb 2",
+"type": "0x7455",
+"src": "puppetMaster",
+"category": "helper",
+"sub": "effect",
+"why": "src",
+"file": "helpers/effect/Puppet Bomb 2__7455.png"
+},
+{
+"id": "Sorc Bomb Thrower",
+"type": "0x7456",
+"src": "puppetMaster",
+"category": "helper",
+"sub": "invisible",
+"why": "src",
+"file": "helpers/invisible/Sorc Bomb Thrower__7456.png"
+},
+{
+"id": "Trickster Puppet",
+"type": "0x7458",
+"src": "puppetMaster",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Trickster Puppet__7458.png"
+},
+{
+"id": "Trickster Decoys",
+"type": "0x7454",
+"src": "puppetMaster",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Trickster Decoys__7454.png"
+},
+{
+"id": "Ninja Puppet",
+"type": "0x7459",
+"src": "puppetMaster",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Ninja Puppet__7459.png"
+},
+{
+"id": "Samurai Puppet",
+"type": "0xac0d",
+"src": "puppetMaster",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Samurai Puppet__ac0d.png"
+},
+{
+"id": "Bard Puppet",
+"type": "0xac1d",
+"src": "puppetMaster",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Bard Puppet__ac1d.png"
+},
+{
+"id": "Summoner Puppet",
+"type": "0x3790",
+"src": "puppetMaster",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Summoner Puppet__3790.png"
+},
+{
+"id": "Kensei Puppet",
+"type": "0x394a",
+"src": "puppetMaster",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Kensei Puppet__394a.png"
+},
+{
+"id": "Puppet Loot Chest",
+"type": "0x7441",
+"src": "puppetMaster",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Puppet Loot Chest__7441.png"
+},
+{
+"id": "Puppet Treasure Chest",
+"type": "0x7447",
+"src": "puppetMaster",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Puppet Treasure Chest__7447.png"
+},
+{
+"id": "Puppet Portal Dropper",
+"type": "0x804d",
+"src": "puppetMaster",
+"category": "prop",
+"sub": "puppetMaster",
+"why": "src",
+"file": "props/all/Puppet Portal Dropper__804d.png"
+},
+{
+"id": "Encore Huntress Statue",
+"type": "0x74a3",
+"src": "puppetMasterEncore",
+"category": "enemy",
+"sub": "regular",
+"why": "spec",
+"file": "enemies/regular/Encore Huntress Statue__74a3.png"
+},
+{
+"id": "Encore Huntress",
+"type": "0x7464",
+"src": "puppetMasterEncore",
+"category": "enemy",
+"sub": "regular",
+"why": "spec",
+"file": "enemies/regular/Encore Huntress__7464.png"
+},
+{
+"id": "Encore Trickster Statue",
+"type": "0x74a4",
+"src": "puppetMasterEncore",
+"category": "enemy",
+"sub": "regular",
+"why": "spec",
+"file": "enemies/regular/Encore Trickster Statue__74a4.png"
+},
+{
+"id": "Encore Trickster",
+"type": "0x746e",
+"src": "puppetMasterEncore",
+"category": "enemy",
+"sub": "regular",
+"why": "spec",
+"file": "enemies/regular/Encore Trickster__746e.png"
+},
+{
+"id": "MOTMG Encore",
+"type": "0x547",
+"src": "battleOryxObjects",
+"category": "enemy",
+"sub": "miniboss",
+"why": "spec",
+"file": "enemies/miniboss/MOTMG Encore__547.png"
+},
+{
+"id": "Puppet Master v2",
+"type": "0x7461",
+"src": "puppetMasterEncore",
+"category": "enemy",
+"sub": "boss",
+"why": "spec",
+"file": "enemies/boss/Puppet Master v2__7461.png"
+},
+{
+"id": "Guardian Element 1",
+"type": "0x174a",
+"src": "oryxChamber",
+"category": "enemy",
+"sub": "regular",
+"why": "spec",
+"file": "enemies/regular/Guardian Element 1__174a.png"
+},
+{
+"id": "Guardian Element 2",
+"type": "0x174b",
+"src": "oryxChamber",
+"category": "enemy",
+"sub": "regular",
+"why": "spec",
+"file": "enemies/regular/Guardian Element 2__174b.png"
+},
+{
+"id": "Guardian Element 3",
+"type": "0x174c",
+"src": "oryxChamber",
+"category": "enemy",
+"sub": "regular",
+"why": "spec",
+"file": "enemies/regular/Guardian Element 3__174c.png"
+},
+{
+"id": "Guardian Element 4",
+"type": "0x174d",
+"src": "oryxChamber",
+"category": "enemy",
+"sub": "regular",
+"why": "spec",
+"file": "enemies/regular/Guardian Element 4__174d.png"
+},
+{
+"id": "Outer Guardian Element",
+"type": "0x174e",
+"src": "oryxChamber",
+"category": "enemy",
+"sub": "regular",
+"why": "spec",
+"file": "enemies/regular/Outer Guardian Element__174e.png"
+},
+{
+"id": "Infested Guardian Element 1",
+"type": "0xb39f",
+"src": "oryxChamber",
+"category": "enemy",
+"sub": "regular",
+"why": "spec",
+"file": "enemies/regular/Infested Guardian Element 1__b39f.png"
+},
+{
+"id": "Infested Guardian Element 2",
+"type": "0xb3a0",
+"src": "oryxChamber",
+"category": "enemy",
+"sub": "regular",
+"why": "spec",
+"file": "enemies/regular/Infested Guardian Element 2__b3a0.png"
+},
+{
+"id": "Infested Guardian Element 3",
+"type": "0xb3a1",
+"src": "oryxChamber",
+"category": "enemy",
+"sub": "regular",
+"why": "spec",
+"file": "enemies/regular/Infested Guardian Element 3__b3a1.png"
+},
+{
+"id": "Infested Guardian Element 4",
+"type": "0xb3a2",
+"src": "oryxChamber",
+"category": "enemy",
+"sub": "regular",
+"why": "spec",
+"file": "enemies/regular/Infested Guardian Element 4__b3a2.png"
+},
+{
+"id": "Infested Outer Guardian Element",
+"type": "0xb3a3",
+"src": "oryxChamber",
+"category": "enemy",
+"sub": "regular",
+"why": "spec",
+"file": "enemies/regular/Infested Outer Guardian Element__b3a3.png"
+},
+{
+"id": "Jester Bolt",
+"type": "0x2354",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Jester Bolt__2354.png"
+},
+{
+"id": "Lightning Spiral",
+"type": "0x006f",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Lightning Spiral__006f.png"
+},
+{
+"id": "Big Zombie Blast",
+"type": "0x2140",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Big Zombie Blast__2140.png"
+},
+{
+"id": "Armor Pierce Bullet",
+"type": "0x221d",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Armor Pierce Bullet__221d.png"
+},
+{
+"id": "White Bolt",
+"type": "0x000e",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/White Bolt__000e.png"
+},
+{
+"id": "Fire Shield",
+"type": "0x2355",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Fire Shield__2355.png"
+},
+{
+"id": "Fire Bolt",
+"type": "0x000f",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Fire Bolt__000f.png"
+},
+{
+"id": "White Superblast",
+"type": "0x00c3",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/White Superblast__00c3.png"
+},
+{
+"id": "White Bullet",
+"type": "0x003b",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/White Bullet__003b.png"
+},
+{
+"id": "Green Star",
+"type": "0x0019",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Green Star__0019.png"
+},
+{
+"id": "White Flame",
+"type": "0x003c",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/White Flame__003c.png"
+},
+{
+"id": "Green Bolt",
+"type": "0x0010",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Green Bolt__0010.png"
+},
+{
+"id": "Purple Magic",
+"type": "0x0005",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Purple Magic__0005.png"
+},
+{
+"id": "Gold Arrow",
+"type": "0x000c",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Gold Arrow__000c.png"
+},
+{
+"id": "Indigo Arrow",
+"type": "0x002d",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Indigo Arrow__002d.png"
+},
+{
+"id": "Darkness Bolt",
+"type": "0xb501",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Darkness Bolt__b501.png"
+},
+{
+"id": "Red Arrow",
+"type": "0x000a",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Red Arrow__000a.png"
+},
+{
+"id": "Blue Bolt",
+"type": "0x0011",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Blue Bolt__0011.png"
+},
+{
+"id": "Aqua Missile",
+"type": "0x0026",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Aqua Missile__0026.png"
+},
+{
+"id": "Violet Missile",
+"type": "0x0025",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Violet Missile__0025.png"
+},
+{
+"id": "Dragon Attack Black Spin",
+"type": "0x2161",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Dragon Attack Black Spin__2161.png"
+},
+{
+"id": "Pink Bolt",
+"type": "0x0012",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Pink Bolt__0012.png"
+},
+{
+"id": "Red Fire",
+"type": "0x0002",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Red Fire__0002.png"
+},
+{
+"id": "Ninja Star Silver",
+"type": "0x210b",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Ninja Star Silver__210b.png"
+},
+{
+"id": "Masamune Slash",
+"type": "0x2105",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Masamune Slash__2105.png"
+},
+{
+"id": "Wakizashi Slash 6",
+"type": "0x1646",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Wakizashi Slash 6__1646.png"
+},
+{
+"id": "Blue Arrow",
+"type": "0x000b",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Blue Arrow__000b.png"
+},
+{
+"id": "Muramasa Slash",
+"type": "0x2104",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Muramasa Slash__2104.png"
+},
+{
+"id": "Tier 0 Sheath Projectile",
+"type": "0x3919",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Tier 0 Sheath Projectile__3919.png"
+},
+{
+"id": "Purple Arrow",
+"type": "0x002a",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Purple Arrow__002a.png"
+},
+{
+"id": "Indigo Dark Arrow",
+"type": "0xa231",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Indigo Dark Arrow__a231.png"
+},
+{
+"id": "Spirit Dagger Slash",
+"type": "0x00df",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Spirit Dagger Slash__00df.png"
+},
+{
+"id": "Ghost Sr Slash",
+"type": "0x00dd",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Ghost Sr Slash__00dd.png"
+},
+{
+"id": "Puppet Green Wheel",
+"type": "0xa22f",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Puppet Green Wheel__a22f.png"
+},
+{
+"id": "pD Boss Shot",
+"type": "0x7b7",
+"src": "parasiteDenObjects",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/pD Boss Shot__7b7.png"
+},
+{
+"id": "pD Blob Shot",
+"type": "0x78e",
+"src": "parasiteDenObjects",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/pD Blob Shot__78e.png"
+},
+{
+"id": "Prism of Dancing Swords",
+"type": "0x912",
+"src": "equip",
+"category": "ability",
+"sub": "all",
+"why": "loot",
+"file": "loot/ability/Prism of Dancing Swords__912.png"
+},
+{
+"id": "Harlequin Armor",
+"type": "0x7448",
+"src": "equip",
+"category": "armor",
+"sub": "leather",
+"why": "loot",
+"file": "loot/armor/Harlequin Armor__7448.png"
+},
+{
+"id": "Puppet Master Skin",
+"type": "0x7449",
+"src": "equipSkins",
+"category": "item_other",
+"sub": "all",
+"why": "loot",
+"file": "loot/item_other/Puppet Master Skin__7449.png"
+},
+{
+"id": "Jester Skin",
+"type": "0x744c",
+"src": "equipSkins",
+"category": "item_other",
+"sub": "all",
+"why": "loot",
+"file": "loot/item_other/Jester Skin__744c.png"
+}
+]
+}

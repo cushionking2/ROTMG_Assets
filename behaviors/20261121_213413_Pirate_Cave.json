@@ -1,0 +1,424 @@
+{
+ "file": "20261121_213413_Pirate_Cave.events.jsonl",
+ "ticks": 490,
+ "enemies": {
+  "Cave Pirate Sailor": {
+   "count": 39,
+   "max_hp": 23,
+   "speed_tiles_per_s": 2.79,
+   "moving_fraction": 0.96,
+   "shots": {
+    "0": {
+     "count": 27,
+     "num_shots": {
+      "255": 27
+     },
+     "angle_inc": {
+      "0.0": 27
+     },
+     "damage": 7,
+     "interval_s": 1.01,
+     "interval_min_s": 1.01,
+     "hp_fraction_range": [
+      1.0,
+      1.0
+     ]
+    }
+   }
+  },
+  "Cave Pirate Veteran": {
+   "count": 28,
+   "max_hp": 27.0,
+   "speed_tiles_per_s": 4.68,
+   "moving_fraction": 0.98,
+   "shots": {
+    "0": {
+     "count": 110,
+     "num_shots": {
+      "255": 110
+     },
+     "angle_inc": {
+      "0.0": 110
+     },
+     "damage": 8.0,
+     "interval_s": 1.01,
+     "interval_min_s": 0.9,
+     "hp_fraction_range": [
+      1.0,
+      1.0
+     ]
+    }
+   }
+  },
+  "Cave Pirate Brawler": {
+   "count": 23,
+   "max_hp": 15,
+   "speed_tiles_per_s": 2.79,
+   "moving_fraction": 0.97,
+   "shots": {
+    "0": {
+     "count": 15,
+     "num_shots": {
+      "255": 15
+     },
+     "angle_inc": {
+      "0.0": 15
+     },
+     "damage": 4,
+     "interval_s": 1.01,
+     "interval_min_s": 1.01,
+     "hp_fraction_range": [
+      1.0,
+      1.0
+     ]
+    }
+   }
+  },
+  "Dreadstump Cannon": {
+   "count": 9,
+   "max_hp": 100,
+   "speed_tiles_per_s": null,
+   "moving_fraction": null,
+   "shots": {
+    "0": {
+     "count": 56,
+     "num_shots": {
+      "255": 56
+     },
+     "angle_inc": {
+      "0.0": 56
+     },
+     "damage": 25.0,
+     "interval_s": 3.03,
+     "interval_min_s": 1.55,
+     "hp_fraction_range": [
+      1.0,
+      1.0
+     ]
+    }
+   }
+  },
+  "Cave Pirate Cabin Boy": {
+   "count": 8,
+   "max_hp": 4.0,
+   "speed_tiles_per_s": 1.97,
+   "moving_fraction": 0.96,
+   "shots": {}
+  },
+  "Pirate Commander": {
+   "count": 8,
+   "max_hp": 60.0,
+   "speed_tiles_per_s": 2.04,
+   "moving_fraction": 0.97,
+   "shots": {
+    "0": {
+     "count": 15,
+     "num_shots": {
+      "255": 15
+     },
+     "angle_inc": {
+      "0.0": 15
+     },
+     "damage": 12,
+     "interval_s": 0.61,
+     "interval_min_s": 0.54,
+     "hp_fraction_range": [
+      1.0,
+      1.0
+     ]
+    }
+   }
+  },
+  "Pirate Lieutenant": {
+   "count": 7,
+   "max_hp": 53,
+   "speed_tiles_per_s": 2.04,
+   "moving_fraction": 0.97,
+   "shots": {
+    "0": {
+     "count": 30,
+     "num_shots": {
+      "255": 30
+     },
+     "angle_inc": {
+      "0.0": 30
+     },
+     "damage": 10.0,
+     "interval_s": 2.02,
+     "interval_min_s": 1.8,
+     "hp_fraction_range": [
+      1.0,
+      1.0
+     ]
+    }
+   }
+  },
+  "Cave Pirate Monkey": {
+   "count": 5,
+   "max_hp": 4,
+   "speed_tiles_per_s": 2.05,
+   "moving_fraction": 0.99,
+   "shots": {}
+  },
+  "Cave Pirate Parrot": {
+   "count": 5,
+   "max_hp": 4,
+   "speed_tiles_per_s": 2.05,
+   "moving_fraction": 0.99,
+   "shots": {}
+  },
+  "Cave Pirate Macaw": {
+   "count": 4,
+   "max_hp": 4.0,
+   "speed_tiles_per_s": 2.05,
+   "moving_fraction": 0.98,
+   "shots": {}
+  },
+  "Pirate Admiral": {
+   "count": 4,
+   "max_hp": 90.0,
+   "speed_tiles_per_s": 2.05,
+   "moving_fraction": 0.96,
+   "shots": {
+    "0": {
+     "count": 13,
+     "num_shots": {
+      "2": 7,
+      "255": 6
+     },
+     "angle_inc": {
+      "0.105": 7,
+      "0.0": 6
+     },
+     "damage": 15,
+     "interval_s": 2.02,
+     "interval_min_s": 0.4,
+     "hp_fraction_range": [
+      1.0,
+      1.0
+     ]
+    }
+   }
+  },
+  "Cave Pirate Hunchback": {
+   "count": 4,
+   "max_hp": 4.0,
+   "speed_tiles_per_s": 2.04,
+   "moving_fraction": 0.94,
+   "shots": {}
+  },
+  "Cave Pirate Moll": {
+   "count": 3,
+   "max_hp": 4,
+   "speed_tiles_per_s": 2.05,
+   "moving_fraction": 0.99,
+   "shots": {}
+  },
+  "Pirate Captain": {
+   "count": 2,
+   "max_hp": 75.0,
+   "speed_tiles_per_s": 2.05,
+   "moving_fraction": 0.98,
+   "shots": {
+    "0": {
+     "count": 4,
+     "num_shots": {
+      "2": 4
+     },
+     "angle_inc": {
+      "0.105": 4
+     },
+     "damage": 14.0,
+     "interval_s": 2.93,
+     "interval_min_s": 2.43,
+     "hp_fraction_range": [
+      1.0,
+      1.0
+     ]
+    },
+    "1": {
+     "count": 1,
+     "num_shots": {
+      "255": 1
+     },
+     "angle_inc": {
+      "0.0": 1
+     },
+     "damage": 18,
+     "interval_s": null,
+     "interval_min_s": null,
+     "hp_fraction_range": [
+      1.0,
+      1.0
+     ]
+    }
+   }
+  },
+  "Dreadstump the Pirate King": {
+   "count": 1,
+   "max_hp": 1000,
+   "speed_tiles_per_s": 2.46,
+   "moving_fraction": 0.99,
+   "shots": {
+    "0": {
+     "count": 23,
+     "num_shots": {
+      "255": 23
+     },
+     "angle_inc": {
+      "0.0": 23
+     },
+     "damage": 14,
+     "interval_s": 0.6,
+     "interval_min_s": 0.54,
+     "hp_fraction_range": [
+      0.9,
+      1.0
+     ]
+    },
+    "1": {
+     "count": 8,
+     "num_shots": {
+      "3": 5,
+      "2": 2,
+      "255": 1
+     },
+     "angle_inc": {
+      "0.262": 4,
+      "0.0": 1,
+      "0.157": 1
+     },
+     "damage": 18.0,
+     "interval_s": 2.43,
+     "interval_min_s": 0.8,
+     "hp_fraction_range": [
+      0.02,
+      0.9
+     ]
+    },
+    "3": {
+     "count": 10,
+     "num_shots": {
+      "2": 10
+     },
+     "angle_inc": {
+      "0.157": 10
+     },
+     "damage": 15.0,
+     "interval_s": 1.01,
+     "interval_min_s": 0.93,
+     "hp_fraction_range": [
+      0.02,
+      0.37
+     ]
+    },
+    "2": {
+     "count": 3,
+     "num_shots": {
+      "255": 3
+     },
+     "angle_inc": {
+      "0.0": 3
+     },
+     "damage": 22,
+     "interval_s": 0.8,
+     "interval_min_s": 0.8,
+     "hp_fraction_range": [
+      0.02,
+      0.02
+     ]
+    }
+   }
+  }
+ },
+ "text": {
+  "Dreadstump the Pirate King": [
+   "Arrrr...",
+   "Fire the cannons!",
+   "Hah! I'll cut ye into parrot crackers!",
+   "Macrocephalic baboon!",
+   "Ye trifle with the strongest fleet on the high seas!"
+  ]
+ },
+ "notifications": {
+  "{\"k\":\"s.plus_symbol\",\"t\":{\"amount\":\"29\",}}": 18,
+  "{\"k\":\"s.plus_symbol\",\"t\":{\"amount\":\"8\",}}": 3,
+  "null": 3,
+  "{\"k\":\"s.plus_symbol\",\"t\":{\"amount\":\"1\",}}": 2,
+  "giftChestOccupied": 1,
+  "{\"k\":\"s.plus_symbol\",\"t\":{\"amount\":\"19\",}}": 1,
+  "{\"k\":\"s.plus_symbol\",\"t\":{\"amount\":\"9\",}}": 1,
+  "{\"k\":\"s.plus_symbol\",\"t\":{\"amount\":\"11\",}}": 1,
+  "{\"k\":\"s.plus_symbol\",\"t\":{\"amount\":\"13\",}}": 1,
+  "{\"k\":\"s.plus_symbol\",\"t\":{\"amount\":\"26\",}}": 1,
+  "{\"k\":\"s.quest_complete\"}": 1
+ },
+ "teleports": {},
+ "loot_bags": [
+  [
+   "Loot Bag: [2674]",
+   5
+  ],
+  [
+   "Loot Bag: [2575]",
+   3
+  ],
+  [
+   "Loot Bag 0: [2594]",
+   2
+  ],
+  [
+   "Loot Bag: [2647]",
+   2
+  ],
+  [
+   "Loot Bag: [2668]",
+   2
+  ],
+  [
+   "Loot Bag: [31595]",
+   2
+  ],
+  [
+   "Loot Bag: [2640]",
+   1
+  ],
+  [
+   "Loot Bag: [2677]",
+   1
+  ],
+  [
+   "Loot Bag: [2680]",
+   1
+  ],
+  [
+   "Loot Bag: [2573]",
+   1
+  ],
+  [
+   "Loot Bag: [2713, 3143]",
+   1
+  ],
+  [
+   "Loot Bag: [6139, 8841]",
+   1
+  ]
+ ],
+ "portals": [
+  [
+   "Portal of Cowardice",
+   []
+  ],
+  [
+   "Portal of Cowardice",
+   []
+  ],
+  [
+   "Realm Portal",
+   []
+  ]
+ ],
+ "quest_targets": [
+  "Dreadstump the Pirate King"
+ ]
+}

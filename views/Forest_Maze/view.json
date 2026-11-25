@@ -1,0 +1,359 @@
+{
+"dungeon": "Forest_Maze",
+"sources": [
+"forestMaze"
+],
+"counts": {
+"enemies": 6,
+"props": 17,
+"projectiles": 5,
+"loot": 2,
+"tiles": 6
+},
+"why": {
+"src": 23,
+"proj": 5,
+"loot": 2,
+"tile": 6
+},
+"tile_hints_used": {
+"grass": 5,
+"dirt": 1
+},
+"names_in_own_files": [
+"Forest Goblin",
+"Forest Goblin Mage",
+"Armored Squirrel",
+"Mini Megamoth",
+"Ultimate Squirrel",
+"Mama Megamoth"
+],
+"names_in_other_files": [],
+"names_not_found": [],
+"entries": [
+{
+"id": "Mama Megamoth",
+"type": "0x5e62",
+"src": "forestMaze",
+"category": "enemy",
+"sub": "boss",
+"why": "src",
+"file": "enemies/boss/Mama Megamoth__5e62.png"
+},
+{
+"id": "Mini Megamoth",
+"type": "0x5e61",
+"src": "forestMaze",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Mini Megamoth__5e61.png"
+},
+{
+"id": "Armored Squirrel",
+"type": "0x5e60",
+"src": "forestMaze",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Armored Squirrel__5e60.png"
+},
+{
+"id": "Ultimate Squirrel",
+"type": "0x5e63",
+"src": "forestMaze",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Ultimate Squirrel__5e63.png"
+},
+{
+"id": "Forest Goblin Mage",
+"type": "0x5e4d",
+"src": "forestMaze",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Forest Goblin Mage__5e4d.png"
+},
+{
+"id": "Forest Goblin",
+"type": "0x5e4c",
+"src": "forestMaze",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Forest Goblin__5e4c.png"
+},
+{
+"id": "Forrest Shady Floor",
+"type": "0x5e5f",
+"src": "forestMaze",
+"category": "prop",
+"sub": "forestMaze",
+"why": "src",
+"file": "props/all/Forrest Shady Floor__5e5f.png"
+},
+{
+"id": "Forrest Shady Corner DL",
+"type": "0x5e5e",
+"src": "forestMaze",
+"category": "prop",
+"sub": "forestMaze",
+"why": "src",
+"file": "props/all/Forrest Shady Corner DL__5e5e.png"
+},
+{
+"id": "Forrest Shady Corner DR",
+"type": "0x5e5d",
+"src": "forestMaze",
+"category": "prop",
+"sub": "forestMaze",
+"why": "src",
+"file": "props/all/Forrest Shady Corner DR__5e5d.png"
+},
+{
+"id": "Forrest Shady Corner UL",
+"type": "0x5e5c",
+"src": "forestMaze",
+"category": "prop",
+"sub": "forestMaze",
+"why": "src",
+"file": "props/all/Forrest Shady Corner UL__5e5c.png"
+},
+{
+"id": "Forrest Shady Corner UR",
+"type": "0x5e5b",
+"src": "forestMaze",
+"category": "prop",
+"sub": "forestMaze",
+"why": "src",
+"file": "props/all/Forrest Shady Corner UR__5e5b.png"
+},
+{
+"id": "Forrest Shady OCorner DL",
+"type": "0x5e5a",
+"src": "forestMaze",
+"category": "prop",
+"sub": "forestMaze",
+"why": "src",
+"file": "props/all/Forrest Shady OCorner DL__5e5a.png"
+},
+{
+"id": "Forrest Shady OCorner DR",
+"type": "0x5e59",
+"src": "forestMaze",
+"category": "prop",
+"sub": "forestMaze",
+"why": "src",
+"file": "props/all/Forrest Shady OCorner DR__5e59.png"
+},
+{
+"id": "Forrest Shady OCorner UL",
+"type": "0x5e58",
+"src": "forestMaze",
+"category": "prop",
+"sub": "forestMaze",
+"why": "src",
+"file": "props/all/Forrest Shady OCorner UL__5e58.png"
+},
+{
+"id": "Forrest Shady OCorner UR",
+"type": "0x5e57",
+"src": "forestMaze",
+"category": "prop",
+"sub": "forestMaze",
+"why": "src",
+"file": "props/all/Forrest Shady OCorner UR__5e57.png"
+},
+{
+"id": "Forrest Shady Edge UP",
+"type": "0x5e56",
+"src": "forestMaze",
+"category": "prop",
+"sub": "forestMaze",
+"why": "src",
+"file": "props/all/Forrest Shady Edge UP__5e56.png"
+},
+{
+"id": "Forrest Shady Edge DN",
+"type": "0x5e55",
+"src": "forestMaze",
+"category": "prop",
+"sub": "forestMaze",
+"why": "src",
+"file": "props/all/Forrest Shady Edge DN__5e55.png"
+},
+{
+"id": "Forrest Shady Edge LF",
+"type": "0x5e54",
+"src": "forestMaze",
+"category": "prop",
+"sub": "forestMaze",
+"why": "src",
+"file": "props/all/Forrest Shady Edge LF__5e54.png"
+},
+{
+"id": "Forrest Shady Edge RT",
+"type": "0x5e53",
+"src": "forestMaze",
+"category": "prop",
+"sub": "forestMaze",
+"why": "src",
+"file": "props/all/Forrest Shady Edge RT__5e53.png"
+},
+{
+"id": "Forrest Shady Floor DR",
+"type": "0x5e52",
+"src": "forestMaze",
+"category": "prop",
+"sub": "forestMaze",
+"why": "src",
+"file": "props/all/Forrest Shady Floor DR__5e52.png"
+},
+{
+"id": "Forrest Shady Floor DL",
+"type": "0x5e51",
+"src": "forestMaze",
+"category": "prop",
+"sub": "forestMaze",
+"why": "src",
+"file": "props/all/Forrest Shady Floor DL__5e51.png"
+},
+{
+"id": "Forrest Shady Floor UR",
+"type": "0x5e50",
+"src": "forestMaze",
+"category": "prop",
+"sub": "forestMaze",
+"why": "src",
+"file": "props/all/Forrest Shady Floor UR__5e50.png"
+},
+{
+"id": "Forrest Shady Floor UL",
+"type": "0x5e4f",
+"src": "forestMaze",
+"category": "prop",
+"sub": "forestMaze",
+"why": "src",
+"file": "props/all/Forrest Shady Floor UL__5e4f.png"
+},
+{
+"id": "Moth Dust",
+"type": "0x214f",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Moth Dust__214f.png"
+},
+{
+"id": "Small Moth Bullet",
+"type": "0x2150",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Small Moth Bullet__2150.png"
+},
+{
+"id": "Blade",
+"type": "0x0006",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Blade__0006.png"
+},
+{
+"id": "Acorn",
+"type": "0x2152",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Acorn__2152.png"
+},
+{
+"id": "Leaf Magic",
+"type": "0x2151",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Leaf Magic__2151.png"
+},
+{
+"id": "Bramble Bow",
+"type": "0x2380",
+"src": "equip",
+"category": "weapon",
+"sub": "bow",
+"why": "loot",
+"file": "loot/weapon_bow/Bramble Bow__2380.png"
+},
+{
+"id": "Cocoon Quiver",
+"type": "0x2381",
+"src": "equip",
+"category": "ability",
+"sub": "all",
+"why": "loot",
+"file": "loot/ability/Cocoon Quiver__2381.png"
+},
+{
+"id": "Bright Grass",
+"type": "0x23",
+"src": "ground",
+"category": "tile",
+"sub": "ground",
+"why": "tile",
+"file": "tiles/all/Bright Grass__23.png"
+},
+{
+"id": "Dirt",
+"type": "0x1c",
+"src": "ground",
+"category": "tile",
+"sub": "ground",
+"why": "tile",
+"file": "tiles/all/Dirt__1c.png"
+},
+{
+"id": "Light Grass",
+"type": "0x46",
+"src": "ground",
+"category": "tile",
+"sub": "ground",
+"why": "tile",
+"file": "tiles/all/Light Grass__46.png"
+},
+{
+"id": "Grass",
+"type": "0x48",
+"src": "ground",
+"category": "tile",
+"sub": "ground",
+"why": "tile",
+"file": "tiles/all/Grass__48.png"
+},
+{
+"id": "Dark Grass",
+"type": "0x56",
+"src": "ground",
+"category": "tile",
+"sub": "ground",
+"why": "tile",
+"file": "tiles/all/Dark Grass__56.png"
+},
+{
+"id": "New Grass",
+"type": "0x012c",
+"src": "ground",
+"category": "tile",
+"sub": "ground",
+"why": "tile",
+"file": "tiles/all/New Grass__012c.png"
+}
+]
+}

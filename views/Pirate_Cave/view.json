@@ -1,0 +1,1367 @@
+{
+"dungeon": "Pirate_Cave",
+"sources": [
+"pirateCaveObjects",
+"pirateCaveGround"
+],
+"counts": {
+"tiles": 38,
+"projectiles": 7,
+"loot": 2,
+"props": 38,
+"helpers": 1,
+"enemies": 15,
+"walls": 45
+},
+"why": {
+"src": 140,
+"spec": 1,
+"proj": 2,
+"loot": 1,
+"tile": 2
+},
+"tile_hints_used": {
+"water": 3
+},
+"names_in_own_files": [
+"Cave Pirate Brawler",
+"Cave Pirate Sailor",
+"Cave Pirate Veteran",
+"Cave Pirate Cabin Boy",
+"Cave Pirate Hunchback",
+"Cave Pirate Macaw",
+"Cave Pirate Moll",
+"Cave Pirate Monkey",
+"Cave Pirate Parrot",
+"Pirate Lieutenant",
+"Pirate Commander",
+"Pirate Captain",
+"Pirate Admiral",
+"Dreadstump the Pirate King"
+],
+"names_in_other_files": [
+[
+"Water",
+[
+"ground"
+]
+]
+],
+"names_not_found": [],
+"entries": [
+{
+"id": "PC Sand",
+"type": "0x15d",
+"src": "pirateCaveGround",
+"category": "tile",
+"sub": "pirateCaveGround",
+"why": "src",
+"file": "tiles/all/PC Sand__15d.png"
+},
+{
+"id": "PC Water",
+"type": "0x15e",
+"src": "pirateCaveGround",
+"category": "tile",
+"sub": "pirateCaveGround",
+"why": "src",
+"file": "tiles/all/PC Water__15e.png"
+},
+{
+"id": "PC Dark Water",
+"type": "0x169",
+"src": "pirateCaveGround",
+"category": "tile",
+"sub": "pirateCaveGround",
+"why": "src",
+"file": "tiles/all/PC Dark Water__169.png"
+},
+{
+"id": "PC X 1",
+"type": "0x15f",
+"src": "pirateCaveGround",
+"category": "tile",
+"sub": "pirateCaveGround",
+"why": "src",
+"file": "tiles/all/PC X 1__15f.png"
+},
+{
+"id": "PC X 2",
+"type": "0x160",
+"src": "pirateCaveGround",
+"category": "tile",
+"sub": "pirateCaveGround",
+"why": "src",
+"file": "tiles/all/PC X 2__160.png"
+},
+{
+"id": "PC X 3",
+"type": "0x161",
+"src": "pirateCaveGround",
+"category": "tile",
+"sub": "pirateCaveGround",
+"why": "src",
+"file": "tiles/all/PC X 3__161.png"
+},
+{
+"id": "PC X 4",
+"type": "0x162",
+"src": "pirateCaveGround",
+"category": "tile",
+"sub": "pirateCaveGround",
+"why": "src",
+"file": "tiles/all/PC X 4__162.png"
+},
+{
+"id": "PC Vertical Wood Edge L",
+"type": "0x163",
+"src": "pirateCaveGround",
+"category": "tile",
+"sub": "pirateCaveGround",
+"why": "src",
+"file": "tiles/all/PC Vertical Wood Edge L__163.png"
+},
+{
+"id": "PC Vertical Wood",
+"type": "0x164",
+"src": "pirateCaveGround",
+"category": "tile",
+"sub": "pirateCaveGround",
+"why": "src",
+"file": "tiles/all/PC Vertical Wood__164.png"
+},
+{
+"id": "PC Vertical Wood Edge R",
+"type": "0x165",
+"src": "pirateCaveGround",
+"category": "tile",
+"sub": "pirateCaveGround",
+"why": "src",
+"file": "tiles/all/PC Vertical Wood Edge R__165.png"
+},
+{
+"id": "PC Horizontal Wood Edge L",
+"type": "0x166",
+"src": "pirateCaveGround",
+"category": "tile",
+"sub": "pirateCaveGround",
+"why": "src",
+"file": "tiles/all/PC Horizontal Wood Edge L__166.png"
+},
+{
+"id": "PC Horizontal Wood",
+"type": "0x167",
+"src": "pirateCaveGround",
+"category": "tile",
+"sub": "pirateCaveGround",
+"why": "src",
+"file": "tiles/all/PC Horizontal Wood__167.png"
+},
+{
+"id": "PC Horizontal Wood Edge R",
+"type": "0x168",
+"src": "pirateCaveGround",
+"category": "tile",
+"sub": "pirateCaveGround",
+"why": "src",
+"file": "tiles/all/PC Horizontal Wood Edge R__168.png"
+},
+{
+"id": "PC Vertical Wood Cracked 1",
+"type": "0x16a",
+"src": "pirateCaveGround",
+"category": "tile",
+"sub": "pirateCaveGround",
+"why": "src",
+"file": "tiles/all/PC Vertical Wood Cracked 1__16a.png"
+},
+{
+"id": "PC Vertical Wood Cracked 2",
+"type": "0x16b",
+"src": "pirateCaveGround",
+"category": "tile",
+"sub": "pirateCaveGround",
+"why": "src",
+"file": "tiles/all/PC Vertical Wood Cracked 2__16b.png"
+},
+{
+"id": "PC Vertical Wood Cracked 3",
+"type": "0x16c",
+"src": "pirateCaveGround",
+"category": "tile",
+"sub": "pirateCaveGround",
+"why": "src",
+"file": "tiles/all/PC Vertical Wood Cracked 3__16c.png"
+},
+{
+"id": "PC Vertical Wood Cracked 4",
+"type": "0x16d",
+"src": "pirateCaveGround",
+"category": "tile",
+"sub": "pirateCaveGround",
+"why": "src",
+"file": "tiles/all/PC Vertical Wood Cracked 4__16d.png"
+},
+{
+"id": "PC Vertical Wood Blood 1",
+"type": "0x16e",
+"src": "pirateCaveGround",
+"category": "tile",
+"sub": "pirateCaveGround",
+"why": "src",
+"file": "tiles/all/PC Vertical Wood Blood 1__16e.png"
+},
+{
+"id": "PC Vertical Wood Blood 2",
+"type": "0x16f",
+"src": "pirateCaveGround",
+"category": "tile",
+"sub": "pirateCaveGround",
+"why": "src",
+"file": "tiles/all/PC Vertical Wood Blood 2__16f.png"
+},
+{
+"id": "PC Vertical Wood Blood 3",
+"type": "0x17a",
+"src": "pirateCaveGround",
+"category": "tile",
+"sub": "pirateCaveGround",
+"why": "src",
+"file": "tiles/all/PC Vertical Wood Blood 3__17a.png"
+},
+{
+"id": "PC Vertical Wood Blood 4",
+"type": "0x17b",
+"src": "pirateCaveGround",
+"category": "tile",
+"sub": "pirateCaveGround",
+"why": "src",
+"file": "tiles/all/PC Vertical Wood Blood 4__17b.png"
+},
+{
+"id": "PC Horizontal Wood Cracked 1",
+"type": "0x17c",
+"src": "pirateCaveGround",
+"category": "tile",
+"sub": "pirateCaveGround",
+"why": "src",
+"file": "tiles/all/PC Horizontal Wood Cracked 1__17c.png"
+},
+{
+"id": "PC Horizontal Wood Cracked 2",
+"type": "0x17d",
+"src": "pirateCaveGround",
+"category": "tile",
+"sub": "pirateCaveGround",
+"why": "src",
+"file": "tiles/all/PC Horizontal Wood Cracked 2__17d.png"
+},
+{
+"id": "PC Horizontal Wood Cracked 3",
+"type": "0x17f",
+"src": "pirateCaveGround",
+"category": "tile",
+"sub": "pirateCaveGround",
+"why": "src",
+"file": "tiles/all/PC Horizontal Wood Cracked 3__17f.png"
+},
+{
+"id": "PC Horizontal Wood Cracked 4",
+"type": "0x175",
+"src": "pirateCaveGround",
+"category": "tile",
+"sub": "pirateCaveGround",
+"why": "src",
+"file": "tiles/all/PC Horizontal Wood Cracked 4__175.png"
+},
+{
+"id": "PC Horizontal Wood Blood 1",
+"type": "0x176",
+"src": "pirateCaveGround",
+"category": "tile",
+"sub": "pirateCaveGround",
+"why": "src",
+"file": "tiles/all/PC Horizontal Wood Blood 1__176.png"
+},
+{
+"id": "PC Horizontal Wood Blood 2",
+"type": "0x177",
+"src": "pirateCaveGround",
+"category": "tile",
+"sub": "pirateCaveGround",
+"why": "src",
+"file": "tiles/all/PC Horizontal Wood Blood 2__177.png"
+},
+{
+"id": "PC Horizontal Wood Blood 3",
+"type": "0x178",
+"src": "pirateCaveGround",
+"category": "tile",
+"sub": "pirateCaveGround",
+"why": "src",
+"file": "tiles/all/PC Horizontal Wood Blood 3__178.png"
+},
+{
+"id": "PC Horizontal Wood Blood 4",
+"type": "0x179",
+"src": "pirateCaveGround",
+"category": "tile",
+"sub": "pirateCaveGround",
+"why": "src",
+"file": "tiles/all/PC Horizontal Wood Blood 4__179.png"
+},
+{
+"id": "PC King Carpet",
+"type": "0x17e",
+"src": "pirateCaveGround",
+"category": "tile",
+"sub": "pirateCaveGround",
+"why": "src",
+"file": "tiles/all/PC King Carpet__17e.png"
+},
+{
+"id": "PC Dark Vertical Wood",
+"type": "0x180",
+"src": "pirateCaveGround",
+"category": "tile",
+"sub": "pirateCaveGround",
+"why": "src",
+"file": "tiles/all/PC Dark Vertical Wood__180.png"
+},
+{
+"id": "PC Dark Vertical Wood Cracked 1",
+"type": "0x181",
+"src": "pirateCaveGround",
+"category": "tile",
+"sub": "pirateCaveGround",
+"why": "src",
+"file": "tiles/all/PC Dark Vertical Wood Cracked 1__181.png"
+},
+{
+"id": "PC Dark Vertical Wood Cracked 2",
+"type": "0x182",
+"src": "pirateCaveGround",
+"category": "tile",
+"sub": "pirateCaveGround",
+"why": "src",
+"file": "tiles/all/PC Dark Vertical Wood Cracked 2__182.png"
+},
+{
+"id": "PC Bright Water",
+"type": "0x183",
+"src": "pirateCaveGround",
+"category": "tile",
+"sub": "pirateCaveGround",
+"why": "src",
+"file": "tiles/all/PC Bright Water__183.png"
+},
+{
+"id": "PC Sand Alt",
+"type": "0x184",
+"src": "pirateCaveGround",
+"category": "tile",
+"sub": "pirateCaveGround",
+"why": "src",
+"file": "tiles/all/PC Sand Alt__184.png"
+},
+{
+"id": "Pirate Shot",
+"type": "0x2b2",
+"src": "pirateCaveObjects",
+"category": "projectile",
+"sub": "all",
+"why": "src",
+"file": "projectiles/all/Pirate Shot__2b2.png"
+},
+{
+"id": "Pirate Sword",
+"type": "0x2c2",
+"src": "pirateCaveObjects",
+"category": "projectile",
+"sub": "all",
+"why": "src",
+"file": "projectiles/all/Pirate Sword__2c2.png"
+},
+{
+"id": "Pirate Fiery Bullet",
+"type": "0x2c3",
+"src": "pirateCaveObjects",
+"category": "projectile",
+"sub": "all",
+"why": "src",
+"file": "projectiles/all/Pirate Fiery Bullet__2c3.png"
+},
+{
+"id": "Pirate Cannon Bullet",
+"type": "0x2c4",
+"src": "pirateCaveObjects",
+"category": "projectile",
+"sub": "all",
+"why": "src",
+"file": "projectiles/all/Pirate Cannon Bullet__2c4.png"
+},
+{
+"id": "Pirate King Sword",
+"type": "0x2c5",
+"src": "pirateCaveObjects",
+"category": "projectile",
+"sub": "all",
+"why": "src",
+"file": "projectiles/all/Pirate King Sword__2c5.png"
+},
+{
+"id": "Corsair Ring",
+"type": "0x2289",
+"src": "pirateCaveObjects",
+"category": "ring",
+"sub": "all",
+"why": "src",
+"file": "loot/ring/Corsair Ring__2289.png"
+},
+{
+"id": "PC Invis Occupy",
+"type": "0x2bb",
+"src": "pirateCaveObjects",
+"category": "prop",
+"sub": "pirateCaveObjects",
+"why": "src",
+"file": "props/all/PC Invis Occupy__2bb.png"
+},
+{
+"id": "PC Dreadstump Cannon",
+"type": "0x2b7",
+"src": "pirateCaveObjects",
+"category": "helper",
+"sub": "other",
+"why": "src",
+"file": "helpers/other/PC Dreadstump Cannon__2b7.png"
+},
+{
+"id": "PC Cannon Context",
+"type": "0x2b8",
+"src": "pirateCaveObjects",
+"category": "prop",
+"sub": "pirateCaveObjects",
+"why": "src",
+"file": "props/all/PC Cannon Context__2b8.png"
+},
+{
+"id": "PC Dreadstump Reference Point",
+"type": "0x2b9",
+"src": "pirateCaveObjects",
+"category": "prop",
+"sub": "pirateCaveObjects",
+"why": "src",
+"file": "props/all/PC Dreadstump Reference Point__2b9.png"
+},
+{
+"id": "PC Dreadstump Anchor",
+"type": "0x2ba",
+"src": "pirateCaveObjects",
+"category": "prop",
+"sub": "pirateCaveObjects",
+"why": "src",
+"file": "props/all/PC Dreadstump Anchor__2ba.png"
+},
+{
+"id": "Dreadstump the Pirate King",
+"type": "0x0927",
+"src": "pirateCaveObjects",
+"category": "enemy",
+"sub": "boss",
+"why": "src",
+"file": "enemies/boss/Dreadstump the Pirate King__0927.png"
+},
+{
+"id": "Pirate Lieutenant",
+"type": "0x683",
+"src": "pirateCaveObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Pirate Lieutenant__683.png"
+},
+{
+"id": "Pirate Commander",
+"type": "0x684",
+"src": "pirateCaveObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Pirate Commander__684.png"
+},
+{
+"id": "Pirate Captain",
+"type": "0x685",
+"src": "pirateCaveObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Pirate Captain__685.png"
+},
+{
+"id": "Pirate Admiral",
+"type": "0x686",
+"src": "pirateCaveObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Pirate Admiral__686.png"
+},
+{
+"id": "Cave Pirate Brawler",
+"type": "0x687",
+"src": "pirateCaveObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Cave Pirate Brawler__687.png"
+},
+{
+"id": "Cave Pirate Sailor",
+"type": "0x688",
+"src": "pirateCaveObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Cave Pirate Sailor__688.png"
+},
+{
+"id": "Cave Pirate Veteran",
+"type": "0x689",
+"src": "pirateCaveObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Cave Pirate Veteran__689.png"
+},
+{
+"id": "Cave Pirate Moll",
+"type": "0x68a",
+"src": "pirateCaveObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Cave Pirate Moll__68a.png"
+},
+{
+"id": "Cave Pirate Parrot",
+"type": "0x68b",
+"src": "pirateCaveObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Cave Pirate Parrot__68b.png"
+},
+{
+"id": "Cave Pirate Macaw",
+"type": "0x68c",
+"src": "pirateCaveObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Cave Pirate Macaw__68c.png"
+},
+{
+"id": "Cave Pirate Monkey",
+"type": "0x68d",
+"src": "pirateCaveObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Cave Pirate Monkey__68d.png"
+},
+{
+"id": "Cave Pirate Hunchback",
+"type": "0x68e",
+"src": "pirateCaveObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Cave Pirate Hunchback__68e.png"
+},
+{
+"id": "Cave Pirate Cabin Boy",
+"type": "0x68f",
+"src": "pirateCaveObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Cave Pirate Cabin Boy__68f.png"
+},
+{
+"id": "PC Large Painting Placer",
+"type": "0x2ab",
+"src": "pirateCaveObjects",
+"category": "prop",
+"sub": "pirateCaveObjects",
+"why": "src",
+"file": "props/all/PC Large Painting Placer__2ab.png"
+},
+{
+"id": "PC Large Painting Placer South",
+"type": "0x2b6",
+"src": "pirateCaveObjects",
+"category": "prop",
+"sub": "pirateCaveObjects",
+"why": "src",
+"file": "props/all/PC Large Painting Placer South__2b6.png"
+},
+{
+"id": "PC Ship Wall Placer",
+"type": "0x2b3",
+"src": "pirateCaveObjects",
+"category": "prop",
+"sub": "pirateCaveObjects",
+"why": "src",
+"file": "props/all/PC Ship Wall Placer__2b3.png"
+},
+{
+"id": "PC Cannon",
+"type": "0x2b4",
+"src": "pirateCaveObjects",
+"category": "prop",
+"sub": "pirateCaveObjects",
+"why": "src",
+"file": "props/all/PC Cannon__2b4.png"
+},
+{
+"id": "PC Treasure X",
+"type": "0x27d",
+"src": "pirateCaveObjects",
+"category": "prop",
+"sub": "pirateCaveObjects",
+"why": "src",
+"file": "props/all/PC Treasure X__27d.png"
+},
+{
+"id": "PC Static Overwrite",
+"type": "0x27e",
+"src": "pirateCaveObjects",
+"category": "prop",
+"sub": "pirateCaveObjects",
+"why": "src",
+"file": "props/all/PC Static Overwrite__27e.png"
+},
+{
+"id": "PC Cave Wall",
+"type": "0x27f",
+"src": "pirateCaveObjects",
+"category": "wall",
+"sub": "pirateCaveObjects",
+"why": "src",
+"file": "walls/all/PC Cave Wall__27f.png"
+},
+{
+"id": "PC Hermit Shell",
+"type": "0x280",
+"src": "pirateCaveObjects",
+"category": "prop",
+"sub": "pirateCaveObjects",
+"why": "src",
+"file": "props/all/PC Hermit Shell__280.png"
+},
+{
+"id": "PC Wood Wall",
+"type": "0x281",
+"src": "pirateCaveObjects",
+"category": "wall",
+"sub": "pirateCaveObjects",
+"why": "src",
+"file": "walls/all/PC Wood Wall__281.png"
+},
+{
+"id": "PC Book Wall",
+"type": "0x282",
+"src": "pirateCaveObjects",
+"category": "wall",
+"sub": "pirateCaveObjects",
+"why": "src",
+"file": "walls/all/PC Book Wall__282.png"
+},
+{
+"id": "PC Torch Wall",
+"type": "0x283",
+"src": "pirateCaveObjects",
+"category": "wall",
+"sub": "pirateCaveObjects",
+"why": "src",
+"file": "walls/all/PC Torch Wall__283.png"
+},
+{
+"id": "PC Chest",
+"type": "0x284",
+"src": "pirateCaveObjects",
+"category": "prop",
+"sub": "pirateCaveObjects",
+"why": "src",
+"file": "props/all/PC Chest__284.png"
+},
+{
+"id": "PC Vase",
+"type": "0x285",
+"src": "pirateCaveObjects",
+"category": "prop",
+"sub": "pirateCaveObjects",
+"why": "src",
+"file": "props/all/PC Vase__285.png"
+},
+{
+"id": "PC Small Palm",
+"type": "0x286",
+"src": "pirateCaveObjects",
+"category": "prop",
+"sub": "pirateCaveObjects",
+"why": "src",
+"file": "props/all/PC Small Palm__286.png"
+},
+{
+"id": "PC Small Flag",
+"type": "0x287",
+"src": "pirateCaveObjects",
+"category": "prop",
+"sub": "pirateCaveObjects",
+"why": "src",
+"file": "props/all/PC Small Flag__287.png"
+},
+{
+"id": "PC Cage",
+"type": "0x288",
+"src": "pirateCaveObjects",
+"category": "prop",
+"sub": "pirateCaveObjects",
+"why": "src",
+"file": "props/all/PC Cage__288.png"
+},
+{
+"id": "PC Normal Bottle",
+"type": "0x289",
+"src": "pirateCaveObjects",
+"category": "prop",
+"sub": "pirateCaveObjects",
+"why": "src",
+"file": "props/all/PC Normal Bottle__289.png"
+},
+{
+"id": "PC Booze Barrel",
+"type": "0x2a9",
+"src": "pirateCaveObjects",
+"category": "prop",
+"sub": "pirateCaveObjects",
+"why": "src",
+"file": "props/all/PC Booze Barrel__2a9.png"
+},
+{
+"id": "PC Swag",
+"type": "0x28a",
+"src": "pirateCaveObjects",
+"category": "prop",
+"sub": "pirateCaveObjects",
+"why": "src",
+"file": "props/all/PC Swag__28a.png"
+},
+{
+"id": "PC Floating Crate",
+"type": "0x28b",
+"src": "pirateCaveObjects",
+"category": "prop",
+"sub": "pirateCaveObjects",
+"why": "src",
+"file": "props/all/PC Floating Crate__28b.png"
+},
+{
+"id": "PC Floating Booze",
+"type": "0x28c",
+"src": "pirateCaveObjects",
+"category": "prop",
+"sub": "pirateCaveObjects",
+"why": "src",
+"file": "props/all/PC Floating Booze__28c.png"
+},
+{
+"id": "PC SandCastle",
+"type": "0x28d",
+"src": "pirateCaveObjects",
+"category": "prop",
+"sub": "pirateCaveObjects",
+"why": "src",
+"file": "props/all/PC SandCastle__28d.png"
+},
+{
+"id": "PC Fancy Bottle",
+"type": "0x28e",
+"src": "pirateCaveObjects",
+"category": "prop",
+"sub": "pirateCaveObjects",
+"why": "src",
+"file": "props/all/PC Fancy Bottle__28e.png"
+},
+{
+"id": "PC Stool",
+"type": "0x28f",
+"src": "pirateCaveObjects",
+"category": "prop",
+"sub": "pirateCaveObjects",
+"why": "src",
+"file": "props/all/PC Stool__28f.png"
+},
+{
+"id": "PC Crate",
+"type": "0x290",
+"src": "pirateCaveObjects",
+"category": "prop",
+"sub": "pirateCaveObjects",
+"why": "src",
+"file": "props/all/PC Crate__290.png"
+},
+{
+"id": "PC Crate S",
+"type": "0x2b5",
+"src": "pirateCaveObjects",
+"category": "prop",
+"sub": "pirateCaveObjects",
+"why": "src",
+"file": "props/all/PC Crate S__2b5.png"
+},
+{
+"id": "PC Hat",
+"type": "0x291",
+"src": "pirateCaveObjects",
+"category": "prop",
+"sub": "pirateCaveObjects",
+"why": "src",
+"file": "props/all/PC Hat__291.png"
+},
+{
+"id": "PC Hook",
+"type": "0x292",
+"src": "pirateCaveObjects",
+"category": "prop",
+"sub": "pirateCaveObjects",
+"why": "src",
+"file": "props/all/PC Hook__292.png"
+},
+{
+"id": "PC Painting L 1",
+"type": "0x293",
+"src": "pirateCaveObjects",
+"category": "wall",
+"sub": "pirateCaveObjects",
+"why": "src",
+"file": "walls/all/PC Painting L 1__293.png"
+},
+{
+"id": "PC Painting R 1",
+"type": "0x294",
+"src": "pirateCaveObjects",
+"category": "wall",
+"sub": "pirateCaveObjects",
+"why": "src",
+"file": "walls/all/PC Painting R 1__294.png"
+},
+{
+"id": "PC Painting L 2",
+"type": "0x295",
+"src": "pirateCaveObjects",
+"category": "wall",
+"sub": "pirateCaveObjects",
+"why": "src",
+"file": "walls/all/PC Painting L 2__295.png"
+},
+{
+"id": "PC Painting R 2",
+"type": "0x296",
+"src": "pirateCaveObjects",
+"category": "wall",
+"sub": "pirateCaveObjects",
+"why": "src",
+"file": "walls/all/PC Painting R 2__296.png"
+},
+{
+"id": "PC Painting L 3",
+"type": "0x297",
+"src": "pirateCaveObjects",
+"category": "wall",
+"sub": "pirateCaveObjects",
+"why": "src",
+"file": "walls/all/PC Painting L 3__297.png"
+},
+{
+"id": "PC Painting R 3",
+"type": "0x298",
+"src": "pirateCaveObjects",
+"category": "wall",
+"sub": "pirateCaveObjects",
+"why": "src",
+"file": "walls/all/PC Painting R 3__298.png"
+},
+{
+"id": "PC Painting L 4",
+"type": "0x299",
+"src": "pirateCaveObjects",
+"category": "wall",
+"sub": "pirateCaveObjects",
+"why": "src",
+"file": "walls/all/PC Painting L 4__299.png"
+},
+{
+"id": "PC Painting R 4",
+"type": "0x29a",
+"src": "pirateCaveObjects",
+"category": "wall",
+"sub": "pirateCaveObjects",
+"why": "src",
+"file": "walls/all/PC Painting R 4__29a.png"
+},
+{
+"id": "PC Painting L 5",
+"type": "0x29b",
+"src": "pirateCaveObjects",
+"category": "wall",
+"sub": "pirateCaveObjects",
+"why": "src",
+"file": "walls/all/PC Painting L 5__29b.png"
+},
+{
+"id": "PC Painting R 5",
+"type": "0x29c",
+"src": "pirateCaveObjects",
+"category": "wall",
+"sub": "pirateCaveObjects",
+"why": "src",
+"file": "walls/all/PC Painting R 5__29c.png"
+},
+{
+"id": "PC Painting L 6",
+"type": "0x29d",
+"src": "pirateCaveObjects",
+"category": "wall",
+"sub": "pirateCaveObjects",
+"why": "src",
+"file": "walls/all/PC Painting L 6__29d.png"
+},
+{
+"id": "PC Painting R 6",
+"type": "0x29e",
+"src": "pirateCaveObjects",
+"category": "wall",
+"sub": "pirateCaveObjects",
+"why": "src",
+"file": "walls/all/PC Painting R 6__29e.png"
+},
+{
+"id": "PC Painting L 7",
+"type": "0x29f",
+"src": "pirateCaveObjects",
+"category": "wall",
+"sub": "pirateCaveObjects",
+"why": "src",
+"file": "walls/all/PC Painting L 7__29f.png"
+},
+{
+"id": "PC Painting R 7",
+"type": "0x2a0",
+"src": "pirateCaveObjects",
+"category": "wall",
+"sub": "pirateCaveObjects",
+"why": "src",
+"file": "walls/all/PC Painting R 7__2a0.png"
+},
+{
+"id": "PC Painting L 8",
+"type": "0x2a1",
+"src": "pirateCaveObjects",
+"category": "wall",
+"sub": "pirateCaveObjects",
+"why": "src",
+"file": "walls/all/PC Painting L 8__2a1.png"
+},
+{
+"id": "PC Painting R 8",
+"type": "0x2a2",
+"src": "pirateCaveObjects",
+"category": "wall",
+"sub": "pirateCaveObjects",
+"why": "src",
+"file": "walls/all/PC Painting R 8__2a2.png"
+},
+{
+"id": "PC Painting L 9",
+"type": "0x2a3",
+"src": "pirateCaveObjects",
+"category": "wall",
+"sub": "pirateCaveObjects",
+"why": "src",
+"file": "walls/all/PC Painting L 9__2a3.png"
+},
+{
+"id": "PC Painting R 9",
+"type": "0x2a4",
+"src": "pirateCaveObjects",
+"category": "wall",
+"sub": "pirateCaveObjects",
+"why": "src",
+"file": "walls/all/PC Painting R 9__2a4.png"
+},
+{
+"id": "PC Painting L a",
+"type": "0x2a5",
+"src": "pirateCaveObjects",
+"category": "wall",
+"sub": "pirateCaveObjects",
+"why": "src",
+"file": "walls/all/PC Painting L a__2a5.png"
+},
+{
+"id": "PC Painting R a",
+"type": "0x2a6",
+"src": "pirateCaveObjects",
+"category": "wall",
+"sub": "pirateCaveObjects",
+"why": "src",
+"file": "walls/all/PC Painting R a__2a6.png"
+},
+{
+"id": "PC Painting L b",
+"type": "0x2a7",
+"src": "pirateCaveObjects",
+"category": "wall",
+"sub": "pirateCaveObjects",
+"why": "src",
+"file": "walls/all/PC Painting L b__2a7.png"
+},
+{
+"id": "PC Painting R b",
+"type": "0x2a8",
+"src": "pirateCaveObjects",
+"category": "wall",
+"sub": "pirateCaveObjects",
+"why": "src",
+"file": "walls/all/PC Painting R b__2a8.png"
+},
+{
+"id": "PC Painting L c",
+"type": "0x2c6",
+"src": "pirateCaveObjects",
+"category": "wall",
+"sub": "pirateCaveObjects",
+"why": "src",
+"file": "walls/all/PC Painting L c__2c6.png"
+},
+{
+"id": "PC Painting R c",
+"type": "0x2c7",
+"src": "pirateCaveObjects",
+"category": "wall",
+"sub": "pirateCaveObjects",
+"why": "src",
+"file": "walls/all/PC Painting R c__2c7.png"
+},
+{
+"id": "PC Painting L d",
+"type": "0x2c8",
+"src": "pirateCaveObjects",
+"category": "wall",
+"sub": "pirateCaveObjects",
+"why": "src",
+"file": "walls/all/PC Painting L d__2c8.png"
+},
+{
+"id": "PC Painting R d",
+"type": "0x2c9",
+"src": "pirateCaveObjects",
+"category": "wall",
+"sub": "pirateCaveObjects",
+"why": "src",
+"file": "walls/all/PC Painting R d__2c9.png"
+},
+{
+"id": "PC Painting L e",
+"type": "0x2ca",
+"src": "pirateCaveObjects",
+"category": "wall",
+"sub": "pirateCaveObjects",
+"why": "src",
+"file": "walls/all/PC Painting L e__2ca.png"
+},
+{
+"id": "PC Painting R e",
+"type": "0x2cb",
+"src": "pirateCaveObjects",
+"category": "wall",
+"sub": "pirateCaveObjects",
+"why": "src",
+"file": "walls/all/PC Painting R e__2cb.png"
+},
+{
+"id": "PC Painting L f",
+"type": "0x2cc",
+"src": "pirateCaveObjects",
+"category": "wall",
+"sub": "pirateCaveObjects",
+"why": "src",
+"file": "walls/all/PC Painting L f__2cc.png"
+},
+{
+"id": "PC Painting R f",
+"type": "0x2cd",
+"src": "pirateCaveObjects",
+"category": "wall",
+"sub": "pirateCaveObjects",
+"why": "src",
+"file": "walls/all/PC Painting R f__2cd.png"
+},
+{
+"id": "PC Painting L g",
+"type": "0x2ce",
+"src": "pirateCaveObjects",
+"category": "wall",
+"sub": "pirateCaveObjects",
+"why": "src",
+"file": "walls/all/PC Painting L g__2ce.png"
+},
+{
+"id": "PC Painting R g",
+"type": "0x2cf",
+"src": "pirateCaveObjects",
+"category": "wall",
+"sub": "pirateCaveObjects",
+"why": "src",
+"file": "walls/all/PC Painting R g__2cf.png"
+},
+{
+"id": "PC Painting L h",
+"type": "0x2d0",
+"src": "pirateCaveObjects",
+"category": "wall",
+"sub": "pirateCaveObjects",
+"why": "src",
+"file": "walls/all/PC Painting L h__2d0.png"
+},
+{
+"id": "PC Painting R h",
+"type": "0x2d1",
+"src": "pirateCaveObjects",
+"category": "wall",
+"sub": "pirateCaveObjects",
+"why": "src",
+"file": "walls/all/PC Painting R h__2d1.png"
+},
+{
+"id": "PC Painting L i",
+"type": "0x2d2",
+"src": "pirateCaveObjects",
+"category": "wall",
+"sub": "pirateCaveObjects",
+"why": "src",
+"file": "walls/all/PC Painting L i__2d2.png"
+},
+{
+"id": "PC Painting R i",
+"type": "0x2d3",
+"src": "pirateCaveObjects",
+"category": "wall",
+"sub": "pirateCaveObjects",
+"why": "src",
+"file": "walls/all/PC Painting R i__2d3.png"
+},
+{
+"id": "PC Painting L j",
+"type": "0x2d4",
+"src": "pirateCaveObjects",
+"category": "wall",
+"sub": "pirateCaveObjects",
+"why": "src",
+"file": "walls/all/PC Painting L j__2d4.png"
+},
+{
+"id": "PC Painting R j",
+"type": "0x2d5",
+"src": "pirateCaveObjects",
+"category": "wall",
+"sub": "pirateCaveObjects",
+"why": "src",
+"file": "walls/all/PC Painting R j__2d5.png"
+},
+{
+"id": "PC Painting L k",
+"type": "0x2d6",
+"src": "pirateCaveObjects",
+"category": "wall",
+"sub": "pirateCaveObjects",
+"why": "src",
+"file": "walls/all/PC Painting L k__2d6.png"
+},
+{
+"id": "PC Painting R k",
+"type": "0x2d7",
+"src": "pirateCaveObjects",
+"category": "wall",
+"sub": "pirateCaveObjects",
+"why": "src",
+"file": "walls/all/PC Painting R k__2d7.png"
+},
+{
+"id": "PC Small Painting",
+"type": "0x2aa",
+"src": "pirateCaveObjects",
+"category": "wall",
+"sub": "pirateCaveObjects",
+"why": "src",
+"file": "walls/all/PC Small Painting__2aa.png"
+},
+{
+"id": "PC Large Rolled Sail",
+"type": "0x2ac",
+"src": "pirateCaveObjects",
+"category": "prop",
+"sub": "pirateCaveObjects",
+"why": "src",
+"file": "props/all/PC Large Rolled Sail__2ac.png"
+},
+{
+"id": "PC Large Anchor",
+"type": "0x2ad",
+"src": "pirateCaveObjects",
+"category": "prop",
+"sub": "pirateCaveObjects",
+"why": "src",
+"file": "props/all/PC Large Anchor__2ad.png"
+},
+{
+"id": "PC Large Palm Tree",
+"type": "0x2ae",
+"src": "pirateCaveObjects",
+"category": "prop",
+"sub": "pirateCaveObjects",
+"why": "src",
+"file": "props/all/PC Large Palm Tree__2ae.png"
+},
+{
+"id": "PC Large Sail",
+"type": "0x2af",
+"src": "pirateCaveObjects",
+"category": "prop",
+"sub": "pirateCaveObjects",
+"why": "src",
+"file": "props/all/PC Large Sail__2af.png"
+},
+{
+"id": "PC Large Boss Sail",
+"type": "0x2e1",
+"src": "pirateCaveObjects",
+"category": "prop",
+"sub": "pirateCaveObjects",
+"why": "src",
+"file": "props/all/PC Large Boss Sail__2e1.png"
+},
+{
+"id": "PC Large Boss Sail Roll",
+"type": "0x2e2",
+"src": "pirateCaveObjects",
+"category": "prop",
+"sub": "pirateCaveObjects",
+"why": "src",
+"file": "props/all/PC Large Boss Sail Roll__2e2.png"
+},
+{
+"id": "PC Large Boss Sail Rolled",
+"type": "0x2e3",
+"src": "pirateCaveObjects",
+"category": "prop",
+"sub": "pirateCaveObjects",
+"why": "src",
+"file": "props/all/PC Large Boss Sail Rolled__2e3.png"
+},
+{
+"id": "PC Large Telescope",
+"type": "0x2b0",
+"src": "pirateCaveObjects",
+"category": "prop",
+"sub": "pirateCaveObjects",
+"why": "src",
+"file": "props/all/PC Large Telescope__2b0.png"
+},
+{
+"id": "PC Large Globe",
+"type": "0x2b1",
+"src": "pirateCaveObjects",
+"category": "prop",
+"sub": "pirateCaveObjects",
+"why": "src",
+"file": "props/all/PC Large Globe__2b1.png"
+},
+{
+"id": "PC C",
+"type": "0x2e4",
+"src": "pirateCaveObjects",
+"category": "prop",
+"sub": "pirateCaveObjects",
+"why": "src",
+"file": "props/all/PC C__2e4.png"
+},
+{
+"id": "Test Parrot",
+"type": "0x6229",
+"src": "pirateCaveObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Test Parrot__6229.png"
+},
+{
+"id": "Water",
+"type": "0x72",
+"src": "ground",
+"category": "tile",
+"sub": "ground",
+"why": "spec",
+"file": "tiles/all/Water__72.png"
+},
+{
+"id": "White Bullet",
+"type": "0x003b",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/White Bullet__003b.png"
+},
+{
+"id": "Gold Shot",
+"type": "0x217d",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Gold Shot__217d.png"
+},
+{
+"id": "Pirate Rum",
+"type": "0xa50",
+"src": "equip",
+"category": "consumable",
+"sub": "all",
+"why": "loot",
+"file": "loot/consumable/Pirate Rum__a50.png"
+},
+{
+"id": "Shallow Water",
+"type": "0x73",
+"src": "ground",
+"category": "tile",
+"sub": "ground",
+"why": "tile",
+"file": "tiles/all/Shallow Water__73.png"
+},
+{
+"id": "Dark Water",
+"type": "0xbc",
+"src": "ground",
+"category": "tile",
+"sub": "ground",
+"why": "tile",
+"file": "tiles/all/Dark Water__bc.png"
+}
+]
+}

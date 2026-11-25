@@ -1,0 +1,514 @@
+{
+"dungeon": "Manor_of_the_Immortals",
+"sources": [
+"manorOfTheImmortals"
+],
+"counts": {
+"enemies": 21,
+"props": 3,
+"npcs": 1,
+"projectiles": 16,
+"loot": 7,
+"tiles": 1
+},
+"why": {
+"src": 20,
+"spec": 5,
+"proj": 16,
+"loot": 7,
+"tile": 1
+},
+"tile_hints_used": {
+"dark purple stone": 1
+},
+"names_in_own_files": [
+"Armor Guard",
+"Coffin Creature",
+"Hellhound",
+"Helmet Head",
+"Lesser Bald Vampire",
+"Lil Feratu",
+"Nosferatu",
+"Rock Bomb",
+"Vampire Bat",
+"Vampire Bat Swarmer",
+"Coffin"
+],
+"names_in_other_files": [
+[
+"Sickly Vampire Bat",
+[
+"adept"
+]
+],
+[
+"Lord Ruthven",
+[
+"innerWorkingsObjects",
+"manorOfTheImmortals"
+]
+],
+[
+"Kage Kami",
+[
+"heroes"
+]
+],
+[
+"Flying Vampire",
+[
+"adept"
+]
+],
+[
+"Cerberus",
+[
+"adept"
+]
+]
+],
+"names_not_found": [],
+"entries": [
+{
+"id": "Lord Ruthven",
+"type": "0x1720",
+"src": "manorOfTheImmortals",
+"category": "enemy",
+"sub": "boss",
+"why": "src",
+"file": "enemies/boss/Lord Ruthven__1720.png"
+},
+{
+"id": "Vampire Bat",
+"type": "0x1721",
+"src": "manorOfTheImmortals",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Vampire Bat__1721.png"
+},
+{
+"id": "Coffin Creature",
+"type": "0x1722",
+"src": "manorOfTheImmortals",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Coffin Creature__1722.png"
+},
+{
+"id": "Bat Swarm 1",
+"type": "0x1723",
+"src": "manorOfTheImmortals",
+"category": "prop",
+"sub": "manorOfTheImmortals",
+"why": "src",
+"file": "props/all/Bat Swarm 1__1723.png"
+},
+{
+"id": "Vampire Bat Swarmer 1",
+"type": "0x1724",
+"src": "manorOfTheImmortals",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Vampire Bat Swarmer 1__1724.png"
+},
+{
+"id": "Bat Swarm 2",
+"type": "0x1725",
+"src": "manorOfTheImmortals",
+"category": "prop",
+"sub": "manorOfTheImmortals",
+"why": "src",
+"file": "props/all/Bat Swarm 2__1725.png"
+},
+{
+"id": "Vampire Bat Swarmer 2",
+"type": "0x1726",
+"src": "manorOfTheImmortals",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Vampire Bat Swarmer 2__1726.png"
+},
+{
+"id": "Vampire Bat Swarmer",
+"type": "0x1727",
+"src": "manorOfTheImmortals",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Vampire Bat Swarmer__1727.png"
+},
+{
+"id": "Nosferatu",
+"type": "0x1728",
+"src": "manorOfTheImmortals",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Nosferatu__1728.png"
+},
+{
+"id": "HNosferatu",
+"type": "0x7311",
+"src": "manorOfTheImmortals",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/HNosferatu__7311.png"
+},
+{
+"id": "Armor Guard",
+"type": "0x1729",
+"src": "manorOfTheImmortals",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Armor Guard__1729.png"
+},
+{
+"id": "RockBomb",
+"type": "0x172a",
+"src": "manorOfTheImmortals",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/RockBomb__172a.png"
+},
+{
+"id": "Hellhound",
+"type": "0x172b",
+"src": "manorOfTheImmortals",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Hellhound__172b.png"
+},
+{
+"id": "HHellhound",
+"type": "0x7323",
+"src": "manorOfTheImmortals",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/HHellhound__7323.png"
+},
+{
+"id": "Lesser Bald Vampire",
+"type": "0x172c",
+"src": "manorOfTheImmortals",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Lesser Bald Vampire__172c.png"
+},
+{
+"id": "HLesser Bald Vampire",
+"type": "0x7324",
+"src": "manorOfTheImmortals",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/HLesser Bald Vampire__7324.png"
+},
+{
+"id": "Helmet Head",
+"type": "0x172d",
+"src": "manorOfTheImmortals",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Helmet Head__172d.png"
+},
+{
+"id": "Vampire Summoner",
+"type": "0x1736",
+"src": "manorOfTheImmortals",
+"category": "prop",
+"sub": "manorOfTheImmortals",
+"why": "src",
+"file": "props/all/Vampire Summoner__1736.png"
+},
+{
+"id": "Coffin",
+"type": "0x1737",
+"src": "manorOfTheImmortals",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Coffin__1737.png"
+},
+{
+"id": "Lil Feratu",
+"type": "0x1738",
+"src": "manorOfTheImmortals",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Lil Feratu__1738.png"
+},
+{
+"id": "Dead Church Bat",
+"type": "0xc1dd",
+"src": "adept",
+"category": "enemy",
+"sub": "regular",
+"why": "spec",
+"file": "enemies/regular/Dead Church Bat__c1dd.png"
+},
+{
+"id": "CHS Bishop Alt",
+"type": "0xaadc",
+"src": "innerWorkingsObjects",
+"category": "npc",
+"sub": "all",
+"why": "spec",
+"file": "npcs/all/CHS Bishop Alt__aadc.png"
+},
+{
+"id": "Kage Kami",
+"type": "0x6db",
+"src": "heroes",
+"category": "enemy",
+"sub": "regular",
+"why": "spec",
+"file": "enemies/regular/Kage Kami__6db.png"
+},
+{
+"id": "Dead Church Vampire",
+"type": "0xc1dc",
+"src": "adept",
+"category": "enemy",
+"sub": "regular",
+"why": "spec",
+"file": "enemies/regular/Dead Church Vampire__c1dc.png"
+},
+{
+"id": "Cerberus",
+"type": "0xc3d2",
+"src": "adept",
+"category": "enemy",
+"sub": "regular",
+"why": "spec",
+"file": "enemies/regular/Cerberus__c3d2.png"
+},
+{
+"id": "Dagger",
+"type": "0x00a8",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Dagger__00a8.png"
+},
+{
+"id": "Ruthven Shot",
+"type": "0x00b5",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Ruthven Shot__00b5.png"
+},
+{
+"id": "Cross Bullet",
+"type": "0x00b0",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Cross Bullet__00b0.png"
+},
+{
+"id": "Invisible",
+"type": "0x0096",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Invisible__0096.png"
+},
+{
+"id": "Coffin Bullet",
+"type": "0x00af",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Coffin Bullet__00af.png"
+},
+{
+"id": "Bone Swipe",
+"type": "0x00ab",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Bone Swipe__00ab.png"
+},
+{
+"id": "Vampire Magic",
+"type": "0x00ac",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Vampire Magic__00ac.png"
+},
+{
+"id": "ArmorGuard Attack",
+"type": "0x00aa",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/ArmorGuard Attack__00aa.png"
+},
+{
+"id": "Rockbomb Spike",
+"type": "0x00ae",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Rockbomb Spike__00ae.png"
+},
+{
+"id": "HellHoundAttack",
+"type": "0x00a9",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/HellHoundAttack__00a9.png"
+},
+{
+"id": "Vampire Magic Ball",
+"type": "0x00ad",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Vampire Magic Ball__00ad.png"
+},
+{
+"id": "UDL White Slash",
+"type": "0x80e0",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/UDL White Slash__80e0.png"
+},
+{
+"id": "Specter Spinner",
+"type": "0x00b2",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Specter Spinner__00b2.png"
+},
+{
+"id": "Specter Shot",
+"type": "0x00b4",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Specter Shot__00b4.png"
+},
+{
+"id": "Scythe Dagger Large",
+"type": "0x45cd",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Scythe Dagger Large__45cd.png"
+},
+{
+"id": "Summon Wolf Projectile",
+"type": "0x283c",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Summon Wolf Projectile__283c.png"
+},
+{
+"id": "St. Abraham's Wand",
+"type": "0xc1d",
+"src": "equip",
+"category": "weapon",
+"sub": "wand",
+"why": "loot",
+"file": "loot/weapon_wand/St. Abraham_s Wand__c1d.png"
+},
+{
+"id": "Tome of Purification",
+"type": "0xc09",
+"src": "equip",
+"category": "ability",
+"sub": "all",
+"why": "loot",
+"file": "loot/ability/Tome of Purification__c09.png"
+},
+{
+"id": "Chasuble of Holy Light",
+"type": "0xc1f",
+"src": "equip",
+"category": "armor",
+"sub": "robe",
+"why": "loot",
+"file": "loot/armor/Chasuble of Holy Light__c1f.png"
+},
+{
+"id": "Ring of Divine Faith",
+"type": "0xc20",
+"src": "equip",
+"category": "ring",
+"sub": "all",
+"why": "loot",
+"file": "loot/ring/Ring of Divine Faith__c20.png"
+},
+{
+"id": "Holy Water",
+"type": "0xc21",
+"src": "equip",
+"category": "consumable",
+"sub": "all",
+"why": "loot",
+"file": "loot/consumable/Holy Water__c21.png"
+},
+{
+"id": "Bone Dagger",
+"type": "0xc22",
+"src": "equip",
+"category": "weapon",
+"sub": "dagger",
+"why": "loot",
+"file": "loot/weapon_dagger/Bone Dagger__c22.png"
+},
+{
+"id": "Vampire Lord Skin",
+"type": "0x7fff",
+"src": "equipSkins",
+"category": "item_other",
+"sub": "all",
+"why": "loot",
+"file": "loot/item_other/Vampire Lord Skin__7fff.png"
+},
+{
+"id": "Purple Stone Dark",
+"type": "0x33",
+"src": "ground",
+"category": "tile",
+"sub": "ground",
+"why": "tile",
+"file": "tiles/all/Purple Stone Dark__33.png"
+}
+]
+}

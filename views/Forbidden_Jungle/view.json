@@ -1,0 +1,472 @@
+{
+"dungeon": "Forbidden_Jungle",
+"sources": [
+"forbiddenJungle"
+],
+"counts": {
+"props": 14,
+"enemies": 10,
+"helpers": 1,
+"projectiles": 12,
+"loot": 5,
+"tiles": 6
+},
+"why": {
+"src": 25,
+"proj": 12,
+"loot": 5,
+"tile": 6
+},
+"tile_hints_used": {
+"grass": 5,
+"dirt": 1
+},
+"names_in_own_files": [
+"Basilisk",
+"Basilisk Baby",
+"Jungle Totem",
+"Totem Spirit",
+"Mask Warrior",
+"Mask Hunter",
+"Mask Shaman",
+"Jungle Fire",
+"Boss Totem",
+"Mixcoatl the Masked God"
+],
+"names_in_other_files": [],
+"names_not_found": [],
+"entries": [
+{
+"id": "Mixcoatl Summoner",
+"type": "0x172e",
+"src": "forbiddenJungle",
+"category": "prop",
+"sub": "forbiddenJungle",
+"why": "src",
+"file": "props/all/Mixcoatl Summoner__172e.png"
+},
+{
+"id": "Mixcoatl the Masked God",
+"type": "0x0dc3",
+"src": "forbiddenJungle",
+"category": "enemy",
+"sub": "boss",
+"why": "src",
+"file": "enemies/boss/Mixcoatl the Masked God__0dc3.png"
+},
+{
+"id": "Boss Totem",
+"type": "0x0dc4",
+"src": "forbiddenJungle",
+"category": "helper",
+"sub": "other",
+"why": "src",
+"file": "helpers/other/Boss Totem__0dc4.png"
+},
+{
+"id": "Jungle Spear",
+"type": "0x0dc5",
+"src": "forbiddenJungle",
+"category": "prop",
+"sub": "forbiddenJungle",
+"why": "src",
+"file": "props/all/Jungle Spear__0dc5.png"
+},
+{
+"id": "Jungle Brazier",
+"type": "0x0dc6",
+"src": "forbiddenJungle",
+"category": "prop",
+"sub": "forbiddenJungle",
+"why": "src",
+"file": "props/all/Jungle Brazier__0dc6.png"
+},
+{
+"id": "Jungle Summoner",
+"type": "0x0dc7",
+"src": "forbiddenJungle",
+"category": "prop",
+"sub": "forbiddenJungle",
+"why": "src",
+"file": "props/all/Jungle Summoner__0dc7.png"
+},
+{
+"id": "Jungle Invisible Solid",
+"type": "0x0dc8",
+"src": "forbiddenJungle",
+"category": "prop",
+"sub": "forbiddenJungle",
+"why": "src",
+"file": "props/all/Jungle Invisible Solid__0dc8.png"
+},
+{
+"id": "Jungle Grass Solid",
+"type": "0x0dc9",
+"src": "forbiddenJungle",
+"category": "prop",
+"sub": "forbiddenJungle",
+"why": "src",
+"file": "props/all/Jungle Grass Solid__0dc9.png"
+},
+{
+"id": "Jungle Flowers Solid",
+"type": "0x0dca",
+"src": "forbiddenJungle",
+"category": "prop",
+"sub": "forbiddenJungle",
+"why": "src",
+"file": "props/all/Jungle Flowers Solid__0dca.png"
+},
+{
+"id": "Jungle Plant Unbreakable",
+"type": "0x0dcb",
+"src": "forbiddenJungle",
+"category": "prop",
+"sub": "forbiddenJungle",
+"why": "src",
+"file": "props/all/Jungle Plant Unbreakable__0dcb.png"
+},
+{
+"id": "Totem Spirit",
+"type": "0x0dcc",
+"src": "forbiddenJungle",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Totem Spirit__0dcc.png"
+},
+{
+"id": "Jungle Totem",
+"type": "0x0dcd",
+"src": "forbiddenJungle",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Jungle Totem__0dcd.png"
+},
+{
+"id": "Basilisk Baby",
+"type": "0x0dce",
+"src": "forbiddenJungle",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Basilisk Baby__0dce.png"
+},
+{
+"id": "Basilisk",
+"type": "0x0dcf",
+"src": "forbiddenJungle",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Basilisk__0dcf.png"
+},
+{
+"id": "Mask Shaman",
+"type": "0x0dd0",
+"src": "forbiddenJungle",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Mask Shaman__0dd0.png"
+},
+{
+"id": "Mask Warrior",
+"type": "0x0dd1",
+"src": "forbiddenJungle",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Mask Warrior__0dd1.png"
+},
+{
+"id": "Mask Hunter",
+"type": "0x0dd2",
+"src": "forbiddenJungle",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Mask Hunter__0dd2.png"
+},
+{
+"id": "Jungle Fire",
+"type": "0x0dd3",
+"src": "forbiddenJungle",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Jungle Fire__0dd3.png"
+},
+{
+"id": "Jungle Ground Flowers",
+"type": "0x0dd4",
+"src": "forbiddenJungle",
+"category": "prop",
+"sub": "forbiddenJungle",
+"why": "src",
+"file": "props/all/Jungle Ground Flowers__0dd4.png"
+},
+{
+"id": "Jungle Grass",
+"type": "0x0dd5",
+"src": "forbiddenJungle",
+"category": "prop",
+"sub": "forbiddenJungle",
+"why": "src",
+"file": "props/all/Jungle Grass__0dd5.png"
+},
+{
+"id": "Jungle Flower Bright",
+"type": "0x0dd6",
+"src": "forbiddenJungle",
+"category": "prop",
+"sub": "forbiddenJungle",
+"why": "src",
+"file": "props/all/Jungle Flower Bright__0dd6.png"
+},
+{
+"id": "Jungle Plant",
+"type": "0x0dd7",
+"src": "forbiddenJungle",
+"category": "prop",
+"sub": "forbiddenJungle",
+"why": "src",
+"file": "props/all/Jungle Plant__0dd7.png"
+},
+{
+"id": "Jungle Plant Solid",
+"type": "0x0dd8",
+"src": "forbiddenJungle",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Jungle Plant Solid__0dd8.png"
+},
+{
+"id": "Jungle Rock",
+"type": "0x0dd9",
+"src": "forbiddenJungle",
+"category": "prop",
+"sub": "forbiddenJungle",
+"why": "src",
+"file": "props/all/Jungle Rock__0dd9.png"
+},
+{
+"id": "Jungle Tree Big",
+"type": "0x0dda",
+"src": "forbiddenJungle",
+"category": "prop",
+"sub": "forbiddenJungle",
+"why": "src",
+"file": "props/all/Jungle Tree Big__0dda.png"
+},
+{
+"id": "Mask Powerwave",
+"type": "0x009e",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Mask Powerwave__009e.png"
+},
+{
+"id": "Mask Powershot",
+"type": "0x009f",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Mask Powershot__009f.png"
+},
+{
+"id": "Fireball 2",
+"type": "0x0097",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Fireball 2__0097.png"
+},
+{
+"id": "Totem Fire Wall",
+"type": "0x009d",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Totem Fire Wall__009d.png"
+},
+{
+"id": "Ghost Shot",
+"type": "0x0098",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Ghost Shot__0098.png"
+},
+{
+"id": "Totem Blast",
+"type": "0x0099",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Totem Blast__0099.png"
+},
+{
+"id": "Basilisk Acid",
+"type": "0x00a1",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Basilisk Acid__00a1.png"
+},
+{
+"id": "Basilisk Beam",
+"type": "0x00a2",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Basilisk Beam__00a2.png"
+},
+{
+"id": "Shaman Star",
+"type": "0x009b",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Shaman Star__009b.png"
+},
+{
+"id": "Mask Blast",
+"type": "0x009c",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Mask Blast__009c.png"
+},
+{
+"id": "Hunter Spear",
+"type": "0x009a",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Hunter Spear__009a.png"
+},
+{
+"id": "Invisible",
+"type": "0x0096",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Invisible__0096.png"
+},
+{
+"id": "Robe of the Tlatoani",
+"type": "0xc14",
+"src": "equip",
+"category": "armor",
+"sub": "robe",
+"why": "loot",
+"file": "loot/armor/Robe of the Tlatoani__c14.png"
+},
+{
+"id": "Staff of the Crystal Serpent",
+"type": "0xc15",
+"src": "equip",
+"category": "weapon",
+"sub": "staff",
+"why": "loot",
+"file": "loot/weapon_staff/Staff of the Crystal Serpent__c15.png"
+},
+{
+"id": "Cracked Crystal Skull",
+"type": "0xc16",
+"src": "equip",
+"category": "ability",
+"sub": "all",
+"why": "loot",
+"file": "loot/ability/Cracked Crystal Skull__c16.png"
+},
+{
+"id": "Crystal Bone Ring",
+"type": "0xc17",
+"src": "equip",
+"category": "ring",
+"sub": "all",
+"why": "loot",
+"file": "loot/ring/Crystal Bone Ring__c17.png"
+},
+{
+"id": "Pollen Powder",
+"type": "0xc1a",
+"src": "equip",
+"category": "consumable",
+"sub": "all",
+"why": "loot",
+"file": "loot/consumable/Pollen Powder__c1a.png"
+},
+{
+"id": "Bright Grass",
+"type": "0x23",
+"src": "ground",
+"category": "tile",
+"sub": "ground",
+"why": "tile",
+"file": "tiles/all/Bright Grass__23.png"
+},
+{
+"id": "Dirt",
+"type": "0x1c",
+"src": "ground",
+"category": "tile",
+"sub": "ground",
+"why": "tile",
+"file": "tiles/all/Dirt__1c.png"
+},
+{
+"id": "Light Grass",
+"type": "0x46",
+"src": "ground",
+"category": "tile",
+"sub": "ground",
+"why": "tile",
+"file": "tiles/all/Light Grass__46.png"
+},
+{
+"id": "Grass",
+"type": "0x48",
+"src": "ground",
+"category": "tile",
+"sub": "ground",
+"why": "tile",
+"file": "tiles/all/Grass__48.png"
+},
+{
+"id": "Dark Grass",
+"type": "0x56",
+"src": "ground",
+"category": "tile",
+"sub": "ground",
+"why": "tile",
+"file": "tiles/all/Dark Grass__56.png"
+},
+{
+"id": "New Grass",
+"type": "0x012c",
+"src": "ground",
+"category": "tile",
+"sub": "ground",
+"why": "tile",
+"file": "tiles/all/New Grass__012c.png"
+}
+]
+}

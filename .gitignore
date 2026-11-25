@@ -1,0 +1,16 @@
+﻿# Large game binaries and toolchains (re-download on each machine)
+work/game_copy/
+work/jdk/
+work/jdk_dl/
+work/il2cpp_dump/
+work/raw_export/
+work/scratch/
+
+# Nested third-party repo (re-clone from https://github.com/X-com/RealmShark)
+research/X-com_RealmShark/
+
+# Build output
+collector/build/
+
+# Raw network captures (may hold account or session data)
+collector/captures/

@@ -1,0 +1,4032 @@
+{
+"dungeon": "Lost_Halls",
+"sources": [
+"lostHallsObjects",
+"lostHallsGround"
+],
+"counts": {
+"tiles": 57,
+"portals": 8,
+"helpers": 36,
+"enemies": 78,
+"props": 144,
+"npcs": 5,
+"walls": 14,
+"projectiles": 91,
+"loot": 5
+},
+"why": {
+"src": 335,
+"spec": 7,
+"proj": 91,
+"loot": 5
+},
+"tile_hints_used": {},
+"names_in_own_files": [
+"Commander of the Crusade",
+"Crusade Soldier",
+"Crusade Shipwright",
+"Crusade Explorer",
+"Champion of Oryx",
+"Oryx Swordsman",
+"Oryx Armorbearer",
+"Oryx Admiral",
+"Grotto Blob",
+"Grotto Bat",
+"Grotto Rat",
+"Grotto Slime",
+"Tormented Golem",
+"Golem of Anger",
+"Golem of Fear",
+"Golem of Sorrow",
+"Evil Spirit",
+"Marble Defender",
+"Marble Colossus",
+"Marble Colossus Pillar",
+"Marble Colossus Rock",
+"Marble Core (~LH Marble Core 1)",
+"Agonized Titan",
+"Malus",
+"Void Entity"
+],
+"names_in_other_files": [
+[
+"Spectral Sentry",
+[
+"autumnNexusObjects",
+"lostHallsObjects"
+]
+],
+[
+"Treasure Pot",
+[
+"caveOfAThousandTreasures",
+"lostHallsObjects"
+]
+],
+[
+"Bloodroot Heart",
+[
+"encounters"
+]
+],
+[
+"Ravenous Rot",
+[
+"encounters"
+]
+],
+[
+"Lost Sentry",
+[
+"encounters",
+"lostHallsObjects"
+]
+]
+],
+"names_not_found": [],
+"entries": [
+{
+"id": "LH Main Tile",
+"type": "0xb01a",
+"src": "lostHallsGround",
+"category": "tile",
+"sub": "lostHallsGround",
+"why": "src",
+"file": "tiles/all/LH Main Tile__b01a.png"
+},
+{
+"id": "LH Main Tile Bloody",
+"type": "0xb01b",
+"src": "lostHallsGround",
+"category": "tile",
+"sub": "lostHallsGround",
+"why": "src",
+"file": "tiles/all/LH Main Tile Bloody__b01b.png"
+},
+{
+"id": "LH Gem Tile",
+"type": "0xb01c",
+"src": "lostHallsGround",
+"category": "tile",
+"sub": "lostHallsGround",
+"why": "src",
+"file": "tiles/all/LH Gem Tile__b01c.png"
+},
+{
+"id": "LH Hall Tile",
+"type": "0xb01d",
+"src": "lostHallsGround",
+"category": "tile",
+"sub": "lostHallsGround",
+"why": "src",
+"file": "tiles/all/LH Hall Tile__b01d.png"
+},
+{
+"id": "LH Cult Main Tile",
+"type": "0xb025",
+"src": "lostHallsGround",
+"category": "tile",
+"sub": "lostHallsGround",
+"why": "src",
+"file": "tiles/all/LH Cult Main Tile__b025.png"
+},
+{
+"id": "LH Cult Bloody Tile",
+"type": "0xb027",
+"src": "lostHallsGround",
+"category": "tile",
+"sub": "lostHallsGround",
+"why": "src",
+"file": "tiles/all/LH Cult Bloody Tile__b027.png"
+},
+{
+"id": "LH Void Landmark N",
+"type": "0xb098",
+"src": "lostHallsGround",
+"category": "tile",
+"sub": "lostHallsGround",
+"why": "src",
+"file": "tiles/all/LH Void Landmark N__b098.png"
+},
+{
+"id": "LH Void Landmark E",
+"type": "0xb099",
+"src": "lostHallsGround",
+"category": "tile",
+"sub": "lostHallsGround",
+"why": "src",
+"file": "tiles/all/LH Void Landmark E__b099.png"
+},
+{
+"id": "LH Void Landmark S",
+"type": "0xb09a",
+"src": "lostHallsGround",
+"category": "tile",
+"sub": "lostHallsGround",
+"why": "src",
+"file": "tiles/all/LH Void Landmark S__b09a.png"
+},
+{
+"id": "LH Void Landmark W",
+"type": "0xb09b",
+"src": "lostHallsGround",
+"category": "tile",
+"sub": "lostHallsGround",
+"why": "src",
+"file": "tiles/all/LH Void Landmark W__b09b.png"
+},
+{
+"id": "LH Void Landmark C",
+"type": "0xb09c",
+"src": "lostHallsGround",
+"category": "tile",
+"sub": "lostHallsGround",
+"why": "src",
+"file": "tiles/all/LH Void Landmark C__b09c.png"
+},
+{
+"id": "LH Void Landmark Stop",
+"type": "0xb09d",
+"src": "lostHallsGround",
+"category": "tile",
+"sub": "lostHallsGround",
+"why": "src",
+"file": "tiles/all/LH Void Landmark Stop__b09d.png"
+},
+{
+"id": "LH Void Pure Evil Deep",
+"type": "0xb04a",
+"src": "lostHallsGround",
+"category": "tile",
+"sub": "lostHallsGround",
+"why": "src",
+"file": "tiles/all/LH Void Pure Evil Deep__b04a.png"
+},
+{
+"id": "LH Void Pure Evil Depths",
+"type": "0xb04b",
+"src": "lostHallsGround",
+"category": "tile",
+"sub": "lostHallsGround",
+"why": "src",
+"file": "tiles/all/LH Void Pure Evil Depths__b04b.png"
+},
+{
+"id": "LH Titan Tile",
+"type": "0xb122",
+"src": "lostHallsGround",
+"category": "tile",
+"sub": "lostHallsGround",
+"why": "src",
+"file": "tiles/all/LH Titan Tile__b122.png"
+},
+{
+"id": "LH Spectral Tile A",
+"type": "0xb02c",
+"src": "lostHallsGround",
+"category": "tile",
+"sub": "lostHallsGround",
+"why": "src",
+"file": "tiles/all/LH Spectral Tile A__b02c.png"
+},
+{
+"id": "LH Spectral Tile B",
+"type": "0xb02d",
+"src": "lostHallsGround",
+"category": "tile",
+"sub": "lostHallsGround",
+"why": "src",
+"file": "tiles/all/LH Spectral Tile B__b02d.png"
+},
+{
+"id": "LH Spectral Tile C",
+"type": "0xb02e",
+"src": "lostHallsGround",
+"category": "tile",
+"sub": "lostHallsGround",
+"why": "src",
+"file": "tiles/all/LH Spectral Tile C__b02e.png"
+},
+{
+"id": "LH Spectral Tile D",
+"type": "0xb02f",
+"src": "lostHallsGround",
+"category": "tile",
+"sub": "lostHallsGround",
+"why": "src",
+"file": "tiles/all/LH Spectral Tile D__b02f.png"
+},
+{
+"id": "LH Sentry Tile",
+"type": "0xb030",
+"src": "lostHallsGround",
+"category": "tile",
+"sub": "lostHallsGround",
+"why": "src",
+"file": "tiles/all/LH Sentry Tile__b030.png"
+},
+{
+"id": "LH Spectral Tile 1",
+"type": "0xb031",
+"src": "lostHallsGround",
+"category": "tile",
+"sub": "lostHallsGround",
+"why": "src",
+"file": "tiles/all/LH Spectral Tile 1__b031.png"
+},
+{
+"id": "LH Spectral Tile 2",
+"type": "0xb032",
+"src": "lostHallsGround",
+"category": "tile",
+"sub": "lostHallsGround",
+"why": "src",
+"file": "tiles/all/LH Spectral Tile 2__b032.png"
+},
+{
+"id": "LH Spectral Tile 3",
+"type": "0xb033",
+"src": "lostHallsGround",
+"category": "tile",
+"sub": "lostHallsGround",
+"why": "src",
+"file": "tiles/all/LH Spectral Tile 3__b033.png"
+},
+{
+"id": "LH Spectral Tile 4",
+"type": "0xb034",
+"src": "lostHallsGround",
+"category": "tile",
+"sub": "lostHallsGround",
+"why": "src",
+"file": "tiles/all/LH Spectral Tile 4__b034.png"
+},
+{
+"id": "LH Void Platform",
+"type": "0xb035",
+"src": "lostHallsGround",
+"category": "tile",
+"sub": "lostHallsGround",
+"why": "src",
+"file": "tiles/all/LH Void Platform__b035.png"
+},
+{
+"id": "LH Hall Tile NoWalk",
+"type": "0xb036",
+"src": "lostHallsGround",
+"category": "tile",
+"sub": "lostHallsGround",
+"why": "src",
+"file": "tiles/all/LH Hall Tile NoWalk__b036.png"
+},
+{
+"id": "LH Water Tile",
+"type": "0xb037",
+"src": "lostHallsGround",
+"category": "tile",
+"sub": "lostHallsGround",
+"why": "src",
+"file": "tiles/all/LH Water Tile__b037.png"
+},
+{
+"id": "LH Ice Tile",
+"type": "0xb038",
+"src": "lostHallsGround",
+"category": "tile",
+"sub": "lostHallsGround",
+"why": "src",
+"file": "tiles/all/LH Ice Tile__b038.png"
+},
+{
+"id": "LH Hole Tile",
+"type": "0xb01e",
+"src": "lostHallsGround",
+"category": "tile",
+"sub": "lostHallsGround",
+"why": "src",
+"file": "tiles/all/LH Hole Tile__b01e.png"
+},
+{
+"id": "LH Hall Tile Bloody",
+"type": "0xb039",
+"src": "lostHallsGround",
+"category": "tile",
+"sub": "lostHallsGround",
+"why": "src",
+"file": "tiles/all/LH Hall Tile Bloody__b039.png"
+},
+{
+"id": "LH Main Tile UL",
+"type": "0xb03a",
+"src": "lostHallsGround",
+"category": "tile",
+"sub": "lostHallsGround",
+"why": "src",
+"file": "tiles/all/LH Main Tile UL__b03a.png"
+},
+{
+"id": "LH Main Tile U",
+"type": "0xb03b",
+"src": "lostHallsGround",
+"category": "tile",
+"sub": "lostHallsGround",
+"why": "src",
+"file": "tiles/all/LH Main Tile U__b03b.png"
+},
+{
+"id": "LH Main Tile UR",
+"type": "0xb03c",
+"src": "lostHallsGround",
+"category": "tile",
+"sub": "lostHallsGround",
+"why": "src",
+"file": "tiles/all/LH Main Tile UR__b03c.png"
+},
+{
+"id": "LH Main Tile L",
+"type": "0xb03d",
+"src": "lostHallsGround",
+"category": "tile",
+"sub": "lostHallsGround",
+"why": "src",
+"file": "tiles/all/LH Main Tile L__b03d.png"
+},
+{
+"id": "LH Main Tile R",
+"type": "0xb03e",
+"src": "lostHallsGround",
+"category": "tile",
+"sub": "lostHallsGround",
+"why": "src",
+"file": "tiles/all/LH Main Tile R__b03e.png"
+},
+{
+"id": "LH Main Tile BL",
+"type": "0xb03f",
+"src": "lostHallsGround",
+"category": "tile",
+"sub": "lostHallsGround",
+"why": "src",
+"file": "tiles/all/LH Main Tile BL__b03f.png"
+},
+{
+"id": "LH Main Tile B",
+"type": "0xb040",
+"src": "lostHallsGround",
+"category": "tile",
+"sub": "lostHallsGround",
+"why": "src",
+"file": "tiles/all/LH Main Tile B__b040.png"
+},
+{
+"id": "LH Main Tile BR",
+"type": "0xb041",
+"src": "lostHallsGround",
+"category": "tile",
+"sub": "lostHallsGround",
+"why": "src",
+"file": "tiles/all/LH Main Tile BR__b041.png"
+},
+{
+"id": "LH Hole Tile UL",
+"type": "0xb01f",
+"src": "lostHallsGround",
+"category": "tile",
+"sub": "lostHallsGround",
+"why": "src",
+"file": "tiles/all/LH Hole Tile UL__b01f.png"
+},
+{
+"id": "LH Hole Tile U",
+"type": "0xb020",
+"src": "lostHallsGround",
+"category": "tile",
+"sub": "lostHallsGround",
+"why": "src",
+"file": "tiles/all/LH Hole Tile U__b020.png"
+},
+{
+"id": "LH Hole Tile UR",
+"type": "0xb021",
+"src": "lostHallsGround",
+"category": "tile",
+"sub": "lostHallsGround",
+"why": "src",
+"file": "tiles/all/LH Hole Tile UR__b021.png"
+},
+{
+"id": "LH Hole Tile L",
+"type": "0xb022",
+"src": "lostHallsGround",
+"category": "tile",
+"sub": "lostHallsGround",
+"why": "src",
+"file": "tiles/all/LH Hole Tile L__b022.png"
+},
+{
+"id": "LH Hole Tile C",
+"type": "0xb023",
+"src": "lostHallsGround",
+"category": "tile",
+"sub": "lostHallsGround",
+"why": "src",
+"file": "tiles/all/LH Hole Tile C__b023.png"
+},
+{
+"id": "LH Hole Tile R",
+"type": "0xb024",
+"src": "lostHallsGround",
+"category": "tile",
+"sub": "lostHallsGround",
+"why": "src",
+"file": "tiles/all/LH Hole Tile R__b024.png"
+},
+{
+"id": "LH Hole Tile BL",
+"type": "0xb026",
+"src": "lostHallsGround",
+"category": "tile",
+"sub": "lostHallsGround",
+"why": "src",
+"file": "tiles/all/LH Hole Tile BL__b026.png"
+},
+{
+"id": "LH Hole Tile B",
+"type": "0xb028",
+"src": "lostHallsGround",
+"category": "tile",
+"sub": "lostHallsGround",
+"why": "src",
+"file": "tiles/all/LH Hole Tile B__b028.png"
+},
+{
+"id": "LH Hole Tile BR",
+"type": "0xb029",
+"src": "lostHallsGround",
+"category": "tile",
+"sub": "lostHallsGround",
+"why": "src",
+"file": "tiles/all/LH Hole Tile BR__b029.png"
+},
+{
+"id": "LH Hole Edge Tile UL",
+"type": "0xb02a",
+"src": "lostHallsGround",
+"category": "tile",
+"sub": "lostHallsGround",
+"why": "src",
+"file": "tiles/all/LH Hole Edge Tile UL__b02a.png"
+},
+{
+"id": "LH Hole Edge Tile U",
+"type": "0xb02b",
+"src": "lostHallsGround",
+"category": "tile",
+"sub": "lostHallsGround",
+"why": "src",
+"file": "tiles/all/LH Hole Edge Tile U__b02b.png"
+},
+{
+"id": "LH Hole Edge Tile UR",
+"type": "0xb047",
+"src": "lostHallsGround",
+"category": "tile",
+"sub": "lostHallsGround",
+"why": "src",
+"file": "tiles/all/LH Hole Edge Tile UR__b047.png"
+},
+{
+"id": "LH Hole Edge Tile L",
+"type": "0xb042",
+"src": "lostHallsGround",
+"category": "tile",
+"sub": "lostHallsGround",
+"why": "src",
+"file": "tiles/all/LH Hole Edge Tile L__b042.png"
+},
+{
+"id": "LH Hole Edge Tile R",
+"type": "0xb043",
+"src": "lostHallsGround",
+"category": "tile",
+"sub": "lostHallsGround",
+"why": "src",
+"file": "tiles/all/LH Hole Edge Tile R__b043.png"
+},
+{
+"id": "LH Hole Edge Tile BL",
+"type": "0xb044",
+"src": "lostHallsGround",
+"category": "tile",
+"sub": "lostHallsGround",
+"why": "src",
+"file": "tiles/all/LH Hole Edge Tile BL__b044.png"
+},
+{
+"id": "LH Hole Edge Tile B",
+"type": "0xb045",
+"src": "lostHallsGround",
+"category": "tile",
+"sub": "lostHallsGround",
+"why": "src",
+"file": "tiles/all/LH Hole Edge Tile B__b045.png"
+},
+{
+"id": "LH Hole Edge Tile BR",
+"type": "0xb046",
+"src": "lostHallsGround",
+"category": "tile",
+"sub": "lostHallsGround",
+"why": "src",
+"file": "tiles/all/LH Hole Edge Tile BR__b046.png"
+},
+{
+"id": "LH Cult Top Tile H",
+"type": "0xb048",
+"src": "lostHallsGround",
+"category": "tile",
+"sub": "lostHallsGround",
+"why": "src",
+"file": "tiles/all/LH Cult Top Tile H__b048.png"
+},
+{
+"id": "LH Cult Top Tile V",
+"type": "0xb049",
+"src": "lostHallsGround",
+"category": "tile",
+"sub": "lostHallsGround",
+"why": "src",
+"file": "tiles/all/LH Cult Top Tile V__b049.png"
+},
+{
+"id": "Lost Halls Portal",
+"type": "0xb024",
+"src": "lostHallsObjects",
+"category": "portal",
+"sub": "all",
+"why": "src",
+"file": "portals/all/Lost Halls Portal__b024.png"
+},
+{
+"id": "LH Void Portal",
+"type": "0xb013",
+"src": "lostHallsObjects",
+"category": "portal",
+"sub": "all",
+"why": "src",
+"file": "portals/all/LH Void Portal__b013.png"
+},
+{
+"id": "Easy Void Portal",
+"type": "0x7dff",
+"src": "lostHallsObjects",
+"category": "portal",
+"sub": "all",
+"why": "src",
+"file": "portals/all/Easy Void Portal__7dff.png"
+},
+{
+"id": "Easy Void Initiator",
+"type": "0x7e00",
+"src": "lostHallsObjects",
+"category": "helper",
+"sub": "invisible",
+"why": "src",
+"file": "helpers/invisible/Easy Void Initiator__7e00.png"
+},
+{
+"id": "Easy Void Initiator 2",
+"type": "0x70db",
+"src": "lostHallsObjects",
+"category": "helper",
+"sub": "invisible",
+"why": "src",
+"file": "helpers/invisible/Easy Void Initiator 2__70db.png"
+},
+{
+"id": "LH Cult Portal Locked",
+"type": "0xb062",
+"src": "lostHallsObjects",
+"category": "portal",
+"sub": "all",
+"why": "src",
+"file": "portals/all/LH Cult Portal Locked__b062.png"
+},
+{
+"id": "LH Cult Portal",
+"type": "0xb063",
+"src": "lostHallsObjects",
+"category": "portal",
+"sub": "all",
+"why": "src",
+"file": "portals/all/LH Cult Portal__b063.png"
+},
+{
+"id": "LH Cult Portal Temp",
+"type": "0x4c03",
+"src": "lostHallsObjects",
+"category": "portal",
+"sub": "all",
+"why": "src",
+"file": "portals/all/LH Cult Portal Temp__4c03.png"
+},
+{
+"id": "LH Test Portal",
+"type": "0xb0b4",
+"src": "lostHallsObjects",
+"category": "portal",
+"sub": "all",
+"why": "src",
+"file": "portals/all/LH Test Portal__b0b4.png"
+},
+{
+"id": "LH Boss Portal",
+"type": "0xb03e",
+"src": "lostHallsObjects",
+"category": "portal",
+"sub": "all",
+"why": "src",
+"file": "portals/all/LH Boss Portal__b03e.png"
+},
+{
+"id": "LH Crusade Soldier",
+"type": "0xb000",
+"src": "lostHallsObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/LH Crusade Soldier__b000.png"
+},
+{
+"id": "LH Crusade Shipwright",
+"type": "0xb001",
+"src": "lostHallsObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/LH Crusade Shipwright__b001.png"
+},
+{
+"id": "LH Crusade Explorer",
+"type": "0xb002",
+"src": "lostHallsObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/LH Crusade Explorer__b002.png"
+},
+{
+"id": "LH Commander of the Crusade",
+"type": "0xb003",
+"src": "lostHallsObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/LH Commander of the Crusade__b003.png"
+},
+{
+"id": "LH Oryx Swordsman",
+"type": "0xb004",
+"src": "lostHallsObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/LH Oryx Swordsman__b004.png"
+},
+{
+"id": "LH Oryx Armorbearer",
+"type": "0xb005",
+"src": "lostHallsObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/LH Oryx Armorbearer__b005.png"
+},
+{
+"id": "LH Oryx Admiral",
+"type": "0xb006",
+"src": "lostHallsObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/LH Oryx Admiral__b006.png"
+},
+{
+"id": "LH Champion of Oryx",
+"type": "0xb007",
+"src": "lostHallsObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/LH Champion of Oryx__b007.png"
+},
+{
+"id": "LH Grotto Bat",
+"type": "0xb008",
+"src": "lostHallsObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/LH Grotto Bat__b008.png"
+},
+{
+"id": "LH Grotto Rat",
+"type": "0xb009",
+"src": "lostHallsObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/LH Grotto Rat__b009.png"
+},
+{
+"id": "LH Grotto Slime",
+"type": "0xb00a",
+"src": "lostHallsObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/LH Grotto Slime__b00a.png"
+},
+{
+"id": "LH Grotto Blob",
+"type": "0xb0b3",
+"src": "lostHallsObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/LH Grotto Blob__b0b3.png"
+},
+{
+"id": "LH Golem of Anger",
+"type": "0xb00b",
+"src": "lostHallsObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/LH Golem of Anger__b00b.png"
+},
+{
+"id": "LH Golem of Fear",
+"type": "0xb00c",
+"src": "lostHallsObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/LH Golem of Fear__b00c.png"
+},
+{
+"id": "LH Golem of Fear Anchor",
+"type": "0xb169",
+"src": "lostHallsObjects",
+"category": "prop",
+"sub": "lostHallsObjects",
+"why": "src",
+"file": "props/all/LH Golem of Fear Anchor__b169.png"
+},
+{
+"id": "LH Golem of Sorrow",
+"type": "0xb00d",
+"src": "lostHallsObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/LH Golem of Sorrow__b00d.png"
+},
+{
+"id": "LH Tormented Golem",
+"type": "0xb00e",
+"src": "lostHallsObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/LH Tormented Golem__b00e.png"
+},
+{
+"id": "LH Spectral Sentry",
+"type": "0xb00f",
+"src": "lostHallsObjects",
+"category": "helper",
+"sub": "other",
+"why": "src",
+"file": "helpers/other/LH Spectral Sentry__b00f.png"
+},
+{
+"id": "LH Spectral Sentry2",
+"type": "0x43fa",
+"src": "lostHallsObjects",
+"category": "helper",
+"sub": "other",
+"why": "src",
+"file": "helpers/other/LH Spectral Sentry2__43fa.png"
+},
+{
+"id": "LH Spectral Sentry3",
+"type": "0x43fb",
+"src": "lostHallsObjects",
+"category": "helper",
+"sub": "other",
+"why": "src",
+"file": "helpers/other/LH Spectral Sentry3__43fb.png"
+},
+{
+"id": "LH Spectral Sentry Dying",
+"type": "0xb132",
+"src": "lostHallsObjects",
+"category": "helper",
+"sub": "other",
+"why": "src",
+"file": "helpers/other/LH Spectral Sentry Dying__b132.png"
+},
+{
+"id": "LH Spectral Sentry S",
+"type": "0xb13a",
+"src": "lostHallsObjects",
+"category": "helper",
+"sub": "other",
+"why": "src",
+"file": "helpers/other/LH Spectral Sentry S__b13a.png"
+},
+{
+"id": "LH Grenade Trap",
+"type": "0xb141",
+"src": "lostHallsObjects",
+"category": "helper",
+"sub": "other",
+"why": "src",
+"file": "helpers/other/LH Grenade Trap__b141.png"
+},
+{
+"id": "LH Grenade Trap Disabled",
+"type": "0xb142",
+"src": "lostHallsObjects",
+"category": "prop",
+"sub": "lostHallsObjects",
+"why": "src",
+"file": "props/all/LH Grenade Trap Disabled__b142.png"
+},
+{
+"id": "LH Inactive Pillar",
+"type": "0xb16c",
+"src": "lostHallsObjects",
+"category": "prop",
+"sub": "lostHallsObjects",
+"why": "src",
+"file": "props/all/LH Inactive Pillar__b16c.png"
+},
+{
+"id": "LH Inactive Eye",
+"type": "0xb16d",
+"src": "lostHallsObjects",
+"category": "prop",
+"sub": "lostHallsObjects",
+"why": "src",
+"file": "props/all/LH Inactive Eye__b16d.png"
+},
+{
+"id": "LH Grenade Trap Homing",
+"type": "0xb143",
+"src": "lostHallsObjects",
+"category": "helper",
+"sub": "other",
+"why": "src",
+"file": "helpers/other/LH Grenade Trap Homing__b143.png"
+},
+{
+"id": "LH Wall Trap E",
+"type": "0xb145",
+"src": "lostHallsObjects",
+"category": "helper",
+"sub": "other",
+"why": "src",
+"file": "helpers/other/LH Wall Trap E__b145.png"
+},
+{
+"id": "LH Wall Trap S",
+"type": "0xb146",
+"src": "lostHallsObjects",
+"category": "helper",
+"sub": "other",
+"why": "src",
+"file": "helpers/other/LH Wall Trap S__b146.png"
+},
+{
+"id": "LH Wall Trap W",
+"type": "0xb147",
+"src": "lostHallsObjects",
+"category": "helper",
+"sub": "other",
+"why": "src",
+"file": "helpers/other/LH Wall Trap W__b147.png"
+},
+{
+"id": "LH Wall Trap N",
+"type": "0xb148",
+"src": "lostHallsObjects",
+"category": "helper",
+"sub": "other",
+"why": "src",
+"file": "helpers/other/LH Wall Trap N__b148.png"
+},
+{
+"id": "LH Halls Colossus Pillar",
+"type": "0xb14b",
+"src": "lostHallsObjects",
+"category": "helper",
+"sub": "other",
+"why": "src",
+"file": "helpers/other/LH Halls Colossus Pillar__b14b.png"
+},
+{
+"id": "LH Marble Colossus Eye",
+"type": "0xb14c",
+"src": "lostHallsObjects",
+"category": "npc",
+"sub": "all",
+"why": "src",
+"file": "npcs/all/LH Marble Colossus Eye__b14c.png"
+},
+{
+"id": "LH Halls Pillar",
+"type": "0xb14d",
+"src": "lostHallsObjects",
+"category": "prop",
+"sub": "lostHallsObjects",
+"why": "src",
+"file": "props/all/LH Halls Pillar__b14d.png"
+},
+{
+"id": "LH Halls Eye",
+"type": "0xb14e",
+"src": "lostHallsObjects",
+"category": "prop",
+"sub": "lostHallsObjects",
+"why": "src",
+"file": "props/all/LH Halls Eye__b14e.png"
+},
+{
+"id": "LH Spawn Pillar",
+"type": "0xb160",
+"src": "lostHallsObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/LH Spawn Pillar__b160.png"
+},
+{
+"id": "LH Spawn Wall Killer",
+"type": "0xb161",
+"src": "lostHallsObjects",
+"category": "prop",
+"sub": "lostHallsObjects",
+"why": "src",
+"file": "props/all/LH Spawn Wall Killer__b161.png"
+},
+{
+"id": "LH Spawn C",
+"type": "0xb162",
+"src": "lostHallsObjects",
+"category": "prop",
+"sub": "lostHallsObjects",
+"why": "src",
+"file": "props/all/LH Spawn C__b162.png"
+},
+{
+"id": "LH Spawn E",
+"type": "0xb163",
+"src": "lostHallsObjects",
+"category": "prop",
+"sub": "lostHallsObjects",
+"why": "src",
+"file": "props/all/LH Spawn E__b163.png"
+},
+{
+"id": "LH Spawn S",
+"type": "0xb164",
+"src": "lostHallsObjects",
+"category": "prop",
+"sub": "lostHallsObjects",
+"why": "src",
+"file": "props/all/LH Spawn S__b164.png"
+},
+{
+"id": "LH Spawn W",
+"type": "0xb165",
+"src": "lostHallsObjects",
+"category": "prop",
+"sub": "lostHallsObjects",
+"why": "src",
+"file": "props/all/LH Spawn W__b165.png"
+},
+{
+"id": "LH Spawn N",
+"type": "0xb166",
+"src": "lostHallsObjects",
+"category": "prop",
+"sub": "lostHallsObjects",
+"why": "src",
+"file": "props/all/LH Spawn N__b166.png"
+},
+{
+"id": "LH Spawn Early",
+"type": "0xb0c0",
+"src": "lostHallsObjects",
+"category": "prop",
+"sub": "lostHallsObjects",
+"why": "src",
+"file": "props/all/LH Spawn Early__b0c0.png"
+},
+{
+"id": "LH Monster Spawner",
+"type": "0xb015",
+"src": "lostHallsObjects",
+"category": "prop",
+"sub": "lostHallsObjects",
+"why": "src",
+"file": "props/all/LH Monster Spawner__b015.png"
+},
+{
+"id": "LH Debug Drops",
+"type": "0xb098",
+"src": "lostHallsObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/LH Debug Drops__b098.png"
+},
+{
+"id": "LH Debug Drops2",
+"type": "0xb02c",
+"src": "lostHallsObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/LH Debug Drops2__b02c.png"
+},
+{
+"id": "LH Debug Drops3",
+"type": "0xb16a",
+"src": "lostHallsObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/LH Debug Drops3__b16a.png"
+},
+{
+"id": "LH Marble Defender F",
+"type": "0xb136",
+"src": "lostHallsObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/LH Marble Defender F__b136.png"
+},
+{
+"id": "LH Marble Defender",
+"type": "0xb13b",
+"src": "lostHallsObjects",
+"category": "enemy",
+"sub": "miniboss",
+"why": "src",
+"file": "enemies/miniboss/LH Marble Defender__b13b.png"
+},
+{
+"id": "LH Marble Defender Activator E",
+"type": "0xb13d",
+"src": "lostHallsObjects",
+"category": "prop",
+"sub": "lostHallsObjects",
+"why": "src",
+"file": "props/all/LH Marble Defender Activator E__b13d.png"
+},
+{
+"id": "LH Marble Defender Activator W",
+"type": "0xb13e",
+"src": "lostHallsObjects",
+"category": "prop",
+"sub": "lostHallsObjects",
+"why": "src",
+"file": "props/all/LH Marble Defender Activator W__b13e.png"
+},
+{
+"id": "LH Marble Defender Activator N",
+"type": "0xb13f",
+"src": "lostHallsObjects",
+"category": "prop",
+"sub": "lostHallsObjects",
+"why": "src",
+"file": "props/all/LH Marble Defender Activator N__b13f.png"
+},
+{
+"id": "LH Marble Defender Activator S",
+"type": "0xb140",
+"src": "lostHallsObjects",
+"category": "prop",
+"sub": "lostHallsObjects",
+"why": "src",
+"file": "props/all/LH Marble Defender Activator S__b140.png"
+},
+{
+"id": "LH Marble Defender S",
+"type": "0xb14a",
+"src": "lostHallsObjects",
+"category": "prop",
+"sub": "lostHallsObjects",
+"why": "src",
+"file": "props/all/LH Marble Defender S__b14a.png"
+},
+{
+"id": "LH Marble Colossus F",
+"type": "0xb05c",
+"src": "lostHallsObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/LH Marble Colossus F__b05c.png"
+},
+{
+"id": "LH Marble Colossus",
+"type": "0xb011",
+"src": "lostHallsObjects",
+"category": "enemy",
+"sub": "boss",
+"why": "src",
+"file": "enemies/boss/LH Marble Colossus__b011.png"
+},
+{
+"id": "LH Marble Colossus Anchor",
+"type": "0xb012",
+"src": "lostHallsObjects",
+"category": "prop",
+"sub": "lostHallsObjects",
+"why": "src",
+"file": "props/all/LH Marble Colossus Anchor__b012.png"
+},
+{
+"id": "LH Realm Portal",
+"type": "0xb139",
+"src": "lostHallsObjects",
+"category": "prop",
+"sub": "lostHallsObjects",
+"why": "src",
+"file": "props/all/LH Realm Portal__b139.png"
+},
+{
+"id": "LH Marble Colossus Laser A",
+"type": "0xb0c5",
+"src": "lostHallsObjects",
+"category": "helper",
+"sub": "invisible",
+"why": "src",
+"file": "helpers/invisible/LH Marble Colossus Laser A__b0c5.png"
+},
+{
+"id": "LH Marble Colossus Laser B",
+"type": "0xb0c6",
+"src": "lostHallsObjects",
+"category": "helper",
+"sub": "invisible",
+"why": "src",
+"file": "helpers/invisible/LH Marble Colossus Laser B__b0c6.png"
+},
+{
+"id": "LH Colossus Pillar",
+"type": "0xb033",
+"src": "lostHallsObjects",
+"category": "enemy",
+"sub": "boss_minion",
+"why": "src",
+"file": "enemies/boss_minion/LH Colossus Pillar__b033.png"
+},
+{
+"id": "LH Colossus Pillar Summoner",
+"type": "0xb034",
+"src": "lostHallsObjects",
+"category": "prop",
+"sub": "lostHallsObjects",
+"why": "src",
+"file": "props/all/LH Colossus Pillar Summoner__b034.png"
+},
+{
+"id": "LH Colossus Rock 1",
+"type": "0xb035",
+"src": "lostHallsObjects",
+"category": "helper",
+"sub": "anchor",
+"why": "src",
+"file": "helpers/anchor/LH Colossus Rock 1__b035.png"
+},
+{
+"id": "LH Colossus Rock 2",
+"type": "0xb036",
+"src": "lostHallsObjects",
+"category": "helper",
+"sub": "anchor",
+"why": "src",
+"file": "helpers/anchor/LH Colossus Rock 2__b036.png"
+},
+{
+"id": "LH Colossus Rock 3",
+"type": "0xb037",
+"src": "lostHallsObjects",
+"category": "helper",
+"sub": "anchor",
+"why": "src",
+"file": "helpers/anchor/LH Colossus Rock 3__b037.png"
+},
+{
+"id": "LH Colossus Rock 4",
+"type": "0xb038",
+"src": "lostHallsObjects",
+"category": "helper",
+"sub": "anchor",
+"why": "src",
+"file": "helpers/anchor/LH Colossus Rock 4__b038.png"
+},
+{
+"id": "LH Colossus Rock 5",
+"type": "0xb039",
+"src": "lostHallsObjects",
+"category": "helper",
+"sub": "anchor",
+"why": "src",
+"file": "helpers/anchor/LH Colossus Rock 5__b039.png"
+},
+{
+"id": "LH Colossus Rock 6",
+"type": "0xb03a",
+"src": "lostHallsObjects",
+"category": "helper",
+"sub": "anchor",
+"why": "src",
+"file": "helpers/anchor/LH Colossus Rock 6__b03a.png"
+},
+{
+"id": "LH Colossus Rock 7",
+"type": "0xb041",
+"src": "lostHallsObjects",
+"category": "helper",
+"sub": "anchor",
+"why": "src",
+"file": "helpers/anchor/LH Colossus Rock 7__b041.png"
+},
+{
+"id": "LH Colossus Rock 8",
+"type": "0xb042",
+"src": "lostHallsObjects",
+"category": "helper",
+"sub": "anchor",
+"why": "src",
+"file": "helpers/anchor/LH Colossus Rock 8__b042.png"
+},
+{
+"id": "LH Colossus Rock 9",
+"type": "0xb043",
+"src": "lostHallsObjects",
+"category": "helper",
+"sub": "anchor",
+"why": "src",
+"file": "helpers/anchor/LH Colossus Rock 9__b043.png"
+},
+{
+"id": "LH Colossus Rock 10",
+"type": "0xb044",
+"src": "lostHallsObjects",
+"category": "helper",
+"sub": "anchor",
+"why": "src",
+"file": "helpers/anchor/LH Colossus Rock 10__b044.png"
+},
+{
+"id": "LH Colossus Rock 11",
+"type": "0xb045",
+"src": "lostHallsObjects",
+"category": "helper",
+"sub": "anchor",
+"why": "src",
+"file": "helpers/anchor/LH Colossus Rock 11__b045.png"
+},
+{
+"id": "LH Colossus Rock 12",
+"type": "0xb052",
+"src": "lostHallsObjects",
+"category": "helper",
+"sub": "anchor",
+"why": "src",
+"file": "helpers/anchor/LH Colossus Rock 12__b052.png"
+},
+{
+"id": "LH Colossus Rock 13",
+"type": "0xb04e",
+"src": "lostHallsObjects",
+"category": "helper",
+"sub": "anchor",
+"why": "src",
+"file": "helpers/anchor/LH Colossus Rock 13__b04e.png"
+},
+{
+"id": "LH Colossus Rock 14",
+"type": "0xb04f",
+"src": "lostHallsObjects",
+"category": "helper",
+"sub": "anchor",
+"why": "src",
+"file": "helpers/anchor/LH Colossus Rock 14__b04f.png"
+},
+{
+"id": "LH Marble Core 1",
+"type": "0xb137",
+"src": "lostHallsObjects",
+"category": "enemy",
+"sub": "boss_minion",
+"why": "src",
+"file": "enemies/boss_minion/LH Marble Core 1__b137.png"
+},
+{
+"id": "LH Marble Core 2",
+"type": "0xb03c",
+"src": "lostHallsObjects",
+"category": "enemy",
+"sub": "boss_minion",
+"why": "src",
+"file": "enemies/boss_minion/LH Marble Core 2__b03c.png"
+},
+{
+"id": "LH Marble Core 3",
+"type": "0xb03d",
+"src": "lostHallsObjects",
+"category": "enemy",
+"sub": "boss_minion",
+"why": "src",
+"file": "enemies/boss_minion/LH Marble Core 3__b03d.png"
+},
+{
+"id": "LH Marble Core 4",
+"type": "0xb13c",
+"src": "lostHallsObjects",
+"category": "enemy",
+"sub": "boss_minion",
+"why": "src",
+"file": "enemies/boss_minion/LH Marble Core 4__b13c.png"
+},
+{
+"id": "LH Marble Core 5",
+"type": "0xb03f",
+"src": "lostHallsObjects",
+"category": "enemy",
+"sub": "boss_minion",
+"why": "src",
+"file": "enemies/boss_minion/LH Marble Core 5__b03f.png"
+},
+{
+"id": "LH Marble Core 6",
+"type": "0xb040",
+"src": "lostHallsObjects",
+"category": "enemy",
+"sub": "boss_minion",
+"why": "src",
+"file": "enemies/boss_minion/LH Marble Core 6__b040.png"
+},
+{
+"id": "LH Marble Core 7",
+"type": "0xb050",
+"src": "lostHallsObjects",
+"category": "enemy",
+"sub": "boss_minion",
+"why": "src",
+"file": "enemies/boss_minion/LH Marble Core 7__b050.png"
+},
+{
+"id": "LH Marble Core 8",
+"type": "0xb051",
+"src": "lostHallsObjects",
+"category": "enemy",
+"sub": "boss_minion",
+"why": "src",
+"file": "enemies/boss_minion/LH Marble Core 8__b051.png"
+},
+{
+"id": "LH Wall Spawner",
+"type": "0xb054",
+"src": "lostHallsObjects",
+"category": "prop",
+"sub": "lostHallsObjects",
+"why": "src",
+"file": "props/all/LH Wall Spawner__b054.png"
+},
+{
+"id": "LH Pot 1",
+"type": "0xb0b5",
+"src": "lostHallsObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/LH Pot 1__b0b5.png"
+},
+{
+"id": "LH Pot 2",
+"type": "0xb0b6",
+"src": "lostHallsObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/LH Pot 2__b0b6.png"
+},
+{
+"id": "LH Pot 3",
+"type": "0xb0b7",
+"src": "lostHallsObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/LH Pot 3__b0b7.png"
+},
+{
+"id": "LH Pot 4",
+"type": "0xb0b8",
+"src": "lostHallsObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/LH Pot 4__b0b8.png"
+},
+{
+"id": "LH Pot 5",
+"type": "0xb0b9",
+"src": "lostHallsObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/LH Pot 5__b0b9.png"
+},
+{
+"id": "LH Pot 6",
+"type": "0xb0ba",
+"src": "lostHallsObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/LH Pot 6__b0ba.png"
+},
+{
+"id": "LH Pot 7",
+"type": "0xb0bb",
+"src": "lostHallsObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/LH Pot 7__b0bb.png"
+},
+{
+"id": "LH Evil Spirit Done",
+"type": "0xb115",
+"src": "lostHallsObjects",
+"category": "prop",
+"sub": "lostHallsObjects",
+"why": "src",
+"file": "props/all/LH Evil Spirit Done__b115.png"
+},
+{
+"id": "LH Evil Spirit 1",
+"type": "0xb0bc",
+"src": "lostHallsObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/LH Evil Spirit 1__b0bc.png"
+},
+{
+"id": "LH Evil Spirit 2",
+"type": "0xb0bd",
+"src": "lostHallsObjects",
+"category": "npc",
+"sub": "all",
+"why": "src",
+"file": "npcs/all/LH Evil Spirit 2__b0bd.png"
+},
+{
+"id": "LH Evil Spirit 3",
+"type": "0xb0be",
+"src": "lostHallsObjects",
+"category": "npc",
+"sub": "all",
+"why": "src",
+"file": "npcs/all/LH Evil Spirit 3__b0be.png"
+},
+{
+"id": "LH Agonized Titan",
+"type": "0xb010",
+"src": "lostHallsObjects",
+"category": "enemy",
+"sub": "miniboss",
+"why": "src",
+"file": "enemies/miniboss/LH Agonized Titan__b010.png"
+},
+{
+"id": "AgnoziedMarker",
+"type": "0x4569",
+"src": "lostHallsObjects",
+"category": "helper",
+"sub": "other",
+"why": "src",
+"file": "helpers/other/AgnoziedMarker__4569.png"
+},
+{
+"id": "LH Red Cultist",
+"type": "0xb055",
+"src": "lostHallsObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/LH Red Cultist__b055.png"
+},
+{
+"id": "LH Blue Cultist",
+"type": "0xb056",
+"src": "lostHallsObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/LH Blue Cultist__b056.png"
+},
+{
+"id": "LH Yellow Cultist",
+"type": "0xb057",
+"src": "lostHallsObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/LH Yellow Cultist__b057.png"
+},
+{
+"id": "LH White Cultist",
+"type": "0xb058",
+"src": "lostHallsObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/LH White Cultist__b058.png"
+},
+{
+"id": "LH Purple Cultist",
+"type": "0xb059",
+"src": "lostHallsObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/LH Purple Cultist__b059.png"
+},
+{
+"id": "LH Black Cultist",
+"type": "0xb154",
+"src": "lostHallsObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/LH Black Cultist__b154.png"
+},
+{
+"id": "LH Green Cultist",
+"type": "0xb156",
+"src": "lostHallsObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/LH Green Cultist__b156.png"
+},
+{
+"id": "LH Fire Demon",
+"type": "0xb05a",
+"src": "lostHallsObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/LH Fire Demon__b05a.png"
+},
+{
+"id": "LH Ice Demon",
+"type": "0xb05b",
+"src": "lostHallsObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/LH Ice Demon__b05b.png"
+},
+{
+"id": "LH Lightning Demon",
+"type": "0xb060",
+"src": "lostHallsObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/LH Lightning Demon__b060.png"
+},
+{
+"id": "LH Cult Spawner",
+"type": "0xb061",
+"src": "lostHallsObjects",
+"category": "prop",
+"sub": "lostHallsObjects",
+"why": "src",
+"file": "props/all/LH Cult Spawner__b061.png"
+},
+{
+"id": "LH Cult Portrait",
+"type": "0xb0bf",
+"src": "lostHallsObjects",
+"category": "helper",
+"sub": "other",
+"why": "src",
+"file": "helpers/other/LH Cult Portrait__b0bf.png"
+},
+{
+"id": "LH Cult Controller",
+"type": "0xb09e",
+"src": "lostHallsObjects",
+"category": "helper",
+"sub": "invisible",
+"why": "src",
+"file": "helpers/invisible/LH Cult Controller__b09e.png"
+},
+{
+"id": "LH Cultists Spawner",
+"type": "0xb0b0",
+"src": "lostHallsObjects",
+"category": "prop",
+"sub": "lostHallsObjects",
+"why": "src",
+"file": "props/all/LH Cultists Spawner__b0b0.png"
+},
+{
+"id": "LH Malus",
+"type": "0xb09f",
+"src": "lostHallsObjects",
+"category": "enemy",
+"sub": "miniboss",
+"why": "src",
+"file": "enemies/miniboss/LH Malus__b09f.png"
+},
+{
+"id": "LH Argus",
+"type": "0xb0a1",
+"src": "lostHallsObjects",
+"category": "enemy",
+"sub": "miniboss",
+"why": "src",
+"file": "enemies/miniboss/LH Argus__b0a1.png"
+},
+{
+"id": "LH Gaius",
+"type": "0xb0a3",
+"src": "lostHallsObjects",
+"category": "enemy",
+"sub": "miniboss",
+"why": "src",
+"file": "enemies/miniboss/LH Gaius__b0a3.png"
+},
+{
+"id": "LH Basaran",
+"type": "0xb0a5",
+"src": "lostHallsObjects",
+"category": "enemy",
+"sub": "miniboss",
+"why": "src",
+"file": "enemies/miniboss/LH Basaran__b0a5.png"
+},
+{
+"id": "LH Dirge",
+"type": "0xb0a7",
+"src": "lostHallsObjects",
+"category": "enemy",
+"sub": "miniboss",
+"why": "src",
+"file": "enemies/miniboss/LH Dirge__b0a7.png"
+},
+{
+"id": "LH Molek",
+"type": "0xb0a9",
+"src": "lostHallsObjects",
+"category": "enemy",
+"sub": "miniboss",
+"why": "src",
+"file": "enemies/miniboss/LH Molek__b0a9.png"
+},
+{
+"id": "LH Molek Flame",
+"type": "0xb0aa",
+"src": "lostHallsObjects",
+"category": "helper",
+"sub": "effect",
+"why": "src",
+"file": "helpers/effect/LH Molek Flame__b0aa.png"
+},
+{
+"id": "LH Balaam",
+"type": "0xb0ab",
+"src": "lostHallsObjects",
+"category": "enemy",
+"sub": "miniboss",
+"why": "src",
+"file": "enemies/miniboss/LH Balaam__b0ab.png"
+},
+{
+"id": "LH Balaam 1",
+"type": "0xb0ac",
+"src": "lostHallsObjects",
+"category": "enemy",
+"sub": "miniboss",
+"why": "src",
+"file": "enemies/miniboss/LH Balaam 1__b0ac.png"
+},
+{
+"id": "LH Balaam 2",
+"type": "0xb0ad",
+"src": "lostHallsObjects",
+"category": "enemy",
+"sub": "miniboss",
+"why": "src",
+"file": "enemies/miniboss/LH Balaam 2__b0ad.png"
+},
+{
+"id": "LH Balaam 3",
+"type": "0xb0ae",
+"src": "lostHallsObjects",
+"category": "enemy",
+"sub": "miniboss",
+"why": "src",
+"file": "enemies/miniboss/LH Balaam 3__b0ae.png"
+},
+{
+"id": "LH Malus 2",
+"type": "0xb0af",
+"src": "lostHallsObjects",
+"category": "enemy",
+"sub": "boss",
+"why": "src",
+"file": "enemies/boss/LH Malus 2__b0af.png"
+},
+{
+"id": "LH Void Rift Spawner",
+"type": "0xb01c",
+"src": "lostHallsObjects",
+"category": "prop",
+"sub": "lostHallsObjects",
+"why": "src",
+"file": "props/all/LH Void Rift Spawner__b01c.png"
+},
+{
+"id": "LH Vial Effect",
+"type": "0xb01d",
+"src": "lostHallsObjects",
+"category": "prop",
+"sub": "lostHallsObjects",
+"why": "src",
+"file": "props/all/LH Vial Effect__b01d.png"
+},
+{
+"id": "LH Void Fragment",
+"type": "0xb019",
+"src": "lostHallsObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/LH Void Fragment__b019.png"
+},
+{
+"id": "LH Void Shade",
+"type": "0xb023",
+"src": "lostHallsObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/LH Void Shade__b023.png"
+},
+{
+"id": "LH Greater Void Shade",
+"type": "0xb026",
+"src": "lostHallsObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/LH Greater Void Shade__b026.png"
+},
+{
+"id": "LH Void Spawner",
+"type": "0xb028",
+"src": "lostHallsObjects",
+"category": "prop",
+"sub": "lostHallsObjects",
+"why": "src",
+"file": "props/all/LH Void Spawner__b028.png"
+},
+{
+"id": "LH Void Controller",
+"type": "0xb016",
+"src": "lostHallsObjects",
+"category": "prop",
+"sub": "lostHallsObjects",
+"why": "src",
+"file": "props/all/LH Void Controller__b016.png"
+},
+{
+"id": "LH Void Fill",
+"type": "0xb017",
+"src": "lostHallsObjects",
+"category": "prop",
+"sub": "lostHallsObjects",
+"why": "src",
+"file": "props/all/LH Void Fill__b017.png"
+},
+{
+"id": "LH Void Split",
+"type": "0xb018",
+"src": "lostHallsObjects",
+"category": "prop",
+"sub": "lostHallsObjects",
+"why": "src",
+"file": "props/all/LH Void Split__b018.png"
+},
+{
+"id": "LH Void Anchor L",
+"type": "0xb099",
+"src": "lostHallsObjects",
+"category": "prop",
+"sub": "lostHallsObjects",
+"why": "src",
+"file": "props/all/LH Void Anchor L__b099.png"
+},
+{
+"id": "LH Void Anchor R",
+"type": "0xb09a",
+"src": "lostHallsObjects",
+"category": "prop",
+"sub": "lostHallsObjects",
+"why": "src",
+"file": "props/all/LH Void Anchor R__b09a.png"
+},
+{
+"id": "LH Void Anchor U",
+"type": "0xb09b",
+"src": "lostHallsObjects",
+"category": "prop",
+"sub": "lostHallsObjects",
+"why": "src",
+"file": "props/all/LH Void Anchor U__b09b.png"
+},
+{
+"id": "LH Void Anchor D",
+"type": "0xb09c",
+"src": "lostHallsObjects",
+"category": "prop",
+"sub": "lostHallsObjects",
+"why": "src",
+"file": "props/all/LH Void Anchor D__b09c.png"
+},
+{
+"id": "LH Void Entity",
+"type": "0xb014",
+"src": "lostHallsObjects",
+"category": "enemy",
+"sub": "boss",
+"why": "src",
+"file": "enemies/boss/LH Void Entity__b014.png"
+},
+{
+"id": "LH Void Entity N",
+"type": "0xb150",
+"src": "lostHallsObjects",
+"category": "enemy",
+"sub": "boss_minion",
+"why": "src",
+"file": "enemies/boss_minion/LH Void Entity N__b150.png"
+},
+{
+"id": "LH Void Entity E",
+"type": "0xb151",
+"src": "lostHallsObjects",
+"category": "enemy",
+"sub": "boss_minion",
+"why": "src",
+"file": "enemies/boss_minion/LH Void Entity E__b151.png"
+},
+{
+"id": "LH Void Entity S",
+"type": "0xb152",
+"src": "lostHallsObjects",
+"category": "enemy",
+"sub": "boss_minion",
+"why": "src",
+"file": "enemies/boss_minion/LH Void Entity S__b152.png"
+},
+{
+"id": "LH Void Entity W",
+"type": "0xb153",
+"src": "lostHallsObjects",
+"category": "enemy",
+"sub": "boss_minion",
+"why": "src",
+"file": "enemies/boss_minion/LH Void Entity W__b153.png"
+},
+{
+"id": "LH Lit Candle Wall 1",
+"type": "0xb01e",
+"src": "lostHallsObjects",
+"category": "wall",
+"sub": "lostHallsObjects",
+"why": "src",
+"file": "walls/all/LH Lit Candle Wall 1__b01e.png"
+},
+{
+"id": "LH Lit Candle Wall 2",
+"type": "0xb01f",
+"src": "lostHallsObjects",
+"category": "wall",
+"sub": "lostHallsObjects",
+"why": "src",
+"file": "walls/all/LH Lit Candle Wall 2__b01f.png"
+},
+{
+"id": "LH Unlit Candle Wall",
+"type": "0xb020",
+"src": "lostHallsObjects",
+"category": "wall",
+"sub": "lostHallsObjects",
+"why": "src",
+"file": "walls/all/LH Unlit Candle Wall__b020.png"
+},
+{
+"id": "LH Main Wall",
+"type": "0xb021",
+"src": "lostHallsObjects",
+"category": "wall",
+"sub": "lostHallsObjects",
+"why": "src",
+"file": "walls/all/LH Main Wall__b021.png"
+},
+{
+"id": "LH Trap Wall",
+"type": "0xb144",
+"src": "lostHallsObjects",
+"category": "wall",
+"sub": "lostHallsObjects",
+"why": "src",
+"file": "walls/all/LH Trap Wall__b144.png"
+},
+{
+"id": "LH Boss Wall",
+"type": "0xb149",
+"src": "lostHallsObjects",
+"category": "wall",
+"sub": "lostHallsObjects",
+"why": "src",
+"file": "walls/all/LH Boss Wall__b149.png"
+},
+{
+"id": "LH Marble Wall",
+"type": "0xb095",
+"src": "lostHallsObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/LH Marble Wall__b095.png"
+},
+{
+"id": "LH Cracked Wall",
+"type": "0xb158",
+"src": "lostHallsObjects",
+"category": "wall",
+"sub": "lostHallsObjects",
+"why": "src",
+"file": "walls/all/LH Cracked Wall__b158.png"
+},
+{
+"id": "LH Vine Wall",
+"type": "0xb159",
+"src": "lostHallsObjects",
+"category": "wall",
+"sub": "lostHallsObjects",
+"why": "src",
+"file": "walls/all/LH Vine Wall__b159.png"
+},
+{
+"id": "LH Face Wall 1",
+"type": "0xb15a",
+"src": "lostHallsObjects",
+"category": "wall",
+"sub": "lostHallsObjects",
+"why": "src",
+"file": "walls/all/LH Face Wall 1__b15a.png"
+},
+{
+"id": "LH Face Wall 2",
+"type": "0xb15b",
+"src": "lostHallsObjects",
+"category": "wall",
+"sub": "lostHallsObjects",
+"why": "src",
+"file": "walls/all/LH Face Wall 2__b15b.png"
+},
+{
+"id": "LH Water Wall",
+"type": "0xb15c",
+"src": "lostHallsObjects",
+"category": "wall",
+"sub": "lostHallsObjects",
+"why": "src",
+"file": "walls/all/LH Water Wall__b15c.png"
+},
+{
+"id": "LH Void Wall",
+"type": "0xb15d",
+"src": "lostHallsObjects",
+"category": "wall",
+"sub": "lostHallsObjects",
+"why": "src",
+"file": "walls/all/LH Void Wall__b15d.png"
+},
+{
+"id": "LH Remains",
+"type": "0xb022",
+"src": "lostHallsObjects",
+"category": "prop",
+"sub": "lostHallsObjects",
+"why": "src",
+"file": "props/all/LH Remains__b022.png"
+},
+{
+"id": "LH Broken Pillar",
+"type": "0xb15e",
+"src": "lostHallsObjects",
+"category": "prop",
+"sub": "lostHallsObjects",
+"why": "src",
+"file": "props/all/LH Broken Pillar__b15e.png"
+},
+{
+"id": "LH Slime Goop",
+"type": "0xb15f",
+"src": "lostHallsObjects",
+"category": "prop",
+"sub": "lostHallsObjects",
+"why": "src",
+"file": "props/all/LH Slime Goop__b15f.png"
+},
+{
+"id": "LH Cult Wall",
+"type": "0xb05e",
+"src": "lostHallsObjects",
+"category": "wall",
+"sub": "lostHallsObjects",
+"why": "src",
+"file": "walls/all/LH Cult Wall__b05e.png"
+},
+{
+"id": "LH Cult Bloody Wall",
+"type": "0xb05f",
+"src": "lostHallsObjects",
+"category": "wall",
+"sub": "lostHallsObjects",
+"why": "src",
+"file": "walls/all/LH Cult Bloody Wall__b05f.png"
+},
+{
+"id": "LH Pent 1",
+"type": "0xb064",
+"src": "lostHallsObjects",
+"category": "prop",
+"sub": "lostHallsObjects",
+"why": "src",
+"file": "props/all/LH Pent 1__b064.png"
+},
+{
+"id": "LH Pent 2",
+"type": "0xb065",
+"src": "lostHallsObjects",
+"category": "prop",
+"sub": "lostHallsObjects",
+"why": "src",
+"file": "props/all/LH Pent 2__b065.png"
+},
+{
+"id": "LH Pent 3",
+"type": "0xb066",
+"src": "lostHallsObjects",
+"category": "prop",
+"sub": "lostHallsObjects",
+"why": "src",
+"file": "props/all/LH Pent 3__b066.png"
+},
+{
+"id": "LH Pent 4",
+"type": "0xb067",
+"src": "lostHallsObjects",
+"category": "prop",
+"sub": "lostHallsObjects",
+"why": "src",
+"file": "props/all/LH Pent 4__b067.png"
+},
+{
+"id": "LH Pent 5",
+"type": "0xb068",
+"src": "lostHallsObjects",
+"category": "prop",
+"sub": "lostHallsObjects",
+"why": "src",
+"file": "props/all/LH Pent 5__b068.png"
+},
+{
+"id": "LH Pent 6",
+"type": "0xb069",
+"src": "lostHallsObjects",
+"category": "prop",
+"sub": "lostHallsObjects",
+"why": "src",
+"file": "props/all/LH Pent 6__b069.png"
+},
+{
+"id": "LH Pent 7",
+"type": "0xb06a",
+"src": "lostHallsObjects",
+"category": "prop",
+"sub": "lostHallsObjects",
+"why": "src",
+"file": "props/all/LH Pent 7__b06a.png"
+},
+{
+"id": "LH Pent 8",
+"type": "0xb06b",
+"src": "lostHallsObjects",
+"category": "prop",
+"sub": "lostHallsObjects",
+"why": "src",
+"file": "props/all/LH Pent 8__b06b.png"
+},
+{
+"id": "LH Pent 9",
+"type": "0xb06c",
+"src": "lostHallsObjects",
+"category": "prop",
+"sub": "lostHallsObjects",
+"why": "src",
+"file": "props/all/LH Pent 9__b06c.png"
+},
+{
+"id": "LH Pent 10",
+"type": "0xb06d",
+"src": "lostHallsObjects",
+"category": "prop",
+"sub": "lostHallsObjects",
+"why": "src",
+"file": "props/all/LH Pent 10__b06d.png"
+},
+{
+"id": "LH Pent 11",
+"type": "0xb06e",
+"src": "lostHallsObjects",
+"category": "prop",
+"sub": "lostHallsObjects",
+"why": "src",
+"file": "props/all/LH Pent 11__b06e.png"
+},
+{
+"id": "LH Pent 12",
+"type": "0xb06f",
+"src": "lostHallsObjects",
+"category": "prop",
+"sub": "lostHallsObjects",
+"why": "src",
+"file": "props/all/LH Pent 12__b06f.png"
+},
+{
+"id": "LH Pent 13",
+"type": "0xb070",
+"src": "lostHallsObjects",
+"category": "prop",
+"sub": "lostHallsObjects",
+"why": "src",
+"file": "props/all/LH Pent 13__b070.png"
+},
+{
+"id": "LH Pent 14",
+"type": "0xb071",
+"src": "lostHallsObjects",
+"category": "prop",
+"sub": "lostHallsObjects",
+"why": "src",
+"file": "props/all/LH Pent 14__b071.png"
+},
+{
+"id": "LH Pent 15",
+"type": "0xb072",
+"src": "lostHallsObjects",
+"category": "prop",
+"sub": "lostHallsObjects",
+"why": "src",
+"file": "props/all/LH Pent 15__b072.png"
+},
+{
+"id": "LH Pent 16",
+"type": "0xb073",
+"src": "lostHallsObjects",
+"category": "prop",
+"sub": "lostHallsObjects",
+"why": "src",
+"file": "props/all/LH Pent 16__b073.png"
+},
+{
+"id": "LH Pent 17",
+"type": "0xb074",
+"src": "lostHallsObjects",
+"category": "prop",
+"sub": "lostHallsObjects",
+"why": "src",
+"file": "props/all/LH Pent 17__b074.png"
+},
+{
+"id": "LH Pent 18",
+"type": "0xb075",
+"src": "lostHallsObjects",
+"category": "prop",
+"sub": "lostHallsObjects",
+"why": "src",
+"file": "props/all/LH Pent 18__b075.png"
+},
+{
+"id": "LH Pent 19",
+"type": "0xb076",
+"src": "lostHallsObjects",
+"category": "prop",
+"sub": "lostHallsObjects",
+"why": "src",
+"file": "props/all/LH Pent 19__b076.png"
+},
+{
+"id": "LH Pent 20",
+"type": "0xb077",
+"src": "lostHallsObjects",
+"category": "prop",
+"sub": "lostHallsObjects",
+"why": "src",
+"file": "props/all/LH Pent 20__b077.png"
+},
+{
+"id": "LH Pent 21",
+"type": "0xb078",
+"src": "lostHallsObjects",
+"category": "prop",
+"sub": "lostHallsObjects",
+"why": "src",
+"file": "props/all/LH Pent 21__b078.png"
+},
+{
+"id": "LH Pent 22",
+"type": "0xb079",
+"src": "lostHallsObjects",
+"category": "prop",
+"sub": "lostHallsObjects",
+"why": "src",
+"file": "props/all/LH Pent 22__b079.png"
+},
+{
+"id": "LH Pent 23",
+"type": "0xb07a",
+"src": "lostHallsObjects",
+"category": "prop",
+"sub": "lostHallsObjects",
+"why": "src",
+"file": "props/all/LH Pent 23__b07a.png"
+},
+{
+"id": "LH Pent 24",
+"type": "0xb07b",
+"src": "lostHallsObjects",
+"category": "prop",
+"sub": "lostHallsObjects",
+"why": "src",
+"file": "props/all/LH Pent 24__b07b.png"
+},
+{
+"id": "LH Pent 25",
+"type": "0xb07c",
+"src": "lostHallsObjects",
+"category": "prop",
+"sub": "lostHallsObjects",
+"why": "src",
+"file": "props/all/LH Pent 25__b07c.png"
+},
+{
+"id": "LH Pent 26",
+"type": "0xb07d",
+"src": "lostHallsObjects",
+"category": "prop",
+"sub": "lostHallsObjects",
+"why": "src",
+"file": "props/all/LH Pent 26__b07d.png"
+},
+{
+"id": "LH Pent 27",
+"type": "0xb07e",
+"src": "lostHallsObjects",
+"category": "prop",
+"sub": "lostHallsObjects",
+"why": "src",
+"file": "props/all/LH Pent 27__b07e.png"
+},
+{
+"id": "LH Pent 28",
+"type": "0xb07f",
+"src": "lostHallsObjects",
+"category": "prop",
+"sub": "lostHallsObjects",
+"why": "src",
+"file": "props/all/LH Pent 28__b07f.png"
+},
+{
+"id": "LH Pent 29",
+"type": "0xb080",
+"src": "lostHallsObjects",
+"category": "prop",
+"sub": "lostHallsObjects",
+"why": "src",
+"file": "props/all/LH Pent 29__b080.png"
+},
+{
+"id": "LH Pent 30",
+"type": "0xb081",
+"src": "lostHallsObjects",
+"category": "prop",
+"sub": "lostHallsObjects",
+"why": "src",
+"file": "props/all/LH Pent 30__b081.png"
+},
+{
+"id": "LH Pent 31",
+"type": "0xb082",
+"src": "lostHallsObjects",
+"category": "prop",
+"sub": "lostHallsObjects",
+"why": "src",
+"file": "props/all/LH Pent 31__b082.png"
+},
+{
+"id": "LH Pent 32",
+"type": "0xb083",
+"src": "lostHallsObjects",
+"category": "prop",
+"sub": "lostHallsObjects",
+"why": "src",
+"file": "props/all/LH Pent 32__b083.png"
+},
+{
+"id": "LH Pent 33",
+"type": "0xb084",
+"src": "lostHallsObjects",
+"category": "prop",
+"sub": "lostHallsObjects",
+"why": "src",
+"file": "props/all/LH Pent 33__b084.png"
+},
+{
+"id": "LH Pent 34",
+"type": "0xb085",
+"src": "lostHallsObjects",
+"category": "prop",
+"sub": "lostHallsObjects",
+"why": "src",
+"file": "props/all/LH Pent 34__b085.png"
+},
+{
+"id": "LH Pent 35",
+"type": "0xb086",
+"src": "lostHallsObjects",
+"category": "prop",
+"sub": "lostHallsObjects",
+"why": "src",
+"file": "props/all/LH Pent 35__b086.png"
+},
+{
+"id": "LH Pent 36",
+"type": "0xb087",
+"src": "lostHallsObjects",
+"category": "prop",
+"sub": "lostHallsObjects",
+"why": "src",
+"file": "props/all/LH Pent 36__b087.png"
+},
+{
+"id": "LH Pent 37",
+"type": "0xb088",
+"src": "lostHallsObjects",
+"category": "prop",
+"sub": "lostHallsObjects",
+"why": "src",
+"file": "props/all/LH Pent 37__b088.png"
+},
+{
+"id": "LH Pent 38",
+"type": "0xb089",
+"src": "lostHallsObjects",
+"category": "prop",
+"sub": "lostHallsObjects",
+"why": "src",
+"file": "props/all/LH Pent 38__b089.png"
+},
+{
+"id": "LH Pent 39",
+"type": "0xb08a",
+"src": "lostHallsObjects",
+"category": "prop",
+"sub": "lostHallsObjects",
+"why": "src",
+"file": "props/all/LH Pent 39__b08a.png"
+},
+{
+"id": "LH Pent 40",
+"type": "0xb08b",
+"src": "lostHallsObjects",
+"category": "prop",
+"sub": "lostHallsObjects",
+"why": "src",
+"file": "props/all/LH Pent 40__b08b.png"
+},
+{
+"id": "LH Pent 41",
+"type": "0xb08c",
+"src": "lostHallsObjects",
+"category": "prop",
+"sub": "lostHallsObjects",
+"why": "src",
+"file": "props/all/LH Pent 41__b08c.png"
+},
+{
+"id": "LH Pent 42",
+"type": "0xb08d",
+"src": "lostHallsObjects",
+"category": "prop",
+"sub": "lostHallsObjects",
+"why": "src",
+"file": "props/all/LH Pent 42__b08d.png"
+},
+{
+"id": "LH Pent 43",
+"type": "0xb08e",
+"src": "lostHallsObjects",
+"category": "prop",
+"sub": "lostHallsObjects",
+"why": "src",
+"file": "props/all/LH Pent 43__b08e.png"
+},
+{
+"id": "LH Pent 44",
+"type": "0xb08f",
+"src": "lostHallsObjects",
+"category": "prop",
+"sub": "lostHallsObjects",
+"why": "src",
+"file": "props/all/LH Pent 44__b08f.png"
+},
+{
+"id": "LH Pent 45",
+"type": "0xb090",
+"src": "lostHallsObjects",
+"category": "prop",
+"sub": "lostHallsObjects",
+"why": "src",
+"file": "props/all/LH Pent 45__b090.png"
+},
+{
+"id": "LH Pent 46",
+"type": "0xb091",
+"src": "lostHallsObjects",
+"category": "prop",
+"sub": "lostHallsObjects",
+"why": "src",
+"file": "props/all/LH Pent 46__b091.png"
+},
+{
+"id": "LH Pent 47",
+"type": "0xb092",
+"src": "lostHallsObjects",
+"category": "prop",
+"sub": "lostHallsObjects",
+"why": "src",
+"file": "props/all/LH Pent 47__b092.png"
+},
+{
+"id": "LH Pent 48",
+"type": "0xb093",
+"src": "lostHallsObjects",
+"category": "prop",
+"sub": "lostHallsObjects",
+"why": "src",
+"file": "props/all/LH Pent 48__b093.png"
+},
+{
+"id": "LH Pent 49",
+"type": "0xb094",
+"src": "lostHallsObjects",
+"category": "prop",
+"sub": "lostHallsObjects",
+"why": "src",
+"file": "props/all/LH Pent 49__b094.png"
+},
+{
+"id": "LH Big Candle",
+"type": "0xb0e9",
+"src": "lostHallsObjects",
+"category": "prop",
+"sub": "lostHallsObjects",
+"why": "src",
+"file": "props/all/LH Big Candle__b0e9.png"
+},
+{
+"id": "LH Small Candle",
+"type": "0xb0ea",
+"src": "lostHallsObjects",
+"category": "prop",
+"sub": "lostHallsObjects",
+"why": "src",
+"file": "props/all/LH Small Candle__b0ea.png"
+},
+{
+"id": "LH Cult Prop1",
+"type": "0xb02f",
+"src": "lostHallsObjects",
+"category": "prop",
+"sub": "lostHallsObjects",
+"why": "src",
+"file": "props/all/LH Cult Prop1__b02f.png"
+},
+{
+"id": "LH Cult Prop2",
+"type": "0xb031",
+"src": "lostHallsObjects",
+"category": "prop",
+"sub": "lostHallsObjects",
+"why": "src",
+"file": "props/all/LH Cult Prop2__b031.png"
+},
+{
+"id": "LH Cult Prop3",
+"type": "0xb032",
+"src": "lostHallsObjects",
+"category": "prop",
+"sub": "lostHallsObjects",
+"why": "src",
+"file": "props/all/LH Cult Prop3__b032.png"
+},
+{
+"id": "LH Cult Prop4",
+"type": "0xb0fb",
+"src": "lostHallsObjects",
+"category": "prop",
+"sub": "lostHallsObjects",
+"why": "src",
+"file": "props/all/LH Cult Prop4__b0fb.png"
+},
+{
+"id": "LH Cult Prop5",
+"type": "0xb0fc",
+"src": "lostHallsObjects",
+"category": "prop",
+"sub": "lostHallsObjects",
+"why": "src",
+"file": "props/all/LH Cult Prop5__b0fc.png"
+},
+{
+"id": "LH Cult Prop6",
+"type": "0xb0fd",
+"src": "lostHallsObjects",
+"category": "prop",
+"sub": "lostHallsObjects",
+"why": "src",
+"file": "props/all/LH Cult Prop6__b0fd.png"
+},
+{
+"id": "LH Cult Prop7",
+"type": "0xb0fe",
+"src": "lostHallsObjects",
+"category": "prop",
+"sub": "lostHallsObjects",
+"why": "src",
+"file": "props/all/LH Cult Prop7__b0fe.png"
+},
+{
+"id": "LH Cult Prop8",
+"type": "0xb0ff",
+"src": "lostHallsObjects",
+"category": "prop",
+"sub": "lostHallsObjects",
+"why": "src",
+"file": "props/all/LH Cult Prop8__b0ff.png"
+},
+{
+"id": "LH Cult Prop9",
+"type": "0xb100",
+"src": "lostHallsObjects",
+"category": "prop",
+"sub": "lostHallsObjects",
+"why": "src",
+"file": "props/all/LH Cult Prop9__b100.png"
+},
+{
+"id": "LH Rift 0",
+"type": "0xb10d",
+"src": "lostHallsObjects",
+"category": "prop",
+"sub": "lostHallsObjects",
+"why": "src",
+"file": "props/all/LH Rift 0__b10d.png"
+},
+{
+"id": "LH Rift 1",
+"type": "0xb10e",
+"src": "lostHallsObjects",
+"category": "prop",
+"sub": "lostHallsObjects",
+"why": "src",
+"file": "props/all/LH Rift 1__b10e.png"
+},
+{
+"id": "LH Rift 2",
+"type": "0xb10f",
+"src": "lostHallsObjects",
+"category": "prop",
+"sub": "lostHallsObjects",
+"why": "src",
+"file": "props/all/LH Rift 2__b10f.png"
+},
+{
+"id": "LH Rift 3",
+"type": "0xb110",
+"src": "lostHallsObjects",
+"category": "prop",
+"sub": "lostHallsObjects",
+"why": "src",
+"file": "props/all/LH Rift 3__b110.png"
+},
+{
+"id": "LH Rift 4",
+"type": "0xb111",
+"src": "lostHallsObjects",
+"category": "prop",
+"sub": "lostHallsObjects",
+"why": "src",
+"file": "props/all/LH Rift 4__b111.png"
+},
+{
+"id": "LH Rift 5",
+"type": "0xb112",
+"src": "lostHallsObjects",
+"category": "prop",
+"sub": "lostHallsObjects",
+"why": "src",
+"file": "props/all/LH Rift 5__b112.png"
+},
+{
+"id": "LH Rift 6",
+"type": "0xb113",
+"src": "lostHallsObjects",
+"category": "prop",
+"sub": "lostHallsObjects",
+"why": "src",
+"file": "props/all/LH Rift 6__b113.png"
+},
+{
+"id": "LH Rift 7",
+"type": "0xb114",
+"src": "lostHallsObjects",
+"category": "prop",
+"sub": "lostHallsObjects",
+"why": "src",
+"file": "props/all/LH Rift 7__b114.png"
+},
+{
+"id": "LH Rift 8",
+"type": "0xb116",
+"src": "lostHallsObjects",
+"category": "prop",
+"sub": "lostHallsObjects",
+"why": "src",
+"file": "props/all/LH Rift 8__b116.png"
+},
+{
+"id": "LH Rift 9",
+"type": "0xb117",
+"src": "lostHallsObjects",
+"category": "prop",
+"sub": "lostHallsObjects",
+"why": "src",
+"file": "props/all/LH Rift 9__b117.png"
+},
+{
+"id": "LH Rift A",
+"type": "0xb118",
+"src": "lostHallsObjects",
+"category": "prop",
+"sub": "lostHallsObjects",
+"why": "src",
+"file": "props/all/LH Rift A__b118.png"
+},
+{
+"id": "LH Rift B",
+"type": "0xb119",
+"src": "lostHallsObjects",
+"category": "prop",
+"sub": "lostHallsObjects",
+"why": "src",
+"file": "props/all/LH Rift B__b119.png"
+},
+{
+"id": "LH Rift C",
+"type": "0xb11a",
+"src": "lostHallsObjects",
+"category": "prop",
+"sub": "lostHallsObjects",
+"why": "src",
+"file": "props/all/LH Rift C__b11a.png"
+},
+{
+"id": "LH Rift D",
+"type": "0xb11b",
+"src": "lostHallsObjects",
+"category": "prop",
+"sub": "lostHallsObjects",
+"why": "src",
+"file": "props/all/LH Rift D__b11b.png"
+},
+{
+"id": "LH Rift E",
+"type": "0xb11c",
+"src": "lostHallsObjects",
+"category": "prop",
+"sub": "lostHallsObjects",
+"why": "src",
+"file": "props/all/LH Rift E__b11c.png"
+},
+{
+"id": "LH Rift F",
+"type": "0xb11d",
+"src": "lostHallsObjects",
+"category": "prop",
+"sub": "lostHallsObjects",
+"why": "src",
+"file": "props/all/LH Rift F__b11d.png"
+},
+{
+"id": "LH Rift 10",
+"type": "0xb11e",
+"src": "lostHallsObjects",
+"category": "prop",
+"sub": "lostHallsObjects",
+"why": "src",
+"file": "props/all/LH Rift 10__b11e.png"
+},
+{
+"id": "LH Rift 11",
+"type": "0xb11f",
+"src": "lostHallsObjects",
+"category": "prop",
+"sub": "lostHallsObjects",
+"why": "src",
+"file": "props/all/LH Rift 11__b11f.png"
+},
+{
+"id": "LH Rift 12",
+"type": "0xb120",
+"src": "lostHallsObjects",
+"category": "prop",
+"sub": "lostHallsObjects",
+"why": "src",
+"file": "props/all/LH Rift 12__b120.png"
+},
+{
+"id": "LH Rift 13",
+"type": "0xb121",
+"src": "lostHallsObjects",
+"category": "prop",
+"sub": "lostHallsObjects",
+"why": "src",
+"file": "props/all/LH Rift 13__b121.png"
+},
+{
+"id": "LH Rift 14",
+"type": "0xb122",
+"src": "lostHallsObjects",
+"category": "prop",
+"sub": "lostHallsObjects",
+"why": "src",
+"file": "props/all/LH Rift 14__b122.png"
+},
+{
+"id": "LH Rift 15",
+"type": "0xb123",
+"src": "lostHallsObjects",
+"category": "prop",
+"sub": "lostHallsObjects",
+"why": "src",
+"file": "props/all/LH Rift 15__b123.png"
+},
+{
+"id": "LH Rift 16",
+"type": "0xb124",
+"src": "lostHallsObjects",
+"category": "prop",
+"sub": "lostHallsObjects",
+"why": "src",
+"file": "props/all/LH Rift 16__b124.png"
+},
+{
+"id": "LH Rift 17",
+"type": "0xb125",
+"src": "lostHallsObjects",
+"category": "prop",
+"sub": "lostHallsObjects",
+"why": "src",
+"file": "props/all/LH Rift 17__b125.png"
+},
+{
+"id": "LH Rift 18",
+"type": "0xb126",
+"src": "lostHallsObjects",
+"category": "prop",
+"sub": "lostHallsObjects",
+"why": "src",
+"file": "props/all/LH Rift 18__b126.png"
+},
+{
+"id": "LH Rift 19",
+"type": "0xb127",
+"src": "lostHallsObjects",
+"category": "prop",
+"sub": "lostHallsObjects",
+"why": "src",
+"file": "props/all/LH Rift 19__b127.png"
+},
+{
+"id": "LH Rift 1A",
+"type": "0xb128",
+"src": "lostHallsObjects",
+"category": "prop",
+"sub": "lostHallsObjects",
+"why": "src",
+"file": "props/all/LH Rift 1A__b128.png"
+},
+{
+"id": "LH Rift 1B",
+"type": "0xb129",
+"src": "lostHallsObjects",
+"category": "prop",
+"sub": "lostHallsObjects",
+"why": "src",
+"file": "props/all/LH Rift 1B__b129.png"
+},
+{
+"id": "LH Rift 1C",
+"type": "0xb12a",
+"src": "lostHallsObjects",
+"category": "prop",
+"sub": "lostHallsObjects",
+"why": "src",
+"file": "props/all/LH Rift 1C__b12a.png"
+},
+{
+"id": "LH Rift 1D",
+"type": "0xb12b",
+"src": "lostHallsObjects",
+"category": "prop",
+"sub": "lostHallsObjects",
+"why": "src",
+"file": "props/all/LH Rift 1D__b12b.png"
+},
+{
+"id": "LH Rift 1E",
+"type": "0xb12c",
+"src": "lostHallsObjects",
+"category": "prop",
+"sub": "lostHallsObjects",
+"why": "src",
+"file": "props/all/LH Rift 1E__b12c.png"
+},
+{
+"id": "LH Rift 1F",
+"type": "0xb12d",
+"src": "lostHallsObjects",
+"category": "prop",
+"sub": "lostHallsObjects",
+"why": "src",
+"file": "props/all/LH Rift 1F__b12d.png"
+},
+{
+"id": "LH Rift 20",
+"type": "0xb12e",
+"src": "lostHallsObjects",
+"category": "prop",
+"sub": "lostHallsObjects",
+"why": "src",
+"file": "props/all/LH Rift 20__b12e.png"
+},
+{
+"id": "LH Rift 21",
+"type": "0xb12f",
+"src": "lostHallsObjects",
+"category": "prop",
+"sub": "lostHallsObjects",
+"why": "src",
+"file": "props/all/LH Rift 21__b12f.png"
+},
+{
+"id": "LH Rift 22",
+"type": "0xb130",
+"src": "lostHallsObjects",
+"category": "prop",
+"sub": "lostHallsObjects",
+"why": "src",
+"file": "props/all/LH Rift 22__b130.png"
+},
+{
+"id": "LH Rift 23",
+"type": "0xb131",
+"src": "lostHallsObjects",
+"category": "prop",
+"sub": "lostHallsObjects",
+"why": "src",
+"file": "props/all/LH Rift 23__b131.png"
+},
+{
+"id": "LH Spectral Sentry E",
+"type": "0xb027",
+"src": "lostHallsObjects",
+"category": "helper",
+"sub": "other",
+"why": "src",
+"file": "helpers/other/LH Spectral Sentry E__b027.png"
+},
+{
+"id": "LH E Anchor A",
+"type": "0xb025",
+"src": "lostHallsObjects",
+"category": "prop",
+"sub": "lostHallsObjects",
+"why": "src",
+"file": "props/all/LH E Anchor A__b025.png"
+},
+{
+"id": "LH E Anchor B",
+"type": "0xb029",
+"src": "lostHallsObjects",
+"category": "prop",
+"sub": "lostHallsObjects",
+"why": "src",
+"file": "props/all/LH E Anchor B__b029.png"
+},
+{
+"id": "LH E Anchor C",
+"type": "0xb02a",
+"src": "lostHallsObjects",
+"category": "prop",
+"sub": "lostHallsObjects",
+"why": "src",
+"file": "props/all/LH E Anchor C__b02a.png"
+},
+{
+"id": "LH E Anchor D",
+"type": "0xb02b",
+"src": "lostHallsObjects",
+"category": "prop",
+"sub": "lostHallsObjects",
+"why": "src",
+"file": "props/all/LH E Anchor D__b02b.png"
+},
+{
+"id": "LH E Anchor 1",
+"type": "0xb109",
+"src": "lostHallsObjects",
+"category": "prop",
+"sub": "lostHallsObjects",
+"why": "src",
+"file": "props/all/LH E Anchor 1__b109.png"
+},
+{
+"id": "LH E Anchor 2",
+"type": "0xb10a",
+"src": "lostHallsObjects",
+"category": "prop",
+"sub": "lostHallsObjects",
+"why": "src",
+"file": "props/all/LH E Anchor 2__b10a.png"
+},
+{
+"id": "LH E Anchor 3",
+"type": "0xb10b",
+"src": "lostHallsObjects",
+"category": "prop",
+"sub": "lostHallsObjects",
+"why": "src",
+"file": "props/all/LH E Anchor 3__b10b.png"
+},
+{
+"id": "LH E Anchor 4",
+"type": "0xb10c",
+"src": "lostHallsObjects",
+"category": "prop",
+"sub": "lostHallsObjects",
+"why": "src",
+"file": "props/all/LH E Anchor 4__b10c.png"
+},
+{
+"id": "LH E Anchor E",
+"type": "0xb01b",
+"src": "lostHallsObjects",
+"category": "prop",
+"sub": "lostHallsObjects",
+"why": "src",
+"file": "props/all/LH E Anchor E__b01b.png"
+},
+{
+"id": "Lost Halls Portal Spawner",
+"type": "0xaab1",
+"src": "lostHallsObjects",
+"category": "npc",
+"sub": "all",
+"why": "src",
+"file": "npcs/all/Lost Halls Portal Spawner__aab1.png"
+},
+{
+"id": "LH Lost Sentry",
+"type": "0xb030",
+"src": "lostHallsObjects",
+"category": "enemy",
+"sub": "event_boss",
+"why": "src",
+"file": "enemies/event_boss/LH Lost Sentry__b030.png"
+},
+{
+"id": "HN Spooki Boi",
+"type": "0x41b4",
+"src": "autumnNexusObjects",
+"category": "npc",
+"sub": "all",
+"why": "spec",
+"file": "npcs/all/HN Spooki Boi__41b4.png"
+},
+{
+"id": "Treasure Pot",
+"type": "0x5e3c",
+"src": "caveOfAThousandTreasures",
+"category": "enemy",
+"sub": "regular",
+"why": "spec",
+"file": "enemies/regular/Treasure Pot__5e3c.png"
+},
+{
+"id": "Bloodroot Heart",
+"type": "0x8715",
+"src": "encounters",
+"category": "enemy",
+"sub": "event_boss",
+"why": "spec",
+"file": "enemies/event_boss/Bloodroot Heart__8715.png"
+},
+{
+"id": "Ravenous Rot",
+"type": "0x425e",
+"src": "encounters",
+"category": "enemy",
+"sub": "event_boss",
+"why": "spec",
+"file": "enemies/event_boss/Ravenous Rot__425e.png"
+},
+{
+"id": "Ravenous Rot Path",
+"type": "0x4260",
+"src": "encounters",
+"category": "helper",
+"sub": "other",
+"why": "spec",
+"file": "helpers/other/Ravenous Rot Path__4260.png"
+},
+{
+"id": "Ravenous Rot Overgrowth",
+"type": "0x4261",
+"src": "encounters",
+"category": "enemy",
+"sub": "regular",
+"why": "spec",
+"file": "enemies/regular/Ravenous Rot Overgrowth__4261.png"
+},
+{
+"id": "New LH Lost Sentry",
+"type": "0x5682",
+"src": "encounters",
+"category": "enemy",
+"sub": "event_boss",
+"why": "spec",
+"file": "enemies/event_boss/New LH Lost Sentry__5682.png"
+},
+{
+"id": "Crusade Soldier Bolt",
+"type": "0xb0da",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Crusade Soldier Bolt__b0da.png"
+},
+{
+"id": "Crusade Shipwright Bolt",
+"type": "0xb0db",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Crusade Shipwright Bolt__b0db.png"
+},
+{
+"id": "Crusade Explorer Torch",
+"type": "0xb0dc",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Crusade Explorer Torch__b0dc.png"
+},
+{
+"id": "Crusade Commander Bolt",
+"type": "0xb0dd",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Crusade Commander Bolt__b0dd.png"
+},
+{
+"id": "Oryx Swordsman Slash",
+"type": "0xb0d6",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Oryx Swordsman Slash__b0d6.png"
+},
+{
+"id": "Oryx Armorbearer Wave",
+"type": "0xb0d7",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Oryx Armorbearer Wave__b0d7.png"
+},
+{
+"id": "Oryx Admiral Spike",
+"type": "0xb0d8",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Oryx Admiral Spike__b0d8.png"
+},
+{
+"id": "Oryx Admiral Dagger",
+"type": "0xb0d9",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Oryx Admiral Dagger__b0d9.png"
+},
+{
+"id": "Oryx Champion Slash",
+"type": "0xb0d5",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Oryx Champion Slash__b0d5.png"
+},
+{
+"id": "Grotto Bat Teeth",
+"type": "0xb168",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Grotto Bat Teeth__b168.png"
+},
+{
+"id": "Grotto Rat Teeth",
+"type": "0xb16b",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Grotto Rat Teeth__b16b.png"
+},
+{
+"id": "Grotto Slime Wave",
+"type": "0xb0e8",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Grotto Slime Wave__b0e8.png"
+},
+{
+"id": "Grotto Blob Spin",
+"type": "0xb167",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Grotto Blob Spin__b167.png"
+},
+{
+"id": "Golem Anger Flame",
+"type": "0xb0de",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Golem Anger Flame__b0de.png"
+},
+{
+"id": "Golem Anger Fireball",
+"type": "0xb0df",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Golem Anger Fireball__b0df.png"
+},
+{
+"id": "Golem Fear Bolt",
+"type": "0xb0e0",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Golem Fear Bolt__b0e0.png"
+},
+{
+"id": "Golem Fear Magic",
+"type": "0xb0e1",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Golem Fear Magic__b0e1.png"
+},
+{
+"id": "Golem Sorrow Missile",
+"type": "0xb0e3",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Golem Sorrow Missile__b0e3.png"
+},
+{
+"id": "Golem Sorrow Spike",
+"type": "0xb0e2",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Golem Sorrow Spike__b0e2.png"
+},
+{
+"id": "Golem Tormented Wave",
+"type": "0xb0e4",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Golem Tormented Wave__b0e4.png"
+},
+{
+"id": "Spectral Spinner Blue",
+"type": "0xb0e5",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Spectral Spinner Blue__b0e5.png"
+},
+{
+"id": "Spectral Spinner Green",
+"type": "0xb0e6",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Spectral Spinner Green__b0e6.png"
+},
+{
+"id": "Spectral Spinner Red",
+"type": "0xb0e7",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Spectral Spinner Red__b0e7.png"
+},
+{
+"id": "Black Arrow",
+"type": "0x0037",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Black Arrow__0037.png"
+},
+{
+"id": "Purple Spiral",
+"type": "0xb047",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Purple Spiral__b047.png"
+},
+{
+"id": "Green Spiral",
+"type": "0xb048",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Green Spiral__b048.png"
+},
+{
+"id": "White Spiral",
+"type": "0xb049",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/White Spiral__b049.png"
+},
+{
+"id": "Blue Spiral",
+"type": "0xb04a",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Blue Spiral__b04a.png"
+},
+{
+"id": "Orange Spiral",
+"type": "0xb04b",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Orange Spiral__b04b.png"
+},
+{
+"id": "Black Spiral",
+"type": "0xb04c",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Black Spiral__b04c.png"
+},
+{
+"id": "Red Spiral",
+"type": "0xb04d",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Red Spiral__b04d.png"
+},
+{
+"id": "Pink Spiral",
+"type": "0xb03b",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Pink Spiral__b03b.png"
+},
+{
+"id": "Defender Spear",
+"type": "0xb14f",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Defender Spear__b14f.png"
+},
+{
+"id": "Colossal Dark Boomerang",
+"type": "0xb0d0",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Colossal Dark Boomerang__b0d0.png"
+},
+{
+"id": "Colossal Slash",
+"type": "0xb0ce",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Colossal Slash__b0ce.png"
+},
+{
+"id": "Colossal Light Boomerang",
+"type": "0xb0d1",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Colossal Light Boomerang__b0d1.png"
+},
+{
+"id": "Colossal Bullet",
+"type": "0xb0ca",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Colossal Bullet__b0ca.png"
+},
+{
+"id": "Colossal Blast",
+"type": "0xb0cf",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Colossal Blast__b0cf.png"
+},
+{
+"id": "Colossal Spear",
+"type": "0xb0cd",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Colossal Spear__b0cd.png"
+},
+{
+"id": "Colossal Star",
+"type": "0xb0d3",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Colossal Star__b0d3.png"
+},
+{
+"id": "Colossal Wheel",
+"type": "0xb0d4",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Colossal Wheel__b0d4.png"
+},
+{
+"id": "Colossal Rock",
+"type": "0xb0c9",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Colossal Rock__b0c9.png"
+},
+{
+"id": "Colossal Ball",
+"type": "0xb0d2",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Colossal Ball__b0d2.png"
+},
+{
+"id": "Colossal Spinner",
+"type": "0xb0cb",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Colossal Spinner__b0cb.png"
+},
+{
+"id": "Void Bullet",
+"type": "0xb05d",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Void Bullet__b05d.png"
+},
+{
+"id": "Colossal Spike",
+"type": "0xb0cc",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Colossal Spike__b0cc.png"
+},
+{
+"id": "Void Ring",
+"type": "0xb0c3",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Void Ring__b0c3.png"
+},
+{
+"id": "Void Spear",
+"type": "0xb0b2",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Void Spear__b0b2.png"
+},
+{
+"id": "Void Blast",
+"type": "0xb09d",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Void Blast__b09d.png"
+},
+{
+"id": "Void Large Bullet",
+"type": "0xb0c2",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Void Large Bullet__b0c2.png"
+},
+{
+"id": "Void Vortex",
+"type": "0xb0c4",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Void Vortex__b0c4.png"
+},
+{
+"id": "Void Laser",
+"type": "0xb0f9",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Void Laser__b0f9.png"
+},
+{
+"id": "Void Shot",
+"type": "0xb0fa",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Void Shot__b0fa.png"
+},
+{
+"id": "Evil Spirit Shot",
+"type": "0xb138",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Evil Spirit Shot__b138.png"
+},
+{
+"id": "Cultist Malus Shot",
+"type": "0xb0f0",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Cultist Malus Shot__b0f0.png"
+},
+{
+"id": "Cultist Gaius Shot",
+"type": "0xb0f3",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Cultist Gaius Shot__b0f3.png"
+},
+{
+"id": "Cultist Dirge Shot",
+"type": "0xb0f4",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Cultist Dirge Shot__b0f4.png"
+},
+{
+"id": "Cultist Argus Shot",
+"type": "0xb0f1",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Cultist Argus Shot__b0f1.png"
+},
+{
+"id": "Cultist Basaran Shot",
+"type": "0xb0f2",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Cultist Basaran Shot__b0f2.png"
+},
+{
+"id": "Cultist Phaedra Shot",
+"type": "0xb02d",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Cultist Phaedra Shot__b02d.png"
+},
+{
+"id": "Cultist Valus Shot",
+"type": "0xb02e",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Cultist Valus Shot__b02e.png"
+},
+{
+"id": "Cultist Fire Shot",
+"type": "0xb0eb",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Cultist Fire Shot__b0eb.png"
+},
+{
+"id": "Cultist Ice Shot",
+"type": "0xb0ec",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Cultist Ice Shot__b0ec.png"
+},
+{
+"id": "Cultist Lightning Shot",
+"type": "0xb0ed",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Cultist Lightning Shot__b0ed.png"
+},
+{
+"id": "Cultist Light Shot",
+"type": "0xb0ee",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Cultist Light Shot__b0ee.png"
+},
+{
+"id": "Cultist Unstable Shot",
+"type": "0xb0ef",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Cultist Unstable Shot__b0ef.png"
+},
+{
+"id": "Cultist Dark Shot",
+"type": "0xb155",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Cultist Dark Shot__b155.png"
+},
+{
+"id": "Cultist Sick Shot",
+"type": "0xb157",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Cultist Sick Shot__b157.png"
+},
+{
+"id": "Molek Shockwave",
+"type": "0xb0f5",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Molek Shockwave__b0f5.png"
+},
+{
+"id": "Invisible",
+"type": "0x0096",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Invisible__0096.png"
+},
+{
+"id": "Balaam Green Shot",
+"type": "0xb0f6",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Balaam Green Shot__b0f6.png"
+},
+{
+"id": "Balaam Blue Shot",
+"type": "0xb0f7",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Balaam Blue Shot__b0f7.png"
+},
+{
+"id": "Balaam Red Shot",
+"type": "0xb0f8",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Balaam Red Shot__b0f8.png"
+},
+{
+"id": "Void Spin",
+"type": "0xb0a6",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Void Spin__b0a6.png"
+},
+{
+"id": "Void Small Shuriken",
+"type": "0xb0a0",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Void Small Shuriken__b0a0.png"
+},
+{
+"id": "Void Shuriken",
+"type": "0xb0a2",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Void Shuriken__b0a2.png"
+},
+{
+"id": "Void Wheel",
+"type": "0xb0a4",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Void Wheel__b0a4.png"
+},
+{
+"id": "Void Shockwave",
+"type": "0xb0a8",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Void Shockwave__b0a8.png"
+},
+{
+"id": "Void Wave",
+"type": "0xb0b1",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Void Wave__b0b1.png"
+},
+{
+"id": "Spectral Slash Blue",
+"type": "0xb102",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Spectral Slash Blue__b102.png"
+},
+{
+"id": "Spectral Slash Green",
+"type": "0xb103",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Spectral Slash Green__b103.png"
+},
+{
+"id": "Spectral Slash Red",
+"type": "0xb104",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Spectral Slash Red__b104.png"
+},
+{
+"id": "Demonic Wave",
+"type": "0x3693",
+"src": "secludedThicketObjects",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Demonic Wave__3693.png"
+},
+{
+"id": "Great Basilisk Bolt",
+"type": "0x3681",
+"src": "secludedThicketObjects",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Great Basilisk Bolt__3681.png"
+},
+{
+"id": "pD Maw Shot 3",
+"type": "0x7a0",
+"src": "parasiteDenObjects",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/pD Maw Shot 3__7a0.png"
+},
+{
+"id": "KSW Large Red Wave",
+"type": "0xc493",
+"src": "steamworksObjects",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/KSW Large Red Wave__c493.png"
+},
+{
+"id": "SulfW Thorn Ring",
+"type": "0x65c9",
+"src": "wetlandsObjects",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/SulfW Thorn Ring__65c9.png"
+},
+{
+"id": "Shade Bolt Red",
+"type": "0x8368",
+"src": "theShattersObjects",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Shade Bolt Red__8368.png"
+},
+{
+"id": "SulfW Cattail Fluff",
+"type": "0x6396",
+"src": "wetlandsObjects",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/SulfW Cattail Fluff__6396.png"
+},
+{
+"id": "pD Boss Shot",
+"type": "0x7b7",
+"src": "parasiteDenObjects",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/pD Boss Shot__7b7.png"
+},
+{
+"id": "pD Wall Shot",
+"type": "0x7b2",
+"src": "parasiteDenObjects",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/pD Wall Shot__7b2.png"
+},
+{
+"id": "Marble Seal",
+"type": "0x0243",
+"src": "equip",
+"category": "ability",
+"sub": "all",
+"why": "loot",
+"file": "loot/ability/Marble Seal__0243.png"
+},
+{
+"id": "Sword of the Colossus",
+"type": "0x0254",
+"src": "equip",
+"category": "weapon",
+"sub": "sword",
+"why": "loot",
+"file": "loot/weapon_sword/Sword of the Colossus__0254.png"
+},
+{
+"id": "Breastplate of New Life",
+"type": "0x0255",
+"src": "equip",
+"category": "armor",
+"sub": "heavy",
+"why": "loot",
+"file": "loot/armor/Breastplate of New Life__0255.png"
+},
+{
+"id": "Magical Lodestone",
+"type": "0x0256",
+"src": "equip",
+"category": "ring",
+"sub": "all",
+"why": "loot",
+"file": "loot/ring/Magical Lodestone__0256.png"
+},
+{
+"id": "Helmet Rune",
+"type": "0x2728",
+"src": "equip",
+"category": "consumable",
+"sub": "all",
+"why": "loot",
+"file": "loot/consumable/Helmet Rune__2728.png"
+}
+]
+}

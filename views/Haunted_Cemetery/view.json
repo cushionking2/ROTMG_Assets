@@ -1,0 +1,1435 @@
+{
+"dungeon": "Haunted_Cemetery",
+"sources": [
+"hauntedCemetery"
+],
+"counts": {
+"enemies": 32,
+"npcs": 8,
+"helpers": 5,
+"props": 63,
+"projectiles": 40,
+"loot": 3
+},
+"why": {
+"src": 104,
+"spec": 4,
+"proj": 40,
+"loot": 3
+},
+"tile_hints_used": {},
+"names_in_own_files": [
+"Reanimated Remains",
+"Forest Troll",
+"Troll Pathfinder",
+"Apparition",
+"Haunting Spectre",
+"Possessed Child",
+"Classic Ghost",
+"Werewolf",
+"Werewolf Cub",
+"Grave Spider",
+"Risen Mummy",
+"Risen Archer",
+"Risen Warrior",
+"Risen Brawler",
+"Risen Mage",
+"Vengeful Vampire",
+"Troll Matriarch",
+"Troll's Toadstool",
+"Ghost Bride",
+"Fate",
+"Glory",
+"Pumpkin King",
+"Haunted Pumpkin",
+"Grave Caretaker",
+"Forgotten Spiraling Soul",
+"Flying Flame Skull",
+"Crawling Zombie",
+"Zombie Hulk"
+],
+"names_in_other_files": [
+[
+"Ghost of Skuld",
+[
+"hauntedCemetery",
+"innerWorkingsObjects"
+]
+],
+[
+"Headless Horseman",
+[
+"adept",
+"mountains"
+]
+],
+[
+"Lantern Holder",
+[
+"heroes_2"
+]
+]
+],
+"names_not_found": [],
+"entries": [
+{
+"id": "Arena Skeleton",
+"type": "0x5f27",
+"src": "hauntedCemetery",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Arena Skeleton__5f27.png"
+},
+{
+"id": "Troll 1",
+"type": "0x5f1e",
+"src": "hauntedCemetery",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Troll 1__5f1e.png"
+},
+{
+"id": "Troll 2",
+"type": "0x5f20",
+"src": "hauntedCemetery",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Troll 2__5f20.png"
+},
+{
+"id": "Arena Mushroom",
+"type": "0x5f31",
+"src": "hauntedCemetery",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Arena Mushroom__5f31.png"
+},
+{
+"id": "Troll 3",
+"type": "0x5f1f",
+"src": "hauntedCemetery",
+"category": "enemy",
+"sub": "miniboss",
+"why": "src",
+"file": "enemies/miniboss/Troll 3__5f1f.png"
+},
+{
+"id": "Arena Ghost 1",
+"type": "0x5f01",
+"src": "hauntedCemetery",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Arena Ghost 1__5f01.png"
+},
+{
+"id": "Arena Ghost 2",
+"type": "0x5f12",
+"src": "hauntedCemetery",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Arena Ghost 2__5f12.png"
+},
+{
+"id": "Arena Possessed Girl",
+"type": "0x5f28",
+"src": "hauntedCemetery",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Arena Possessed Girl__5f28.png"
+},
+{
+"id": "Arena Statue Left Spawner",
+"type": "0x47c1",
+"src": "hauntedCemetery",
+"category": "npc",
+"sub": "all",
+"why": "src",
+"file": "npcs/all/Arena Statue Left Spawner__47c1.png"
+},
+{
+"id": "Arena Statue Left",
+"type": "0x5f33",
+"src": "hauntedCemetery",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Arena Statue Left__5f33.png"
+},
+{
+"id": "Arena Statue Right Spawner",
+"type": "0x47c0",
+"src": "hauntedCemetery",
+"category": "npc",
+"sub": "all",
+"why": "src",
+"file": "npcs/all/Arena Statue Right Spawner__47c0.png"
+},
+{
+"id": "Arena Statue Right",
+"type": "0x5f10",
+"src": "hauntedCemetery",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Arena Statue Right__5f10.png"
+},
+{
+"id": "Arena Ghost Bride",
+"type": "0x5f07",
+"src": "hauntedCemetery",
+"category": "enemy",
+"sub": "miniboss",
+"why": "src",
+"file": "enemies/miniboss/Arena Ghost Bride__5f07.png"
+},
+{
+"id": "Arena Spider",
+"type": "0x5f2c",
+"src": "hauntedCemetery",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Arena Spider__5f2c.png"
+},
+{
+"id": "Arena Risen Mummy",
+"type": "0x5f02",
+"src": "hauntedCemetery",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Arena Risen Mummy__5f02.png"
+},
+{
+"id": "Arena Vampire",
+"type": "0x5f2e",
+"src": "hauntedCemetery",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Arena Vampire__5f2e.png"
+},
+{
+"id": "Arena Pumpkin",
+"type": "0x5f30",
+"src": "hauntedCemetery",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Arena Pumpkin__5f30.png"
+},
+{
+"id": "Arena Pumpkin King",
+"type": "0x5f2d",
+"src": "hauntedCemetery",
+"category": "enemy",
+"sub": "miniboss",
+"why": "src",
+"file": "enemies/miniboss/Arena Pumpkin King__5f2d.png"
+},
+{
+"id": "Arena Risen Warrior",
+"type": "0x5f03",
+"src": "hauntedCemetery",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Arena Risen Warrior__5f03.png"
+},
+{
+"id": "Arena Risen Mage",
+"type": "0x5f04",
+"src": "hauntedCemetery",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Arena Risen Mage__5f04.png"
+},
+{
+"id": "Arena Risen Archer",
+"type": "0x5f05",
+"src": "hauntedCemetery",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Arena Risen Archer__5f05.png"
+},
+{
+"id": "Arena Risen Brawler",
+"type": "0x5f06",
+"src": "hauntedCemetery",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Arena Risen Brawler__5f06.png"
+},
+{
+"id": "Arena Blue Flame",
+"type": "0x5f2f",
+"src": "hauntedCemetery",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Arena Blue Flame__5f2f.png"
+},
+{
+"id": "Arena Grave Caretaker",
+"type": "0x5f2b",
+"src": "hauntedCemetery",
+"category": "enemy",
+"sub": "miniboss",
+"why": "src",
+"file": "enemies/miniboss/Arena Grave Caretaker__5f2b.png"
+},
+{
+"id": "Classic Ghost",
+"type": "0x6004",
+"src": "hauntedCemetery",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Classic Ghost__6004.png"
+},
+{
+"id": "Zombie Hulk",
+"type": "0x6005",
+"src": "hauntedCemetery",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Zombie Hulk__6005.png"
+},
+{
+"id": "HZombie Hulk",
+"type": "0x7307",
+"src": "hauntedCemetery",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/HZombie Hulk__7307.png"
+},
+{
+"id": "Mini Werewolf",
+"type": "0x600c",
+"src": "hauntedCemetery",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Mini Werewolf__600c.png"
+},
+{
+"id": "Werewolf",
+"type": "0x6003",
+"src": "hauntedCemetery",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Werewolf__6003.png"
+},
+{
+"id": "Flying Flame Skull",
+"type": "0x6007",
+"src": "hauntedCemetery",
+"category": "helper",
+"sub": "effect",
+"why": "src",
+"file": "helpers/effect/Flying Flame Skull__6007.png"
+},
+{
+"id": "Halloween Zombie Spawner",
+"type": "0x6002",
+"src": "hauntedCemetery",
+"category": "prop",
+"sub": "hauntedCemetery",
+"why": "src",
+"file": "props/all/Halloween Zombie Spawner__6002.png"
+},
+{
+"id": "Blue Zombie",
+"type": "0x6001",
+"src": "hauntedCemetery",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Blue Zombie__6001.png"
+},
+{
+"id": "Zombie Rise",
+"type": "0x6000",
+"src": "hauntedCemetery",
+"category": "helper",
+"sub": "invisible",
+"why": "src",
+"file": "helpers/invisible/Zombie Rise__6000.png"
+},
+{
+"id": "Skuld Apparition",
+"type": "0x6009",
+"src": "hauntedCemetery",
+"category": "helper",
+"sub": "invisible",
+"why": "src",
+"file": "helpers/invisible/Skuld Apparition__6009.png"
+},
+{
+"id": "Skuld Portal",
+"type": "0x600a",
+"src": "hauntedCemetery",
+"category": "prop",
+"sub": "hauntedCemetery",
+"why": "src",
+"file": "props/all/Skuld Portal__600a.png"
+},
+{
+"id": "Ghost of Skuld",
+"type": "0x6006",
+"src": "hauntedCemetery",
+"category": "enemy",
+"sub": "boss",
+"why": "src",
+"file": "enemies/boss/Ghost of Skuld__6006.png"
+},
+{
+"id": "Arena 1 North Gate Spawner",
+"type": "0x5e8c",
+"src": "hauntedCemetery",
+"category": "prop",
+"sub": "hauntedCemetery",
+"why": "src",
+"file": "props/all/Arena 1 North Gate Spawner__5e8c.png"
+},
+{
+"id": "Arena 1 South Gate Spawner",
+"type": "0x5e8d",
+"src": "hauntedCemetery",
+"category": "prop",
+"sub": "hauntedCemetery",
+"why": "src",
+"file": "props/all/Arena 1 South Gate Spawner__5e8d.png"
+},
+{
+"id": "Arena 1 East Gate Spawner",
+"type": "0x5e8e",
+"src": "hauntedCemetery",
+"category": "prop",
+"sub": "hauntedCemetery",
+"why": "src",
+"file": "props/all/Arena 1 East Gate Spawner__5e8e.png"
+},
+{
+"id": "Arena 1 West Gate Spawner",
+"type": "0x5e8f",
+"src": "hauntedCemetery",
+"category": "prop",
+"sub": "hauntedCemetery",
+"why": "src",
+"file": "props/all/Arena 1 West Gate Spawner__5e8f.png"
+},
+{
+"id": "Arena 2 North Gate Spawner",
+"type": "0xb72",
+"src": "hauntedCemetery",
+"category": "prop",
+"sub": "hauntedCemetery",
+"why": "src",
+"file": "props/all/Arena 2 North Gate Spawner__b72.png"
+},
+{
+"id": "Arena 2 South Gate Spawner",
+"type": "0xb73",
+"src": "hauntedCemetery",
+"category": "prop",
+"sub": "hauntedCemetery",
+"why": "src",
+"file": "props/all/Arena 2 South Gate Spawner__b73.png"
+},
+{
+"id": "Arena 2 East Gate Spawner",
+"type": "0xb74",
+"src": "hauntedCemetery",
+"category": "prop",
+"sub": "hauntedCemetery",
+"why": "src",
+"file": "props/all/Arena 2 East Gate Spawner__b74.png"
+},
+{
+"id": "Arena 2 West Gate Spawner",
+"type": "0xb75",
+"src": "hauntedCemetery",
+"category": "prop",
+"sub": "hauntedCemetery",
+"why": "src",
+"file": "props/all/Arena 2 West Gate Spawner__b75.png"
+},
+{
+"id": "Arena 3 North Gate Spawner",
+"type": "0xb76",
+"src": "hauntedCemetery",
+"category": "prop",
+"sub": "hauntedCemetery",
+"why": "src",
+"file": "props/all/Arena 3 North Gate Spawner__b76.png"
+},
+{
+"id": "Arena 3 South Gate Spawner",
+"type": "0xb77",
+"src": "hauntedCemetery",
+"category": "prop",
+"sub": "hauntedCemetery",
+"why": "src",
+"file": "props/all/Arena 3 South Gate Spawner__b77.png"
+},
+{
+"id": "Arena 3 East Gate Spawner",
+"type": "0xb78",
+"src": "hauntedCemetery",
+"category": "prop",
+"sub": "hauntedCemetery",
+"why": "src",
+"file": "props/all/Arena 3 East Gate Spawner__b78.png"
+},
+{
+"id": "Arena 3 West Gate Spawner",
+"type": "0xb79",
+"src": "hauntedCemetery",
+"category": "prop",
+"sub": "hauntedCemetery",
+"why": "src",
+"file": "props/all/Arena 3 West Gate Spawner__b79.png"
+},
+{
+"id": "Arena 4 North Gate Spawner",
+"type": "0xb7a",
+"src": "hauntedCemetery",
+"category": "prop",
+"sub": "hauntedCemetery",
+"why": "src",
+"file": "props/all/Arena 4 North Gate Spawner__b7a.png"
+},
+{
+"id": "Arena 4 South Gate Spawner",
+"type": "0xb7b",
+"src": "hauntedCemetery",
+"category": "prop",
+"sub": "hauntedCemetery",
+"why": "src",
+"file": "props/all/Arena 4 South Gate Spawner__b7b.png"
+},
+{
+"id": "Arena 4 East Gate Spawner",
+"type": "0xb7c",
+"src": "hauntedCemetery",
+"category": "prop",
+"sub": "hauntedCemetery",
+"why": "src",
+"file": "props/all/Arena 4 East Gate Spawner__b7c.png"
+},
+{
+"id": "Arena 4 West Gate Spawner",
+"type": "0xb7d",
+"src": "hauntedCemetery",
+"category": "prop",
+"sub": "hauntedCemetery",
+"why": "src",
+"file": "props/all/Arena 4 West Gate Spawner__b7d.png"
+},
+{
+"id": "Arena 5 South Gate Spawner",
+"type": "0x6010",
+"src": "hauntedCemetery",
+"category": "prop",
+"sub": "hauntedCemetery",
+"why": "src",
+"file": "props/all/Arena 5 South Gate Spawner__6010.png"
+},
+{
+"id": "Arena 5 North Gate Spawner",
+"type": "0x600f",
+"src": "hauntedCemetery",
+"category": "prop",
+"sub": "hauntedCemetery",
+"why": "src",
+"file": "props/all/Arena 5 North Gate Spawner__600f.png"
+},
+{
+"id": "Arena 5 East Gate Spawner",
+"type": "0x600e",
+"src": "hauntedCemetery",
+"category": "prop",
+"sub": "hauntedCemetery",
+"why": "src",
+"file": "props/all/Arena 5 East Gate Spawner__600e.png"
+},
+{
+"id": "Arena 5 West Gate Spawner",
+"type": "0x600d",
+"src": "hauntedCemetery",
+"category": "prop",
+"sub": "hauntedCemetery",
+"why": "src",
+"file": "props/all/Arena 5 West Gate Spawner__600d.png"
+},
+{
+"id": "Area 1 Controller",
+"type": "0x5e9a",
+"src": "hauntedCemetery",
+"category": "npc",
+"sub": "all",
+"why": "src",
+"file": "npcs/all/Area 1 Controller__5e9a.png"
+},
+{
+"id": "Area 2 Controller",
+"type": "0x5f21",
+"src": "hauntedCemetery",
+"category": "npc",
+"sub": "all",
+"why": "src",
+"file": "npcs/all/Area 2 Controller__5f21.png"
+},
+{
+"id": "Area 3 Controller",
+"type": "0x5f22",
+"src": "hauntedCemetery",
+"category": "npc",
+"sub": "all",
+"why": "src",
+"file": "npcs/all/Area 3 Controller__5f22.png"
+},
+{
+"id": "Area 4 Controller",
+"type": "0x5f23",
+"src": "hauntedCemetery",
+"category": "npc",
+"sub": "all",
+"why": "src",
+"file": "npcs/all/Area 4 Controller__5f23.png"
+},
+{
+"id": "Area 5 Controller",
+"type": "0x5f24",
+"src": "hauntedCemetery",
+"category": "prop",
+"sub": "hauntedCemetery",
+"why": "src",
+"file": "props/all/Area 5 Controller__5f24.png"
+},
+{
+"id": "BattleMaster",
+"type": "0x600b",
+"src": "hauntedCemetery",
+"category": "npc",
+"sub": "all",
+"why": "src",
+"file": "npcs/all/BattleMaster__600b.png"
+},
+{
+"id": "Skuld Summoner",
+"type": "0x6008",
+"src": "hauntedCemetery",
+"category": "prop",
+"sub": "hauntedCemetery",
+"why": "src",
+"file": "props/all/Skuld Summoner__6008.png"
+},
+{
+"id": "Arena Hay Stack",
+"type": "0x5f09",
+"src": "hauntedCemetery",
+"category": "prop",
+"sub": "hauntedCemetery",
+"why": "src",
+"file": "props/all/Arena Hay Stack__5f09.png"
+},
+{
+"id": "Arena Dead Tree",
+"type": "0x5f1a",
+"src": "hauntedCemetery",
+"category": "prop",
+"sub": "hauntedCemetery",
+"why": "src",
+"file": "props/all/Arena Dead Tree__5f1a.png"
+},
+{
+"id": "Arena Statue",
+"type": "0x5f1b",
+"src": "hauntedCemetery",
+"category": "prop",
+"sub": "hauntedCemetery",
+"why": "src",
+"file": "props/all/Arena Statue__5f1b.png"
+},
+{
+"id": "Arena Memorial 1",
+"type": "0xb91",
+"src": "hauntedCemetery",
+"category": "prop",
+"sub": "hauntedCemetery",
+"why": "src",
+"file": "props/all/Arena Memorial 1__b91.png"
+},
+{
+"id": "Arena Memorial 2",
+"type": "0xb92",
+"src": "hauntedCemetery",
+"category": "prop",
+"sub": "hauntedCemetery",
+"why": "src",
+"file": "props/all/Arena Memorial 2__b92.png"
+},
+{
+"id": "Arena Memorial 3",
+"type": "0xb93",
+"src": "hauntedCemetery",
+"category": "prop",
+"sub": "hauntedCemetery",
+"why": "src",
+"file": "props/all/Arena Memorial 3__b93.png"
+},
+{
+"id": "Arena Memorial 4",
+"type": "0xb94",
+"src": "hauntedCemetery",
+"category": "prop",
+"sub": "hauntedCemetery",
+"why": "src",
+"file": "props/all/Arena Memorial 4__b94.png"
+},
+{
+"id": "Arena Memorial 5",
+"type": "0xb95",
+"src": "hauntedCemetery",
+"category": "prop",
+"sub": "hauntedCemetery",
+"why": "src",
+"file": "props/all/Arena Memorial 5__b95.png"
+},
+{
+"id": "Arena Memorial 6",
+"type": "0xb96",
+"src": "hauntedCemetery",
+"category": "prop",
+"sub": "hauntedCemetery",
+"why": "src",
+"file": "props/all/Arena Memorial 6__b96.png"
+},
+{
+"id": "Smitty Werbenjagermanjensen's Grave",
+"type": "0x6e0a",
+"src": "hauntedCemetery",
+"category": "prop",
+"sub": "hauntedCemetery",
+"why": "src",
+"file": "props/all/Smitty Werbenjagermanjensen_s Grave__6e0a.png"
+},
+{
+"id": "Hallowrena Event Controller",
+"type": "0x6656",
+"src": "hauntedCemetery",
+"category": "helper",
+"sub": "spawner",
+"why": "src",
+"file": "helpers/spawner/Hallowrena Event Controller__6656.png"
+},
+{
+"id": "Arena Master Anchor",
+"type": "0x809e",
+"src": "hauntedCemetery",
+"category": "prop",
+"sub": "hauntedCemetery",
+"why": "src",
+"file": "props/all/Arena Master Anchor__809e.png"
+},
+{
+"id": "Arena Caretaker Anchor 1L",
+"type": "0xb97",
+"src": "hauntedCemetery",
+"category": "prop",
+"sub": "hauntedCemetery",
+"why": "src",
+"file": "props/all/Arena Caretaker Anchor 1L__b97.png"
+},
+{
+"id": "Arena Caretaker Anchor 2L",
+"type": "0xb98",
+"src": "hauntedCemetery",
+"category": "prop",
+"sub": "hauntedCemetery",
+"why": "src",
+"file": "props/all/Arena Caretaker Anchor 2L__b98.png"
+},
+{
+"id": "Arena Caretaker Anchor 3L",
+"type": "0xdb3",
+"src": "hauntedCemetery",
+"category": "prop",
+"sub": "hauntedCemetery",
+"why": "src",
+"file": "props/all/Arena Caretaker Anchor 3L__db3.png"
+},
+{
+"id": "Arena Caretaker Anchor 4L",
+"type": "0xdb4",
+"src": "hauntedCemetery",
+"category": "prop",
+"sub": "hauntedCemetery",
+"why": "src",
+"file": "props/all/Arena Caretaker Anchor 4L__db4.png"
+},
+{
+"id": "Arena Caretaker Anchor 1R",
+"type": "0xdb5",
+"src": "hauntedCemetery",
+"category": "prop",
+"sub": "hauntedCemetery",
+"why": "src",
+"file": "props/all/Arena Caretaker Anchor 1R__db5.png"
+},
+{
+"id": "Arena Caretaker Anchor 2R",
+"type": "0xdb6",
+"src": "hauntedCemetery",
+"category": "prop",
+"sub": "hauntedCemetery",
+"why": "src",
+"file": "props/all/Arena Caretaker Anchor 2R__db6.png"
+},
+{
+"id": "Arena Caretaker Anchor 3R",
+"type": "0xdb7",
+"src": "hauntedCemetery",
+"category": "prop",
+"sub": "hauntedCemetery",
+"why": "src",
+"file": "props/all/Arena Caretaker Anchor 3R__db7.png"
+},
+{
+"id": "Arena Caretaker Anchor 4R",
+"type": "0xdb8",
+"src": "hauntedCemetery",
+"category": "prop",
+"sub": "hauntedCemetery",
+"why": "src",
+"file": "props/all/Arena Caretaker Anchor 4R__db8.png"
+},
+{
+"id": "Arena Caretaker Anchor Mid",
+"type": "0xdb9",
+"src": "hauntedCemetery",
+"category": "helper",
+"sub": "anchor",
+"why": "src",
+"file": "helpers/anchor/Arena Caretaker Anchor Mid__db9.png"
+},
+{
+"id": "Arena Cowardice 1",
+"type": "0xb82",
+"src": "hauntedCemetery",
+"category": "prop",
+"sub": "hauntedCemetery",
+"why": "src",
+"file": "props/all/Arena Cowardice 1__b82.png"
+},
+{
+"id": "Arena Cowardice 2",
+"type": "0xb83",
+"src": "hauntedCemetery",
+"category": "prop",
+"sub": "hauntedCemetery",
+"why": "src",
+"file": "props/all/Arena Cowardice 2__b83.png"
+},
+{
+"id": "Arena Cowardice 3",
+"type": "0xb84",
+"src": "hauntedCemetery",
+"category": "prop",
+"sub": "hauntedCemetery",
+"why": "src",
+"file": "props/all/Arena Cowardice 3__b84.png"
+},
+{
+"id": "Arena Cowardice 4",
+"type": "0xb85",
+"src": "hauntedCemetery",
+"category": "prop",
+"sub": "hauntedCemetery",
+"why": "src",
+"file": "props/all/Arena Cowardice 4__b85.png"
+},
+{
+"id": "Arena DC",
+"type": "0xb71",
+"src": "hauntedCemetery",
+"category": "prop",
+"sub": "hauntedCemetery",
+"why": "src",
+"file": "props/all/Arena DC__b71.png"
+},
+{
+"id": "Gate Entry Side Pass",
+"type": "0xb7e",
+"src": "hauntedCemetery",
+"category": "prop",
+"sub": "hauntedCemetery",
+"why": "src",
+"file": "props/all/Gate Entry Side Pass__b7e.png"
+},
+{
+"id": "Gate Entry Side 2 Pass",
+"type": "0xb7f",
+"src": "hauntedCemetery",
+"category": "prop",
+"sub": "hauntedCemetery",
+"why": "src",
+"file": "props/all/Gate Entry Side 2 Pass__b7f.png"
+},
+{
+"id": "Arena Enter Gate 1 Helper",
+"type": "0xb80",
+"src": "hauntedCemetery",
+"category": "prop",
+"sub": "hauntedCemetery",
+"why": "src",
+"file": "props/all/Arena Enter Gate 1 Helper__b80.png"
+},
+{
+"id": "Arena Exit Gate 1 Helper",
+"type": "0xb81",
+"src": "hauntedCemetery",
+"category": "prop",
+"sub": "hauntedCemetery",
+"why": "src",
+"file": "props/all/Arena Exit Gate 1 Helper__b81.png"
+},
+{
+"id": "Arena Enter Gate 2 Helper",
+"type": "0xb86",
+"src": "hauntedCemetery",
+"category": "prop",
+"sub": "hauntedCemetery",
+"why": "src",
+"file": "props/all/Arena Enter Gate 2 Helper__b86.png"
+},
+{
+"id": "Arena Exit Gate 2 Helper",
+"type": "0xb87",
+"src": "hauntedCemetery",
+"category": "prop",
+"sub": "hauntedCemetery",
+"why": "src",
+"file": "props/all/Arena Exit Gate 2 Helper__b87.png"
+},
+{
+"id": "Arena Enter Gate 3 Helper",
+"type": "0xb88",
+"src": "hauntedCemetery",
+"category": "prop",
+"sub": "hauntedCemetery",
+"why": "src",
+"file": "props/all/Arena Enter Gate 3 Helper__b88.png"
+},
+{
+"id": "Arena Exit Gate 3 Helper",
+"type": "0xb89",
+"src": "hauntedCemetery",
+"category": "prop",
+"sub": "hauntedCemetery",
+"why": "src",
+"file": "props/all/Arena Exit Gate 3 Helper__b89.png"
+},
+{
+"id": "Arena Enter Gate 4 Helper",
+"type": "0xb8a",
+"src": "hauntedCemetery",
+"category": "prop",
+"sub": "hauntedCemetery",
+"why": "src",
+"file": "props/all/Arena Enter Gate 4 Helper__b8a.png"
+},
+{
+"id": "Arena Exit Gate 4 Helper",
+"type": "0xb8b",
+"src": "hauntedCemetery",
+"category": "prop",
+"sub": "hauntedCemetery",
+"why": "src",
+"file": "props/all/Arena Exit Gate 4 Helper__b8b.png"
+},
+{
+"id": "Arena Passage 1 Helper",
+"type": "0xb8c",
+"src": "hauntedCemetery",
+"category": "prop",
+"sub": "hauntedCemetery",
+"why": "src",
+"file": "props/all/Arena Passage 1 Helper__b8c.png"
+},
+{
+"id": "Arena Passage 2 Helper",
+"type": "0xb8d",
+"src": "hauntedCemetery",
+"category": "prop",
+"sub": "hauntedCemetery",
+"why": "src",
+"file": "props/all/Arena Passage 2 Helper__b8d.png"
+},
+{
+"id": "Arena Passage 2 Helper Wideout",
+"type": "0xb8e",
+"src": "hauntedCemetery",
+"category": "prop",
+"sub": "hauntedCemetery",
+"why": "src",
+"file": "props/all/Arena Passage 2 Helper Wideout__b8e.png"
+},
+{
+"id": "Arena Passage 3 Helper",
+"type": "0xb8f",
+"src": "hauntedCemetery",
+"category": "prop",
+"sub": "hauntedCemetery",
+"why": "src",
+"file": "props/all/Arena Passage 3 Helper__b8f.png"
+},
+{
+"id": "Arena Passage 4 Helper",
+"type": "0xb90",
+"src": "hauntedCemetery",
+"category": "prop",
+"sub": "hauntedCemetery",
+"why": "src",
+"file": "props/all/Arena Passage 4 Helper__b90.png"
+},
+{
+"id": "CHS Pawn Alt",
+"type": "0xaac4e",
+"src": "innerWorkingsObjects",
+"category": "npc",
+"sub": "all",
+"why": "spec",
+"file": "npcs/all/CHS Pawn Alt__aac4e.png"
+},
+{
+"id": "New Arena Headless Horseman",
+"type": "0x55C3",
+"src": "adept",
+"category": "enemy",
+"sub": "regular",
+"why": "spec",
+"file": "enemies/regular/New Arena Headless Horseman__55C3.png"
+},
+{
+"id": "Arena Headless Horseman",
+"type": "0x5e9f",
+"src": "mountains",
+"category": "enemy",
+"sub": "regular",
+"why": "spec",
+"file": "enemies/regular/Arena Headless Horseman__5e9f.png"
+},
+{
+"id": "Graverobber Lantern Holder",
+"type": "0x426c",
+"src": "heroes_2",
+"category": "enemy",
+"sub": "regular",
+"why": "spec",
+"file": "enemies/regular/Graverobber Lantern Holder__426c.png"
+},
+{
+"id": "Skeleton Attack",
+"type": "0x212c",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Skeleton Attack__212c.png"
+},
+{
+"id": "Troll 1 Attack 1",
+"type": "0x212d",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Troll 1 Attack 1__212d.png"
+},
+{
+"id": "Troll 2 Attack 1",
+"type": "0x212e",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Troll 2 Attack 1__212e.png"
+},
+{
+"id": "Blue Magic",
+"type": "0x0004",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Blue Magic__0004.png"
+},
+{
+"id": "Troll 3 Attack 1",
+"type": "0x212f",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Troll 3 Attack 1__212f.png"
+},
+{
+"id": "Nature Wave",
+"type": "0x2149",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Nature Wave__2149.png"
+},
+{
+"id": "Blue Ghost Blast",
+"type": "0x2133",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Blue Ghost Blast__2133.png"
+},
+{
+"id": "Purple Magic Blast",
+"type": "0x2132",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Purple Magic Blast__2132.png"
+},
+{
+"id": "Demon Fire Blast",
+"type": "0x2147",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Demon Fire Blast__2147.png"
+},
+{
+"id": "Assassin Slash",
+"type": "0x00cb",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Assassin Slash__00cb.png"
+},
+{
+"id": "Ruby",
+"type": "0x2115",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Ruby__2115.png"
+},
+{
+"id": "Ghost Bride Attack 1",
+"type": "0x2130",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Ghost Bride Attack 1__2130.png"
+},
+{
+"id": "Ghost Big Blast",
+"type": "0x2139",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Ghost Big Blast__2139.png"
+},
+{
+"id": "Spider Bolt",
+"type": "0x2135",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Spider Bolt__2135.png"
+},
+{
+"id": "Mummy Blast",
+"type": "0x2138",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Mummy Blast__2138.png"
+},
+{
+"id": "Vampire Attack",
+"type": "0x2136",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Vampire Attack__2136.png"
+},
+{
+"id": "Pumpkin Wave",
+"type": "0xa234",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Pumpkin Wave__a234.png"
+},
+{
+"id": "Orange Pumpkin Wave",
+"type": "0x2137",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Orange Pumpkin Wave__2137.png"
+},
+{
+"id": "Yellow Energy Shot",
+"type": "0x00f3",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Yellow Energy Shot__00f3.png"
+},
+{
+"id": "Purple Bolt",
+"type": "0x0036",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Purple Bolt__0036.png"
+},
+{
+"id": "Purple Magic",
+"type": "0x0005",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Purple Magic__0005.png"
+},
+{
+"id": "Green Arrow",
+"type": "0x0009",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Green Arrow__0009.png"
+},
+{
+"id": "Thousand Shot Arrow",
+"type": "0x00a7",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Thousand Shot Arrow__00a7.png"
+},
+{
+"id": "Yellow Grey Ball",
+"type": "0x2134",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Yellow Grey Ball__2134.png"
+},
+{
+"id": "Angry Ghost",
+"type": "0x2131",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Angry Ghost__2131.png"
+},
+{
+"id": "Fire Spinner",
+"type": "0x0044",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Fire Spinner__0044.png"
+},
+{
+"id": "White Ghost Shot",
+"type": "0x2141",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/White Ghost Shot__2141.png"
+},
+{
+"id": "Big Zombie Wave",
+"type": "0x213f",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Big Zombie Wave__213f.png"
+},
+{
+"id": "Big Zombie Blast",
+"type": "0x2140",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Big Zombie Blast__2140.png"
+},
+{
+"id": "Wereshot",
+"type": "0x2142",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Wereshot__2142.png"
+},
+{
+"id": "Wereblast",
+"type": "0x2143",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Wereblast__2143.png"
+},
+{
+"id": "Skull Wave",
+"type": "0x213d",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Skull Wave__213d.png"
+},
+{
+"id": "Blue Zombie Wave",
+"type": "0x213a",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Blue Zombie Wave__213a.png"
+},
+{
+"id": "Ghost X",
+"type": "0x213c",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Ghost X__213c.png"
+},
+{
+"id": "Ghost Cross",
+"type": "0x213b",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Ghost Cross__213b.png"
+},
+{
+"id": "Giga Ghost X",
+"type": "0x213e",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Giga Ghost X__213e.png"
+},
+{
+"id": "Headless Horseman Shockwave",
+"type": "0xc018",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Headless Horseman Shockwave__c018.png"
+},
+{
+"id": "Headless Horseman Pumpkin",
+"type": "0xc016",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Headless Horseman Pumpkin__c016.png"
+},
+{
+"id": "Headless Horseman Blast",
+"type": "0xc017",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Headless Horseman Blast__c017.png"
+},
+{
+"id": "Fire Morning Star",
+"type": "0xD853",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Fire Morning Star__D853.png"
+},
+{
+"id": "Plague Poison",
+"type": "0xc6d",
+"src": "equip",
+"category": "ability",
+"sub": "all",
+"why": "loot",
+"file": "loot/ability/Plague Poison__c6d.png"
+},
+{
+"id": "Resurrected Warrior's Armor",
+"type": "0xc6e",
+"src": "equip",
+"category": "armor",
+"sub": "heavy",
+"why": "loot",
+"file": "loot/armor/Resurrected Warrior_s Armor__c6e.png"
+},
+{
+"id": "Soul's Guidance",
+"type": "0x6102",
+"src": "equip",
+"category": "weapon",
+"sub": "wand",
+"why": "loot",
+"file": "loot/weapon_wand/Soul_s Guidance__6102.png"
+}
+]
+}

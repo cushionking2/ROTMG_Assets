@@ -1,0 +1,748 @@
+{
+"dungeon": "Mad_Lab",
+"sources": [
+"madLab"
+],
+"counts": {
+"props": 9,
+"enemies": 19,
+"helpers": 7,
+"npcs": 3,
+"tiles": 6,
+"projectiles": 26,
+"loot": 5
+},
+"why": {
+"src": 34,
+"alias": 4,
+"spec": 4,
+"proj": 26,
+"loot": 5,
+"tile": 2
+},
+"tile_hints_used": {
+"lab floor": 1,
+"liquid evil": 1
+},
+"names_in_own_files": [
+"Crusher Abomination",
+"Enforcer Bot 3000",
+"Escaped Experiment",
+"Mini Bot",
+"Rampage Cyborg",
+"Tesla Coil",
+"Dr Terrible",
+"Horrific Creation",
+"Mini-Horrific Creations (~Horrific Creation)"
+],
+"names_in_other_files": [
+[
+"Lab Vat",
+[
+"ground"
+]
+],
+[
+"Banshee",
+[
+"adept"
+]
+],
+[
+"Hazardous Sprite",
+[
+"adept"
+]
+],
+[
+"Flying Brain",
+[
+"mountains"
+]
+],
+[
+"Artificial Sprite God",
+[
+"heroes_2"
+]
+]
+],
+"names_not_found": [],
+"entries": [
+{
+"id": "Mad Scientist Summoner",
+"type": "0x0975",
+"src": "madLab",
+"category": "prop",
+"sub": "madLab",
+"why": "src",
+"file": "props/all/Mad Scientist Summoner__0975.png"
+},
+{
+"id": "Dr Terrible",
+"type": "0x0976",
+"src": "madLab",
+"category": "enemy",
+"sub": "boss",
+"why": "src",
+"file": "enemies/boss/Dr Terrible__0976.png"
+},
+{
+"id": "Monster Cage",
+"type": "0x0892",
+"src": "madLab",
+"category": "prop",
+"sub": "madLab",
+"why": "src",
+"file": "props/all/Monster Cage__0892.png"
+},
+{
+"id": "Mad Gas Controller",
+"type": "0x0997",
+"src": "madLab",
+"category": "prop",
+"sub": "madLab",
+"why": "src",
+"file": "props/all/Mad Gas Controller__0997.png"
+},
+{
+"id": "Red Gas Spawner UL",
+"type": "0x0993",
+"src": "madLab",
+"category": "helper",
+"sub": "spawner",
+"why": "src",
+"file": "helpers/spawner/Red Gas Spawner UL__0993.png"
+},
+{
+"id": "Red Gas Spawner UR",
+"type": "0x0994",
+"src": "madLab",
+"category": "helper",
+"sub": "spawner",
+"why": "src",
+"file": "helpers/spawner/Red Gas Spawner UR__0994.png"
+},
+{
+"id": "Red Gas Spawner LL",
+"type": "0x0995",
+"src": "madLab",
+"category": "helper",
+"sub": "spawner",
+"why": "src",
+"file": "helpers/spawner/Red Gas Spawner LL__0995.png"
+},
+{
+"id": "Red Gas Spawner LR",
+"type": "0x0996",
+"src": "madLab",
+"category": "helper",
+"sub": "spawner",
+"why": "src",
+"file": "helpers/spawner/Red Gas Spawner LR__0996.png"
+},
+{
+"id": "Green Potion",
+"type": "0x0978",
+"src": "madLab",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Green Potion__0978.png"
+},
+{
+"id": "Turret Attack",
+"type": "0x984",
+"src": "madLab",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Turret Attack__984.png"
+},
+{
+"id": "Tesla Coil",
+"type": "0x188a",
+"src": "madLab",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Tesla Coil__188a.png"
+},
+{
+"id": "Coil Trigger",
+"type": "0x1b06",
+"src": "madLab",
+"category": "prop",
+"sub": "madLab",
+"why": "src",
+"file": "props/all/Coil Trigger__1b06.png"
+},
+{
+"id": "Coil Revealer",
+"type": "0x1b07",
+"src": "madLab",
+"category": "helper",
+"sub": "spawner",
+"why": "src",
+"file": "helpers/spawner/Coil Revealer__1b07.png"
+},
+{
+"id": "Coil Ender",
+"type": "0x1b08",
+"src": "madLab",
+"category": "prop",
+"sub": "madLab",
+"why": "src",
+"file": "props/all/Coil Ender__1b08.png"
+},
+{
+"id": "Lab Table",
+"type": "0x188b",
+"src": "madLab",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Lab Table__188b.png"
+},
+{
+"id": "Mini Bot",
+"type": "0x0979",
+"src": "madLab",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Mini Bot__0979.png"
+},
+{
+"id": "Dr Terrible Mini Bot",
+"type": "0x1e25",
+"src": "madLab",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Dr Terrible Mini Bot__1e25.png"
+},
+{
+"id": "Rampage Cyborg",
+"type": "0x0980",
+"src": "madLab",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Rampage Cyborg__0980.png"
+},
+{
+"id": "Dr Terrible Rampage Cyborg",
+"type": "0x1e24",
+"src": "madLab",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Dr Terrible Rampage Cyborg__1e24.png"
+},
+{
+"id": "Escaped Experiment",
+"type": "0x0981",
+"src": "madLab",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Escaped Experiment__0981.png"
+},
+{
+"id": "HEscaped Experiment",
+"type": "0x7309",
+"src": "madLab",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/HEscaped Experiment__7309.png"
+},
+{
+"id": "Dr Terrible Escaped Experiment",
+"type": "0x1e23",
+"src": "madLab",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Dr Terrible Escaped Experiment__1e23.png"
+},
+{
+"id": "Enforcer Bot 3000",
+"type": "0x0982",
+"src": "madLab",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Enforcer Bot 3000__0982.png"
+},
+{
+"id": "Crusher Abomination",
+"type": "0x0983",
+"src": "madLab",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Crusher Abomination__0983.png"
+},
+{
+"id": "West Automated Defense Turret",
+"type": "0x0990",
+"src": "madLab",
+"category": "helper",
+"sub": "other",
+"why": "src",
+"file": "helpers/other/West Automated Defense Turret__0990.png"
+},
+{
+"id": "East Automated Defense Turret",
+"type": "0x0991",
+"src": "madLab",
+"category": "helper",
+"sub": "other",
+"why": "src",
+"file": "helpers/other/East Automated Defense Turret__0991.png"
+},
+{
+"id": "Mad Lab Open Wall",
+"type": "0x0992",
+"src": "madLab",
+"category": "prop",
+"sub": "madLab",
+"why": "src",
+"file": "props/all/Mad Lab Open Wall__0992.png"
+},
+{
+"id": "Horrific Creation Summoner",
+"type": "0x1e19",
+"src": "madLab",
+"category": "prop",
+"sub": "madLab",
+"why": "src",
+"file": "props/all/Horrific Creation Summoner__1e19.png"
+},
+{
+"id": "Horrific Creation",
+"type": "0x5e1c",
+"src": "madLab",
+"category": "enemy",
+"sub": "miniboss",
+"why": "src",
+"file": "enemies/miniboss/Horrific Creation__5e1c.png"
+},
+{
+"id": "FERAL Controller",
+"type": "0x0891",
+"src": "madLab",
+"category": "prop",
+"sub": "madLab",
+"why": "src",
+"file": "props/all/FERAL Controller__0891.png"
+},
+{
+"id": "FERAL Death",
+"type": "0x1e20",
+"src": "madLab",
+"category": "npc",
+"sub": "all",
+"why": "src",
+"file": "npcs/all/FERAL Death__1e20.png"
+},
+{
+"id": "Hexxer",
+"type": "0x1e15",
+"src": "madLab",
+"category": "npc",
+"sub": "all",
+"why": "src",
+"file": "npcs/all/Hexxer__1e15.png"
+},
+{
+"id": "DeHexxer",
+"type": "0x1e16",
+"src": "madLab",
+"category": "npc",
+"sub": "all",
+"why": "src",
+"file": "npcs/all/DeHexxer__1e16.png"
+},
+{
+"id": "Dr Terrible Bubble",
+"type": "0x1e22",
+"src": "madLab",
+"category": "prop",
+"sub": "madLab",
+"why": "src",
+"file": "props/all/Dr Terrible Bubble__1e22.png"
+},
+{
+"id": "Lab Bad Vat No Slow",
+"type": "0x82",
+"src": "ground",
+"category": "tile",
+"sub": "ground",
+"why": "alias",
+"file": "tiles/all/Lab Bad Vat No Slow__82.png"
+},
+{
+"id": "Lab Good Vat No Slow",
+"type": "0x83",
+"src": "ground",
+"category": "tile",
+"sub": "ground",
+"why": "alias",
+"file": "tiles/all/Lab Good Vat No Slow__83.png"
+},
+{
+"id": "Lab Bad Vat Rug",
+"type": "0xa9",
+"src": "ground",
+"category": "tile",
+"sub": "ground",
+"why": "alias",
+"file": "tiles/all/Lab Bad Vat Rug__a9.png"
+},
+{
+"id": "Lab Good Vat Rug",
+"type": "0xa7",
+"src": "ground",
+"category": "tile",
+"sub": "ground",
+"why": "alias",
+"file": "tiles/all/Lab Good Vat Rug__a7.png"
+},
+{
+"id": "Hallows Banshee",
+"type": "0x45ea",
+"src": "adept",
+"category": "enemy",
+"sub": "regular",
+"why": "spec",
+"file": "enemies/regular/Hallows Banshee__45ea.png"
+},
+{
+"id": "Hazardous Sprite",
+"type": "0x4548",
+"src": "adept",
+"category": "enemy",
+"sub": "regular",
+"why": "spec",
+"file": "enemies/regular/Hazardous Sprite__4548.png"
+},
+{
+"id": "Flying Brain",
+"type": "0x657",
+"src": "mountains",
+"category": "enemy",
+"sub": "regular",
+"why": "spec",
+"file": "enemies/regular/Flying Brain__657.png"
+},
+{
+"id": "Artificial Sprite God",
+"type": "0x870a",
+"src": "heroes_2",
+"category": "enemy",
+"sub": "event_boss",
+"why": "spec",
+"file": "enemies/event_boss/Artificial Sprite God__870a.png"
+},
+{
+"id": "Invisible",
+"type": "0x0096",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Invisible__0096.png"
+},
+{
+"id": "Red Gas",
+"type": "0x00e5",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Red Gas__00e5.png"
+},
+{
+"id": "Green Gas",
+"type": "0x00e6",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Green Gas__00e6.png"
+},
+{
+"id": "Science Fire Ball",
+"type": "0x00fa",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Science Fire Ball__00fa.png"
+},
+{
+"id": "White Bullet",
+"type": "0x003b",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/White Bullet__003b.png"
+},
+{
+"id": "Purple Energy Shot",
+"type": "0x00f2",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Purple Energy Shot__00f2.png"
+},
+{
+"id": "Yellow Energy Shot",
+"type": "0x00f3",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Yellow Energy Shot__00f3.png"
+},
+{
+"id": "Directed Explosion",
+"type": "0x00e7",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Directed Explosion__00e7.png"
+},
+{
+"id": "Robot Attack",
+"type": "0x00eb",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Robot Attack__00eb.png"
+},
+{
+"id": "Lightning Spiral",
+"type": "0x006f",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Lightning Spiral__006f.png"
+},
+{
+"id": "Lightning Blast",
+"type": "0x00d5",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Lightning Blast__00d5.png"
+},
+{
+"id": "Shockwave Blast",
+"type": "0x00ea",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Shockwave Blast__00ea.png"
+},
+{
+"id": "Green Star",
+"type": "0x0019",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Green Star__0019.png"
+},
+{
+"id": "H Creation Wave",
+"type": "0x00f7",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/H Creation Wave__00f7.png"
+},
+{
+"id": "White Ball",
+"type": "0x00c4",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/White Ball__00c4.png"
+},
+{
+"id": "H Creation Energy",
+"type": "0x00f4",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/H Creation Energy__00f4.png"
+},
+{
+"id": "H Creation Shockwave",
+"type": "0x00f5",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/H Creation Shockwave__00f5.png"
+},
+{
+"id": "H Creation Blast",
+"type": "0x00f6",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/H Creation Blast__00f6.png"
+},
+{
+"id": "White Flame",
+"type": "0x003c",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/White Flame__003c.png"
+},
+{
+"id": "Sharp Grey Star",
+"type": "0xc029",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Sharp Grey Star__c029.png"
+},
+{
+"id": "Blue Sprite Twirl",
+"type": "0xc051",
+"src": "spriteWorldObjects",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Blue Sprite Twirl__c051.png"
+},
+{
+"id": "Cyan Sprite Twirl",
+"type": "0xc4f7",
+"src": "spriteWorldObjects",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Cyan Sprite Twirl__c4f7.png"
+},
+{
+"id": "Flying Brain Cortex",
+"type": "0xc013",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Flying Brain Cortex__c013.png"
+},
+{
+"id": "InvisibleLaser",
+"type": "0x375e",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/InvisibleLaser__375e.png"
+},
+{
+"id": "Blue Sprite Beam",
+"type": "0xc053",
+"src": "spriteWorldObjects",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Blue Sprite Beam__c053.png"
+},
+{
+"id": "Rainbow Sprite Star",
+"type": "0xc058",
+"src": "spriteWorldObjects",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Rainbow Sprite Star__c058.png"
+},
+{
+"id": "Potion of Defense",
+"type": "0xa20",
+"src": "equip",
+"category": "consumable",
+"sub": "all",
+"why": "loot",
+"file": "loot/consumable/Potion of Defense__a20.png"
+},
+{
+"id": "Scepter of Fulmination",
+"type": "0xc30",
+"src": "equip",
+"category": "ability",
+"sub": "all",
+"why": "loot",
+"file": "loot/ability/Scepter of Fulmination__c30.png"
+},
+{
+"id": "Experimental Ring",
+"type": "0xc31",
+"src": "equip",
+"category": "ring",
+"sub": "all",
+"why": "loot",
+"file": "loot/ring/Experimental Ring__c31.png"
+},
+{
+"id": "Robe of the Mad Scientist",
+"type": "0xc32",
+"src": "equip",
+"category": "armor",
+"sub": "robe",
+"why": "loot",
+"file": "loot/armor/Robe of the Mad Scientist__c32.png"
+},
+{
+"id": "Conducting Wand",
+"type": "0xc33",
+"src": "equip",
+"category": "weapon",
+"sub": "wand",
+"why": "loot",
+"file": "loot/weapon_wand/Conducting Wand__c33.png"
+},
+{
+"id": "Lab Floor",
+"type": "0xd3",
+"src": "ground",
+"category": "tile",
+"sub": "ground",
+"why": "tile",
+"file": "tiles/all/Lab Floor__d3.png"
+},
+{
+"id": "Liquid Evil",
+"type": "0xa8",
+"src": "ground",
+"category": "tile",
+"sub": "ground",
+"why": "tile",
+"file": "tiles/all/Liquid Evil__a8.png"
+}
+]
+}

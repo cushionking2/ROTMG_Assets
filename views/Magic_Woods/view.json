@@ -1,0 +1,1352 @@
+{
+"dungeon": "Magic_Woods",
+"sources": [
+"magicWoodsObjects",
+"magicWoodsGround"
+],
+"counts": {
+"tiles": 17,
+"projectiles": 40,
+"portals": 1,
+"props": 21,
+"enemies": 56,
+"walls": 1,
+"loot": 6
+},
+"why": {
+"src": 109,
+"spec": 11,
+"proj": 11,
+"loot": 6,
+"tile": 5
+},
+"tile_hints_used": {
+"grass": 5
+},
+"names_in_own_files": [
+"Lesser Fairies",
+"Standard Fairies",
+"Greater Fairies",
+"Fountain Spirit"
+],
+"names_in_other_files": [
+[
+"Ent Ancient",
+[
+"heroes",
+"heroes_2"
+]
+],
+[
+"Ent God",
+[
+"mountains"
+]
+],
+[
+"Sunflower Sentinel",
+[
+"veteran"
+]
+],
+[
+"Pumpkin Brute",
+[
+"adept"
+]
+],
+[
+"Evergreen Sprite",
+[
+"adept"
+]
+],
+[
+"Ocean Spirit",
+[
+"adept"
+]
+]
+],
+"names_not_found": [],
+"entries": [
+{
+"id": "Magic Woods Grass",
+"type": "0x850",
+"src": "magicWoodsGround",
+"category": "tile",
+"sub": "magicWoodsGround",
+"why": "src",
+"file": "tiles/all/Magic Woods Grass__850.png"
+},
+{
+"id": "Magic Woods White Flower Grass",
+"type": "0x851",
+"src": "magicWoodsGround",
+"category": "tile",
+"sub": "magicWoodsGround",
+"why": "src",
+"file": "tiles/all/Magic Woods White Flower Grass__851.png"
+},
+{
+"id": "Magic Woods Red Flower Grass",
+"type": "0x852",
+"src": "magicWoodsGround",
+"category": "tile",
+"sub": "magicWoodsGround",
+"why": "src",
+"file": "tiles/all/Magic Woods Red Flower Grass__852.png"
+},
+{
+"id": "Magic Woods Yellow Flower Grass",
+"type": "0x853",
+"src": "magicWoodsGround",
+"category": "tile",
+"sub": "magicWoodsGround",
+"why": "src",
+"file": "tiles/all/Magic Woods Yellow Flower Grass__853.png"
+},
+{
+"id": "Magic Woods Water",
+"type": "0x854",
+"src": "magicWoodsGround",
+"category": "tile",
+"sub": "magicWoodsGround",
+"why": "src",
+"file": "tiles/all/Magic Woods Water__854.png"
+},
+{
+"id": "Magic Woods Dirt Unwalkable",
+"type": "0x855",
+"src": "magicWoodsGround",
+"category": "tile",
+"sub": "magicWoodsGround",
+"why": "src",
+"file": "tiles/all/Magic Woods Dirt Unwalkable__855.png"
+},
+{
+"id": "Magic Woods Dirt",
+"type": "0x856",
+"src": "magicWoodsGround",
+"category": "tile",
+"sub": "magicWoodsGround",
+"why": "src",
+"file": "tiles/all/Magic Woods Dirt__856.png"
+},
+{
+"id": "Magic Woods Dirt Wall",
+"type": "0x85b",
+"src": "magicWoodsGround",
+"category": "tile",
+"sub": "magicWoodsGround",
+"why": "src",
+"file": "tiles/all/Magic Woods Dirt Wall__85b.png"
+},
+{
+"id": "Magic Woods Boss Water",
+"type": "0x857",
+"src": "magicWoodsGround",
+"category": "tile",
+"sub": "magicWoodsGround",
+"why": "src",
+"file": "tiles/all/Magic Woods Boss Water__857.png"
+},
+{
+"id": "Enchanted Fountain Water",
+"type": "0x858",
+"src": "magicWoodsGround",
+"category": "tile",
+"sub": "magicWoodsGround",
+"why": "src",
+"file": "tiles/all/Enchanted Fountain Water__858.png"
+},
+{
+"id": "Enchanted Fountain Water Center",
+"type": "0x859",
+"src": "magicWoodsGround",
+"category": "tile",
+"sub": "magicWoodsGround",
+"why": "src",
+"file": "tiles/all/Enchanted Fountain Water Center__859.png"
+},
+{
+"id": "Fairy Fountain Stone",
+"type": "0x85a",
+"src": "magicWoodsGround",
+"category": "tile",
+"sub": "magicWoodsGround",
+"why": "src",
+"file": "tiles/all/Fairy Fountain Stone__85a.png"
+},
+{
+"id": "Lesser Gray Fairy Magic",
+"type": "0x887",
+"src": "magicWoodsObjects",
+"category": "projectile",
+"sub": "all",
+"why": "src",
+"file": "projectiles/all/Lesser Gray Fairy Magic__887.png"
+},
+{
+"id": "Standard Gray Fairy Magic",
+"type": "0x888",
+"src": "magicWoodsObjects",
+"category": "projectile",
+"sub": "all",
+"why": "src",
+"file": "projectiles/all/Standard Gray Fairy Magic__888.png"
+},
+{
+"id": "Greater Gray Fairy Magic",
+"type": "0x889",
+"src": "magicWoodsObjects",
+"category": "projectile",
+"sub": "all",
+"why": "src",
+"file": "projectiles/all/Greater Gray Fairy Magic__889.png"
+},
+{
+"id": "Bright Green Fairy Boomerang",
+"type": "0x88a",
+"src": "magicWoodsObjects",
+"category": "projectile",
+"sub": "all",
+"why": "src",
+"file": "projectiles/all/Bright Green Fairy Boomerang__88a.png"
+},
+{
+"id": "Dark Green Fairy Boomerang",
+"type": "0x88b",
+"src": "magicWoodsObjects",
+"category": "projectile",
+"sub": "all",
+"why": "src",
+"file": "projectiles/all/Dark Green Fairy Boomerang__88b.png"
+},
+{
+"id": "Lesser Red Fairy Spear",
+"type": "0x88c",
+"src": "magicWoodsObjects",
+"category": "projectile",
+"sub": "all",
+"why": "src",
+"file": "projectiles/all/Lesser Red Fairy Spear__88c.png"
+},
+{
+"id": "Standard Red Fairy Spear",
+"type": "0x88d",
+"src": "magicWoodsObjects",
+"category": "projectile",
+"sub": "all",
+"why": "src",
+"file": "projectiles/all/Standard Red Fairy Spear__88d.png"
+},
+{
+"id": "Greater Red Fairy Spear",
+"type": "0x88e",
+"src": "magicWoodsObjects",
+"category": "projectile",
+"sub": "all",
+"why": "src",
+"file": "projectiles/all/Greater Red Fairy Spear__88e.png"
+},
+{
+"id": "Orange Fairy Breath",
+"type": "0x820",
+"src": "magicWoodsObjects",
+"category": "projectile",
+"sub": "all",
+"why": "src",
+"file": "projectiles/all/Orange Fairy Breath__820.png"
+},
+{
+"id": "Brown Fairy Wave",
+"type": "0x88f",
+"src": "magicWoodsObjects",
+"category": "projectile",
+"sub": "all",
+"why": "src",
+"file": "projectiles/all/Brown Fairy Wave__88f.png"
+},
+{
+"id": "Sky Blue Fairy Boomerang",
+"type": "0x84f",
+"src": "magicWoodsObjects",
+"category": "projectile",
+"sub": "all",
+"why": "src",
+"file": "projectiles/all/Sky Blue Fairy Boomerang__84f.png"
+},
+{
+"id": "Dark Purple Fairy Spike",
+"type": "0x84e",
+"src": "magicWoodsObjects",
+"category": "projectile",
+"sub": "all",
+"why": "src",
+"file": "projectiles/all/Dark Purple Fairy Spike__84e.png"
+},
+{
+"id": "Dark Magenta Fairy Wave",
+"type": "0x84d",
+"src": "magicWoodsObjects",
+"category": "projectile",
+"sub": "all",
+"why": "src",
+"file": "projectiles/all/Dark Magenta Fairy Wave__84d.png"
+},
+{
+"id": "Pink Fairy Blade",
+"type": "0x84c",
+"src": "magicWoodsObjects",
+"category": "projectile",
+"sub": "all",
+"why": "src",
+"file": "projectiles/all/Pink Fairy Blade__84c.png"
+},
+{
+"id": "Bright Purple Fairy Pellet",
+"type": "0x84b",
+"src": "magicWoodsObjects",
+"category": "projectile",
+"sub": "all",
+"why": "src",
+"file": "projectiles/all/Bright Purple Fairy Pellet__84b.png"
+},
+{
+"id": "Bright Purple Fairy Blast",
+"type": "0x84a",
+"src": "magicWoodsObjects",
+"category": "projectile",
+"sub": "all",
+"why": "src",
+"file": "projectiles/all/Bright Purple Fairy Blast__84a.png"
+},
+{
+"id": "Bright Purple Fairy Mystical",
+"type": "0x849",
+"src": "magicWoodsObjects",
+"category": "projectile",
+"sub": "all",
+"why": "src",
+"file": "projectiles/all/Bright Purple Fairy Mystical__849.png"
+},
+{
+"id": "Cyan Fairy Bolt",
+"type": "0x848",
+"src": "magicWoodsObjects",
+"category": "projectile",
+"sub": "all",
+"why": "src",
+"file": "projectiles/all/Cyan Fairy Bolt__848.png"
+},
+{
+"id": "Cyan Fairy Spike",
+"type": "0x847",
+"src": "magicWoodsObjects",
+"category": "projectile",
+"sub": "all",
+"why": "src",
+"file": "projectiles/all/Cyan Fairy Spike__847.png"
+},
+{
+"id": "Cyan Fairy Magic",
+"type": "0x846",
+"src": "magicWoodsObjects",
+"category": "projectile",
+"sub": "all",
+"why": "src",
+"file": "projectiles/all/Cyan Fairy Magic__846.png"
+},
+{
+"id": "Seafoam Green Fairy Shockwave",
+"type": "0x845",
+"src": "magicWoodsObjects",
+"category": "projectile",
+"sub": "all",
+"why": "src",
+"file": "projectiles/all/Seafoam Green Fairy Shockwave__845.png"
+},
+{
+"id": "Seafoam Green Fairy Blast",
+"type": "0x844",
+"src": "magicWoodsObjects",
+"category": "projectile",
+"sub": "all",
+"why": "src",
+"file": "projectiles/all/Seafoam Green Fairy Blast__844.png"
+},
+{
+"id": "Faint Pink Fairy Star",
+"type": "0x843",
+"src": "magicWoodsObjects",
+"category": "projectile",
+"sub": "all",
+"why": "src",
+"file": "projectiles/all/Faint Pink Fairy Star__843.png"
+},
+{
+"id": "Faint Pink Fairy Hallucinogenic Star",
+"type": "0x842",
+"src": "magicWoodsObjects",
+"category": "projectile",
+"sub": "all",
+"why": "src",
+"file": "projectiles/all/Faint Pink Fairy Hallucinogenic Star__842.png"
+},
+{
+"id": "Cyan Fairy Spinner",
+"type": "0x82e",
+"src": "magicWoodsObjects",
+"category": "projectile",
+"sub": "all",
+"why": "src",
+"file": "projectiles/all/Cyan Fairy Spinner__82e.png"
+},
+{
+"id": "Cyan Fairy Mystical",
+"type": "0x82c",
+"src": "magicWoodsObjects",
+"category": "projectile",
+"sub": "all",
+"why": "src",
+"file": "projectiles/all/Cyan Fairy Mystical__82c.png"
+},
+{
+"id": "Cyan Fairy Wave",
+"type": "0x82b",
+"src": "magicWoodsObjects",
+"category": "projectile",
+"sub": "all",
+"why": "src",
+"file": "projectiles/all/Cyan Fairy Wave__82b.png"
+},
+{
+"id": "Cyan Fairy Boomerang",
+"type": "0x82a",
+"src": "magicWoodsObjects",
+"category": "projectile",
+"sub": "all",
+"why": "src",
+"file": "projectiles/all/Cyan Fairy Boomerang__82a.png"
+},
+{
+"id": "Cyan Fairy Blast",
+"type": "0x829",
+"src": "magicWoodsObjects",
+"category": "projectile",
+"sub": "all",
+"why": "src",
+"file": "projectiles/all/Cyan Fairy Blast__829.png"
+},
+{
+"id": "Magic Woods Portal",
+"type": "0x87c",
+"src": "magicWoodsObjects",
+"category": "portal",
+"sub": "all",
+"why": "src",
+"file": "portals/all/Magic Woods Portal__87c.png"
+},
+{
+"id": "MW Cowardice Portal",
+"type": "0x528",
+"src": "magicWoodsObjects",
+"category": "prop",
+"sub": "magicWoodsObjects",
+"why": "src",
+"file": "props/all/MW Cowardice Portal__528.png"
+},
+{
+"id": "MW Gharr",
+"type": "0x850",
+"src": "magicWoodsObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/MW Gharr__850.png"
+},
+{
+"id": "MW Tiar",
+"type": "0x851",
+"src": "magicWoodsObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/MW Tiar__851.png"
+},
+{
+"id": "MW Itani",
+"type": "0x852",
+"src": "magicWoodsObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/MW Itani__852.png"
+},
+{
+"id": "MW Iatho",
+"type": "0x853",
+"src": "magicWoodsObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/MW Iatho__853.png"
+},
+{
+"id": "MW SayIt",
+"type": "0x854",
+"src": "magicWoodsObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/MW SayIt__854.png"
+},
+{
+"id": "MW Eendi",
+"type": "0x855",
+"src": "magicWoodsObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/MW Eendi__855.png"
+},
+{
+"id": "MW Ril",
+"type": "0x856",
+"src": "magicWoodsObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/MW Ril__856.png"
+},
+{
+"id": "MW Laen",
+"type": "0x857",
+"src": "magicWoodsObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/MW Laen__857.png"
+},
+{
+"id": "MW Oeti",
+"type": "0x858",
+"src": "magicWoodsObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/MW Oeti__858.png"
+},
+{
+"id": "MW Tal",
+"type": "0x859",
+"src": "magicWoodsObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/MW Tal__859.png"
+},
+{
+"id": "MW Vorck",
+"type": "0x85a",
+"src": "magicWoodsObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/MW Vorck__85a.png"
+},
+{
+"id": "MW Iri",
+"type": "0x85b",
+"src": "magicWoodsObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/MW Iri__85b.png"
+},
+{
+"id": "MW Zhiar",
+"type": "0x85c",
+"src": "magicWoodsObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/MW Zhiar__85c.png"
+},
+{
+"id": "MW Rilr",
+"type": "0x85d",
+"src": "magicWoodsObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/MW Rilr__85d.png"
+},
+{
+"id": "MW Queq",
+"type": "0x85e",
+"src": "magicWoodsObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/MW Queq__85e.png"
+},
+{
+"id": "MW Radph",
+"type": "0x85f",
+"src": "magicWoodsObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/MW Radph__85f.png"
+},
+{
+"id": "MW Eango",
+"type": "0x860",
+"src": "magicWoodsObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/MW Eango__860.png"
+},
+{
+"id": "MW Vorv",
+"type": "0x861",
+"src": "magicWoodsObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/MW Vorv__861.png"
+},
+{
+"id": "MW Orothi",
+"type": "0x862",
+"src": "magicWoodsObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/MW Orothi__862.png"
+},
+{
+"id": "MW Risrr",
+"type": "0x863",
+"src": "magicWoodsObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/MW Risrr__863.png"
+},
+{
+"id": "MW Rayr",
+"type": "0x864",
+"src": "magicWoodsObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/MW Rayr__864.png"
+},
+{
+"id": "MW Uoro",
+"type": "0x865",
+"src": "magicWoodsObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/MW Uoro__865.png"
+},
+{
+"id": "MW Ehoni",
+"type": "0x866",
+"src": "magicWoodsObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/MW Ehoni__866.png"
+},
+{
+"id": "MW Darq",
+"type": "0x867",
+"src": "magicWoodsObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/MW Darq__867.png"
+},
+{
+"id": "MW Drac",
+"type": "0x868",
+"src": "magicWoodsObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/MW Drac__868.png"
+},
+{
+"id": "MW Odaru",
+"type": "0x869",
+"src": "magicWoodsObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/MW Odaru__869.png"
+},
+{
+"id": "MW Idrae",
+"type": "0x86a",
+"src": "magicWoodsObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/MW Idrae__86a.png"
+},
+{
+"id": "MW Issz",
+"type": "0x86b",
+"src": "magicWoodsObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/MW Issz__86b.png"
+},
+{
+"id": "MW Deyst",
+"type": "0x86c",
+"src": "magicWoodsObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/MW Deyst__86c.png"
+},
+{
+"id": "MW Utanu",
+"type": "0x86d",
+"src": "magicWoodsObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/MW Utanu__86d.png"
+},
+{
+"id": "MW Lauk",
+"type": "0x86e",
+"src": "magicWoodsObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/MW Lauk__86e.png"
+},
+{
+"id": "MW Yangu",
+"type": "0x86f",
+"src": "magicWoodsObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/MW Yangu__86f.png"
+},
+{
+"id": "MW Urake",
+"type": "0x870",
+"src": "magicWoodsObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/MW Urake__870.png"
+},
+{
+"id": "MW Seus",
+"type": "0x871",
+"src": "magicWoodsObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/MW Seus__871.png"
+},
+{
+"id": "MW Yimi",
+"type": "0x872",
+"src": "magicWoodsObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/MW Yimi__872.png"
+},
+{
+"id": "MW Oalei",
+"type": "0x873",
+"src": "magicWoodsObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/MW Oalei__873.png"
+},
+{
+"id": "MW Serl",
+"type": "0x874",
+"src": "magicWoodsObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/MW Serl__874.png"
+},
+{
+"id": "MW Scheev",
+"type": "0x875",
+"src": "magicWoodsObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/MW Scheev__875.png"
+},
+{
+"id": "MW Oshyu",
+"type": "0x876",
+"src": "magicWoodsObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/MW Oshyu__876.png"
+},
+{
+"id": "MW Sek",
+"type": "0x877",
+"src": "magicWoodsObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/MW Sek__877.png"
+},
+{
+"id": "MW Iawa",
+"type": "0x878",
+"src": "magicWoodsObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/MW Iawa__878.png"
+},
+{
+"id": "MW Eashy",
+"type": "0x879",
+"src": "magicWoodsObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/MW Eashy__879.png"
+},
+{
+"id": "MW Lorz",
+"type": "0x87a",
+"src": "magicWoodsObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/MW Lorz__87a.png"
+},
+{
+"id": "MW Eati",
+"type": "0x87b",
+"src": "magicWoodsObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/MW Eati__87b.png"
+},
+{
+"id": "MW Utanu Order",
+"type": "0x886",
+"src": "magicWoodsObjects",
+"category": "prop",
+"sub": "magicWoodsObjects",
+"why": "src",
+"file": "props/all/MW Utanu Order__886.png"
+},
+{
+"id": "MW End Portal Generator",
+"type": "0x82d",
+"src": "magicWoodsObjects",
+"category": "prop",
+"sub": "magicWoodsObjects",
+"why": "src",
+"file": "props/all/MW End Portal Generator__82d.png"
+},
+{
+"id": "MW Boss Spawner",
+"type": "0x82f",
+"src": "magicWoodsObjects",
+"category": "prop",
+"sub": "magicWoodsObjects",
+"why": "src",
+"file": "props/all/MW Boss Spawner__82f.png"
+},
+{
+"id": "MW Fountain Spirit",
+"type": "0x830",
+"src": "magicWoodsObjects",
+"category": "enemy",
+"sub": "boss",
+"why": "src",
+"file": "enemies/boss/MW Fountain Spirit__830.png"
+},
+{
+"id": "MW Blessing",
+"type": "0x2233",
+"src": "magicWoodsObjects",
+"category": "prop",
+"sub": "magicWoodsObjects",
+"why": "src",
+"file": "props/all/MW Blessing__2233.png"
+},
+{
+"id": "Magic Woods Tree",
+"type": "0x87e",
+"src": "magicWoodsObjects",
+"category": "prop",
+"sub": "magicWoodsObjects",
+"why": "src",
+"file": "props/all/Magic Woods Tree__87e.png"
+},
+{
+"id": "Magic Woods Bush Solid",
+"type": "0x87f",
+"src": "magicWoodsObjects",
+"category": "prop",
+"sub": "magicWoodsObjects",
+"why": "src",
+"file": "props/all/Magic Woods Bush Solid__87f.png"
+},
+{
+"id": "Magic Woods Flower Solid",
+"type": "0x880",
+"src": "magicWoodsObjects",
+"category": "prop",
+"sub": "magicWoodsObjects",
+"why": "src",
+"file": "props/all/Magic Woods Flower Solid__880.png"
+},
+{
+"id": "Magic Woods Stone Solid",
+"type": "0x881",
+"src": "magicWoodsObjects",
+"category": "prop",
+"sub": "magicWoodsObjects",
+"why": "src",
+"file": "props/all/Magic Woods Stone Solid__881.png"
+},
+{
+"id": "Magic Woods Lily Pad",
+"type": "0x882",
+"src": "magicWoodsObjects",
+"category": "prop",
+"sub": "magicWoodsObjects",
+"why": "src",
+"file": "props/all/Magic Woods Lily Pad__882.png"
+},
+{
+"id": "Magic Woods Decor",
+"type": "0x883",
+"src": "magicWoodsObjects",
+"category": "prop",
+"sub": "magicWoodsObjects",
+"why": "src",
+"file": "props/all/Magic Woods Decor__883.png"
+},
+{
+"id": "MW Small Fountain",
+"type": "0x83b",
+"src": "magicWoodsObjects",
+"category": "prop",
+"sub": "magicWoodsObjects",
+"why": "src",
+"file": "props/all/MW Small Fountain__83b.png"
+},
+{
+"id": "MW Big Fountain Top",
+"type": "0x83a",
+"src": "magicWoodsObjects",
+"category": "prop",
+"sub": "magicWoodsObjects",
+"why": "src",
+"file": "props/all/MW Big Fountain Top__83a.png"
+},
+{
+"id": "MW Fountain Inner Top Left",
+"type": "0x839",
+"src": "magicWoodsObjects",
+"category": "prop",
+"sub": "magicWoodsObjects",
+"why": "src",
+"file": "props/all/MW Fountain Inner Top Left__839.png"
+},
+{
+"id": "MW Fountain Inner Top",
+"type": "0x838",
+"src": "magicWoodsObjects",
+"category": "prop",
+"sub": "magicWoodsObjects",
+"why": "src",
+"file": "props/all/MW Fountain Inner Top__838.png"
+},
+{
+"id": "MW Fountain Inner Top Right",
+"type": "0x837",
+"src": "magicWoodsObjects",
+"category": "prop",
+"sub": "magicWoodsObjects",
+"why": "src",
+"file": "props/all/MW Fountain Inner Top Right__837.png"
+},
+{
+"id": "MW Fountain Inner Right",
+"type": "0x836",
+"src": "magicWoodsObjects",
+"category": "prop",
+"sub": "magicWoodsObjects",
+"why": "src",
+"file": "props/all/MW Fountain Inner Right__836.png"
+},
+{
+"id": "MW Fountain Inner Bottom Right",
+"type": "0x835",
+"src": "magicWoodsObjects",
+"category": "prop",
+"sub": "magicWoodsObjects",
+"why": "src",
+"file": "props/all/MW Fountain Inner Bottom Right__835.png"
+},
+{
+"id": "MW Fountain Inner Bottom",
+"type": "0x834",
+"src": "magicWoodsObjects",
+"category": "prop",
+"sub": "magicWoodsObjects",
+"why": "src",
+"file": "props/all/MW Fountain Inner Bottom__834.png"
+},
+{
+"id": "MW Fountain Inner Bottom Left",
+"type": "0x833",
+"src": "magicWoodsObjects",
+"category": "prop",
+"sub": "magicWoodsObjects",
+"why": "src",
+"file": "props/all/MW Fountain Inner Bottom Left__833.png"
+},
+{
+"id": "MW Fountain Inner Left",
+"type": "0x832",
+"src": "magicWoodsObjects",
+"category": "prop",
+"sub": "magicWoodsObjects",
+"why": "src",
+"file": "props/all/MW Fountain Inner Left__832.png"
+},
+{
+"id": "MW Stone Pillar",
+"type": "0x831",
+"src": "magicWoodsObjects",
+"category": "wall",
+"sub": "magicWoodsObjects",
+"why": "src",
+"file": "walls/all/MW Stone Pillar__831.png"
+},
+{
+"id": "Ent Ancient",
+"type": "0x091f",
+"src": "heroes",
+"category": "enemy",
+"sub": "event_boss",
+"why": "spec",
+"file": "enemies/event_boss/Ent Ancient__091f.png"
+},
+{
+"id": "Actual Ent Ancient",
+"type": "0x0920",
+"src": "heroes",
+"category": "enemy",
+"sub": "event_boss",
+"why": "spec",
+"file": "enemies/event_boss/Actual Ent Ancient__0920.png"
+},
+{
+"id": "Ent Ancient Challenger",
+"type": "0x73f8",
+"src": "heroes",
+"category": "enemy",
+"sub": "event_boss",
+"why": "spec",
+"file": "enemies/event_boss/Ent Ancient Challenger__73f8.png"
+},
+{
+"id": "Actual Ent Ancient Challenger",
+"type": "0x73f9",
+"src": "heroes",
+"category": "enemy",
+"sub": "event_boss",
+"why": "spec",
+"file": "enemies/event_boss/Actual Ent Ancient Challenger__73f9.png"
+},
+{
+"id": "New Ent Ancient",
+"type": "0x55A9",
+"src": "heroes_2",
+"category": "enemy",
+"sub": "event_boss",
+"why": "spec",
+"file": "enemies/event_boss/New Ent Ancient__55A9.png"
+},
+{
+"id": "New Actual Ent Ancient",
+"type": "0x55AA",
+"src": "heroes_2",
+"category": "enemy",
+"sub": "event_boss",
+"why": "spec",
+"file": "enemies/event_boss/New Actual Ent Ancient__55AA.png"
+},
+{
+"id": "Ent God",
+"type": "0x655",
+"src": "mountains",
+"category": "enemy",
+"sub": "regular",
+"why": "spec",
+"file": "enemies/regular/Ent God__655.png"
+},
+{
+"id": "Floral Sunflower",
+"type": "0x2664",
+"src": "veteran",
+"category": "enemy",
+"sub": "regular",
+"why": "spec",
+"file": "enemies/regular/Floral Sunflower__2664.png"
+},
+{
+"id": "Hallows Brute",
+"type": "0x45ef",
+"src": "adept",
+"category": "enemy",
+"sub": "regular",
+"why": "spec",
+"file": "enemies/regular/Hallows Brute__45ef.png"
+},
+{
+"id": "Evergreen Sprite",
+"type": "0x454a",
+"src": "adept",
+"category": "enemy",
+"sub": "regular",
+"why": "spec",
+"file": "enemies/regular/Evergreen Sprite__454a.png"
+},
+{
+"id": "Ocean Spirit",
+"type": "0xc2f2",
+"src": "adept",
+"category": "enemy",
+"sub": "regular",
+"why": "spec",
+"file": "enemies/regular/Ocean Spirit__c2f2.png"
+},
+{
+"id": "Invisible",
+"type": "0x0096",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Invisible__0096.png"
+},
+{
+"id": "Bark Bolt",
+"type": "0x003e",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Bark Bolt__003e.png"
+},
+{
+"id": "Ent God Bolt",
+"type": "0xc011",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Ent God Bolt__c011.png"
+},
+{
+"id": "EH Blue Stinger Large",
+"type": "0x10a1",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/EH Blue Stinger Large__10a1.png"
+},
+{
+"id": "EH Yellow Stinger Large",
+"type": "0x10a7",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/EH Yellow Stinger Large__10a7.png"
+},
+{
+"id": "Lucky Flying Brain Cortex",
+"type": "0xc034",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Lucky Flying Brain Cortex__c034.png"
+},
+{
+"id": "Green Spinner",
+"type": "0x0045",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Green Spinner__0045.png"
+},
+{
+"id": "Green Sprite Magic",
+"type": "0xc4f2",
+"src": "spriteWorldObjects",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Green Sprite Magic__c4f2.png"
+},
+{
+"id": "Green Sprite Twirl",
+"type": "0xc4f6",
+"src": "spriteWorldObjects",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Green Sprite Twirl__c4f6.png"
+},
+{
+"id": "Cyan Sprite Magic",
+"type": "0xc4f3",
+"src": "spriteWorldObjects",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Cyan Sprite Magic__c4f3.png"
+},
+{
+"id": "Cyan Sprite Twirl",
+"type": "0xc4f7",
+"src": "spriteWorldObjects",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Cyan Sprite Twirl__c4f7.png"
+},
+{
+"id": "Fairy Dust",
+"type": "0x83c",
+"src": "equip",
+"category": "consumable",
+"sub": "all",
+"why": "loot",
+"file": "loot/consumable/Fairy Dust__83c.png"
+},
+{
+"id": "Spirit Staff",
+"type": "0x840",
+"src": "equip",
+"category": "weapon",
+"sub": "staff",
+"why": "loot",
+"file": "loot/weapon_staff/Spirit Staff__840.png"
+},
+{
+"id": "Enchantment Orb",
+"type": "0x83f",
+"src": "equip",
+"category": "ability",
+"sub": "all",
+"why": "loot",
+"file": "loot/ability/Enchantment Orb__83f.png"
+},
+{
+"id": "Woodland Robe",
+"type": "0x83e",
+"src": "equip",
+"category": "armor",
+"sub": "robe",
+"why": "loot",
+"file": "loot/armor/Woodland Robe__83e.png"
+},
+{
+"id": "Fairy Ring",
+"type": "0x83d",
+"src": "equip",
+"category": "ring",
+"sub": "all",
+"why": "loot",
+"file": "loot/ring/Fairy Ring__83d.png"
+},
+{
+"id": "Shield of Flowing Clarity",
+"type": "0x5b20",
+"src": "equip",
+"category": "ability",
+"sub": "all",
+"why": "loot",
+"file": "loot/ability/Shield of Flowing Clarity__5b20.png"
+},
+{
+"id": "Bright Grass",
+"type": "0x23",
+"src": "ground",
+"category": "tile",
+"sub": "ground",
+"why": "tile",
+"file": "tiles/all/Bright Grass__23.png"
+},
+{
+"id": "Light Grass",
+"type": "0x46",
+"src": "ground",
+"category": "tile",
+"sub": "ground",
+"why": "tile",
+"file": "tiles/all/Light Grass__46.png"
+},
+{
+"id": "Grass",
+"type": "0x48",
+"src": "ground",
+"category": "tile",
+"sub": "ground",
+"why": "tile",
+"file": "tiles/all/Grass__48.png"
+},
+{
+"id": "Dark Grass",
+"type": "0x56",
+"src": "ground",
+"category": "tile",
+"sub": "ground",
+"why": "tile",
+"file": "tiles/all/Dark Grass__56.png"
+},
+{
+"id": "New Grass",
+"type": "0x012c",
+"src": "ground",
+"category": "tile",
+"sub": "ground",
+"why": "tile",
+"file": "tiles/all/New Grass__012c.png"
+}
+]
+}

@@ -1,0 +1,1652 @@
+{
+"dungeon": "Sprite_World",
+"sources": [
+"spriteWorldObjects",
+"spriteWorldGround"
+],
+"counts": {
+"tiles": 62,
+"projectiles": 43,
+"enemies": 19,
+"npcs": 11,
+"props": 31,
+"helpers": 4,
+"loot": 5
+},
+"why": {
+"src": 153,
+"spec": 12,
+"proj": 5,
+"loot": 5
+},
+"tile_hints_used": {},
+"names_in_own_files": [
+"Native Darkness Sprite",
+"Native Fire Sprite",
+"Native Ice Sprite",
+"Native Magic Sprite",
+"Native Nature Sprite",
+"Native Greater Darkness Sprite",
+"Native Greater Fire Sprite",
+"Native Greater Ice Sprite",
+"Native Greater Magic Sprite",
+"Native Greater Nature Sprite",
+"Native Sprite God",
+"Limon the Sprite Goddess",
+"Limon Element",
+"Sprite Tree"
+],
+"names_in_other_files": [
+[
+"Craig the Intern",
+[
+"innerWorkingsObjects",
+"oryxHordeObjects",
+"santaWorkshopObjects",
+"spriteWorldObjects"
+]
+],
+[
+"Sprite Child",
+[
+"mountains"
+]
+],
+[
+"Sprite Beast",
+[
+"adept"
+]
+],
+[
+"Celestial Sprite",
+[
+"heroes_2"
+]
+],
+[
+"Cosmic Sprite",
+[
+"heroes_2"
+]
+]
+],
+"names_not_found": [],
+"entries": [
+{
+"id": "Sprite Square White",
+"type": "0x223f",
+"src": "spriteWorldGround",
+"category": "tile",
+"sub": "spriteWorldGround",
+"why": "src",
+"file": "tiles/all/Sprite Square White__223f.png"
+},
+{
+"id": "Sprite Square Right",
+"type": "0x2240",
+"src": "spriteWorldGround",
+"category": "tile",
+"sub": "spriteWorldGround",
+"why": "src",
+"file": "tiles/all/Sprite Square Right__2240.png"
+},
+{
+"id": "Sprite Square Left",
+"type": "0x2241",
+"src": "spriteWorldGround",
+"category": "tile",
+"sub": "spriteWorldGround",
+"why": "src",
+"file": "tiles/all/Sprite Square Left__2241.png"
+},
+{
+"id": "Sprite Square Down",
+"type": "0x2242",
+"src": "spriteWorldGround",
+"category": "tile",
+"sub": "spriteWorldGround",
+"why": "src",
+"file": "tiles/all/Sprite Square Down__2242.png"
+},
+{
+"id": "Sprite Square Up",
+"type": "0x2243",
+"src": "spriteWorldGround",
+"category": "tile",
+"sub": "spriteWorldGround",
+"why": "src",
+"file": "tiles/all/Sprite Square Up__2243.png"
+},
+{
+"id": "Sprite Square White Plain",
+"type": "0x2244",
+"src": "spriteWorldGround",
+"category": "tile",
+"sub": "spriteWorldGround",
+"why": "src",
+"file": "tiles/all/Sprite Square White Plain__2244.png"
+},
+{
+"id": "Sprite Square White Fertile",
+"type": "0x227c",
+"src": "spriteWorldGround",
+"category": "tile",
+"sub": "spriteWorldGround",
+"why": "src",
+"file": "tiles/all/Sprite Square White Fertile__227c.png"
+},
+{
+"id": "Sprite Square Red",
+"type": "0x2245",
+"src": "spriteWorldGround",
+"category": "tile",
+"sub": "spriteWorldGround",
+"why": "src",
+"file": "tiles/all/Sprite Square Red__2245.png"
+},
+{
+"id": "Sprite Square Orange",
+"type": "0x2246",
+"src": "spriteWorldGround",
+"category": "tile",
+"sub": "spriteWorldGround",
+"why": "src",
+"file": "tiles/all/Sprite Square Orange__2246.png"
+},
+{
+"id": "Sprite Square Yellow",
+"type": "0x2247",
+"src": "spriteWorldGround",
+"category": "tile",
+"sub": "spriteWorldGround",
+"why": "src",
+"file": "tiles/all/Sprite Square Yellow__2247.png"
+},
+{
+"id": "Sprite Square Lime",
+"type": "0x2248",
+"src": "spriteWorldGround",
+"category": "tile",
+"sub": "spriteWorldGround",
+"why": "src",
+"file": "tiles/all/Sprite Square Lime__2248.png"
+},
+{
+"id": "Sprite Square Green",
+"type": "0x2249",
+"src": "spriteWorldGround",
+"category": "tile",
+"sub": "spriteWorldGround",
+"why": "src",
+"file": "tiles/all/Sprite Square Green__2249.png"
+},
+{
+"id": "Sprite Square Cyan",
+"type": "0x224a",
+"src": "spriteWorldGround",
+"category": "tile",
+"sub": "spriteWorldGround",
+"why": "src",
+"file": "tiles/all/Sprite Square Cyan__224a.png"
+},
+{
+"id": "Sprite Square Blue",
+"type": "0x224b",
+"src": "spriteWorldGround",
+"category": "tile",
+"sub": "spriteWorldGround",
+"why": "src",
+"file": "tiles/all/Sprite Square Blue__224b.png"
+},
+{
+"id": "Sprite Square Purple",
+"type": "0x224c",
+"src": "spriteWorldGround",
+"category": "tile",
+"sub": "spriteWorldGround",
+"why": "src",
+"file": "tiles/all/Sprite Square Purple__224c.png"
+},
+{
+"id": "Sprite Square Black",
+"type": "0x224d",
+"src": "spriteWorldGround",
+"category": "tile",
+"sub": "spriteWorldGround",
+"why": "src",
+"file": "tiles/all/Sprite Square Black__224d.png"
+},
+{
+"id": "Sprite Square White TL",
+"type": "0x224e",
+"src": "spriteWorldGround",
+"category": "tile",
+"sub": "spriteWorldGround",
+"why": "src",
+"file": "tiles/all/Sprite Square White TL__224e.png"
+},
+{
+"id": "Sprite Square White TR",
+"type": "0x224f",
+"src": "spriteWorldGround",
+"category": "tile",
+"sub": "spriteWorldGround",
+"why": "src",
+"file": "tiles/all/Sprite Square White TR__224f.png"
+},
+{
+"id": "Sprite Square White BL",
+"type": "0x2250",
+"src": "spriteWorldGround",
+"category": "tile",
+"sub": "spriteWorldGround",
+"why": "src",
+"file": "tiles/all/Sprite Square White BL__2250.png"
+},
+{
+"id": "Sprite Square White BR",
+"type": "0x2251",
+"src": "spriteWorldGround",
+"category": "tile",
+"sub": "spriteWorldGround",
+"why": "src",
+"file": "tiles/all/Sprite Square White BR__2251.png"
+},
+{
+"id": "Sprite Square Black TL",
+"type": "0x2252",
+"src": "spriteWorldGround",
+"category": "tile",
+"sub": "spriteWorldGround",
+"why": "src",
+"file": "tiles/all/Sprite Square Black TL__2252.png"
+},
+{
+"id": "Sprite Square Black TR",
+"type": "0x2253",
+"src": "spriteWorldGround",
+"category": "tile",
+"sub": "spriteWorldGround",
+"why": "src",
+"file": "tiles/all/Sprite Square Black TR__2253.png"
+},
+{
+"id": "Sprite Square Black BL",
+"type": "0x2254",
+"src": "spriteWorldGround",
+"category": "tile",
+"sub": "spriteWorldGround",
+"why": "src",
+"file": "tiles/all/Sprite Square Black BL__2254.png"
+},
+{
+"id": "Sprite Square Black BR",
+"type": "0x2255",
+"src": "spriteWorldGround",
+"category": "tile",
+"sub": "spriteWorldGround",
+"why": "src",
+"file": "tiles/all/Sprite Square Black BR__2255.png"
+},
+{
+"id": "Sprite Square Red TL",
+"type": "0x2256",
+"src": "spriteWorldGround",
+"category": "tile",
+"sub": "spriteWorldGround",
+"why": "src",
+"file": "tiles/all/Sprite Square Red TL__2256.png"
+},
+{
+"id": "Sprite Square Red TR",
+"type": "0x2257",
+"src": "spriteWorldGround",
+"category": "tile",
+"sub": "spriteWorldGround",
+"why": "src",
+"file": "tiles/all/Sprite Square Red TR__2257.png"
+},
+{
+"id": "Sprite Square Red BL",
+"type": "0x2258",
+"src": "spriteWorldGround",
+"category": "tile",
+"sub": "spriteWorldGround",
+"why": "src",
+"file": "tiles/all/Sprite Square Red BL__2258.png"
+},
+{
+"id": "Sprite Square Red BR",
+"type": "0x2259",
+"src": "spriteWorldGround",
+"category": "tile",
+"sub": "spriteWorldGround",
+"why": "src",
+"file": "tiles/all/Sprite Square Red BR__2259.png"
+},
+{
+"id": "Sprite Square Orange TL",
+"type": "0x225a",
+"src": "spriteWorldGround",
+"category": "tile",
+"sub": "spriteWorldGround",
+"why": "src",
+"file": "tiles/all/Sprite Square Orange TL__225a.png"
+},
+{
+"id": "Sprite Square Orange TR",
+"type": "0x225b",
+"src": "spriteWorldGround",
+"category": "tile",
+"sub": "spriteWorldGround",
+"why": "src",
+"file": "tiles/all/Sprite Square Orange TR__225b.png"
+},
+{
+"id": "Sprite Square Orange BL",
+"type": "0x225c",
+"src": "spriteWorldGround",
+"category": "tile",
+"sub": "spriteWorldGround",
+"why": "src",
+"file": "tiles/all/Sprite Square Orange BL__225c.png"
+},
+{
+"id": "Sprite Square Orange BR",
+"type": "0x225d",
+"src": "spriteWorldGround",
+"category": "tile",
+"sub": "spriteWorldGround",
+"why": "src",
+"file": "tiles/all/Sprite Square Orange BR__225d.png"
+},
+{
+"id": "Sprite Square Yellow TL",
+"type": "0x225e",
+"src": "spriteWorldGround",
+"category": "tile",
+"sub": "spriteWorldGround",
+"why": "src",
+"file": "tiles/all/Sprite Square Yellow TL__225e.png"
+},
+{
+"id": "Sprite Square Yellow TR",
+"type": "0x225f",
+"src": "spriteWorldGround",
+"category": "tile",
+"sub": "spriteWorldGround",
+"why": "src",
+"file": "tiles/all/Sprite Square Yellow TR__225f.png"
+},
+{
+"id": "Sprite Square Yellow BL",
+"type": "0x2260",
+"src": "spriteWorldGround",
+"category": "tile",
+"sub": "spriteWorldGround",
+"why": "src",
+"file": "tiles/all/Sprite Square Yellow BL__2260.png"
+},
+{
+"id": "Sprite Square Yellow BR",
+"type": "0x2261",
+"src": "spriteWorldGround",
+"category": "tile",
+"sub": "spriteWorldGround",
+"why": "src",
+"file": "tiles/all/Sprite Square Yellow BR__2261.png"
+},
+{
+"id": "Sprite Square Lime TL",
+"type": "0x2262",
+"src": "spriteWorldGround",
+"category": "tile",
+"sub": "spriteWorldGround",
+"why": "src",
+"file": "tiles/all/Sprite Square Lime TL__2262.png"
+},
+{
+"id": "Sprite Square Lime TR",
+"type": "0x2263",
+"src": "spriteWorldGround",
+"category": "tile",
+"sub": "spriteWorldGround",
+"why": "src",
+"file": "tiles/all/Sprite Square Lime TR__2263.png"
+},
+{
+"id": "Sprite Square Lime BL",
+"type": "0x2264",
+"src": "spriteWorldGround",
+"category": "tile",
+"sub": "spriteWorldGround",
+"why": "src",
+"file": "tiles/all/Sprite Square Lime BL__2264.png"
+},
+{
+"id": "Sprite Square Lime BR",
+"type": "0x2265",
+"src": "spriteWorldGround",
+"category": "tile",
+"sub": "spriteWorldGround",
+"why": "src",
+"file": "tiles/all/Sprite Square Lime BR__2265.png"
+},
+{
+"id": "Sprite Square Green TL",
+"type": "0x2266",
+"src": "spriteWorldGround",
+"category": "tile",
+"sub": "spriteWorldGround",
+"why": "src",
+"file": "tiles/all/Sprite Square Green TL__2266.png"
+},
+{
+"id": "Sprite Square Green TR",
+"type": "0x2267",
+"src": "spriteWorldGround",
+"category": "tile",
+"sub": "spriteWorldGround",
+"why": "src",
+"file": "tiles/all/Sprite Square Green TR__2267.png"
+},
+{
+"id": "Sprite Square Green BL",
+"type": "0x2268",
+"src": "spriteWorldGround",
+"category": "tile",
+"sub": "spriteWorldGround",
+"why": "src",
+"file": "tiles/all/Sprite Square Green BL__2268.png"
+},
+{
+"id": "Sprite Square Green BR",
+"type": "0x2269",
+"src": "spriteWorldGround",
+"category": "tile",
+"sub": "spriteWorldGround",
+"why": "src",
+"file": "tiles/all/Sprite Square Green BR__2269.png"
+},
+{
+"id": "Sprite Square Cyan TL",
+"type": "0x226a",
+"src": "spriteWorldGround",
+"category": "tile",
+"sub": "spriteWorldGround",
+"why": "src",
+"file": "tiles/all/Sprite Square Cyan TL__226a.png"
+},
+{
+"id": "Sprite Square Cyan TR",
+"type": "0x226b",
+"src": "spriteWorldGround",
+"category": "tile",
+"sub": "spriteWorldGround",
+"why": "src",
+"file": "tiles/all/Sprite Square Cyan TR__226b.png"
+},
+{
+"id": "Sprite Square Cyan BL",
+"type": "0x226c",
+"src": "spriteWorldGround",
+"category": "tile",
+"sub": "spriteWorldGround",
+"why": "src",
+"file": "tiles/all/Sprite Square Cyan BL__226c.png"
+},
+{
+"id": "Sprite Square Cyan BR",
+"type": "0x226d",
+"src": "spriteWorldGround",
+"category": "tile",
+"sub": "spriteWorldGround",
+"why": "src",
+"file": "tiles/all/Sprite Square Cyan BR__226d.png"
+},
+{
+"id": "Sprite Square Blue TL",
+"type": "0x226e",
+"src": "spriteWorldGround",
+"category": "tile",
+"sub": "spriteWorldGround",
+"why": "src",
+"file": "tiles/all/Sprite Square Blue TL__226e.png"
+},
+{
+"id": "Sprite Square Blue TR",
+"type": "0x226f",
+"src": "spriteWorldGround",
+"category": "tile",
+"sub": "spriteWorldGround",
+"why": "src",
+"file": "tiles/all/Sprite Square Blue TR__226f.png"
+},
+{
+"id": "Sprite Square Blue BL",
+"type": "0x2270",
+"src": "spriteWorldGround",
+"category": "tile",
+"sub": "spriteWorldGround",
+"why": "src",
+"file": "tiles/all/Sprite Square Blue BL__2270.png"
+},
+{
+"id": "Sprite Square Blue BR",
+"type": "0x2271",
+"src": "spriteWorldGround",
+"category": "tile",
+"sub": "spriteWorldGround",
+"why": "src",
+"file": "tiles/all/Sprite Square Blue BR__2271.png"
+},
+{
+"id": "Sprite Square Purple TL",
+"type": "0x2272",
+"src": "spriteWorldGround",
+"category": "tile",
+"sub": "spriteWorldGround",
+"why": "src",
+"file": "tiles/all/Sprite Square Purple TL__2272.png"
+},
+{
+"id": "Sprite Square Purple TR",
+"type": "0x2273",
+"src": "spriteWorldGround",
+"category": "tile",
+"sub": "spriteWorldGround",
+"why": "src",
+"file": "tiles/all/Sprite Square Purple TR__2273.png"
+},
+{
+"id": "Sprite Square Purple BL",
+"type": "0x2274",
+"src": "spriteWorldGround",
+"category": "tile",
+"sub": "spriteWorldGround",
+"why": "src",
+"file": "tiles/all/Sprite Square Purple BL__2274.png"
+},
+{
+"id": "Sprite Square Purple BR",
+"type": "0x2275",
+"src": "spriteWorldGround",
+"category": "tile",
+"sub": "spriteWorldGround",
+"why": "src",
+"file": "tiles/all/Sprite Square Purple BR__2275.png"
+},
+{
+"id": "Sprite Frame TL",
+"type": "0x2276",
+"src": "spriteWorldGround",
+"category": "tile",
+"sub": "spriteWorldGround",
+"why": "src",
+"file": "tiles/all/Sprite Frame TL__2276.png"
+},
+{
+"id": "Sprite Frame TR",
+"type": "0x2277",
+"src": "spriteWorldGround",
+"category": "tile",
+"sub": "spriteWorldGround",
+"why": "src",
+"file": "tiles/all/Sprite Frame TR__2277.png"
+},
+{
+"id": "Sprite Frame BL",
+"type": "0x2278",
+"src": "spriteWorldGround",
+"category": "tile",
+"sub": "spriteWorldGround",
+"why": "src",
+"file": "tiles/all/Sprite Frame BL__2278.png"
+},
+{
+"id": "Sprite Frame BR",
+"type": "0x2279",
+"src": "spriteWorldGround",
+"category": "tile",
+"sub": "spriteWorldGround",
+"why": "src",
+"file": "tiles/all/Sprite Frame BR__2279.png"
+},
+{
+"id": "Sprite Frame Vertical",
+"type": "0x227a",
+"src": "spriteWorldGround",
+"category": "tile",
+"sub": "spriteWorldGround",
+"why": "src",
+"file": "tiles/all/Sprite Frame Vertical__227a.png"
+},
+{
+"id": "Sprite Frame Horizontal",
+"type": "0x227b",
+"src": "spriteWorldGround",
+"category": "tile",
+"sub": "spriteWorldGround",
+"why": "src",
+"file": "tiles/all/Sprite Frame Horizontal__227b.png"
+},
+{
+"id": "Orange Sprite Line",
+"type": "0xc05c",
+"src": "spriteWorldObjects",
+"category": "projectile",
+"sub": "all",
+"why": "src",
+"file": "projectiles/all/Orange Sprite Line__c05c.png"
+},
+{
+"id": "Purple Sprite Line",
+"type": "0xc05d",
+"src": "spriteWorldObjects",
+"category": "projectile",
+"sub": "all",
+"why": "src",
+"file": "projectiles/all/Purple Sprite Line__c05d.png"
+},
+{
+"id": "Green Sprite Line",
+"type": "0xc05e",
+"src": "spriteWorldObjects",
+"category": "projectile",
+"sub": "all",
+"why": "src",
+"file": "projectiles/all/Green Sprite Line__c05e.png"
+},
+{
+"id": "Cyan Sprite Line",
+"type": "0xc05f",
+"src": "spriteWorldObjects",
+"category": "projectile",
+"sub": "all",
+"why": "src",
+"file": "projectiles/all/Cyan Sprite Line__c05f.png"
+},
+{
+"id": "Orange Sprite Magic",
+"type": "0xc4f0",
+"src": "spriteWorldObjects",
+"category": "projectile",
+"sub": "all",
+"why": "src",
+"file": "projectiles/all/Orange Sprite Magic__c4f0.png"
+},
+{
+"id": "Purple Sprite Magic",
+"type": "0xc4f1",
+"src": "spriteWorldObjects",
+"category": "projectile",
+"sub": "all",
+"why": "src",
+"file": "projectiles/all/Purple Sprite Magic__c4f1.png"
+},
+{
+"id": "Green Sprite Magic",
+"type": "0xc4f2",
+"src": "spriteWorldObjects",
+"category": "projectile",
+"sub": "all",
+"why": "src",
+"file": "projectiles/all/Green Sprite Magic__c4f2.png"
+},
+{
+"id": "Cyan Sprite Magic",
+"type": "0xc4f3",
+"src": "spriteWorldObjects",
+"category": "projectile",
+"sub": "all",
+"why": "src",
+"file": "projectiles/all/Cyan Sprite Magic__c4f3.png"
+},
+{
+"id": "Orange Sprite Twirl",
+"type": "0xc4f4",
+"src": "spriteWorldObjects",
+"category": "projectile",
+"sub": "all",
+"why": "src",
+"file": "projectiles/all/Orange Sprite Twirl__c4f4.png"
+},
+{
+"id": "Purple Sprite Twirl",
+"type": "0xc4f5",
+"src": "spriteWorldObjects",
+"category": "projectile",
+"sub": "all",
+"why": "src",
+"file": "projectiles/all/Purple Sprite Twirl__c4f5.png"
+},
+{
+"id": "Green Sprite Twirl",
+"type": "0xc4f6",
+"src": "spriteWorldObjects",
+"category": "projectile",
+"sub": "all",
+"why": "src",
+"file": "projectiles/all/Green Sprite Twirl__c4f6.png"
+},
+{
+"id": "Cyan Sprite Twirl",
+"type": "0xc4f7",
+"src": "spriteWorldObjects",
+"category": "projectile",
+"sub": "all",
+"why": "src",
+"file": "projectiles/all/Cyan Sprite Twirl__c4f7.png"
+},
+{
+"id": "Orange Sprite Bolt",
+"type": "0xc4f8",
+"src": "spriteWorldObjects",
+"category": "projectile",
+"sub": "all",
+"why": "src",
+"file": "projectiles/all/Orange Sprite Bolt__c4f8.png"
+},
+{
+"id": "Purple Sprite Bolt",
+"type": "0xc4f9",
+"src": "spriteWorldObjects",
+"category": "projectile",
+"sub": "all",
+"why": "src",
+"file": "projectiles/all/Purple Sprite Bolt__c4f9.png"
+},
+{
+"id": "Green Sprite Bolt",
+"type": "0xc4fa",
+"src": "spriteWorldObjects",
+"category": "projectile",
+"sub": "all",
+"why": "src",
+"file": "projectiles/all/Green Sprite Bolt__c4fa.png"
+},
+{
+"id": "Cyan Sprite Bolt",
+"type": "0xc4fb",
+"src": "spriteWorldObjects",
+"category": "projectile",
+"sub": "all",
+"why": "src",
+"file": "projectiles/all/Cyan Sprite Bolt__c4fb.png"
+},
+{
+"id": "Orange Sprite Beam",
+"type": "0xc4fc",
+"src": "spriteWorldObjects",
+"category": "projectile",
+"sub": "all",
+"why": "src",
+"file": "projectiles/all/Orange Sprite Beam__c4fc.png"
+},
+{
+"id": "Purple Sprite Beam",
+"type": "0xc4fd",
+"src": "spriteWorldObjects",
+"category": "projectile",
+"sub": "all",
+"why": "src",
+"file": "projectiles/all/Purple Sprite Beam__c4fd.png"
+},
+{
+"id": "Green Sprite Beam",
+"type": "0xc047",
+"src": "spriteWorldObjects",
+"category": "projectile",
+"sub": "all",
+"why": "src",
+"file": "projectiles/all/Green Sprite Beam__c047.png"
+},
+{
+"id": "Cyan Sprite Beam",
+"type": "0xc048",
+"src": "spriteWorldObjects",
+"category": "projectile",
+"sub": "all",
+"why": "src",
+"file": "projectiles/all/Cyan Sprite Beam__c048.png"
+},
+{
+"id": "Black Sprite Line",
+"type": "0xc04a",
+"src": "spriteWorldObjects",
+"category": "projectile",
+"sub": "all",
+"why": "src",
+"file": "projectiles/all/Black Sprite Line__c04a.png"
+},
+{
+"id": "Black Sprite Magic",
+"type": "0xc04b",
+"src": "spriteWorldObjects",
+"category": "projectile",
+"sub": "all",
+"why": "src",
+"file": "projectiles/all/Black Sprite Magic__c04b.png"
+},
+{
+"id": "Black Sprite Twirl",
+"type": "0xc04c",
+"src": "spriteWorldObjects",
+"category": "projectile",
+"sub": "all",
+"why": "src",
+"file": "projectiles/all/Black Sprite Twirl__c04c.png"
+},
+{
+"id": "Black Sprite Bolt",
+"type": "0xc04d",
+"src": "spriteWorldObjects",
+"category": "projectile",
+"sub": "all",
+"why": "src",
+"file": "projectiles/all/Black Sprite Bolt__c04d.png"
+},
+{
+"id": "Black Sprite Beam",
+"type": "0xc04e",
+"src": "spriteWorldObjects",
+"category": "projectile",
+"sub": "all",
+"why": "src",
+"file": "projectiles/all/Black Sprite Beam__c04e.png"
+},
+{
+"id": "Blue Sprite Line",
+"type": "0xc04f",
+"src": "spriteWorldObjects",
+"category": "projectile",
+"sub": "all",
+"why": "src",
+"file": "projectiles/all/Blue Sprite Line__c04f.png"
+},
+{
+"id": "Blue Sprite Magic",
+"type": "0xc050",
+"src": "spriteWorldObjects",
+"category": "projectile",
+"sub": "all",
+"why": "src",
+"file": "projectiles/all/Blue Sprite Magic__c050.png"
+},
+{
+"id": "Blue Sprite Twirl",
+"type": "0xc051",
+"src": "spriteWorldObjects",
+"category": "projectile",
+"sub": "all",
+"why": "src",
+"file": "projectiles/all/Blue Sprite Twirl__c051.png"
+},
+{
+"id": "Blue Sprite Bolt",
+"type": "0xc052",
+"src": "spriteWorldObjects",
+"category": "projectile",
+"sub": "all",
+"why": "src",
+"file": "projectiles/all/Blue Sprite Bolt__c052.png"
+},
+{
+"id": "Blue Sprite Beam",
+"type": "0xc053",
+"src": "spriteWorldObjects",
+"category": "projectile",
+"sub": "all",
+"why": "src",
+"file": "projectiles/all/Blue Sprite Beam__c053.png"
+},
+{
+"id": "Prejudice Pulse",
+"type": "0xc054",
+"src": "spriteWorldObjects",
+"category": "projectile",
+"sub": "all",
+"why": "src",
+"file": "projectiles/all/Prejudice Pulse__c054.png"
+},
+{
+"id": "Rainbow Sprite Pulse",
+"type": "0xc055",
+"src": "spriteWorldObjects",
+"category": "projectile",
+"sub": "all",
+"why": "src",
+"file": "projectiles/all/Rainbow Sprite Pulse__c055.png"
+},
+{
+"id": "Rainbow Sprite Line",
+"type": "0xc056",
+"src": "spriteWorldObjects",
+"category": "projectile",
+"sub": "all",
+"why": "src",
+"file": "projectiles/all/Rainbow Sprite Line__c056.png"
+},
+{
+"id": "Rainbow Sprite Beam",
+"type": "0xc057",
+"src": "spriteWorldObjects",
+"category": "projectile",
+"sub": "all",
+"why": "src",
+"file": "projectiles/all/Rainbow Sprite Beam__c057.png"
+},
+{
+"id": "Rainbow Sprite Star",
+"type": "0xc058",
+"src": "spriteWorldObjects",
+"category": "projectile",
+"sub": "all",
+"why": "src",
+"file": "projectiles/all/Rainbow Sprite Star__c058.png"
+},
+{
+"id": "Prejudice Missile",
+"type": "0xc073",
+"src": "spriteWorldObjects",
+"category": "projectile",
+"sub": "all",
+"why": "src",
+"file": "projectiles/all/Prejudice Missile__c073.png"
+},
+{
+"id": "Colorful Sprite Bolt",
+"type": "0xc074",
+"src": "spriteWorldObjects",
+"category": "projectile",
+"sub": "all",
+"why": "src",
+"file": "projectiles/all/Colorful Sprite Bolt__c074.png"
+},
+{
+"id": "Rainbow Sprite Blast",
+"type": "0xc075",
+"src": "spriteWorldObjects",
+"category": "projectile",
+"sub": "all",
+"why": "src",
+"file": "projectiles/all/Rainbow Sprite Blast__c075.png"
+},
+{
+"id": "Sprite Tree",
+"type": "0xc060",
+"src": "spriteWorldObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Sprite Tree__c060.png"
+},
+{
+"id": "Native Craig",
+"type": "0xc061",
+"src": "spriteWorldObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Native Craig__c061.png"
+},
+{
+"id": "Native Craig Controller",
+"type": "0xc05b",
+"src": "spriteWorldObjects",
+"category": "npc",
+"sub": "all",
+"why": "src",
+"file": "npcs/all/Native Craig Controller__c05b.png"
+},
+{
+"id": "Native Portal",
+"type": "0xc062",
+"src": "spriteWorldObjects",
+"category": "prop",
+"sub": "spriteWorldObjects",
+"why": "src",
+"file": "props/all/Native Portal__c062.png"
+},
+{
+"id": "Native Fire Sprite",
+"type": "0x0d00",
+"src": "spriteWorldObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Native Fire Sprite__0d00.png"
+},
+{
+"id": "Native Ice Sprite",
+"type": "0x0d01",
+"src": "spriteWorldObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Native Ice Sprite__0d01.png"
+},
+{
+"id": "Native Magic Sprite",
+"type": "0x0d02",
+"src": "spriteWorldObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Native Magic Sprite__0d02.png"
+},
+{
+"id": "Native Nature Sprite",
+"type": "0x0d03",
+"src": "spriteWorldObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Native Nature Sprite__0d03.png"
+},
+{
+"id": "Native Darkness Sprite",
+"type": "0x0d04",
+"src": "spriteWorldObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Native Darkness Sprite__0d04.png"
+},
+{
+"id": "Native Greater Fire Sprite",
+"type": "0xc063",
+"src": "spriteWorldObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Native Greater Fire Sprite__c063.png"
+},
+{
+"id": "Native Greater Ice Sprite",
+"type": "0xc064",
+"src": "spriteWorldObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Native Greater Ice Sprite__c064.png"
+},
+{
+"id": "Native Greater Magic Sprite",
+"type": "0xc065",
+"src": "spriteWorldObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Native Greater Magic Sprite__c065.png"
+},
+{
+"id": "Native Greater Nature Sprite",
+"type": "0xc066",
+"src": "spriteWorldObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Native Greater Nature Sprite__c066.png"
+},
+{
+"id": "Native Greater Darkness Sprite",
+"type": "0xc067",
+"src": "spriteWorldObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Native Greater Darkness Sprite__c067.png"
+},
+{
+"id": "Native Sprite God",
+"type": "0x0d05",
+"src": "spriteWorldObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Native Sprite God__0d05.png"
+},
+{
+"id": "Sprite Portal Summon",
+"type": "0xc059",
+"src": "spriteWorldObjects",
+"category": "prop",
+"sub": "spriteWorldObjects",
+"why": "src",
+"file": "props/all/Sprite Portal Summon__c059.png"
+},
+{
+"id": "Sprite Portal Active",
+"type": "0xc076",
+"src": "spriteWorldObjects",
+"category": "prop",
+"sub": "spriteWorldObjects",
+"why": "src",
+"file": "props/all/Sprite Portal Active__c076.png"
+},
+{
+"id": "Sprite Portal Close",
+"type": "0xc077",
+"src": "spriteWorldObjects",
+"category": "prop",
+"sub": "spriteWorldObjects",
+"why": "src",
+"file": "props/all/Sprite Portal Close__c077.png"
+},
+{
+"id": "Sprite Portal Generator",
+"type": "0xc05a",
+"src": "spriteWorldObjects",
+"category": "prop",
+"sub": "spriteWorldObjects",
+"why": "src",
+"file": "props/all/Sprite Portal Generator__c05a.png"
+},
+{
+"id": "Limon the Sprite God",
+"type": "0x0d06",
+"src": "spriteWorldObjects",
+"category": "enemy",
+"sub": "boss",
+"why": "src",
+"file": "enemies/boss/Limon the Sprite God__0d06.png"
+},
+{
+"id": "Limon Element 1",
+"type": "0x0d07",
+"src": "spriteWorldObjects",
+"category": "helper",
+"sub": "other",
+"why": "src",
+"file": "helpers/other/Limon Element 1__0d07.png"
+},
+{
+"id": "Limon Element 2",
+"type": "0x0d08",
+"src": "spriteWorldObjects",
+"category": "helper",
+"sub": "other",
+"why": "src",
+"file": "helpers/other/Limon Element 2__0d08.png"
+},
+{
+"id": "Limon Element 3",
+"type": "0x0d09",
+"src": "spriteWorldObjects",
+"category": "helper",
+"sub": "other",
+"why": "src",
+"file": "helpers/other/Limon Element 3__0d09.png"
+},
+{
+"id": "Limon Element 4",
+"type": "0x0d0a",
+"src": "spriteWorldObjects",
+"category": "helper",
+"sub": "other",
+"why": "src",
+"file": "helpers/other/Limon Element 4__0d0a.png"
+},
+{
+"id": "Sprite Corpse",
+"type": "0xc049",
+"src": "spriteWorldObjects",
+"category": "npc",
+"sub": "all",
+"why": "src",
+"file": "npcs/all/Sprite Corpse__c049.png"
+},
+{
+"id": "Limon GroundShot",
+"type": "0x0bb0",
+"src": "spriteWorldObjects",
+"category": "npc",
+"sub": "all",
+"why": "src",
+"file": "npcs/all/Limon GroundShot__0bb0.png"
+},
+{
+"id": "Limon SafeGround",
+"type": "0x0bb1",
+"src": "spriteWorldObjects",
+"category": "npc",
+"sub": "all",
+"why": "src",
+"file": "npcs/all/Limon SafeGround__0bb1.png"
+},
+{
+"id": "Player Count Test",
+"type": "0xc086",
+"src": "spriteWorldObjects",
+"category": "prop",
+"sub": "spriteWorldObjects",
+"why": "src",
+"file": "props/all/Player Count Test__c086.png"
+},
+{
+"id": "Number Zero",
+"type": "0xc078",
+"src": "spriteWorldObjects",
+"category": "prop",
+"sub": "spriteWorldObjects",
+"why": "src",
+"file": "props/all/Number Zero__c078.png"
+},
+{
+"id": "Number One",
+"type": "0xc079",
+"src": "spriteWorldObjects",
+"category": "prop",
+"sub": "spriteWorldObjects",
+"why": "src",
+"file": "props/all/Number One__c079.png"
+},
+{
+"id": "Number Two",
+"type": "0xc07a",
+"src": "spriteWorldObjects",
+"category": "prop",
+"sub": "spriteWorldObjects",
+"why": "src",
+"file": "props/all/Number Two__c07a.png"
+},
+{
+"id": "Number Three",
+"type": "0xc07b",
+"src": "spriteWorldObjects",
+"category": "prop",
+"sub": "spriteWorldObjects",
+"why": "src",
+"file": "props/all/Number Three__c07b.png"
+},
+{
+"id": "Number Four",
+"type": "0xc07c",
+"src": "spriteWorldObjects",
+"category": "prop",
+"sub": "spriteWorldObjects",
+"why": "src",
+"file": "props/all/Number Four__c07c.png"
+},
+{
+"id": "Number Five",
+"type": "0xc07d",
+"src": "spriteWorldObjects",
+"category": "prop",
+"sub": "spriteWorldObjects",
+"why": "src",
+"file": "props/all/Number Five__c07d.png"
+},
+{
+"id": "Number Six",
+"type": "0xc07e",
+"src": "spriteWorldObjects",
+"category": "prop",
+"sub": "spriteWorldObjects",
+"why": "src",
+"file": "props/all/Number Six__c07e.png"
+},
+{
+"id": "Number Seven",
+"type": "0xc07f",
+"src": "spriteWorldObjects",
+"category": "prop",
+"sub": "spriteWorldObjects",
+"why": "src",
+"file": "props/all/Number Seven__c07f.png"
+},
+{
+"id": "Number Eight",
+"type": "0xc080",
+"src": "spriteWorldObjects",
+"category": "prop",
+"sub": "spriteWorldObjects",
+"why": "src",
+"file": "props/all/Number Eight__c080.png"
+},
+{
+"id": "Number Nine",
+"type": "0xc081",
+"src": "spriteWorldObjects",
+"category": "prop",
+"sub": "spriteWorldObjects",
+"why": "src",
+"file": "props/all/Number Nine__c081.png"
+},
+{
+"id": "Numeral I",
+"type": "0xc082",
+"src": "spriteWorldObjects",
+"category": "prop",
+"sub": "spriteWorldObjects",
+"why": "src",
+"file": "props/all/Numeral I__c082.png"
+},
+{
+"id": "Numeral V",
+"type": "0xc083",
+"src": "spriteWorldObjects",
+"category": "prop",
+"sub": "spriteWorldObjects",
+"why": "src",
+"file": "props/all/Numeral V__c083.png"
+},
+{
+"id": "Numeral X",
+"type": "0xc084",
+"src": "spriteWorldObjects",
+"category": "prop",
+"sub": "spriteWorldObjects",
+"why": "src",
+"file": "props/all/Numeral X__c084.png"
+},
+{
+"id": "Numeral L",
+"type": "0xc085",
+"src": "spriteWorldObjects",
+"category": "prop",
+"sub": "spriteWorldObjects",
+"why": "src",
+"file": "props/all/Numeral L__c085.png"
+},
+{
+"id": "Sprite Background 1",
+"type": "0xc068",
+"src": "spriteWorldObjects",
+"category": "prop",
+"sub": "spriteWorldObjects",
+"why": "src",
+"file": "props/all/Sprite Background 1__c068.png"
+},
+{
+"id": "Sprite Background 2",
+"type": "0xc069",
+"src": "spriteWorldObjects",
+"category": "prop",
+"sub": "spriteWorldObjects",
+"why": "src",
+"file": "props/all/Sprite Background 2__c069.png"
+},
+{
+"id": "Sprite Background 3",
+"type": "0xc06a",
+"src": "spriteWorldObjects",
+"category": "prop",
+"sub": "spriteWorldObjects",
+"why": "src",
+"file": "props/all/Sprite Background 3__c06a.png"
+},
+{
+"id": "Sprite Background 4",
+"type": "0xc06b",
+"src": "spriteWorldObjects",
+"category": "prop",
+"sub": "spriteWorldObjects",
+"why": "src",
+"file": "props/all/Sprite Background 4__c06b.png"
+},
+{
+"id": "Sprite Background 5",
+"type": "0xc06c",
+"src": "spriteWorldObjects",
+"category": "prop",
+"sub": "spriteWorldObjects",
+"why": "src",
+"file": "props/all/Sprite Background 5__c06c.png"
+},
+{
+"id": "Sprite Background 6",
+"type": "0xc06d",
+"src": "spriteWorldObjects",
+"category": "prop",
+"sub": "spriteWorldObjects",
+"why": "src",
+"file": "props/all/Sprite Background 6__c06d.png"
+},
+{
+"id": "Sprite Background 7",
+"type": "0xc06e",
+"src": "spriteWorldObjects",
+"category": "prop",
+"sub": "spriteWorldObjects",
+"why": "src",
+"file": "props/all/Sprite Background 7__c06e.png"
+},
+{
+"id": "Sprite Background 8",
+"type": "0xc06f",
+"src": "spriteWorldObjects",
+"category": "prop",
+"sub": "spriteWorldObjects",
+"why": "src",
+"file": "props/all/Sprite Background 8__c06f.png"
+},
+{
+"id": "Sprite Background Animated 1",
+"type": "0xc070",
+"src": "spriteWorldObjects",
+"category": "prop",
+"sub": "spriteWorldObjects",
+"why": "src",
+"file": "props/all/Sprite Background Animated 1__c070.png"
+},
+{
+"id": "Sprite Background Animated 2",
+"type": "0xc071",
+"src": "spriteWorldObjects",
+"category": "prop",
+"sub": "spriteWorldObjects",
+"why": "src",
+"file": "props/all/Sprite Background Animated 2__c071.png"
+},
+{
+"id": "Sprite Background Animated 3",
+"type": "0xc072",
+"src": "spriteWorldObjects",
+"category": "prop",
+"sub": "spriteWorldObjects",
+"why": "src",
+"file": "props/all/Sprite Background Animated 3__c072.png"
+},
+{
+"id": "TM Explanation Object",
+"type": "0xc5d8",
+"src": "innerWorkingsObjects",
+"category": "npc",
+"sub": "all",
+"why": "spec",
+"file": "npcs/all/TM Explanation Object__c5d8.png"
+},
+{
+"id": "TM Craig ReExplanation",
+"type": "0x2a4b",
+"src": "innerWorkingsObjects",
+"category": "npc",
+"sub": "all",
+"why": "spec",
+"file": "npcs/all/TM Craig ReExplanation__2a4b.png"
+},
+{
+"id": "Craig the Mad Intern",
+"type": "0x1fe2",
+"src": "oryxHordeObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "spec",
+"file": "enemies/regular/Craig the Mad Intern__1fe2.png"
+},
+{
+"id": "SW Craig Anchor",
+"type": "0x3d34",
+"src": "santaWorkshopObjects",
+"category": "npc",
+"sub": "all",
+"why": "spec",
+"file": "npcs/all/SW Craig Anchor__3d34.png"
+},
+{
+"id": "Strange Voice",
+"type": "0x3d2a",
+"src": "santaWorkshopObjects",
+"category": "npc",
+"sub": "all",
+"why": "spec",
+"file": "npcs/all/Strange Voice__3d2a.png"
+},
+{
+"id": "Craig Heroic",
+"type": "0xf43",
+"src": "undeadLair",
+"category": "npc",
+"sub": "all",
+"why": "spec",
+"file": "npcs/all/Craig Heroic__f43.png"
+},
+{
+"id": "XN Craig Anchor",
+"type": "0x3fd7",
+"src": "xmasNexusObjects",
+"category": "npc",
+"sub": "all",
+"why": "spec",
+"file": "npcs/all/XN Craig Anchor__3fd7.png"
+},
+{
+"id": "XN Craig",
+"type": "0x3fd8",
+"src": "xmasNexusObjects",
+"category": "npc",
+"sub": "all",
+"why": "spec",
+"file": "npcs/all/XN Craig__3fd8.png"
+},
+{
+"id": "Sprite Child",
+"type": "0x653",
+"src": "mountains",
+"category": "enemy",
+"sub": "regular",
+"why": "spec",
+"file": "enemies/regular/Sprite Child__653.png"
+},
+{
+"id": "Sprite Beast",
+"type": "0xc32f",
+"src": "adept",
+"category": "enemy",
+"sub": "regular",
+"why": "spec",
+"file": "enemies/regular/Sprite Beast__c32f.png"
+},
+{
+"id": "Celestial Sprite",
+"type": "0xAC77",
+"src": "heroes_2",
+"category": "enemy",
+"sub": "event_boss",
+"why": "spec",
+"file": "enemies/event_boss/Celestial Sprite__AC77.png"
+},
+{
+"id": "Cosmic Sprite",
+"type": "0xAC79",
+"src": "heroes_2",
+"category": "enemy",
+"sub": "event_boss",
+"why": "spec",
+"file": "enemies/event_boss/Cosmic Sprite__AC79.png"
+},
+{
+"id": "Blue Mystic Shot",
+"type": "0x0047",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Blue Mystic Shot__0047.png"
+},
+{
+"id": "Celestial Sprite Twirl",
+"type": "0xAC7F",
+"src": "heroes_2",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Celestial Sprite Twirl__AC7F.png"
+},
+{
+"id": "Celestial Sprite Bolt",
+"type": "0xAC81",
+"src": "heroes_2",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Celestial Sprite Bolt__AC81.png"
+},
+{
+"id": "Cosmic Sprite Twirl",
+"type": "0xAC80",
+"src": "heroes_2",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Cosmic Sprite Twirl__AC80.png"
+},
+{
+"id": "Cosmic Sprite Bolt",
+"type": "0xAC82",
+"src": "heroes_2",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Cosmic Sprite Bolt__AC82.png"
+},
+{
+"id": "Sprite Wand",
+"type": "0xa4b",
+"src": "equip",
+"category": "weapon",
+"sub": "wand",
+"why": "loot",
+"file": "loot/weapon_wand/Sprite Wand__a4b.png"
+},
+{
+"id": "Potion of Defense",
+"type": "0xa20",
+"src": "equip",
+"category": "consumable",
+"sub": "all",
+"why": "loot",
+"file": "loot/consumable/Potion of Defense__a20.png"
+},
+{
+"id": "Cloak of the Planewalker",
+"type": "0xa5a",
+"src": "equip",
+"category": "ability",
+"sub": "all",
+"why": "loot",
+"file": "loot/ability/Cloak of the Planewalker__a5a.png"
+},
+{
+"id": "Staff of Extreme Prejudice",
+"type": "0xc03",
+"src": "equip",
+"category": "weapon",
+"sub": "staff",
+"why": "loot",
+"file": "loot/weapon_staff/Staff of Extreme Prejudice__c03.png"
+},
+{
+"id": "Mace of the Celestial Forest",
+"type": "0x2833",
+"src": "equip",
+"category": "ability",
+"sub": "all",
+"why": "loot",
+"file": "loot/ability/Mace of the Celestial Forest__2833.png"
+}
+]
+}

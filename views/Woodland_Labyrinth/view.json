@@ -1,0 +1,913 @@
+{
+"dungeon": "Woodland_Labyrinth",
+"sources": [
+"epicforestMaze"
+],
+"counts": {
+"projectiles": 38,
+"npcs": 2,
+"helpers": 3,
+"enemies": 19,
+"props": 12,
+"walls": 1,
+"tiles": 7,
+"loot": 8
+},
+"why": {
+"src": 50,
+"spec": 9,
+"proj": 18,
+"loot": 8,
+"tile": 5
+},
+"tile_hints_used": {
+"grass": 5
+},
+"names_in_own_files": [
+"Forest Goblin Bruiser",
+"Forest Goblin Necromancer",
+"Grizzled Armored Squirrel",
+"Mecha Squirrel",
+"Micro Megamoth Sentinel",
+"Micro Megamoth Guardian",
+"Mini Larva",
+"Woodland Paralyze Turret",
+"Woodland Silence Turret",
+"Woodland Weakness Turret",
+"Woodland Skysplitter Stone",
+"Megamoth Larva",
+"Mammoth Megamoth",
+"Swarm Tree"
+],
+"names_in_other_files": [
+[
+"Puke Water",
+[
+"spiderDenGround"
+]
+],
+[
+"Woodland Water",
+[
+"spiderDenGround"
+]
+],
+[
+"Murderous Megamoth",
+[
+"epicforestMaze",
+"nexusDestroyed"
+]
+],
+[
+"Possessed Pumpkin",
+[
+"encounters"
+]
+],
+[
+"Great Owl",
+[
+"mountains",
+"veteran"
+]
+],
+[
+"Man-Eating Flytrap",
+[
+"veteran"
+]
+],
+[
+"Bloodroot Treant",
+[
+"veteran"
+]
+],
+[
+"Hornet's Nest",
+[
+"heroes_2"
+]
+]
+],
+"names_not_found": [
+{
+"name": "Legion Head Researcher",
+"suggestions": [],
+"suggestion_in_own_files": false
+}
+],
+"entries": [
+{
+"id": "Woodland Moth Dust",
+"type": "0x217a",
+"src": "epicforestMaze",
+"category": "projectile",
+"sub": "all",
+"why": "src",
+"file": "projectiles/all/Woodland Moth Dust__217a.png"
+},
+{
+"id": "Fire Acorn",
+"type": "0x217b",
+"src": "epicforestMaze",
+"category": "projectile",
+"sub": "all",
+"why": "src",
+"file": "projectiles/all/Fire Acorn__217b.png"
+},
+{
+"id": "Blunt Acorn",
+"type": "0x2390",
+"src": "epicforestMaze",
+"category": "projectile",
+"sub": "all",
+"why": "src",
+"file": "projectiles/all/Blunt Acorn__2390.png"
+},
+{
+"id": "Iron Acorn",
+"type": "0xb605",
+"src": "epicforestMaze",
+"category": "projectile",
+"sub": "all",
+"why": "src",
+"file": "projectiles/all/Iron Acorn__b605.png"
+},
+{
+"id": "Bright Autumn Glaive",
+"type": "0x238c",
+"src": "epicforestMaze",
+"category": "projectile",
+"sub": "all",
+"why": "src",
+"file": "projectiles/all/Bright Autumn Glaive__238c.png"
+},
+{
+"id": "Dark Autumn Glaive",
+"type": "0x2389",
+"src": "epicforestMaze",
+"category": "projectile",
+"sub": "all",
+"why": "src",
+"file": "projectiles/all/Dark Autumn Glaive__2389.png"
+},
+{
+"id": "Pink Twirl",
+"type": "0x238d",
+"src": "epicforestMaze",
+"category": "projectile",
+"sub": "all",
+"why": "src",
+"file": "projectiles/all/Pink Twirl__238d.png"
+},
+{
+"id": "Green Twirl",
+"type": "0x238e",
+"src": "epicforestMaze",
+"category": "projectile",
+"sub": "all",
+"why": "src",
+"file": "projectiles/all/Green Twirl__238e.png"
+},
+{
+"id": "Yellow Twirl",
+"type": "0x238f",
+"src": "epicforestMaze",
+"category": "projectile",
+"sub": "all",
+"why": "src",
+"file": "projectiles/all/Yellow Twirl__238f.png"
+},
+{
+"id": "Leaf Twirl",
+"type": "0x239b",
+"src": "epicforestMaze",
+"category": "projectile",
+"sub": "all",
+"why": "src",
+"file": "projectiles/all/Leaf Twirl__239b.png"
+},
+{
+"id": "Bright Leaf Magic",
+"type": "0x238a",
+"src": "epicforestMaze",
+"category": "projectile",
+"sub": "all",
+"why": "src",
+"file": "projectiles/all/Bright Leaf Magic__238a.png"
+},
+{
+"id": "Dark Leaf Magic",
+"type": "0x238b",
+"src": "epicforestMaze",
+"category": "projectile",
+"sub": "all",
+"why": "src",
+"file": "projectiles/all/Dark Leaf Magic__238b.png"
+},
+{
+"id": "Bruiser Slice",
+"type": "0x2397",
+"src": "epicforestMaze",
+"category": "projectile",
+"sub": "all",
+"why": "src",
+"file": "projectiles/all/Bruiser Slice__2397.png"
+},
+{
+"id": "Squirrel Slash",
+"type": "0x2398",
+"src": "epicforestMaze",
+"category": "projectile",
+"sub": "all",
+"why": "src",
+"file": "projectiles/all/Squirrel Slash__2398.png"
+},
+{
+"id": "Larva Ooze",
+"type": "0x2399",
+"src": "epicforestMaze",
+"category": "projectile",
+"sub": "all",
+"why": "src",
+"file": "projectiles/all/Larva Ooze__2399.png"
+},
+{
+"id": "Larva Spit",
+"type": "0x239a",
+"src": "epicforestMaze",
+"category": "projectile",
+"sub": "all",
+"why": "src",
+"file": "projectiles/all/Larva Spit__239a.png"
+},
+{
+"id": "Larva Fluid",
+"type": "0x239c",
+"src": "epicforestMaze",
+"category": "projectile",
+"sub": "all",
+"why": "src",
+"file": "projectiles/all/Larva Fluid__239c.png"
+},
+{
+"id": "Green Bark Bolt",
+"type": "0x239d",
+"src": "epicforestMaze",
+"category": "projectile",
+"sub": "all",
+"why": "src",
+"file": "projectiles/all/Green Bark Bolt__239d.png"
+},
+{
+"id": "Yellow Bark Bolt",
+"type": "0x239e",
+"src": "epicforestMaze",
+"category": "projectile",
+"sub": "all",
+"why": "src",
+"file": "projectiles/all/Yellow Bark Bolt__239e.png"
+},
+{
+"id": "Blue Bark Bolt",
+"type": "0x239f",
+"src": "epicforestMaze",
+"category": "projectile",
+"sub": "all",
+"why": "src",
+"file": "projectiles/all/Blue Bark Bolt__239f.png"
+},
+{
+"id": "Epic Larva Summoner",
+"type": "0x1e3f",
+"src": "epicforestMaze",
+"category": "npc",
+"sub": "all",
+"why": "src",
+"file": "npcs/all/Epic Larva Summoner__1e3f.png"
+},
+{
+"id": "Woodland Paralyze Turret",
+"type": "0x703e",
+"src": "epicforestMaze",
+"category": "helper",
+"sub": "other",
+"why": "src",
+"file": "helpers/other/Woodland Paralyze Turret__703e.png"
+},
+{
+"id": "Woodland Silence Turret",
+"type": "0x703f",
+"src": "epicforestMaze",
+"category": "helper",
+"sub": "other",
+"why": "src",
+"file": "helpers/other/Woodland Silence Turret__703f.png"
+},
+{
+"id": "Woodland Weakness Turret",
+"type": "0x704a",
+"src": "epicforestMaze",
+"category": "helper",
+"sub": "other",
+"why": "src",
+"file": "helpers/other/Woodland Weakness Turret__704a.png"
+},
+{
+"id": "Wooland Armor Squirrel",
+"type": "0x704b",
+"src": "epicforestMaze",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Wooland Armor Squirrel__704b.png"
+},
+{
+"id": "Woodland Ultimate Squirrel",
+"type": "0x704d",
+"src": "epicforestMaze",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Woodland Ultimate Squirrel__704d.png"
+},
+{
+"id": "Woodland Goblin Mage",
+"type": "0x704e",
+"src": "epicforestMaze",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Woodland Goblin Mage__704e.png"
+},
+{
+"id": "Woodland Goblin",
+"type": "0x704f",
+"src": "epicforestMaze",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Woodland Goblin__704f.png"
+},
+{
+"id": "Woodland Swarm Tree",
+"type": "0x41f9",
+"src": "epicforestMaze",
+"category": "enemy",
+"sub": "miniboss",
+"why": "src",
+"file": "enemies/miniboss/Woodland Swarm Tree__41f9.png"
+},
+{
+"id": "Mini Larva",
+"type": "0x706e",
+"src": "epicforestMaze",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Mini Larva__706e.png"
+},
+{
+"id": "Woodland Mini Megamoth",
+"type": "0x704c",
+"src": "epicforestMaze",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Woodland Mini Megamoth__704c.png"
+},
+{
+"id": "Woodland Guardian Megamoth",
+"type": "0x2388",
+"src": "epicforestMaze",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Woodland Guardian Megamoth__2388.png"
+},
+{
+"id": "Larva Puke",
+"type": "0x706b",
+"src": "epicforestMaze",
+"category": "prop",
+"sub": "epicforestMaze",
+"why": "src",
+"file": "props/all/Larva Puke__706b.png"
+},
+{
+"id": "Epic Larva",
+"type": "0x706c",
+"src": "epicforestMaze",
+"category": "enemy",
+"sub": "miniboss",
+"why": "src",
+"file": "enemies/miniboss/Epic Larva__706c.png"
+},
+{
+"id": "Epic Mama Megamoth",
+"type": "0x706d",
+"src": "epicforestMaze",
+"category": "enemy",
+"sub": "miniboss",
+"why": "src",
+"file": "enemies/miniboss/Epic Mama Megamoth__706d.png"
+},
+{
+"id": "Murderous Megamoth",
+"type": "0x707b",
+"src": "epicforestMaze",
+"category": "enemy",
+"sub": "boss",
+"why": "src",
+"file": "enemies/boss/Murderous Megamoth__707b.png"
+},
+{
+"id": "Woodland Wall",
+"type": "0x2384",
+"src": "epicforestMaze",
+"category": "wall",
+"sub": "epicforestMaze",
+"why": "src",
+"file": "walls/all/Woodland Wall__2384.png"
+},
+{
+"id": "Woodland Obstacle",
+"type": "0x2382",
+"src": "epicforestMaze",
+"category": "prop",
+"sub": "epicforestMaze",
+"why": "src",
+"file": "props/all/Woodland Obstacle__2382.png"
+},
+{
+"id": "Woodland Tree",
+"type": "0x2391",
+"src": "epicforestMaze",
+"category": "prop",
+"sub": "epicforestMaze",
+"why": "src",
+"file": "props/all/Woodland Tree__2391.png"
+},
+{
+"id": "Woodland Leaf Pile",
+"type": "0x2383",
+"src": "epicforestMaze",
+"category": "prop",
+"sub": "epicforestMaze",
+"why": "src",
+"file": "props/all/Woodland Leaf Pile__2383.png"
+},
+{
+"id": "Woodland Fungi",
+"type": "0x2385",
+"src": "epicforestMaze",
+"category": "prop",
+"sub": "epicforestMaze",
+"why": "src",
+"file": "props/all/Woodland Fungi__2385.png"
+},
+{
+"id": "Woodland Flora",
+"type": "0x2386",
+"src": "epicforestMaze",
+"category": "prop",
+"sub": "epicforestMaze",
+"why": "src",
+"file": "props/all/Woodland Flora__2386.png"
+},
+{
+"id": "Woodland Stone",
+"type": "0x2387",
+"src": "epicforestMaze",
+"category": "prop",
+"sub": "epicforestMaze",
+"why": "src",
+"file": "props/all/Woodland Stone__2387.png"
+},
+{
+"id": "Woodland Mini Acorn",
+"type": "0x23a1",
+"src": "epicforestMaze",
+"category": "prop",
+"sub": "epicforestMaze",
+"why": "src",
+"file": "props/all/Woodland Mini Acorn__23a1.png"
+},
+{
+"id": "Woodland Mini Tree",
+"type": "0x23a0",
+"src": "epicforestMaze",
+"category": "prop",
+"sub": "epicforestMaze",
+"why": "src",
+"file": "props/all/Woodland Mini Tree__23a0.png"
+},
+{
+"id": "Woodland Massive Acorn",
+"type": "0x2394",
+"src": "epicforestMaze",
+"category": "prop",
+"sub": "epicforestMaze",
+"why": "src",
+"file": "props/all/Woodland Massive Acorn__2394.png"
+},
+{
+"id": "Woodland Sword Selector",
+"type": "0x2393",
+"src": "epicforestMaze",
+"category": "prop",
+"sub": "epicforestMaze",
+"why": "src",
+"file": "props/all/Woodland Sword Selector__2393.png"
+},
+{
+"id": "Woodland Sword Stone",
+"type": "0x2395",
+"src": "epicforestMaze",
+"category": "prop",
+"sub": "epicforestMaze",
+"why": "src",
+"file": "props/all/Woodland Sword Stone__2395.png"
+},
+{
+"id": "Woodland Skysplitter Stone",
+"type": "0x2396",
+"src": "epicforestMaze",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Woodland Skysplitter Stone__2396.png"
+},
+{
+"id": "Woodland Butterfly",
+"type": "0x2392",
+"src": "epicforestMaze",
+"category": "npc",
+"sub": "all",
+"why": "src",
+"file": "npcs/all/Woodland Butterfly__2392.png"
+},
+{
+"id": "Puke Water",
+"type": "0x012b",
+"src": "spiderDenGround",
+"category": "tile",
+"sub": "spiderDenGround",
+"why": "spec",
+"file": "tiles/all/Puke Water__012b.png"
+},
+{
+"id": "Woodland Water",
+"type": "0x6307",
+"src": "spiderDenGround",
+"category": "tile",
+"sub": "spiderDenGround",
+"why": "spec",
+"file": "tiles/all/Woodland Water__6307.png"
+},
+{
+"id": "Murderous Megamoth Deux",
+"type": "0x718f",
+"src": "nexusDestroyed",
+"category": "enemy",
+"sub": "miniboss",
+"why": "spec",
+"file": "enemies/miniboss/Murderous Megamoth Deux__718f.png"
+},
+{
+"id": "Possessed Pumpkin",
+"type": "0xc758",
+"src": "encounters",
+"category": "enemy",
+"sub": "event_boss",
+"why": "spec",
+"file": "enemies/event_boss/Possessed Pumpkin__c758.png"
+},
+{
+"id": "Great Owl",
+"type": "0xc4da",
+"src": "mountains",
+"category": "enemy",
+"sub": "regular",
+"why": "spec",
+"file": "enemies/regular/Great Owl__c4da.png"
+},
+{
+"id": "New Great Owl",
+"type": "0x55C6",
+"src": "veteran",
+"category": "enemy",
+"sub": "regular",
+"why": "spec",
+"file": "enemies/regular/New Great Owl__55C6.png"
+},
+{
+"id": "Carboniferous Flytrap",
+"type": "0x79be",
+"src": "veteran",
+"category": "enemy",
+"sub": "regular",
+"why": "spec",
+"file": "enemies/regular/Carboniferous Flytrap__79be.png"
+},
+{
+"id": "Sanguine Treant",
+"type": "0x7b92",
+"src": "veteran",
+"category": "enemy",
+"sub": "regular",
+"why": "spec",
+"file": "enemies/regular/Sanguine Treant__7b92.png"
+},
+{
+"id": "Hornet's Nest",
+"type": "0x872b",
+"src": "heroes_2",
+"category": "enemy",
+"sub": "event_boss",
+"why": "spec",
+"file": "enemies/event_boss/Hornet_s Nest__872b.png"
+},
+{
+"id": "Sharp Green Star",
+"type": "0xc027",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Sharp Green Star__c027.png"
+},
+{
+"id": "Sharp Pink Star",
+"type": "0xc026",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Sharp Pink Star__c026.png"
+},
+{
+"id": "Invisible",
+"type": "0x0096",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Invisible__0096.png"
+},
+{
+"id": "Leaf Arrow",
+"type": "0x217f",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Leaf Arrow__217f.png"
+},
+{
+"id": "Fire Boomerang",
+"type": "0x002f",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Fire Boomerang__002f.png"
+},
+{
+"id": "Yellow Energy Shot",
+"type": "0x00f3",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Yellow Energy Shot__00f3.png"
+},
+{
+"id": "Cannonball",
+"type": "0x00e2",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Cannonball__00e2.png"
+},
+{
+"id": "Great Basilisk Bolt",
+"type": "0x3681",
+"src": "secludedThicketObjects",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Great Basilisk Bolt__3681.png"
+},
+{
+"id": "Headless Horseman Pumpkin",
+"type": "0xc016",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Headless Horseman Pumpkin__c016.png"
+},
+{
+"id": "Avatar Flame Wave",
+"type": "0x8742",
+"src": "encounters_2",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Avatar Flame Wave__8742.png"
+},
+{
+"id": "Great Owl Talon",
+"type": "0xc024",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Great Owl Talon__c024.png"
+},
+{
+"id": "Great Owl Feather",
+"type": "0xc025",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Great Owl Feather__c025.png"
+},
+{
+"id": "SulfW Chomper Proj",
+"type": "0x63bb",
+"src": "wetlandsObjects",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/SulfW Chomper Proj__63bb.png"
+},
+{
+"id": "GC Red Mushroom Shot",
+"type": "0x1587",
+"src": "fungalCavernObjects",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/GC Red Mushroom Shot__1587.png"
+},
+{
+"id": "LOD White Blast",
+"type": "0xb1c7",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/LOD White Blast__b1c7.png"
+},
+{
+"id": "LOD Blue Bullet",
+"type": "0xb20a",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/LOD Blue Bullet__b20a.png"
+},
+{
+"id": "EH Hive Shot",
+"type": "0x1ac8",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/EH Hive Shot__1ac8.png"
+},
+{
+"id": "EH Yellow Stinger Large",
+"type": "0x10a7",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/EH Yellow Stinger Large__10a7.png"
+},
+{
+"id": "Potion of Attack",
+"type": "0xa1f",
+"src": "equip",
+"category": "consumable",
+"sub": "all",
+"why": "loot",
+"file": "loot/consumable/Potion of Attack__a1f.png"
+},
+{
+"id": "Potion of Vitality",
+"type": "0xa34",
+"src": "equip",
+"category": "consumable",
+"sub": "all",
+"why": "loot",
+"file": "loot/consumable/Potion of Vitality__a34.png"
+},
+{
+"id": "Wakizashi of Eastern Winds",
+"type": "0x2322",
+"src": "equip",
+"category": "ability",
+"sub": "all",
+"why": "loot",
+"file": "loot/ability/Wakizashi of Eastern Winds__2322.png"
+},
+{
+"id": "Leaf Bow",
+"type": "0xcde",
+"src": "equip",
+"category": "weapon",
+"sub": "bow",
+"why": "loot",
+"file": "loot/weapon_bow/Leaf Bow__cde.png"
+},
+{
+"id": "Greater Potion of Attack",
+"type": "0x2368",
+"src": "equip",
+"category": "consumable",
+"sub": "all",
+"why": "loot",
+"file": "loot/consumable/Greater Potion of Attack__2368.png"
+},
+{
+"id": "Greater Potion of Vitality",
+"type": "0x236B",
+"src": "equip",
+"category": "consumable",
+"sub": "all",
+"why": "loot",
+"file": "loot/consumable/Greater Potion of Vitality__236B.png"
+},
+{
+"id": "Labyrinth Dweller's Sheath",
+"type": "0x39e3",
+"src": "equip",
+"category": "ability",
+"sub": "all",
+"why": "loot",
+"file": "loot/ability/Labyrinth Dweller_s Sheath__39e3.png"
+},
+{
+"id": "Woodland Huntress Skin",
+"type": "0x4ada",
+"src": "equipSkins",
+"category": "item_other",
+"sub": "all",
+"why": "loot",
+"file": "loot/item_other/Woodland Huntress Skin__4ada.png"
+},
+{
+"id": "Bright Grass",
+"type": "0x23",
+"src": "ground",
+"category": "tile",
+"sub": "ground",
+"why": "tile",
+"file": "tiles/all/Bright Grass__23.png"
+},
+{
+"id": "Light Grass",
+"type": "0x46",
+"src": "ground",
+"category": "tile",
+"sub": "ground",
+"why": "tile",
+"file": "tiles/all/Light Grass__46.png"
+},
+{
+"id": "Grass",
+"type": "0x48",
+"src": "ground",
+"category": "tile",
+"sub": "ground",
+"why": "tile",
+"file": "tiles/all/Grass__48.png"
+},
+{
+"id": "Dark Grass",
+"type": "0x56",
+"src": "ground",
+"category": "tile",
+"sub": "ground",
+"why": "tile",
+"file": "tiles/all/Dark Grass__56.png"
+},
+{
+"id": "New Grass",
+"type": "0x012c",
+"src": "ground",
+"category": "tile",
+"sub": "ground",
+"why": "tile",
+"file": "tiles/all/New Grass__012c.png"
+}
+]
+}

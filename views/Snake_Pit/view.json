@@ -1,0 +1,452 @@
+{
+"dungeon": "Snake_Pit",
+"sources": [
+"snakePit"
+],
+"counts": {
+"props": 9,
+"npcs": 1,
+"enemies": 12,
+"helpers": 2,
+"walls": 5,
+"projectiles": 13,
+"loot": 4
+},
+"why": {
+"src": 29,
+"proj": 13,
+"loot": 4
+},
+"tile_hints_used": {},
+"names_in_own_files": [
+"Pit Snake",
+"Pit Viper",
+"Yellow Python",
+"Brown Python",
+"Fire Python",
+"Greater Pit Snake",
+"Greater Pit Viper",
+"Stheno Pet",
+"Stheno Swarm",
+"Stheno the Snake Queen",
+"Snakepit Guard"
+],
+"names_in_other_files": [],
+"names_not_found": [],
+"entries": [
+{
+"id": "Stheno Summoner",
+"type": "0x1731",
+"src": "snakePit",
+"category": "prop",
+"sub": "snakePit",
+"why": "src",
+"file": "props/all/Stheno Summoner__1731.png"
+},
+{
+"id": "Snakepit Guard Spawner",
+"type": "0x0e28",
+"src": "snakePit",
+"category": "prop",
+"sub": "snakePit",
+"why": "src",
+"file": "props/all/Snakepit Guard Spawner__0e28.png"
+},
+{
+"id": "Snakepit Button",
+"type": "0x0e27",
+"src": "snakePit",
+"category": "npc",
+"sub": "all",
+"why": "src",
+"file": "npcs/all/Snakepit Button__0e27.png"
+},
+{
+"id": "Snakepit Guard",
+"type": "0x0e26",
+"src": "snakePit",
+"category": "enemy",
+"sub": "miniboss",
+"why": "src",
+"file": "enemies/miniboss/Snakepit Guard__0e26.png"
+},
+{
+"id": "Snakepit Dart Thrower",
+"type": "0x0e25",
+"src": "snakePit",
+"category": "helper",
+"sub": "other",
+"why": "src",
+"file": "helpers/other/Snakepit Dart Thrower__0e25.png"
+},
+{
+"id": "Snakepit Dart Thrower 2",
+"type": "0x3758",
+"src": "snakePit",
+"category": "helper",
+"sub": "other",
+"why": "src",
+"file": "helpers/other/Snakepit Dart Thrower 2__3758.png"
+},
+{
+"id": "Stheno the Snake Queen",
+"type": "0x0917",
+"src": "snakePit",
+"category": "enemy",
+"sub": "boss",
+"why": "src",
+"file": "enemies/boss/Stheno the Snake Queen__0917.png"
+},
+{
+"id": "Stheno Pet",
+"type": "0x0918",
+"src": "snakePit",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Stheno Pet__0918.png"
+},
+{
+"id": "Stheno Swarm",
+"type": "0x0919",
+"src": "snakePit",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Stheno Swarm__0919.png"
+},
+{
+"id": "SP Snake Grate",
+"type": "0x3757",
+"src": "snakePit",
+"category": "prop",
+"sub": "snakePit",
+"why": "src",
+"file": "props/all/SP Snake Grate__3757.png"
+},
+{
+"id": "Pit Snake",
+"type": "0x0223",
+"src": "snakePit",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Pit Snake__0223.png"
+},
+{
+"id": "Pit Viper",
+"type": "0x0224",
+"src": "snakePit",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Pit Viper__0224.png"
+},
+{
+"id": "Fire Python",
+"type": "0x0225",
+"src": "snakePit",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Fire Python__0225.png"
+},
+{
+"id": "Brown Python",
+"type": "0x0226",
+"src": "snakePit",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Brown Python__0226.png"
+},
+{
+"id": "Yellow Python",
+"type": "0x0227",
+"src": "snakePit",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Yellow Python__0227.png"
+},
+{
+"id": "Greater Pit Snake",
+"type": "0x0228",
+"src": "snakePit",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Greater Pit Snake__0228.png"
+},
+{
+"id": "Greater Pit Viper",
+"type": "0x0229",
+"src": "snakePit",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Greater Pit Viper__0229.png"
+},
+{
+"id": "SP Bust",
+"type": "0x374d",
+"src": "snakePit",
+"category": "prop",
+"sub": "snakePit",
+"why": "src",
+"file": "props/all/SP Bust__374d.png"
+},
+{
+"id": "SP Foliage",
+"type": "0x3753",
+"src": "snakePit",
+"category": "prop",
+"sub": "snakePit",
+"why": "src",
+"file": "props/all/SP Foliage__3753.png"
+},
+{
+"id": "SP Jar",
+"type": "0x3754",
+"src": "snakePit",
+"category": "prop",
+"sub": "snakePit",
+"why": "src",
+"file": "props/all/SP Jar__3754.png"
+},
+{
+"id": "SP Mound",
+"type": "0x3755",
+"src": "snakePit",
+"category": "prop",
+"sub": "snakePit",
+"why": "src",
+"file": "props/all/SP Mound__3755.png"
+},
+{
+"id": "SP Wall Path",
+"type": "0x374e",
+"src": "snakePit",
+"category": "wall",
+"sub": "snakePit",
+"why": "src",
+"file": "walls/all/SP Wall Path__374e.png"
+},
+{
+"id": "SP Wall End",
+"type": "0x374f",
+"src": "snakePit",
+"category": "wall",
+"sub": "snakePit",
+"why": "src",
+"file": "walls/all/SP Wall End__374f.png"
+},
+{
+"id": "SP Wall Plain",
+"type": "0x3750",
+"src": "snakePit",
+"category": "wall",
+"sub": "snakePit",
+"why": "src",
+"file": "walls/all/SP Wall Plain__3750.png"
+},
+{
+"id": "SP Wall Decor",
+"type": "0x3751",
+"src": "snakePit",
+"category": "wall",
+"sub": "snakePit",
+"why": "src",
+"file": "walls/all/SP Wall Decor__3751.png"
+},
+{
+"id": "SP Wall Candles",
+"type": "0x3752",
+"src": "snakePit",
+"category": "wall",
+"sub": "snakePit",
+"why": "src",
+"file": "walls/all/SP Wall Candles__3752.png"
+},
+{
+"id": "SP Destructible Wall",
+"type": "0x3756",
+"src": "snakePit",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/SP Destructible Wall__3756.png"
+},
+{
+"id": "Brown Pillar",
+"type": "0x375a",
+"src": "snakePit",
+"category": "prop",
+"sub": "snakePit",
+"why": "src",
+"file": "props/all/Brown Pillar__375a.png"
+},
+{
+"id": "Broken Brown Pillar",
+"type": "0x375b",
+"src": "snakePit",
+"category": "prop",
+"sub": "snakePit",
+"why": "src",
+"file": "props/all/Broken Brown Pillar__375b.png"
+},
+{
+"id": "Snake Spit",
+"type": "0x00cd",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Snake Spit__00cd.png"
+},
+{
+"id": "Snake Spinner",
+"type": "0x00ce",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Snake Spinner__00ce.png"
+},
+{
+"id": "Snake Ball Spinner",
+"type": "0x00cf",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Snake Ball Spinner__00cf.png"
+},
+{
+"id": "Snakepit Dart",
+"type": "0x00cc",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Snakepit Dart__00cc.png"
+},
+{
+"id": "Stheno Dagger",
+"type": "0x80f4",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Stheno Dagger__80f4.png"
+},
+{
+"id": "Stheno Eyes",
+"type": "0x80f6",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Stheno Eyes__80f6.png"
+},
+{
+"id": "Snake Eyes",
+"type": "0x80f3",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Snake Eyes__80f3.png"
+},
+{
+"id": "Snake Bite",
+"type": "0x80f5",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Snake Bite__80f5.png"
+},
+{
+"id": "Green Spider Venom",
+"type": "0x3749",
+"src": "spiderDenObjects",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Green Spider Venom__3749.png"
+},
+{
+"id": "Purple Spider Venom",
+"type": "0x3746",
+"src": "spiderDenObjects",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Purple Spider Venom__3746.png"
+},
+{
+"id": "Red Spider Venom",
+"type": "0x3747",
+"src": "spiderDenObjects",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Red Spider Venom__3747.png"
+},
+{
+"id": "Blue Spider Venom",
+"type": "0x374a",
+"src": "spiderDenObjects",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Blue Spider Venom__374a.png"
+},
+{
+"id": "Yellow Spider Venom",
+"type": "0x3748",
+"src": "spiderDenObjects",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Yellow Spider Venom__3748.png"
+},
+{
+"id": "Wand of the Bulwark",
+"type": "0xc04",
+"src": "equip",
+"category": "weapon",
+"sub": "wand",
+"why": "loot",
+"file": "loot/weapon_wand/Wand of the Bulwark__c04.png"
+},
+{
+"id": "Snake Oil",
+"type": "0xa3f",
+"src": "equip",
+"category": "consumable",
+"sub": "all",
+"why": "loot",
+"file": "loot/consumable/Snake Oil__a3f.png"
+},
+{
+"id": "Snake Eye Ring",
+"type": "0xa41",
+"src": "equip",
+"category": "ring",
+"sub": "all",
+"why": "loot",
+"file": "loot/ring/Snake Eye Ring__a41.png"
+},
+{
+"id": "Snake Charmer Pungi",
+"type": "0x4dee",
+"src": "equip",
+"category": "ability",
+"sub": "all",
+"why": "loot",
+"file": "loot/ability/Snake Charmer Pungi__4dee.png"
+}
+]
+}

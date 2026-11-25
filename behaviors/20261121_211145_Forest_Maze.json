@@ -1,0 +1,258 @@
+{
+ "file": "20261121_211145_Forest_Maze.events.jsonl",
+ "ticks": 534,
+ "enemies": {
+  "Mini Megamoth": {
+   "count": 43,
+   "max_hp": 120,
+   "speed_tiles_per_s": 2.31,
+   "moving_fraction": 0.94,
+   "shots": {
+    "0": {
+     "count": 32,
+     "num_shots": {
+      "255": 32
+     },
+     "angle_inc": {
+      "0.0": 32
+     },
+     "damage": 15.0,
+     "interval_s": 1.42,
+     "interval_min_s": 0.4,
+     "hp_fraction_range": [
+      1.0,
+      1.0
+     ]
+    }
+   }
+  },
+  "Forest Goblin": {
+   "count": 30,
+   "max_hp": 90.0,
+   "speed_tiles_per_s": 2.05,
+   "moving_fraction": 0.95,
+   "shots": {
+    "0": {
+     "count": 3,
+     "num_shots": {
+      "255": 3
+     },
+     "angle_inc": {
+      "0.0": 3
+     },
+     "damage": 20,
+     "interval_s": null,
+     "interval_min_s": null,
+     "hp_fraction_range": [
+      1.0,
+      1.0
+     ]
+    }
+   }
+  },
+  "Forest Goblin Mage": {
+   "count": 23,
+   "max_hp": 60,
+   "speed_tiles_per_s": 1.79,
+   "moving_fraction": 0.94,
+   "shots": {
+    "0": {
+     "count": 14,
+     "num_shots": {
+      "2": 14
+     },
+     "angle_inc": {
+      "0.157": 14
+     },
+     "damage": 8.0,
+     "interval_s": 0.8,
+     "interval_min_s": 0.8,
+     "hp_fraction_range": [
+      1.0,
+      1.0
+     ]
+    }
+   }
+  },
+  "Ultimate Squirrel": {
+   "count": 16,
+   "max_hp": 400.0,
+   "speed_tiles_per_s": 2.08,
+   "moving_fraction": 0.95,
+   "shots": {
+    "0": {
+     "count": 20,
+     "num_shots": {
+      "255": 11,
+      "2": 9
+     },
+     "angle_inc": {
+      "0.0": 11,
+      "0.436": 9
+     },
+     "damage": 30.0,
+     "interval_s": 0.4,
+     "interval_min_s": 0.0,
+     "hp_fraction_range": [
+      0.41,
+      1.0
+     ]
+    }
+   }
+  },
+  "Armored Squirrel": {
+   "count": 8,
+   "max_hp": 130.0,
+   "speed_tiles_per_s": 2.09,
+   "moving_fraction": 0.92,
+   "shots": {
+    "0": {
+     "count": 4,
+     "num_shots": {
+      "2": 4
+     },
+     "angle_inc": {
+      "0.262": 4
+     },
+     "damage": 20.0,
+     "interval_s": null,
+     "interval_min_s": null,
+     "hp_fraction_range": [
+      1.0,
+      1.0
+     ]
+    }
+   }
+  },
+  "Mama Megamoth": {
+   "count": 1,
+   "max_hp": 750,
+   "speed_tiles_per_s": 1.39,
+   "moving_fraction": 0.95,
+   "shots": {
+    "0": {
+     "count": 44,
+     "num_shots": {
+      "255": 44
+     },
+     "angle_inc": {
+      "0.0": 44
+     },
+     "damage": 25.0,
+     "interval_s": 0.2,
+     "interval_min_s": 0.0,
+     "hp_fraction_range": [
+      0.3,
+      1.0
+     ]
+    },
+    "1": {
+     "count": 1,
+     "num_shots": {
+      "60": 1
+     },
+     "angle_inc": {
+      "0.105": 1
+     },
+     "damage": 1,
+     "interval_s": null,
+     "interval_min_s": null,
+     "hp_fraction_range": [
+      0.33,
+      0.33
+     ]
+    }
+   }
+  }
+ },
+ "text": {},
+ "notifications": {
+  "{\"k\":\"s.plus_symbol\",\"t\":{\"amount\":\"29\",}}": 39,
+  "{\"k\":\"s.plus_symbol\",\"t\":{\"amount\":\"7\",}}": 3,
+  "{\"k\":\"s.plus_symbol\",\"t\":{\"amount\":\"10\",}}": 3,
+  "{\"k\":\"s.plus_symbol\",\"t\":{\"amount\":\"25\",}}": 2,
+  "{\"k\":\"s.plus_symbol\",\"t\":{\"amount\":\"11\",}}": 2,
+  "null": 2,
+  "giftChestOccupied": 1,
+  "{\"k\":\"s.plus_symbol\",\"t\":{\"amount\":\"26\",}}": 1,
+  "{\"k\":\"s.plus_symbol\",\"t\":{\"amount\":\"5\",}}": 1,
+  "{\"k\":\"s.quest_complete\"}": 1
+ },
+ "teleports": {},
+ "loot_bags": [
+  [
+   "Loot Bag: [3200]",
+   5
+  ],
+  [
+   "Loot Bag: [2565]",
+   4
+  ],
+  [
+   "Loot Bag 0: [2594]",
+   2
+  ],
+  [
+   "Loot Bag: [2561, 2616, 2687, 3144, 31596, 53234, 53234]",
+   2
+  ],
+  [
+   "Loot Bag: [3200, 6140]",
+   2
+  ],
+  [
+   "Loot Bag: [2685]",
+   1
+  ],
+  [
+   "Loot Bag: [2598]",
+   1
+  ],
+  [
+   "Loot Bag: [2688]",
+   1
+  ],
+  [
+   "Loot Bag: [2561]",
+   1
+  ],
+  [
+   "Loot Bag: [2576]",
+   1
+  ],
+  [
+   "Loot Bag: [3143]",
+   1
+  ],
+  [
+   "Loot Bag: [3144]",
+   1
+  ]
+ ],
+ "portals": [
+  [
+   "Portal of Cowardice",
+   []
+  ],
+  [
+   "Portal of Cowardice",
+   []
+  ],
+  [
+   "Portal of Cowardice",
+   []
+  ],
+  [
+   "Realm Portal",
+   []
+  ],
+  [
+   "Realm Portal",
+   []
+  ]
+ ],
+ "quest_targets": [
+  "Mama Megamoth",
+  "Mama Megamoth"
+ ]
+}

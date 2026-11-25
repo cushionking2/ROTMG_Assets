@@ -1,0 +1,224 @@
+{
+ "file": "20261121_214439_The_Hive.events.jsonl",
+ "ticks": 539,
+ "enemies": {
+  "Small Bee": {
+   "count": 59,
+   "max_hp": 125,
+   "speed_tiles_per_s": 6.66,
+   "moving_fraction": 0.95,
+   "shots": {
+    "0": {
+     "count": 1137,
+     "num_shots": {
+      "255": 1137
+     },
+     "angle_inc": {
+      "0.0": 1137
+     },
+     "damage": 30,
+     "interval_s": 1.01,
+     "interval_min_s": 0.76,
+     "hp_fraction_range": [
+      0.03,
+      1.0
+     ]
+    }
+   }
+  },
+  "Fat Bee": {
+   "count": 12,
+   "max_hp": 250.0,
+   "speed_tiles_per_s": 4.59,
+   "moving_fraction": 0.98,
+   "shots": {
+    "0": {
+     "count": 27,
+     "num_shots": {
+      "255": 27
+     },
+     "angle_inc": {
+      "0.0": 27
+     },
+     "damage": 55,
+     "interval_s": 2.01,
+     "interval_min_s": 0.81,
+     "hp_fraction_range": [
+      0.03,
+      1.0
+     ]
+    }
+   }
+  },
+  "Fat Angry Bee": {
+   "count": 24,
+   "max_hp": 250.0,
+   "speed_tiles_per_s": 4.1,
+   "moving_fraction": 0.98,
+   "shots": {
+    "0": {
+     "count": 48,
+     "num_shots": {
+      "255": 48
+     },
+     "angle_inc": {
+      "0.0": 48
+     },
+     "damage": 35.0,
+     "interval_s": 1.01,
+     "interval_min_s": 1.0,
+     "hp_fraction_range": [
+      0.03,
+      1.0
+     ]
+    }
+   }
+  },
+  "TH Maggot Egg1": {
+   "count": 15,
+   "max_hp": 120,
+   "speed_tiles_per_s": null,
+   "moving_fraction": null,
+   "shots": {}
+  },
+  "Larva": {
+   "count": 14,
+   "max_hp": 200.0,
+   "speed_tiles_per_s": 4.62,
+   "moving_fraction": 0.97,
+   "shots": {
+    "0": {
+     "count": 27,
+     "num_shots": {
+      "255": 27
+     },
+     "angle_inc": {
+      "0.0": 27
+     },
+     "damage": 30,
+     "interval_s": 2.02,
+     "interval_min_s": 1.0,
+     "hp_fraction_range": [
+      1.0,
+      1.0
+     ]
+    }
+   }
+  },
+  "TH Mini Hive": {
+   "count": 6,
+   "max_hp": 120.0,
+   "speed_tiles_per_s": null,
+   "moving_fraction": null,
+   "shots": {}
+  },
+  "TH Maggot Egg3": {
+   "count": 4,
+   "max_hp": 120.0,
+   "speed_tiles_per_s": null,
+   "moving_fraction": 0.0,
+   "shots": {}
+  },
+  "TH Maggot Egg2": {
+   "count": 3,
+   "max_hp": 120,
+   "speed_tiles_per_s": null,
+   "moving_fraction": null,
+   "shots": {}
+  },
+  "Queen Bee": {
+   "count": 1,
+   "max_hp": 2625,
+   "speed_tiles_per_s": 4.93,
+   "moving_fraction": 0.97,
+   "shots": {
+    "0": {
+     "count": 9,
+     "num_shots": {
+      "8": 9
+     },
+     "angle_inc": {
+      "0.785": 9
+     },
+     "damage": 50,
+     "interval_s": 8.34,
+     "interval_min_s": 1.59,
+     "hp_fraction_range": [
+      0.1,
+      1.0
+     ]
+    },
+    "1": {
+     "count": 13,
+     "num_shots": {
+      "3": 13
+     },
+     "angle_inc": {
+      "0.611": 13
+     },
+     "damage": 70,
+     "interval_s": 2.09,
+     "interval_min_s": 0.61,
+     "hp_fraction_range": [
+      0.15,
+      0.96
+     ]
+    }
+   }
+  }
+ },
+ "text": {},
+ "notifications": {
+  "{\"k\":\"s.plus_symbol\",\"t\":{\"amount\":\"29\",}}": 4,
+  "{\"k\":\"s.plus_symbol\",\"t\":{\"amount\":\"5\",}}": 3,
+  "null": 3,
+  "{\"k\":\"s.plus_symbol\",\"t\":{\"amount\":\"7\",}}": 2,
+  "{\"k\":\"s.plus_symbol\",\"t\":{\"amount\":\"3\",}}": 2,
+  "{\"k\":\"s.plus_symbol\",\"t\":{\"amount\":\"2\",}}": 2,
+  "giftChestOccupied": 1,
+  "{\"k\":\"s.plus_symbol\",\"t\":{\"amount\":\"9\",}}": 1,
+  "{\"k\":\"s.plus_symbol\",\"t\":{\"amount\":\"12\",}}": 1,
+  "{\"k\":\"s.plus_symbol\",\"t\":{\"amount\":\"10\",}}": 1,
+  "{\"k\":\"s.plus_symbol\",\"t\":{\"amount\":\"13\",}}": 1,
+  "{\"k\":\"s.plus_symbol\",\"t\":{\"amount\":\"15\",}}": 1,
+  "{\"k\":\"s.plus_symbol\",\"t\":{\"amount\":\"17\",}}": 1,
+  "{\"k\":\"s.plus_symbol\",\"t\":{\"amount\":\"6\",}}": 1,
+  "{\"k\":\"s.plus_symbol\",\"t\":{\"amount\":\"23\",}}": 1,
+  "{\"k\":\"s.plus_symbol\",\"t\":{\"amount\":\"20\",}}": 1,
+  "{\"k\":\"s.plus_symbol\",\"t\":{\"amount\":\"48\",}}": 1,
+  "{\"k\":\"s.quest_complete\"}": 1
+ },
+ "teleports": {},
+ "loot_bags": [
+  [
+   "Loot Bag: [2714]",
+   1
+  ],
+  [
+   "Loot Bag: [2716]",
+   1
+  ],
+  [
+   "Loot Bag: [284, 6142]",
+   1
+  ]
+ ],
+ "portals": [
+  [
+   "Portal of Cowardice",
+   []
+  ],
+  [
+   "Portal of Cowardice",
+   []
+  ],
+  [
+   "Realm Portal",
+   []
+  ]
+ ],
+ "quest_targets": [
+  "Queen Bee",
+  "Queen Bee"
+ ]
+}
