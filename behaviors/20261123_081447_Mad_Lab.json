@@ -1,0 +1,570 @@
+{
+ "file": "20261123_081447_Mad_Lab.events.jsonl",
+ "ticks": 2474,
+ "enemies": {
+  "Tesla Coil": {
+   "count": 66,
+   "max_hp": 600.0,
+   "speed_tiles_per_s": null,
+   "moving_fraction": 0.0,
+   "shots": {}
+  },
+  "Mini Bot": {
+   "count": 7,
+   "max_hp": 1500,
+   "speed_tiles_per_s": 3.84,
+   "moving_fraction": 0.94,
+   "shots": {
+    "0": {
+     "count": 22,
+     "num_shots": {
+      "2": 22
+     },
+     "angle_inc": {
+      "0.524": 22
+     },
+     "damage": 80.0,
+     "interval_s": 1.54,
+     "interval_min_s": 1.41,
+     "hp_fraction_range": [
+      0.47,
+      1.0
+     ]
+    }
+   }
+  },
+  "Lab Destructible Wall": {
+   "count": 32,
+   "max_hp": null,
+   "speed_tiles_per_s": null,
+   "moving_fraction": 0.0,
+   "shots": {}
+  },
+  "Rampage Cyborg": {
+   "count": 8,
+   "max_hp": 2000.0,
+   "speed_tiles_per_s": 6.97,
+   "moving_fraction": 0.65,
+   "shots": {
+    "0": {
+     "count": 12,
+     "num_shots": {
+      "255": 12
+     },
+     "angle_inc": {
+      "0.0": 12
+     },
+     "damage": 80.0,
+     "interval_s": 0.81,
+     "interval_min_s": 0.79,
+     "hp_fraction_range": [
+      0.34,
+      1.0
+     ]
+    },
+    "2": {
+     "count": 1,
+     "num_shots": {
+      "8": 1
+     },
+     "angle_inc": {
+      "0.785": 1
+     },
+     "damage": 150,
+     "interval_s": null,
+     "interval_min_s": null,
+     "hp_fraction_range": [
+      0.24,
+      0.24
+     ]
+    }
+   }
+  },
+  "Green Potion": {
+   "count": 10,
+   "max_hp": 1000.0,
+   "speed_tiles_per_s": null,
+   "moving_fraction": 0.0,
+   "shots": {
+    "0": {
+     "count": 6,
+     "num_shots": {
+      "6": 6
+     },
+     "angle_inc": {
+      "1.047": 6
+     },
+     "damage": 85.0,
+     "interval_s": null,
+     "interval_min_s": null,
+     "hp_fraction_range": [
+      0.41,
+      1.0
+     ]
+    }
+   }
+  },
+  "Crusher Abomination": {
+   "count": 9,
+   "max_hp": 4000,
+   "speed_tiles_per_s": 4.16,
+   "moving_fraction": 0.81,
+   "shots": {
+    "0": {
+     "count": 46,
+     "num_shots": {
+      "3": 46
+     },
+     "angle_inc": {
+      "0.524": 46
+     },
+     "damage": 80.0,
+     "interval_s": 1.01,
+     "interval_min_s": 0.92,
+     "hp_fraction_range": [
+      0.78,
+      1.0
+     ]
+    },
+    "1": {
+     "count": 12,
+     "num_shots": {
+      "3": 12
+     },
+     "angle_inc": {
+      "0.524": 12
+     },
+     "damage": 100.0,
+     "interval_s": 1.21,
+     "interval_min_s": 1.1,
+     "hp_fraction_range": [
+      0.52,
+      0.87
+     ]
+    },
+    "2": {
+     "count": 11,
+     "num_shots": {
+      "3": 11
+     },
+     "angle_inc": {
+      "0.524": 11
+     },
+     "damage": 150,
+     "interval_s": 1.11,
+     "interval_min_s": 1.01,
+     "hp_fraction_range": [
+      0.44,
+      0.67
+     ]
+    },
+    "3": {
+     "count": 18,
+     "num_shots": {
+      "3": 18
+     },
+     "angle_inc": {
+      "0.524": 18
+     },
+     "damage": 180.0,
+     "interval_s": 1.01,
+     "interval_min_s": 0.91,
+     "hp_fraction_range": [
+      0.02,
+      0.33
+     ]
+    }
+   }
+  },
+  "Enforcer Bot 3000": {
+   "count": 8,
+   "max_hp": 3500.0,
+   "speed_tiles_per_s": 3.0,
+   "moving_fraction": 0.96,
+   "shots": {
+    "0": {
+     "count": 29,
+     "num_shots": {
+      "3": 29
+     },
+     "angle_inc": {
+      "0.524": 29
+     },
+     "damage": 150,
+     "interval_s": 1.62,
+     "interval_min_s": 1.31,
+     "hp_fraction_range": [
+      0.01,
+      1.0
+     ]
+    },
+    "1": {
+     "count": 5,
+     "num_shots": {
+      "3": 5
+     },
+     "angle_inc": {
+      "0.785": 5
+     },
+     "damage": 80,
+     "interval_s": null,
+     "interval_min_s": null,
+     "hp_fraction_range": [
+      0.6,
+      1.0
+     ]
+    }
+   }
+  },
+  "Turret Attack": {
+   "count": 7,
+   "max_hp": 2000,
+   "speed_tiles_per_s": null,
+   "moving_fraction": 0.0,
+   "shots": {
+    "0": {
+     "count": 36,
+     "num_shots": {
+      "2": 36
+     },
+     "angle_inc": {
+      "1.047": 36
+     },
+     "damage": 150.0,
+     "interval_s": 1.01,
+     "interval_min_s": 0.94,
+     "hp_fraction_range": [
+      0.12,
+      1.0
+     ]
+    }
+   }
+  },
+  "Escaped Experiment": {
+   "count": 4,
+   "max_hp": 2750.0,
+   "speed_tiles_per_s": 2.99,
+   "moving_fraction": 0.95,
+   "shots": {
+    "0": {
+     "count": 34,
+     "num_shots": {
+      "255": 34
+     },
+     "angle_inc": {
+      "0.0": 34
+     },
+     "damage": 100.0,
+     "interval_s": 0.6,
+     "interval_min_s": 0.32,
+     "hp_fraction_range": [
+      0.01,
+      1.0
+     ]
+    }
+   }
+  },
+  "Ocean": {
+   "count": 4,
+   "max_hp": 100.0,
+   "speed_tiles_per_s": null,
+   "moving_fraction": null,
+   "shots": {}
+  },
+  "Dr Terrible": {
+   "count": 1,
+   "max_hp": 33750,
+   "speed_tiles_per_s": 4.22,
+   "moving_fraction": 0.8,
+   "shots": {
+    "0": {
+     "count": 17,
+     "num_shots": {
+      "255": 17
+     },
+     "angle_inc": {
+      "0.0": 17
+     },
+     "damage": 1,
+     "interval_s": 3.03,
+     "interval_min_s": 1.22,
+     "hp_fraction_range": [
+      0.04,
+      1.0
+     ]
+    }
+   }
+  },
+  "Red Gas Spawner LL": {
+   "count": 1,
+   "max_hp": 100,
+   "speed_tiles_per_s": null,
+   "moving_fraction": null,
+   "shots": {
+    "0": {
+     "count": 9,
+     "num_shots": {
+      "18": 9
+     },
+     "angle_inc": {
+      "0.349": 9
+     },
+     "damage": 150,
+     "interval_s": 2.02,
+     "interval_min_s": 1.96,
+     "hp_fraction_range": [
+      1.0,
+      1.0
+     ]
+    }
+   }
+  },
+  "Red Gas Spawner LR": {
+   "count": 1,
+   "max_hp": 100,
+   "speed_tiles_per_s": null,
+   "moving_fraction": null,
+   "shots": {
+    "0": {
+     "count": 17,
+     "num_shots": {
+      "18": 17
+     },
+     "angle_inc": {
+      "0.349": 17
+     },
+     "damage": 150,
+     "interval_s": 2.02,
+     "interval_min_s": 1.95,
+     "hp_fraction_range": [
+      1.0,
+      1.0
+     ]
+    }
+   }
+  },
+  "Red Gas Spawner UL": {
+   "count": 1,
+   "max_hp": 100,
+   "speed_tiles_per_s": null,
+   "moving_fraction": null,
+   "shots": {
+    "0": {
+     "count": 17,
+     "num_shots": {
+      "18": 17
+     },
+     "angle_inc": {
+      "0.349": 17
+     },
+     "damage": 150,
+     "interval_s": 2.02,
+     "interval_min_s": 1.95,
+     "hp_fraction_range": [
+      1.0,
+      1.0
+     ]
+    }
+   }
+  },
+  "Red Gas Spawner UR": {
+   "count": 1,
+   "max_hp": 100,
+   "speed_tiles_per_s": null,
+   "moving_fraction": null,
+   "shots": {
+    "0": {
+     "count": 8,
+     "num_shots": {
+      "18": 8
+     },
+     "angle_inc": {
+      "0.349": 8
+     },
+     "damage": 150.0,
+     "interval_s": 2.02,
+     "interval_min_s": 1.95,
+     "hp_fraction_range": [
+      1.0,
+      1.0
+     ]
+    }
+   }
+  },
+  "Horrific Creation": {
+   "count": 1,
+   "max_hp": 37500,
+   "speed_tiles_per_s": 3.5,
+   "moving_fraction": 0.69,
+   "shots": {
+    "5": {
+     "count": 12,
+     "num_shots": {
+      "8": 12
+     },
+     "angle_inc": {
+      "0.785": 12
+     },
+     "damage": 85.0,
+     "interval_s": 1.03,
+     "interval_min_s": 0.82,
+     "hp_fraction_range": [
+      0.01,
+      1.0
+     ]
+    },
+    "4": {
+     "count": 12,
+     "num_shots": {
+      "8": 10,
+      "10": 2
+     },
+     "angle_inc": {
+      "0.785": 10,
+      "0.628": 2
+     },
+     "damage": 200.0,
+     "interval_s": 1.22,
+     "interval_min_s": 0.4,
+     "hp_fraction_range": [
+      0.01,
+      1.0
+     ]
+    },
+    "1": {
+     "count": 12,
+     "num_shots": {
+      "3": 9,
+      "10": 3
+     },
+     "angle_inc": {
+      "0.436": 9,
+      "0.628": 3
+     },
+     "damage": 150.0,
+     "interval_s": 0.61,
+     "interval_min_s": 0.4,
+     "hp_fraction_range": [
+      0.01,
+      1.0
+     ]
+    },
+    "6": {
+     "count": 73,
+     "num_shots": {
+      "255": 70,
+      "8": 2,
+      "10": 1
+     },
+     "angle_inc": {
+      "0.0": 70,
+      "0.785": 2,
+      "0.628": 1
+     },
+     "damage": 200,
+     "interval_s": 0.41,
+     "interval_min_s": 0.32,
+     "hp_fraction_range": [
+      0.01,
+      0.59
+     ]
+    }
+   }
+  }
+ },
+ "text": {
+  "Dr Terrible": [
+   "Don't worry, your death will be documented closely.",
+   "Great Scott! I must retreat.",
+   "Have a deadly potion!"
+  ],
+  "#Horrific Creation": [
+   "Me door is open. Come let me crush you!",
+   "WHO KILL MASTER? RAHHHH!"
+  ],
+  "Horrific Creation": [
+   "Attacks no hurt me!!!",
+   "Me can do this all day!",
+   "RAHHHHHHHHH!",
+   "What, you scared???",
+   "YOU NO FUN!",
+   "You hurt master!",
+   "You no hurt me."
+  ]
+ },
+ "notifications": {
+  "{\"k\":\"s.plus_symbol\",\"t\":{\"amount\":\"48\",}}": 85,
+  "{\"k\":\"s.plus_symbol\",\"t\":{\"amount\":\"29\",}}": 20,
+  "{\"k\":\"s.plus_symbol\",\"t\":{\"amount\":\"300\",}}": 5,
+  "{\"k\":\"s.plus_symbol\",\"t\":{\"amount\":\"27\",}}": 5,
+  "null": 4,
+  "{\"k\":\"s.plus_symbol\",\"t\":{\"amount\":\"19\",}}": 4,
+  "{\"k\":\"s.plus_symbol\",\"t\":{\"amount\":\"16\",}}": 3,
+  "{\"k\":\"s.plus_symbol\",\"t\":{\"amount\":\"18\",}}": 2,
+  "{\"k\":\"s.plus_symbol\",\"t\":{\"amount\":\"11\",}}": 2,
+  "{\"k\":\"s.plus_symbol\",\"t\":{\"amount\":\"47\",}}": 2,
+  "{\"k\":\"s.plus_symbol\",\"t\":{\"amount\":\"1\",}}": 2,
+  "{\"k\":\"s.plus_symbol\",\"t\":{\"amount\":\"26\",}}": 2,
+  "{\"k\":\"s.plus_symbol\",\"t\":{\"amount\":\"70\",}}": 2,
+  "giftChestOccupied": 1,
+  "{\"k\":\"s.plus_symbol\",\"t\":{\"amount\":\"6\",}}": 1,
+  "{\"k\":\"s.plus_symbol\",\"t\":{\"amount\":\"34\",}}": 1,
+  "{\"k\":\"s.plus_symbol\",\"t\":{\"amount\":\"30\",}}": 1,
+  "{\"k\":\"s.plus_symbol\",\"t\":{\"amount\":\"39\",}}": 1,
+  "{\"k\":\"s.plus_symbol\",\"t\":{\"amount\":\"17\",}}": 1,
+  "{\"k\":\"s.plus_symbol\",\"t\":{\"amount\":\"42\",}}": 1
+ },
+ "teleports": {},
+ "loot_bags": [
+  [
+   "Loot Bag 0: [2594]",
+   14
+  ],
+  [
+   "Loot Bag 0: [2595]",
+   14
+  ],
+  [
+   "Loot Bag: [2778]",
+   3
+  ],
+  [
+   "Loot Bag 0: [2594, 2595]",
+   3
+  ],
+  [
+   "Loot Bag: [2743]",
+   2
+  ],
+  [
+   "Loot Bag: [3007]",
+   1
+  ],
+  [
+   "Loot Bag: [2579, 2613, 2734, 2757, 7721, 17436]",
+   1
+  ],
+  [
+   "Loot Bag: [2592, 2613]",
+   1
+  ]
+ ],
+ "portals": [
+  [
+   "Portal of Cowardice",
+   []
+  ],
+  [
+   "Realm Portal",
+   []
+  ],
+  [
+   "Realm Portal",
+   []
+  ]
+ ],
+ "quest_targets": [
+  "Dr Terrible",
+  "Dr Terrible"
+ ]
+}

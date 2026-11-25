@@ -1,0 +1,1005 @@
+{
+ "file": "20261123_081159_Magic_Woods.events.jsonl",
+ "ticks": 699,
+ "enemies": {
+  "Issz": {
+   "count": 24,
+   "max_hp": 300.0,
+   "speed_tiles_per_s": 3.56,
+   "moving_fraction": 0.99,
+   "shots": {
+    "0": {
+     "count": 9,
+     "num_shots": {
+      "255": 9
+     },
+     "angle_inc": {
+      "0.0": 9
+     },
+     "damage": 40,
+     "interval_s": 0.2,
+     "interval_min_s": 0.2,
+     "hp_fraction_range": [
+      0.75,
+      1.0
+     ]
+    }
+   }
+  },
+  "Radph": {
+   "count": 21,
+   "max_hp": 300,
+   "speed_tiles_per_s": 4.77,
+   "moving_fraction": 0.93,
+   "shots": {
+    "0": {
+     "count": 6,
+     "num_shots": {
+      "255": 6
+     },
+     "angle_inc": {
+      "0.0": 6
+     },
+     "damage": 30.0,
+     "interval_s": 0.21,
+     "interval_min_s": 0.21,
+     "hp_fraction_range": [
+      1.0,
+      1.0
+     ]
+    }
+   }
+  },
+  "Deyst": {
+   "count": 14,
+   "max_hp": 500.0,
+   "speed_tiles_per_s": 3.44,
+   "moving_fraction": 0.98,
+   "shots": {
+    "0": {
+     "count": 1,
+     "num_shots": {
+      "255": 1
+     },
+     "angle_inc": {
+      "0.0": 1
+     },
+     "damage": 75,
+     "interval_s": null,
+     "interval_min_s": null,
+     "hp_fraction_range": [
+      1.0,
+      1.0
+     ]
+    }
+   }
+  },
+  "Sek": {
+   "count": 13,
+   "max_hp": 150,
+   "speed_tiles_per_s": 7.0,
+   "moving_fraction": 0.96,
+   "shots": {
+    "0": {
+     "count": 9,
+     "num_shots": {
+      "255": 9
+     },
+     "angle_inc": {
+      "0.0": 9
+     },
+     "damage": 15,
+     "interval_s": 0.2,
+     "interval_min_s": 0.18,
+     "hp_fraction_range": [
+      1.0,
+      1.0
+     ]
+    }
+   }
+  },
+  "Eango": {
+   "count": 12,
+   "max_hp": 500.0,
+   "speed_tiles_per_s": 2.46,
+   "moving_fraction": 0.98,
+   "shots": {
+    "0": {
+     "count": 2,
+     "num_shots": {
+      "255": 2
+     },
+     "angle_inc": {
+      "0.0": 2
+     },
+     "damage": 60.0,
+     "interval_s": 0.2,
+     "interval_min_s": 0.2,
+     "hp_fraction_range": [
+      1.0,
+      1.0
+     ]
+    }
+   }
+  },
+  "Zhair": {
+   "count": 10,
+   "max_hp": 150.0,
+   "speed_tiles_per_s": 2.77,
+   "moving_fraction": 1.0,
+   "shots": {
+    "0": {
+     "count": 29,
+     "num_shots": {
+      "2": 29
+     },
+     "angle_inc": {
+      "0.349": 29
+     },
+     "damage": 50,
+     "interval_s": 1.22,
+     "interval_min_s": 0.39,
+     "hp_fraction_range": [
+      1.0,
+      1.0
+     ]
+    }
+   }
+  },
+  "Tal": {
+   "count": 9,
+   "max_hp": 200,
+   "speed_tiles_per_s": 3.5,
+   "moving_fraction": 0.98,
+   "shots": {}
+  },
+  "SayIt": {
+   "count": 7,
+   "max_hp": 450,
+   "speed_tiles_per_s": 2.81,
+   "moving_fraction": 0.95,
+   "shots": {}
+  },
+  "Oeti": {
+   "count": 7,
+   "max_hp": 700,
+   "speed_tiles_per_s": 4.98,
+   "moving_fraction": 0.99,
+   "shots": {
+    "1": {
+     "count": 61,
+     "num_shots": {
+      "4": 61
+     },
+     "angle_inc": {
+      "1.571": 61
+     },
+     "damage": 70,
+     "interval_s": 1.01,
+     "interval_min_s": 0.92,
+     "hp_fraction_range": [
+      1.0,
+      1.0
+     ]
+    },
+    "0": {
+     "count": 2,
+     "num_shots": {
+      "255": 2
+     },
+     "angle_inc": {
+      "0.0": 2
+     },
+     "damage": 90.0,
+     "interval_s": null,
+     "interval_min_s": null,
+     "hp_fraction_range": [
+      1.0,
+      1.0
+     ]
+    }
+   }
+  },
+  "Iatho": {
+   "count": 7,
+   "max_hp": 200,
+   "speed_tiles_per_s": 2.81,
+   "moving_fraction": 0.98,
+   "shots": {}
+  },
+  "Rilr": {
+   "count": 6,
+   "max_hp": 250.0,
+   "speed_tiles_per_s": 2.08,
+   "moving_fraction": 0.98,
+   "shots": {
+    "0": {
+     "count": 10,
+     "num_shots": {
+      "3": 10
+     },
+     "angle_inc": {
+      "0.349": 10
+     },
+     "damage": 60.0,
+     "interval_s": 0.91,
+     "interval_min_s": 0.61,
+     "hp_fraction_range": [
+      1.0,
+      1.0
+     ]
+    }
+   }
+  },
+  "Iri": {
+   "count": 5,
+   "max_hp": 400,
+   "speed_tiles_per_s": 1.5,
+   "moving_fraction": 1.0,
+   "shots": {}
+  },
+  "Iawa": {
+   "count": 5,
+   "max_hp": 350,
+   "speed_tiles_per_s": 4.0,
+   "moving_fraction": 0.96,
+   "shots": {}
+  },
+  "Serl": {
+   "count": 4,
+   "max_hp": 250.0,
+   "speed_tiles_per_s": 2.3,
+   "moving_fraction": 1.0,
+   "shots": {
+    "0": {
+     "count": 4,
+     "num_shots": {
+      "255": 4
+     },
+     "angle_inc": {
+      "0.0": 4
+     },
+     "damage": 75.0,
+     "interval_s": 6.22,
+     "interval_min_s": 1.21,
+     "hp_fraction_range": [
+      1.0,
+      1.0
+     ]
+    }
+   }
+  },
+  "Risrr": {
+   "count": 4,
+   "max_hp": 450.0,
+   "speed_tiles_per_s": 6.0,
+   "moving_fraction": 0.88,
+   "shots": {
+    "0": {
+     "count": 1,
+     "num_shots": {
+      "8": 1
+     },
+     "angle_inc": {
+      "0.785": 1
+     },
+     "damage": 50,
+     "interval_s": null,
+     "interval_min_s": null,
+     "hp_fraction_range": [
+      1.0,
+      1.0
+     ]
+    }
+   }
+  },
+  "Eati": {
+   "count": 4,
+   "max_hp": 800.0,
+   "speed_tiles_per_s": 3.57,
+   "moving_fraction": 0.98,
+   "shots": {
+    "0": {
+     "count": 4,
+     "num_shots": {
+      "2": 4
+     },
+     "angle_inc": {
+      "0.192": 4
+     },
+     "damage": 50.0,
+     "interval_s": null,
+     "interval_min_s": null,
+     "hp_fraction_range": [
+      1.0,
+      1.0
+     ]
+    },
+    "1": {
+     "count": 4,
+     "num_shots": {
+      "2": 4
+     },
+     "angle_inc": {
+      "0.192": 4
+     },
+     "damage": 60.0,
+     "interval_s": null,
+     "interval_min_s": null,
+     "hp_fraction_range": [
+      1.0,
+      1.0
+     ]
+    }
+   }
+  },
+  "Oshyu": {
+   "count": 4,
+   "max_hp": 550.0,
+   "speed_tiles_per_s": 5.0,
+   "moving_fraction": 0.99,
+   "shots": {
+    "0": {
+     "count": 41,
+     "num_shots": {
+      "5": 41
+     },
+     "angle_inc": {
+      "1.257": 41
+     },
+     "damage": 80,
+     "interval_s": 0.61,
+     "interval_min_s": 0.38,
+     "hp_fraction_range": [
+      1.0,
+      1.0
+     ]
+    }
+   }
+  },
+  "Vorv": {
+   "count": 3,
+   "max_hp": 700,
+   "speed_tiles_per_s": 6.48,
+   "moving_fraction": 1.0,
+   "shots": {
+    "1": {
+     "count": 29,
+     "num_shots": {
+      "2": 15,
+      "255": 14
+     },
+     "angle_inc": {
+      "0.262": 15,
+      "0.0": 14
+     },
+     "damage": 60,
+     "interval_s": 0.3,
+     "interval_min_s": 0.19,
+     "hp_fraction_range": [
+      1.0,
+      1.0
+     ]
+    },
+    "0": {
+     "count": 35,
+     "num_shots": {
+      "255": 28,
+      "2": 7
+     },
+     "angle_inc": {
+      "0.0": 28,
+      "0.262": 7
+     },
+     "damage": 60,
+     "interval_s": 0.2,
+     "interval_min_s": 0.0,
+     "hp_fraction_range": [
+      1.0,
+      1.0
+     ]
+    }
+   }
+  },
+  "Orothi": {
+   "count": 3,
+   "max_hp": 200,
+   "speed_tiles_per_s": 5.0,
+   "moving_fraction": 0.97,
+   "shots": {
+    "0": {
+     "count": 2,
+     "num_shots": {
+      "6": 2
+     },
+     "angle_inc": {
+      "1.047": 2
+     },
+     "damage": 30.0,
+     "interval_s": null,
+     "interval_min_s": null,
+     "hp_fraction_range": [
+      0.39,
+      1.0
+     ]
+    }
+   }
+  },
+  "Gharr": {
+   "count": 3,
+   "max_hp": 250,
+   "speed_tiles_per_s": 2.81,
+   "moving_fraction": 0.94,
+   "shots": {
+    "0": {
+     "count": 27,
+     "num_shots": {
+      "255": 27
+     },
+     "angle_inc": {
+      "0.0": 27
+     },
+     "damage": 45,
+     "interval_s": 0.41,
+     "interval_min_s": 0.32,
+     "hp_fraction_range": [
+      0.03,
+      1.0
+     ]
+    }
+   }
+  },
+  "Yimi": {
+   "count": 3,
+   "max_hp": 300,
+   "speed_tiles_per_s": 2.1,
+   "moving_fraction": 0.99,
+   "shots": {
+    "0": {
+     "count": 14,
+     "num_shots": {
+      "2": 14
+     },
+     "angle_inc": {
+      "0.157": 14
+     },
+     "damage": 90.0,
+     "interval_s": 0.81,
+     "interval_min_s": 0.75,
+     "hp_fraction_range": [
+      1.0,
+      1.0
+     ]
+    }
+   }
+  },
+  "Scheev": {
+   "count": 3,
+   "max_hp": 500,
+   "speed_tiles_per_s": 3.0,
+   "moving_fraction": 0.96,
+   "shots": {
+    "0": {
+     "count": 3,
+     "num_shots": {
+      "255": 3
+     },
+     "angle_inc": {
+      "0.0": 3
+     },
+     "damage": 90,
+     "interval_s": 0.81,
+     "interval_min_s": 0.81,
+     "hp_fraction_range": [
+      1.0,
+      1.0
+     ]
+    }
+   }
+  },
+  "Laen": {
+   "count": 3,
+   "max_hp": 500,
+   "speed_tiles_per_s": 3.59,
+   "moving_fraction": 0.98,
+   "shots": {
+    "1": {
+     "count": 37,
+     "num_shots": {
+      "5": 37
+     },
+     "angle_inc": {
+      "1.257": 37
+     },
+     "damage": 55,
+     "interval_s": 1.01,
+     "interval_min_s": 0.94,
+     "hp_fraction_range": [
+      0.75,
+      1.0
+     ]
+    },
+    "0": {
+     "count": 4,
+     "num_shots": {
+      "255": 4
+     },
+     "angle_inc": {
+      "0.0": 4
+     },
+     "damage": 75.0,
+     "interval_s": 2.33,
+     "interval_min_s": 0.81,
+     "hp_fraction_range": [
+      1.0,
+      1.0
+     ]
+    }
+   }
+  },
+  "Uoro": {
+   "count": 3,
+   "max_hp": 100,
+   "speed_tiles_per_s": 9.95,
+   "moving_fraction": 0.94,
+   "shots": {
+    "0": {
+     "count": 1,
+     "num_shots": {
+      "3": 1
+     },
+     "angle_inc": {
+      "0.436": 1
+     },
+     "damage": 70,
+     "interval_s": null,
+     "interval_min_s": null,
+     "hp_fraction_range": [
+      1.0,
+      1.0
+     ]
+    }
+   }
+  },
+  "Tiar": {
+   "count": 3,
+   "max_hp": 400,
+   "speed_tiles_per_s": 2.11,
+   "moving_fraction": 0.94,
+   "shots": {
+    "0": {
+     "count": 4,
+     "num_shots": {
+      "255": 4
+     },
+     "angle_inc": {
+      "0.0": 4
+     },
+     "damage": 75.0,
+     "interval_s": 0.98,
+     "interval_min_s": 0.94,
+     "hp_fraction_range": [
+      0.71,
+      1.0
+     ]
+    }
+   }
+  },
+  "Queq": {
+   "count": 2,
+   "max_hp": 350.0,
+   "speed_tiles_per_s": 1.41,
+   "moving_fraction": 0.97,
+   "shots": {
+    "0": {
+     "count": 1,
+     "num_shots": {
+      "4": 1
+     },
+     "angle_inc": {
+      "0.349": 1
+     },
+     "damage": 70,
+     "interval_s": null,
+     "interval_min_s": null,
+     "hp_fraction_range": [
+      1.0,
+      1.0
+     ]
+    }
+   }
+  },
+  "Idrae": {
+   "count": 2,
+   "max_hp": 550.0,
+   "speed_tiles_per_s": 1.5,
+   "moving_fraction": 0.92,
+   "shots": {}
+  },
+  "Utanu": {
+   "count": 2,
+   "max_hp": 700.0,
+   "speed_tiles_per_s": 0.7,
+   "moving_fraction": 1.0,
+   "shots": {
+    "0": {
+     "count": 2,
+     "num_shots": {
+      "5": 2
+     },
+     "angle_inc": {
+      "0.14": 2
+     },
+     "damage": 120.0,
+     "interval_s": null,
+     "interval_min_s": null,
+     "hp_fraction_range": [
+      1.0,
+      1.0
+     ]
+    }
+   }
+  },
+  "Ehoni": {
+   "count": 2,
+   "max_hp": 250.0,
+   "speed_tiles_per_s": 6.47,
+   "moving_fraction": 0.93,
+   "shots": {}
+  },
+  "Vorck": {
+   "count": 2,
+   "max_hp": 300.0,
+   "speed_tiles_per_s": 2.5,
+   "moving_fraction": 1.0,
+   "shots": {}
+  },
+  "Ril": {
+   "count": 2,
+   "max_hp": 300.0,
+   "speed_tiles_per_s": 5.0,
+   "moving_fraction": 1.0,
+   "shots": {
+    "0": {
+     "count": 2,
+     "num_shots": {
+      "255": 2
+     },
+     "angle_inc": {
+      "0.0": 2
+     },
+     "damage": 60.0,
+     "interval_s": null,
+     "interval_min_s": null,
+     "hp_fraction_range": [
+      1.0,
+      1.0
+     ]
+    },
+    "1": {
+     "count": 9,
+     "num_shots": {
+      "6": 9
+     },
+     "angle_inc": {
+      "1.047": 9
+     },
+     "damage": 40,
+     "interval_s": 1.01,
+     "interval_min_s": 1.0,
+     "hp_fraction_range": [
+      0.58,
+      1.0
+     ]
+    }
+   }
+  },
+  "Eendi": {
+   "count": 2,
+   "max_hp": 650.0,
+   "speed_tiles_per_s": 2.79,
+   "moving_fraction": 1.0,
+   "shots": {}
+  },
+  "Rayr": {
+   "count": 2,
+   "max_hp": 700.0,
+   "speed_tiles_per_s": 6.99,
+   "moving_fraction": 0.8,
+   "shots": {
+    "0": {
+     "count": 2,
+     "num_shots": {
+      "8": 2
+     },
+     "angle_inc": {
+      "0.785": 2
+     },
+     "damage": 70.0,
+     "interval_s": null,
+     "interval_min_s": null,
+     "hp_fraction_range": [
+      0.83,
+      1.0
+     ]
+    }
+   }
+  },
+  "Fountain Spirit": {
+   "count": 1,
+   "max_hp": 11250,
+   "speed_tiles_per_s": null,
+   "moving_fraction": 0.0,
+   "shots": {
+    "7": {
+     "count": 9,
+     "num_shots": {
+      "4": 9
+     },
+     "angle_inc": {
+      "0.349": 9
+     },
+     "damage": 55,
+     "interval_s": 1.21,
+     "interval_min_s": 1.14,
+     "hp_fraction_range": [
+      0.41,
+      1.0
+     ]
+    },
+    "8": {
+     "count": 4,
+     "num_shots": {
+      "9": 4
+     },
+     "angle_inc": {
+      "0.698": 4
+     },
+     "damage": 60.0,
+     "interval_s": 2.83,
+     "interval_min_s": 2.83,
+     "hp_fraction_range": [
+      0.48,
+      1.0
+     ]
+    },
+    "3": {
+     "count": 21,
+     "num_shots": {
+      "255": 21
+     },
+     "angle_inc": {
+      "0.0": 21
+     },
+     "damage": 1,
+     "interval_s": 1.01,
+     "interval_min_s": 0.93,
+     "hp_fraction_range": [
+      0.1,
+      0.31
+     ]
+    },
+    "2": {
+     "count": 50,
+     "num_shots": {
+      "8": 50
+     },
+     "angle_inc": {
+      "0.785": 50
+     },
+     "damage": 50.0,
+     "interval_s": 0.4,
+     "interval_min_s": 0.33,
+     "hp_fraction_range": [
+      0.1,
+      0.31
+     ]
+    }
+   }
+  },
+  "Odaru": {
+   "count": 1,
+   "max_hp": 450,
+   "speed_tiles_per_s": 3.48,
+   "moving_fraction": 1.0,
+   "shots": {
+    "0": {
+     "count": 1,
+     "num_shots": {
+      "7": 1
+     },
+     "angle_inc": {
+      "0.89": 1
+     },
+     "damage": 60,
+     "interval_s": null,
+     "interval_min_s": null,
+     "hp_fraction_range": [
+      1.0,
+      1.0
+     ]
+    }
+   }
+  },
+  "Eashy": {
+   "count": 1,
+   "max_hp": 700,
+   "speed_tiles_per_s": 4.0,
+   "moving_fraction": 1.0,
+   "shots": {
+    "0": {
+     "count": 2,
+     "num_shots": {
+      "255": 2
+     },
+     "angle_inc": {
+      "0.0": 2
+     },
+     "damage": 135.0,
+     "interval_s": 1.01,
+     "interval_min_s": 1.01,
+     "hp_fraction_range": [
+      1.0,
+      1.0
+     ]
+    }
+   }
+  },
+  "Urake": {
+   "count": 1,
+   "max_hp": 500,
+   "speed_tiles_per_s": 1.4,
+   "moving_fraction": 1.0,
+   "shots": {
+    "0": {
+     "count": 1,
+     "num_shots": {
+      "255": 1
+     },
+     "angle_inc": {
+      "0.0": 1
+     },
+     "damage": 135,
+     "interval_s": null,
+     "interval_min_s": null,
+     "hp_fraction_range": [
+      1.0,
+      1.0
+     ]
+    }
+   }
+  },
+  "Itani": {
+   "count": 1,
+   "max_hp": 600,
+   "speed_tiles_per_s": 1.4,
+   "moving_fraction": 0.92,
+   "shots": {
+    "0": {
+     "count": 1,
+     "num_shots": {
+      "255": 1
+     },
+     "angle_inc": {
+      "0.0": 1
+     },
+     "damage": 105,
+     "interval_s": null,
+     "interval_min_s": null,
+     "hp_fraction_range": [
+      0.81,
+      0.81
+     ]
+    }
+   }
+  },
+  "Darq": {
+   "count": 1,
+   "max_hp": 400,
+   "speed_tiles_per_s": 3.48,
+   "moving_fraction": 1.0,
+   "shots": {}
+  },
+  "Lorz": {
+   "count": 1,
+   "max_hp": 400,
+   "speed_tiles_per_s": 2.1,
+   "moving_fraction": 1.0,
+   "shots": {
+    "0": {
+     "count": 2,
+     "num_shots": {
+      "255": 1,
+      "2": 1
+     },
+     "angle_inc": {
+      "0.0": 1,
+      "0.698": 1
+     },
+     "damage": 105.0,
+     "interval_s": 0.81,
+     "interval_min_s": 0.81,
+     "hp_fraction_range": [
+      1.0,
+      1.0
+     ]
+    }
+   }
+  },
+  "Drac": {
+   "count": 1,
+   "max_hp": 350,
+   "speed_tiles_per_s": 5.0,
+   "moving_fraction": 0.96,
+   "shots": {
+    "0": {
+     "count": 2,
+     "num_shots": {
+      "5": 2
+     },
+     "angle_inc": {
+      "1.257": 2
+     },
+     "damage": 45.0,
+     "interval_s": null,
+     "interval_min_s": null,
+     "hp_fraction_range": [
+      1.0,
+      1.0
+     ]
+    }
+   }
+  }
+ },
+ "text": {
+  "Fountain Spirit": [
+   "Ah, so you are the guest I have felt the presence of! Strike my flowing waters and I shall richly reward you!",
+   "In an eternity with US!"
+  ]
+ },
+ "notifications": {
+  "{\"k\":\"s.plus_symbol\",\"t\":{\"amount\":\"29\",}}": 14,
+  "{\"k\":\"s.plus_symbol\",\"t\":{\"amount\":\"48\",}}": 4,
+  "{\"k\":\"s.plus_symbol\",\"t\":{\"amount\":\"12\",}}": 2,
+  "{\"k\":\"s.plus_symbol\",\"t\":{\"amount\":\"13\",}}": 2,
+  "{\"k\":\"s.plus_symbol\",\"t\":{\"amount\":\"1000\",}}": 2,
+  "{\"k\":\"s.plus_symbol\",\"t\":{\"amount\":\"3\",}}": 2,
+  "null": 2,
+  "giftChestOccupied": 1,
+  "{\"k\":\"s.plus_symbol\",\"t\":{\"amount\":\"39\",}}": 1,
+  "{\"k\":\"s.plus_symbol\",\"t\":{\"amount\":\"9\",}}": 1,
+  "{\"k\":\"s.plus_symbol\",\"t\":{\"amount\":\"19\",}}": 1,
+  "{\"k\":\"s.plus_symbol\",\"t\":{\"amount\":\"22\",}}": 1,
+  "{\"k\":\"s.plus_symbol\",\"t\":{\"amount\":\"14\",}}": 1,
+  "{\"k\":\"s.plus_symbol\",\"t\":{\"amount\":\"31\",}}": 1,
+  "{\"k\":\"s.plus_symbol\",\"t\":{\"amount\":\"33\",}}": 1,
+  "{\"k\":\"s.plus_symbol\",\"t\":{\"amount\":\"24\",}}": 1,
+  "{\"k\":\"s.plus_symbol\",\"t\":{\"amount\":\"21\",}}": 1,
+  "{\"k\":\"s.plus_symbol\",\"t\":{\"amount\":\"323\",}}": 1,
+  "{\"k\":\"s.plus_symbol\",\"t\":{\"amount\":\"4\",}}": 1,
+  "{\"k\":\"s.plus_symbol\",\"t\":{\"amount\":\"15\",}}": 1
+ },
+ "teleports": {},
+ "loot_bags": [
+  [
+   "Loot Bag: [2108, 2593, 2593, 2636, 2741, 2745, 7706]",
+   1
+  ]
+ ],
+ "portals": [
+  [
+   "Portal of Cowardice",
+   []
+  ],
+  [
+   "Realm Portal",
+   []
+  ]
+ ],
+ "quest_targets": [
+  "Fountain Spirit",
+  "Fountain Spirit",
+  "Fountain Spirit",
+  "Fountain Spirit"
+ ]
+}

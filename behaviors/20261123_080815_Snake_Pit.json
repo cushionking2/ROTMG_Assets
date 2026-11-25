@@ -1,0 +1,374 @@
+{
+ "file": "20261123_080815_Snake_Pit.events.jsonl",
+ "ticks": 875,
+ "enemies": {
+  "SP Destructible Wall": {
+   "count": 499,
+   "max_hp": null,
+   "speed_tiles_per_s": null,
+   "moving_fraction": null,
+   "shots": {}
+  },
+  "Pit Viper": {
+   "count": 55,
+   "max_hp": 5,
+   "speed_tiles_per_s": 2.25,
+   "moving_fraction": 0.99,
+   "shots": {
+    "0": {
+     "count": 121,
+     "num_shots": {
+      "2": 121
+     },
+     "angle_inc": {
+      "0.349": 121
+     },
+     "damage": 20,
+     "interval_s": 1.21,
+     "interval_min_s": 1.0,
+     "hp_fraction_range": [
+      1.0,
+      1.0
+     ]
+    }
+   }
+  },
+  "Pit Snake": {
+   "count": 51,
+   "max_hp": 5,
+   "speed_tiles_per_s": 4.0,
+   "moving_fraction": 0.97,
+   "shots": {
+    "0": {
+     "count": 123,
+     "num_shots": {
+      "255": 123
+     },
+     "angle_inc": {
+      "0.0": 123
+     },
+     "damage": 10,
+     "interval_s": 1.01,
+     "interval_min_s": 0.94,
+     "hp_fraction_range": [
+      1.0,
+      1.0
+     ]
+    }
+   }
+  },
+  "Brown Python": {
+   "count": 15,
+   "max_hp": 200,
+   "speed_tiles_per_s": 4.96,
+   "moving_fraction": 0.9,
+   "shots": {
+    "0": {
+     "count": 230,
+     "num_shots": {
+      "255": 230
+     },
+     "angle_inc": {
+      "0.0": 230
+     },
+     "damage": 30.0,
+     "interval_s": 0.2,
+     "interval_min_s": 0.12,
+     "hp_fraction_range": [
+      0.47,
+      1.0
+     ]
+    }
+   }
+  },
+  "Yellow Python": {
+   "count": 14,
+   "max_hp": 200.0,
+   "speed_tiles_per_s": 2.49,
+   "moving_fraction": 0.99,
+   "shots": {
+    "0": {
+     "count": 95,
+     "num_shots": {
+      "255": 95
+     },
+     "angle_inc": {
+      "0.0": 95
+     },
+     "damage": 35,
+     "interval_s": 0.2,
+     "interval_min_s": 0.11,
+     "hp_fraction_range": [
+      0.28,
+      1.0
+     ]
+    }
+   }
+  },
+  "Fire Python": {
+   "count": 14,
+   "max_hp": 200.0,
+   "speed_tiles_per_s": 2.81,
+   "moving_fraction": 0.92,
+   "shots": {
+    "0": {
+     "count": 18,
+     "num_shots": {
+      "4": 18
+     },
+     "angle_inc": {
+      "0.157": 18
+     },
+     "damage": 35.0,
+     "interval_s": 1.01,
+     "interval_min_s": 0.98,
+     "hp_fraction_range": [
+      0.12,
+      1.0
+     ]
+    }
+   }
+  },
+  "Stheno Swarm": {
+   "count": 9,
+   "max_hp": 400,
+   "speed_tiles_per_s": 3.75,
+   "moving_fraction": 0.99,
+   "shots": {
+    "0": {
+     "count": 277,
+     "num_shots": {
+      "255": 277
+     },
+     "angle_inc": {
+      "0.0": 277
+     },
+     "damage": 40,
+     "interval_s": 0.2,
+     "interval_min_s": 0.0,
+     "hp_fraction_range": [
+      0.39,
+      1.0
+     ]
+    }
+   }
+  },
+  "Greater Pit Viper": {
+   "count": 8,
+   "max_hp": 500.0,
+   "speed_tiles_per_s": 0.85,
+   "moving_fraction": 0.99,
+   "shots": {
+    "0": {
+     "count": 13,
+     "num_shots": {
+      "255": 13
+     },
+     "angle_inc": {
+      "0.0": 13
+     },
+     "damage": 70,
+     "interval_s": 1.41,
+     "interval_min_s": 1.41,
+     "hp_fraction_range": [
+      1.0,
+      1.0
+     ]
+    },
+    "1": {
+     "count": 13,
+     "num_shots": {
+      "2": 13
+     },
+     "angle_inc": {
+      "0.262": 13
+     },
+     "damage": 50,
+     "interval_s": 1.41,
+     "interval_min_s": 1.41,
+     "hp_fraction_range": [
+      1.0,
+      1.0
+     ]
+    },
+    "2": {
+     "count": 13,
+     "num_shots": {
+      "2": 13
+     },
+     "angle_inc": {
+      "0.524": 13
+     },
+     "damage": 40,
+     "interval_s": 1.41,
+     "interval_min_s": 1.41,
+     "hp_fraction_range": [
+      1.0,
+      1.0
+     ]
+    }
+   }
+  },
+  "Stheno Pet": {
+   "count": 8,
+   "max_hp": 1000.0,
+   "speed_tiles_per_s": 10.97,
+   "moving_fraction": 0.98,
+   "shots": {
+    "0": {
+     "count": 348,
+     "num_shots": {
+      "255": 348
+     },
+     "angle_inc": {
+      "0.0": 348
+     },
+     "damage": 65.0,
+     "interval_s": 0.2,
+     "interval_min_s": 0.12,
+     "hp_fraction_range": [
+      0.08,
+      1.0
+     ]
+    }
+   }
+  },
+  "Greater Pit Snake": {
+   "count": 6,
+   "max_hp": 500.0,
+   "speed_tiles_per_s": 0.85,
+   "moving_fraction": 0.99,
+   "shots": {
+    "0": {
+     "count": 75,
+     "num_shots": {
+      "255": 75
+     },
+     "angle_inc": {
+      "0.0": 75
+     },
+     "damage": 45,
+     "interval_s": 1.01,
+     "interval_min_s": 0.9,
+     "hp_fraction_range": [
+      0.77,
+      1.0
+     ]
+    }
+   }
+  },
+  "Stheno the Snake Queen": {
+   "count": 1,
+   "max_hp": 9000,
+   "speed_tiles_per_s": 2.81,
+   "moving_fraction": 0.78,
+   "shots": {
+    "0": {
+     "count": 36,
+     "num_shots": {
+      "2": 18,
+      "4": 18
+     },
+     "angle_inc": {
+      "1.396": 18,
+      "1.571": 18
+     },
+     "damage": 90.0,
+     "interval_s": 0.0,
+     "interval_min_s": 0.0,
+     "hp_fraction_range": [
+      0.15,
+      1.0
+     ]
+    },
+    "1": {
+     "count": 17,
+     "num_shots": {
+      "6": 17
+     },
+     "angle_inc": {
+      "1.047": 17
+     },
+     "damage": 45,
+     "interval_s": 0.4,
+     "interval_min_s": 0.33,
+     "hp_fraction_range": [
+      1.0,
+      1.0
+     ]
+    }
+   }
+  }
+ },
+ "text": {},
+ "notifications": {
+  "{\"k\":\"s.plus_symbol\",\"t\":{\"amount\":\"29\",}}": 16,
+  "{\"k\":\"s.plus_symbol\",\"t\":{\"amount\":\"48\",}}": 7,
+  "{\"k\":\"s.plus_symbol\",\"t\":{\"amount\":\"1\",}}": 3,
+  "{\"k\":\"s.plus_symbol\",\"t\":{\"amount\":\"12\",}}": 3,
+  "{\"k\":\"s.plus_symbol\",\"t\":{\"amount\":\"2\",}}": 2,
+  "{\"k\":\"s.plus_symbol\",\"t\":{\"amount\":\"9\",}}": 2,
+  "{\"k\":\"s.plus_symbol\",\"t\":{\"amount\":\"5\",}}": 2,
+  "null": 2,
+  "giftChestOccupied": 1,
+  "{\"k\":\"s.plus_symbol\",\"t\":{\"amount\":\"23\",}}": 1,
+  "{\"k\":\"s.plus_symbol\",\"t\":{\"amount\":\"4\",}}": 1,
+  "{\"k\":\"s.plus_symbol\",\"t\":{\"amount\":\"13\",}}": 1,
+  "{\"k\":\"s.plus_symbol\",\"t\":{\"amount\":\"18\",}}": 1,
+  "{\"k\":\"s.plus_symbol\",\"t\":{\"amount\":\"44\",}}": 1,
+  "{\"k\":\"s.quest_complete\"}": 1,
+  "{\"k\":\"s.plus_symbol\",\"t\":{\"amount\":\"24\",}}": 1,
+  "{\"k\":\"s.plus_symbol\",\"t\":{\"amount\":\"11\",}}": 1,
+  "{\"k\":\"s.plus_symbol\",\"t\":{\"amount\":\"8\",}}": 1,
+  "{\"k\":\"s.plus_symbol\",\"t\":{\"amount\":\"19\",}}": 1,
+  "{\"k\":\"s.plus_symbol\",\"t\":{\"amount\":\"7\",}}": 1
+ },
+ "teleports": {},
+ "loot_bags": [
+  [
+   "Loot Bag: [2623]",
+   12
+  ],
+  [
+   "Loot Bag: [2593, 7739]",
+   3
+  ],
+  [
+   "Loot Bag: [2604]",
+   2
+  ],
+  [
+   "Loot Bag 0: [2594]",
+   2
+  ],
+  [
+   "Loot Bag 0: [2595]",
+   1
+  ]
+ ],
+ "portals": [
+  [
+   "Portal of Cowardice",
+   []
+  ],
+  [
+   "Realm Portal",
+   []
+  ],
+  [
+   "Realm Portal",
+   []
+  ],
+  [
+   "Portal of Cowardice",
+   []
+  ],
+  [
+   "Realm Portal",
+   []
+  ]
+ ],
+ "quest_targets": [
+  "Stheno the Snake Queen"
+ ]
+}

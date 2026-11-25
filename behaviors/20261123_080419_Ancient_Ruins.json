@@ -1,0 +1,389 @@
+{
+ "file": "20261123_080419_Ancient_Ruins.events.jsonl",
+ "ticks": 1013,
+ "enemies": {
+  "Cactus": {
+   "count": 27,
+   "max_hp": 100,
+   "speed_tiles_per_s": null,
+   "moving_fraction": null,
+   "shots": {
+    "0": {
+     "count": 27,
+     "num_shots": {
+      "10": 27
+     },
+     "angle_inc": {
+      "0.628": 27
+     },
+     "damage": 50,
+     "interval_s": null,
+     "interval_min_s": null,
+     "hp_fraction_range": [
+      1.0,
+      1.0
+     ]
+    }
+   }
+  },
+  "Sandstone Titan": {
+   "count": 1,
+   "max_hp": 10500,
+   "speed_tiles_per_s": 5.86,
+   "moving_fraction": 0.69,
+   "shots": {
+    "1": {
+     "count": 22,
+     "num_shots": {
+      "12": 11,
+      "6": 11
+     },
+     "angle_inc": {
+      "0.524": 11,
+      "1.047": 11
+     },
+     "damage": 86.0,
+     "interval_s": 1.79,
+     "interval_min_s": 1.47,
+     "hp_fraction_range": [
+      0.47,
+      1.0
+     ]
+    },
+    "2": {
+     "count": 12,
+     "num_shots": {
+      "4": 6,
+      "3": 6
+     },
+     "angle_inc": {
+      "0.314": 12
+     },
+     "damage": 132.0,
+     "interval_s": 1.02,
+     "interval_min_s": 0.97,
+     "hp_fraction_range": [
+      0.57,
+      1.0
+     ]
+    },
+    "0": {
+     "count": 9,
+     "num_shots": {
+      "5": 9
+     },
+     "angle_inc": {
+      "0.349": 9
+     },
+     "damage": 80,
+     "interval_s": 2.02,
+     "interval_min_s": 1.85,
+     "hp_fraction_range": [
+      0.47,
+      0.72
+     ]
+    },
+    "8": {
+     "count": 10,
+     "num_shots": {
+      "5": 10
+     },
+     "angle_inc": {
+      "0.349": 10
+     },
+     "damage": 57.0,
+     "interval_s": 2.02,
+     "interval_min_s": 1.94,
+     "hp_fraction_range": [
+      0.24,
+      0.4
+     ]
+    }
+   }
+  },
+  "Terracotta Paladin": {
+   "count": 14,
+   "max_hp": 900.0,
+   "speed_tiles_per_s": 3.99,
+   "moving_fraction": 1.0,
+   "shots": {
+    "0": {
+     "count": 49,
+     "num_shots": {
+      "4": 49
+     },
+     "angle_inc": {
+      "0.209": 49
+     },
+     "damage": 55,
+     "interval_s": 1.62,
+     "interval_min_s": 0.0,
+     "hp_fraction_range": [
+      1.0,
+      1.0
+     ]
+    }
+   }
+  },
+  "Terracotta Knight": {
+   "count": 13,
+   "max_hp": 1000,
+   "speed_tiles_per_s": 5.0,
+   "moving_fraction": 0.88,
+   "shots": {
+    "0": {
+     "count": 27,
+     "num_shots": {
+      "255": 27
+     },
+     "angle_inc": {
+      "0.0": 27
+     },
+     "damage": 90,
+     "interval_s": 1.21,
+     "interval_min_s": 0.41,
+     "hp_fraction_range": [
+      0.82,
+      1.0
+     ]
+    }
+   }
+  },
+  "Terracotta Warrior": {
+   "count": 12,
+   "max_hp": 800.0,
+   "speed_tiles_per_s": 6.75,
+   "moving_fraction": 0.79,
+   "shots": {
+    "0": {
+     "count": 49,
+     "num_shots": {
+      "2": 49
+     },
+     "angle_inc": {
+      "0.175": 49
+     },
+     "damage": 80,
+     "interval_s": 1.21,
+     "interval_min_s": 0.21,
+     "hp_fraction_range": [
+      0.12,
+      1.0
+     ]
+    }
+   }
+  },
+  "Giant Antlion": {
+   "count": 11,
+   "max_hp": 900,
+   "speed_tiles_per_s": 4.24,
+   "moving_fraction": 0.96,
+   "shots": {
+    "0": {
+     "count": 16,
+     "num_shots": {
+      "255": 16
+     },
+     "angle_inc": {
+      "0.0": 16
+     },
+     "damage": 85.0,
+     "interval_s": 12.86,
+     "interval_min_s": 1.01,
+     "hp_fraction_range": [
+      0.76,
+      1.0
+     ]
+    }
+   }
+  },
+  "Sand Elemental": {
+   "count": 9,
+   "max_hp": 1750,
+   "speed_tiles_per_s": 2.5,
+   "moving_fraction": 0.97,
+   "shots": {
+    "1": {
+     "count": 267,
+     "num_shots": {
+      "255": 267
+     },
+     "angle_inc": {
+      "0.0": 267
+     },
+     "damage": 55,
+     "interval_s": 0.81,
+     "interval_min_s": 0.2,
+     "hp_fraction_range": [
+      0.55,
+      1.0
+     ]
+    },
+    "0": {
+     "count": 38,
+     "num_shots": {
+      "2": 38
+     },
+     "angle_inc": {
+      "0.209": 38
+     },
+     "damage": 70.0,
+     "interval_s": 1.41,
+     "interval_min_s": 0.61,
+     "hp_fraction_range": [
+      0.62,
+      1.0
+     ]
+    }
+   }
+  },
+  "Vulture": {
+   "count": 9,
+   "max_hp": 950,
+   "speed_tiles_per_s": 4.98,
+   "moving_fraction": 0.99,
+   "shots": {
+    "0": {
+     "count": 26,
+     "num_shots": {
+      "4": 15,
+      "2": 11
+     },
+     "angle_inc": {
+      "0.209": 15,
+      "0.105": 11
+     },
+     "damage": 45.0,
+     "interval_s": 1.01,
+     "interval_min_s": 0.81,
+     "hp_fraction_range": [
+      1.0,
+      1.0
+     ]
+    }
+   }
+  },
+  "Ancient Spirit": {
+   "count": 9,
+   "max_hp": 1500,
+   "speed_tiles_per_s": 5.29,
+   "moving_fraction": 0.82,
+   "shots": {}
+  },
+  "Desert Scorpion": {
+   "count": 8,
+   "max_hp": 1000.0,
+   "speed_tiles_per_s": 3.74,
+   "moving_fraction": 0.97,
+   "shots": {
+    "0": {
+     "count": 52,
+     "num_shots": {
+      "2": 33,
+      "3": 19
+     },
+     "angle_inc": {
+      "0.262": 52
+     },
+     "damage": 70.0,
+     "interval_s": 1.21,
+     "interval_min_s": 0.21,
+     "hp_fraction_range": [
+      0.09,
+      1.0
+     ]
+    },
+    "1": {
+     "count": 48,
+     "num_shots": {
+      "255": 48
+     },
+     "angle_inc": {
+      "0.0": 48
+     },
+     "damage": 90.0,
+     "interval_s": 1.21,
+     "interval_min_s": 0.6,
+     "hp_fraction_range": [
+      0.09,
+      1.0
+     ]
+    }
+   }
+  },
+  "Ancient Monolith": {
+   "count": 3,
+   "max_hp": 2250,
+   "speed_tiles_per_s": null,
+   "moving_fraction": null,
+   "shots": {}
+  }
+ },
+ "text": {},
+ "notifications": {
+  "{\"k\":\"s.plus_symbol\",\"t\":{\"amount\":\"75\",}}": 19,
+  "{\"k\":\"s.plus_symbol\",\"t\":{\"amount\":\"48\",}}": 14,
+  "{\"k\":\"s.plus_symbol\",\"t\":{\"amount\":\"26\",}}": 6,
+  "{\"k\":\"s.plus_symbol\",\"t\":{\"amount\":\"200\",}}": 4,
+  "{\"k\":\"s.plus_symbol\",\"t\":{\"amount\":\"29\",}}": 4,
+  "{\"k\":\"s.plus_symbol\",\"t\":{\"amount\":\"28\",}}": 3,
+  "{\"k\":\"s.plus_symbol\",\"t\":{\"amount\":\"2\",}}": 3,
+  "{\"k\":\"s.plus_symbol\",\"t\":{\"amount\":\"12\",}}": 3,
+  "null": 3,
+  "{\"k\":\"s.plus_symbol\",\"t\":{\"amount\":\"10\",}}": 2,
+  "{\"k\":\"s.plus_symbol\",\"t\":{\"amount\":\"33\",}}": 2,
+  "{\"k\":\"s.plus_symbol\",\"t\":{\"amount\":\"31\",}}": 2,
+  "{\"k\":\"s.plus_symbol\",\"t\":{\"amount\":\"40\",}}": 2,
+  "{\"k\":\"s.plus_symbol\",\"t\":{\"amount\":\"14\",}}": 2,
+  "{\"k\":\"s.plus_symbol\",\"t\":{\"amount\":\"23\",}}": 2,
+  "{\"k\":\"s.plus_symbol\",\"t\":{\"amount\":\"1\",}}": 2,
+  "giftChestOccupied": 1,
+  "{\"k\":\"s.plus_symbol\",\"t\":{\"amount\":\"106\",}}": 1,
+  "{\"k\":\"s.plus_symbol\",\"t\":{\"amount\":\"37\",}}": 1,
+  "{\"k\":\"s.plus_symbol\",\"t\":{\"amount\":\"89\",}}": 1
+ },
+ "teleports": {},
+ "loot_bags": [
+  [
+   "Loot Bag 0: [2594, 2595]",
+   4
+  ],
+  [
+   "Loot Bag 0: [2594]",
+   3
+  ],
+  [
+   "Loot Bag 0: [2595]",
+   3
+  ],
+  [
+   "Loot Bag: [28901]",
+   1
+  ],
+  [
+   "Loot Bag: [2612, 2733, 2771, 2865, 9660, 28880, 46626]",
+   1
+  ]
+ ],
+ "portals": [
+  [
+   "Portal of Cowardice",
+   []
+  ],
+  [
+   "Portal of Cowardice",
+   []
+  ],
+  [
+   "Ruins Boss Portal Opener",
+   []
+  ],
+  [
+   "Realm Portal",
+   []
+  ]
+ ],
+ "quest_targets": [
+  "Sandstone Titan"
+ ]
+}
