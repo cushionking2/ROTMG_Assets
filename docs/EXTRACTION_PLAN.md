@@ -1,15 +1,15 @@
 # RotMG Exalt Asset Extraction
 
 Purpose: extract and sort sprites and data from the user's installed Realm of the Mad God Exalt, for personal, offline use only.
-This file is the main reference. Last full update: 2026-11-21 (end of the first session).
+This file is the main reference. Last full update: 2026-11-25 (full rebuild from the updated install, game build 7.2.0.1.0, on a new machine).
 
 ## 1. Status
 
 | Area | State |
 |---|---|
-| Copy of the install | Done. `work\game_copy\` (113 files, 904 MB). The install is untouched. |
-| Raw export | Done. 223 text assets (the game's XML), 208 textures, 882 UI sprites. |
-| Sprite library | Done. About 34,300 sprites in `assets\`, with `assets\index.json`. |
+| Copy of the install | Done. `work\game_copy\` (66 files, 1.2 GB). The install is untouched. |
+| Raw export | Done. 259 text assets (the game's XML), 309 textures, 1,087 UI sprites. 13 textures fail and are skipped: 12 empty 0x0 font textures and 1 unnamed engine texture in `globalgamemanagers.assets`. |
+| Sprite library | Done. About 47,400 sprites in `assets\`, with `assets\index.json`. |
 | Enemy tiers and helpers | Done. See section 7. |
 | Per-dungeon views | Done. 26 dungeons in `views\`. See section 6. |
 | Dungeon specs | Done. 26 specs in `docs\dungeon_specs\`. |
@@ -22,29 +22,29 @@ This file is the main reference. Last full update: 2026-11-21 (end of the first 
 
 | Item | Value |
 |---|---|
-| Game folder | `C:\Users\Austin\Documents\RealmOfTheMadGod\Production\` |
+| Game folder | `C:\Users\<you>\AppData\Local\RealmOfTheMadGod\Production\` (older installs: `Documents\RealmOfTheMadGod\Production\`) |
 | Data folder | `...\Production\RotMG Exalt_Data\` |
-| Unity version | 2022.3.10f1 |
-| Backend | IL2CPP (`GameAssembly.dll`, 65 MB) |
-| Metadata | `il2cpp_data\Metadata\global-metadata.dat`, 15 MB. **Obfuscated.** First bytes `89 36 15 FF` (normal: `AF 1B B1 FA`). Il2CppDumper stops with "Metadata file not found or encrypted". |
-| Main asset files | `resources.assets` (375 MB), `sharedassets0-4.assets`, `globalgamemanagers.assets`, plus `.resS` and `resources.resource` streams |
+| Unity version | 6000.0.58f2 (2022.3.10f1 before the 2026-11-25 rebuild) |
+| Backend | IL2CPP (`GameAssembly.dll`, 75 MB) |
+| Metadata | `il2cpp_data\Metadata\global-metadata.dat`, 17 MB. **Obfuscated.** First bytes `41 0F F2 FE` (before 2026-11-25: `89 36 15 FF`) (normal: `AF 1B B1 FA`). Il2CppDumper stops with "Metadata file not found or encrypted". |
+| Main asset files | `resources.assets` (410 MB), `sharedassets0-4.assets`, `globalgamemanagers.assets`, plus `.resS` and `resources.resource` streams |
 | `Desktop\exalt\MultiTool_Data\Objects.xml` and `GroundTypes.xml` | **Not used.** Source not verified. The game holds its own XML (section 3). |
-| Python | 3.9. Needs `UnityPy` 1.25.4 and `Pillow` 10.4.0 (Pillow 8.3.1 breaks texture decoding). |
+| Python | 3.12 (3.9 also works). Needs `UnityPy` 1.25.4 and `Pillow` 10.4.0 (Pillow 8.3.1 breaks texture decoding). |
 
 ## 3. How the game stores its data (verified)
 
 - **Data is XML inside the game.** The TextAssets in `resources.assets` hold `players`, `equip`, `equipSkins`, `skins`, `projectiles`, `containers`, `portals`, `pets`, `ground`, and one `<dungeon>Objects` plus `<dungeon>Ground` pair per dungeon. `manifest.json` lists the files by dungeon. The XML has stats (HP, defense, XP, projectiles), `<Labels>`, `<Group>`, and `<DisplayId>`. It has no behavior and no map layouts.
-- **Art is in three atlases** (PNG after export): `mapObjects` (8192x4096), `characters` (8192x4096), `groundTiles` (2048x1024). `characters_masks` holds dye masks (not used).
+- **Art is in three atlases** (PNG after export): `mapObjects` (8192x4096), `characters` (8192x4096), `groundTiles` (2048x2048). `characters_masks` holds dye masks (not used).
 - **XML to atlas link.** An object has `<Texture>` or `<AnimatedTexture>` with `<File>` (a sheet name such as `lofiObj5`) and `<Index>`. `RandomTexture` can hold several of either.
-- **`spritesheetf`** (a TextAsset, 9.9 MB) is a FlatBuffers file with two root vectors. Decoder: `tools\ssf.py`.
-  - Vector 1, 223 sheets, static sprites. The record whose field `f3` equals the XML `<Index>` is the sprite (no `f3` means index 0). It holds a rectangle `(x, y, w, h)` in an atlas.
-  - Vector 2, 39,593 records, animated character frames. Match `sheet == <File>` and `f1 == <Index>`. Records for one index keep file order. Most have 18 frames: 3 directions of 6. Field `f4` is the frame type (0 stand, 1 walk, 2 attack). Frame order is verified for the Rogue only.
+- **`spritesheetf`** (a TextAsset, 13.3 MB) is a FlatBuffers file with two root vectors. Decoder: `tools\ssf.py`.
+  - Vector 1, 288 sheets, static sprites. The record whose field `f3` equals the XML `<Index>` is the sprite (no `f3` means index 0). It holds a rectangle `(x, y, w, h)` in an atlas.
+  - Vector 2, 54,755 records, animated character frames. Match `sheet == <File>` and `f1 == <Index>`. Records for one index keep file order. Most have 18 frames: 3 directions of 6. Field `f4` is the frame type (0 stand, 1 walk, 2 attack). Frame order is verified for the Rogue only.
   - Field `f7` picks the atlas: 1 = `groundTiles` (the rectangle has 1 px padding), 2 = `characters`, 4 = `mapObjects`. The y axis is top-down, as in the PNG files saved by UnityPy.
 - **Items carry `<Labels>`**, for example `EQUIPMENT,WEAPON,SWORD,TIERED`. The sorter uses them.
 
 ## 4. Tools
 
-Used (in `D_Sim\tools\`, run with `python -I`):
+Used (in `tools\`, run with `python -I` from the repo root):
 
 | Script | Job |
 |---|---|
@@ -62,7 +62,7 @@ Installed in `C:\Users\Austin\Desktop\UnityDecompilers\` but not needed so far: 
 ### Rebuild from scratch
 
 ```
-cd C:\Users\Austin\Desktop\D_Sim
+cd <repo root>
 python -I tools\export_raw.py "work\game_copy\RotMG Exalt_Data" work\raw_export
 python -I tools\parse_objects.py work\raw_export\text work\objects.json
 python -I tools\build_sprites.py .            # about 45 s. Delete assets\ first.
@@ -196,7 +196,7 @@ Known odd entries in `boss`: `TestChicken 2`, `KSW Factory Control Core`, `SW Gi
 - Personal, offline use only. Do not share or publish extracted assets.
 - Do not scrape Realmeye, Google, or Fandom. Use the saved pages.
 - Do not read process memory. Do not decrypt the metadata unless the user asks.
-- `D_Sim` has no git repository. Deletions are permanent. Ask before deleting.
+- The repo is in git, but the ignored paths (see `.gitignore`) are not. Deletions there are permanent. Ask before deleting.
 - Write all text in Simplified Technical English.
 
 ## 11. Lessons

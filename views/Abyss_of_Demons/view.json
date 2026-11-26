@@ -6,18 +6,19 @@
 "abyssOfDemonsGround"
 ],
 "counts": {
-"enemies": 24,
-"props": 44,
-"tiles": 21,
-"projectiles": 25,
-"helpers": 2,
-"walls": 4,
-"loot": 4
+"enemies": 33,
+"props": 82,
+"tiles": 61,
+"projectiles": 37,
+"helpers": 5,
+"walls": 9,
+"portals": 1,
+"loot": 5
 },
 "why": {
-"src": 100,
-"proj": 16,
-"loot": 4,
+"src": 197,
+"proj": 27,
+"loot": 5,
 "tile": 3,
 "wall": 1
 },
@@ -360,67 +361,427 @@
 "file": "tiles/all/Abyss Fort Tile Glyph X__b090.png"
 },
 {
+"id": "IAbyss Dark Fort Tile",
+"type": "0x66c",
+"src": "abyssOfDemonsGround",
+"category": "tile",
+"sub": "abyssOfDemonsGround",
+"why": "src",
+"file": "tiles/all/IAbyss Dark Fort Tile__66c.png"
+},
+{
+"id": "IAbyss Dark Cracked Tile",
+"type": "0x693",
+"src": "abyssOfDemonsGround",
+"category": "tile",
+"sub": "abyssOfDemonsGround",
+"why": "src",
+"file": "tiles/all/IAbyss Dark Cracked Tile__693.png"
+},
+{
+"id": "IAbyss Dark Brick Tile",
+"type": "0x66d",
+"src": "abyssOfDemonsGround",
+"category": "tile",
+"sub": "abyssOfDemonsGround",
+"why": "src",
+"file": "tiles/all/IAbyss Dark Brick Tile__66d.png"
+},
+{
+"id": "IAbyss Dark Circle Tile",
+"type": "0x66e",
+"src": "abyssOfDemonsGround",
+"category": "tile",
+"sub": "abyssOfDemonsGround",
+"why": "src",
+"file": "tiles/all/IAbyss Dark Circle Tile__66e.png"
+},
+{
+"id": "IAbyss Dark Cave Tile",
+"type": "0x66f",
+"src": "abyssOfDemonsGround",
+"category": "tile",
+"sub": "abyssOfDemonsGround",
+"why": "src",
+"file": "tiles/all/IAbyss Dark Cave Tile__66f.png"
+},
+{
+"id": "IAbyss Hardened Magma",
+"type": "0x670",
+"src": "abyssOfDemonsGround",
+"category": "tile",
+"sub": "abyssOfDemonsGround",
+"why": "src",
+"file": "tiles/all/IAbyss Hardened Magma__670.png"
+},
+{
+"id": "IAbyss Red Fort Tile",
+"type": "0x671",
+"src": "abyssOfDemonsGround",
+"category": "tile",
+"sub": "abyssOfDemonsGround",
+"why": "src",
+"file": "tiles/all/IAbyss Red Fort Tile__671.png"
+},
+{
+"id": "IAbyss Red Cracked Tile",
+"type": "0x694",
+"src": "abyssOfDemonsGround",
+"category": "tile",
+"sub": "abyssOfDemonsGround",
+"why": "src",
+"file": "tiles/all/IAbyss Red Cracked Tile__694.png"
+},
+{
+"id": "IAbyss Clean Dark Fort Tile",
+"type": "0x696",
+"src": "abyssOfDemonsGround",
+"category": "tile",
+"sub": "abyssOfDemonsGround",
+"why": "src",
+"file": "tiles/all/IAbyss Clean Dark Fort Tile__696.png"
+},
+{
+"id": "IAbyss Dual Check Tile",
+"type": "0x672",
+"src": "abyssOfDemonsGround",
+"category": "tile",
+"sub": "abyssOfDemonsGround",
+"why": "src",
+"file": "tiles/all/IAbyss Dual Check Tile__672.png"
+},
+{
+"id": "IAbyss Empty Channel V",
+"type": "0x673",
+"src": "abyssOfDemonsGround",
+"category": "tile",
+"sub": "abyssOfDemonsGround",
+"why": "src",
+"file": "tiles/all/IAbyss Empty Channel V__673.png"
+},
+{
+"id": "IAbyss Empty Channel H",
+"type": "0x674",
+"src": "abyssOfDemonsGround",
+"category": "tile",
+"sub": "abyssOfDemonsGround",
+"why": "src",
+"file": "tiles/all/IAbyss Empty Channel H__674.png"
+},
+{
+"id": "IAbyss Empty Channel T W",
+"type": "0x675",
+"src": "abyssOfDemonsGround",
+"category": "tile",
+"sub": "abyssOfDemonsGround",
+"why": "src",
+"file": "tiles/all/IAbyss Empty Channel T W__675.png"
+},
+{
+"id": "IAbyss Empty Channel T N",
+"type": "0x676",
+"src": "abyssOfDemonsGround",
+"category": "tile",
+"sub": "abyssOfDemonsGround",
+"why": "src",
+"file": "tiles/all/IAbyss Empty Channel T N__676.png"
+},
+{
+"id": "IAbyss Empty Channel T E",
+"type": "0x677",
+"src": "abyssOfDemonsGround",
+"category": "tile",
+"sub": "abyssOfDemonsGround",
+"why": "src",
+"file": "tiles/all/IAbyss Empty Channel T E__677.png"
+},
+{
+"id": "IAbyss Empty Channel T S",
+"type": "0x678",
+"src": "abyssOfDemonsGround",
+"category": "tile",
+"sub": "abyssOfDemonsGround",
+"why": "src",
+"file": "tiles/all/IAbyss Empty Channel T S__678.png"
+},
+{
+"id": "IAbyss Empty Channel T P",
+"type": "0x679",
+"src": "abyssOfDemonsGround",
+"category": "tile",
+"sub": "abyssOfDemonsGround",
+"why": "src",
+"file": "tiles/all/IAbyss Empty Channel T P__679.png"
+},
+{
+"id": "IAbyss Empty Channel BL",
+"type": "0x67a",
+"src": "abyssOfDemonsGround",
+"category": "tile",
+"sub": "abyssOfDemonsGround",
+"why": "src",
+"file": "tiles/all/IAbyss Empty Channel BL__67a.png"
+},
+{
+"id": "IAbyss Empty Channel TL",
+"type": "0x67b",
+"src": "abyssOfDemonsGround",
+"category": "tile",
+"sub": "abyssOfDemonsGround",
+"why": "src",
+"file": "tiles/all/IAbyss Empty Channel TL__67b.png"
+},
+{
+"id": "IAbyss Empty Channel BR",
+"type": "0x67c",
+"src": "abyssOfDemonsGround",
+"category": "tile",
+"sub": "abyssOfDemonsGround",
+"why": "src",
+"file": "tiles/all/IAbyss Empty Channel BR__67c.png"
+},
+{
+"id": "IAbyss Empty Channel TR",
+"type": "0x67d",
+"src": "abyssOfDemonsGround",
+"category": "tile",
+"sub": "abyssOfDemonsGround",
+"why": "src",
+"file": "tiles/all/IAbyss Empty Channel TR__67d.png"
+},
+{
+"id": "IAbyss Empty Channel C",
+"type": "0x67e",
+"src": "abyssOfDemonsGround",
+"category": "tile",
+"sub": "abyssOfDemonsGround",
+"why": "src",
+"file": "tiles/all/IAbyss Empty Channel C__67e.png"
+},
+{
+"id": "IAbyss Black Empty Channel V",
+"type": "0x67f",
+"src": "abyssOfDemonsGround",
+"category": "tile",
+"sub": "abyssOfDemonsGround",
+"why": "src",
+"file": "tiles/all/IAbyss Black Empty Channel V__67f.png"
+},
+{
+"id": "IAbyss Black Empty Channel H",
+"type": "0x680",
+"src": "abyssOfDemonsGround",
+"category": "tile",
+"sub": "abyssOfDemonsGround",
+"why": "src",
+"file": "tiles/all/IAbyss Black Empty Channel H__680.png"
+},
+{
+"id": "IAbyss Black Empty Channel T W",
+"type": "0x681",
+"src": "abyssOfDemonsGround",
+"category": "tile",
+"sub": "abyssOfDemonsGround",
+"why": "src",
+"file": "tiles/all/IAbyss Black Empty Channel T W__681.png"
+},
+{
+"id": "IAbyss Black Empty Channel T N",
+"type": "0x682",
+"src": "abyssOfDemonsGround",
+"category": "tile",
+"sub": "abyssOfDemonsGround",
+"why": "src",
+"file": "tiles/all/IAbyss Black Empty Channel T N__682.png"
+},
+{
+"id": "IAbyss Black Empty Channel T E",
+"type": "0x683",
+"src": "abyssOfDemonsGround",
+"category": "tile",
+"sub": "abyssOfDemonsGround",
+"why": "src",
+"file": "tiles/all/IAbyss Black Empty Channel T E__683.png"
+},
+{
+"id": "IAbyss Black Empty Channel T S",
+"type": "0x684",
+"src": "abyssOfDemonsGround",
+"category": "tile",
+"sub": "abyssOfDemonsGround",
+"why": "src",
+"file": "tiles/all/IAbyss Black Empty Channel T S__684.png"
+},
+{
+"id": "IAbyss Black Empty Channel T P",
+"type": "0x685",
+"src": "abyssOfDemonsGround",
+"category": "tile",
+"sub": "abyssOfDemonsGround",
+"why": "src",
+"file": "tiles/all/IAbyss Black Empty Channel T P__685.png"
+},
+{
+"id": "IAbyss Black Empty Channel BL",
+"type": "0x686",
+"src": "abyssOfDemonsGround",
+"category": "tile",
+"sub": "abyssOfDemonsGround",
+"why": "src",
+"file": "tiles/all/IAbyss Black Empty Channel BL__686.png"
+},
+{
+"id": "IAbyss Black Empty Channel TL",
+"type": "0x687",
+"src": "abyssOfDemonsGround",
+"category": "tile",
+"sub": "abyssOfDemonsGround",
+"why": "src",
+"file": "tiles/all/IAbyss Black Empty Channel TL__687.png"
+},
+{
+"id": "IAbyss Black Empty Channel BR",
+"type": "0x688",
+"src": "abyssOfDemonsGround",
+"category": "tile",
+"sub": "abyssOfDemonsGround",
+"why": "src",
+"file": "tiles/all/IAbyss Black Empty Channel BR__688.png"
+},
+{
+"id": "IAbyss Black Empty Channel TR",
+"type": "0x689",
+"src": "abyssOfDemonsGround",
+"category": "tile",
+"sub": "abyssOfDemonsGround",
+"why": "src",
+"file": "tiles/all/IAbyss Black Empty Channel TR__689.png"
+},
+{
+"id": "IAbyss Black Empty Channel C",
+"type": "0x68a",
+"src": "abyssOfDemonsGround",
+"category": "tile",
+"sub": "abyssOfDemonsGround",
+"why": "src",
+"file": "tiles/all/IAbyss Black Empty Channel C__68a.png"
+},
+{
+"id": "IAbyss Black Rune",
+"type": "0x68b",
+"src": "abyssOfDemonsGround",
+"category": "tile",
+"sub": "abyssOfDemonsGround",
+"why": "src",
+"file": "tiles/all/IAbyss Black Rune__68b.png"
+},
+{
+"id": "IAbyss Red Rune",
+"type": "0x68c",
+"src": "abyssOfDemonsGround",
+"category": "tile",
+"sub": "abyssOfDemonsGround",
+"why": "src",
+"file": "tiles/all/IAbyss Red Rune__68c.png"
+},
+{
+"id": "IAbyss Black Gem",
+"type": "0x68d",
+"src": "abyssOfDemonsGround",
+"category": "tile",
+"sub": "abyssOfDemonsGround",
+"why": "src",
+"file": "tiles/all/IAbyss Black Gem__68d.png"
+},
+{
+"id": "IAbyss Red Gem",
+"type": "0x68e",
+"src": "abyssOfDemonsGround",
+"category": "tile",
+"sub": "abyssOfDemonsGround",
+"why": "src",
+"file": "tiles/all/IAbyss Red Gem__68e.png"
+},
+{
+"id": "IAbyss Lava Fake",
+"type": "0x692",
+"src": "abyssOfDemonsGround",
+"category": "tile",
+"sub": "abyssOfDemonsGround",
+"why": "src",
+"file": "tiles/all/IAbyss Lava Fake__692.png"
+},
+{
+"id": "IAbyss Dark Fort Tile Lava",
+"type": "0x697",
+"src": "abyssOfDemonsGround",
+"category": "tile",
+"sub": "abyssOfDemonsGround",
+"why": "src",
+"file": "tiles/all/IAbyss Dark Fort Tile Lava__697.png"
+},
+{
 "id": "Abyss Imp Projectile",
-"type": "0x2bc",
+"type": "0x02bc",
 "src": "abyssOfDemonsObjects",
 "category": "projectile",
 "sub": "all",
 "why": "src",
-"file": "projectiles/all/Abyss Imp Projectile__2bc.png"
+"file": "projectiles/all/Abyss Imp Projectile__02bc.png"
 },
 {
 "id": "Abyss Fire Projectile",
-"type": "0x2bd",
+"type": "0x02bd",
 "src": "abyssOfDemonsObjects",
 "category": "projectile",
 "sub": "all",
 "why": "src",
-"file": "projectiles/all/Abyss Fire Projectile__2bd.png"
+"file": "projectiles/all/Abyss Fire Projectile__02bd.png"
 },
 {
 "id": "Abyss Blast Projectile",
-"type": "0x2be",
+"type": "0x02be",
 "src": "abyssOfDemonsObjects",
 "category": "projectile",
 "sub": "all",
 "why": "src",
-"file": "projectiles/all/Abyss Blast Projectile__2be.png"
+"file": "projectiles/all/Abyss Blast Projectile__02be.png"
 },
 {
 "id": "Abyss Sword Projectile",
-"type": "0x2bf",
+"type": "0x02bf",
 "src": "abyssOfDemonsObjects",
 "category": "projectile",
 "sub": "all",
 "why": "src",
-"file": "projectiles/all/Abyss Sword Projectile__2bf.png"
+"file": "projectiles/all/Abyss Sword Projectile__02bf.png"
 },
 {
 "id": "Abyss Soul Shot Projectile",
-"type": "0x2c0",
+"type": "0x02c0",
 "src": "abyssOfDemonsObjects",
 "category": "projectile",
 "sub": "all",
 "why": "src",
-"file": "projectiles/all/Abyss Soul Shot Projectile__2c0.png"
+"file": "projectiles/all/Abyss Soul Shot Projectile__02c0.png"
 },
 {
 "id": "Abyss Soul Bash Projectile",
-"type": "0x2c1",
+"type": "0x02c1",
 "src": "abyssOfDemonsObjects",
 "category": "projectile",
 "sub": "all",
 "why": "src",
-"file": "projectiles/all/Abyss Soul Bash Projectile__2c1.png"
+"file": "projectiles/all/Abyss Soul Bash Projectile__02c1.png"
 },
 {
 "id": "Abyss Soul Spear Projectile",
-"type": "0x2d8",
+"type": "0x02d8",
 "src": "abyssOfDemonsObjects",
 "category": "projectile",
 "sub": "all",
 "why": "src",
-"file": "projectiles/all/Abyss Soul Spear Projectile__2d8.png"
+"file": "projectiles/all/Abyss Soul Spear Projectile__02d8.png"
 },
 {
 "id": "Abyss Soul Spiral Projectile",
@@ -505,66 +866,66 @@
 },
 {
 "id": "White Demon of the Abyss",
-"type": "0x673",
+"type": "0x0673",
 "src": "abyssOfDemonsObjects",
 "category": "enemy",
 "sub": "regular",
 "why": "src",
-"file": "enemies/regular/White Demon of the Abyss__673.png"
+"file": "enemies/regular/White Demon of the Abyss__0673.png"
 },
 {
 "id": "Imp of the Abyss",
-"type": "0x66d",
+"type": "0x066d",
 "src": "abyssOfDemonsObjects",
 "category": "enemy",
 "sub": "regular",
 "why": "src",
-"file": "enemies/regular/Imp of the Abyss__66d.png"
+"file": "enemies/regular/Imp of the Abyss__066d.png"
 },
 {
 "id": "Demon of the Abyss",
-"type": "0x66e",
+"type": "0x066e",
 "src": "abyssOfDemonsObjects",
 "category": "enemy",
 "sub": "regular",
 "why": "src",
-"file": "enemies/regular/Demon of the Abyss__66e.png"
+"file": "enemies/regular/Demon of the Abyss__066e.png"
 },
 {
 "id": "Demon Warrior of the Abyss",
-"type": "0x66f",
+"type": "0x066f",
 "src": "abyssOfDemonsObjects",
 "category": "enemy",
 "sub": "regular",
 "why": "src",
-"file": "enemies/regular/Demon Warrior of the Abyss__66f.png"
+"file": "enemies/regular/Demon Warrior of the Abyss__066f.png"
 },
 {
 "id": "Demon Mage of the Abyss",
-"type": "0x670",
+"type": "0x0670",
 "src": "abyssOfDemonsObjects",
 "category": "enemy",
 "sub": "regular",
 "why": "src",
-"file": "enemies/regular/Demon Mage of the Abyss__670.png"
+"file": "enemies/regular/Demon Mage of the Abyss__0670.png"
 },
 {
 "id": "Brute of the Abyss",
-"type": "0x671",
+"type": "0x0671",
 "src": "abyssOfDemonsObjects",
 "category": "enemy",
 "sub": "regular",
 "why": "src",
-"file": "enemies/regular/Brute of the Abyss__671.png"
+"file": "enemies/regular/Brute of the Abyss__0671.png"
 },
 {
 "id": "Brute Warrior of the Abyss",
-"type": "0x672",
+"type": "0x0672",
 "src": "abyssOfDemonsObjects",
 "category": "enemy",
 "sub": "regular",
 "why": "src",
-"file": "enemies/regular/Brute Warrior of the Abyss__672.png"
+"file": "enemies/regular/Brute Warrior of the Abyss__0672.png"
 },
 {
 "id": "Blacksmith of the Abyss",
@@ -574,6 +935,114 @@
 "sub": "regular",
 "why": "src",
 "file": "enemies/regular/Blacksmith of the Abyss__b4e4.png"
+},
+{
+"id": "Infernal Brute Berserker",
+"type": "0x3991",
+"src": "abyssOfDemonsObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Infernal Brute Berserker__3991.png"
+},
+{
+"id": "Infernal Warsmith",
+"type": "0x3992",
+"src": "abyssOfDemonsObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Infernal Warsmith__3992.png"
+},
+{
+"id": "Infernal Magus",
+"type": "0x3993",
+"src": "abyssOfDemonsObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Infernal Magus__3993.png"
+},
+{
+"id": "Infernal Sorceress",
+"type": "0x3995",
+"src": "abyssOfDemonsObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Infernal Sorceress__3995.png"
+},
+{
+"id": "Infernal Demon Warrior",
+"type": "0x3996",
+"src": "abyssOfDemonsObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Infernal Demon Warrior__3996.png"
+},
+{
+"id": "Infernal Red Demon",
+"type": "0x3a0f",
+"src": "abyssOfDemonsObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Infernal Red Demon__3a0f.png"
+},
+{
+"id": "Infernal Archdemon Summoner",
+"type": "0x397d",
+"src": "abyssOfDemonsObjects",
+"category": "prop",
+"sub": "abyssOfDemonsObjects",
+"why": "src",
+"file": "props/all/Infernal Archdemon Summoner__397d.png"
+},
+{
+"id": "Infernal Archdemon Malphas",
+"type": "0x397e",
+"src": "abyssOfDemonsObjects",
+"category": "enemy",
+"sub": "boss",
+"why": "src",
+"file": "enemies/boss/Infernal Archdemon Malphas__397e.png"
+},
+{
+"id": "Infernal Malphas Protector",
+"type": "0x3a1e",
+"src": "abyssOfDemonsObjects",
+"category": "helper",
+"sub": "other",
+"why": "src",
+"file": "helpers/other/Infernal Malphas Protector__3a1e.png"
+},
+{
+"id": "Infernal Far Malphas Protector",
+"type": "0x3a2b",
+"src": "abyssOfDemonsObjects",
+"category": "helper",
+"sub": "other",
+"why": "src",
+"file": "helpers/other/Infernal Far Malphas Protector__3a2b.png"
+},
+{
+"id": "Infernal Malphas Hound",
+"type": "0x3a1f",
+"src": "abyssOfDemonsObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Infernal Malphas Hound__3a1f.png"
+},
+{
+"id": "Infernal Malphas Missile",
+"type": "0x3a26",
+"src": "abyssOfDemonsObjects",
+"category": "helper",
+"sub": "effect",
+"why": "src",
+"file": "helpers/effect/Infernal Malphas Missile__3a26.png"
 },
 {
 "id": "AbyssIdolDead",
@@ -594,6 +1063,15 @@
 "file": "enemies/miniboss/Abyss Idol__0e1d.png"
 },
 {
+"id": "Infernal Abyss Idol",
+"type": "0x3a27",
+"src": "abyssOfDemonsObjects",
+"category": "enemy",
+"sub": "miniboss",
+"why": "src",
+"file": "enemies/miniboss/Infernal Abyss Idol__3a27.png"
+},
+{
 "id": "AbyssExitGuarder",
 "type": "0x0e1c",
 "src": "abyssOfDemonsObjects",
@@ -601,6 +1079,33 @@
 "sub": "abyssOfDemonsObjects",
 "why": "src",
 "file": "props/all/AbyssExitGuarder__0e1c.png"
+},
+{
+"id": "AbyssExitGuarder L",
+"type": "0x3a28",
+"src": "abyssOfDemonsObjects",
+"category": "prop",
+"sub": "abyssOfDemonsObjects",
+"why": "src",
+"file": "props/all/AbyssExitGuarder L__3a28.png"
+},
+{
+"id": "AbyssExitGuarder R",
+"type": "0x3a29",
+"src": "abyssOfDemonsObjects",
+"category": "prop",
+"sub": "abyssOfDemonsObjects",
+"why": "src",
+"file": "props/all/AbyssExitGuarder R__3a29.png"
+},
+{
+"id": "AbyssExitGuarder U",
+"type": "0x3a2a",
+"src": "abyssOfDemonsObjects",
+"category": "prop",
+"sub": "abyssOfDemonsObjects",
+"why": "src",
+"file": "props/all/AbyssExitGuarder U__3a2a.png"
 },
 {
 "id": "LavaTrigger",
@@ -802,30 +1307,30 @@
 },
 {
 "id": "Abyss Common Statue",
-"type": "0x2d9",
+"type": "0x02d9",
 "src": "abyssOfDemonsObjects",
 "category": "prop",
 "sub": "abyssOfDemonsObjects",
 "why": "src",
-"file": "props/all/Abyss Common Statue__2d9.png"
+"file": "props/all/Abyss Common Statue__02d9.png"
 },
 {
 "id": "Abyss Rare Statue",
-"type": "0x2da",
+"type": "0x02da",
 "src": "abyssOfDemonsObjects",
 "category": "prop",
 "sub": "abyssOfDemonsObjects",
 "why": "src",
-"file": "props/all/Abyss Rare Statue__2da.png"
+"file": "props/all/Abyss Rare Statue__02da.png"
 },
 {
 "id": "Abyss Legendary Statue",
-"type": "0x2db",
+"type": "0x02db",
 "src": "abyssOfDemonsObjects",
 "category": "prop",
 "sub": "abyssOfDemonsObjects",
 "why": "src",
-"file": "props/all/Abyss Legendary Statue__2db.png"
+"file": "props/all/Abyss Legendary Statue__02db.png"
 },
 {
 "id": "Abyss Fire Spawner",
@@ -838,48 +1343,48 @@
 },
 {
 "id": "Abyss Fire",
-"type": "0x2dc",
+"type": "0x02dc",
 "src": "abyssOfDemonsObjects",
 "category": "prop",
 "sub": "abyssOfDemonsObjects",
 "why": "src",
-"file": "props/all/Abyss Fire__2dc.png"
+"file": "props/all/Abyss Fire__02dc.png"
 },
 {
 "id": "Abyss Fire Off",
-"type": "0x2dd",
+"type": "0x02dd",
 "src": "abyssOfDemonsObjects",
 "category": "prop",
 "sub": "abyssOfDemonsObjects",
 "why": "src",
-"file": "props/all/Abyss Fire Off__2dd.png"
+"file": "props/all/Abyss Fire Off__02dd.png"
 },
 {
 "id": "Abyss Sunken Statue",
-"type": "0x2de",
+"type": "0x02de",
 "src": "abyssOfDemonsObjects",
 "category": "prop",
 "sub": "abyssOfDemonsObjects",
 "why": "src",
-"file": "props/all/Abyss Sunken Statue__2de.png"
+"file": "props/all/Abyss Sunken Statue__02de.png"
 },
 {
 "id": "Abyss Hot Rock",
-"type": "0x2df",
+"type": "0x02df",
 "src": "abyssOfDemonsObjects",
 "category": "prop",
 "sub": "abyssOfDemonsObjects",
 "why": "src",
-"file": "props/all/Abyss Hot Rock__2df.png"
+"file": "props/all/Abyss Hot Rock__02df.png"
 },
 {
 "id": "Abyss Anvil",
-"type": "0x2e0",
+"type": "0x02e0",
 "src": "abyssOfDemonsObjects",
 "category": "prop",
 "sub": "abyssOfDemonsObjects",
 "why": "src",
-"file": "props/all/Abyss Anvil__2e0.png"
+"file": "props/all/Abyss Anvil__02e0.png"
 },
 {
 "id": "Abyss Fireball",
@@ -943,6 +1448,375 @@
 "sub": "abyssOfDemonsObjects",
 "why": "src",
 "file": "props/all/Abyss Guill Doll__b51e.png"
+},
+{
+"id": "IAbyss Ore Crate",
+"type": "0x397f",
+"src": "abyssOfDemonsObjects",
+"category": "prop",
+"sub": "abyssOfDemonsObjects",
+"why": "src",
+"file": "props/all/IAbyss Ore Crate__397f.png"
+},
+{
+"id": "IAbyss Forge Deco",
+"type": "0x3980",
+"src": "abyssOfDemonsObjects",
+"category": "prop",
+"sub": "abyssOfDemonsObjects",
+"why": "src",
+"file": "props/all/IAbyss Forge Deco__3980.png"
+},
+{
+"id": "IAbyss Forge Ingots",
+"type": "0x3981",
+"src": "abyssOfDemonsObjects",
+"category": "prop",
+"sub": "abyssOfDemonsObjects",
+"why": "src",
+"file": "props/all/IAbyss Forge Ingots__3981.png"
+},
+{
+"id": "IAbyss Forge Weapons",
+"type": "0x398b",
+"src": "abyssOfDemonsObjects",
+"category": "prop",
+"sub": "abyssOfDemonsObjects",
+"why": "src",
+"file": "props/all/IAbyss Forge Weapons__398b.png"
+},
+{
+"id": "IAbyss Forge Statues",
+"type": "0x398c",
+"src": "abyssOfDemonsObjects",
+"category": "prop",
+"sub": "abyssOfDemonsObjects",
+"why": "src",
+"file": "props/all/IAbyss Forge Statues__398c.png"
+},
+{
+"id": "IAbyss Cave Ores",
+"type": "0x398d",
+"src": "abyssOfDemonsObjects",
+"category": "prop",
+"sub": "abyssOfDemonsObjects",
+"why": "src",
+"file": "props/all/IAbyss Cave Ores__398d.png"
+},
+{
+"id": "IAbyss Furnace",
+"type": "0x398e",
+"src": "abyssOfDemonsObjects",
+"category": "prop",
+"sub": "abyssOfDemonsObjects",
+"why": "src",
+"file": "props/all/IAbyss Furnace__398e.png"
+},
+{
+"id": "IAbyss Crucible",
+"type": "0x398f",
+"src": "abyssOfDemonsObjects",
+"category": "prop",
+"sub": "abyssOfDemonsObjects",
+"why": "src",
+"file": "props/all/IAbyss Crucible__398f.png"
+},
+{
+"id": "IAbyss Magma Flow",
+"type": "0x3990",
+"src": "abyssOfDemonsObjects",
+"category": "prop",
+"sub": "abyssOfDemonsObjects",
+"why": "src",
+"file": "props/all/IAbyss Magma Flow__3990.png"
+},
+{
+"id": "IAbyss Cave Ores Small",
+"type": "0x3a08",
+"src": "abyssOfDemonsObjects",
+"category": "prop",
+"sub": "abyssOfDemonsObjects",
+"why": "src",
+"file": "props/all/IAbyss Cave Ores Small__3a08.png"
+},
+{
+"id": "IAbyss Fort Wall",
+"type": "0x3a09",
+"src": "abyssOfDemonsObjects",
+"category": "wall",
+"sub": "abyssOfDemonsObjects",
+"why": "src",
+"file": "walls/all/IAbyss Fort Wall__3a09.png"
+},
+{
+"id": "IAbyss Black Fort Wall",
+"type": "0x3a0a",
+"src": "abyssOfDemonsObjects",
+"category": "wall",
+"sub": "abyssOfDemonsObjects",
+"why": "src",
+"file": "walls/all/IAbyss Black Fort Wall__3a0a.png"
+},
+{
+"id": "IAbyss Lava Wall",
+"type": "0x3a0b",
+"src": "abyssOfDemonsObjects",
+"category": "wall",
+"sub": "abyssOfDemonsObjects",
+"why": "src",
+"file": "walls/all/IAbyss Lava Wall__3a0b.png"
+},
+{
+"id": "IAbyss Black Lava Wall",
+"type": "0x3a0c",
+"src": "abyssOfDemonsObjects",
+"category": "wall",
+"sub": "abyssOfDemonsObjects",
+"why": "src",
+"file": "walls/all/IAbyss Black Lava Wall__3a0c.png"
+},
+{
+"id": "IAbyss Column Wall",
+"type": "0x3a10",
+"src": "abyssOfDemonsObjects",
+"category": "wall",
+"sub": "abyssOfDemonsObjects",
+"why": "src",
+"file": "walls/all/IAbyss Column Wall__3a10.png"
+},
+{
+"id": "IAbyss Red Lava Channel V",
+"type": "0x3997",
+"src": "abyssOfDemonsObjects",
+"category": "prop",
+"sub": "abyssOfDemonsObjects",
+"why": "src",
+"file": "props/all/IAbyss Red Lava Channel V__3997.png"
+},
+{
+"id": "IAbyss Red Lava Channel H",
+"type": "0x3999",
+"src": "abyssOfDemonsObjects",
+"category": "prop",
+"sub": "abyssOfDemonsObjects",
+"why": "src",
+"file": "props/all/IAbyss Red Lava Channel H__3999.png"
+},
+{
+"id": "IAbyss Red Lava Channel T S",
+"type": "0x399b",
+"src": "abyssOfDemonsObjects",
+"category": "prop",
+"sub": "abyssOfDemonsObjects",
+"why": "src",
+"file": "props/all/IAbyss Red Lava Channel T S__399b.png"
+},
+{
+"id": "IAbyss Red Lava Channel T W",
+"type": "0x399c",
+"src": "abyssOfDemonsObjects",
+"category": "prop",
+"sub": "abyssOfDemonsObjects",
+"why": "src",
+"file": "props/all/IAbyss Red Lava Channel T W__399c.png"
+},
+{
+"id": "IAbyss Red Lava Channel T N",
+"type": "0x399d",
+"src": "abyssOfDemonsObjects",
+"category": "prop",
+"sub": "abyssOfDemonsObjects",
+"why": "src",
+"file": "props/all/IAbyss Red Lava Channel T N__399d.png"
+},
+{
+"id": "IAbyss Red Lava Channel T E",
+"type": "0x399e",
+"src": "abyssOfDemonsObjects",
+"category": "prop",
+"sub": "abyssOfDemonsObjects",
+"why": "src",
+"file": "props/all/IAbyss Red Lava Channel T E__399e.png"
+},
+{
+"id": "IAbyss Red Lava Channel T P",
+"type": "0x399f",
+"src": "abyssOfDemonsObjects",
+"category": "prop",
+"sub": "abyssOfDemonsObjects",
+"why": "src",
+"file": "props/all/IAbyss Red Lava Channel T P__399f.png"
+},
+{
+"id": "IAbyss Red Lava Channel BL",
+"type": "0x39a0",
+"src": "abyssOfDemonsObjects",
+"category": "prop",
+"sub": "abyssOfDemonsObjects",
+"why": "src",
+"file": "props/all/IAbyss Red Lava Channel BL__39a0.png"
+},
+{
+"id": "IAbyss Red Lava Channel TL",
+"type": "0x39a1",
+"src": "abyssOfDemonsObjects",
+"category": "prop",
+"sub": "abyssOfDemonsObjects",
+"why": "src",
+"file": "props/all/IAbyss Red Lava Channel TL__39a1.png"
+},
+{
+"id": "IAbyss Red Lava Channel BR",
+"type": "0x39a2",
+"src": "abyssOfDemonsObjects",
+"category": "prop",
+"sub": "abyssOfDemonsObjects",
+"why": "src",
+"file": "props/all/IAbyss Red Lava Channel BR__39a2.png"
+},
+{
+"id": "IAbyss Red Lava Channel TR",
+"type": "0x39bf",
+"src": "abyssOfDemonsObjects",
+"category": "prop",
+"sub": "abyssOfDemonsObjects",
+"why": "src",
+"file": "props/all/IAbyss Red Lava Channel TR__39bf.png"
+},
+{
+"id": "IAbyss Red Lava Channel C",
+"type": "0x39fb",
+"src": "abyssOfDemonsObjects",
+"category": "prop",
+"sub": "abyssOfDemonsObjects",
+"why": "src",
+"file": "props/all/IAbyss Red Lava Channel C__39fb.png"
+},
+{
+"id": "IAbyss Black Lava Channel V",
+"type": "0x39fc",
+"src": "abyssOfDemonsObjects",
+"category": "prop",
+"sub": "abyssOfDemonsObjects",
+"why": "src",
+"file": "props/all/IAbyss Black Lava Channel V__39fc.png"
+},
+{
+"id": "IAbyss Black Lava Channel H",
+"type": "0x39fd",
+"src": "abyssOfDemonsObjects",
+"category": "prop",
+"sub": "abyssOfDemonsObjects",
+"why": "src",
+"file": "props/all/IAbyss Black Lava Channel H__39fd.png"
+},
+{
+"id": "IAbyss Black Lava Channel T S",
+"type": "0x39fe",
+"src": "abyssOfDemonsObjects",
+"category": "prop",
+"sub": "abyssOfDemonsObjects",
+"why": "src",
+"file": "props/all/IAbyss Black Lava Channel T S__39fe.png"
+},
+{
+"id": "IAbyss Black Lava Channel T W",
+"type": "0x39ff",
+"src": "abyssOfDemonsObjects",
+"category": "prop",
+"sub": "abyssOfDemonsObjects",
+"why": "src",
+"file": "props/all/IAbyss Black Lava Channel T W__39ff.png"
+},
+{
+"id": "IAbyss Black Lava Channel T N",
+"type": "0x3a00",
+"src": "abyssOfDemonsObjects",
+"category": "prop",
+"sub": "abyssOfDemonsObjects",
+"why": "src",
+"file": "props/all/IAbyss Black Lava Channel T N__3a00.png"
+},
+{
+"id": "IAbyss Black Lava Channel T E",
+"type": "0x3a01",
+"src": "abyssOfDemonsObjects",
+"category": "prop",
+"sub": "abyssOfDemonsObjects",
+"why": "src",
+"file": "props/all/IAbyss Black Lava Channel T E__3a01.png"
+},
+{
+"id": "IAbyss Black Lava Channel T P",
+"type": "0x3a02",
+"src": "abyssOfDemonsObjects",
+"category": "prop",
+"sub": "abyssOfDemonsObjects",
+"why": "src",
+"file": "props/all/IAbyss Black Lava Channel T P__3a02.png"
+},
+{
+"id": "IAbyss Black Lava Channel BL",
+"type": "0x3a03",
+"src": "abyssOfDemonsObjects",
+"category": "prop",
+"sub": "abyssOfDemonsObjects",
+"why": "src",
+"file": "props/all/IAbyss Black Lava Channel BL__3a03.png"
+},
+{
+"id": "IAbyss Black Lava Channel TL",
+"type": "0x3a04",
+"src": "abyssOfDemonsObjects",
+"category": "prop",
+"sub": "abyssOfDemonsObjects",
+"why": "src",
+"file": "props/all/IAbyss Black Lava Channel TL__3a04.png"
+},
+{
+"id": "IAbyss Black Lava Channel BR",
+"type": "0x3a05",
+"src": "abyssOfDemonsObjects",
+"category": "prop",
+"sub": "abyssOfDemonsObjects",
+"why": "src",
+"file": "props/all/IAbyss Black Lava Channel BR__3a05.png"
+},
+{
+"id": "IAbyss Black Lava Channel TR",
+"type": "0x3a06",
+"src": "abyssOfDemonsObjects",
+"category": "prop",
+"sub": "abyssOfDemonsObjects",
+"why": "src",
+"file": "props/all/IAbyss Black Lava Channel TR__3a06.png"
+},
+{
+"id": "IAbyss Black Lava Channel C",
+"type": "0x3a07",
+"src": "abyssOfDemonsObjects",
+"category": "prop",
+"sub": "abyssOfDemonsObjects",
+"why": "src",
+"file": "props/all/IAbyss Black Lava Channel C__3a07.png"
+},
+{
+"id": "Infernal Abyss of Demons Portal",
+"type": "0x3a0d",
+"src": "abyssOfDemonsObjects",
+"category": "portal",
+"sub": "all",
+"why": "src",
+"file": "portals/all/Infernal Abyss of Demons Portal__3a0d.png"
+},
+{
+"id": "Abyss Brute Talon",
+"type": "0x3a1d",
+"src": "abyssOfDemonsObjects",
+"category": "projectile",
+"sub": "all",
+"why": "src",
+"file": "projectiles/all/Abyss Brute Talon__3a1d.png"
 },
 {
 "id": "Red Fire",
@@ -1089,6 +1963,105 @@
 "file": "projectiles/all/Idol Blast__00d3.png"
 },
 {
+"id": "Guard Wave Small",
+"type": "0x820e",
+"src": "theShattersObjects",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Guard Wave Small__820e.png"
+},
+{
+"id": "Guard Wave Medium",
+"type": "0x820f",
+"src": "theShattersObjects",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Guard Wave Medium__820f.png"
+},
+{
+"id": "Guard Wave Large",
+"type": "0x8210",
+"src": "theShattersObjects",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Guard Wave Large__8210.png"
+},
+{
+"id": "steamworks Golden Hammer 2",
+"type": "0xc0e8",
+"src": "steamworksObjects",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/steamworks Golden Hammer 2__c0e8.png"
+},
+{
+"id": "Tavern Brute Wave",
+"type": "0xc44f",
+"src": "rollerRinkObjects",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Tavern Brute Wave__c44f.png"
+},
+{
+"id": "Hell Dragon 1",
+"type": "0x542d",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Hell Dragon 1__542d.png"
+},
+{
+"id": "Hell Skeleton 1",
+"type": "0x5429",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Hell Skeleton 1__5429.png"
+},
+{
+"id": "Hell Skull 1",
+"type": "0x542f",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Hell Skull 1__542f.png"
+},
+{
+"id": "Dagger",
+"type": "0x00a8",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Dagger__00a8.png"
+},
+{
+"id": "Ent God Bolt",
+"type": "0xc011",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Ent God Bolt__c011.png"
+},
+{
+"id": "Red Demon Mystic Shot",
+"type": "0xc019",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Red Demon Mystic Shot__c019.png"
+},
+{
 "id": "Demon Blade",
 "type": "0xc01",
 "src": "equip",
@@ -1123,6 +2096,15 @@
 "sub": "all",
 "why": "loot",
 "file": "loot/ability/Volcanic Sheath__39e2.png"
+},
+{
+"id": "Berserker's Breastplate",
+"type": "0x3a1c",
+"src": "equip",
+"category": "armor",
+"sub": "heavy",
+"why": "loot",
+"file": "loot/armor/Berserker_s Breastplate__3a1c.png"
 },
 {
 "id": "Bridge",

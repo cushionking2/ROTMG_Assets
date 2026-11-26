@@ -5,10 +5,10 @@
 "lostHallsGround"
 ],
 "counts": {
-"tiles": 57,
-"portals": 8,
-"helpers": 36,
-"enemies": 78,
+"tiles": 58,
+"portals": 9,
+"helpers": 40,
+"enemies": 75,
 "props": 144,
 "npcs": 5,
 "walls": 14,
@@ -16,7 +16,7 @@
 "loot": 5
 },
 "why": {
-"src": 335,
+"src": 338,
 "spec": 7,
 "proj": 91,
 "loot": 5
@@ -600,6 +600,15 @@
 "file": "tiles/all/LH Cult Top Tile V__b049.png"
 },
 {
+"id": "LH Cult Boss Tile",
+"type": "0xb0ff",
+"src": "lostHallsGround",
+"category": "tile",
+"sub": "lostHallsGround",
+"why": "src",
+"file": "tiles/all/LH Cult Boss Tile__b0ff.png"
+},
+{
 "id": "Lost Halls Portal",
 "type": "0xb024",
 "src": "lostHallsObjects",
@@ -643,6 +652,33 @@
 "sub": "invisible",
 "why": "src",
 "file": "helpers/invisible/Easy Void Initiator 2__70db.png"
+},
+{
+"id": "New Easy Void Portal",
+"type": "0x99E",
+"src": "lostHallsObjects",
+"category": "portal",
+"sub": "all",
+"why": "src",
+"file": "portals/all/New Easy Void Portal__99E.png"
+},
+{
+"id": "New Easy Void Initiator 1",
+"type": "0x9AB",
+"src": "lostHallsObjects",
+"category": "helper",
+"sub": "invisible",
+"why": "src",
+"file": "helpers/invisible/New Easy Void Initiator 1__9AB.png"
+},
+{
+"id": "New Easy Void Initiator 2",
+"type": "0x99D",
+"src": "lostHallsObjects",
+"category": "helper",
+"sub": "invisible",
+"why": "src",
+"file": "helpers/invisible/New Easy Void Initiator 2__99D.png"
 },
 {
 "id": "LH Cult Portal Locked",
@@ -1086,33 +1122,6 @@
 "file": "props/all/LH Monster Spawner__b015.png"
 },
 {
-"id": "LH Debug Drops",
-"type": "0xb098",
-"src": "lostHallsObjects",
-"category": "enemy",
-"sub": "regular",
-"why": "src",
-"file": "enemies/regular/LH Debug Drops__b098.png"
-},
-{
-"id": "LH Debug Drops2",
-"type": "0xb02c",
-"src": "lostHallsObjects",
-"category": "enemy",
-"sub": "regular",
-"why": "src",
-"file": "enemies/regular/LH Debug Drops2__b02c.png"
-},
-{
-"id": "LH Debug Drops3",
-"type": "0xb16a",
-"src": "lostHallsObjects",
-"category": "enemy",
-"sub": "regular",
-"why": "src",
-"file": "enemies/regular/LH Debug Drops3__b16a.png"
-},
-{
 "id": "LH Marble Defender F",
 "type": "0xb136",
 "src": "lostHallsObjects",
@@ -1228,6 +1237,15 @@
 "sub": "invisible",
 "why": "src",
 "file": "helpers/invisible/LH Marble Colossus Laser B__b0c6.png"
+},
+{
+"id": "LH Bonus Def Exalt",
+"type": "0x33D5",
+"src": "lostHallsObjects",
+"category": "helper",
+"sub": "loot_marker",
+"why": "src",
+"file": "helpers/loot_marker/LH Bonus Def Exalt__33D5.png"
 },
 {
 "id": "LH Colossus Pillar",
@@ -1696,6 +1714,15 @@
 "sub": "lostHallsObjects",
 "why": "src",
 "file": "props/all/LH Cultists Spawner__b0b0.png"
+},
+{
+"id": "LH Cultist Warn",
+"type": "0xA3AC",
+"src": "lostHallsObjects",
+"category": "helper",
+"sub": "other",
+"why": "src",
+"file": "helpers/other/LH Cultist Warn__A3AC.png"
 },
 {
 "id": "LH Malus",

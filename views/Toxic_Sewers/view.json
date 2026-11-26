@@ -6,8 +6,8 @@
 ],
 "counts": {
 "tiles": 17,
-"projectiles": 24,
-"enemies": 32,
+"projectiles": 27,
+"enemies": 34,
 "helpers": 2,
 "props": 32,
 "npcs": 2,
@@ -16,8 +16,8 @@
 },
 "why": {
 "src": 92,
-"spec": 8,
-"proj": 17,
+"spec": 10,
+"proj": 20,
 "loot": 5
 },
 "tile_hints_used": {},
@@ -34,11 +34,17 @@
 "Sewer Yellow Slime",
 "Sewer Rat",
 "Sewer Dummy (~DS Sewer Dummy)",
-"Golden Rat",
 "Master Rat",
 "Sludge"
 ],
 "names_in_other_files": [
+[
+"Golden Rat",
+[
+"heroes_2",
+"toxicSewersObjects"
+]
+],
 [
 "Gulpord the Slime God",
 [
@@ -67,7 +73,9 @@
 [
 "Slime God",
 [
-"mountains"
+"adept",
+"mountains",
+"oldMountains"
 ]
 ],
 [
@@ -423,12 +431,12 @@
 },
 {
 "id": "DS Gulpord M1",
-"type": "0x17f",
+"type": "0x017f",
 "src": "toxicSewersObjects",
 "category": "enemy",
 "sub": "regular",
 "why": "src",
-"file": "enemies/regular/DS Gulpord M1__17f.png"
+"file": "enemies/regular/DS Gulpord M1__017f.png"
 },
 {
 "id": "DS Gulpord M2",
@@ -908,6 +916,15 @@
 "file": "props/all/DS Pillar__010d.png"
 },
 {
+"id": "Golden City Rat",
+"type": "0x4682",
+"src": "heroes_2",
+"category": "enemy",
+"sub": "regular",
+"why": "spec",
+"file": "enemies/regular/Golden City Rat__4682.png"
+},
+{
 "id": "MotMG Gulpord",
 "type": "0xf17",
 "src": "battleOryxObjects",
@@ -935,31 +952,40 @@
 "file": "enemies/regular/MotMG Gulpord S__f1a.png"
 },
 {
-"id": "Noxious Sprite",
+"id": "Sprite Forest Poison God",
 "type": "0x4547",
 "src": "adept",
 "category": "enemy",
 "sub": "regular",
 "why": "spec",
-"file": "enemies/regular/Noxious Sprite__4547.png"
+"file": "enemies/regular/Sprite Forest Poison God__4547.png"
 },
 {
-"id": "Smelly Octopus",
+"id": "Reef Octopus",
 "type": "0xc0be",
 "src": "adept",
 "category": "enemy",
 "sub": "regular",
 "why": "spec",
-"file": "enemies/regular/Smelly Octopus__c0be.png"
+"file": "enemies/regular/Reef Octopus__c0be.png"
 },
 {
-"id": "Brimstone Wyvern",
+"id": "Hell Dragon",
 "type": "0xc2ec",
 "src": "adept",
 "category": "enemy",
 "sub": "regular",
 "why": "spec",
-"file": "enemies/regular/Brimstone Wyvern__c2ec.png"
+"file": "enemies/regular/Hell Dragon__c2ec.png"
+},
+{
+"id": "City Slime God",
+"type": "0x5584",
+"src": "adept",
+"category": "enemy",
+"sub": "regular",
+"why": "spec",
+"file": "enemies/regular/City Slime God__5584.png"
 },
 {
 "id": "Slime God",
@@ -1043,6 +1069,15 @@
 "file": "projectiles/all/Void Star__716e.png"
 },
 {
+"id": "Summon Rat Projectile",
+"type": "0x2835",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Summon Rat Projectile__2835.png"
+},
+{
 "id": "Poison Fireball",
 "type": "0x214b",
 "src": "projectiles",
@@ -1070,40 +1105,58 @@
 "file": "projectiles/all/Green Star__0019.png"
 },
 {
-"id": "Black Sprite Magic",
-"type": "0xc04b",
-"src": "spriteWorldObjects",
-"category": "projectile",
-"sub": "all",
-"why": "proj",
-"file": "projectiles/all/Black Sprite Magic__c04b.png"
-},
-{
-"id": "Black Sprite Twirl",
-"type": "0xc04c",
-"src": "spriteWorldObjects",
-"category": "projectile",
-"sub": "all",
-"why": "proj",
-"file": "projectiles/all/Black Sprite Twirl__c04c.png"
-},
-{
-"id": "Ink Blot",
-"type": "0x007c",
+"id": "Sprite Forest Poison God 1",
+"type": "0x5433",
 "src": "projectiles",
 "category": "projectile",
 "sub": "all",
 "why": "proj",
-"file": "projectiles/all/Ink Blot__007c.png"
+"file": "projectiles/all/Sprite Forest Poison God 1__5433.png"
 },
 {
-"id": "Big Fireball",
-"type": "0x214a",
+"id": "Sprite Forest Poison God 2",
+"type": "0x5434",
 "src": "projectiles",
 "category": "projectile",
 "sub": "all",
 "why": "proj",
-"file": "projectiles/all/Big Fireball__214a.png"
+"file": "projectiles/all/Sprite Forest Poison God 2__5434.png"
+},
+{
+"id": "Reef Octopus 1",
+"type": "0x53ff",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Reef Octopus 1__53ff.png"
+},
+{
+"id": "Hell Dragon 1",
+"type": "0x542d",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Hell Dragon 1__542d.png"
+},
+{
+"id": "City Slime God 1",
+"type": "0x5424",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/City Slime God 1__5424.png"
+},
+{
+"id": "City Slime God 2",
+"type": "0x5425",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/City Slime God 2__5425.png"
 },
 {
 "id": "Interregnum Flail 1",

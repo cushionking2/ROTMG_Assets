@@ -4,63 +4,192 @@
 "hauntedCemetery"
 ],
 "counts": {
-"enemies": 32,
-"npcs": 8,
-"helpers": 5,
+"enemies": 53,
+"npcs": 11,
+"helpers": 7,
 "props": 63,
-"projectiles": 40,
-"loot": 3
+"projectiles": 45,
+"loot": 4
 },
 "why": {
 "src": 104,
-"spec": 4,
-"proj": 40,
-"loot": 3
+"spec": 30,
+"proj": 45,
+"loot": 4
 },
 "tile_hints_used": {},
 "names_in_own_files": [
-"Reanimated Remains",
-"Forest Troll",
-"Troll Pathfinder",
-"Apparition",
-"Haunting Spectre",
-"Possessed Child",
 "Classic Ghost",
-"Werewolf",
-"Werewolf Cub",
-"Grave Spider",
-"Risen Mummy",
-"Risen Archer",
-"Risen Warrior",
-"Risen Brawler",
-"Risen Mage",
-"Vengeful Vampire",
-"Troll Matriarch",
 "Troll's Toadstool",
-"Ghost Bride",
 "Fate",
 "Glory",
-"Pumpkin King",
 "Haunted Pumpkin",
-"Grave Caretaker",
 "Forgotten Spiraling Soul",
-"Flying Flame Skull",
-"Crawling Zombie",
-"Zombie Hulk"
+"Crawling Zombie"
 ],
 "names_in_other_files": [
+[
+"Reanimated Remains",
+[
+"hauntedCemetery",
+"hauntedCemeteryObjects"
+]
+],
+[
+"Forest Troll",
+[
+"hauntedCemetery",
+"hauntedCemeteryObjects"
+]
+],
+[
+"Troll Pathfinder",
+[
+"hauntedCemetery",
+"hauntedCemeteryObjects"
+]
+],
+[
+"Apparition",
+[
+"hauntedCemetery",
+"hauntedCemeteryObjects"
+]
+],
+[
+"Haunting Spectre",
+[
+"hauntedCemetery",
+"hauntedCemeteryObjects"
+]
+],
+[
+"Possessed Child",
+[
+"hauntedCemetery",
+"hauntedCemeteryObjects"
+]
+],
+[
+"Werewolf",
+[
+"hauntedCemetery",
+"hauntedCemeteryObjects"
+]
+],
+[
+"Werewolf Cub",
+[
+"hauntedCemetery",
+"hauntedCemeteryObjects"
+]
+],
+[
+"Grave Spider",
+[
+"hauntedCemetery",
+"hauntedCemeteryObjects"
+]
+],
+[
+"Risen Mummy",
+[
+"hauntedCemetery",
+"hauntedCemeteryObjects"
+]
+],
+[
+"Risen Archer",
+[
+"hauntedCemetery",
+"hauntedCemeteryObjects"
+]
+],
+[
+"Risen Warrior",
+[
+"hauntedCemetery",
+"hauntedCemeteryObjects"
+]
+],
+[
+"Risen Brawler",
+[
+"hauntedCemetery",
+"hauntedCemeteryObjects"
+]
+],
+[
+"Risen Mage",
+[
+"hauntedCemetery",
+"hauntedCemeteryObjects"
+]
+],
+[
+"Vengeful Vampire",
+[
+"hauntedCemetery",
+"hauntedCemeteryObjects"
+]
+],
+[
+"Troll Matriarch",
+[
+"hauntedCemetery",
+"hauntedCemeteryObjects"
+]
+],
+[
+"Ghost Bride",
+[
+"hauntedCemetery",
+"hauntedCemeteryObjects"
+]
+],
+[
+"Pumpkin King",
+[
+"hauntedCemetery",
+"hauntedCemeteryObjects"
+]
+],
+[
+"Grave Caretaker",
+[
+"hauntedCemetery",
+"hauntedCemeteryObjects"
+]
+],
 [
 "Ghost of Skuld",
 [
 "hauntedCemetery",
-"innerWorkingsObjects"
+"hauntedCemeteryObjects",
+"innerWorkingsObjects",
+"memoriesObjects"
+]
+],
+[
+"Flying Flame Skull",
+[
+"hauntedCemetery",
+"hauntedCemeteryObjects"
+]
+],
+[
+"Zombie Hulk",
+[
+"hauntedCemetery",
+"hauntedCemeteryObjects"
 ]
 ],
 [
 "Headless Horseman",
 [
 "adept",
-"mountains"
+"mountains",
+"oldMountains"
 ]
 ],
 [
@@ -1009,6 +1138,213 @@
 "file": "props/all/Arena Passage 4 Helper__b90.png"
 },
 {
+"id": "Haunted Cemetery Gates Small Skeleton",
+"type": "0x1B99",
+"src": "hauntedCemeteryObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "spec",
+"file": "enemies/regular/Haunted Cemetery Gates Small Skeleton__1B99.png"
+},
+{
+"id": "Haunted Cemetery Gates Large Troll",
+"type": "0x1BA2",
+"src": "hauntedCemeteryObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "spec",
+"file": "enemies/regular/Haunted Cemetery Gates Large Troll__1BA2.png"
+},
+{
+"id": "Haunted Cemetery Gates Large Pathfinder",
+"type": "0x1BA3",
+"src": "hauntedCemeteryObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "spec",
+"file": "enemies/regular/Haunted Cemetery Gates Large Pathfinder__1BA3.png"
+},
+{
+"id": "Haunted Cemetery Gates Small Blue Ghost",
+"type": "0x1B9B",
+"src": "hauntedCemeteryObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "spec",
+"file": "enemies/regular/Haunted Cemetery Gates Small Blue Ghost__1B9B.png"
+},
+{
+"id": "Haunted Cemetery Gates Small Gray Ghost",
+"type": "0x1B9A",
+"src": "hauntedCemeteryObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "spec",
+"file": "enemies/regular/Haunted Cemetery Gates Small Gray Ghost__1B9A.png"
+},
+{
+"id": "Haunted Cemetery Gates Large Possessed Child",
+"type": "0x1BA4",
+"src": "hauntedCemeteryObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "spec",
+"file": "enemies/regular/Haunted Cemetery Gates Large Possessed Child__1BA4.png"
+},
+{
+"id": "Haunted Cemetery Gates Large Werewolf",
+"type": "0x1BA5",
+"src": "hauntedCemeteryObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "spec",
+"file": "enemies/regular/Haunted Cemetery Gates Large Werewolf__1BA5.png"
+},
+{
+"id": "Haunted Cemetery Gates Small Werewolf",
+"type": "0x1B9C",
+"src": "hauntedCemeteryObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "spec",
+"file": "enemies/regular/Haunted Cemetery Gates Small Werewolf__1B9C.png"
+},
+{
+"id": "Haunted Cemetery Graves Small Spider",
+"type": "0x1B9F",
+"src": "hauntedCemeteryObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "spec",
+"file": "enemies/regular/Haunted Cemetery Graves Small Spider__1B9F.png"
+},
+{
+"id": "Haunted Cemetery Graves Large Mummy",
+"type": "0x1BA8",
+"src": "hauntedCemeteryObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "spec",
+"file": "enemies/regular/Haunted Cemetery Graves Large Mummy__1BA8.png"
+},
+{
+"id": "Haunted Cemetery Graves Small Archer",
+"type": "0x1BA1",
+"src": "hauntedCemeteryObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "spec",
+"file": "enemies/regular/Haunted Cemetery Graves Small Archer__1BA1.png"
+},
+{
+"id": "Haunted Cemetery Graves Large Warrior",
+"type": "0x1BA7",
+"src": "hauntedCemeteryObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "spec",
+"file": "enemies/regular/Haunted Cemetery Graves Large Warrior__1BA7.png"
+},
+{
+"id": "Haunted Cemetery Graves Large Brawler",
+"type": "0x1BA6",
+"src": "hauntedCemeteryObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "spec",
+"file": "enemies/regular/Haunted Cemetery Graves Large Brawler__1BA6.png"
+},
+{
+"id": "Haunted Cemetery Graves Small Mage",
+"type": "0x1BA0",
+"src": "hauntedCemeteryObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "spec",
+"file": "enemies/regular/Haunted Cemetery Graves Small Mage__1BA0.png"
+},
+{
+"id": "Haunted Cemetery Graves Small Vampire",
+"type": "0x1B9E",
+"src": "hauntedCemeteryObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "spec",
+"file": "enemies/regular/Haunted Cemetery Graves Small Vampire__1B9E.png"
+},
+{
+"id": "Haunted Cemetery Boss Troll",
+"type": "0x1BAE",
+"src": "hauntedCemeteryObjects",
+"category": "enemy",
+"sub": "miniboss",
+"why": "spec",
+"file": "enemies/miniboss/Haunted Cemetery Boss Troll__1BAE.png"
+},
+{
+"id": "Haunted Cemetery Boss Bride",
+"type": "0x1BB1",
+"src": "hauntedCemeteryObjects",
+"category": "enemy",
+"sub": "miniboss",
+"why": "spec",
+"file": "enemies/miniboss/Haunted Cemetery Boss Bride__1BB1.png"
+},
+{
+"id": "Haunted Cemetery Boss Pumpkin",
+"type": "0x1BB9",
+"src": "hauntedCemeteryObjects",
+"category": "enemy",
+"sub": "miniboss",
+"why": "spec",
+"file": "enemies/miniboss/Haunted Cemetery Boss Pumpkin__1BB9.png"
+},
+{
+"id": "Haunted Cemetery Boss Caretaker",
+"type": "0x1BB6",
+"src": "hauntedCemeteryObjects",
+"category": "enemy",
+"sub": "miniboss",
+"why": "spec",
+"file": "enemies/miniboss/Haunted Cemetery Boss Caretaker__1BB6.png"
+},
+{
+"id": "Haunted Cemetery Gates Anchor",
+"type": "0x1B90",
+"src": "hauntedCemeteryObjects",
+"category": "npc",
+"sub": "all",
+"why": "spec",
+"file": "npcs/all/Haunted Cemetery Gates Anchor__1B90.png"
+},
+{
+"id": "Haunted Cemetery Graves Anchor",
+"type": "0x1B95",
+"src": "hauntedCemeteryObjects",
+"category": "npc",
+"sub": "all",
+"why": "spec",
+"file": "npcs/all/Haunted Cemetery Graves Anchor__1B95.png"
+},
+{
+"id": "Haunted Cemetery Mausoleum Anchor",
+"type": "0x1B97",
+"src": "hauntedCemeteryObjects",
+"category": "helper",
+"sub": "anchor",
+"why": "spec",
+"file": "helpers/anchor/Haunted Cemetery Mausoleum Anchor__1B97.png"
+},
+{
+"id": "Haunted Cemetery Boss Skuld",
+"type": "0x1BBB",
+"src": "hauntedCemeteryObjects",
+"category": "enemy",
+"sub": "boss",
+"why": "spec",
+"file": "enemies/boss/Haunted Cemetery Boss Skuld__1BBB.png"
+},
+{
 "id": "CHS Pawn Alt",
 "type": "0xaac4e",
 "src": "innerWorkingsObjects",
@@ -1018,13 +1354,40 @@
 "file": "npcs/all/CHS Pawn Alt__aac4e.png"
 },
 {
-"id": "New Arena Headless Horseman",
+"id": "Defiant Memory Skuld",
+"type": "0xbbfe",
+"src": "memoriesObjects",
+"category": "npc",
+"sub": "all",
+"why": "spec",
+"file": "npcs/all/Defiant Memory Skuld__bbfe.png"
+},
+{
+"id": "Haunted Cemetery Boss Skuld Large Skull",
+"type": "0x1BC0",
+"src": "hauntedCemeteryObjects",
+"category": "helper",
+"sub": "effect",
+"why": "spec",
+"file": "helpers/effect/Haunted Cemetery Boss Skuld Large Skull__1BC0.png"
+},
+{
+"id": "Haunted Cemetery Boss Skuld Large Zombie",
+"type": "0x1BBE",
+"src": "hauntedCemeteryObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "spec",
+"file": "enemies/regular/Haunted Cemetery Boss Skuld Large Zombie__1BBE.png"
+},
+{
+"id": "Hallows Horseman",
 "type": "0x55C3",
 "src": "adept",
 "category": "enemy",
 "sub": "regular",
 "why": "spec",
-"file": "enemies/regular/New Arena Headless Horseman__55C3.png"
+"file": "enemies/regular/Hallows Horseman__55C3.png"
 },
 {
 "id": "Arena Headless Horseman",
@@ -1040,9 +1403,9 @@
 "type": "0x426c",
 "src": "heroes_2",
 "category": "enemy",
-"sub": "regular",
+"sub": "event_boss",
 "why": "spec",
-"file": "enemies/regular/Graverobber Lantern Holder__426c.png"
+"file": "enemies/event_boss/Graverobber Lantern Holder__426c.png"
 },
 {
 "id": "Skeleton Attack",
@@ -1369,6 +1732,51 @@
 "file": "projectiles/all/Giga Ghost X__213e.png"
 },
 {
+"id": "UDL White Slash",
+"type": "0x80e0",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/UDL White Slash__80e0.png"
+},
+{
+"id": "Invisible",
+"type": "0x0096",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Invisible__0096.png"
+},
+{
+"id": "H Baby Blast",
+"type": "0x00f8",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/H Baby Blast__00f8.png"
+},
+{
+"id": "Purple Energy Shot",
+"type": "0x00f2",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Purple Energy Shot__00f2.png"
+},
+{
+"id": "O3 White Big Spike",
+"type": "0xaba3",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/O3 White Big Spike__aba3.png"
+},
+{
 "id": "Headless Horseman Shockwave",
 "type": "0xc018",
 "src": "projectiles",
@@ -1430,6 +1838,15 @@
 "sub": "wand",
 "why": "loot",
 "file": "loot/weapon_wand/Soul_s Guidance__6102.png"
+},
+{
+"id": "Tarot Card Pack",
+"type": "0x3439",
+"src": "equip",
+"category": "consumable",
+"sub": "all",
+"why": "loot",
+"file": "loot/consumable/Tarot Card Pack__3439.png"
 }
 ]
 }

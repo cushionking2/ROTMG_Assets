@@ -6,40 +6,118 @@
 ],
 "counts": {
 "tiles": 38,
-"projectiles": 7,
-"loot": 2,
+"projectiles": 9,
 "props": 38,
 "helpers": 1,
-"enemies": 15,
-"walls": 45
+"enemies": 28,
+"walls": 45,
+"loot": 2
 },
 "why": {
-"src": 140,
-"spec": 1,
-"proj": 2,
-"loot": 1,
+"src": 139,
+"spec": 14,
+"proj": 4,
+"loot": 2,
 "tile": 2
 },
 "tile_hints_used": {
 "water": 3
 },
 "names_in_own_files": [
-"Cave Pirate Brawler",
-"Cave Pirate Sailor",
-"Cave Pirate Veteran",
-"Cave Pirate Cabin Boy",
-"Cave Pirate Hunchback",
-"Cave Pirate Macaw",
-"Cave Pirate Moll",
-"Cave Pirate Monkey",
-"Cave Pirate Parrot",
-"Pirate Lieutenant",
-"Pirate Commander",
-"Pirate Captain",
-"Pirate Admiral",
 "Dreadstump the Pirate King"
 ],
 "names_in_other_files": [
+[
+"Cave Pirate Brawler",
+[
+"pirateCave",
+"pirateCaveObjects"
+]
+],
+[
+"Cave Pirate Sailor",
+[
+"pirateCave",
+"pirateCaveObjects"
+]
+],
+[
+"Cave Pirate Veteran",
+[
+"pirateCave",
+"pirateCaveObjects"
+]
+],
+[
+"Cave Pirate Cabin Boy",
+[
+"pirateCave",
+"pirateCaveObjects"
+]
+],
+[
+"Cave Pirate Hunchback",
+[
+"pirateCave",
+"pirateCaveObjects"
+]
+],
+[
+"Cave Pirate Macaw",
+[
+"pirateCave",
+"pirateCaveObjects"
+]
+],
+[
+"Cave Pirate Moll",
+[
+"pirateCave",
+"pirateCaveObjects"
+]
+],
+[
+"Cave Pirate Monkey",
+[
+"pirateCave",
+"pirateCaveObjects"
+]
+],
+[
+"Cave Pirate Parrot",
+[
+"pirateCave",
+"pirateCaveObjects"
+]
+],
+[
+"Pirate Lieutenant",
+[
+"pirateCave",
+"pirateCaveObjects"
+]
+],
+[
+"Pirate Commander",
+[
+"pirateCave",
+"pirateCaveObjects"
+]
+],
+[
+"Pirate Captain",
+[
+"pirateCave",
+"pirateCaveObjects"
+]
+],
+[
+"Pirate Admiral",
+[
+"pirateCave",
+"pirateCaveObjects"
+]
+],
 [
 "Water",
 [
@@ -408,15 +486,6 @@
 "sub": "all",
 "why": "src",
 "file": "projectiles/all/Pirate King Sword__2c5.png"
-},
-{
-"id": "Corsair Ring",
-"type": "0x2289",
-"src": "pirateCaveObjects",
-"category": "ring",
-"sub": "all",
-"why": "src",
-"file": "loot/ring/Corsair Ring__2289.png"
 },
 {
 "id": "PC Invis Occupy",
@@ -1310,6 +1379,123 @@
 "file": "enemies/regular/Test Parrot__6229.png"
 },
 {
+"id": "Retro Cave Pirate Brawler",
+"type": "0x3E5D",
+"src": "pirateCave",
+"category": "enemy",
+"sub": "regular",
+"why": "spec",
+"file": "enemies/regular/Retro Cave Pirate Brawler__3E5D.png"
+},
+{
+"id": "Retro Cave Pirate Sailor",
+"type": "0x3E5E",
+"src": "pirateCave",
+"category": "enemy",
+"sub": "regular",
+"why": "spec",
+"file": "enemies/regular/Retro Cave Pirate Sailor__3E5E.png"
+},
+{
+"id": "Retro Cave Pirate Veteran",
+"type": "0x3E5F",
+"src": "pirateCave",
+"category": "enemy",
+"sub": "regular",
+"why": "spec",
+"file": "enemies/regular/Retro Cave Pirate Veteran__3E5F.png"
+},
+{
+"id": "Retro Cave Pirate Cabin Boy",
+"type": "0x3E65",
+"src": "pirateCave",
+"category": "enemy",
+"sub": "regular",
+"why": "spec",
+"file": "enemies/regular/Retro Cave Pirate Cabin Boy__3E65.png"
+},
+{
+"id": "Retro Cave Pirate Hunchback",
+"type": "0x3E64",
+"src": "pirateCave",
+"category": "enemy",
+"sub": "regular",
+"why": "spec",
+"file": "enemies/regular/Retro Cave Pirate Hunchback__3E64.png"
+},
+{
+"id": "Retro Cave Pirate Macaw",
+"type": "0x3E62",
+"src": "pirateCave",
+"category": "enemy",
+"sub": "regular",
+"why": "spec",
+"file": "enemies/regular/Retro Cave Pirate Macaw__3E62.png"
+},
+{
+"id": "Retro Cave Pirate Moll",
+"type": "0x3E60",
+"src": "pirateCave",
+"category": "enemy",
+"sub": "regular",
+"why": "spec",
+"file": "enemies/regular/Retro Cave Pirate Moll__3E60.png"
+},
+{
+"id": "Retro Cave Pirate Monkey",
+"type": "0x3E63",
+"src": "pirateCave",
+"category": "enemy",
+"sub": "regular",
+"why": "spec",
+"file": "enemies/regular/Retro Cave Pirate Monkey__3E63.png"
+},
+{
+"id": "Retro Cave Pirate Parrot",
+"type": "0x3E61",
+"src": "pirateCave",
+"category": "enemy",
+"sub": "regular",
+"why": "spec",
+"file": "enemies/regular/Retro Cave Pirate Parrot__3E61.png"
+},
+{
+"id": "Retro Pirate Lieutenant",
+"type": "0x3E59",
+"src": "pirateCave",
+"category": "enemy",
+"sub": "regular",
+"why": "spec",
+"file": "enemies/regular/Retro Pirate Lieutenant__3E59.png"
+},
+{
+"id": "Retro Pirate Commander",
+"type": "0x3E5A",
+"src": "pirateCave",
+"category": "enemy",
+"sub": "regular",
+"why": "spec",
+"file": "enemies/regular/Retro Pirate Commander__3E5A.png"
+},
+{
+"id": "Retro Pirate Captain",
+"type": "0x3E5B",
+"src": "pirateCave",
+"category": "enemy",
+"sub": "regular",
+"why": "spec",
+"file": "enemies/regular/Retro Pirate Captain__3E5B.png"
+},
+{
+"id": "Retro Pirate Admiral",
+"type": "0x3E5C",
+"src": "pirateCave",
+"category": "enemy",
+"sub": "regular",
+"why": "spec",
+"file": "enemies/regular/Retro Pirate Admiral__3E5C.png"
+},
+{
 "id": "Water",
 "type": "0x72",
 "src": "ground",
@@ -1337,6 +1523,24 @@
 "file": "projectiles/all/Gold Shot__217d.png"
 },
 {
+"id": "Blade",
+"type": "0x0006",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Blade__0006.png"
+},
+{
+"id": "Black Ball",
+"type": "0x0033",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Black Ball__0033.png"
+},
+{
 "id": "Pirate Rum",
 "type": "0xa50",
 "src": "equip",
@@ -1344,6 +1548,15 @@
 "sub": "all",
 "why": "loot",
 "file": "loot/consumable/Pirate Rum__a50.png"
+},
+{
+"id": "Corsair Ring",
+"type": "0x2289",
+"src": "equip",
+"category": "ring",
+"sub": "all",
+"why": "loot",
+"file": "loot/ring/Corsair Ring__2289.png"
 },
 {
 "id": "Shallow Water",

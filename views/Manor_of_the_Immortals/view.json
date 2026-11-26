@@ -4,18 +4,19 @@
 "manorOfTheImmortals"
 ],
 "counts": {
-"enemies": 21,
-"props": 3,
+"enemies": 26,
+"props": 4,
+"helpers": 1,
 "npcs": 1,
-"projectiles": 16,
-"loot": 7,
+"projectiles": 15,
+"loot": 9,
 "tiles": 1
 },
 "why": {
-"src": 20,
-"spec": 5,
-"proj": 16,
-"loot": 7,
+"src": 21,
+"spec": 11,
+"proj": 15,
+"loot": 9,
 "tile": 1
 },
 "tile_hints_used": {
@@ -23,18 +24,31 @@
 },
 "names_in_own_files": [
 "Armor Guard",
-"Coffin Creature",
 "Hellhound",
 "Helmet Head",
 "Lesser Bald Vampire",
 "Lil Feratu",
 "Nosferatu",
 "Rock Bomb",
-"Vampire Bat",
-"Vampire Bat Swarmer",
+"Vampire Bat (~Dead Church Bat)",
 "Coffin"
 ],
 "names_in_other_files": [
+[
+"Coffin Creature",
+[
+"cronusTrialsObjects",
+"manorOfTheImmortals"
+]
+],
+[
+"Vampire Bat Swarmer",
+[
+"cronusTrialsObjects",
+"manorOfTheImmortals",
+"nexusDestroyed"
+]
+],
 [
 "Sickly Vampire Bat",
 [
@@ -44,6 +58,7 @@
 [
 "Lord Ruthven",
 [
+"cronusTrialsObjects",
 "innerWorkingsObjects",
 "manorOfTheImmortals"
 ]
@@ -51,7 +66,9 @@
 [
 "Kage Kami",
 [
-"heroes"
+"heroes",
+"heroes_2",
+"oldHeroes"
 ]
 ],
 [
@@ -79,13 +96,49 @@
 "file": "enemies/boss/Lord Ruthven__1720.png"
 },
 {
-"id": "Vampire Bat",
+"id": "Lord Ruthven Anchor",
+"type": "0x1726",
+"src": "manorOfTheImmortals",
+"category": "prop",
+"sub": "manorOfTheImmortals",
+"why": "src",
+"file": "props/all/Lord Ruthven Anchor__1726.png"
+},
+{
+"id": "Ruthven 50P Helper",
+"type": "0x1725",
+"src": "manorOfTheImmortals",
+"category": "prop",
+"sub": "manorOfTheImmortals",
+"why": "src",
+"file": "props/all/Ruthven 50P Helper__1725.png"
+},
+{
+"id": "Bat Swarm Master",
+"type": "0x1723",
+"src": "manorOfTheImmortals",
+"category": "prop",
+"sub": "manorOfTheImmortals",
+"why": "src",
+"file": "props/all/Bat Swarm Master__1723.png"
+},
+{
+"id": "Vampire Bat Swarmer Boss",
+"type": "0x1724",
+"src": "manorOfTheImmortals",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Vampire Bat Swarmer Boss__1724.png"
+},
+{
+"id": "Vampire Bat Swarmer Ruthven",
 "type": "0x1721",
 "src": "manorOfTheImmortals",
 "category": "enemy",
 "sub": "regular",
 "why": "src",
-"file": "enemies/regular/Vampire Bat__1721.png"
+"file": "enemies/regular/Vampire Bat Swarmer Ruthven__1721.png"
 },
 {
 "id": "Coffin Creature",
@@ -95,42 +148,6 @@
 "sub": "regular",
 "why": "src",
 "file": "enemies/regular/Coffin Creature__1722.png"
-},
-{
-"id": "Bat Swarm 1",
-"type": "0x1723",
-"src": "manorOfTheImmortals",
-"category": "prop",
-"sub": "manorOfTheImmortals",
-"why": "src",
-"file": "props/all/Bat Swarm 1__1723.png"
-},
-{
-"id": "Vampire Bat Swarmer 1",
-"type": "0x1724",
-"src": "manorOfTheImmortals",
-"category": "enemy",
-"sub": "regular",
-"why": "src",
-"file": "enemies/regular/Vampire Bat Swarmer 1__1724.png"
-},
-{
-"id": "Bat Swarm 2",
-"type": "0x1725",
-"src": "manorOfTheImmortals",
-"category": "prop",
-"sub": "manorOfTheImmortals",
-"why": "src",
-"file": "props/all/Bat Swarm 2__1725.png"
-},
-{
-"id": "Vampire Bat Swarmer 2",
-"type": "0x1726",
-"src": "manorOfTheImmortals",
-"category": "enemy",
-"sub": "regular",
-"why": "src",
-"file": "enemies/regular/Vampire Bat Swarmer 2__1726.png"
 },
 {
 "id": "Vampire Bat Swarmer",
@@ -172,10 +189,10 @@
 "id": "RockBomb",
 "type": "0x172a",
 "src": "manorOfTheImmortals",
-"category": "enemy",
-"sub": "regular",
+"category": "helper",
+"sub": "effect",
 "why": "src",
-"file": "enemies/regular/RockBomb__172a.png"
+"file": "helpers/effect/RockBomb__172a.png"
 },
 {
 "id": "Hellhound",
@@ -241,6 +258,15 @@
 "file": "enemies/regular/Coffin__1737.png"
 },
 {
+"id": "Coffin Deux",
+"type": "0x0BCF",
+"src": "manorOfTheImmortals",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Coffin Deux__0BCF.png"
+},
+{
 "id": "Lil Feratu",
 "type": "0x1738",
 "src": "manorOfTheImmortals",
@@ -250,6 +276,42 @@
 "file": "enemies/regular/Lil Feratu__1738.png"
 },
 {
+"id": "mgm2 Coffin Creature",
+"type": "0x336a",
+"src": "cronusTrialsObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "spec",
+"file": "enemies/regular/mgm2 Coffin Creature__336a.png"
+},
+{
+"id": "mgm2 Vampire Bat Swarmer Boss",
+"type": "0x3367",
+"src": "cronusTrialsObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "spec",
+"file": "enemies/regular/mgm2 Vampire Bat Swarmer Boss__3367.png"
+},
+{
+"id": "Vampire Bat Swarmer 1 Deux",
+"type": "0x7229",
+"src": "nexusDestroyed",
+"category": "enemy",
+"sub": "regular",
+"why": "spec",
+"file": "enemies/regular/Vampire Bat Swarmer 1 Deux__7229.png"
+},
+{
+"id": "Vampire Bat Swarmer 2 Deux",
+"type": "0x7235",
+"src": "nexusDestroyed",
+"category": "enemy",
+"sub": "regular",
+"why": "spec",
+"file": "enemies/regular/Vampire Bat Swarmer 2 Deux__7235.png"
+},
+{
 "id": "Dead Church Bat",
 "type": "0xc1dd",
 "src": "adept",
@@ -257,6 +319,15 @@
 "sub": "regular",
 "why": "spec",
 "file": "enemies/regular/Dead Church Bat__c1dd.png"
+},
+{
+"id": "mgm2 Lord Ruthven",
+"type": "0x3366",
+"src": "cronusTrialsObjects",
+"category": "enemy",
+"sub": "miniboss",
+"why": "spec",
+"file": "enemies/miniboss/mgm2 Lord Ruthven__3366.png"
 },
 {
 "id": "CHS Bishop Alt",
@@ -277,6 +348,15 @@
 "file": "enemies/regular/Kage Kami__6db.png"
 },
 {
+"id": "New Kage Kami",
+"type": "0x55B7",
+"src": "heroes_2",
+"category": "enemy",
+"sub": "regular",
+"why": "spec",
+"file": "enemies/regular/New Kage Kami__55B7.png"
+},
+{
 "id": "Dead Church Vampire",
 "type": "0xc1dc",
 "src": "adept",
@@ -286,13 +366,13 @@
 "file": "enemies/regular/Dead Church Vampire__c1dc.png"
 },
 {
-"id": "Cerberus",
+"id": "Hell Dog 3",
 "type": "0xc3d2",
 "src": "adept",
 "category": "enemy",
 "sub": "regular",
 "why": "spec",
-"file": "enemies/regular/Cerberus__c3d2.png"
+"file": "enemies/regular/Hell Dog 3__c3d2.png"
 },
 {
 "id": "Dagger",
@@ -302,24 +382,6 @@
 "sub": "all",
 "why": "proj",
 "file": "projectiles/all/Dagger__00a8.png"
-},
-{
-"id": "Ruthven Shot",
-"type": "0x00b5",
-"src": "projectiles",
-"category": "projectile",
-"sub": "all",
-"why": "proj",
-"file": "projectiles/all/Ruthven Shot__00b5.png"
-},
-{
-"id": "Cross Bullet",
-"type": "0x00b0",
-"src": "projectiles",
-"category": "projectile",
-"sub": "all",
-"why": "proj",
-"file": "projectiles/all/Cross Bullet__00b0.png"
 },
 {
 "id": "Invisible",
@@ -338,6 +400,15 @@
 "sub": "all",
 "why": "proj",
 "file": "projectiles/all/Coffin Bullet__00af.png"
+},
+{
+"id": "Cross Bullet",
+"type": "0x00b0",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Cross Bullet__00b0.png"
 },
 {
 "id": "Bone Swipe",
@@ -394,13 +465,13 @@
 "file": "projectiles/all/Vampire Magic Ball__00ad.png"
 },
 {
-"id": "UDL White Slash",
-"type": "0x80e0",
+"id": "Dead Church Bat 1",
+"type": "0x5417",
 "src": "projectiles",
 "category": "projectile",
 "sub": "all",
 "why": "proj",
-"file": "projectiles/all/UDL White Slash__80e0.png"
+"file": "projectiles/all/Dead Church Bat 1__5417.png"
 },
 {
 "id": "Specter Spinner",
@@ -421,22 +492,22 @@
 "file": "projectiles/all/Specter Shot__00b4.png"
 },
 {
-"id": "Scythe Dagger Large",
-"type": "0x45cd",
+"id": "Dead Church Vampire 1",
+"type": "0x5416",
 "src": "projectiles",
 "category": "projectile",
 "sub": "all",
 "why": "proj",
-"file": "projectiles/all/Scythe Dagger Large__45cd.png"
+"file": "projectiles/all/Dead Church Vampire 1__5416.png"
 },
 {
-"id": "Summon Wolf Projectile",
-"type": "0x283c",
+"id": "Hell Dog 3 1",
+"type": "0x542e",
 "src": "projectiles",
 "category": "projectile",
 "sub": "all",
 "why": "proj",
-"file": "projectiles/all/Summon Wolf Projectile__283c.png"
+"file": "projectiles/all/Hell Dog 3 1__542e.png"
 },
 {
 "id": "St. Abraham's Wand",
@@ -491,6 +562,24 @@
 "sub": "dagger",
 "why": "loot",
 "file": "loot/weapon_dagger/Bone Dagger__c22.png"
+},
+{
+"id": "Tarot Card Pack",
+"type": "0x3439",
+"src": "equip",
+"category": "consumable",
+"sub": "all",
+"why": "loot",
+"file": "loot/consumable/Tarot Card Pack__3439.png"
+},
+{
+"id": "Kyuuketsuki Hitogoroshi",
+"type": "0xA30E",
+"src": "equip",
+"category": "weapon",
+"sub": "katana",
+"why": "loot",
+"file": "loot/weapon_katana/Kyuuketsuki Hitogoroshi__A30E.png"
 },
 {
 "id": "Vampire Lord Skin",

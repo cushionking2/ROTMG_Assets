@@ -8,15 +8,16 @@
 "tiles": 12,
 "projectiles": 23,
 "portals": 1,
-"enemies": 51,
-"props": 26,
+"enemies": 52,
+"props": 27,
 "npcs": 2,
 "helpers": 6,
 "walls": 8
 },
 "why": {
 "src": 107,
-"spec": 18,
+"spec": 19,
+"spec~": 1,
 "proj": 4
 },
 "tile_hints_used": {},
@@ -34,7 +35,6 @@
 "Pterasite",
 "Pterasite Bomb",
 "Blood Slurp",
-"Uninfected Chest (~pD Infested Chest)",
 "Infested Chest"
 ],
 "names_in_other_files": [
@@ -109,6 +109,18 @@
 ]
 ],
 [
+"Uninfected Chest",
+[
+"memoriesObjects"
+]
+],
+[
+"Ghost Slurp (guess)",
+[
+"memoriesObjects"
+]
+],
+[
 "Nightmare Colony",
 [
 "battleOryxObjects",
@@ -117,13 +129,7 @@
 ]
 ]
 ],
-"names_not_found": [
-{
-"name": "Ghost Slurp",
-"suggestions": [],
-"suggestion_in_own_files": false
-}
-],
+"names_not_found": [],
 "entries": [
 {
 "id": "pD Colony Slot",
@@ -1090,129 +1096,147 @@
 },
 {
 "id": "Infested pD Painling C",
-"type": "0xb3ba",
+"type": "0xB3BA",
 "src": "oryxCastle",
 "category": "enemy",
 "sub": "regular",
 "why": "spec",
-"file": "enemies/regular/Infested pD Painling C__b3ba.png"
+"file": "enemies/regular/Infested pD Painling C__B3BA.png"
 },
 {
 "id": "Infested pD Painling 2",
-"type": "0xb3b1",
+"type": "0xB3B1",
 "src": "oryxWineCellar",
 "category": "enemy",
 "sub": "regular",
 "why": "spec",
-"file": "enemies/regular/Infested pD Painling 2__b3b1.png"
+"file": "enemies/regular/Infested pD Painling 2__B3B1.png"
 },
 {
 "id": "Infested pD Stalker C",
-"type": "0xb3bb",
+"type": "0xB3BB",
 "src": "oryxCastle",
 "category": "enemy",
 "sub": "regular",
 "why": "spec",
-"file": "enemies/regular/Infested pD Stalker C__b3bb.png"
+"file": "enemies/regular/Infested pD Stalker C__B3BB.png"
 },
 {
 "id": "Infested pD Stalker",
-"type": "0xb3a4",
+"type": "0xB3A4",
 "src": "oryxChamber",
 "category": "enemy",
 "sub": "regular",
 "why": "spec",
-"file": "enemies/regular/Infested pD Stalker__b3a4.png"
+"file": "enemies/regular/Infested pD Stalker__B3A4.png"
 },
 {
 "id": "Infested pD Tongue C",
-"type": "0xb3b9",
+"type": "0xB3B9",
 "src": "oryxCastle",
 "category": "enemy",
 "sub": "regular",
 "why": "spec",
-"file": "enemies/regular/Infested pD Tongue C__b3b9.png"
+"file": "enemies/regular/Infested pD Tongue C__B3B9.png"
 },
 {
 "id": "Infested pD Tongue 2",
-"type": "0xb3b0",
+"type": "0xB3B0",
 "src": "oryxWineCellar",
 "category": "enemy",
 "sub": "regular",
 "why": "spec",
-"file": "enemies/regular/Infested pD Tongue 2__b3b0.png"
+"file": "enemies/regular/Infested pD Tongue 2__B3B0.png"
 },
 {
 "id": "Infested pD Walker C",
-"type": "0xb3b7",
+"type": "0xB3B7",
 "src": "oryxCastle",
 "category": "enemy",
 "sub": "regular",
 "why": "spec",
-"file": "enemies/regular/Infested pD Walker C__b3b7.png"
+"file": "enemies/regular/Infested pD Walker C__B3B7.png"
 },
 {
 "id": "Infested pD Walker",
-"type": "0xb3a5",
+"type": "0xB3A5",
 "src": "oryxChamber",
 "category": "enemy",
 "sub": "regular",
 "why": "spec",
-"file": "enemies/regular/Infested pD Walker__b3a5.png"
+"file": "enemies/regular/Infested pD Walker__B3A5.png"
 },
 {
 "id": "Infested pD Walker 2",
-"type": "0xb3ae",
+"type": "0xB3AE",
 "src": "oryxWineCellar",
 "category": "enemy",
 "sub": "regular",
 "why": "spec",
-"file": "enemies/regular/Infested pD Walker 2__b3ae.png"
+"file": "enemies/regular/Infested pD Walker 2__B3AE.png"
 },
 {
 "id": "Infested pD Maw C",
-"type": "0xb3b8",
+"type": "0xB3B8",
 "src": "oryxCastle",
 "category": "enemy",
 "sub": "regular",
 "why": "spec",
-"file": "enemies/regular/Infested pD Maw C__b3b8.png"
+"file": "enemies/regular/Infested pD Maw C__B3B8.png"
 },
 {
 "id": "Infested pD Maw 2",
-"type": "0xb3af",
+"type": "0xB3AF",
 "src": "oryxWineCellar",
 "category": "enemy",
 "sub": "regular",
 "why": "spec",
-"file": "enemies/regular/Infested pD Maw 2__b3af.png"
+"file": "enemies/regular/Infested pD Maw 2__B3AF.png"
 },
 {
 "id": "Infested pD Blob Colony",
-"type": "0xb3b4",
+"type": "0xB3B4",
 "src": "oryxCastle",
 "category": "enemy",
 "sub": "regular",
 "why": "spec",
-"file": "enemies/regular/Infested pD Blob Colony__b3b4.png"
+"file": "enemies/regular/Infested pD Blob Colony__B3B4.png"
 },
 {
 "id": "Infested pD Pterasite Colony",
-"type": "0xb3b5",
+"type": "0xB3B5",
 "src": "oryxCastle",
 "category": "enemy",
 "sub": "regular",
 "why": "spec",
-"file": "enemies/regular/Infested pD Pterasite Colony__b3b5.png"
+"file": "enemies/regular/Infested pD Pterasite Colony__B3B5.png"
 },
 {
 "id": "Infested pD Swarm Colony",
-"type": "0xb3b6",
+"type": "0xB3B6",
 "src": "oryxCastle",
 "category": "enemy",
 "sub": "regular",
 "why": "spec",
-"file": "enemies/regular/Infested pD Swarm Colony__b3b6.png"
+"file": "enemies/regular/Infested pD Swarm Colony__B3B6.png"
+},
+{
+"id": "Uninfected Chest",
+"type": "0xbf00",
+"src": "memoriesObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "spec",
+"file": "enemies/regular/Uninfected Chest__bf00.png"
+},
+{
+"id": "Memory Ghost Slurp",
+"type": "0xbeff",
+"src": "memoriesObjects",
+"category": "prop",
+"sub": "memoriesObjects",
+"why": "spec~",
+"file": "props/all/Memory Ghost Slurp__beff.png"
 },
 {
 "id": "MotMG pD Boss",
@@ -1234,21 +1258,21 @@
 },
 {
 "id": "Infested pD Boss",
-"type": "0xb3b2",
+"type": "0xB3B2",
 "src": "oryxCastle",
 "category": "enemy",
 "sub": "boss",
 "why": "spec",
-"file": "enemies/boss/Infested pD Boss__b3b2.png"
+"file": "enemies/boss/Infested pD Boss__B3B2.png"
 },
 {
 "id": "Infested pD Boss Support",
-"type": "0xb3b3",
+"type": "0xB3B3",
 "src": "oryxCastle",
 "category": "helper",
 "sub": "other",
 "why": "spec",
-"file": "helpers/other/Infested pD Boss Support__b3b3.png"
+"file": "helpers/other/Infested pD Boss Support__B3B3.png"
 },
 {
 "id": "Big Fireball",

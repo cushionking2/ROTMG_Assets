@@ -6,17 +6,17 @@
 ],
 "counts": {
 "tiles": 17,
-"projectiles": 40,
+"projectiles": 41,
 "portals": 1,
 "props": 21,
-"enemies": 56,
+"enemies": 57,
 "walls": 1,
 "loot": 6
 },
 "why": {
 "src": 109,
-"spec": 11,
-"proj": 11,
+"spec": 12,
+"proj": 12,
 "loot": 6,
 "tile": 5
 },
@@ -26,21 +26,30 @@
 "names_in_own_files": [
 "Lesser Fairies",
 "Standard Fairies",
-"Greater Fairies",
-"Fountain Spirit"
+"Greater Fairies"
 ],
 "names_in_other_files": [
+[
+"Fountain Spirit",
+[
+"cronusTrialsObjects",
+"magicWoodsObjects"
+]
+],
 [
 "Ent Ancient",
 [
 "heroes",
-"heroes_2"
+"heroes_2",
+"oldHeroes"
 ]
 ],
 [
 "Ent God",
 [
-"mountains"
+"adept",
+"mountains",
+"oldMountains"
 ]
 ],
 [
@@ -1052,6 +1061,15 @@
 "file": "walls/all/MW Stone Pillar__831.png"
 },
 {
+"id": "mgm2 MW Fountain Spirit",
+"type": "0x3343",
+"src": "cronusTrialsObjects",
+"category": "enemy",
+"sub": "miniboss",
+"why": "spec",
+"file": "enemies/miniboss/mgm2 MW Fountain Spirit__3343.png"
+},
+{
 "id": "Ent Ancient",
 "type": "0x091f",
 "src": "heroes",
@@ -1088,15 +1106,6 @@
 "file": "enemies/event_boss/Actual Ent Ancient Challenger__73f9.png"
 },
 {
-"id": "New Ent Ancient",
-"type": "0x55A9",
-"src": "heroes_2",
-"category": "enemy",
-"sub": "event_boss",
-"why": "spec",
-"file": "enemies/event_boss/New Ent Ancient__55A9.png"
-},
-{
 "id": "New Actual Ent Ancient",
 "type": "0x55AA",
 "src": "heroes_2",
@@ -1104,6 +1113,15 @@
 "sub": "event_boss",
 "why": "spec",
 "file": "enemies/event_boss/New Actual Ent Ancient__55AA.png"
+},
+{
+"id": "City Ent God",
+"type": "0x5585",
+"src": "adept",
+"category": "enemy",
+"sub": "regular",
+"why": "spec",
+"file": "enemies/regular/City Ent God__5585.png"
 },
 {
 "id": "Ent God",
@@ -1133,22 +1151,22 @@
 "file": "enemies/regular/Hallows Brute__45ef.png"
 },
 {
-"id": "Evergreen Sprite",
+"id": "Sprite Forest Nature God",
 "type": "0x454a",
 "src": "adept",
 "category": "enemy",
 "sub": "regular",
 "why": "spec",
-"file": "enemies/regular/Evergreen Sprite__454a.png"
+"file": "enemies/regular/Sprite Forest Nature God__454a.png"
 },
 {
-"id": "Ocean Spirit",
+"id": "Shipwreck Elemental",
 "type": "0xc2f2",
 "src": "adept",
 "category": "enemy",
 "sub": "regular",
 "why": "spec",
-"file": "enemies/regular/Ocean Spirit__c2f2.png"
+"file": "enemies/regular/Shipwreck Elemental__c2f2.png"
 },
 {
 "id": "Invisible",
@@ -1169,6 +1187,15 @@
 "file": "projectiles/all/Bark Bolt__003e.png"
 },
 {
+"id": "City Ent God 1",
+"type": "0x5427",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/City Ent God 1__5427.png"
+},
+{
 "id": "Ent God Bolt",
 "type": "0xc011",
 "src": "projectiles",
@@ -1178,76 +1205,76 @@
 "file": "projectiles/all/Ent God Bolt__c011.png"
 },
 {
-"id": "EH Blue Stinger Large",
-"type": "0x10a1",
+"id": "Floral Sunflower 1",
+"type": "0x546a",
 "src": "projectiles",
 "category": "projectile",
 "sub": "all",
 "why": "proj",
-"file": "projectiles/all/EH Blue Stinger Large__10a1.png"
+"file": "projectiles/all/Floral Sunflower 1__546a.png"
 },
 {
-"id": "EH Yellow Stinger Large",
-"type": "0x10a7",
+"id": "Floral Sunflower 2",
+"type": "0x546b",
 "src": "projectiles",
 "category": "projectile",
 "sub": "all",
 "why": "proj",
-"file": "projectiles/all/EH Yellow Stinger Large__10a7.png"
+"file": "projectiles/all/Floral Sunflower 2__546b.png"
 },
 {
-"id": "Lucky Flying Brain Cortex",
-"type": "0xc034",
+"id": "Hallows Brute 1",
+"type": "0x5445",
 "src": "projectiles",
 "category": "projectile",
 "sub": "all",
 "why": "proj",
-"file": "projectiles/all/Lucky Flying Brain Cortex__c034.png"
+"file": "projectiles/all/Hallows Brute 1__5445.png"
 },
 {
-"id": "Green Spinner",
-"type": "0x0045",
+"id": "Hallows Brute 2",
+"type": "0x5446",
 "src": "projectiles",
 "category": "projectile",
 "sub": "all",
 "why": "proj",
-"file": "projectiles/all/Green Spinner__0045.png"
+"file": "projectiles/all/Hallows Brute 2__5446.png"
 },
 {
-"id": "Green Sprite Magic",
-"type": "0xc4f2",
-"src": "spriteWorldObjects",
+"id": "Sprite Forest Nature God 1",
+"type": "0x5439",
+"src": "projectiles",
 "category": "projectile",
 "sub": "all",
 "why": "proj",
-"file": "projectiles/all/Green Sprite Magic__c4f2.png"
+"file": "projectiles/all/Sprite Forest Nature God 1__5439.png"
 },
 {
-"id": "Green Sprite Twirl",
-"type": "0xc4f6",
-"src": "spriteWorldObjects",
+"id": "Sprite Forest Nature God 2",
+"type": "0x543a",
+"src": "projectiles",
 "category": "projectile",
 "sub": "all",
 "why": "proj",
-"file": "projectiles/all/Green Sprite Twirl__c4f6.png"
+"file": "projectiles/all/Sprite Forest Nature God 2__543a.png"
 },
 {
-"id": "Cyan Sprite Magic",
-"type": "0xc4f3",
-"src": "spriteWorldObjects",
+"id": "Shipwreck Elemental 1",
+"type": "0x540e",
+"src": "projectiles",
 "category": "projectile",
 "sub": "all",
 "why": "proj",
-"file": "projectiles/all/Cyan Sprite Magic__c4f3.png"
+"file": "projectiles/all/Shipwreck Elemental 1__540e.png"
 },
 {
-"id": "Cyan Sprite Twirl",
-"type": "0xc4f7",
-"src": "spriteWorldObjects",
+"id": "Shipwreck Elemental 2",
+"type": "0x540f",
+"src": "projectiles",
 "category": "projectile",
 "sub": "all",
 "why": "proj",
-"file": "projectiles/all/Cyan Sprite Twirl__c4f7.png"
+"file": "projectiles/all/Shipwreck Elemental 2__540f.png"
 },
 {
 "id": "Fairy Dust",

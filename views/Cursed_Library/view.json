@@ -8,26 +8,22 @@
 "tiles": 17,
 "projectiles": 25,
 "portals": 1,
-"enemies": 21,
+"enemies": 26,
 "props": 56,
 "helpers": 4,
 "npcs": 2,
 "walls": 7,
-"loot": 3
+"loot": 5
 },
 "why": {
 "src": 130,
+"spec": 5,
 "proj": 3,
-"loot": 3
+"loot": 5
 },
 "tile_hints_used": {},
 "names_in_own_files": [
 "Avalon the Archivist",
-"Corruption Phantom",
-"Corruption Phantom Wisp Charger",
-"Corruption Phantom Wisp Stalker",
-"Corruption Phantom Wisp Watcher",
-"Corruption Phantom Wisp Ravager",
 "Book Bomb",
 "Bookwyrm",
 "Enlightened Beholder",
@@ -42,7 +38,43 @@
 "Soulless Student",
 "Vile Maggot"
 ],
-"names_in_other_files": [],
+"names_in_other_files": [
+[
+"Corruption Phantom",
+[
+"cronusTrialsObjects",
+"cursedLibraryObjects"
+]
+],
+[
+"Corruption Phantom Wisp Charger",
+[
+"cronusTrialsObjects",
+"cursedLibraryObjects"
+]
+],
+[
+"Corruption Phantom Wisp Stalker",
+[
+"cronusTrialsObjects",
+"cursedLibraryObjects"
+]
+],
+[
+"Corruption Phantom Wisp Watcher",
+[
+"cronusTrialsObjects",
+"cursedLibraryObjects"
+]
+],
+[
+"Corruption Phantom Wisp Ravager",
+[
+"cronusTrialsObjects",
+"cursedLibraryObjects"
+]
+]
+],
 "names_not_found": [],
 "entries": [
 {
@@ -1216,6 +1248,51 @@
 "file": "props/all/Library Candle Big__ab7e.png"
 },
 {
+"id": "mgm2 Library Corruption Phantom",
+"type": "0x3385",
+"src": "cronusTrialsObjects",
+"category": "enemy",
+"sub": "miniboss",
+"why": "spec",
+"file": "enemies/miniboss/mgm2 Library Corruption Phantom__3385.png"
+},
+{
+"id": "mgm2 Library Corruption Phantom Wisp Charger",
+"type": "0x3386",
+"src": "cronusTrialsObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "spec",
+"file": "enemies/regular/mgm2 Library Corruption Phantom Wisp Charger__3386.png"
+},
+{
+"id": "mgm2 Library Corruption Phantom Wisp Stalker",
+"type": "0x3387",
+"src": "cronusTrialsObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "spec",
+"file": "enemies/regular/mgm2 Library Corruption Phantom Wisp Stalker__3387.png"
+},
+{
+"id": "mgm2 Library Corruption Phantom Wisp Watcher",
+"type": "0x3388",
+"src": "cronusTrialsObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "spec",
+"file": "enemies/regular/mgm2 Library Corruption Phantom Wisp Watcher__3388.png"
+},
+{
+"id": "mgm2 Library Corruption Phantom Wisp Ravager",
+"type": "0x3389",
+"src": "cronusTrialsObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "spec",
+"file": "enemies/regular/mgm2 Library Corruption Phantom Wisp Ravager__3389.png"
+},
+{
 "id": "White Bolt",
 "type": "0x000e",
 "src": "projectiles",
@@ -1268,6 +1345,24 @@
 "sub": "dagger",
 "why": "loot",
 "file": "loot/weapon_dagger/Corruption Cutter__580.png"
+},
+{
+"id": "Tarot Card Pack",
+"type": "0x3439",
+"src": "equip",
+"category": "consumable",
+"sub": "all",
+"why": "loot",
+"file": "loot/consumable/Tarot Card Pack__3439.png"
+},
+{
+"id": "Wand of Hidden Knowledge",
+"type": "0xA317",
+"src": "equip",
+"category": "weapon",
+"sub": "wand",
+"why": "loot",
+"file": "loot/weapon_wand/Wand of Hidden Knowledge__A317.png"
 }
 ]
 }

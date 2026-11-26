@@ -8,13 +8,13 @@
 "enemies": 41,
 "walls": 5,
 "helpers": 3,
-"npcs": 2,
+"npcs": 3,
 "projectiles": 37,
 "loot": 4
 },
 "why": {
 "src": 45,
-"spec": 12,
+"spec": 13,
 "spec~": 1,
 "proj": 37,
 "loot": 4
@@ -68,7 +68,8 @@
 [
 "Craig",
 [
-"npc"
+"npc",
+"timeChamberObjects"
 ]
 ],
 [
@@ -88,408 +89,408 @@
 "entries": [
 {
 "id": "Stone Guardian Support",
-"type": "0x0b01",
+"type": "0x0B01",
 "src": "oryxCastle",
 "category": "prop",
 "sub": "oryxCastle",
 "why": "src",
-"file": "props/all/Stone Guardian Support__0b01.png"
+"file": "props/all/Stone Guardian Support__0B01.png"
 },
 {
 "id": "Destructible Castle Wall",
-"type": "0x0d70",
+"type": "0x0D70",
 "src": "oryxCastle",
 "category": "enemy",
 "sub": "regular",
 "why": "src",
-"file": "enemies/regular/Destructible Castle Wall__0d70.png"
+"file": "enemies/regular/Destructible Castle Wall__0D70.png"
 },
 {
 "id": "Fortified Destructible Castle Wall",
-"type": "0x0b70",
+"type": "0x0B70",
 "src": "oryxCastle",
 "category": "enemy",
 "sub": "regular",
 "why": "src",
-"file": "enemies/regular/Fortified Destructible Castle Wall__0b70.png"
+"file": "enemies/regular/Fortified Destructible Castle Wall__0B70.png"
 },
 {
 "id": "Destructible Castle Ice Wall",
-"type": "0x0b09",
+"type": "0x0B09",
 "src": "oryxCastle",
 "category": "enemy",
 "sub": "regular",
 "why": "src",
-"file": "enemies/regular/Destructible Castle Ice Wall__0b09.png"
+"file": "enemies/regular/Destructible Castle Ice Wall__0B09.png"
 },
 {
 "id": "Fortified Destructible Castle Ice Wall",
-"type": "0x0b0a",
+"type": "0x0B0A",
 "src": "oryxCastle",
 "category": "enemy",
 "sub": "regular",
 "why": "src",
-"file": "enemies/regular/Fortified Destructible Castle Ice Wall__0b0a.png"
+"file": "enemies/regular/Fortified Destructible Castle Ice Wall__0B0A.png"
 },
 {
 "id": "Suit of Armor",
-"type": "0x0d71",
+"type": "0x0D71",
 "src": "oryxCastle",
 "category": "enemy",
 "sub": "regular",
 "why": "src",
-"file": "enemies/regular/Suit of Armor__0d71.png"
+"file": "enemies/regular/Suit of Armor__0D71.png"
 },
 {
 "id": "Suit of Armor Sm",
-"type": "0x0d72",
+"type": "0x0D72",
 "src": "oryxCastle",
 "category": "enemy",
 "sub": "regular",
 "why": "src",
-"file": "enemies/regular/Suit of Armor Sm__0d72.png"
+"file": "enemies/regular/Suit of Armor Sm__0D72.png"
 },
 {
 "id": "CastleArch Wall Flame",
-"type": "0x0d73",
+"type": "0x0D73",
 "src": "oryxCastle",
 "category": "wall",
 "sub": "oryxCastle",
 "why": "src",
-"file": "walls/all/CastleArch Wall Flame__0d73.png"
+"file": "walls/all/CastleArch Wall Flame__0D73.png"
 },
 {
 "id": "CastleArch Wall",
-"type": "0x0d74",
+"type": "0x0D74",
 "src": "oryxCastle",
 "category": "wall",
 "sub": "oryxCastle",
 "why": "src",
-"file": "walls/all/CastleArch Wall__0d74.png"
+"file": "walls/all/CastleArch Wall__0D74.png"
 },
 {
 "id": "Castle Wall Blank",
-"type": "0x0d75",
+"type": "0x0D75",
 "src": "oryxCastle",
 "category": "wall",
 "sub": "oryxCastle",
 "why": "src",
-"file": "walls/all/Castle Wall Blank__0d75.png"
+"file": "walls/all/Castle Wall Blank__0D75.png"
 },
 {
 "id": "Castle Brick Wall2",
-"type": "0x0d76",
+"type": "0x0D76",
 "src": "oryxCastle",
 "category": "wall",
 "sub": "oryxCastle",
 "why": "src",
-"file": "walls/all/Castle Brick Wall2__0d76.png"
+"file": "walls/all/Castle Brick Wall2__0D76.png"
 },
 {
 "id": "Castle Brick Wall3",
-"type": "0x0d77",
+"type": "0x0D77",
 "src": "oryxCastle",
 "category": "wall",
 "sub": "oryxCastle",
 "why": "src",
-"file": "walls/all/Castle Brick Wall3__0d77.png"
+"file": "walls/all/Castle Brick Wall3__0D77.png"
 },
 {
 "id": "Oryx Stone Guardian Right",
-"type": "0x0d78",
+"type": "0x0D78",
 "src": "oryxCastle",
 "category": "enemy",
 "sub": "miniboss",
 "why": "src",
-"file": "enemies/miniboss/Oryx Stone Guardian Right__0d78.png"
+"file": "enemies/miniboss/Oryx Stone Guardian Right__0D78.png"
 },
 {
 "id": "Oryx Stone Guardian Left",
-"type": "0x0d79",
+"type": "0x0D79",
 "src": "oryxCastle",
 "category": "enemy",
 "sub": "miniboss",
 "why": "src",
-"file": "enemies/miniboss/Oryx Stone Guardian Left__0d79.png"
+"file": "enemies/miniboss/Oryx Stone Guardian Left__0D79.png"
 },
 {
 "id": "Infested Oryx Stone Guardian Right",
-"type": "0xb536",
+"type": "0xB536",
 "src": "oryxCastle",
 "category": "enemy",
 "sub": "miniboss",
 "why": "src",
-"file": "enemies/miniboss/Infested Oryx Stone Guardian Right__b536.png"
+"file": "enemies/miniboss/Infested Oryx Stone Guardian Right__B536.png"
 },
 {
 "id": "Infested Oryx Stone Guardian Left",
-"type": "0xb537",
+"type": "0xB537",
 "src": "oryxCastle",
 "category": "enemy",
 "sub": "miniboss",
 "why": "src",
-"file": "enemies/miniboss/Infested Oryx Stone Guardian Left__b537.png"
+"file": "enemies/miniboss/Infested Oryx Stone Guardian Left__B537.png"
 },
 {
 "id": "Oryx Guardian TaskMaster",
-"type": "0x0d7a",
+"type": "0x0D7A",
 "src": "oryxCastle",
 "category": "helper",
 "sub": "other",
 "why": "src",
-"file": "helpers/other/Oryx Guardian TaskMaster__0d7a.png"
+"file": "helpers/other/Oryx Guardian TaskMaster__0D7A.png"
 },
 {
 "id": "Oryx Guardian Sword",
-"type": "0x0d7c",
+"type": "0x0D7C",
 "src": "oryxCastle",
 "category": "enemy",
 "sub": "regular",
 "why": "src",
-"file": "enemies/regular/Oryx Guardian Sword__0d7c.png"
+"file": "enemies/regular/Oryx Guardian Sword__0D7C.png"
 },
 {
 "id": "Infested Oryx Guardian Sword",
-"type": "0xb53a",
+"type": "0xB53A",
 "src": "oryxCastle",
 "category": "enemy",
 "sub": "regular",
 "why": "src",
-"file": "enemies/regular/Infested Oryx Guardian Sword__b53a.png"
+"file": "enemies/regular/Infested Oryx Guardian Sword__B53A.png"
 },
 {
 "id": "Oryx Armor Spawner",
-"type": "0x0d7d",
+"type": "0x0D7D",
 "src": "oryxCastle",
 "category": "prop",
 "sub": "oryxCastle",
 "why": "src",
-"file": "props/all/Oryx Armor Spawner__0d7d.png"
+"file": "props/all/Oryx Armor Spawner__0D7D.png"
 },
 {
 "id": "Oryx Suit of Armor",
-"type": "0x0d7e",
+"type": "0x0D7E",
 "src": "oryxCastle",
 "category": "enemy",
 "sub": "regular",
 "why": "src",
-"file": "enemies/regular/Oryx Suit of Armor__0d7e.png"
+"file": "enemies/regular/Oryx Suit of Armor__0D7E.png"
 },
 {
 "id": "Oryx Insect Commander",
-"type": "0x0d7f",
+"type": "0x0D7F",
 "src": "oryxCastle",
 "category": "enemy",
 "sub": "regular",
 "why": "src",
-"file": "enemies/regular/Oryx Insect Commander__0d7f.png"
+"file": "enemies/regular/Oryx Insect Commander__0D7F.png"
 },
 {
 "id": "Oryx Insect Minion",
-"type": "0x0d80",
+"type": "0x0D80",
 "src": "oryxCastle",
 "category": "enemy",
 "sub": "regular",
 "why": "src",
-"file": "enemies/regular/Oryx Insect Minion__0d80.png"
+"file": "enemies/regular/Oryx Insect Minion__0D80.png"
 },
 {
 "id": "Oryx Eye Warrior",
-"type": "0x0d81",
+"type": "0x0D81",
 "src": "oryxCastle",
 "category": "enemy",
 "sub": "regular",
 "why": "src",
-"file": "enemies/regular/Oryx Eye Warrior__0d81.png"
+"file": "enemies/regular/Oryx Eye Warrior__0D81.png"
 },
 {
 "id": "Oryx Brute",
-"type": "0x0d82",
+"type": "0x0D82",
 "src": "oryxCastle",
 "category": "enemy",
 "sub": "regular",
 "why": "src",
-"file": "enemies/regular/Oryx Brute__0d82.png"
+"file": "enemies/regular/Oryx Brute__0D82.png"
 },
 {
 "id": "Oryx Knight",
-"type": "0x0d83",
+"type": "0x0D83",
 "src": "oryxCastle",
 "category": "enemy",
 "sub": "regular",
 "why": "src",
-"file": "enemies/regular/Oryx Knight__0d83.png"
+"file": "enemies/regular/Oryx Knight__0D83.png"
 },
 {
 "id": "Oryx Pet",
-"type": "0x0d84",
+"type": "0x0D84",
 "src": "oryxCastle",
 "category": "enemy",
 "sub": "regular",
 "why": "src",
-"file": "enemies/regular/Oryx Pet__0d84.png"
+"file": "enemies/regular/Oryx Pet__0D84.png"
 },
 {
 "id": "Oryx's Living Floor Fire Down",
-"type": "0x0d85",
+"type": "0x0D85",
 "src": "oryxCastle",
 "category": "enemy",
 "sub": "regular",
 "why": "src",
-"file": "enemies/regular/Oryx_s Living Floor Fire Down__0d85.png"
+"file": "enemies/regular/Oryx_s Living Floor Fire Down__0D85.png"
 },
 {
 "id": "Quiet Bomb",
-"type": "0x0d86",
+"type": "0x0D86",
 "src": "oryxCastle",
 "category": "helper",
 "sub": "effect",
 "why": "src",
-"file": "helpers/effect/Quiet Bomb__0d86.png"
+"file": "helpers/effect/Quiet Bomb__0D86.png"
 },
 {
 "id": "Oryx's Living Floor",
-"type": "0x0d87",
+"type": "0x0D87",
 "src": "oryxCastle",
 "category": "enemy",
 "sub": "regular",
 "why": "src",
-"file": "enemies/regular/Oryx_s Living Floor__0d87.png"
+"file": "enemies/regular/Oryx_s Living Floor__0D87.png"
 },
 {
 "id": "Oryx Suit of Armor Snowy",
-"type": "0x0d88",
+"type": "0x0D88",
 "src": "oryxCastle",
 "category": "enemy",
 "sub": "regular",
 "why": "src",
-"file": "enemies/regular/Oryx Suit of Armor Snowy__0d88.png"
+"file": "enemies/regular/Oryx Suit of Armor Snowy__0D88.png"
 },
 {
 "id": "Grey Pillar Snowy",
-"type": "0x0d8b",
+"type": "0x0D8B",
 "src": "oryxCastle",
 "category": "prop",
 "sub": "oryxCastle",
 "why": "src",
-"file": "props/all/Grey Pillar Snowy__0d8b.png"
+"file": "props/all/Grey Pillar Snowy__0D8B.png"
 },
 {
 "id": "Infested Parasite Pillar",
-"type": "0xb3a7",
+"type": "0xB3A7",
 "src": "oryxCastle",
 "category": "prop",
 "sub": "oryxCastle",
 "why": "src",
-"file": "props/all/Infested Parasite Pillar__b3a7.png"
+"file": "props/all/Infested Parasite Pillar__B3A7.png"
 },
 {
 "id": "Infested pD Boss Target",
-"type": "0xb3a6",
+"type": "0xB3A6",
 "src": "oryxCastle",
 "category": "prop",
 "sub": "oryxCastle",
 "why": "src",
-"file": "props/all/Infested pD Boss Target__b3a6.png"
+"file": "props/all/Infested pD Boss Target__B3A6.png"
 },
 {
 "id": "Infested pD Boss",
-"type": "0xb3b2",
+"type": "0xB3B2",
 "src": "oryxCastle",
 "category": "enemy",
 "sub": "boss",
 "why": "src",
-"file": "enemies/boss/Infested pD Boss__b3b2.png"
+"file": "enemies/boss/Infested pD Boss__B3B2.png"
 },
 {
 "id": "Infested pD Boss Support",
-"type": "0xb3b3",
+"type": "0xB3B3",
 "src": "oryxCastle",
 "category": "helper",
 "sub": "other",
 "why": "src",
-"file": "helpers/other/Infested pD Boss Support__b3b3.png"
+"file": "helpers/other/Infested pD Boss Support__B3B3.png"
 },
 {
 "id": "Infested pD Blob Colony",
-"type": "0xb3b4",
+"type": "0xB3B4",
 "src": "oryxCastle",
 "category": "enemy",
 "sub": "regular",
 "why": "src",
-"file": "enemies/regular/Infested pD Blob Colony__b3b4.png"
+"file": "enemies/regular/Infested pD Blob Colony__B3B4.png"
 },
 {
 "id": "Infested pD Pterasite Colony",
-"type": "0xb3b5",
+"type": "0xB3B5",
 "src": "oryxCastle",
 "category": "enemy",
 "sub": "regular",
 "why": "src",
-"file": "enemies/regular/Infested pD Pterasite Colony__b3b5.png"
+"file": "enemies/regular/Infested pD Pterasite Colony__B3B5.png"
 },
 {
 "id": "Infested pD Swarm Colony",
-"type": "0xb3b6",
+"type": "0xB3B6",
 "src": "oryxCastle",
 "category": "enemy",
 "sub": "regular",
 "why": "src",
-"file": "enemies/regular/Infested pD Swarm Colony__b3b6.png"
+"file": "enemies/regular/Infested pD Swarm Colony__B3B6.png"
 },
 {
 "id": "Infested pD Walker C",
-"type": "0xb3b7",
+"type": "0xB3B7",
 "src": "oryxCastle",
 "category": "enemy",
 "sub": "regular",
 "why": "src",
-"file": "enemies/regular/Infested pD Walker C__b3b7.png"
+"file": "enemies/regular/Infested pD Walker C__B3B7.png"
 },
 {
 "id": "Infested pD Maw C",
-"type": "0xb3b8",
+"type": "0xB3B8",
 "src": "oryxCastle",
 "category": "enemy",
 "sub": "regular",
 "why": "src",
-"file": "enemies/regular/Infested pD Maw C__b3b8.png"
+"file": "enemies/regular/Infested pD Maw C__B3B8.png"
 },
 {
 "id": "Infested pD Tongue C",
-"type": "0xb3b9",
+"type": "0xB3B9",
 "src": "oryxCastle",
 "category": "enemy",
 "sub": "regular",
 "why": "src",
-"file": "enemies/regular/Infested pD Tongue C__b3b9.png"
+"file": "enemies/regular/Infested pD Tongue C__B3B9.png"
 },
 {
 "id": "Infested pD Painling C",
-"type": "0xb3ba",
+"type": "0xB3BA",
 "src": "oryxCastle",
 "category": "enemy",
 "sub": "regular",
 "why": "src",
-"file": "enemies/regular/Infested pD Painling C__b3ba.png"
+"file": "enemies/regular/Infested pD Painling C__B3BA.png"
 },
 {
 "id": "Infested pD Stalker C",
-"type": "0xb3bb",
+"type": "0xB3BB",
 "src": "oryxCastle",
 "category": "enemy",
 "sub": "regular",
 "why": "src",
-"file": "enemies/regular/Infested pD Stalker C__b3bb.png"
+"file": "enemies/regular/Infested pD Stalker C__B3BB.png"
 },
 {
 "id": "Infested Suit of Armor",
-"type": "0xb3bc",
+"type": "0xB3BC",
 "src": "oryxCastle",
 "category": "enemy",
 "sub": "regular",
 "why": "src",
-"file": "enemies/regular/Infested Suit of Armor__b3bc.png"
+"file": "enemies/regular/Infested Suit of Armor__B3BC.png"
 },
 {
 "id": "Megamad Oryx Guardian Sword",
@@ -529,12 +530,12 @@
 },
 {
 "id": "Infested md dwGenerator",
-"type": "0xb52f",
+"type": "0xB52F",
 "src": "miniDungeonHub",
 "category": "prop",
 "sub": "miniDungeonHub",
 "why": "spec",
-"file": "props/all/Infested md dwGenerator__b52f.png"
+"file": "props/all/Infested md dwGenerator__B52F.png"
 },
 {
 "id": "md Janus the Doorwarden",
@@ -547,12 +548,12 @@
 },
 {
 "id": "Infested md Janus the Doorwarden",
-"type": "0xb531",
+"type": "0xB531",
 "src": "miniDungeonHub",
 "category": "enemy",
 "sub": "miniboss",
 "why": "spec",
-"file": "enemies/miniboss/Infested md Janus the Doorwarden__b531.png"
+"file": "enemies/miniboss/Infested md Janus the Doorwarden__B531.png"
 },
 {
 "id": "md LightKey",
@@ -565,12 +566,12 @@
 },
 {
 "id": "Infested md LightKey",
-"type": "0xb538",
+"type": "0xB538",
 "src": "miniDungeonHub",
 "category": "enemy",
 "sub": "regular",
 "why": "spec",
-"file": "enemies/regular/Infested md LightKey__b538.png"
+"file": "enemies/regular/Infested md LightKey__B538.png"
 },
 {
 "id": "md DarkKey",
@@ -583,12 +584,12 @@
 },
 {
 "id": "Infested md DarkKey",
-"type": "0xb539",
+"type": "0xB539",
 "src": "miniDungeonHub",
 "category": "enemy",
 "sub": "regular",
 "why": "spec",
-"file": "enemies/regular/Infested md DarkKey__b539.png"
+"file": "enemies/regular/Infested md DarkKey__B539.png"
 },
 {
 "id": "Craig",
@@ -598,6 +599,15 @@
 "sub": "all",
 "why": "spec",
 "file": "npcs/all/Craig__0c5e.png"
+},
+{
+"id": "Time Keeper Craig",
+"type": "0xcfd1",
+"src": "timeChamberObjects",
+"category": "npc",
+"sub": "all",
+"why": "spec",
+"file": "npcs/all/Time Keeper Craig__cfd1.png"
 },
 {
 "id": "Craig, Intern of the Mad God",

@@ -11,12 +11,12 @@
 "enemies": 31,
 "helpers": 3,
 "walls": 7,
-"loot": 2
+"loot": 3
 },
 "why": {
 "src": 264,
 "proj": 4,
-"loot": 2,
+"loot": 3,
 "tile": 2
 },
 "tile_hints_used": {
@@ -2484,6 +2484,15 @@
 "sub": "all",
 "why": "loot",
 "file": "loot/ability/Wavecrest Concertina__4dec.png"
+},
+{
+"id": "Big Berdtha",
+"type": "0xbc0c",
+"src": "equip",
+"category": "ability",
+"sub": "all",
+"why": "loot",
+"file": "loot/ability/Big Berdtha__bc0c.png"
 },
 {
 "id": "Light Sand",

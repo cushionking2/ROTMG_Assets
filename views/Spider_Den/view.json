@@ -7,17 +7,17 @@
 "counts": {
 "tiles": 102,
 "projectiles": 11,
-"loot": 3,
 "props": 12,
-"enemies": 8,
+"enemies": 26,
 "helpers": 18,
-"walls": 3
+"walls": 3,
+"loot": 3
 },
 "why": {
-"src": 144,
-"spec": 9,
+"src": 143,
+"spec": 27,
 "proj": 2,
-"loot": 2
+"loot": 3
 },
 "tile_hints_used": {},
 "names_in_own_files": [
@@ -35,7 +35,9 @@
 "Arachna Element",
 [
 "epicspiderDen",
-"spiderDenObjects"
+"legacyEpicspiderDen",
+"spiderDenObjects",
+"spiderDen_2"
 ]
 ]
 ],
@@ -1041,15 +1043,6 @@
 "file": "projectiles/all/Arachna Venom__374b.png"
 },
 {
-"id": "Spider Shuriken",
-"type": "0x3745",
-"src": "spiderDenObjects",
-"category": "ability",
-"sub": "all",
-"why": "src",
-"file": "loot/ability/Spider Shuriken__3745.png"
-},
-{
 "id": "Arachna Summoner",
 "type": "0x1732",
 "src": "spiderDenObjects",
@@ -1419,6 +1412,168 @@
 "file": "helpers/other/Epic Arachna Web Spoke 9__703d.png"
 },
 {
+"id": "Retro Epic Arachna Web Spoke 1",
+"type": "0xcdca",
+"src": "legacyEpicspiderDen",
+"category": "enemy",
+"sub": "regular",
+"why": "spec",
+"file": "enemies/regular/Retro Epic Arachna Web Spoke 1__cdca.png"
+},
+{
+"id": "Retro Epic Arachna Web Spoke 2",
+"type": "0xcdcb",
+"src": "legacyEpicspiderDen",
+"category": "enemy",
+"sub": "regular",
+"why": "spec",
+"file": "enemies/regular/Retro Epic Arachna Web Spoke 2__cdcb.png"
+},
+{
+"id": "Retro Epic Arachna Web Spoke 3",
+"type": "0xcdcc",
+"src": "legacyEpicspiderDen",
+"category": "enemy",
+"sub": "regular",
+"why": "spec",
+"file": "enemies/regular/Retro Epic Arachna Web Spoke 3__cdcc.png"
+},
+{
+"id": "Retro Epic Arachna Web Spoke 4",
+"type": "0xcdcd",
+"src": "legacyEpicspiderDen",
+"category": "enemy",
+"sub": "regular",
+"why": "spec",
+"file": "enemies/regular/Retro Epic Arachna Web Spoke 4__cdcd.png"
+},
+{
+"id": "Retro Epic Arachna Web Spoke 5",
+"type": "0xcdce",
+"src": "legacyEpicspiderDen",
+"category": "enemy",
+"sub": "regular",
+"why": "spec",
+"file": "enemies/regular/Retro Epic Arachna Web Spoke 5__cdce.png"
+},
+{
+"id": "Retro Epic Arachna Web Spoke 6",
+"type": "0xcdcf",
+"src": "legacyEpicspiderDen",
+"category": "enemy",
+"sub": "regular",
+"why": "spec",
+"file": "enemies/regular/Retro Epic Arachna Web Spoke 6__cdcf.png"
+},
+{
+"id": "Retro Epic Arachna Web Spoke 7",
+"type": "0xcdd0",
+"src": "legacyEpicspiderDen",
+"category": "enemy",
+"sub": "regular",
+"why": "spec",
+"file": "enemies/regular/Retro Epic Arachna Web Spoke 7__cdd0.png"
+},
+{
+"id": "Retro Epic Arachna Web Spoke 8",
+"type": "0xcdd1",
+"src": "legacyEpicspiderDen",
+"category": "enemy",
+"sub": "regular",
+"why": "spec",
+"file": "enemies/regular/Retro Epic Arachna Web Spoke 8__cdd1.png"
+},
+{
+"id": "Retro Epic Arachna Web Spoke 9",
+"type": "0xcdd2",
+"src": "legacyEpicspiderDen",
+"category": "enemy",
+"sub": "regular",
+"why": "spec",
+"file": "enemies/regular/Retro Epic Arachna Web Spoke 9__cdd2.png"
+},
+{
+"id": "Retro Arachna Web Spoke 1",
+"type": "0x3E02",
+"src": "spiderDen_2",
+"category": "enemy",
+"sub": "regular",
+"why": "spec",
+"file": "enemies/regular/Retro Arachna Web Spoke 1__3E02.png"
+},
+{
+"id": "Retro Arachna Web Spoke 2",
+"type": "0x3E03",
+"src": "spiderDen_2",
+"category": "enemy",
+"sub": "regular",
+"why": "spec",
+"file": "enemies/regular/Retro Arachna Web Spoke 2__3E03.png"
+},
+{
+"id": "Retro Arachna Web Spoke 3",
+"type": "0x3E04",
+"src": "spiderDen_2",
+"category": "enemy",
+"sub": "regular",
+"why": "spec",
+"file": "enemies/regular/Retro Arachna Web Spoke 3__3E04.png"
+},
+{
+"id": "Retro Arachna Web Spoke 4",
+"type": "0x3E05",
+"src": "spiderDen_2",
+"category": "enemy",
+"sub": "regular",
+"why": "spec",
+"file": "enemies/regular/Retro Arachna Web Spoke 4__3E05.png"
+},
+{
+"id": "Retro Arachna Web Spoke 5",
+"type": "0x3E06",
+"src": "spiderDen_2",
+"category": "enemy",
+"sub": "regular",
+"why": "spec",
+"file": "enemies/regular/Retro Arachna Web Spoke 5__3E06.png"
+},
+{
+"id": "Retro Arachna Web Spoke 6",
+"type": "0x3E07",
+"src": "spiderDen_2",
+"category": "enemy",
+"sub": "regular",
+"why": "spec",
+"file": "enemies/regular/Retro Arachna Web Spoke 6__3E07.png"
+},
+{
+"id": "Retro Arachna Web Spoke 7",
+"type": "0x3E08",
+"src": "spiderDen_2",
+"category": "enemy",
+"sub": "regular",
+"why": "spec",
+"file": "enemies/regular/Retro Arachna Web Spoke 7__3E08.png"
+},
+{
+"id": "Retro Arachna Web Spoke 8",
+"type": "0x3E09",
+"src": "spiderDen_2",
+"category": "enemy",
+"sub": "regular",
+"why": "spec",
+"file": "enemies/regular/Retro Arachna Web Spoke 8__3E09.png"
+},
+{
+"id": "Retro Arachna Web Spoke 9",
+"type": "0x3E0A",
+"src": "spiderDen_2",
+"category": "enemy",
+"sub": "regular",
+"why": "spec",
+"file": "enemies/regular/Retro Arachna Web Spoke 9__3E0A.png"
+},
+{
 "id": "Web Thread",
 "type": "0x0041",
 "src": "projectiles",
@@ -1453,6 +1608,15 @@
 "sub": "all",
 "why": "loot",
 "file": "loot/ring/Spider_s Eye Ring__708.png"
+},
+{
+"id": "Spider Shuriken",
+"type": "0x3745",
+"src": "equip",
+"category": "ability",
+"sub": "all",
+"why": "loot",
+"file": "loot/ability/Spider Shuriken__3745.png"
 }
 ]
 }

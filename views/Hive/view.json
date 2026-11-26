@@ -5,17 +5,17 @@
 ],
 "counts": {
 "props": 2,
-"enemies": 14,
+"enemies": 17,
 "npcs": 4,
 "tiles": 1,
-"projectiles": 8,
+"projectiles": 10,
 "loot": 2
 },
 "why": {
 "src": 17,
-"spec": 3,
+"spec": 6,
 "alias": 1,
-"proj": 8,
+"proj": 10,
 "loot": 2
 },
 "tile_hints_used": {
@@ -45,23 +45,27 @@
 [
 "Warrior Bee",
 [
-"mid"
+"mid",
+"oldMid",
+"rookie"
 ]
 ],
 [
 "Wasp Queen",
 [
-"mid"
+"mid",
+"oldMid",
+"rookie"
+]
+],
+[
+"Legion Surveyor",
+[
+"heroes_2"
 ]
 ]
 ],
-"names_not_found": [
-{
-"name": "Legion Surveyor",
-"suggestions": [],
-"suggestion_in_own_files": false
-}
-],
+"names_not_found": [],
 "entries": [
 {
 "id": "TH honey Heal",
@@ -218,12 +222,12 @@
 },
 {
 "id": "Maggot",
-"type": "0x0e46",
+"type": "0x0E46",
 "src": "ghostShip",
 "category": "enemy",
 "sub": "regular",
 "why": "spec",
-"file": "enemies/regular/Maggot__0e46.png"
+"file": "enemies/regular/Maggot__0E46.png"
 },
 {
 "id": "TH Honey",
@@ -244,6 +248,15 @@
 "file": "enemies/event_boss/Warrior Bee__094a.png"
 },
 {
+"id": "New Warrior Bee",
+"type": "0x5543",
+"src": "rookie",
+"category": "enemy",
+"sub": "event_boss",
+"why": "spec",
+"file": "enemies/event_boss/New Warrior Bee__5543.png"
+},
+{
 "id": "Wasp Queen",
 "type": "0x0947",
 "src": "mid",
@@ -251,6 +264,24 @@
 "sub": "event_boss",
 "why": "spec",
 "file": "enemies/event_boss/Wasp Queen__0947.png"
+},
+{
+"id": "New Wasp Queen",
+"type": "0x5540",
+"src": "rookie",
+"category": "enemy",
+"sub": "event_boss",
+"why": "spec",
+"file": "enemies/event_boss/New Wasp Queen__5540.png"
+},
+{
+"id": "Legion Surveyor",
+"type": "0xD413",
+"src": "heroes_2",
+"category": "enemy",
+"sub": "boss",
+"why": "spec",
+"file": "enemies/boss/Legion Surveyor__D413.png"
 },
 {
 "id": "Invisible",
@@ -323,6 +354,24 @@
 "sub": "all",
 "why": "proj",
 "file": "projectiles/all/Yellow Missile__0028.png"
+},
+{
+"id": "Legion Surveyor Proj2",
+"type": "0x79de",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Legion Surveyor Proj2__79de.png"
+},
+{
+"id": "Legion Surveyor Proj",
+"type": "0xA3DB",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Legion Surveyor Proj__A3DB.png"
 },
 {
 "id": "Potion of Dexterity",

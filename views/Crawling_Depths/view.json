@@ -4,20 +4,20 @@
 "epicspiderDen"
 ],
 "counts": {
-"projectiles": 29,
+"projectiles": 32,
 "npcs": 6,
-"enemies": 24,
+"enemies": 43,
 "helpers": 18,
 "props": 13,
 "walls": 4,
 "tiles": 1,
-"loot": 7
+"loot": 9
 },
 "why": {
 "src": 66,
-"spec": 15,
-"proj": 13,
-"loot": 7,
+"spec": 34,
+"proj": 16,
+"loot": 9,
 "wall": 1
 },
 "tile_hints_used": {
@@ -47,7 +47,9 @@
 "Arachna Element",
 [
 "epicspiderDen",
-"spiderDenObjects"
+"legacyEpicspiderDen",
+"spiderDenObjects",
+"spiderDen_2"
 ]
 ],
 [
@@ -60,6 +62,7 @@
 "Sting Spider",
 [
 "mountains",
+"oldMountains",
 "veteran"
 ]
 ],
@@ -80,15 +83,15 @@
 [
 "heroes_2"
 ]
+],
+[
+"Legion Lead Strategist",
+[
+"heroes_2"
+]
 ]
 ],
-"names_not_found": [
-{
-"name": "Legion Lead Strategist",
-"suggestions": [],
-"suggestion_in_own_files": false
-}
-],
+"names_not_found": [],
 "entries": [
 {
 "id": "Doku Slash",
@@ -685,6 +688,87 @@
 "file": "walls/all/Crawling Spider Wall Eyes__25eb.png"
 },
 {
+"id": "Retro Epic Arachna Web Spoke 1",
+"type": "0xcdca",
+"src": "legacyEpicspiderDen",
+"category": "enemy",
+"sub": "regular",
+"why": "spec",
+"file": "enemies/regular/Retro Epic Arachna Web Spoke 1__cdca.png"
+},
+{
+"id": "Retro Epic Arachna Web Spoke 2",
+"type": "0xcdcb",
+"src": "legacyEpicspiderDen",
+"category": "enemy",
+"sub": "regular",
+"why": "spec",
+"file": "enemies/regular/Retro Epic Arachna Web Spoke 2__cdcb.png"
+},
+{
+"id": "Retro Epic Arachna Web Spoke 3",
+"type": "0xcdcc",
+"src": "legacyEpicspiderDen",
+"category": "enemy",
+"sub": "regular",
+"why": "spec",
+"file": "enemies/regular/Retro Epic Arachna Web Spoke 3__cdcc.png"
+},
+{
+"id": "Retro Epic Arachna Web Spoke 4",
+"type": "0xcdcd",
+"src": "legacyEpicspiderDen",
+"category": "enemy",
+"sub": "regular",
+"why": "spec",
+"file": "enemies/regular/Retro Epic Arachna Web Spoke 4__cdcd.png"
+},
+{
+"id": "Retro Epic Arachna Web Spoke 5",
+"type": "0xcdce",
+"src": "legacyEpicspiderDen",
+"category": "enemy",
+"sub": "regular",
+"why": "spec",
+"file": "enemies/regular/Retro Epic Arachna Web Spoke 5__cdce.png"
+},
+{
+"id": "Retro Epic Arachna Web Spoke 6",
+"type": "0xcdcf",
+"src": "legacyEpicspiderDen",
+"category": "enemy",
+"sub": "regular",
+"why": "spec",
+"file": "enemies/regular/Retro Epic Arachna Web Spoke 6__cdcf.png"
+},
+{
+"id": "Retro Epic Arachna Web Spoke 7",
+"type": "0xcdd0",
+"src": "legacyEpicspiderDen",
+"category": "enemy",
+"sub": "regular",
+"why": "spec",
+"file": "enemies/regular/Retro Epic Arachna Web Spoke 7__cdd0.png"
+},
+{
+"id": "Retro Epic Arachna Web Spoke 8",
+"type": "0xcdd1",
+"src": "legacyEpicspiderDen",
+"category": "enemy",
+"sub": "regular",
+"why": "spec",
+"file": "enemies/regular/Retro Epic Arachna Web Spoke 8__cdd1.png"
+},
+{
+"id": "Retro Epic Arachna Web Spoke 9",
+"type": "0xcdd2",
+"src": "legacyEpicspiderDen",
+"category": "enemy",
+"sub": "regular",
+"why": "spec",
+"file": "enemies/regular/Retro Epic Arachna Web Spoke 9__cdd2.png"
+},
+{
 "id": "Arachna Web Spoke 1",
 "type": "0x0937",
 "src": "spiderDenObjects",
@@ -766,6 +850,87 @@
 "file": "helpers/other/Arachna Web Spoke 9__093f.png"
 },
 {
+"id": "Retro Arachna Web Spoke 1",
+"type": "0x3E02",
+"src": "spiderDen_2",
+"category": "enemy",
+"sub": "regular",
+"why": "spec",
+"file": "enemies/regular/Retro Arachna Web Spoke 1__3E02.png"
+},
+{
+"id": "Retro Arachna Web Spoke 2",
+"type": "0x3E03",
+"src": "spiderDen_2",
+"category": "enemy",
+"sub": "regular",
+"why": "spec",
+"file": "enemies/regular/Retro Arachna Web Spoke 2__3E03.png"
+},
+{
+"id": "Retro Arachna Web Spoke 3",
+"type": "0x3E04",
+"src": "spiderDen_2",
+"category": "enemy",
+"sub": "regular",
+"why": "spec",
+"file": "enemies/regular/Retro Arachna Web Spoke 3__3E04.png"
+},
+{
+"id": "Retro Arachna Web Spoke 4",
+"type": "0x3E05",
+"src": "spiderDen_2",
+"category": "enemy",
+"sub": "regular",
+"why": "spec",
+"file": "enemies/regular/Retro Arachna Web Spoke 4__3E05.png"
+},
+{
+"id": "Retro Arachna Web Spoke 5",
+"type": "0x3E06",
+"src": "spiderDen_2",
+"category": "enemy",
+"sub": "regular",
+"why": "spec",
+"file": "enemies/regular/Retro Arachna Web Spoke 5__3E06.png"
+},
+{
+"id": "Retro Arachna Web Spoke 6",
+"type": "0x3E07",
+"src": "spiderDen_2",
+"category": "enemy",
+"sub": "regular",
+"why": "spec",
+"file": "enemies/regular/Retro Arachna Web Spoke 6__3E07.png"
+},
+{
+"id": "Retro Arachna Web Spoke 7",
+"type": "0x3E08",
+"src": "spiderDen_2",
+"category": "enemy",
+"sub": "regular",
+"why": "spec",
+"file": "enemies/regular/Retro Arachna Web Spoke 7__3E08.png"
+},
+{
+"id": "Retro Arachna Web Spoke 8",
+"type": "0x3E09",
+"src": "spiderDen_2",
+"category": "enemy",
+"sub": "regular",
+"why": "spec",
+"file": "enemies/regular/Retro Arachna Web Spoke 8__3E09.png"
+},
+{
+"id": "Retro Arachna Web Spoke 9",
+"type": "0x3E0A",
+"src": "spiderDen_2",
+"category": "enemy",
+"sub": "regular",
+"why": "spec",
+"file": "enemies/regular/Retro Arachna Web Spoke 9__3E0A.png"
+},
+{
 "id": "Spider Dirt Web",
 "type": "0x2230",
 "src": "spiderDenGround",
@@ -818,6 +983,15 @@
 "sub": "event_boss",
 "why": "spec",
 "file": "enemies/event_boss/Giant Critter Brood__86b1.png"
+},
+{
+"id": "Legion Lead Strategist",
+"type": "0xD41D",
+"src": "heroes_2",
+"category": "enemy",
+"sub": "boss",
+"why": "spec",
+"file": "enemies/boss/Legion Lead Strategist__D41D.png"
 },
 {
 "id": "Blue Spider Venom",
@@ -910,31 +1084,58 @@
 "file": "projectiles/all/Sting Spider Tail__c023.png"
 },
 {
-"id": "Accursed Stone Spear",
-"type": "0x82c7",
-"src": "theShattersObjects",
-"category": "projectile",
-"sub": "all",
-"why": "proj",
-"file": "projectiles/all/Accursed Stone Spear__82c7.png"
-},
-{
-"id": "Shatters Sentinel Missile",
-"type": "0xb669",
-"src": "theShattersObjects",
-"category": "projectile",
-"sub": "all",
-"why": "proj",
-"file": "projectiles/all/Shatters Sentinel Missile__b669.png"
-},
-{
-"id": "Large Yellow Sprite Tree Summon Projectile",
-"type": "0x37e8",
+"id": "Sanguine Hound 2",
+"type": "0x5461",
 "src": "projectiles",
 "category": "projectile",
 "sub": "all",
 "why": "proj",
-"file": "projectiles/all/Large Yellow Sprite Tree Summon Projectile__37e8.png"
+"file": "projectiles/all/Sanguine Hound 2__5461.png"
+},
+{
+"id": "Sanguine Hound 1",
+"type": "0x5460",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Sanguine Hound 1__5460.png"
+},
+{
+"id": "Floral Rafflesia 1",
+"type": "0x5470",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Floral Rafflesia 1__5470.png"
+},
+{
+"id": "Legion Lead Strategist Proj",
+"type": "0xA3E0",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Legion Lead Strategist Proj__A3E0.png"
+},
+{
+"id": "Legion Lead Strategist Proj2",
+"type": "0x79e3",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Legion Lead Strategist Proj2__79e3.png"
+},
+{
+"id": "Legion Lead Strategist Proj3",
+"type": "0x79e2",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Legion Lead Strategist Proj3__79e2.png"
 },
 {
 "id": "Potion of Defense",
@@ -998,6 +1199,24 @@
 "sub": "all",
 "why": "loot",
 "file": "loot/ability/Mace of the Depths__3784.png"
+},
+{
+"id": "Spider Silk Bow",
+"type": "0xA312",
+"src": "equip",
+"category": "weapon",
+"sub": "bow",
+"why": "loot",
+"file": "loot/weapon_bow/Spider Silk Bow__A312.png"
+},
+{
+"id": "Silken Sigil",
+"type": "0x7b77",
+"src": "equip",
+"category": "ability",
+"sub": "all",
+"why": "loot",
+"file": "loot/ability/Silken Sigil__7b77.png"
 },
 {
 "id": "Cave Wall",

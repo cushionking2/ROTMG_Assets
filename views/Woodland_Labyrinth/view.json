@@ -4,10 +4,10 @@
 "epicforestMaze"
 ],
 "counts": {
-"projectiles": 38,
+"projectiles": 47,
 "npcs": 2,
 "helpers": 3,
-"enemies": 19,
+"enemies": 25,
 "props": 12,
 "walls": 1,
 "tiles": 7,
@@ -15,8 +15,8 @@
 },
 "why": {
 "src": 50,
-"spec": 9,
-"proj": 18,
+"spec": 15,
+"proj": 27,
 "loot": 8,
 "tile": 5
 },
@@ -24,11 +24,6 @@
 "grass": 5
 },
 "names_in_own_files": [
-"Forest Goblin Bruiser",
-"Forest Goblin Necromancer",
-"Grizzled Armored Squirrel",
-"Mecha Squirrel",
-"Micro Megamoth Sentinel",
 "Micro Megamoth Guardian",
 "Mini Larva",
 "Woodland Paralyze Turret",
@@ -40,6 +35,41 @@
 "Swarm Tree"
 ],
 "names_in_other_files": [
+[
+"Forest Goblin Bruiser",
+[
+"epicforestMaze",
+"legacyEpicforestMaze"
+]
+],
+[
+"Forest Goblin Necromancer",
+[
+"epicforestMaze",
+"legacyEpicforestMaze"
+]
+],
+[
+"Grizzled Armored Squirrel",
+[
+"epicforestMaze",
+"legacyEpicforestMaze"
+]
+],
+[
+"Mecha Squirrel",
+[
+"epicforestMaze",
+"legacyEpicforestMaze"
+]
+],
+[
+"Micro Megamoth Sentinel",
+[
+"epicforestMaze",
+"legacyEpicforestMaze"
+]
+],
 [
 "Puke Water",
 [
@@ -69,6 +99,7 @@
 "Great Owl",
 [
 "mountains",
+"oldMountains",
 "veteran"
 ]
 ],
@@ -89,15 +120,15 @@
 [
 "heroes_2"
 ]
+],
+[
+"Legion Head Researcher",
+[
+"heroes_2"
+]
 ]
 ],
-"names_not_found": [
-{
-"name": "Legion Head Researcher",
-"suggestions": [],
-"suggestion_in_own_files": false
-}
-],
+"names_not_found": [],
 "entries": [
 {
 "id": "Woodland Moth Dust",
@@ -550,6 +581,51 @@
 "file": "npcs/all/Woodland Butterfly__2392.png"
 },
 {
+"id": "Retro Woodland Goblin",
+"type": "0xcdb4",
+"src": "legacyEpicforestMaze",
+"category": "enemy",
+"sub": "regular",
+"why": "spec",
+"file": "enemies/regular/Retro Woodland Goblin__cdb4.png"
+},
+{
+"id": "Retro Woodland Goblin Mage",
+"type": "0xcdb3",
+"src": "legacyEpicforestMaze",
+"category": "enemy",
+"sub": "regular",
+"why": "spec",
+"file": "enemies/regular/Retro Woodland Goblin Mage__cdb3.png"
+},
+{
+"id": "Retro Wooland Armor Squirrel",
+"type": "0xcdb0",
+"src": "legacyEpicforestMaze",
+"category": "enemy",
+"sub": "regular",
+"why": "spec",
+"file": "enemies/regular/Retro Wooland Armor Squirrel__cdb0.png"
+},
+{
+"id": "Retro Woodland Ultimate Squirrel",
+"type": "0xcdb2",
+"src": "legacyEpicforestMaze",
+"category": "enemy",
+"sub": "regular",
+"why": "spec",
+"file": "enemies/regular/Retro Woodland Ultimate Squirrel__cdb2.png"
+},
+{
+"id": "Retro Woodland Mini Megamoth",
+"type": "0xcdb1",
+"src": "legacyEpicforestMaze",
+"category": "enemy",
+"sub": "regular",
+"why": "spec",
+"file": "enemies/regular/Retro Woodland Mini Megamoth__cdb1.png"
+},
+{
 "id": "Puke Water",
 "type": "0x012b",
 "src": "spiderDenGround",
@@ -631,6 +707,15 @@
 "file": "enemies/event_boss/Hornet_s Nest__872b.png"
 },
 {
+"id": "Legion Head Researcher",
+"type": "0xD424",
+"src": "heroes_2",
+"category": "enemy",
+"sub": "boss",
+"why": "spec",
+"file": "enemies/boss/Legion Head Researcher__D424.png"
+},
+{
 "id": "Sharp Green Star",
 "type": "0xc027",
 "src": "projectiles",
@@ -665,6 +750,33 @@
 "sub": "all",
 "why": "proj",
 "file": "projectiles/all/Leaf Arrow__217f.png"
+},
+{
+"id": "Blade",
+"type": "0x0006",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Blade__0006.png"
+},
+{
+"id": "Leaf Magic",
+"type": "0x2151",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Leaf Magic__2151.png"
+},
+{
+"id": "Small Moth Bullet",
+"type": "0x2150",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Small Moth Bullet__2150.png"
 },
 {
 "id": "Fire Boomerang",
@@ -739,6 +851,24 @@
 "file": "projectiles/all/Great Owl Feather__c025.png"
 },
 {
+"id": "New Great Owl 2",
+"type": "0x5473",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/New Great Owl 2__5473.png"
+},
+{
+"id": "New Great Owl 1",
+"type": "0x5472",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/New Great Owl 1__5472.png"
+},
+{
 "id": "SulfW Chomper Proj",
 "type": "0x63bb",
 "src": "wetlandsObjects",
@@ -748,31 +878,40 @@
 "file": "projectiles/all/SulfW Chomper Proj__63bb.png"
 },
 {
-"id": "GC Red Mushroom Shot",
-"type": "0x1587",
-"src": "fungalCavernObjects",
-"category": "projectile",
-"sub": "all",
-"why": "proj",
-"file": "projectiles/all/GC Red Mushroom Shot__1587.png"
-},
-{
-"id": "LOD White Blast",
-"type": "0xb1c7",
+"id": "Carboniferous Flytrap 1",
+"type": "0x5456",
 "src": "projectiles",
 "category": "projectile",
 "sub": "all",
 "why": "proj",
-"file": "projectiles/all/LOD White Blast__b1c7.png"
+"file": "projectiles/all/Carboniferous Flytrap 1__5456.png"
 },
 {
-"id": "LOD Blue Bullet",
-"type": "0xb20a",
+"id": "Sanguine Treant 2",
+"type": "0x5463",
 "src": "projectiles",
 "category": "projectile",
 "sub": "all",
 "why": "proj",
-"file": "projectiles/all/LOD Blue Bullet__b20a.png"
+"file": "projectiles/all/Sanguine Treant 2__5463.png"
+},
+{
+"id": "Sanguine Treant 3",
+"type": "0x5464",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Sanguine Treant 3__5464.png"
+},
+{
+"id": "Sanguine Treant 1",
+"type": "0x5462",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Sanguine Treant 1__5462.png"
 },
 {
 "id": "EH Hive Shot",
@@ -791,6 +930,33 @@
 "sub": "all",
 "why": "proj",
 "file": "projectiles/all/EH Yellow Stinger Large__10a7.png"
+},
+{
+"id": "Legion Surveyor Proj2",
+"type": "0x79de",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Legion Surveyor Proj2__79de.png"
+},
+{
+"id": "Legion Head Researcher Proj",
+"type": "0xA3E1",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Legion Head Researcher Proj__A3E1.png"
+},
+{
+"id": "Legion Spearman Proj",
+"type": "0xA3D4",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Legion Spearman Proj__A3D4.png"
 },
 {
 "id": "Potion of Attack",

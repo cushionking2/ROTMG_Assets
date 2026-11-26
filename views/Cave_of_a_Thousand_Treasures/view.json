@@ -4,19 +4,19 @@
 "caveOfAThousandTreasures"
 ],
 "counts": {
-"enemies": 18,
+"enemies": 15,
 "helpers": 6,
 "props": 5,
 "projectiles": 9,
-"loot": 4,
+"loot": 5,
 "tiles": 1,
 "walls": 1
 },
 "why": {
 "src": 19,
-"spec": 10,
+"spec": 7,
 "proj": 9,
-"loot": 4,
+"loot": 5,
 "tile": 1,
 "wall": 1
 },
@@ -217,33 +217,6 @@
 "file": "props/all/Treasure Rocks__5e4e.png"
 },
 {
-"id": "LH Debug Drops",
-"type": "0xb098",
-"src": "lostHallsObjects",
-"category": "enemy",
-"sub": "regular",
-"why": "spec",
-"file": "enemies/regular/LH Debug Drops__b098.png"
-},
-{
-"id": "LH Debug Drops2",
-"type": "0xb02c",
-"src": "lostHallsObjects",
-"category": "enemy",
-"sub": "regular",
-"why": "spec",
-"file": "enemies/regular/LH Debug Drops2__b02c.png"
-},
-{
-"id": "LH Debug Drops3",
-"type": "0xb16a",
-"src": "lostHallsObjects",
-"category": "enemy",
-"sub": "regular",
-"why": "spec",
-"file": "enemies/regular/LH Debug Drops3__b16a.png"
-},
-{
 "id": "LH Pot 1",
 "type": "0xb0b5",
 "src": "lostHallsObjects",
@@ -422,6 +395,15 @@
 "sub": "katana",
 "why": "loot",
 "file": "loot/weapon_katana/Jewel Eye Katana Shiny__4BF.png"
+},
+{
+"id": "Tarot Card Pack",
+"type": "0x3439",
+"src": "equip",
+"category": "consumable",
+"sub": "all",
+"why": "loot",
+"file": "loot/consumable/Tarot Card Pack__3439.png"
 },
 {
 "id": "Rock",

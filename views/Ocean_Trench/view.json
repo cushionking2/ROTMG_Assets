@@ -4,19 +4,19 @@
 "oceanTrench"
 ],
 "counts": {
-"enemies": 20,
+"enemies": 28,
 "props": 6,
-"helpers": 3,
+"helpers": 5,
 "walls": 2,
 "npcs": 1,
-"projectiles": 31,
+"projectiles": 51,
 "loot": 8,
 "tiles": 3
 },
 "why": {
 "src": 25,
-"spec": 7,
-"proj": 31,
+"spec": 17,
+"proj": 51,
 "loot": 8,
 "tile": 3
 },
@@ -24,33 +24,67 @@
 "water": 3
 },
 "names_in_own_files": [
-"Sea Mare",
-"Sea Horse",
-"Giant Squid",
-"Sea Slurp Home",
-"Deep Sea Beast",
-"Thessal the Mermaid Goddess"
+"Sea Slurp Home"
 ],
 "names_in_other_files": [
+[
+"Sea Mare",
+[
+"oceanTrench",
+"oceanTrenchObjects"
+]
+],
+[
+"Sea Horse",
+[
+"oceanTrench",
+"oceanTrenchObjects"
+]
+],
 [
 "Fishman Warrior",
 [
 "heroes_2",
-"oceanTrench"
+"oceanTrench",
+"oceanTrenchObjects"
 ]
 ],
 [
 "Fishman",
 [
 "heroes_2",
-"oceanTrench"
+"oceanTrench",
+"oceanTrenchObjects"
+]
+],
+[
+"Giant Squid",
+[
+"oceanTrench",
+"oceanTrenchObjects"
+]
+],
+[
+"Deep Sea Beast",
+[
+"oceanTrench",
+"oceanTrenchObjects"
+]
+],
+[
+"Thessal the Mermaid Goddess",
+[
+"cronusTrialsObjects",
+"oceanTrench",
+"oceanTrenchObjects"
 ]
 ],
 [
 "Hermit God",
 [
 "encounters",
-"encounters_2"
+"encounters_2",
+"oldEncounters"
 ]
 ],
 [
@@ -300,6 +334,24 @@
 "file": "enemies/regular/Barrier Reef__60a0.png"
 },
 {
+"id": "OT Sea Mare",
+"type": "0x42bd",
+"src": "oceanTrenchObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "spec",
+"file": "enemies/regular/OT Sea Mare__42bd.png"
+},
+{
+"id": "OT Sea Horse",
+"type": "0x42c7",
+"src": "oceanTrenchObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "spec",
+"file": "enemies/regular/OT Sea Horse__42c7.png"
+},
+{
 "id": "Fishing Fishman Warrior",
 "type": "0xc7b1",
 "src": "heroes_2",
@@ -309,6 +361,15 @@
 "file": "enemies/regular/Fishing Fishman Warrior__c7b1.png"
 },
 {
+"id": "OT Fishman Warrior",
+"type": "0x428c",
+"src": "oceanTrenchObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "spec",
+"file": "enemies/regular/OT Fishman Warrior__428c.png"
+},
+{
 "id": "Fishing Fishman",
 "type": "0xc7b0",
 "src": "heroes_2",
@@ -316,6 +377,69 @@
 "sub": "regular",
 "why": "spec",
 "file": "enemies/regular/Fishing Fishman__c7b0.png"
+},
+{
+"id": "OT Fishman",
+"type": "0x435c",
+"src": "oceanTrenchObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "spec",
+"file": "enemies/regular/OT Fishman__435c.png"
+},
+{
+"id": "OT Giant Squid",
+"type": "0x4280",
+"src": "oceanTrenchObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "spec",
+"file": "enemies/regular/OT Giant Squid__4280.png"
+},
+{
+"id": "OT Deep Sea Beast",
+"type": "0xbd00",
+"src": "oceanTrenchObjects",
+"category": "enemy",
+"sub": "regular",
+"why": "spec",
+"file": "enemies/regular/OT Deep Sea Beast__bd00.png"
+},
+{
+"id": "mgm2 Thessal the Mermaid Goddess",
+"type": "0x3390",
+"src": "cronusTrialsObjects",
+"category": "enemy",
+"sub": "event_boss",
+"why": "spec",
+"file": "enemies/event_boss/mgm2 Thessal the Mermaid Goddess__3390.png"
+},
+{
+"id": "OT Thessal the Mermaid Goddess",
+"type": "0xbcff",
+"src": "oceanTrenchObjects",
+"category": "enemy",
+"sub": "boss",
+"why": "spec",
+"file": "enemies/boss/OT Thessal the Mermaid Goddess__bcff.png"
+},
+{
+"id": "OT Thessal Big Coral Bomb",
+"type": "0xbe0a",
+"src": "oceanTrenchObjects",
+"category": "helper",
+"sub": "effect",
+"why": "spec",
+"file": "helpers/effect/OT Thessal Big Coral Bomb__be0a.png"
+},
+{
+"id": "OT Thessal Bubble Helper",
+"type": "0xbe2f",
+"src": "oceanTrenchObjects",
+"category": "helper",
+"sub": "anchor",
+"why": "spec",
+"file": "helpers/anchor/OT Thessal Bubble Helper__be2f.png"
 },
 {
 "id": "New Hermit God",
@@ -534,6 +658,177 @@
 "file": "projectiles/all/Yellow Wave__007a.png"
 },
 {
+"id": "OT Uma Shot",
+"type": "0xadb4",
+"src": "oceanTrenchObjects",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/OT Uma Shot__adb4.png"
+},
+{
+"id": "OT Sea Horse Spinner",
+"type": "0xadb3",
+"src": "oceanTrenchObjects",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/OT Sea Horse Spinner__adb3.png"
+},
+{
+"id": "OT Seahorse Bubble",
+"type": "0xadaa",
+"src": "oceanTrenchObjects",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/OT Seahorse Bubble__adaa.png"
+},
+{
+"id": "OT Fish Warrior Spike",
+"type": "0xad87",
+"src": "oceanTrenchObjects",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/OT Fish Warrior Spike__ad87.png"
+},
+{
+"id": "OT Fish Warrior Boomerang",
+"type": "0xad88",
+"src": "oceanTrenchObjects",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/OT Fish Warrior Boomerang__ad88.png"
+},
+{
+"id": "OT Coral Wave",
+"type": "0xad8c",
+"src": "oceanTrenchObjects",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/OT Coral Wave__ad8c.png"
+},
+{
+"id": "OT Squid Sucker",
+"type": "0xad90",
+"src": "oceanTrenchObjects",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/OT Squid Sucker__ad90.png"
+},
+{
+"id": "OT Squid Shot",
+"type": "0xad91",
+"src": "oceanTrenchObjects",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/OT Squid Shot__ad91.png"
+},
+{
+"id": "OT Deep Sea Blast",
+"type": "0xad92",
+"src": "oceanTrenchObjects",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/OT Deep Sea Blast__ad92.png"
+},
+{
+"id": "OT Nautical Swirl",
+"type": "0x4284",
+"src": "oceanTrenchObjects",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/OT Nautical Swirl__4284.png"
+},
+{
+"id": "OT Thessal Big Trident Shot",
+"type": "0xbe28",
+"src": "oceanTrenchObjects",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/OT Thessal Big Trident Shot__be28.png"
+},
+{
+"id": "OT Thessal Big Aura Trident Shot",
+"type": "0xbe29",
+"src": "oceanTrenchObjects",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/OT Thessal Big Aura Trident Shot__be29.png"
+},
+{
+"id": "OT Yellow Wall",
+"type": "0xadbe",
+"src": "oceanTrenchObjects",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/OT Yellow Wall__adbe.png"
+},
+{
+"id": "OT Thessal Small Trident Shot",
+"type": "0xbe26",
+"src": "oceanTrenchObjects",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/OT Thessal Small Trident Shot__be26.png"
+},
+{
+"id": "OT Thessal Small Aura Trident Shot",
+"type": "0xbe27",
+"src": "oceanTrenchObjects",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/OT Thessal Small Aura Trident Shot__be27.png"
+},
+{
+"id": "OT Coral Arrow",
+"type": "0xadb5",
+"src": "oceanTrenchObjects",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/OT Coral Arrow__adb5.png"
+},
+{
+"id": "OT Thessal Music Shot",
+"type": "0xbdff",
+"src": "oceanTrenchObjects",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/OT Thessal Music Shot__bdff.png"
+},
+{
+"id": "OT Thessal Bubble Shot",
+"type": "0xbe25",
+"src": "oceanTrenchObjects",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/OT Thessal Bubble Shot__be25.png"
+},
+{
+"id": "OT Coral Spike",
+"type": "0xbe3c",
+"src": "oceanTrenchObjects",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/OT Coral Spike__be3c.png"
+},
+{
 "id": "InkBubbles",
 "type": "0x008d",
 "src": "projectiles",
@@ -606,40 +901,49 @@
 "file": "projectiles/all/Air Elemental missiles__6ff9.png"
 },
 {
-"id": "Zombie Shot",
-"type": "0x00d7",
+"id": "Deep Sea Squid 1",
+"type": "0x5447",
 "src": "projectiles",
 "category": "projectile",
 "sub": "all",
 "why": "proj",
-"file": "projectiles/all/Zombie Shot__00d7.png"
+"file": "projectiles/all/Deep Sea Squid 1__5447.png"
 },
 {
-"id": "Roger Blast",
-"type": "0x00d9",
+"id": "Deep Sea Squid 2",
+"type": "0x5448",
 "src": "projectiles",
 "category": "projectile",
 "sub": "all",
 "why": "proj",
-"file": "projectiles/all/Roger Blast__00d9.png"
+"file": "projectiles/all/Deep Sea Squid 2__5448.png"
 },
 {
-"id": "FR Boss Ball",
-"type": "0x18de",
-"src": "permaFrostLord",
+"id": "Tundra Giant 1",
+"type": "0x5475",
+"src": "projectiles",
 "category": "projectile",
 "sub": "all",
 "why": "proj",
-"file": "projectiles/all/FR Boss Ball__18de.png"
+"file": "projectiles/all/Tundra Giant 1__5475.png"
 },
 {
-"id": "Yellow Shard Bolt",
-"type": "0x272c",
-"src": "crystalCaveObjects",
+"id": "Tundra Giant 2",
+"type": "0x5476",
+"src": "projectiles",
 "category": "projectile",
 "sub": "all",
 "why": "proj",
-"file": "projectiles/all/Yellow Shard Bolt__272c.png"
+"file": "projectiles/all/Tundra Giant 2__5476.png"
+},
+{
+"id": "Tundra Giant 3",
+"type": "0x5477",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Tundra Giant 3__5477.png"
 },
 {
 "id": "Coral Bow",

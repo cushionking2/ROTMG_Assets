@@ -4,21 +4,20 @@
 "ghostShip"
 ],
 "counts": {
-"enemies": 14,
-"props": 8,
-"helpers": 6,
+"enemies": 15,
+"props": 12,
+"helpers": 7,
 "projectiles": 14,
 "loot": 5
 },
 "why": {
-"src": 27,
-"spec": 1,
+"src": 31,
+"spec": 3,
 "proj": 14,
 "loot": 5
 },
 "tile_hints_used": {},
 "names_in_own_files": [
-"Davy Jones",
 "Ghost of Roger",
 "Lost Soul",
 "Lil' Ghost Pirate",
@@ -27,15 +26,28 @@
 "Zombie Pirate Jr",
 "School of Ghostfish",
 "Ghost Ship Rat",
-"Violent Spirit",
-"Ghost Lantern"
+"Violent Spirit"
 ],
 "names_in_other_files": [
+[
+"Davy Jones",
+[
+"cronusTrialsObjects",
+"ghostShip"
+]
+],
 [
 "Sunken Treasure",
 [
 "ghostShip",
 "heroes_2"
+]
+],
+[
+"Ghost Lantern",
+[
+"cronusTrialsObjects",
+"ghostShip"
 ]
 ]
 ],
@@ -43,201 +55,237 @@
 "entries": [
 {
 "id": "Davy Jones",
-"type": "0x0e32",
+"type": "0x0E32",
 "src": "ghostShip",
 "category": "enemy",
 "sub": "boss",
 "why": "src",
-"file": "enemies/boss/Davy Jones__0e32.png"
+"file": "enemies/boss/Davy Jones__0E32.png"
 },
 {
 "id": "Captain Summoner",
-"type": "0x0e2d",
+"type": "0x0E2D",
 "src": "ghostShip",
 "category": "prop",
 "sub": "ghostShip",
 "why": "src",
-"file": "props/all/Captain Summoner__0e2d.png"
+"file": "props/all/Captain Summoner__0E2D.png"
 },
 {
 "id": "Ghost Pirate Sr",
-"type": "0x0e50",
+"type": "0x0E50",
 "src": "ghostShip",
 "category": "enemy",
 "sub": "regular",
 "why": "src",
-"file": "enemies/regular/Ghost Pirate Sr__0e50.png"
+"file": "enemies/regular/Ghost Pirate Sr__0E50.png"
 },
 {
 "id": "Ghost Lanturn On",
-"type": "0x0e36",
+"type": "0x0E36",
 "src": "ghostShip",
 "category": "helper",
 "sub": "other",
 "why": "src",
-"file": "helpers/other/Ghost Lanturn On__0e36.png"
+"file": "helpers/other/Ghost Lanturn On__0E36.png"
 },
 {
 "id": "Ghost Lanturn Off",
-"type": "0x0e35",
+"type": "0x0E35",
 "src": "ghostShip",
 "category": "enemy",
 "sub": "regular",
 "why": "src",
-"file": "enemies/regular/Ghost Lanturn Off__0e35.png"
+"file": "enemies/regular/Ghost Lanturn Off__0E35.png"
+},
+{
+"id": "Green Lock",
+"type": "0x0F07",
+"src": "ghostShip",
+"category": "prop",
+"sub": "ghostShip",
+"why": "src",
+"file": "props/all/Green Lock__0F07.png"
+},
+{
+"id": "Red Lock",
+"type": "0x0F08",
+"src": "ghostShip",
+"category": "prop",
+"sub": "ghostShip",
+"why": "src",
+"file": "props/all/Red Lock__0F08.png"
+},
+{
+"id": "Yellow Lock",
+"type": "0x0F09",
+"src": "ghostShip",
+"category": "prop",
+"sub": "ghostShip",
+"why": "src",
+"file": "props/all/Yellow Lock__0F09.png"
+},
+{
+"id": "Purple Lock",
+"type": "0x0F0A",
+"src": "ghostShip",
+"category": "prop",
+"sub": "ghostShip",
+"why": "src",
+"file": "props/all/Purple Lock__0F0A.png"
 },
 {
 "id": "Yellow Key",
-"type": "0x0e41",
+"type": "0x0E41",
 "src": "ghostShip",
 "category": "helper",
 "sub": "other",
 "why": "src",
-"file": "helpers/other/Yellow Key__0e41.png"
+"file": "helpers/other/Yellow Key__0E41.png"
 },
 {
 "id": "Red Key",
-"type": "0x0e40",
+"type": "0x0E40",
 "src": "ghostShip",
 "category": "helper",
 "sub": "other",
 "why": "src",
-"file": "helpers/other/Red Key__0e40.png"
+"file": "helpers/other/Red Key__0E40.png"
 },
 {
 "id": "Green Key",
-"type": "0x0e3f",
+"type": "0x0E3F",
 "src": "ghostShip",
 "category": "helper",
 "sub": "other",
 "why": "src",
-"file": "helpers/other/Green Key__0e3f.png"
+"file": "helpers/other/Green Key__0E3F.png"
 },
 {
 "id": "Purple Key",
-"type": "0x0e3e",
+"type": "0x0E3E",
 "src": "ghostShip",
 "category": "helper",
 "sub": "other",
 "why": "src",
-"file": "helpers/other/Purple Key__0e3e.png"
+"file": "helpers/other/Purple Key__0E3E.png"
 },
 {
 "id": "Yellow Opener",
-"type": "0x0e2e",
+"type": "0x0E2E",
 "src": "ghostShip",
 "category": "prop",
 "sub": "ghostShip",
 "why": "src",
-"file": "props/all/Yellow Opener__0e2e.png"
+"file": "props/all/Yellow Opener__0E2E.png"
 },
 {
 "id": "Red Opener",
-"type": "0x0e30",
+"type": "0x0E30",
 "src": "ghostShip",
 "category": "prop",
 "sub": "ghostShip",
 "why": "src",
-"file": "props/all/Red Opener__0e30.png"
+"file": "props/all/Red Opener__0E30.png"
 },
 {
 "id": "Green Opener",
-"type": "0x0e33",
+"type": "0x0E33",
 "src": "ghostShip",
 "category": "prop",
 "sub": "ghostShip",
 "why": "src",
-"file": "props/all/Green Opener__0e33.png"
+"file": "props/all/Green Opener__0E33.png"
 },
 {
 "id": "Purple Opener",
-"type": "0x0e34",
+"type": "0x0E34",
 "src": "ghostShip",
 "category": "prop",
 "sub": "ghostShip",
 "why": "src",
-"file": "props/all/Purple Opener__0e34.png"
+"file": "props/all/Purple Opener__0E34.png"
 },
 {
 "id": "VDoor",
-"type": "0x0e4a",
+"type": "0x0E4A",
 "src": "ghostShip",
 "category": "prop",
 "sub": "ghostShip",
 "why": "src",
-"file": "props/all/VDoor__0e4a.png"
+"file": "props/all/VDoor__0E4A.png"
 },
 {
 "id": "HDoor",
-"type": "0x0e49",
+"type": "0x0E49",
 "src": "ghostShip",
 "category": "prop",
 "sub": "ghostShip",
 "why": "src",
-"file": "props/all/HDoor__0e49.png"
+"file": "props/all/HDoor__0E49.png"
 },
 {
 "id": "Violent Spirit",
-"type": "0x0e3a",
+"type": "0x0E3A",
 "src": "ghostShip",
 "category": "enemy",
 "sub": "regular",
 "why": "src",
-"file": "enemies/regular/Violent Spirit__0e3a.png"
+"file": "enemies/regular/Violent Spirit__0E3A.png"
 },
 {
 "id": "Lost Soul",
-"type": "0x0e48",
+"type": "0x0E48",
 "src": "ghostShip",
 "category": "helper",
 "sub": "other",
 "why": "src",
-"file": "helpers/other/Lost Soul__0e48.png"
+"file": "helpers/other/Lost Soul__0E48.png"
 },
 {
 "id": "Ghost of Roger",
-"type": "0x0e45",
+"type": "0x0E45",
 "src": "ghostShip",
 "category": "enemy",
 "sub": "regular",
 "why": "src",
-"file": "enemies/regular/Ghost of Roger__0e45.png"
+"file": "enemies/regular/Ghost of Roger__0E45.png"
 },
 {
 "id": "Maggot Sack",
-"type": "0x0e47",
+"type": "0x0E47",
 "src": "ghostShip",
 "category": "prop",
 "sub": "ghostShip",
 "why": "src",
-"file": "props/all/Maggot Sack__0e47.png"
+"file": "props/all/Maggot Sack__0E47.png"
 },
 {
 "id": "Maggot",
-"type": "0x0e46",
+"type": "0x0E46",
 "src": "ghostShip",
 "category": "enemy",
 "sub": "regular",
 "why": "src",
-"file": "enemies/regular/Maggot__0e46.png"
+"file": "enemies/regular/Maggot__0E46.png"
 },
 {
 "id": "School of Ghostfish",
-"type": "0x0e44",
+"type": "0x0E44",
 "src": "ghostShip",
 "category": "enemy",
 "sub": "regular",
 "why": "src",
-"file": "enemies/regular/School of Ghostfish__0e44.png"
+"file": "enemies/regular/School of Ghostfish__0E44.png"
 },
 {
 "id": "Zombie Pirate Sr",
-"type": "0x0e43",
+"type": "0x0E43",
 "src": "ghostShip",
 "category": "enemy",
 "sub": "regular",
 "why": "src",
-"file": "enemies/regular/Zombie Pirate Sr__0e43.png"
+"file": "enemies/regular/Zombie Pirate Sr__0E43.png"
 },
 {
 "id": "HZombie Pirate Sr",
@@ -250,39 +298,48 @@
 },
 {
 "id": "Zombie Pirate Jr",
-"type": "0x0e42",
+"type": "0x0E42",
 "src": "ghostShip",
 "category": "enemy",
 "sub": "regular",
 "why": "src",
-"file": "enemies/regular/Zombie Pirate Jr__0e42.png"
+"file": "enemies/regular/Zombie Pirate Jr__0E42.png"
 },
 {
 "id": "Lil' Ghost Pirate",
-"type": "0x0e31",
+"type": "0x0E31",
 "src": "ghostShip",
 "category": "enemy",
 "sub": "regular",
 "why": "src",
-"file": "enemies/regular/Lil_ Ghost Pirate__0e31.png"
+"file": "enemies/regular/Lil_ Ghost Pirate__0E31.png"
 },
 {
 "id": "GhostShip Rat",
-"type": "0x0e2f",
+"type": "0x0E2F",
 "src": "ghostShip",
 "category": "enemy",
 "sub": "regular",
 "why": "src",
-"file": "enemies/regular/GhostShip Rat__0e2f.png"
+"file": "enemies/regular/GhostShip Rat__0E2F.png"
 },
 {
 "id": "Sunken Treasure",
-"type": "0x6da1",
+"type": "0x6DA1",
 "src": "ghostShip",
 "category": "enemy",
 "sub": "regular",
 "why": "src",
-"file": "enemies/regular/Sunken Treasure__6da1.png"
+"file": "enemies/regular/Sunken Treasure__6DA1.png"
+},
+{
+"id": "mgm2 Davy Jones",
+"type": "0x3370",
+"src": "cronusTrialsObjects",
+"category": "enemy",
+"sub": "boss",
+"why": "spec",
+"file": "enemies/boss/mgm2 Davy Jones__3370.png"
 },
 {
 "id": "Shipwreck Sunken Treasure",
@@ -292,6 +349,15 @@
 "sub": "event_boss",
 "why": "spec",
 "file": "enemies/event_boss/Shipwreck Sunken Treasure__86d7.png"
+},
+{
+"id": "mgm2 Ghost Lanturn On",
+"type": "0x3371",
+"src": "cronusTrialsObjects",
+"category": "helper",
+"sub": "other",
+"why": "spec",
+"file": "helpers/other/mgm2 Ghost Lanturn On__3371.png"
 },
 {
 "id": "Ghost Boss Slash",

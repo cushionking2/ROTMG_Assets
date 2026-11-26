@@ -6,18 +6,18 @@
 ],
 "counts": {
 "tiles": 62,
-"projectiles": 43,
-"enemies": 19,
-"npcs": 11,
+"projectiles": 44,
+"enemies": 24,
+"npcs": 12,
 "props": 31,
 "helpers": 4,
-"loot": 5
+"loot": 6
 },
 "why": {
 "src": 153,
-"spec": 12,
-"proj": 5,
-"loot": 5
+"spec": 18,
+"proj": 6,
+"loot": 6
 },
 "tile_hints_used": {},
 "names_in_own_files": [
@@ -33,7 +33,6 @@
 "Native Greater Nature Sprite",
 "Native Sprite God",
 "Limon the Sprite Goddess",
-"Limon Element",
 "Sprite Tree"
 ],
 "names_in_other_files": [
@@ -43,13 +42,22 @@
 "innerWorkingsObjects",
 "oryxHordeObjects",
 "santaWorkshopObjects",
+"snowballRollingObjects"
+]
+],
+[
+"Limon Element",
+[
+"legacySpriteWorld",
 "spriteWorldObjects"
 ]
 ],
 [
 "Sprite Child",
 [
-"mountains"
+"adept",
+"mountains",
+"oldMountains"
 ]
 ],
 [
@@ -1496,6 +1504,15 @@
 "file": "npcs/all/Strange Voice__3d2a.png"
 },
 {
+"id": "Craig Snowball",
+"type": "0xF8b",
+"src": "snowballRollingObjects",
+"category": "npc",
+"sub": "all",
+"why": "spec",
+"file": "npcs/all/Craig Snowball__F8b.png"
+},
+{
 "id": "Craig Heroic",
 "type": "0xf43",
 "src": "undeadLair",
@@ -1523,6 +1540,51 @@
 "file": "npcs/all/XN Craig__3fd8.png"
 },
 {
+"id": "Retro Limon Element 1",
+"type": "0x3E31",
+"src": "legacySpriteWorld",
+"category": "enemy",
+"sub": "regular",
+"why": "spec",
+"file": "enemies/regular/Retro Limon Element 1__3E31.png"
+},
+{
+"id": "Retro Limon Element 2",
+"type": "0x3E32",
+"src": "legacySpriteWorld",
+"category": "enemy",
+"sub": "regular",
+"why": "spec",
+"file": "enemies/regular/Retro Limon Element 2__3E32.png"
+},
+{
+"id": "Retro Limon Element 3",
+"type": "0x3E33",
+"src": "legacySpriteWorld",
+"category": "enemy",
+"sub": "regular",
+"why": "spec",
+"file": "enemies/regular/Retro Limon Element 3__3E33.png"
+},
+{
+"id": "Retro Limon Element 4",
+"type": "0x3E34",
+"src": "legacySpriteWorld",
+"category": "enemy",
+"sub": "regular",
+"why": "spec",
+"file": "enemies/regular/Retro Limon Element 4__3E34.png"
+},
+{
+"id": "Sprite Forest Child",
+"type": "0x4545",
+"src": "adept",
+"category": "enemy",
+"sub": "regular",
+"why": "spec",
+"file": "enemies/regular/Sprite Forest Child__4545.png"
+},
+{
 "id": "Sprite Child",
 "type": "0x653",
 "src": "mountains",
@@ -1532,13 +1594,13 @@
 "file": "enemies/regular/Sprite Child__653.png"
 },
 {
-"id": "Sprite Beast",
+"id": "Sprite Forest Dog",
 "type": "0xc32f",
 "src": "adept",
 "category": "enemy",
 "sub": "regular",
 "why": "spec",
-"file": "enemies/regular/Sprite Beast__c32f.png"
+"file": "enemies/regular/Sprite Forest Dog__c32f.png"
 },
 {
 "id": "Celestial Sprite",
@@ -1559,13 +1621,22 @@
 "file": "enemies/event_boss/Cosmic Sprite__AC79.png"
 },
 {
-"id": "Blue Mystic Shot",
-"type": "0x0047",
+"id": "White Flame",
+"type": "0x003c",
 "src": "projectiles",
 "category": "projectile",
 "sub": "all",
 "why": "proj",
-"file": "projectiles/all/Blue Mystic Shot__0047.png"
+"file": "projectiles/all/White Flame__003c.png"
+},
+{
+"id": "Sprite Forest Dog 1",
+"type": "0x543b",
+"src": "projectiles",
+"category": "projectile",
+"sub": "all",
+"why": "proj",
+"file": "projectiles/all/Sprite Forest Dog 1__543b.png"
 },
 {
 "id": "Celestial Sprite Twirl",
@@ -1647,6 +1718,15 @@
 "sub": "all",
 "why": "loot",
 "file": "loot/ability/Mace of the Celestial Forest__2833.png"
+},
+{
+"id": "Tarot Card Pack",
+"type": "0x3439",
+"src": "equip",
+"category": "consumable",
+"sub": "all",
+"why": "loot",
+"file": "loot/consumable/Tarot Card Pack__3439.png"
 }
 ]
 }

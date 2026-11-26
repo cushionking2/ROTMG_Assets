@@ -10,12 +10,12 @@
 "helpers": 2,
 "walls": 5,
 "projectiles": 13,
-"loot": 4
+"loot": 5
 },
 "why": {
 "src": 29,
 "proj": 13,
-"loot": 4
+"loot": 5
 },
 "tile_hints_used": {},
 "names_in_own_files": [
@@ -447,6 +447,15 @@
 "sub": "all",
 "why": "loot",
 "file": "loot/ability/Snake Charmer Pungi__4dee.png"
+},
+{
+"id": "Tarot Card Pack",
+"type": "0x3439",
+"src": "equip",
+"category": "consumable",
+"sub": "all",
+"why": "loot",
+"file": "loot/consumable/Tarot Card Pack__3439.png"
 }
 ]
 }

@@ -5,19 +5,19 @@
 ],
 "counts": {
 "props": 9,
-"enemies": 19,
+"enemies": 20,
 "helpers": 7,
 "npcs": 3,
 "tiles": 6,
 "projectiles": 26,
-"loot": 5
+"loot": 6
 },
 "why": {
 "src": 34,
 "alias": 4,
-"spec": 4,
+"spec": 5,
 "proj": 26,
-"loot": 5,
+"loot": 6,
 "tile": 2
 },
 "tile_hints_used": {
@@ -57,7 +57,9 @@
 [
 "Flying Brain",
 [
-"mountains"
+"adept",
+"mountains",
+"oldMountains"
 ]
 ],
 [
@@ -152,12 +154,12 @@
 },
 {
 "id": "Turret Attack",
-"type": "0x984",
+"type": "0x0984",
 "src": "madLab",
 "category": "enemy",
 "sub": "regular",
 "why": "src",
-"file": "enemies/regular/Turret Attack__984.png"
+"file": "enemies/regular/Turret Attack__0984.png"
 },
 {
 "id": "Tesla Coil",
@@ -421,13 +423,22 @@
 "file": "enemies/regular/Hallows Banshee__45ea.png"
 },
 {
-"id": "Hazardous Sprite",
+"id": "Sprite Forest Electric God",
 "type": "0x4548",
 "src": "adept",
 "category": "enemy",
 "sub": "regular",
 "why": "spec",
-"file": "enemies/regular/Hazardous Sprite__4548.png"
+"file": "enemies/regular/Sprite Forest Electric God__4548.png"
+},
+{
+"id": "City Flying Brain",
+"type": "0x5583",
+"src": "adept",
+"category": "enemy",
+"sub": "regular",
+"why": "spec",
+"file": "enemies/regular/City Flying Brain__5583.png"
 },
 {
 "id": "Flying Brain",
@@ -610,40 +621,40 @@
 "file": "projectiles/all/H Creation Blast__00f6.png"
 },
 {
-"id": "White Flame",
-"type": "0x003c",
+"id": "Hallows Banshee 1",
+"type": "0x543c",
 "src": "projectiles",
 "category": "projectile",
 "sub": "all",
 "why": "proj",
-"file": "projectiles/all/White Flame__003c.png"
+"file": "projectiles/all/Hallows Banshee 1__543c.png"
 },
 {
-"id": "Sharp Grey Star",
-"type": "0xc029",
+"id": "Hallows Banshee 2",
+"type": "0x543d",
 "src": "projectiles",
 "category": "projectile",
 "sub": "all",
 "why": "proj",
-"file": "projectiles/all/Sharp Grey Star__c029.png"
+"file": "projectiles/all/Hallows Banshee 2__543d.png"
 },
 {
-"id": "Blue Sprite Twirl",
-"type": "0xc051",
-"src": "spriteWorldObjects",
+"id": "Sprite Forest Electric God 1",
+"type": "0x5435",
+"src": "projectiles",
 "category": "projectile",
 "sub": "all",
 "why": "proj",
-"file": "projectiles/all/Blue Sprite Twirl__c051.png"
+"file": "projectiles/all/Sprite Forest Electric God 1__5435.png"
 },
 {
-"id": "Cyan Sprite Twirl",
-"type": "0xc4f7",
-"src": "spriteWorldObjects",
+"id": "Sprite Forest Electric God 2",
+"type": "0x5436",
+"src": "projectiles",
 "category": "projectile",
 "sub": "all",
 "why": "proj",
-"file": "projectiles/all/Cyan Sprite Twirl__c4f7.png"
+"file": "projectiles/all/Sprite Forest Electric God 2__5436.png"
 },
 {
 "id": "Flying Brain Cortex",
@@ -725,6 +736,15 @@
 "sub": "wand",
 "why": "loot",
 "file": "loot/weapon_wand/Conducting Wand__c33.png"
+},
+{
+"id": "Tarot Card Pack",
+"type": "0x3439",
+"src": "equip",
+"category": "consumable",
+"sub": "all",
+"why": "loot",
+"file": "loot/consumable/Tarot Card Pack__3439.png"
 },
 {
 "id": "Lab Floor",

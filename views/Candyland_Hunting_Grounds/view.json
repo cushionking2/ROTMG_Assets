@@ -4,17 +4,17 @@
 "candyLand"
 ],
 "counts": {
-"enemies": 18,
+"enemies": 19,
 "props": 3,
 "npcs": 1,
 "projectiles": 16,
-"loot": 4,
+"loot": 5,
 "tiles": 1
 },
 "why": {
-"src": 22,
+"src": 23,
 "proj": 16,
-"loot": 4,
+"loot": 5,
 "tile": 1
 },
 "tile_hints_used": {
@@ -51,6 +51,15 @@
 "sub": "regular",
 "why": "src",
 "file": "enemies/regular/Candy Gnome__5e49.png"
+},
+{
+"id": "New Candy Gnome",
+"type": "0x09A6",
+"src": "candyLand",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/New Candy Gnome__09A6.png"
 },
 {
 "id": "MegaRototo",
@@ -98,6 +107,15 @@
 "file": "enemies/event_boss/Gigacorn__5e44.png"
 },
 {
+"id": "Cupcake",
+"type": "0x5e41",
+"src": "candyLand",
+"category": "enemy",
+"sub": "boss",
+"why": "src",
+"file": "enemies/boss/Cupcake__5e41.png"
+},
+{
 "id": "Candyland Boss Spawner",
 "type": "0x5e43",
 "src": "candyLand",
@@ -105,15 +123,6 @@
 "sub": "candyLand",
 "why": "src",
 "file": "props/all/Candyland Boss Spawner__5e43.png"
-},
-{
-"id": "Gumball Machine",
-"type": "0x5e42",
-"src": "candyLand",
-"category": "enemy",
-"sub": "regular",
-"why": "src",
-"file": "enemies/regular/Gumball Machine__5e42.png"
 },
 {
 "id": "Candyland Ender",
@@ -125,13 +134,13 @@
 "file": "props/all/Candyland Ender__23d0.png"
 },
 {
-"id": "Cupcake",
-"type": "0x5e41",
+"id": "Candyland Spawner",
+"type": "0x5e31",
 "src": "candyLand",
-"category": "enemy",
-"sub": "boss",
+"category": "prop",
+"sub": "candyLand",
 "why": "src",
-"file": "enemies/boss/Cupcake__5e41.png"
+"file": "props/all/Candyland Spawner__5e31.png"
 },
 {
 "id": "Unicorn",
@@ -143,15 +152,6 @@
 "file": "enemies/regular/Unicorn__5e40.png"
 },
 {
-"id": "Hard Candy",
-"type": "0x5e3e",
-"src": "candyLand",
-"category": "enemy",
-"sub": "regular",
-"why": "src",
-"file": "enemies/regular/Hard Candy__5e3e.png"
-},
-{
 "id": "Beefy Fairy",
 "type": "0x5e39",
 "src": "candyLand",
@@ -159,15 +159,6 @@
 "sub": "regular",
 "why": "src",
 "file": "enemies/regular/Beefy Fairy__5e39.png"
-},
-{
-"id": "Fairy",
-"type": "0x5e38",
-"src": "candyLand",
-"category": "enemy",
-"sub": "regular",
-"why": "src",
-"file": "enemies/regular/Fairy__5e38.png"
 },
 {
 "id": "Wishing Troll",
@@ -179,15 +170,6 @@
 "file": "enemies/regular/Wishing Troll__5e37.png"
 },
 {
-"id": "Spilled Icecream",
-"type": "0x5e36",
-"src": "candyLand",
-"category": "enemy",
-"sub": "regular",
-"why": "src",
-"file": "enemies/regular/Spilled Icecream__5e36.png"
-},
-{
 "id": "Big Creampuff",
 "type": "0x5e35",
 "src": "candyLand",
@@ -195,6 +177,51 @@
 "sub": "regular",
 "why": "src",
 "file": "enemies/regular/Big Creampuff__5e35.png"
+},
+{
+"id": "Rototo",
+"type": "0x5e32",
+"src": "candyLand",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Rototo__5e32.png"
+},
+{
+"id": "Gumball Machine",
+"type": "0x5e42",
+"src": "candyLand",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Gumball Machine__5e42.png"
+},
+{
+"id": "Hard Candy",
+"type": "0x5e3e",
+"src": "candyLand",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Hard Candy__5e3e.png"
+},
+{
+"id": "Fairy",
+"type": "0x5e38",
+"src": "candyLand",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Fairy__5e38.png"
+},
+{
+"id": "Spilled Icecream",
+"type": "0x5e36",
+"src": "candyLand",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Spilled Icecream__5e36.png"
 },
 {
 "id": "Small Creampuff",
@@ -213,24 +240,6 @@
 "sub": "regular",
 "why": "src",
 "file": "enemies/regular/Tiny Rototo__5e33.png"
-},
-{
-"id": "Rototo",
-"type": "0x5e32",
-"src": "candyLand",
-"category": "enemy",
-"sub": "regular",
-"why": "src",
-"file": "enemies/regular/Rototo__5e32.png"
-},
-{
-"id": "Candyland Spawner",
-"type": "0x5e31",
-"src": "candyLand",
-"category": "prop",
-"sub": "candyLand",
-"why": "src",
-"file": "props/all/Candyland Spawner__5e31.png"
 },
 {
 "id": "Butterfly",
@@ -420,6 +429,15 @@
 "sub": "heavy",
 "why": "loot",
 "file": "loot/armor/Candy-Coated Armor__c61.png"
+},
+{
+"id": "Bubblegum Bucket",
+"type": "0x1443",
+"src": "equip",
+"category": "ability",
+"sub": "all",
+"why": "loot",
+"file": "loot/ability/Bubblegum Bucket__1443.png"
 },
 {
 "id": "Candy Water",

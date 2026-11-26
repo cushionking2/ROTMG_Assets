@@ -4,14 +4,14 @@
 "forestMaze"
 ],
 "counts": {
-"enemies": 6,
-"props": 17,
+"enemies": 12,
+"props": 34,
 "projectiles": 5,
 "loot": 2,
 "tiles": 6
 },
 "why": {
-"src": 23,
+"src": 46,
 "proj": 5,
 "loot": 2,
 "tile": 6
@@ -20,15 +20,51 @@
 "grass": 5,
 "dirt": 1
 },
-"names_in_own_files": [
+"names_in_own_files": [],
+"names_in_other_files": [
+[
 "Forest Goblin",
-"Forest Goblin Mage",
-"Armored Squirrel",
-"Mini Megamoth",
-"Ultimate Squirrel",
-"Mama Megamoth"
+[
+"forestMaze",
+"forestMaze_2"
+]
 ],
-"names_in_other_files": [],
+[
+"Forest Goblin Mage",
+[
+"forestMaze",
+"forestMaze_2"
+]
+],
+[
+"Armored Squirrel",
+[
+"forestMaze",
+"forestMaze_2"
+]
+],
+[
+"Mini Megamoth",
+[
+"forestMaze",
+"forestMaze_2"
+]
+],
+[
+"Ultimate Squirrel",
+[
+"forestMaze",
+"forestMaze_2"
+]
+],
+[
+"Mama Megamoth",
+[
+"forestMaze",
+"forestMaze_2"
+]
+]
+],
 "names_not_found": [],
 "entries": [
 {
@@ -86,157 +122,364 @@
 "file": "enemies/regular/Forest Goblin__5e4c.png"
 },
 {
-"id": "Forrest Shady Floor",
+"id": "Retro Forrest Shady Floor",
 "type": "0x5e5f",
 "src": "forestMaze",
 "category": "prop",
 "sub": "forestMaze",
 "why": "src",
-"file": "props/all/Forrest Shady Floor__5e5f.png"
+"file": "props/all/Retro Forrest Shady Floor__5e5f.png"
 },
 {
-"id": "Forrest Shady Corner DL",
+"id": "Retro Forrest Shady Corner DL",
 "type": "0x5e5e",
 "src": "forestMaze",
 "category": "prop",
 "sub": "forestMaze",
 "why": "src",
-"file": "props/all/Forrest Shady Corner DL__5e5e.png"
+"file": "props/all/Retro Forrest Shady Corner DL__5e5e.png"
 },
 {
-"id": "Forrest Shady Corner DR",
+"id": "Retro Forrest Shady Corner DR",
 "type": "0x5e5d",
 "src": "forestMaze",
 "category": "prop",
 "sub": "forestMaze",
 "why": "src",
-"file": "props/all/Forrest Shady Corner DR__5e5d.png"
+"file": "props/all/Retro Forrest Shady Corner DR__5e5d.png"
 },
 {
-"id": "Forrest Shady Corner UL",
+"id": "Retro Forrest Shady Corner UL",
 "type": "0x5e5c",
 "src": "forestMaze",
 "category": "prop",
 "sub": "forestMaze",
 "why": "src",
-"file": "props/all/Forrest Shady Corner UL__5e5c.png"
+"file": "props/all/Retro Forrest Shady Corner UL__5e5c.png"
 },
 {
-"id": "Forrest Shady Corner UR",
+"id": "Retro Forrest Shady Corner UR",
 "type": "0x5e5b",
 "src": "forestMaze",
 "category": "prop",
 "sub": "forestMaze",
 "why": "src",
-"file": "props/all/Forrest Shady Corner UR__5e5b.png"
+"file": "props/all/Retro Forrest Shady Corner UR__5e5b.png"
 },
 {
-"id": "Forrest Shady OCorner DL",
+"id": "Retro Forrest Shady OCorner DL",
 "type": "0x5e5a",
 "src": "forestMaze",
 "category": "prop",
 "sub": "forestMaze",
 "why": "src",
-"file": "props/all/Forrest Shady OCorner DL__5e5a.png"
+"file": "props/all/Retro Forrest Shady OCorner DL__5e5a.png"
 },
 {
-"id": "Forrest Shady OCorner DR",
+"id": "Retro Forrest Shady OCorner DR",
 "type": "0x5e59",
 "src": "forestMaze",
 "category": "prop",
 "sub": "forestMaze",
 "why": "src",
-"file": "props/all/Forrest Shady OCorner DR__5e59.png"
+"file": "props/all/Retro Forrest Shady OCorner DR__5e59.png"
 },
 {
-"id": "Forrest Shady OCorner UL",
+"id": "Retro Forrest Shady OCorner UL",
 "type": "0x5e58",
 "src": "forestMaze",
 "category": "prop",
 "sub": "forestMaze",
 "why": "src",
-"file": "props/all/Forrest Shady OCorner UL__5e58.png"
+"file": "props/all/Retro Forrest Shady OCorner UL__5e58.png"
 },
 {
-"id": "Forrest Shady OCorner UR",
+"id": "Retro Forrest Shady OCorner UR",
 "type": "0x5e57",
 "src": "forestMaze",
 "category": "prop",
 "sub": "forestMaze",
 "why": "src",
-"file": "props/all/Forrest Shady OCorner UR__5e57.png"
+"file": "props/all/Retro Forrest Shady OCorner UR__5e57.png"
 },
 {
-"id": "Forrest Shady Edge UP",
+"id": "Retro Forrest Shady Edge UP",
 "type": "0x5e56",
 "src": "forestMaze",
 "category": "prop",
 "sub": "forestMaze",
 "why": "src",
-"file": "props/all/Forrest Shady Edge UP__5e56.png"
+"file": "props/all/Retro Forrest Shady Edge UP__5e56.png"
 },
 {
-"id": "Forrest Shady Edge DN",
+"id": "Retro Forrest Shady Edge DN",
 "type": "0x5e55",
 "src": "forestMaze",
 "category": "prop",
 "sub": "forestMaze",
 "why": "src",
-"file": "props/all/Forrest Shady Edge DN__5e55.png"
+"file": "props/all/Retro Forrest Shady Edge DN__5e55.png"
 },
 {
-"id": "Forrest Shady Edge LF",
+"id": "Retro Forrest Shady Edge LF",
 "type": "0x5e54",
 "src": "forestMaze",
 "category": "prop",
 "sub": "forestMaze",
 "why": "src",
-"file": "props/all/Forrest Shady Edge LF__5e54.png"
+"file": "props/all/Retro Forrest Shady Edge LF__5e54.png"
 },
 {
-"id": "Forrest Shady Edge RT",
+"id": "Retro Forrest Shady Edge RT",
 "type": "0x5e53",
 "src": "forestMaze",
 "category": "prop",
 "sub": "forestMaze",
 "why": "src",
-"file": "props/all/Forrest Shady Edge RT__5e53.png"
+"file": "props/all/Retro Forrest Shady Edge RT__5e53.png"
 },
 {
-"id": "Forrest Shady Floor DR",
+"id": "Retro Forrest Shady Floor DR",
 "type": "0x5e52",
 "src": "forestMaze",
 "category": "prop",
 "sub": "forestMaze",
 "why": "src",
-"file": "props/all/Forrest Shady Floor DR__5e52.png"
+"file": "props/all/Retro Forrest Shady Floor DR__5e52.png"
 },
 {
-"id": "Forrest Shady Floor DL",
+"id": "Retro Forrest Shady Floor DL",
 "type": "0x5e51",
 "src": "forestMaze",
 "category": "prop",
 "sub": "forestMaze",
 "why": "src",
-"file": "props/all/Forrest Shady Floor DL__5e51.png"
+"file": "props/all/Retro Forrest Shady Floor DL__5e51.png"
 },
 {
-"id": "Forrest Shady Floor UR",
+"id": "Retro Forrest Shady Floor UR",
 "type": "0x5e50",
 "src": "forestMaze",
 "category": "prop",
 "sub": "forestMaze",
 "why": "src",
-"file": "props/all/Forrest Shady Floor UR__5e50.png"
+"file": "props/all/Retro Forrest Shady Floor UR__5e50.png"
 },
 {
-"id": "Forrest Shady Floor UL",
+"id": "Retro Forrest Shady Floor UL",
 "type": "0x5e4f",
 "src": "forestMaze",
 "category": "prop",
 "sub": "forestMaze",
 "why": "src",
-"file": "props/all/Forrest Shady Floor UL__5e4f.png"
+"file": "props/all/Retro Forrest Shady Floor UL__5e4f.png"
+},
+{
+"id": "Retro Mama Megamoth",
+"type": "0x3E12",
+"src": "forestMaze",
+"category": "enemy",
+"sub": "boss",
+"why": "src",
+"file": "enemies/boss/Retro Mama Megamoth__3E12.png"
+},
+{
+"id": "Retro Mini Megamoth",
+"type": "0x3E13",
+"src": "forestMaze",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Retro Mini Megamoth__3E13.png"
+},
+{
+"id": "Retro Armored Squirrel",
+"type": "0x3E14",
+"src": "forestMaze",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Retro Armored Squirrel__3E14.png"
+},
+{
+"id": "Retro Ultimate Squirrel",
+"type": "0x3E15",
+"src": "forestMaze",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Retro Ultimate Squirrel__3E15.png"
+},
+{
+"id": "Retro Forest Goblin Mage",
+"type": "0x3E16",
+"src": "forestMaze",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Retro Forest Goblin Mage__3E16.png"
+},
+{
+"id": "Retro Forest Goblin",
+"type": "0x3E17",
+"src": "forestMaze",
+"category": "enemy",
+"sub": "regular",
+"why": "src",
+"file": "enemies/regular/Retro Forest Goblin__3E17.png"
+},
+{
+"id": "Forrest Shady Floor",
+"type": "0x3E18",
+"src": "forestMaze",
+"category": "prop",
+"sub": "forestMaze",
+"why": "src",
+"file": "props/all/Forrest Shady Floor__3E18.png"
+},
+{
+"id": "Forrest Shady Corner DL",
+"type": "0x3E19",
+"src": "forestMaze",
+"category": "prop",
+"sub": "forestMaze",
+"why": "src",
+"file": "props/all/Forrest Shady Corner DL__3E19.png"
+},
+{
+"id": "Forrest Shady Corner DR",
+"type": "0x3E1A",
+"src": "forestMaze",
+"category": "prop",
+"sub": "forestMaze",
+"why": "src",
+"file": "props/all/Forrest Shady Corner DR__3E1A.png"
+},
+{
+"id": "Forrest Shady Corner UL",
+"type": "0x3E1B",
+"src": "forestMaze",
+"category": "prop",
+"sub": "forestMaze",
+"why": "src",
+"file": "props/all/Forrest Shady Corner UL__3E1B.png"
+},
+{
+"id": "Forrest Shady Corner UR",
+"type": "0x3E1C",
+"src": "forestMaze",
+"category": "prop",
+"sub": "forestMaze",
+"why": "src",
+"file": "props/all/Forrest Shady Corner UR__3E1C.png"
+},
+{
+"id": "Forrest Shady OCorner DL",
+"type": "0x3E1D",
+"src": "forestMaze",
+"category": "prop",
+"sub": "forestMaze",
+"why": "src",
+"file": "props/all/Forrest Shady OCorner DL__3E1D.png"
+},
+{
+"id": "Forrest Shady OCorner DR",
+"type": "0x3E1E",
+"src": "forestMaze",
+"category": "prop",
+"sub": "forestMaze",
+"why": "src",
+"file": "props/all/Forrest Shady OCorner DR__3E1E.png"
+},
+{
+"id": "Forrest Shady OCorner UL",
+"type": "0x3E1F",
+"src": "forestMaze",
+"category": "prop",
+"sub": "forestMaze",
+"why": "src",
+"file": "props/all/Forrest Shady OCorner UL__3E1F.png"
+},
+{
+"id": "Forrest Shady OCorner UR",
+"type": "0x3E20",
+"src": "forestMaze",
+"category": "prop",
+"sub": "forestMaze",
+"why": "src",
+"file": "props/all/Forrest Shady OCorner UR__3E20.png"
+},
+{
+"id": "Forrest Shady Edge UP",
+"type": "0x3E21",
+"src": "forestMaze",
+"category": "prop",
+"sub": "forestMaze",
+"why": "src",
+"file": "props/all/Forrest Shady Edge UP__3E21.png"
+},
+{
+"id": "Forrest Shady Edge DN",
+"type": "0x3E22",
+"src": "forestMaze",
+"category": "prop",
+"sub": "forestMaze",
+"why": "src",
+"file": "props/all/Forrest Shady Edge DN__3E22.png"
+},
+{
+"id": "Forrest Shady Edge LF",
+"type": "0x3E23",
+"src": "forestMaze",
+"category": "prop",
+"sub": "forestMaze",
+"why": "src",
+"file": "props/all/Forrest Shady Edge LF__3E23.png"
+},
+{
+"id": "Forrest Shady Edge RT",
+"type": "0x3E24",
+"src": "forestMaze",
+"category": "prop",
+"sub": "forestMaze",
+"why": "src",
+"file": "props/all/Forrest Shady Edge RT__3E24.png"
+},
+{
+"id": "Forrest Shady Floor DR",
+"type": "0x3E25",
+"src": "forestMaze",
+"category": "prop",
+"sub": "forestMaze",
+"why": "src",
+"file": "props/all/Forrest Shady Floor DR__3E25.png"
+},
+{
+"id": "Forrest Shady Floor DL",
+"type": "0x3E26",
+"src": "forestMaze",
+"category": "prop",
+"sub": "forestMaze",
+"why": "src",
+"file": "props/all/Forrest Shady Floor DL__3E26.png"
+},
+{
+"id": "Forrest Shady Floor UR",
+"type": "0x3E27",
+"src": "forestMaze",
+"category": "prop",
+"sub": "forestMaze",
+"why": "src",
+"file": "props/all/Forrest Shady Floor UR__3E27.png"
+},
+{
+"id": "Forrest Shady Floor UL",
+"type": "0x3E28",
+"src": "forestMaze",
+"category": "prop",
+"sub": "forestMaze",
+"why": "src",
+"file": "props/all/Forrest Shady Floor UL__3E28.png"
 },
 {
 "id": "Moth Dust",
